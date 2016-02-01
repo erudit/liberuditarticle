@@ -1,6 +1,2 @@
 tox
 flake8
-
-# Use erudit's eulxml and eulfedora Python 3 ports
--e git+https://github.com/erudit/eulxml.git@python3-support#egg=eulxml
--e git+https://github.com/erudit/eulfedora.git@python3-support#egg=eulfedora
