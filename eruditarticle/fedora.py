@@ -1,16 +1,21 @@
 # -*- coding: utf-8 -*-
 
 from eulfedora import models
+from eulfedora.rdfns import oai as oains
 from eulxml.xmlmap import XmlObject
 
 
+MODEL_PID_PREFIX = 'info:fedora/erudit-model:'
+
+
 class JournalDigitalObject(models.DigitalObject):
-    CONTENT_MODELS = ['info:fedora/erudit-model:seriesCModel', ]
+    CONTENT_MODELS = [MODEL_PID_PREFIX + 'seriesCModel', ]
     publications = models.XmlDatastream('PUBLICATIONS', 'Publications', XmlObject)
+    name = models.Relation(oains.setName)
 
 
 class PublicationDigitalObject(models.DigitalObject):
-    CONTENT_MODELS = ['info:fedora/erudit-model:publicationCModel', ]
+    CONTENT_MODELS = [MODEL_PID_PREFIX + 'publicationCModel', ]
     publication = models.XmlDatastream('PUBLICATION', 'Publication', XmlObject)
     summary = models.XmlDatastream('SUMMARY', 'Summary', XmlObject)
     coverpage = models.FileDatastream(
@@ -19,7 +24,7 @@ class PublicationDigitalObject(models.DigitalObject):
 
 
 class ArticleDigitalObject(models.DigitalObject):
-    CONTENT_MODELS = ['info:fedora/erudit-model:unitCModel', ]
+    CONTENT_MODELS = [MODEL_PID_PREFIX + 'unitCModel', ]
     erudit_xsd300 = models.XmlDatastream('ERUDITXSD300', 'Erudit XSD300', XmlObject)
     unit = models.XmlDatastream('UNIT', 'Unit', XmlObject)
     pdf = models.FileDatastream('PDF', 'PDF', defaults={'mimetype': 'application/pdf', })
