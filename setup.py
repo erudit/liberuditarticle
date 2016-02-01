@@ -4,6 +4,8 @@ from os.path import join
 from setuptools import find_packages
 from setuptools import setup
 
+import eruditarticle
+
 
 def read_relative_file(filename):
     """
@@ -16,7 +18,7 @@ def read_relative_file(filename):
 
 setup(
     name='liberuditarticle',
-    version=read_relative_file('VERSION').strip(),
+    version=eruditarticle.__version__,
     author='Erudit',
     author_email='info@erudit.org',
     packages=find_packages(),
@@ -29,10 +31,6 @@ setup(
     install_requires=[
         'eulxml',
         'eulfedora',
-    ],
-    dependency_links=[
-        'git+ssh://git@github.com/erudit/eulxml.git@python3-support#egg=eulxml',
-        'git+ssh://git@github.com/erudit/eulfedora.git@python3-support#egg=eulfedora',
     ],
     classifiers=[
         'Development Status :: 1 - Planning',
