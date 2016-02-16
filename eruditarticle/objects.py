@@ -9,21 +9,34 @@ class EruditJournal(EruditBaseObject):
 
 
 class EruditPublication(EruditBaseObject):
-    # TODO
-    pass
+    def get_article_count(self):
+        """ Returns the number of articles of the publication object. """
+        return int(self.get_text('nbarticle'))
+
+    def get_number(self):
+        """ Returns the number of the publication object. """
+        return self.get_text('nonumero')
+
+    def get_theme(self):
+        """ Returns the theme of the publication object. """
+        return self.get_text('theme')
+
+    article_count = property(get_article_count)
+    number = property(get_number)
+    theme = property(get_theme)
 
 
 class EruditArticle(EruditBaseObject):
     def get_title(self):
-        """Returns the title of the article object."""
+        """ Returns the title of the article object. """
         return self.get_text('titre')
 
     def get_subtitle(self):
-        """Returns the subtitle of the article object."""
+        """ Returns the subtitle of the article object. """
         return self.get_text('sstitre')
 
     def get_full_title(self):
-        """Returns the full title of the article object."""
+        """ Returns the full title of the article object. """
         title = self.title
         subtitle = self.subtitle
 
