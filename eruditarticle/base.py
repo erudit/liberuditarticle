@@ -49,24 +49,26 @@ class EruditBaseObject(object):
 
         return result
 
-    def find(self, tag_name):
+    def find(self, tag_name, dom=None):
         """Find an element in the tree."""
-        return self._dom.find('.//{}'.format(tag_name))
+        dom = dom if dom is not None else self._dom
+        return dom.find('.//{}'.format(tag_name))
 
-    def findall(self, tag_name):
+    def findall(self, tag_name, dom=None):
         """Find elements in the tree."""
-        return self._dom.findall('.//{}'.format(tag_name))
+        dom = dom if dom is not None else self._dom
+        return dom.findall('.//{}'.format(tag_name))
 
-    def get_text(self, tag_name):
+    def get_text(self, tag_name, dom=None):
         """Returns the text associated with the considered tag."""
-        result = self.find(tag_name)
+        result = self.find(tag_name, dom=dom)
         return result.text if result is not None else None
 
-    def get_text_from_tags(self, tag_names):
+    def get_text_from_tags(self, tag_names, dom=None):
         """Returns the first text value associated with a list of potential tags."""
         text = None
         for tname in tag_names:
-            text = self.get_text(tname)
+            text = self.get_text(tname, dom=dom)
             if text:
                 break
         return text
