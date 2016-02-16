@@ -4,7 +4,7 @@ from .base import EruditBaseObject
 
 
 class EruditJournal(EruditBaseObject):
-    def __init__(self):
+    def __init__(self, *args, **kwargs):
         # TODO
         pass
 
