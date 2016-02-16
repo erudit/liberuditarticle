@@ -28,6 +28,10 @@ class EruditPublication(EruditBaseObject):
 
 
 class EruditArticle(EruditBaseObject):
+    def get_doi(self):
+        """ Returns the DOI of the article object. """
+        return self.get_text('idpublic[@scheme="doi"]')
+
     def get_title(self):
         """ Returns the title of the article object. """
         return self.get_text('titre')
@@ -47,6 +51,7 @@ class EruditArticle(EruditBaseObject):
             return title
         return None
 
+    doi = property(get_doi)
     title = property(get_title)
     subtitle = property(get_subtitle)
     full_title = property(get_full_title)
