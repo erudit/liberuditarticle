@@ -1,12 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from __future__ import unicode_literals
-
-
-class EruditBaseObject(object):
-    def __init__(self, *args, **kwargs):
-        # TODO
-        pass
+from .base import EruditBaseObject
 
 
 class EruditJournal(EruditBaseObject):
@@ -20,5 +14,25 @@ class EruditPublication(EruditBaseObject):
 
 
 class EruditArticle(EruditBaseObject):
-    # TODO
-    pass
+    def get_title(self):
+        """Returns the title of the article object."""
+        return self.get_text('titre')
+
+    def get_subtitle(self):
+        """Returns the subtitle of the article object."""
+        return self.get_text('sstitre')
+
+    def get_full_title(self):
+        """Returns the full title of the article object."""
+        title = self.title
+        subtitle = self.subtitle
+
+        if title and subtitle:
+            return '{0} - {1}'.format(title, subtitle)
+        elif title:
+            return title
+        return None
+
+    title = property(get_title)
+    subtitle = property(get_subtitle)
+    full_title = property(get_full_title)
