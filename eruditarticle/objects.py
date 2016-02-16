@@ -4,8 +4,9 @@ from .base import EruditBaseObject
 
 
 class EruditJournal(EruditBaseObject):
-    # TODO
-    pass
+    def __init__(self):
+        # TODO
+        pass
 
 
 class EruditPublication(EruditBaseObject):
