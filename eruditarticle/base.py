@@ -42,6 +42,11 @@ class EruditBaseObject(object):
         dom = dom if dom is not None else self._dom
         return dom.findall('.//{}'.format(tag_name))
 
+    def get_nodes(self, dom=None):
+        """ Returns all the elements under the current root. """
+        dom = dom if dom is not None else self._dom
+        return dom.xpath('child::node()')
+
     def get_text(self, tag_name, dom=None):
         """ Returns the text associated with the considered tag. """
         result = self.find(tag_name, dom=dom)
