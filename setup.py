@@ -29,6 +29,7 @@ setup(
     long_description=read_relative_file('README.md'),
     zip_safe=False,
     install_requires=[
+        'six',
     ],
     classifiers=[
         'Development Status :: 1 - Planning',
