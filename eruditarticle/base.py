@@ -60,3 +60,31 @@ class EruditBaseObject(object):
             if text:
                 break
         return text
+
+    def get_persons(self, tag_name, dom=None):
+        """ Returns the persons for the considered tag name.
+
+        The persons are returned as a list of dictionaries of the form:
+
+            [
+                {
+                   'firstname': 'Foo',
+                   'lastname': 'Bar',
+                   'othername': 'Dummy',
+                   'affiliations': ['TEST1', 'TEST2']
+                   'email': 'foo.bar@example.com',
+                },
+            ]
+        """
+        persons = []
+        for tree_author in self.findall(tag_name):
+            persons.append({
+                'firstname': self.get_text('prenom', dom=tree_author),
+                'lastname': self.get_text('nomfamille', dom=tree_author),
+                'othername': self.get_text('autreprenom', dom=tree_author),
+                'affiliations': [
+                    self.get_text('alinea', dom=affiliation_dom)
+                    for affiliation_dom in self.findall('affiliation', dom=tree_author)],
+                'email': self.get_text('courriel/liensimple', dom=tree_author),
+            })
+        return persons
