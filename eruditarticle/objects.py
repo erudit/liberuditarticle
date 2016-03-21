@@ -4,9 +4,20 @@ from .base import EruditBaseObject
 
 
 class EruditJournal(EruditBaseObject):
-    def __init__(self, *args, **kwargs):
-        # TODO
-        pass
+    def get_publication_period(self):
+        """ Returns the publication period of the journal object. """
+        pubyears = []
+        for tree_year in self.findall('annee'):
+            pubyears.append(int(tree_year.get('valeur')))
+        pubyears = sorted(pubyears)
+
+        years_count = len(pubyears)
+        if years_count > 1:
+            return '{} - {}'.format(pubyears[0], pubyears[-1])
+        elif years_count:
+            return pubyears[0]
+
+    publication_period = property(get_publication_period)
 
 
 class EruditPublication(EruditBaseObject):
