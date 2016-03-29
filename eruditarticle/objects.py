@@ -52,14 +52,6 @@ class EruditArticle(EruditBaseObject):
         """ Returns the DOI of the article object. """
         return self.get_text('idpublic[@scheme="doi"]')
 
-    def get_title(self):
-        """ Returns the title of the article object. """
-        return self.get_text('titre')
-
-    def get_subtitle(self):
-        """ Returns the subtitle of the article object. """
-        return self.get_text('sstitre')
-
     def get_full_title(self):
         """ Returns the full title of the article object. """
         title = self.title
@@ -71,8 +63,21 @@ class EruditArticle(EruditBaseObject):
             return title
         return None
 
+    def get_processing(self):
+        """ Returns the processing type of the article object. """
+        return self._root.get('qualtraitement')
+
+    def get_subtitle(self):
+        """ Returns the subtitle of the article object. """
+        return self.get_text('sstitre')
+
+    def get_title(self):
+        """ Returns the title of the article object. """
+        return self.get_text('titre')
+
     authors = property(get_authors)
     doi = property(get_doi)
-    title = property(get_title)
+    processing = property(get_processing)
     subtitle = property(get_subtitle)
     full_title = property(get_full_title)
+    title = property(get_title)
