@@ -67,6 +67,10 @@ class EruditArticle(EruditBaseObject):
             return title
         return None
 
+    def get_lang(self):
+        """ Returns the language of the article object. """
+        return self._root.get('lang')
+
     def get_last_page(self):
         """ Returns the last page of the article object. """
         return self.get_text('infoarticle//pagination//dpage')
@@ -87,6 +91,7 @@ class EruditArticle(EruditBaseObject):
     doi = property(get_doi)
     first_page = property(get_first_page)
     full_title = property(get_full_title)
+    lang = property(get_lang)
     last_page = property(get_last_page)
     processing = property(get_processing)
     subtitle = property(get_subtitle)
