@@ -47,7 +47,7 @@ class EruditArticle(EruditBaseObject):
     def get_abstracts(self):
         """ Returns the abstracts of the article object.
 
-        The abstracts are returns as list of dictionaries of the form:
+        The abstracts are returned as list of dictionaries of the form:
 
             {
                 'lang': 'fr',
@@ -85,6 +85,24 @@ class EruditArticle(EruditBaseObject):
             return title
         return None
 
+    def get_keywords(self):
+        """ Returns the keywords of the article object.
+
+        The keywords are returned as a list of dictionaries of the form:
+
+            {
+                'lang': 'fr',
+                'keywords': ['foo', 'bar', ],
+            }
+        """
+        keywords = []
+        for tree_keywords in self.findall('grmotcle'):
+            keywords.append({
+                'lang': tree_keywords.get('lang'),
+                'keywords': [n.text for n in tree_keywords.findall('motcle')],
+            })
+        return keywords
+
     def get_lang(self):
         """ Returns the language of the article object. """
         return self._root.get('lang')
@@ -114,6 +132,7 @@ class EruditArticle(EruditBaseObject):
     doi = property(get_doi)
     first_page = property(get_first_page)
     full_title = property(get_full_title)
+    keywords = property(get_keywords)
     lang = property(get_lang)
     last_page = property(get_last_page)
     processing = property(get_processing)
