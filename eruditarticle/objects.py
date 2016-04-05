@@ -119,6 +119,10 @@ class EruditArticle(EruditBaseObject):
         """ Returns the processing type of the article object. """
         return self._root.get('qualtraitement')
 
+    def get_publication_year(self):
+        """ Returns the year of publication of the article object. """
+        return self.get_text('numero//pub//annee')
+
     def get_publisher(self):
         """ Returns the publisher of the article object. """
         return self.get_text('editeur//nomorg')
@@ -141,6 +145,7 @@ class EruditArticle(EruditBaseObject):
     lang = property(get_lang)
     last_page = property(get_last_page)
     processing = property(get_processing)
+    publication_year = property(get_publication_year)
     publisher = property(get_publisher)
     subtitle = property(get_subtitle)
     title = property(get_title)
