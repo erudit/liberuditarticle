@@ -44,6 +44,24 @@ class EruditPublication(EruditBaseObject):
 
 
 class EruditArticle(EruditBaseObject):
+    def get_abstracts(self):
+        """ Returns the abstracts of the article object.
+
+        The abstracts are returns as list of dictionaries of the form:
+
+            {
+                'lang': 'fr',
+                'resume': 'Content',
+            }
+        """
+        abstracts = []
+        for tree_abstract in self.findall('resume[@typeresume="resume"]'):
+            abstracts.append({
+                'lang': tree_abstract.get('lang'),
+                'content': self.stringify_children(tree_abstract),
+            })
+        return abstracts
+
     def get_authors(self):
         """ Returns the authors of the article object. """
         return self.get_persons('auteur')
@@ -91,6 +109,7 @@ class EruditArticle(EruditBaseObject):
         """ Returns the title of the article object. """
         return self.get_text('titre')
 
+    abstracts = property(get_abstracts)
     authors = property(get_authors)
     doi = property(get_doi)
     first_page = property(get_first_page)

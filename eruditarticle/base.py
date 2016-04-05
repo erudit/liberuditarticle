@@ -88,3 +88,7 @@ class EruditBaseObject(object):
                 'email': self.get_text('courriel/liensimple', dom=tree_author),
             })
         return persons
+
+    def stringify_children(self, node):
+        """ Returns the text embedded in a specific node by removing any tags. """
+        return ''.join([x for x in node.itertext()])
