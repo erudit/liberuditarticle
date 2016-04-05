@@ -85,6 +85,10 @@ class EruditArticle(EruditBaseObject):
             return title
         return None
 
+    def get_issn(self):
+        """ Returns the ISSN number associated with the article object. """
+        return self.get_text('revue//idissnnum')
+
     def get_keywords(self):
         """ Returns the keywords of the article object.
 
@@ -132,6 +136,7 @@ class EruditArticle(EruditBaseObject):
     doi = property(get_doi)
     first_page = property(get_first_page)
     full_title = property(get_full_title)
+    issn = property(get_issn)
     keywords = property(get_keywords)
     lang = property(get_lang)
     last_page = property(get_last_page)
