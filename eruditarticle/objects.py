@@ -52,6 +52,10 @@ class EruditArticle(EruditBaseObject):
         """ Returns the DOI of the article object. """
         return self.get_text('idpublic[@scheme="doi"]')
 
+    def get_first_page(self):
+        """ Returns the first page of the article object. """
+        return self.get_text('infoarticle//pagination//ppage')
+
     def get_full_title(self):
         """ Returns the full title of the article object. """
         title = self.title
@@ -62,6 +66,10 @@ class EruditArticle(EruditBaseObject):
         elif title:
             return title
         return None
+
+    def get_last_page(self):
+        """ Returns the last page of the article object. """
+        return self.get_text('infoarticle//pagination//dpage')
 
     def get_processing(self):
         """ Returns the processing type of the article object. """
@@ -77,7 +85,9 @@ class EruditArticle(EruditBaseObject):
 
     authors = property(get_authors)
     doi = property(get_doi)
+    first_page = property(get_first_page)
+    full_title = property(get_full_title)
+    last_page = property(get_last_page)
     processing = property(get_processing)
     subtitle = property(get_subtitle)
-    full_title = property(get_full_title)
     title = property(get_title)
