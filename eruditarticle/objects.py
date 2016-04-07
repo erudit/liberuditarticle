@@ -29,6 +29,12 @@ class EruditPublication(EruditBaseObject):
         """ Returns the authors of the publication object. """
         return self.get_persons('directeur')
 
+    def get_publication_period(self):
+        """ Returns the publication period of the publication object. """
+        year = self.get_text('numero//pub//annee')
+        period = self.get_text('numero//pub//periode')
+        return ' '.join([period, year]) if period else year
+
     def get_number(self):
         """ Returns the number of the publication object. """
         return self.get_text('nonumero')
@@ -40,6 +46,7 @@ class EruditPublication(EruditBaseObject):
     article_count = property(get_article_count)
     directors = property(get_directors)
     number = property(get_number)
+    publication_period = property(get_publication_period)
     theme = property(get_theme)
 
 
