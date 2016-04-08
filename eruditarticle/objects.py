@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+import itertools
+
 from .base import EruditBaseObject
 
 
@@ -39,6 +41,13 @@ class EruditPublication(EruditBaseObject):
         """ Returns the number of the publication object. """
         return self.get_text('nonumero')
 
+    def get_section_titles(self):
+        """ Returns an ordered list of section titles of the publication object. """
+        section_titles = []
+        for tree_section in self.findall('article//liminaire//grtitre//surtitre'):
+            section_titles.append(tree_section.text)
+        return [t for t, _ in itertools.groupby(section_titles)]
+
     def get_theme(self):
         """ Returns the theme of the publication object. """
         return self.get_text('theme')
@@ -47,6 +56,7 @@ class EruditPublication(EruditBaseObject):
     directors = property(get_directors)
     number = property(get_number)
     publication_period = property(get_publication_period)
+    section_titles = property(get_section_titles)
     theme = property(get_theme)
 
 
@@ -134,6 +144,10 @@ class EruditArticle(EruditBaseObject):
         """ Returns the publisher of the article object. """
         return self.get_text('editeur//nomorg')
 
+    def get_section_title(self):
+        """ Returns the section title of the article object. """
+        return self.get_text('liminaire//grtitre//surtitre')
+
     def get_subtitle(self):
         """ Returns the subtitle of the article object. """
         return self.get_text('sstitre')
@@ -154,5 +168,6 @@ class EruditArticle(EruditBaseObject):
     processing = property(get_processing)
     publication_year = property(get_publication_year)
     publisher = property(get_publisher)
+    section_title = property(get_section_title)
     subtitle = property(get_subtitle)
     title = property(get_title)
