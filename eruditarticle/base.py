@@ -108,4 +108,5 @@ class EruditBaseObject(object):
                 node.tag, 'caracunicode', 'citation', 'equationligne', 'exposant', 'indice',
                 'liensimple', 'marquepage', 'objetmedia', 'renvoi',
             ])
-        return self.stringify_children(_node.getroot())
+        _html = et.tostring(_node.getroot())
+        return _html.split(b'>', 1)[1].rsplit(b'<', 1)[0]
