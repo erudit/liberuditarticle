@@ -99,7 +99,6 @@ class EruditBaseObject(object):
         # Converts <marquage> tags to HTML
         _node = xslt.marquage_to_html(node)
         # Strip all other tags but keep text
-        print(node.tag)
         et.strip_tags(
             _node,
             *[
