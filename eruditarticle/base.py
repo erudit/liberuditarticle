@@ -92,7 +92,10 @@ class EruditBaseObject(object):
 
     def stringify_children(self, node):
         """ Returns the text embedded in a specific node by removing any tags. """
-        return ''.join([x for x in node.itertext()])
+        try:
+            return ''.join([x for x in node.itertext()])
+        except AttributeError:
+            return
 
     def convert_marquage_content_to_html(self, node):
         """ Converts <marquage> tags to HTML using a specific node. """
