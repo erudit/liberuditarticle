@@ -6,7 +6,7 @@ import io
 import lxml.etree as et
 
 
-xslt = '''<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+drop_namespace_xslt = '''<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="xml" indent="no"/>
 
 <xsl:template match="/|comment()|processing-instruction()">
@@ -31,9 +31,7 @@ xslt = '''<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Tr
 
 
 def remove_xml_namespaces(treedom):
-    """
-    Given an lxml tree object, remove all XML namespaces.
-    """
-    xslt_doc = et.parse(io.StringIO(xslt))
+    """ Given an lxml tree object, remove all XML namespaces. """
+    xslt_doc = et.parse(io.StringIO(drop_namespace_xslt))
     transform = et.XSLT(xslt_doc)
     return transform(treedom)

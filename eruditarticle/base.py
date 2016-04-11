@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 import lxml.etree as et
 import six
 
+from . import xslt
 from .utils import remove_xml_namespaces
 
 
@@ -92,3 +93,17 @@ class EruditBaseObject(object):
     def stringify_children(self, node):
         """ Returns the text embedded in a specific node by removing any tags. """
         return ''.join([x for x in node.itertext()])
+
+    def convert_marquage_content_to_html(self, node):
+        """ Converts <marquage> tags to HTML using a specific node. """
+        # Converts <marquage> tags to HTML
+        _node = xslt.marquage_to_html(node)
+        # Strip all other tags but keep text
+        print(node.tag)
+        et.strip_tags(
+            _node,
+            *[
+                node.tag, 'caracunicode', 'citation', 'equationligne', 'exposant', 'indice',
+                'liensimple', 'marquepage', 'objetmedia', 'renvoi',
+            ])
+        return self.stringify_children(_node.getroot())

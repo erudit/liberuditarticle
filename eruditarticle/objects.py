@@ -45,6 +45,10 @@ class EruditPublication(EruditBaseObject):
 
         return first_page
 
+    def get_html_theme(self):
+        """ Returns the theme of the publication object with HTML tags. """
+        return self.convert_marquage_content_to_html(self.find('theme'))
+
     def get_last_page(self):
         """ Returns the last page of the publication object. """
         articles = self.findall('article')
@@ -78,11 +82,12 @@ class EruditPublication(EruditBaseObject):
 
     def get_theme(self):
         """ Returns the theme of the publication object. """
-        return self.get_text('theme')
+        return self.stringify_children(self.find('theme'))
 
     article_count = property(get_article_count)
     directors = property(get_directors)
     first_page = property(get_first_page)
+    html_theme = property(get_html_theme)
     last_page = property(get_last_page)
     number = property(get_number)
     publication_period = property(get_publication_period)
@@ -176,15 +181,15 @@ class EruditArticle(EruditBaseObject):
 
     def get_section_title(self):
         """ Returns the section title of the article object. """
-        return self.get_text('liminaire//grtitre//surtitre')
+        return self.stringify_children(self.find('liminaire//grtitre//surtitre'))
 
     def get_subtitle(self):
         """ Returns the subtitle of the article object. """
-        return self.get_text('sstitre')
+        return self.stringify_children(self.find('sstitre'))
 
     def get_title(self):
         """ Returns the title of the article object. """
-        return self.get_text('titre')
+        return self.stringify_children(self.find('titre'))
 
     abstracts = property(get_abstracts)
     authors = property(get_authors)
