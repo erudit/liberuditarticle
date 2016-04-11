@@ -31,15 +31,43 @@ class EruditPublication(EruditBaseObject):
         """ Returns the authors of the publication object. """
         return self.get_persons('directeur')
 
+    def get_first_page(self):
+        """ Returns the first page of the publication object. """
+        articles = self.findall('article')
+        if not len(articles):
+            return
+
+        first_article = articles[0]
+        try:
+            first_page = first_article.find('pagination//ppage').text
+        except AttributeError:
+            first_page = None
+
+        return first_page
+
+    def get_last_page(self):
+        """ Returns the last page of the publication object. """
+        articles = self.findall('article')
+        if not len(articles):
+            return
+
+        last_article = articles[-1]
+        try:
+            last_page = last_article.find('pagination//dpage').text
+        except AttributeError:
+            last_page = None
+
+        return last_page
+
+    def get_number(self):
+        """ Returns the number of the publication object. """
+        return self.get_text('nonumero')
+
     def get_publication_period(self):
         """ Returns the publication period of the publication object. """
         year = self.get_text('numero//pub//annee')
         period = self.get_text('numero//pub//periode')
         return ' '.join([period, year]) if period else year
-
-    def get_number(self):
-        """ Returns the number of the publication object. """
-        return self.get_text('nonumero')
 
     def get_section_titles(self):
         """ Returns an ordered list of section titles of the publication object. """
@@ -54,6 +82,8 @@ class EruditPublication(EruditBaseObject):
 
     article_count = property(get_article_count)
     directors = property(get_directors)
+    first_page = property(get_first_page)
+    last_page = property(get_last_page)
     number = property(get_number)
     publication_period = property(get_publication_period)
     section_titles = property(get_section_titles)
