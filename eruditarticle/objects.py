@@ -114,6 +114,10 @@ class EruditArticle(EruditBaseObject):
             })
         return abstracts
 
+    def get_article_type(self):
+        """ Returns the type of the article. """
+        return self._dom.getroot().get('typeart')
+
     def get_authors(self):
         """ Returns the authors of the article object. """
         return self.get_persons('auteur')
@@ -196,6 +200,7 @@ class EruditArticle(EruditBaseObject):
         return self.stringify_children(self.find('titre'))
 
     abstracts = property(get_abstracts)
+    article_type = property(get_article_type)
     authors = property(get_authors)
     doi = property(get_doi)
     first_page = property(get_first_page)
