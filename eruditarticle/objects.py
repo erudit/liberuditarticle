@@ -143,7 +143,7 @@ class EruditArticle(EruditBaseObject):
 
     def get_html_title(self):
         """ Returns the title of the article object with HTML tags. """
-        return self.convert_marquage_content_to_html(self.find('titre'))
+        return self.convert_marquage_content_to_html(self._get_title_element())
 
     def get_issn(self):
         """ Returns the ISSN number associated with the article object. """
@@ -195,9 +195,18 @@ class EruditArticle(EruditBaseObject):
         """ Returns the subtitle of the article object. """
         return self.stringify_children(self.find('sstitre'))
 
+    def _get_title_element(self):
+        """ Return the element containing the title
+
+        The title element depends on the type of the article """
+        element_name = 'titre'
+        if self.article_type == 'compterendu':
+            element_name = 'trefbiblio'
+        return self.find(element_name)
+
     def get_title(self):
         """ Returns the title of the article object. """
-        return self.stringify_children(self.find('titre'))
+        return self.stringify_children(self._get_title_element())
 
     abstracts = property(get_abstracts)
     article_type = property(get_article_type)
