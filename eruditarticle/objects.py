@@ -175,6 +175,10 @@ class EruditArticle(EruditBaseObject):
         """ Returns the last page of the article object. """
         return self.get_text('infoarticle//pagination//dpage')
 
+    def get_ordseq(self):
+        """ Returns the ordering number of the article object. """
+        return int(self._root.get('ordseq'))
+
     def get_processing(self):
         """ Returns the processing type of the article object. """
         return self._root.get('qualtraitement')
@@ -219,6 +223,7 @@ class EruditArticle(EruditBaseObject):
     keywords = property(get_keywords)
     lang = property(get_lang)
     last_page = property(get_last_page)
+    ordseq = property(get_ordseq)
     processing = property(get_processing)
     publication_year = property(get_publication_year)
     publisher = property(get_publisher)
