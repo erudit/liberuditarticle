@@ -67,6 +67,15 @@ class EruditPublication(EruditBaseObject):
         """ Returns the number of the publication object. """
         return self.get_text('nonumero')
 
+    def get_production_date(self):
+        """ Returns the production date of the publication object. """
+        originator_node = self.find('originator')
+        return originator_node.get('date') if originator_node is not None else None
+
+    def get_publication_date(self):
+        """ Returns the publication date of the publication object. """
+        return self.get_text('numero//pubnum/date')
+
     def get_publication_period(self):
         """ Returns the publication period of the publication object. """
         year = self.publication_year
@@ -98,6 +107,8 @@ class EruditPublication(EruditBaseObject):
     html_theme = property(get_html_theme)
     last_page = property(get_last_page)
     number = property(get_number)
+    production_date = property(get_production_date)
+    publication_date = property(get_publication_date)
     publication_period = property(get_publication_period)
     publication_year = property(get_publication_year)
     section_titles = property(get_section_titles)
