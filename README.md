@@ -4,7 +4,7 @@
 
 ## Supported python versions
 
-2.7.5+, 3.4+
+3.3+
 
 ## Installation
 

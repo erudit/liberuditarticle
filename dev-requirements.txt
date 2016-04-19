@@ -1,2 +1,4 @@
 tox
 flake8
+lxml
+pytest
