@@ -1,7 +1,4 @@
 language: python
-  - '3.3'
-  - '3.4'
-  - '3.5'
 sudo: false
 install:
   - pip install tox
