@@ -3,6 +3,7 @@ import pytest
 from eruditarticle.objects import EruditArticle
 from eruditarticle.tests.base import BaseTestCase
 
+
 class TestArticleSavantComplet(BaseTestCase):
 
     @pytest.fixture(autouse=True)

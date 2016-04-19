@@ -1,7 +1,7 @@
 import os
 
-class BaseTestCase(object):
 
+class BaseTestCase(object):
     def setup(self):
         """ Populates the test_objects dictionary
 
@@ -21,6 +21,6 @@ class BaseTestCase(object):
             path = "{}/{}".format(self.objects_path, filename)
 
             with open(path, 'rb') as test_xml:
-                self.test_objects[filename] =self.object_type(
+                self.test_objects[filename] = self.object_type(
                     test_xml.read()
                 )
