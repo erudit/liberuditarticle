@@ -50,6 +50,45 @@ class EruditPublication(EruditBaseObject):
         """ Return the type of this publication """
         return self.get_text('publicationtypecode')
 
+    def _find_redacteurchef(self, theme_id):
+        """ Find the redacteurchef for the given theme """
+        rc = []
+        for redacteurchef in self.get_redacteurchef():
+
+            themes = redacteurchef.get('themes')
+            if themes and theme_id in themes:
+                rc.append(redacteurchef)
+        return rc
+
+    def _find_themeparal(self, theme_tag):
+        """ Find the parallel names of the theme """
+        pn = {}
+        for theme_paral in theme_tag.findall('themeparal'):
+            pn[theme_paral.get('lang')] = theme_paral.text
+        return pn
+
+    def parse_theme(self, theme_tag):
+        """ Parse a theme tag """
+        theme = {
+            'name': self.get_text('theme', dom=theme_tag)
+        }
+
+        theme_id = theme_tag.get('id')
+
+        # theme redacteurs en chef
+        theme['redacteurchef'] = self._find_redacteurchef(theme_id)
+        theme['paral'] = self._find_themeparal(theme_tag)
+
+        return theme_id, theme
+
+    def get_themes(self):
+        """ Return the themes of this publication """
+        themes = {}
+        for theme_tag in self.findall('grtheme'):
+            theme_id, theme = self.parse_theme(theme_tag)
+            themes[theme_id] = theme
+
+        return themes
 
     def get_redacteurchef(self):
         """ Return the redacteurchef of this publication """
