@@ -45,6 +45,14 @@ class EruditPublication(EruditBaseObject):
         """ Return the digital edition note of this publication """
         notegen = self.get_itertext('notegen[@typenoteg="edito"]')
         return re.sub('^ | $', '', re.sub(' +', ' ', re.sub('\n', '', notegen)))
+
+    def get_redacteurchef(self):
+        """ Return the redacteurchef of this publication """
+        redacteurchef_tag = self.find('redacteurchef')
+        redacteurchef_parsed = self.parse_person(redacteurchef_tag)
+        redacteurchef_parsed['type'] = redacteurchef_tag.get('typerc')
+        return redacteurchef_parsed
+
     def get_droitauteurorg(self):
         """ Return the owner of the copyright for this publication """
         return self.get_text('droitsauteur/nomorg')

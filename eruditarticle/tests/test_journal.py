@@ -13,6 +13,17 @@ class TestEruditPublication(BaseTestCase):
         self.objects_path = './eruditarticle/tests/fixtures/publication'
         super().setup()
 
+    def test_redacteurchef(self):
+        redacteurchef = self.test_objects['ae1375.xml'].get_redacteurchef()
+        assert redacteurchef['firstname'] == 'Olivier'
+        assert redacteurchef['lastname'] == 'Donni'
+        assert redacteurchef['type'] == 'invite'
+
+        redacteurchef = self.test_objects['images1102374.xml'].get_redacteurchef()  # noqa
+        assert redacteurchef['firstname'] == 'Marie-Claude'
+        assert redacteurchef['lastname'] == 'Loiselle'
+        assert redacteurchef['type'] == 'regulier'
+
     def test_droitauteur(self):
         assert self.test_objects['images1102374.xml'].get_droitauteur() == "Tous droits réservés © 24 images, 2000"  # noqa
         assert self.test_objects['liberte1035607.xml'].get_droitauteur() == "Tous droits réservés © Collectif Liberté, 1993"  # noqa
