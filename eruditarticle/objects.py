@@ -31,6 +31,15 @@ class EruditPublication(EruditBaseObject):
         """ Returns the authors of the publication object. """
         return self.get_persons('directeur')
 
+    def get_droitauteur(self):
+        """ Return the full copyright notice of this publication """
+        da = self.find("droitsauteur")
+        return "".join(da.itertext())
+
+    def get_droitauteurorg(self):
+        """ Return the owner of the copyright for this publication """
+        return self.get_text('droitsauteur/nomorg')
+
     def get_first_page(self):
         """ Returns the first page of the publication object. """
         articles = self.findall('article')
