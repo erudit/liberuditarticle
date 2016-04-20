@@ -90,12 +90,21 @@ class EruditPublication(EruditBaseObject):
 
         return themes
 
-    def get_redacteurchef(self):
+    def get_redacteurchef(self, idrefs=None):
         """ Return the redacteurchef of this publication """
-        redacteurchef_tag = self.find('redacteurchef')
-        redacteurchef_parsed = self.parse_person(redacteurchef_tag)
-        redacteurchef_parsed['type'] = redacteurchef_tag.get('typerc')
-        return redacteurchef_parsed
+        tag = 'redacteurchef'
+        if idrefs:
+            tag = "redacteurchef[@idrefs='{}']".format(idrefs)
+
+        redacteurchefs = []
+        redacteurchef_tags = self.findall(tag)
+        for redacteurchef_tag in redacteurchef_tags:
+            redacteurchef_parsed = self.parse_person(redacteurchef_tag)
+            redacteurchef_parsed['type'] = redacteurchef_tag.get('typerc')
+            if redacteurchef_tag.get('idrefs'):
+                redacteurchef_parsed['themes'] = redacteurchef_tag.get('idrefs').split()
+            redacteurchefs.append(redacteurchef_parsed)
+        return redacteurchefs
 
     def get_droitauteurorg(self):
         """ Return the owner of the copyright for this publication """

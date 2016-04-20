@@ -49,14 +49,14 @@ class TestEruditPublication(BaseTestCase):
 
     def test_redacteurchef(self):
         redacteurchef = self.test_objects['ae1375.xml'].get_redacteurchef()
-        assert redacteurchef['firstname'] == 'Olivier'
-        assert redacteurchef['lastname'] == 'Donni'
-        assert redacteurchef['type'] == 'invite'
+        assert redacteurchef[0]['firstname'] == 'Olivier'
+        assert redacteurchef[0]['lastname'] == 'Donni'
+        assert redacteurchef[0]['type'] == 'invite'
 
         redacteurchef = self.test_objects['images1102374.xml'].get_redacteurchef()  # noqa
-        assert redacteurchef['firstname'] == 'Marie-Claude'
-        assert redacteurchef['lastname'] == 'Loiselle'
-        assert redacteurchef['type'] == 'regulier'
+        assert redacteurchef[0]['firstname'] == 'Marie-Claude'
+        assert redacteurchef[0]['lastname'] == 'Loiselle'
+        assert redacteurchef[0]['type'] == 'regulier'
 
     def test_droitauteur(self):
         assert self.test_objects['images1102374.xml'].get_droitauteur() == "Tous droits réservés © 24 images, 2000"  # noqa
