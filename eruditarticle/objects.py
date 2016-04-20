@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import re
 import itertools
 
 from .base import EruditBaseObject
@@ -36,6 +36,15 @@ class EruditPublication(EruditBaseObject):
         da = self.find("droitsauteur")
         return "".join(da.itertext())
 
+    def get_notegen_edito(self):
+        """ Return the editorial note for this publicaiton """
+        notegen = self.get_itertext('notegen[@typenoteg="edito"]')
+        return re.sub('^ | $', '', re.sub(' +', ' ', re.sub('\n', '', notegen)))
+
+    def get_notegen_numerique(self):
+        """ Return the digital edition note of this publication """
+        notegen = self.get_itertext('notegen[@typenoteg="edito"]')
+        return re.sub('^ | $', '', re.sub(' +', ' ', re.sub('\n', '', notegen)))
     def get_droitauteurorg(self):
         """ Return the owner of the copyright for this publication """
         return self.get_text('droitsauteur/nomorg')

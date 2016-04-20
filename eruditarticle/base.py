@@ -53,6 +53,12 @@ class EruditBaseObject(object):
         result = self.find(tag_name, dom=dom)
         return result.text if result is not None else None
 
+    def get_itertext(self, tag_name, dom=None):
+        """ Returns the text associated with the considered tag and
+its children tags """
+        result = self.find(tag_name, dom=dom)
+        return "".join(result.itertext()) if result is not None else None
+
     def get_text_from_tags(self, tag_names, dom=None):
         """ Returns the first text value associated with a list of potential tags. """
         text = None
