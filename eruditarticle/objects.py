@@ -46,6 +46,11 @@ class EruditPublication(EruditBaseObject):
         notegen = self.get_itertext('notegen[@typenoteg="edito"]')
         return re.sub('^ | $', '', re.sub(' +', ' ', re.sub('\n', '', notegen)))
 
+    def get_publication_type(self):
+        """ Return the type of this publication """
+        return self.get_text('publicationtypecode')
+
+
     def get_redacteurchef(self):
         """ Return the redacteurchef of this publication """
         redacteurchef_tag = self.find('redacteurchef')
