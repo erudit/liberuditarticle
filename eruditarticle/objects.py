@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import re
 import itertools
 
 from .base import EruditBaseObject
@@ -35,6 +35,76 @@ class EruditPublication(EruditBaseObject):
         """ Return the full copyright notice of this publication """
         da = self.find("droitsauteur")
         return "".join(da.itertext())
+
+    def get_notegen_edito(self):
+        """ Return the editorial note for this publicaiton """
+        notegen = self.get_itertext('notegen[@typenoteg="edito"]')
+        return re.sub('^ | $', '', re.sub(' +', ' ', re.sub('\n', '', notegen)))
+
+    def get_notegen_numerique(self):
+        """ Return the digital edition note of this publication """
+        notegen = self.get_itertext('notegen[@typenoteg="edito"]')
+        return re.sub('^ | $', '', re.sub(' +', ' ', re.sub('\n', '', notegen)))
+
+    def get_publication_type(self):
+        """ Return the type of this publication """
+        return self.get_text('publicationtypecode')
+
+    def _find_redacteurchef(self, theme_id):
+        """ Find the redacteurchef for the given theme """
+        rc = []
+        for redacteurchef in self.get_redacteurchef():
+
+            themes = redacteurchef.get('themes')
+            if themes and theme_id in themes:
+                rc.append(redacteurchef)
+        return rc
+
+    def _find_themeparal(self, theme_tag):
+        """ Find the parallel names of the theme """
+        pn = {}
+        for theme_paral in theme_tag.findall('themeparal'):
+            pn[theme_paral.get('lang')] = theme_paral.text
+        return pn
+
+    def parse_theme(self, theme_tag):
+        """ Parse a theme tag """
+        theme = {
+            'name': self.get_text('theme', dom=theme_tag)
+        }
+
+        theme_id = theme_tag.get('id')
+
+        # theme redacteurs en chef
+        theme['redacteurchef'] = self._find_redacteurchef(theme_id)
+        theme['paral'] = self._find_themeparal(theme_tag)
+
+        return theme_id, theme
+
+    def get_themes(self):
+        """ Return the themes of this publication """
+        themes = {}
+        for theme_tag in self.findall('grtheme'):
+            theme_id, theme = self.parse_theme(theme_tag)
+            themes[theme_id] = theme
+
+        return themes
+
+    def get_redacteurchef(self, idrefs=None):
+        """ Return the redacteurchef of this publication """
+        tag = 'redacteurchef'
+        if idrefs:
+            tag = "redacteurchef[@idrefs='{}']".format(idrefs)
+
+        redacteurchefs = []
+        redacteurchef_tags = self.findall(tag)
+        for redacteurchef_tag in redacteurchef_tags:
+            redacteurchef_parsed = self.parse_person(redacteurchef_tag)
+            redacteurchef_parsed['type'] = redacteurchef_tag.get('typerc')
+            if redacteurchef_tag.get('idrefs'):
+                redacteurchef_parsed['themes'] = redacteurchef_tag.get('idrefs').split()
+            redacteurchefs.append(redacteurchef_parsed)
+        return redacteurchefs
 
     def get_droitauteurorg(self):
         """ Return the owner of the copyright for this publication """

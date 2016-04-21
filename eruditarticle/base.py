@@ -53,6 +53,12 @@ class EruditBaseObject(object):
         result = self.find(tag_name, dom=dom)
         return result.text if result is not None else None
 
+    def get_itertext(self, tag_name, dom=None):
+        """ Returns the text associated with the considered tag and
+its children tags """
+        result = self.find(tag_name, dom=dom)
+        return "".join(result.itertext()) if result is not None else None
+
     def get_text_from_tags(self, tag_names, dom=None):
         """ Returns the first text value associated with a list of potential tags. """
         text = None
@@ -62,9 +68,10 @@ class EruditBaseObject(object):
                 break
         return text
 
-    def get_persons(self, tag_name, dom=None):
-        """ Returns the persons for the considered tag name.
+    def parse_person(self, person_tag):
+        """ Parse a person tag
 
+        Return a dictionary in the form:
         The persons are returned as a list of dictionaries of the form:
 
             [
@@ -77,17 +84,25 @@ class EruditBaseObject(object):
                 },
             ]
         """
+        return {
+            'firstname': self.get_text('prenom', dom=person_tag),
+            'lastname': self.get_text('nomfamille', dom=person_tag),
+            'othername': self.get_text('autreprenom', dom=person_tag),
+            'affiliations': [
+                self.get_text('alinea', dom=affiliation_dom)
+                for affiliation_dom in self.findall('affiliation', dom=person_tag)
+            ],
+            'email': self.get_text('courriel/liensimple', dom=person_tag)
+        }
+
+    def get_persons(self, tag_name, dom=None):
+        """ Returns the persons for the considered tag name.
+
+        Return a list of dictionaries in the format specified by parse_person
+        """
         persons = []
         for tree_author in self.findall(tag_name):
-            persons.append({
-                'firstname': self.get_text('prenom', dom=tree_author),
-                'lastname': self.get_text('nomfamille', dom=tree_author),
-                'othername': self.get_text('autreprenom', dom=tree_author),
-                'affiliations': [
-                    self.get_text('alinea', dom=affiliation_dom)
-                    for affiliation_dom in self.findall('affiliation', dom=tree_author)],
-                'email': self.get_text('courriel/liensimple', dom=tree_author),
-            })
+            persons.append(self.parse_person(tree_author))
         return persons
 
     def stringify_children(self, node):
