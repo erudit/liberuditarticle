@@ -245,8 +245,24 @@ class EruditArticle(EruditBaseObject):
         """ Returns the title of the article object with HTML tags. """
         return self.convert_marquage_content_to_html(self._get_title_element())
 
+    def get_isbn(self):
+        """ Returns the ISBN number associated with the article object. """
+        isbn = self.get_text('numero//idisbn')
+        isbn13 = self.get_text('numero//idisbn13')
+        return isbn or isbn13
+
+    def get_isbn_num(self):
+        """ Returns the numeric ISBN number associated with the article object. """
+        isbn_num = self.get_text('numero//idisbnnum')
+        isbn13_num = self.get_text('numero//idisbnnum13')
+        return isbn_num or isbn13_num
+
     def get_issn(self):
         """ Returns the ISSN number associated with the article object. """
+        return self.get_text('revue//idissn')
+
+    def get_issn_num(self):
+        """ Returns the numeric ISSN number associated with the article object. """
         return self.get_text('revue//idissnnum')
 
     def get_keywords(self):
@@ -319,7 +335,10 @@ class EruditArticle(EruditBaseObject):
     first_page = property(get_first_page)
     full_title = property(get_full_title)
     html_title = property(get_html_title)
+    isbn = property(get_isbn)
+    isbn_num = property(get_isbn_num)
     issn = property(get_issn)
+    issn_num = property(get_issn_num)
     keywords = property(get_keywords)
     lang = property(get_lang)
     last_page = property(get_last_page)
