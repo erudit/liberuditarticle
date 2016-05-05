@@ -50,6 +50,13 @@ class EruditPublication(EruditBaseObject):
         """ Return the type of this publication """
         return self.get_text('publicationtypecode')
 
+    def _find_journaltitleparal(self, journal_tag):
+        """ Find the parallel names of the theme """
+        pn = {}
+        for title_paral in journal_tag.findall('titrerevparal'):
+            pn[title_paral.get('lang')] = self.stringify_children(title_paral)
+        return pn
+
     def _find_redacteurchef(self, theme_id):
         """ Find the redacteurchef for the given theme """
         rc = []
@@ -128,6 +135,18 @@ class EruditPublication(EruditBaseObject):
         """ Returns the theme of the publication object with HTML tags. """
         return self.convert_marquage_content_to_html(self.find('theme'))
 
+    def get_journal_title(self):
+        """ Returns the title of the journal associated with the publication object. """
+        return self.stringify_children(self.find('revue/titrerev'))
+
+    def get_journal_titles(self):
+        """ Returns all the titles of the journal associated with the publication object. """
+        titles = {
+            'main': self.journal_title,
+            'paral': self._find_journaltitleparal(self.find('revue')),
+        }
+        return titles
+
     def get_last_page(self):
         """ Returns the last page of the publication object. """
         articles = self.findall('article')
@@ -184,6 +203,8 @@ class EruditPublication(EruditBaseObject):
     directors = property(get_directors)
     first_page = property(get_first_page)
     html_theme = property(get_html_theme)
+    journal_title = property(get_journal_title)
+    journal_titles = property(get_journal_titles)
     last_page = property(get_last_page)
     number = property(get_number)
     production_date = property(get_production_date)
