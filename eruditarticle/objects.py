@@ -50,10 +50,10 @@ class EruditPublication(EruditBaseObject):
         """ Return the type of this publication """
         return self.get_text('publicationtypecode')
 
-    def _find_journaltitleparal(self, journal_tag):
+    def _find_journalparal(self, journal_tag, paral_tag_name):
         """ Find the parallel names of the theme """
         pn = {}
-        for title_paral in journal_tag.findall('titrerevparal'):
+        for title_paral in journal_tag.findall(paral_tag_name):
             pn[title_paral.get('lang')] = self.stringify_children(title_paral)
         return pn
 
@@ -135,6 +135,18 @@ class EruditPublication(EruditBaseObject):
         """ Returns the theme of the publication object with HTML tags. """
         return self.convert_marquage_content_to_html(self.find('theme'))
 
+    def get_journal_subtitle(self):
+        """ Returns the sub-title of the journal associated with the publication object. """
+        return self.stringify_children(self.find('revue/sstitrerev'))
+
+    def get_journal_subtitles(self):
+        """ Returns all the sub-titles of the journal associated with the publication object. """
+        titles = {
+            'main': self.journal_subtitle,
+            'paral': self._find_journalparal(self.find('revue'), 'sstitrerevparal'),
+        }
+        return titles
+
     def get_journal_title(self):
         """ Returns the title of the journal associated with the publication object. """
         return self.stringify_children(self.find('revue/titrerev'))
@@ -143,7 +155,7 @@ class EruditPublication(EruditBaseObject):
         """ Returns all the titles of the journal associated with the publication object. """
         titles = {
             'main': self.journal_title,
-            'paral': self._find_journaltitleparal(self.find('revue')),
+            'paral': self._find_journalparal(self.find('revue'), 'titrerevparal'),
         }
         return titles
 
@@ -203,6 +215,8 @@ class EruditPublication(EruditBaseObject):
     directors = property(get_directors)
     first_page = property(get_first_page)
     html_theme = property(get_html_theme)
+    journal_subtitle = property(get_journal_subtitle)
+    journal_subtitles = property(get_journal_subtitles)
     journal_title = property(get_journal_title)
     journal_titles = property(get_journal_titles)
     last_page = property(get_last_page)
