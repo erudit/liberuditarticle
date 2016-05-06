@@ -60,6 +60,10 @@ class EruditPublication(ISBNMixin, ISSNMixin, EruditBaseObject):
         """ Return the owner of the first copyright for this publication. """
         return self.get_text('droitsauteur/nomorg')
 
+    def get_guest_editors(self):
+        """ Returns the guest editors associated with the publication object. """
+        return self.get_persons('redacteurchef[@typerc="invite"]')
+
     def get_notegen_edito(self):
         """ Return the editorial note for this publicaiton """
         notegen = self.get_itertext('notegen[@typenoteg="edito"]')
@@ -246,6 +250,7 @@ class EruditPublication(ISBNMixin, ISSNMixin, EruditBaseObject):
     droitsauteur = property(get_droitsauteur)
     droitsauteur_org = property(get_droitsauteurorg)
     first_page = property(get_first_page)
+    guest_editors = property(get_guest_editors)
     html_theme = property(get_html_theme)
     journal_subtitle = property(get_journal_subtitle)
     journal_subtitles = property(get_journal_subtitles)

@@ -93,3 +93,12 @@ class TestEruditPublication(BaseTestCase):
     def test_note_edito(self):
         assert self.test_objects['rum01069.xml'].note_edito.startswith('POUR NABIHA')
         assert self.test_objects['rum01069.xml'].note_edito.endswith('Bisanswa')
+
+    def test_guest_editors(self):
+        assert self.test_objects['ae1375.xml'].guest_editors == [{
+            'affiliations': [],
+            'othername': None,
+            'firstname': 'Olivier',
+            'email': None,
+            'lastname': 'Donni',
+        }]
