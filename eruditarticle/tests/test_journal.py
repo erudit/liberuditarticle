@@ -73,3 +73,19 @@ class TestEruditPublication(BaseTestCase):
 
     def test_notegen(self):
         assert self.test_objects['rum01069.xml'].get_notegen_edito() == """POUR NABIHA : Nabiha Jerad, Professeur de socio-linguistique à la Faculté des Lettres de l’Université de Tunis se trouvait dans son île natale, Kerkennah, pour célébrer le Ramadan avec sa famille. Sortie pour prendre l’air avant le dîner, elle fut renversée par une voiture. Le chauffeur - ou plutôt le chauffard - ne s’arrêta pas et s’enfuit. C’était le 11 août 2012. Elle tomba dans un coma dont elle ne se sortira jamais, malgré les soins intensifs et le dévouement du personnel médical, d’abord à Bruxelles, ensuite à Tunis où elle rendit l’âme le 19 octobre 2012. Pour ceux et celles qui l’ont connue, Nabiha avait le coeur sur la main, l’esprit ouvert à “tous les souffles du monde” pour reprendre Aimé Césaire. Elle était d’un grand dévouement envers ses étudiants, très attachée à son pays la Tunisie et fortement engagée dans ce qui fut appelée la Révolution de Jasmin. Son article non achevé, qui devait paraître dans ce volume, se serait ajouté à ses nombreuses autres publications dans le domaine de la socio-linguistique. Cette petite note rappellera la mémoire de celle qui fut non seulement une collègue, mais aussi une amie. Université Laval 3 Juillet 2013 Justin K. Bisanswa"""  # noqa
+
+    def test_issn(self):
+        assert self.test_objects['ae1375.xml'].issn == '0001-771X'
+
+    def test_issn_num(self):
+        assert self.test_objects['ae1375.xml'].issn_num == '1710-3991'
+
+    def test_isbn(self):
+        assert self.test_objects['crs1517600.xml'].isbn == '2-89578-037-4'
+        assert self.test_objects['inter02349.xml'].isbn == '978-2-924298-19-0'
+        assert self.test_objects['esse02315.xml'].isbn is None
+
+    def test_isbn_num(self):
+        assert self.test_objects['esse02315.xml'].isbn_num == '978-2-924345-09-2'
+        assert self.test_objects['inter02349.xml'].isbn_num == '978-2-924298-20-6'
+        assert self.test_objects['crs1517600.xml'].isbn_num is None
