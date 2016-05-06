@@ -193,6 +193,16 @@ class EruditPublication(ISBNMixin, ISSNMixin, EruditBaseObject):
 
         return last_page
 
+    def get_note_edito(self):
+        """ Returns the edito note associated with the publication object if any. """
+        note = self.stringify_children(self.find('notegen[@typenoteg="edito"]'))
+        return note.strip() if note is not None else note
+
+    def get_note_erudit(self):
+        """ Returns the erudit note associated with the publication object if any. """
+        note = self.stringify_children(self.find('notegen[@typenoteg="numerique"]'))
+        return note.strip() if note is not None else note
+
     def get_number(self):
         """ Returns the number of the publication object. """
         return self.get_text('nonumero')
@@ -242,6 +252,8 @@ class EruditPublication(ISBNMixin, ISSNMixin, EruditBaseObject):
     journal_title = property(get_journal_title)
     journal_titles = property(get_journal_titles)
     last_page = property(get_last_page)
+    note_edito = property(get_note_edito)
+    note_erudit = property(get_note_erudit)
     number = property(get_number)
     production_date = property(get_production_date)
     publication_date = property(get_publication_date)

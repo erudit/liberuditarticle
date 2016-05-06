@@ -89,3 +89,7 @@ class TestEruditPublication(BaseTestCase):
         assert self.test_objects['esse02315.xml'].isbn_num == '978-2-924345-09-2'
         assert self.test_objects['inter02349.xml'].isbn_num == '978-2-924298-20-6'
         assert self.test_objects['crs1517600.xml'].isbn_num is None
+
+    def test_note_edito(self):
+        assert self.test_objects['rum01069.xml'].note_edito.startswith('POUR NABIHA')
+        assert self.test_objects['rum01069.xml'].note_edito.endswith('Bisanswa')
