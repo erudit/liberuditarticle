@@ -69,9 +69,9 @@ its children tags """
         return text
 
     def parse_person(self, person_tag):
-        """ Parse a person tag
+        """ Parses a person tag
 
-        Return a dictionary in the form:
+        Returns a dictionary in the form:
         The persons are returned as a list of dictionaries of the form:
 
             [
@@ -94,6 +94,27 @@ its children tags """
             ],
             'email': self.get_text('courriel/liensimple', dom=person_tag)
         }
+
+    def parse_simple_link(self, simplelink_node):
+        """ Parses a "liensimple" node.
+
+        Returns a dictionary of the form:
+
+            {
+                'href': '[link]',
+                'img': '[link]',
+            }
+
+        """
+        link = {
+            'href': simplelink_node.get('href'),
+        }
+
+        image_node = self.find('objetmedia//image', simplelink_node)
+        if image_node is not None:
+            link.update({'img': image_node.get('href')})
+
+        return link
 
     def get_persons(self, tag_name, dom=None):
         """ Returns the persons for the considered tag name.

@@ -59,8 +59,13 @@ class TestEruditPublication(BaseTestCase):
         assert redacteurchef[0]['type'] == 'regulier'
 
     def test_droitsauteur(self):
-        assert self.test_objects['images1102374.xml'].get_droitsauteur() == "Tous droits réservés © 24 images, 2000"  # noqa
-        assert self.test_objects['liberte1035607.xml'].get_droitsauteur() == "Tous droits réservés © Collectif Liberté, 1993"  # noqa
+        assert self.test_objects['images1102374.xml'].get_droitsauteur() == [{'text': "Tous droits réservés © 24 images, 2000"}]  # noqa
+        assert self.test_objects['liberte1035607.xml'].get_droitsauteur() == [{'text': "Tous droits réservés © Collectif Liberté, 1993"}]  # noqa
+        assert self.test_objects['ritpu0326.xml'].get_droitsauteur()[0] == {'text': 'Tous droits réservés © CRÉPUQ,'}  # noqa
+        assert self.test_objects['ritpu0326.xml'].get_droitsauteur()[1] == {
+            'href': 'http://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr_CA',
+            'img': 'http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png',
+        }
 
     def test_droitsauteurorg(self):
         assert self.test_objects['images1102374.xml'].get_droitsauteurorg() == "24 images"
