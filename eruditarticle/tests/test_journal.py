@@ -24,12 +24,14 @@ class TestEruditPublication(BaseTestCase):
             'th1': {
                 'name': 'David Cronenberg',
                 'redacteurchef': [],
-                'paral': {}
+                'paral': {},
+                'subname': None,
             },
             'th2': {
                 'name': 'La production au Québec',
                 'redacteurchef': [],
-                'paral': {}
+                'paral': {},
+                'subname': 'Cinq cinéastes sur le divan',
             },
         }
 
@@ -46,6 +48,17 @@ class TestEruditPublication(BaseTestCase):
         assert len(themes.keys()) == 1
         assert themes['th1']['name'] == 'Géopolitique'
         assert themes['th1']['paral']['en'] == 'Geopolitics'
+
+    def test_sstheme(self):
+        themes = self.test_objects['images1080663.xml'].get_themes()
+        assert len(themes.keys()) == 2
+        print(themes['th2'])
+        assert themes['th2'] == {
+            'name': 'La production au Québec',
+            'paral': {},
+            'redacteurchef': [],
+            'subname': 'Cinq cinéastes sur le divan',
+        }
 
     def test_redacteurchef(self):
         redacteurchef = self.test_objects['ae1375.xml'].get_redacteurchef()

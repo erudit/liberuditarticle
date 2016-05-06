@@ -105,7 +105,8 @@ class EruditPublication(ISBNMixin, ISSNMixin, EruditBaseObject):
     def parse_theme(self, theme_tag):
         """ Parse a theme tag """
         theme = {
-            'name': self.get_text('theme', dom=theme_tag)
+            'name': self.get_text('theme', dom=theme_tag),
+            'subname': self.get_text('sstheme', dom=theme_tag),
         }
 
         theme_id = theme_tag.get('id')
