@@ -31,7 +31,7 @@ class EruditPublication(EruditBaseObject):
         """ Returns the authors of the publication object. """
         return self.get_persons('directeur')
 
-    def get_droitauteur(self):
+    def get_droitsauteur(self):
         """ Return the full copyright notice of this publication """
         da = self.find("droitsauteur")
         return "".join(da.itertext())
@@ -113,7 +113,7 @@ class EruditPublication(EruditBaseObject):
             redacteurchefs.append(redacteurchef_parsed)
         return redacteurchefs
 
-    def get_droitauteurorg(self):
+    def get_droitsauteurorg(self):
         """ Return the owner of the copyright for this publication """
         return self.get_text('droitsauteur/nomorg')
 
@@ -213,6 +213,8 @@ class EruditPublication(EruditBaseObject):
 
     article_count = property(get_article_count)
     directors = property(get_directors)
+    droitsauteur = property(get_droitsauteur)
+    droitsauteur_org = property(get_droitsauteurorg)
     first_page = property(get_first_page)
     html_theme = property(get_html_theme)
     journal_subtitle = property(get_journal_subtitle)
