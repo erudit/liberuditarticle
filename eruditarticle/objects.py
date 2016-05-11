@@ -78,13 +78,6 @@ class EruditPublication(ISBNMixin, ISSNMixin, EruditBaseObject):
         """ Return the type of this publication """
         return self.get_text('publicationtypecode')
 
-    def _find_journalparal(self, journal_tag, paral_tag_name):
-        """ Find the parallel names of the theme """
-        pn = {}
-        for title_paral in journal_tag.findall(paral_tag_name):
-            pn[title_paral.get('lang')] = self.stringify_children(title_paral)
-        return pn
-
     def _find_redacteurchef(self, theme_id):
         """ Find the redacteurchef for the given theme """
         rc = []
@@ -168,7 +161,7 @@ class EruditPublication(ISBNMixin, ISSNMixin, EruditBaseObject):
         """ Returns all the sub-titles of the journal associated with the publication object. """
         titles = {
             'main': self.journal_subtitle,
-            'paral': self._find_journalparal(self.find('revue'), 'sstitrerevparal'),
+            'paral': self.find_paral(self.find('revue'), 'sstitrerevparal'),
         }
         return titles
 
@@ -180,7 +173,7 @@ class EruditPublication(ISBNMixin, ISSNMixin, EruditBaseObject):
         """ Returns all the titles of the journal associated with the publication object. """
         titles = {
             'main': self.journal_title,
-            'paral': self._find_journalparal(self.find('revue'), 'titrerevparal'),
+            'paral': self.find_paral(self.find('revue'), 'titrerevparal'),
         }
         return titles
 
@@ -366,13 +359,37 @@ class EruditArticle(ISBNMixin, ISSNMixin, EruditBaseObject):
         """ Returns the section title of the article object. """
         return self.stringify_children(self.find('liminaire//grtitre//surtitre'))
 
+    def get_section_titles(self):
+        """ Returns all the section titles of the article object. """
+        section_title = self.section_title
+        return {
+            'main': section_title,
+            'paral': self.find_paral(self.find('liminaire//grtitre'), 'surtitreparal'),
+        } if section_title else None
+
     def get_section_title_2(self):
         """ Returns the second section title of the article object. """
         return self.stringify_children(self.find('liminaire//grtitre//surtitre2'))
 
+    def get_section_titles_2(self):
+        """ Returns all the second section titles of the article object. """
+        section_title_2 = self.section_title_2
+        return {
+            'main': section_title_2,
+            'paral': self.find_paral(self.find('liminaire//grtitre'), 'surtitreparal2'),
+        } if section_title_2 else None
+
     def get_section_title_3(self):
         """ Returns the third section title of the article object. """
         return self.stringify_children(self.find('liminaire//grtitre//surtitre3'))
+
+    def get_section_titles_3(self):
+        """ Returns all the third section titles of the article object. """
+        section_title_3 = self.section_title_3
+        return {
+            'main': section_title_3,
+            'paral': self.find_paral(self.find('liminaire//grtitre'), 'surtitreparal3'),
+        } if section_title_3 else None
 
     def get_subtitle(self):
         """ Returns the subtitle of the article object. """
@@ -406,7 +423,10 @@ class EruditArticle(ISBNMixin, ISSNMixin, EruditBaseObject):
     publication_year = property(get_publication_year)
     publisher = property(get_publisher)
     section_title = property(get_section_title)
+    section_titles = property(get_section_titles)
     section_title_2 = property(get_section_title_2)
+    section_titles_2 = property(get_section_titles_2)
     section_title_3 = property(get_section_title_3)
+    section_titles_3 = property(get_section_titles_3)
     subtitle = property(get_subtitle)
     title = property(get_title)

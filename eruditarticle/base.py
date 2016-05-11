@@ -146,3 +146,10 @@ its children tags """
             ])
         _html = et.tostring(_node.getroot())
         return _html.split(b'>', 1)[1].rsplit(b'<', 1)[0]
+
+    def find_paral(self, tag, paral_tag_name):
+        """ Find the parallel values for the given tag using the given tag name. """
+        pn = {}
+        for title_paral in tag.findall(paral_tag_name):
+            pn[title_paral.get('lang')] = self.stringify_children(title_paral)
+        return pn
