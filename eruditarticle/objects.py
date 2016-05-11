@@ -366,6 +366,14 @@ class EruditArticle(ISBNMixin, ISSNMixin, EruditBaseObject):
         """ Returns the section title of the article object. """
         return self.stringify_children(self.find('liminaire//grtitre//surtitre'))
 
+    def get_section_title_2(self):
+        """ Returns the second section title of the article object. """
+        return self.stringify_children(self.find('liminaire//grtitre//surtitre2'))
+
+    def get_section_title_3(self):
+        """ Returns the third section title of the article object. """
+        return self.stringify_children(self.find('liminaire//grtitre//surtitre3'))
+
     def get_subtitle(self):
         """ Returns the subtitle of the article object. """
         return self.stringify_children(self.find('sstitre'))
@@ -398,5 +406,7 @@ class EruditArticle(ISBNMixin, ISSNMixin, EruditBaseObject):
     publication_year = property(get_publication_year)
     publisher = property(get_publisher)
     section_title = property(get_section_title)
+    section_title_2 = property(get_section_title_2)
+    section_title_3 = property(get_section_title_3)
     subtitle = property(get_subtitle)
     title = property(get_title)
