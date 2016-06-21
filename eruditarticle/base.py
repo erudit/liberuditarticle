@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import unicode_literals
+from copy import copy
 
 import lxml.etree as et
 import six
@@ -35,17 +36,17 @@ class EruditBaseObject(object):
 
     def find(self, tag_name, dom=None):
         """ Find an element in the tree. """
-        dom = dom if dom is not None else self._dom
+        dom = dom if dom is not None else self._root
         return dom.find('.//{}'.format(tag_name))
 
     def findall(self, tag_name, dom=None):
         """ Find elements in the tree. """
-        dom = dom if dom is not None else self._dom
+        dom = dom if dom is not None else self._root
         return dom.findall('.//{}'.format(tag_name))
 
     def get_nodes(self, dom=None):
         """ Returns all the elements under the current root. """
-        dom = dom if dom is not None else self._dom
+        dom = dom if dom is not None else self._root
         return dom.xpath('child::node()')
 
     def get_text(self, tag_name, dom=None):
@@ -136,7 +137,7 @@ its children tags """
     def convert_marquage_content_to_html(self, node):
         """ Converts <marquage> tags to HTML using a specific node. """
         # Converts <marquage> tags to HTML
-        _node = xslt.marquage_to_html(node)
+        _node = xslt.marquage_to_html(copy(node))
         # Strip all other tags but keep text
         et.strip_tags(
             _node,
