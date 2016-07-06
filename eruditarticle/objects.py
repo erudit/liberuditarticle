@@ -341,7 +341,8 @@ class EruditArticle(ISBNMixin, ISSNMixin, EruditBaseObject):
 
     def get_ordseq(self):
         """ Returns the ordering number of the article object. """
-        return int(self._root.get('ordseq'))
+        ordseq = self._root.get('ordseq')
+        return int(ordseq) if ordseq is not None else 0
 
     def get_processing(self):
         """ Returns the processing type of the article object. """
