@@ -35,6 +35,9 @@ marquage_to_html = et.XSLT(et.parse(io.StringIO(
     </xsl:choose>
 </xsl:template>
 
+<xsl:template match="renvoi">
+</xsl:template>
+
 <xsl:template match="*">
     <xsl:copy>
         <xsl:apply-templates/>

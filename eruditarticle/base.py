@@ -143,7 +143,7 @@ its children tags """
             _node,
             *[
                 node.tag, 'caracunicode', 'citation', 'equationligne', 'exposant', 'indice',
-                'liensimple', 'marquepage', 'objetmedia', 'renvoi',
+                'liensimple', 'marquepage', 'objetmedia',
             ])
         _html = et.tostring(_node.getroot())
         return _html.split(b'>', 1)[1].rsplit(b'<', 1)[0]
