@@ -203,7 +203,8 @@ class EruditPublication(ISBNMixin, ISSNMixin, EruditBaseObject):
 
     def get_number(self):
         """ Returns the number of the publication object. """
-        return self.get_text('nonumero')
+        nonumero_nodes = self.findall('nonumero')
+        return '-'.join([n.text for n in nonumero_nodes])
 
     def get_production_date(self):
         """ Returns the production date of the publication object. """

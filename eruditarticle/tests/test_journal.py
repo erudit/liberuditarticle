@@ -13,6 +13,11 @@ class TestEruditPublication(BaseTestCase):
         self.objects_path = './eruditarticle/tests/fixtures/publication'
         super().setup()
 
+    def test_number(self):
+        assert self.test_objects["ae1375.xml"].get_number() == '1-2'
+        assert self.test_objects["crs1517600.xml"].get_number() == ''
+        assert self.test_objects["esse02315.xml"].get_number() == '86'
+
     def test_publicationtype(self):
         assert self.test_objects["haf2442.xml"].get_publication_type() == 'index'
         assert self.test_objects["inter1068986.xml"].get_publication_type() == 'supp'
