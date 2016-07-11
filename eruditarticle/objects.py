@@ -310,6 +310,16 @@ class EruditArticle(ISBNMixin, ISSNMixin, EruditBaseObject):
             return title
         return None
 
+    def get_html_body(self):
+        """ Returns the full body of the article object as HTML text. """
+        alinea_nodes = self.findall('para/alinea')
+        if alinea_nodes:
+            html_body = b' '.join([self.convert_marquage_content_to_html(n) for n in alinea_nodes])
+        else:
+            texte_node = self.find('corps/texte')
+            html_body = self.convert_marquage_content_to_html(texte_node)
+        return b' '.join(html_body.split())
+
     def get_html_title(self):
         """ Returns the title of the article object with HTML tags. """
         return self.convert_marquage_content_to_html(self._get_title_element())
@@ -416,6 +426,7 @@ class EruditArticle(ISBNMixin, ISSNMixin, EruditBaseObject):
     doi = property(get_doi)
     first_page = property(get_first_page)
     full_title = property(get_full_title)
+    html_body = property(get_html_body)
     html_title = property(get_html_title)
     keywords = property(get_keywords)
     lang = property(get_lang)
