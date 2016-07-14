@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+
+import collections
 import re
 import itertools
 
@@ -100,6 +102,9 @@ class EruditPublication(ISBNMixin, ISSNMixin, EruditBaseObject):
         theme = {
             'name': self.get_text('theme', dom=theme_tag),
             'subname': self.get_text('sstheme', dom=theme_tag),
+            'html_name': self.convert_marquage_content_to_html(self.find('theme', dom=theme_tag)),
+            'html_subname': self.convert_marquage_content_to_html(
+                self.find('sstheme', dom=theme_tag)),
         }
 
         theme_id = theme_tag.get('id')
@@ -112,7 +117,7 @@ class EruditPublication(ISBNMixin, ISSNMixin, EruditBaseObject):
 
     def get_themes(self):
         """ Return the themes of this publication """
-        themes = {}
+        themes = collections.OrderedDict()
         for theme_tag in self.findall('grtheme'):
             theme_id, theme = self.parse_theme(theme_tag)
             themes[theme_id] = theme
@@ -261,6 +266,7 @@ class EruditPublication(ISBNMixin, ISSNMixin, EruditBaseObject):
     publication_year = property(get_publication_year)
     section_titles = property(get_section_titles)
     theme = property(get_theme)
+    themes = property(get_themes)
     volume = property(get_volume)
 
 

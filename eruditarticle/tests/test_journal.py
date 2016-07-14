@@ -31,12 +31,16 @@ class TestEruditPublication(BaseTestCase):
                 'redacteurchef': [],
                 'paral': {},
                 'subname': None,
+                'html_name': b'David Cronenberg',
+                'html_subname': None,
             },
             'th2': {
                 'name': 'La production au Québec',
                 'redacteurchef': [],
                 'paral': {},
                 'subname': 'Cinq cinéastes sur le divan',
+                'html_name': b'La production au Qu&#233;bec',
+                'html_subname': b'Cinq cin&#233;astes sur le divan',
             },
         }
 
@@ -57,12 +61,13 @@ class TestEruditPublication(BaseTestCase):
     def test_sstheme(self):
         themes = self.test_objects['images1080663.xml'].get_themes()
         assert len(themes.keys()) == 2
-        print(themes['th2'])
         assert themes['th2'] == {
             'name': 'La production au Québec',
             'paral': {},
             'redacteurchef': [],
             'subname': 'Cinq cinéastes sur le divan',
+            'html_name': b'La production au Qu&#233;bec',
+            'html_subname': b'Cinq cin&#233;astes sur le divan',
         }
 
     def test_redacteurchef(self):

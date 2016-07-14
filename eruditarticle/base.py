@@ -136,6 +136,9 @@ its children tags """
 
     def convert_marquage_content_to_html(self, node):
         """ Converts <marquage> tags to HTML using a specific node. """
+        if node is None:
+            return
+
         # Converts <marquage> tags to HTML
         _node = xslt.marquage_to_html(copy(node))
         # Strip all other tags but keep text
