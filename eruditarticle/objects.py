@@ -94,7 +94,11 @@ class EruditPublication(ISBNMixin, ISSNMixin, EruditBaseObject):
         """ Find the parallel names of the theme """
         pn = {}
         for theme_paral in theme_tag.findall('themeparal'):
-            pn[theme_paral.get('lang')] = theme_paral.text
+            lang = theme_paral.get('lang')
+            pn[lang] = {
+                'name': theme_paral.text,
+                'subname': self.get_text("ssthemeparal[@lang='{}']".format(lang), dom=theme_tag),
+            }
         return pn
 
     def parse_theme(self, theme_tag):

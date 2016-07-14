@@ -56,7 +56,7 @@ class TestEruditPublication(BaseTestCase):
         themes = self.test_objects['esse02315.xml'].get_themes()
         assert len(themes.keys()) == 1
         assert themes['th1']['name'] == 'Géopolitique'
-        assert themes['th1']['paral']['en'] == 'Geopolitics'
+        assert themes['th1']['paral']['en'] == {'name': 'Geopolitics', 'subname': None}
 
     def test_sstheme(self):
         themes = self.test_objects['images1080663.xml'].get_themes()
