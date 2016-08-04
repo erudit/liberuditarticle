@@ -124,4 +124,5 @@ class TestEruditPublication(BaseTestCase):
             'firstname': 'Olivier',
             'email': None,
             'lastname': 'Donni',
+            'organization': None,
         }]

@@ -82,6 +82,7 @@ its children tags """
                    'othername': 'Dummy',
                    'affiliations': ['TEST1', 'TEST2']
                    'email': 'foo.bar@example.com',
+                   'organization': 'Test',
                 },
             ]
         """
@@ -93,7 +94,8 @@ its children tags """
                 self.get_text('alinea', dom=affiliation_dom)
                 for affiliation_dom in self.findall('affiliation', dom=person_tag)
             ],
-            'email': self.get_text('courriel/liensimple', dom=person_tag)
+            'email': self.get_text('courriel/liensimple', dom=person_tag),
+            'organization': self.get_text('nomorg', dom=person_tag),
         }
 
     def parse_simple_link(self, simplelink_node):
