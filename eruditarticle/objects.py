@@ -115,6 +115,9 @@ class EruditPublication(ISBNMixin, ISSNMixin, EruditBaseObject):
             pn[lang] = {
                 'name': theme_paral.text,
                 'subname': self.get_text("ssthemeparal[@lang='{}']".format(lang), dom=theme_tag),
+                'html_name': self.convert_marquage_content_to_html(theme_paral),
+                'html_subname': self.convert_marquage_content_to_html(
+                    self.find("ssthemeparal[@lang='{}']".format(lang), dom=theme_tag)),
             }
         return pn
 
