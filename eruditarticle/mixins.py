@@ -29,3 +29,35 @@ class ISSNMixin(object):
 
     issn = property(get_issn)
     issn_num = property(get_issn_num)
+
+
+class CopyrightMixin(object):
+    def get_droitsauteur(self):
+        """ Return the list of all copyright notices of this object.
+
+        The copyrights are returned as a list of the form:
+
+            [
+                {'text': 'My copyright', },
+                {'href': 'link-url', 'img': 'img-url', },
+            ]
+
+        """
+        da_list = []
+        da_nodes = self.findall('droitsauteur')
+
+        for da in da_nodes:
+            link_node = self.find('liensimple', da)
+            if link_node:
+                da_list.append(self.parse_simple_link(link_node))
+            else:
+                da_list.append({'text': ''.join(da.itertext())})
+
+        return da_list
+
+    def get_droitsauteurorg(self):
+        """ Return the owner of the first copyright for this object. """
+        return self.get_text('droitsauteur/nomorg')
+
+    droitsauteur = property(get_droitsauteur)
+    droitsauteur_org = property(get_droitsauteurorg)

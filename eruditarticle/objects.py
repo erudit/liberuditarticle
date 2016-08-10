@@ -5,6 +5,7 @@ import re
 import itertools
 
 from .base import EruditBaseObject
+from .mixins import CopyrightMixin
 from .mixins import ISBNMixin
 from .mixins import ISSNMixin
 
@@ -43,7 +44,7 @@ class EruditJournal(EruditBaseObject):
     publication_period = property(get_publication_period)
 
 
-class EruditPublication(ISBNMixin, ISSNMixin, EruditBaseObject):
+class EruditPublication(ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
     def get_article_count(self):
         """ Returns the number of articles of the publication object. """
         return int(self.get_text('nbarticle'))
@@ -51,33 +52,6 @@ class EruditPublication(ISBNMixin, ISSNMixin, EruditBaseObject):
     def get_directors(self):
         """ Returns the authors of the publication object. """
         return self.get_persons('directeur')
-
-    def get_droitsauteur(self):
-        """ Return the list of all copyright notices of this publication.
-
-        The copyrights are returned as a list of the form:
-
-            [
-                {'text': 'My copyright', },
-                {'href': 'link-url', 'img': 'img-url', },
-            ]
-
-        """
-        da_list = []
-        da_nodes = self.findall('droitsauteur')
-
-        for da in da_nodes:
-            link_node = self.find('liensimple', da)
-            if link_node:
-                da_list.append(self.parse_simple_link(link_node))
-            else:
-                da_list.append({'text': ''.join(da.itertext())})
-
-        return da_list
-
-    def get_droitsauteurorg(self):
-        """ Return the owner of the first copyright for this publication. """
-        return self.get_text('droitsauteur/nomorg')
 
     def get_guest_editors(self):
         """ Returns the guest editors associated with the publication object. """
@@ -271,8 +245,6 @@ class EruditPublication(ISBNMixin, ISSNMixin, EruditBaseObject):
 
     article_count = property(get_article_count)
     directors = property(get_directors)
-    droitsauteur = property(get_droitsauteur)
-    droitsauteur_org = property(get_droitsauteurorg)
     first_page = property(get_first_page)
     guest_editors = property(get_guest_editors)
     html_theme = property(get_html_theme)
@@ -294,7 +266,7 @@ class EruditPublication(ISBNMixin, ISSNMixin, EruditBaseObject):
     volume = property(get_volume)
 
 
-class EruditArticle(ISBNMixin, ISSNMixin, EruditBaseObject):
+class EruditArticle(ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
     def get_abstracts(self):
         """ Returns the abstracts of the article object.
 
