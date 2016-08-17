@@ -320,7 +320,7 @@ class EruditArticle(ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
         else:
             texte_node = self.find('corps/texte')
             html_body = self.convert_marquage_content_to_html(texte_node)
-        return b' '.join(html_body.split())
+        return b' '.join(html_body.split()) if html_body else ''
 
     def get_html_title(self):
         """ Returns the title of the article object with HTML tags. """
