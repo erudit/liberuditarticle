@@ -86,7 +86,7 @@ its children tags """
                 },
             ]
         """
-        return {
+        person = {
             'firstname': self.get_text('prenom', dom=person_tag),
             'lastname': self.get_text('nomfamille', dom=person_tag),
             'othername': self.get_text('autreprenom', dom=person_tag),
@@ -97,6 +97,17 @@ its children tags """
             'email': self.get_text('courriel/liensimple', dom=person_tag),
             'organization': self.get_text('nomorg', dom=person_tag),
         }
+
+        fonction_fr = self.get_text('fonction[@lang="fr"]', dom=person_tag)
+        fonction_en = self.get_text('fonction[@lang="en"]', dom=person_tag)
+
+        if fonction_fr:
+            person['fonction_fr'] = fonction_fr
+
+        if fonction_en:
+            person['fonction_en'] = fonction_en
+
+        return person
 
     def parse_simple_link(self, simplelink_node):
         """ Parses a "liensimple" node.
