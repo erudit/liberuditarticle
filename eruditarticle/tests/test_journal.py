@@ -128,3 +128,36 @@ class TestEruditPublication(BaseTestCase):
             'lastname': 'Donni',
             'organization': None,
         }]
+
+    def test_directors(self):
+        assert self.test_objects['ae1375.xml'].directors == [{
+            'affiliations': [],
+            'othername': None,
+            'firstname': 'Patrick',
+            'email': None,
+            'lastname': 'González',
+            'organization': None,
+        }]
+
+        assert self.test_objects['haf2442.xml'].directors == [{
+            'affiliations': [],
+            'othername': None,
+            'firstname': 'Fernande',
+            'email': None,
+            'lastname': 'Roy',
+            'organization': None,
+            'fonction_fr': 'Directrice',
+        }]
+
+        assert 'fonction_en' not in self.test_objects['haf2442.xml'].directors
+
+    def test_editors(self):
+        assert self.test_objects['images1080663.xml'].editors == [{
+            'affiliations': [],
+            'othername': None,
+            'firstname': 'Isabelle',
+            'lastname': 'Richer',
+            'email': None,
+            'organization': None,
+            'fonction_fr': 'Rédactrice adjointe',
+        }]

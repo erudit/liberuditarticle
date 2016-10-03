@@ -53,6 +53,10 @@ class EruditPublication(ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
         """ Returns the authors of the publication object. """
         return self.get_persons('directeur')
 
+    def get_editors(self):
+        """ Returns the the editors of the publication object. """
+        return self.get_persons('redacteurchef')
+
     def get_guest_editors(self):
         """ Returns the guest editors associated with the publication object. """
         return self.get_persons('redacteurchef[@typerc="invite"]')
@@ -245,6 +249,7 @@ class EruditPublication(ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
 
     article_count = property(get_article_count)
     directors = property(get_directors)
+    editors = property(get_editors)
     first_page = property(get_first_page)
     guest_editors = property(get_guest_editors)
     html_theme = property(get_html_theme)
