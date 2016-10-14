@@ -146,10 +146,10 @@ class TestEruditPublication(BaseTestCase):
             'email': None,
             'lastname': 'Roy',
             'organization': None,
-            'fonction_fr': 'Directrice',
+            'role_fr': 'Directrice',
         }]
 
-        assert 'fonction_en' not in self.test_objects['haf2442.xml'].directors
+        assert 'role_en' not in self.test_objects['haf2442.xml'].directors
 
     def test_editors(self):
         assert self.test_objects['images1080663.xml'].editors == [{
@@ -159,5 +159,5 @@ class TestEruditPublication(BaseTestCase):
             'lastname': 'Richer',
             'email': None,
             'organization': None,
-            'fonction_fr': 'Rédactrice adjointe',
+            'role_fr': 'Rédactrice adjointe',
         }]
