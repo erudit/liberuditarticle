@@ -98,14 +98,14 @@ its children tags """
             'organization': self.get_text('nomorg', dom=person_tag),
         }
 
-        fonction_fr = self.get_text('fonction[@lang="fr"]', dom=person_tag)
-        fonction_en = self.get_text('fonction[@lang="en"]', dom=person_tag)
+        role_fr = self.get_text('fonction[@lang="fr"]', dom=person_tag)
+        role_en = self.get_text('fonction[@lang="en"]', dom=person_tag)
 
-        if fonction_fr:
-            person['fonction_fr'] = fonction_fr
+        if role_fr:
+            person['role_fr'] = role_fr
 
-        if fonction_en:
-            person['fonction_en'] = fonction_en
+        if role_en:
+            person['role_en'] = role_en
 
         return person
 
