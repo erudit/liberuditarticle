@@ -96,17 +96,13 @@ its children tags """
             ],
             'email': self.get_text('courriel/liensimple', dom=person_tag),
             'organization': self.get_text('nomorg', dom=person_tag),
+            'role': {},
         }
 
-        role_fr = self.get_text('fonction[@lang="fr"]', dom=person_tag)
-        role_en = self.get_text('fonction[@lang="en"]', dom=person_tag)
-
-        if role_fr:
-            person['role_fr'] = role_fr
-
-        if role_en:
-            person['role_en'] = role_en
-
+        find_role = et.XPath('//fonction')
+        roles = find_role(person_tag)
+        for role in roles:
+            person['role'][role.get('lang')] = role.text
         return person
 
     def parse_simple_link(self, simplelink_node):

@@ -127,6 +127,7 @@ class TestEruditPublication(BaseTestCase):
             'email': None,
             'lastname': 'Donni',
             'organization': None,
+            'role': {},
         }]
 
     def test_directors(self):
@@ -137,6 +138,7 @@ class TestEruditPublication(BaseTestCase):
             'email': None,
             'lastname': 'González',
             'organization': None,
+            'role': {},
         }]
 
         assert self.test_objects['haf2442.xml'].directors == [{
@@ -146,7 +148,7 @@ class TestEruditPublication(BaseTestCase):
             'email': None,
             'lastname': 'Roy',
             'organization': None,
-            'role_fr': 'Directrice',
+            'role': {'fr': 'Directrice'},
         }]
 
         assert 'role_en' not in self.test_objects['haf2442.xml'].directors
@@ -159,5 +161,12 @@ class TestEruditPublication(BaseTestCase):
             'lastname': 'Richer',
             'email': None,
             'organization': None,
-            'role_fr': 'Rédactrice adjointe',
+            'role': {'fr': 'Rédactrice adjointe'},
         }]
+
+    def test_can_find_roles_in_all_languages(self):
+        directors = self.test_objects['haf2442-alt.xml'].directors
+        assert len(directors) == 1
+        director = directors[0]
+        assert 'role_fr' not in director and 'role_en' not in director
+        assert director['role'] == {'es': 'Directrice'}
