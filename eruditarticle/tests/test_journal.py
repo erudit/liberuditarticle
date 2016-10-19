@@ -170,3 +170,12 @@ class TestEruditPublication(BaseTestCase):
         director = directors[0]
         assert 'role_fr' not in director and 'role_en' not in director
         assert director['role'] == {'es': 'Directrice'}
+
+    def test_roles_are_associated_with_the_proper_person(self):
+        """ Test that an editor only has his own roles """
+        editors = self.test_objects['mje02648.xml'].editors
+        editor = editors[0]
+
+        assert editor['lastname'] == 'Strong-Wilson'
+        assert 'fr' not in editor['role']
+        assert editor['role']['en'] == "Editor-in-Chief / Rédactrice-en-chef"

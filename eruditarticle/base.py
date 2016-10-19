@@ -99,7 +99,7 @@ its children tags """
             'role': {},
         }
 
-        find_role = et.XPath('//fonction')
+        find_role = et.XPath('fonction')
         roles = find_role(person_tag)
         for role in roles:
             person['role'][role.get('lang')] = role.text
