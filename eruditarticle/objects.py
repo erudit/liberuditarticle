@@ -421,8 +421,8 @@ class EruditArticle(ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
         element_name = 'titre'
         alternative_element_name = None
         if self.article_type == 'compterendu':
-            element_name = 'trefbiblio'
-            alternative_element_name = 'titre'
+            element_name = 'titre'
+            alternative_element_name = 'trefbiblio'
 
         element = self.find(element_name)
         element = self.find(alternative_element_name) \
