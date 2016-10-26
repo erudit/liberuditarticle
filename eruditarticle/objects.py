@@ -414,6 +414,11 @@ class EruditArticle(ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
         """ Returns the subtitle of the article object. """
         return self.stringify_children(self.find('sstitre'))
 
+    def get_bibliographic_reference(self):
+        """ Return the bibliographic reference of the article """
+        reference = self.stringify_children(self.find('trefbiblio'))
+        return reference.strip() if reference else None
+
     def _get_title_element(self):
         """ Return the element containing the title
 
@@ -436,6 +441,7 @@ class EruditArticle(ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
     abstracts = property(get_abstracts)
     article_type = property(get_article_type)
     authors = property(get_authors)
+    bibliographic_reference = property(get_bibliographic_reference)
     doi = property(get_doi)
     first_page = property(get_first_page)
     full_title = property(get_full_title)

@@ -1,0 +1,72 @@
+<article xmlns="http://www.erudit.org/xsd/article" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" idproprio="49222ac" lang="fr" ordseq="13" qualtraitement="minimal" typeart="compterendu" xsi:schemaLocation="http://www.erudit.org/xsd/article http://www.erudit.org/xsd/article/3.0.0/eruditarticle.xsd">
+          <admin>
+            <infoarticle>
+              <pagination>
+                <ppage>17</ppage>
+                <dpage>17</dpage>
+              </pagination>
+            </infoarticle>
+            <revue id="sequences1081634" lang="fr">
+              <titrerev>Séquences</titrerev>
+              <sstitrerev>La revue de cinéma</sstitrerev>
+              <titrerevabr>sequences</titrerevabr>
+              <idissn>0037-2412</idissn>
+              <idissnnum>1923-5100</idissnnum>
+              <directeur sexe="masculin">
+                <nompers>
+                  <prenom>Yves</prenom>
+                  <nomfamille>Beauregard</nomfamille>
+                </nompers>
+              </directeur>
+              <redacteurchef sexe="masculin" typerc="regulier">
+                <nompers>
+                  <prenom>Maurice</prenom>
+                  <nomfamille>Elia</nomfamille>
+                </nompers>
+              </redacteurchef>
+            </revue>
+            <numero id="sequences1140312">
+              <nonumero>196</nonumero>
+              <pub>
+                <periode>Mai</periode>
+                <periode>Juin</periode>
+                <annee>1998</annee>
+              </pub>
+              <pubnum>
+                <date typedate="publication">2010-04-20</date>
+              </pubnum>
+            </numero>
+            <editeur>
+              <nomorg>La revue Séquences Inc.</nomorg>
+            </editeur>
+            <prodnum>
+              <nomorg>Érudit</nomorg>
+            </prodnum>
+            <diffnum>
+              <nomorg>Érudit</nomorg>
+            </diffnum>
+            <schema lang="fr" nom="Erudit Article" version="3.0.0"/>
+            <droitsauteur>Tous droits réservés © <nomorg>La revue Séquences Inc.</nomorg>, 1998</droitsauteur>
+          </admin>
+          <liminaire>
+            <grtitre>
+              <surtitre>Chroniques</surtitre>
+              <surtitre2>Les cinéastes de demain</surtitre2>
+              <titre>Love and death on long island</titre>
+              <sstitre>Premier délice</sstitre>
+              <trefbiblio>
+                <marquage typemarq="italique">Love and Death on Long Island (Rendez-vous à Long Island),</marquage> Grande-Bretagne / Canada, 1997, 93 minutes</trefbiblio>
+            </grtitre>
+            <grauteur>
+              <auteur id="au1">
+                <nompers>
+                  <prenom>Geneviève</prenom>
+                  <nomfamille>Royer</nomfamille>
+                </nompers>
+              </auteur>
+            </grauteur>
+          </liminaire>
+          <corps>
+            <texte>LOVE AND DEATH ON LONG ISLANDPremier déliceAmour et mort, désir et culpabilité, passion et honte: autant de contrastes pour ce premier long métrage de Richard Kwietniowski qui met en scène, précisément, la rencontre de deux cultures opposées. Giles De'Ath, un écrivain britannique, vit en marge des commodités de l'ère moderne, complètement à l'abri des progrès technologiques des cinquante dernières années ainsi que de la culture qu'ils ont générée. Lorsqu'il tombe amoureux de Ronnie Bostock, un jeune acteur qu'il découvre par hasard dans un film de série B pour adolescentes, un monde nouveau (et le Nouveau Monde) s'ouvre à lui.Le talent du réalisateur-scénariste est incontestable. L'univers mental de Giles envahit si spontanément l'écran que le spectateur y plonge totalement. Son point de vue devient le nôtre, l'objet de sa passion aussi. La musique, à la fois séduisante et mystérieuse, enrobe le récit d'une atmosphère envoûtante et inquiétante. Kwietniowski profite de chaque détour pour insérer une touche comique au récit fataliste. Par exemple, l'amusement est total lorsque Giles aide Ronnie à apprendre le texte insipide de son prochain film en lui donnant la réplique, composée d'une succession d'expressions familières — très américaines et très ados.Kwietniowski réussit à traduire la montée des sentiments amoureux chez le vieil homme et la série de comportements qu'ils engendrent. Son scénario rend avec crédibilité les divers traits de la personnalité de Giles: d'abord inflexible et intransigeant, sérieux et renfermé; puis extrêmement vulnérable et ensorcelé, attentif aux moindres détails qui ont trait à l'objet de son obsession. On a tôt fait de s'attacher à cet homme, même dans les moments où il pourrait sembler ridicule. John Hurt incarne avec brio cet intellectuel rangé, bien établi et respecté, aux habitudes et manies inchangées depuis des décennies. On croit tant à son personnage qu'on craint le pire pour lui qui a scellé sous vide ses émotions pour ensuite les déchaîner si soudainement. D'autant plus qu'on ne peut s'empêcher de penser aux destins de Humbert Humbert et de Gustav d'Aschenbach, cousins spirituels de Giles. De telles évocations associées à un premier long métrage étonnent et ravissent à la fois.Geneviève RoyerLOVE AND DEATH ON LONG ISLAND (Rendez-vous à Long Island)Grande-Bretagne/Canada 1997,93 minutes — Réal.: Richard Kwietniowski — Stén.: Richard Kwietniowski, d'après le roman de Gilbert Adair — Photo: Oliver Curtis — Mont: Susan Shipton — Mus.: The Insects, Richard Grassby-Lewis — Int.: John Hurt (Giles De'Ath), Jason Priestley (Ronnie Bostock). Fiona Loewi (Audrey), Sheila Hancock (M™ Barker), Maury Chaykin (Irving Buckmuller), Gawm Grainger (Henry) — Prod.: Steve Clark-Hall, Christopher Zimmer — Dist: Alliance.No 196 • Mai/Juin 199817</texte>
+          </corps>
+        </article>
