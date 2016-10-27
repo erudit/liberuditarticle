@@ -56,3 +56,6 @@ class TestArticleCulturelMinimal(BaseTestCase):
 
     def test_isbn_num(self):
         assert self.test_objects['34598ac.xml'].get_isbn_num() is None
+
+    def test_can_extract_bibliographic_reference(self):
+        assert self.test_objects['49222ac.xml'].get_bibliographic_reference() == "Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"  # noqa
