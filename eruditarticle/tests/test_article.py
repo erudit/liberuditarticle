@@ -33,6 +33,25 @@ class TestArticleSavantComplet(BaseTestCase):
         assert self.test_objects['1001948ar_alt.xml'].get_html_title() == b'La pr&#233;cision des analystes financiers en Europe&#160;: l&#8217;effet pays et l&#8217;effet secteur <strong>test</strong> test 2  revisit&#233;s'   # noqa
 
 
+class TestArticleSavantMinimal(BaseTestCase):
+
+    @pytest.fixture(autouse=True)
+    def setup(self):
+        self.object_type = EruditArticle
+        self.objects_path = './eruditarticle/tests/fixtures/article/savant/minimal'
+        super().setup()
+
+    def test_can_return_titles_and_title_paral(self):
+
+        assert self.test_objects['602354ar.xml'].get_titles() == {
+            'title': 'Immigration, langues et performance économique : le Québec et l’Ontario entre 1970 et 1995',  # noqa
+
+            'paral': {
+                'en': 'Immigration, Languages and Economic Performance: Quebec and Ontario between 1970 and 1995'  # noqa
+            }
+        }
+
+
 class TestArticleCulturelMinimal(BaseTestCase):
 
     @pytest.fixture(autouse=True)
