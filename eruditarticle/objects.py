@@ -438,6 +438,16 @@ class EruditArticle(ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
         """ Returns the title of the article object. """
         return self.stringify_children(self._get_title_element())
 
+    def get_titles(self):
+        """ Returns all the titles of the article object. """
+
+        titles = {
+            'title': self.get_title(),
+            'paral': self.find_paral(self.find('grtitre'), 'titreparal')
+        }
+
+        return titles
+
     abstracts = property(get_abstracts)
     article_type = property(get_article_type)
     authors = property(get_authors)
@@ -462,3 +472,4 @@ class EruditArticle(ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
     section_titles_3 = property(get_section_titles_3)
     subtitle = property(get_subtitle)
     title = property(get_title)
+    titles = property(get_titles)
