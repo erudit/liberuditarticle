@@ -329,7 +329,7 @@ class EruditArticle(ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
 
     def get_html_title(self):
         """ Returns the title of the article object with HTML tags. """
-        return self.convert_marquage_content_to_html(self._get_title_element())
+        return self.convert_marquage_content_to_html(self.find('titre'))
 
     def get_keywords(self):
         """ Returns the keywords of the article object.
@@ -419,24 +419,9 @@ class EruditArticle(ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
         reference = self.stringify_children(self.find('trefbiblio'))
         return reference.strip() if reference else None
 
-    def _get_title_element(self):
-        """ Return the element containing the title
-
-        The title element depends on the type of the article """
-        element_name = 'titre'
-        alternative_element_name = None
-        if self.article_type == 'compterendu':
-            element_name = 'titre'
-            alternative_element_name = 'trefbiblio'
-
-        element = self.find(element_name)
-        element = self.find(alternative_element_name) \
-            if element is None and alternative_element_name is not None else element
-        return element
-
     def get_title(self):
         """ Returns the title of the article object. """
-        return self.stringify_children(self._get_title_element())
+        return self.stringify_children(self.find('titre'))
 
     def get_titles(self):
         """ Returns all the titles of the article object. """
