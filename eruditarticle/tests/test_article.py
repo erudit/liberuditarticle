@@ -32,6 +32,12 @@ class TestArticleSavantComplet(BaseTestCase):
         assert self.test_objects['1001948ar.xml'].get_html_title() == b'La pr&#233;cision des analystes financiers en Europe&#160;: l&#8217;effet pays et l&#8217;effet secteur revisit&#233;s'  # noqa
         assert self.test_objects['1001948ar_alt.xml'].get_html_title() == b'La pr&#233;cision des analystes financiers en Europe&#160;: l&#8217;effet pays et l&#8217;effet secteur <strong>test</strong> test 2  revisit&#233;s'   # noqa
 
+    def test_publication_period(self):
+        assert self.test_objects['1001948ar.xml'].get_publication_period() == 'Juin 2010'
+        assert self.test_objects['009255ar.xml'].get_publication_period() ==\
+            'November 2003, February 2004'
+        assert self.test_objects['1005860ar.xml'].get_publication_period() == "2008–2009"
+
 
 class TestArticleSavantMinimal(BaseTestCase):
 
@@ -75,6 +81,12 @@ class TestArticleCulturelMinimal(BaseTestCase):
 
     def test_isbn_num(self):
         assert self.test_objects['34598ac.xml'].get_isbn_num() is None
+
+    def test_publication_period(self):
+        assert self.test_objects['34598ac.xml'].get_publication_period() == 'Juin–Juillet–Août 2008'
+        assert self.test_objects['49222ac.xml'].get_publication_period() == 'Mai–Juin 1998'
+        assert self.test_objects['65943ac.xml'].get_publication_period() ==\
+            'Février–Mars–Avril–Mai 2012'
 
     def test_can_extract_bibliographic_reference(self):
         assert self.test_objects['49222ac.xml'].get_bibliographic_reference() == "Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"  # noqa

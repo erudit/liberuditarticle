@@ -1,6 +1,52 @@
 # -*- coding: utf-8 -*-
 
 
+class PublicationPeriodMixin(object):
+
+    def get_publication_period(self):
+        """ Returns the publication period and the year of the publication object. """
+
+        child_elements = self.find('numero//pub').getchildren()
+        first_element = child_elements.pop(0)
+        if first_element.tag == 'annee':
+            previous_item_is_year = True
+        else:
+            previous_item_is_year = False
+
+        publication_period = first_element.text
+
+        for element in child_elements:
+            if element.tag == 'periode':
+                if previous_item_is_year:
+                    publication_period = "{}, {}".format(
+                        publication_period,
+                        element.text,
+                    )
+                else:
+                    publication_period = "{}–{}".format(
+                        publication_period,
+                        element.text,
+                    )
+                previous_item_is_year = False
+
+            if element.tag == 'annee':
+                if previous_item_is_year:
+                    publication_period = "{}–{}".format(
+                        publication_period,
+                        element.text
+                    )
+                else:
+                    publication_period = "{} {}".format(
+                        publication_period,
+                        element.text
+                    )
+                previous_item_is_year = True
+
+        return publication_period
+
+    publication_period = property(get_publication_period)
+
+
 class ISBNMixin(object):
     def get_isbn(self):
         """ Returns the ISBN number associated with the article object. """

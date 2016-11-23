@@ -8,6 +8,7 @@ from .base import EruditBaseObject
 from .mixins import CopyrightMixin
 from .mixins import ISBNMixin
 from .mixins import ISSNMixin
+from .mixins import PublicationPeriodMixin
 
 
 class EruditJournal(EruditBaseObject):
@@ -44,7 +45,9 @@ class EruditJournal(EruditBaseObject):
     publication_period = property(get_publication_period)
 
 
-class EruditPublication(ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
+class EruditPublication(
+    PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject
+):
     def get_article_count(self):
         """ Returns the number of articles of the publication object. """
         return int(self.get_text('nbarticle'))
@@ -222,12 +225,6 @@ class EruditPublication(ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
         """ Returns the publication date of the publication object. """
         return self.get_text('numero//pubnum/date')
 
-    def get_publication_period(self):
-        """ Returns the publication period of the publication object. """
-        year = self.publication_year
-        period = self.get_text('numero//pub//periode')
-        return ' '.join([period, year]) if period else year
-
     def get_publication_year(self):
         """ Returns the publication year of the publication object. """
         return self.get_text('numero//pub//annee')
@@ -263,7 +260,6 @@ class EruditPublication(ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
     number = property(get_number)
     production_date = property(get_production_date)
     publication_date = property(get_publication_date)
-    publication_period = property(get_publication_period)
     publication_year = property(get_publication_year)
     section_titles = property(get_section_titles)
     theme = property(get_theme)
@@ -271,7 +267,7 @@ class EruditPublication(ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
     volume = property(get_volume)
 
 
-class EruditArticle(ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
+class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
     def get_abstracts(self):
         """ Returns the abstracts of the article object.
 
