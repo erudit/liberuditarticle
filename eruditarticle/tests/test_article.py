@@ -38,6 +38,14 @@ class TestArticleSavantComplet(BaseTestCase):
             'November 2003, February 2004'
         assert self.test_objects['1005860ar.xml'].get_publication_period() == "2008–2009"
 
+    def test_can_return_subtitles_and_paralel_subtitles(self):
+        assert self.test_objects['1005860ar.xml'].get_subtitles() == {
+            'title': "Présentation",
+            'paral': {
+                'en': 'Presentation'
+            }
+        }
+
 
 class TestArticleSavantMinimal(BaseTestCase):
 

@@ -429,6 +429,16 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
 
         return titles
 
+    def get_subtitles(self):
+        """ Return all the subtitles of the article object. """
+
+        subtitles = {
+            'title': self.get_subtitle(),
+            'paral': self.find_paral(self.find('grtitre'), 'sstitreparal')
+        }
+
+        return subtitles
+
     abstracts = property(get_abstracts)
     article_type = property(get_article_type)
     authors = property(get_authors)
@@ -454,3 +464,4 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
     subtitle = property(get_subtitle)
     title = property(get_title)
     titles = property(get_titles)
+    subtitles = property(get_subtitles)
