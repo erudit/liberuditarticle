@@ -347,9 +347,15 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             })
         return keywords
 
-    def get_lang(self):
+    def get_languages(self):
         """ Returns the language of the article object. """
-        return self._root.get('lang')
+        return self._root.get('lang').split()
+
+    def get_language(self):
+        """ Return the principal language of the article. """
+        languages = self.get_languages()
+        if languages:
+            return languages[0]
 
     def get_last_page(self):
         """ Returns the last page of the article object. """
@@ -414,6 +420,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
 
     def get_bibliographic_reference(self):
         """ Return the bibliographic reference of the article """
+        # FIXME: find all references
         reference = self.stringify_children(self.find('trefbiblio'))
         return reference.strip() if reference else None
 
@@ -511,7 +518,8 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
     html_body = property(get_html_body)
     html_title = property(get_html_title)
     keywords = property(get_keywords)
-    lang = property(get_lang)
+    languages = property(get_languages)
+    language = property(get_language)
     last_page = property(get_last_page)
     ordseq = property(get_ordseq)
     processing = property(get_processing)
