@@ -10,6 +10,8 @@ from .mixins import ISBNMixin
 from .mixins import ISSNMixin
 from .mixins import PublicationPeriodMixin
 
+ArticleTitle = collections.namedtuple('ArticleTitle', ['title', 'subtitle', 'lang'])
+
 
 class EruditJournal(EruditBaseObject):
     def get_first_publication_year(self):
@@ -420,24 +422,84 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         return self.stringify_children(self.find('titre'))
 
     def get_titles(self):
-        """ Returns all the titles of the article object. """
+        """ Retrieve the titles of an article
+
+        :returns: a dict containing all the titles and subtitles of the article object.
+
+        Titles are grouped in four categories: ``main``, ``paral``, ``equivalent`` and
+        ``bibliographic_references``, where  ``main`` is the title proper, ``paral`` the
+        parallel titles proper, and ``equivalent`` the original titles in a language
+        different from that of the title proper. Parallel titles accompanies an article
+        body in the specified language, while equivalent titles do not have an
+        accompanying article body. When no ``<titre>`` tag is present, the bibliographic
+        references are used in place.
+
+        The value for ``main`` is an ArticleTitle namedtuple. The value for ``paral`` and
+        ``equivalent`` is a list of ArticleTitle namedtuples. The value for
+        ``bibliographic_references`` is a list of strings. Items in ``paral`` are ordered
+        by the position of their ``lang`` attribute in the main ``<article>``. Items in
+        ``equivalent`` are ordered by their position in the XML document.
+
+        Here is an example of a return value::
+
+            titles = {
+                'main': ArticleTitle(
+                    title='Serge Emmanuel Jongué',
+                    subtitle='Capter et narrer l'indicible',
+                    lang='fr',
+                },
+                'paral': [
+                    ArticleTitle(
+                        title='Serge Emmanuel Jongué',
+                        subtitle='Capturing and Narrating the Unspeakable',
+                        lang='en'
+                    )
+                ],
+                'equivalent': [
+                    ArticleTitle(
+                    title='la lorem ipsum dolor sit amet',
+                    subtitle='la sub lorem ipsum',
+                    lang='es',
+                ],
+                bibliographic_references=[],
+            }
+
+        While the ``lang`` attribute of each ``<titreparal>`` tag is specified explicitely,
+        the ``lang`` of the main title is not specified in the XML document. It is assumed
+        to be the first value of ``lang`` in the ``<article>`` tag.
+
+        If the article is ill-defined and specifies a subtitle for a given language without
+        specifying a corresponding title, this subtitle will be ignored.
+
+        Ref: http://www.erudit.org/xsd/article/3.0.0/doc/eruditarticle_xsd.html#article
+
+        """
+        languages = self.get_languages()
+        paral_titles = self.find_paral(self.find('grtitre'), 'titreparal')
+        paral_subtitles = self.find_paral(self.find('grtitre'), 'sstitreparal')
 
         titles = {
-            'title': self.get_title(),
-            'paral': self.find_paral(self.find('grtitre'), 'titreparal')
+            'main': ArticleTitle(
+                title=self.get_title(),
+                subtitle=self.get_subtitle(),
+                lang=languages.pop(0)
+            ),
+            'paral': [],
+            'equivalent': [],
+            'bibliographic_references': self.get_bibliographic_references()
         }
 
+        for lang, title in paral_titles.items():
+            paral_title = ArticleTitle(
+                title=title,
+                lang=lang,
+                subtitle=paral_subtitles[lang] if lang in paral_subtitles else None
+            )
+            if lang in languages:
+                titles['paral'].append(paral_title)
+            else:
+                titles['equivalent'].append(paral_title)
         return titles
-
-    def get_subtitles(self):
-        """ Return all the subtitles of the article object. """
-
-        subtitles = {
-            'title': self.get_subtitle(),
-            'paral': self.find_paral(self.find('grtitre'), 'sstitreparal')
-        }
-
-        return subtitles
 
     abstracts = property(get_abstracts)
     article_type = property(get_article_type)
@@ -464,4 +526,3 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
     subtitle = property(get_subtitle)
     title = property(get_title)
     titles = property(get_titles)
-    subtitles = property(get_subtitles)
