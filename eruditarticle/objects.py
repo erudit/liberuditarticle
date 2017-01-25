@@ -418,11 +418,10 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """ Returns the subtitle of the article object. """
         return self.stringify_children(self.find('sstitre'))
 
-    def get_bibliographic_reference(self):
+    def get_bibliographic_references(self):
         """ Return the bibliographic reference of the article """
-        # FIXME: find all references
-        reference = self.stringify_children(self.find('trefbiblio'))
-        return reference.strip() if reference else None
+        references = [self.stringify_children(ref).strip() for ref in self.findall('trefbiblio')]
+        return references
 
     def get_title(self):
         """ Returns the title of the article object. """
@@ -511,7 +510,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
     abstracts = property(get_abstracts)
     article_type = property(get_article_type)
     authors = property(get_authors)
-    bibliographic_reference = property(get_bibliographic_reference)
+    bibliographic_references = property(get_bibliographic_references)
     doi = property(get_doi)
     first_page = property(get_first_page)
     full_title = property(get_full_title)
