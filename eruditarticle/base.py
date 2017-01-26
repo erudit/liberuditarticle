@@ -45,23 +45,23 @@ class EruditBaseObject(object):
         return dom.findall('.//{}'.format(tag_name))
 
     def get_nodes(self, dom=None):
-        """ Returns all the elements under the current root. """
+        """ :returns: all the elements under the current root. """
         dom = dom if dom is not None else self._root
         return dom.xpath('child::node()')
 
     def get_text(self, tag_name, dom=None):
-        """ Returns the text associated with the considered tag. """
+        """ :returns: the text associated with the considered tag. """
         result = self.find(tag_name, dom=dom)
         return result.text if result is not None else None
 
     def get_itertext(self, tag_name, dom=None):
-        """ Returns the text associated with the considered tag and
-its children tags """
+        """ :returns: the text associated with the considered tag and its children tags
+        """
         result = self.find(tag_name, dom=dom)
         return "".join(result.itertext()) if result is not None else None
 
     def get_text_from_tags(self, tag_names, dom=None):
-        """ Returns the first text value associated with a list of potential tags. """
+        """ :returns: the first text value associated with a list of potential tags. """
         text = None
         for tname in tag_names:
             text = self.get_text(tname, dom=dom)
@@ -72,8 +72,9 @@ its children tags """
     def parse_person(self, person_tag):
         """ Parses a person tag
 
-        Returns a dictionary in the form:
-        The persons are returned as a list of dictionaries of the form:
+        :returns: a person dictionary
+
+        The persons are returned as a list of dictionaries of the form::
 
             [
                 {
@@ -108,12 +109,9 @@ its children tags """
     def parse_simple_link(self, simplelink_node):
         """ Parses a "liensimple" node.
 
-        Returns a dictionary of the form:
+        :returns: a dictionary of the form::
 
-            {
-                'href': '[link]',
-                'img': '[link]',
-            }
+            { 'href': '[link]', 'img': '[link]', }
 
         """
         link = {
@@ -127,7 +125,7 @@ its children tags """
         return link
 
     def get_persons(self, tag_name, dom=None):
-        """ Returns the persons for the considered tag name.
+        """ :returns: the persons for the considered tag name.
 
         Return a list of dictionaries in the format specified by parse_person
         """
