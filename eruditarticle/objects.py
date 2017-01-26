@@ -538,24 +538,21 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         separating it from its subtitle.
         """
         titles = self.get_titles()
+        sections = []
         if titles['main'].title is not None:
-            if titles['paral']:
-                return "{main_title} / {paral_titles}".format(
-                    main_title=self._format_single_title(titles['main']),
-                    paral_titles=" / ".join(
-                        self._format_single_title(paral_title)
-                        for paral_title in titles['paral']
-                    )
-                )
+            sections.append(self._format_single_title(titles['main']))
 
-            return self._format_single_title(titles['main'])
+        if titles['paral']:
+            sections.append(" / ".join(
+                self._format_single_title(paral_title)
+                for paral_title in titles['paral']
+            ))
 
-        elif titles['bibliographic_references']:
-            return " / ".join(
+        if titles['bibliographic_references']:
+            sections.append(" / ".join(
                 reference for reference in titles['bibliographic_references']
-            )
-
-        return None
+            ))
+        return " / ".join(sections)
 
     abstracts = property(get_abstracts)
     article_type = property(get_article_type)
