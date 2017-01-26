@@ -136,12 +136,21 @@ its children tags """
             persons.append(self.parse_person(tree_author))
         return persons
 
-    def stringify_children(self, node):
-        """ Returns the text embedded in a specific node by removing any tags. """
-        try:
-            return ''.join([x for x in node.itertext()])
-        except AttributeError:
-            return
+    def stringify_children(self, node, strip_elements=None):
+        """ Convert a node content to string
+
+        :param strip_elements: elements to strip before converting to string
+
+        :returns: the text embedded in a specific node by stripping all tags
+            and stripping specified elements.
+        """
+        if node is None:
+            return None
+        node = copy(node)
+        if strip_elements:
+            et.strip_elements(node, *strip_elements)
+        et.strip_tags(node, "*")
+        return node.text
 
     def convert_marquage_content_to_html(self, node):
         """ Converts <marquage> tags to HTML using a specific node. """
@@ -155,7 +164,7 @@ its children tags """
             _node,
             *[
                 node.tag, 'caracunicode', 'citation', 'equationligne', 'exposant', 'indice',
-                'liensimple', 'marquepage', 'objetmedia',
+                'liensimple', 'marquepage', 'objetmedia', 'renvoi'
             ])
         _html = et.tostring(_node.getroot())
         return _html.split(b'>', 1)[1].rsplit(b'<', 1)[0]

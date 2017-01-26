@@ -67,6 +67,13 @@ class TestArticleSavantComplet(BaseTestCase):
             'bibliographic_references': [],
         }
 
+        assert self.test_objects['1003507ar.xml'].get_titles() == {
+            'main': ArticleTitle(title="Reconceptualizing Translation – Some Chinese Endeavours", subtitle=None, lang="en"),  # noqa
+            'paral': [],
+            'equivalent': [],
+            'bibliographic_references': [],
+        }
+
     def test_can_return_formatted_titles(self):
         assert self.test_objects['1005860ar.xml'].get_formatted_title() == "Esthétique et sémiotique :\xa0Présentation / Aesthetics and Semiotics : Presentation"  # noqa
 
