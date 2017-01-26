@@ -38,13 +38,42 @@ class TestArticleSavantComplet(BaseTestCase):
             'November 2003, February 2004'
         assert self.test_objects['1005860ar.xml'].get_publication_period() == "2008–2009"
 
-    def test_can_return_subtitles_and_paralel_subtitles(self):
-        assert self.test_objects['1005860ar.xml'].get_subtitles() == {
-            'title': "Présentation",
-            'paral': {
-                'en': 'Presentation'
-            }
+    def test_can_return_titles_subtitles(self):
+        from eruditarticle.objects import ArticleTitle
+
+        assert self.test_objects['1005860ar.xml'].get_titles() == {
+            'main': ArticleTitle(title="Esthétique et sémiotique", subtitle="Présentation", lang="fr"),  # noqa
+            "paral": [
+                ArticleTitle(title="Aesthetics and Semiotics", lang="en", subtitle="Presentation")  # noqa
+            ],
+            "equivalent": [],
+            'bibliographic_references': []
         }
+
+        assert self.test_objects['044308ar.xml'].get_titles() == {
+            'main': ArticleTitle(title=None, subtitle=None, lang="fr"),
+            'paral': [],
+            'equivalent': [],
+            'bibliographic_references': [
+                    'Sociologie des relations professionnelles, Par Michel Lallement, Nouvelle édition, Paris\xa0: La Découverte, collection Repères, 2008, 121 p., ISBN 978-2-7071-5446-0.',  # noqa
+                    'Sociologie du travail : les relations professionnelles, Par Antoine Bevort et Annette Jobert, Paris : Armand Collin, collection U, 2008, 268\xa0p., ISBN 978-2-200-34571-6.'  # noqa
+            ]
+        }
+
+        assert self.test_objects['1004725ar.xml'].get_titles() == {
+            'main': ArticleTitle(title="Introduction: Food, Language, and Identity", subtitle=None, lang="en"),  # noqa
+            'paral': [],
+            'equivalent': [ArticleTitle(title="Cuisine, langue et identité", subtitle=None, lang="fr")],  # noqa
+            'bibliographic_references': [],
+        }
+
+    def test_can_return_formatted_titles(self):
+        assert self.test_objects['1005860ar.xml'].get_formatted_title() == "Esthétique et sémiotique :\xa0Présentation / Aesthetics and Semiotics : Presentation"  # noqa
+
+        assert self.test_objects['044308ar.xml'].get_formatted_title() == 'Sociologie des relations professionnelles, Par Michel Lallement, Nouvelle édition, Paris\xa0: La Découverte, collection Repères, 2008, 121 p., ISBN 978-2-7071-5446-0. / Sociologie du travail : les relations professionnelles, Par Antoine Bevort et Annette Jobert, Paris : Armand Collin, collection U, 2008, 268\xa0p., ISBN 978-2-200-34571-6.'  # noqa
+
+    def test_can_return_languages(self):
+        assert self.test_objects['1005860ar.xml'].get_languages() == ['fr', 'en']
 
 
 class TestArticleSavantMinimal(BaseTestCase):
@@ -55,14 +84,15 @@ class TestArticleSavantMinimal(BaseTestCase):
         self.objects_path = './eruditarticle/tests/fixtures/article/savant/minimal'
         super().setup()
 
-    def test_can_return_titles_and_title_paral(self):
-
+    def test_can_return_titles_and_subtitles(self):
+        from eruditarticle.objects import ArticleTitle
         assert self.test_objects['602354ar.xml'].get_titles() == {
-            'title': 'Immigration, langues et performance économique : le Québec et l’Ontario entre 1970 et 1995',  # noqa
-
-            'paral': {
-                'en': 'Immigration, Languages and Economic Performance: Quebec and Ontario between 1970 and 1995'  # noqa
-            }
+            'main': ArticleTitle(title='Immigration, langues et performance économique : le Québec et l’Ontario entre 1970 et 1995', lang="fr", subtitle=None),  # noqa
+            'equivalent': [
+                ArticleTitle(title='Immigration, Languages and Economic Performance: Quebec and Ontario between 1970 and 1995', lang='en', subtitle=None)  # noqa
+            ],
+            'paral': [],
+            'bibliographic_references': [],
         }
 
 
@@ -77,6 +107,19 @@ class TestArticleCulturelMinimal(BaseTestCase):
     def test_all_instances(self):
         for object_name, article in self.test_objects.items():
             assert isinstance(article, EruditArticle)
+
+    def test_can_return_its_title(self):
+        from eruditarticle.objects import ArticleTitle
+        assert self.test_objects['49222ac.xml'].get_titles() == {
+            'main': ArticleTitle(
+                title='Love and death on long island',
+                subtitle='Premier délice',
+                lang='fr',
+            ),
+            'paral': [],
+            'equivalent': [],
+            'bibliographic_references': ["Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"]  # noqa
+        }
 
     def test_issn(self):
         assert self.test_objects['34598ac.xml'].get_issn() == '0835-7641'
@@ -96,5 +139,5 @@ class TestArticleCulturelMinimal(BaseTestCase):
         assert self.test_objects['65943ac.xml'].get_publication_period() ==\
             'Février–Mars–Avril–Mai 2012'
 
-    def test_can_extract_bibliographic_reference(self):
-        assert self.test_objects['49222ac.xml'].get_bibliographic_reference() == "Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"  # noqa
+    def test_can_extract_bibliographic_references(self):
+        assert self.test_objects['49222ac.xml'].get_bibliographic_references() == ["Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"]  # noqa

@@ -10,20 +10,22 @@ from .mixins import ISBNMixin
 from .mixins import ISSNMixin
 from .mixins import PublicationPeriodMixin
 
+ArticleTitle = collections.namedtuple('ArticleTitle', ['title', 'subtitle', 'lang'])
+
 
 class EruditJournal(EruditBaseObject):
     def get_first_publication_year(self):
-        """ Returns the first publication year of the journal. """
+        """ :returns: the first publication year of the journal. """
         pubyears = self.get_publication_years()
         return pubyears[0] if pubyears else None
 
     def get_last_publication_year(self):
-        """ Returns the last publication year of the journal. """
+        """ :returns: the last publication year of the journal. """
         pubyears = self.get_publication_years()
         return pubyears[-1] if pubyears else None
 
     def get_publication_period(self):
-        """ Returns the publication period of the journal object. """
+        """ :returns: the publication period of the journal object. """
         pubyears = self.get_publication_years()
         years_count = len(pubyears)
         if years_count > 1:
@@ -32,8 +34,8 @@ class EruditJournal(EruditBaseObject):
             return pubyears[0]
 
     def get_publication_years(self):
-        """ Returns a list of publication years. """
-        """ Returns the publication period of the journal object. """
+        """ :returns: a list of publication years. """
+        """ :returns: the publication period of the journal object. """
         pubyears = []
         for tree_year in self.findall('annee'):
             pubyears.append(int(tree_year.get('valeur')))
@@ -49,19 +51,19 @@ class EruditPublication(
     PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject
 ):
     def get_article_count(self):
-        """ Returns the number of articles of the publication object. """
+        """ :returns: the number of articles of the publication object. """
         return int(self.get_text('nbarticle'))
 
     def get_directors(self):
-        """ Returns the authors of the publication object. """
+        """ :returns: the authors of the publication object. """
         return self.get_persons('directeur')
 
     def get_editors(self):
-        """ Returns the the editors of the publication object. """
+        """ :returns: the the editors of the publication object. """
         return self.get_persons('redacteurchef')
 
     def get_guest_editors(self):
-        """ Returns the guest editors associated with the publication object. """
+        """ :returns: the guest editors associated with the publication object. """
         return self.get_persons('redacteurchef[@typerc="invite"]')
 
     def get_notegen_edito(self):
@@ -146,7 +148,7 @@ class EruditPublication(
         return redacteurchefs
 
     def get_first_page(self):
-        """ Returns the first page of the publication object. """
+        """ :returns: the first page of the publication object. """
         articles = self.findall('article')
         if not len(articles):
             return
@@ -160,15 +162,15 @@ class EruditPublication(
         return first_page
 
     def get_html_theme(self):
-        """ Returns the theme of the publication object with HTML tags. """
+        """ :returns: the theme of the publication object with HTML tags. """
         return self.convert_marquage_content_to_html(self.find('theme'))
 
     def get_journal_subtitle(self):
-        """ Returns the sub-title of the journal associated with the publication object. """
+        """ :returns: the sub-title of the journal associated with the publication object. """
         return self.stringify_children(self.find('revue/sstitrerev'))
 
     def get_journal_subtitles(self):
-        """ Returns all the sub-titles of the journal associated with the publication object. """
+        """ :returns: all the sub-titles of the journal associated with the publication object. """
         titles = {
             'main': self.journal_subtitle,
             'paral': self.find_paral(self.find('revue'), 'sstitrerevparal'),
@@ -176,11 +178,11 @@ class EruditPublication(
         return titles
 
     def get_journal_title(self):
-        """ Returns the title of the journal associated with the publication object. """
+        """ :returns: the title of the journal associated with the publication object. """
         return self.stringify_children(self.find('revue/titrerev'))
 
     def get_journal_titles(self):
-        """ Returns all the titles of the journal associated with the publication object. """
+        """ :returns: all the titles of the journal associated with the publication object. """
         titles = {
             'main': self.journal_title,
             'paral': self.find_paral(self.find('revue'), 'titrerevparal'),
@@ -188,7 +190,7 @@ class EruditPublication(
         return titles
 
     def get_last_page(self):
-        """ Returns the last page of the publication object. """
+        """ :returns: the last page of the publication object. """
         articles = self.findall('article')
         if not len(articles):
             return
@@ -202,46 +204,46 @@ class EruditPublication(
         return last_page
 
     def get_note_edito(self):
-        """ Returns the edito note associated with the publication object if any. """
+        """ :returns: the edito note associated with the publication object if any. """
         note = self.stringify_children(self.find('notegen[@typenoteg="edito"]'))
         return note.strip() if note is not None else note
 
     def get_note_erudit(self):
-        """ Returns the erudit note associated with the publication object if any. """
+        """ :returns: the erudit note associated with the publication object if any. """
         note = self.stringify_children(self.find('notegen[@typenoteg="numerique"]'))
         return note.strip() if note is not None else note
 
     def get_number(self):
-        """ Returns the number of the publication object. """
+        """ :returns: the number of the publication object. """
         nonumero_nodes = self.findall('nonumero')
         return '-'.join([n.text for n in nonumero_nodes])
 
     def get_production_date(self):
-        """ Returns the production date of the publication object. """
+        """ :returns: the production date of the publication object. """
         originator_node = self.find('originator')
         return originator_node.get('date') if originator_node is not None else None
 
     def get_publication_date(self):
-        """ Returns the publication date of the publication object. """
+        """ :returns: the publication date of the publication object. """
         return self.get_text('numero//pubnum/date')
 
     def get_publication_year(self):
-        """ Returns the publication year of the publication object. """
+        """ :returns: the publication year of the publication object. """
         return self.get_text('numero//pub//annee')
 
     def get_section_titles(self):
-        """ Returns an ordered list of section titles of the publication object. """
+        """ :returns: an ordered list of section titles of the publication object. """
         section_titles = []
         for tree_section in self.findall('article//liminaire//grtitre//surtitre'):
             section_titles.append(tree_section.text)
         return [t for t, _ in itertools.groupby(section_titles)]
 
     def get_theme(self):
-        """ Returns the theme of the publication object. """
+        """ :returns: the theme of the publication object. """
         return self.stringify_children(self.find('theme'))
 
     def get_volume(self):
-        """ Returns the volume of the publication object. """
+        """ :returns: the volume of the publication object. """
         return self.get_text('numero/volume')
 
     article_count = property(get_article_count)
@@ -269,9 +271,9 @@ class EruditPublication(
 
 class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
     def get_abstracts(self):
-        """ Returns the abstracts of the article object.
+        """ :returns: the abstracts of the article object.
 
-        The abstracts are returned as list of dictionaries of the form:
+        The abstracts are returned as list of dictionaries of the form::
 
             {
                 'lang': 'fr',
@@ -287,23 +289,23 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         return abstracts
 
     def get_article_type(self):
-        """ Returns the type of the article. """
+        """ :returns: the type of the article. """
         return self._dom.getroot().get('typeart')
 
     def get_authors(self):
-        """ Returns the authors of the article object. """
+        """ :returns: the authors of the article object. """
         return self.get_persons('auteur')
 
     def get_doi(self):
-        """ Returns the DOI of the article object. """
+        """ :returns: the DOI of the article object. """
         return self.get_text('idpublic[@scheme="doi"]')
 
     def get_first_page(self):
-        """ Returns the first page of the article object. """
+        """ :returns: the first page of the article object. """
         return self.get_text('infoarticle//pagination//ppage')
 
     def get_full_title(self):
-        """ Returns the full title of the article object. """
+        """ :returns: the full title of the article object. """
         title = self.title
         subtitle = self.subtitle
 
@@ -314,7 +316,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         return None
 
     def get_html_body(self):
-        """ Returns the full body of the article object as HTML text. """
+        """ :returns: the full body of the article object as HTML text. """
         alinea_nodes = self.findall('para/alinea')
         if alinea_nodes:
             html_body = b' '.join([self.convert_marquage_content_to_html(n) for n in alinea_nodes])
@@ -324,13 +326,13 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         return b' '.join(html_body.split()) if html_body else ''
 
     def get_html_title(self):
-        """ Returns the title of the article object with HTML tags. """
+        """ :returns: the title of the article object with HTML tags. """
         return self.convert_marquage_content_to_html(self.find('titre'))
 
     def get_keywords(self):
-        """ Returns the keywords of the article object.
+        """ :returns: the keywords of the article object.
 
-        The keywords are returned as a list of dictionaries of the form:
+        The keywords are returned as a list of dictionaries of the form::
 
             {
                 'lang': 'fr',
@@ -345,37 +347,43 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             })
         return keywords
 
-    def get_lang(self):
-        """ Returns the language of the article object. """
-        return self._root.get('lang')
+    def get_languages(self):
+        """ :returns: the language of the article object. """
+        return self._root.get('lang').split()
+
+    def get_language(self):
+        """ Return the principal language of the article. """
+        languages = self.get_languages()
+        if languages:
+            return languages[0]
 
     def get_last_page(self):
-        """ Returns the last page of the article object. """
+        """ :returns: the last page of the article object. """
         return self.get_text('infoarticle//pagination//dpage')
 
     def get_ordseq(self):
-        """ Returns the ordering number of the article object. """
+        """ :returns: the ordering number of the article object. """
         ordseq = self._root.get('ordseq')
         return int(ordseq) if ordseq is not None else 0
 
     def get_processing(self):
-        """ Returns the processing type of the article object. """
+        """ :returns: the processing type of the article object. """
         return self._root.get('qualtraitement')
 
     def get_publication_year(self):
-        """ Returns the year of publication of the article object. """
+        """ :returns: the year of publication of the article object. """
         return self.get_text('numero//pub//annee')
 
     def get_publisher(self):
-        """ Returns the publisher of the article object. """
+        """ :returns: the publisher of the article object. """
         return self.get_text('editeur//nomorg')
 
     def get_section_title(self):
-        """ Returns the section title of the article object. """
+        """ :returns: the section title of the article object. """
         return self.stringify_children(self.find('liminaire//grtitre//surtitre'))
 
     def get_section_titles(self):
-        """ Returns all the section titles of the article object. """
+        """ :returns: all the section titles of the article object. """
         section_title = self.section_title
         return {
             'main': section_title,
@@ -383,11 +391,11 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         } if section_title else None
 
     def get_section_title_2(self):
-        """ Returns the second section title of the article object. """
+        """ :returns: the second section title of the article object. """
         return self.stringify_children(self.find('liminaire//grtitre//surtitre2'))
 
     def get_section_titles_2(self):
-        """ Returns all the second section titles of the article object. """
+        """ :returns: all the second section titles of the article object. """
         section_title_2 = self.section_title_2
         return {
             'main': section_title_2,
@@ -395,11 +403,11 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         } if section_title_2 else None
 
     def get_section_title_3(self):
-        """ Returns the third section title of the article object. """
+        """ :returns: the third section title of the article object. """
         return self.stringify_children(self.find('liminaire//grtitre//surtitre3'))
 
     def get_section_titles_3(self):
-        """ Returns all the third section titles of the article object. """
+        """ :returns: all the third section titles of the article object. """
         section_title_3 = self.section_title_3
         return {
             'main': section_title_3,
@@ -407,49 +415,160 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         } if section_title_3 else None
 
     def get_subtitle(self):
-        """ Returns the subtitle of the article object. """
+        """ :returns: the subtitle of the article object. """
         return self.stringify_children(self.find('sstitre'))
 
-    def get_bibliographic_reference(self):
+    def get_bibliographic_references(self):
         """ Return the bibliographic reference of the article """
-        reference = self.stringify_children(self.find('trefbiblio'))
-        return reference.strip() if reference else None
+        references = [self.stringify_children(ref).strip() for ref in self.findall('trefbiblio')]
+        return references
 
     def get_title(self):
-        """ Returns the title of the article object. """
+        """ :returns: the title of the article object. """
         return self.stringify_children(self.find('titre'))
 
     def get_titles(self):
-        """ Returns all the titles of the article object. """
+        """ Retrieve the titles of an article
+
+        :returns: a dict containing all the titles and subtitles of the article object.
+
+        Titles are grouped in four categories: ``main``, ``paral``, ``equivalent`` and
+        ``bibliographic_references``, where  ``main`` is the title proper, ``paral`` the
+        parallel titles proper, and ``equivalent`` the original titles in a language
+        different from that of the title proper. Parallel titles accompanies an article
+        body in the specified language, while equivalent titles do not have an
+        accompanying article body. When no ``<titre>`` tag is present, the bibliographic
+        references are used in place.
+
+        The value for ``main`` is an ArticleTitle namedtuple. The value for ``paral`` and
+        ``equivalent`` is a list of ArticleTitle namedtuples. The value for
+        ``bibliographic_references`` is a list of strings. Items in ``paral`` are ordered
+        by the position of their ``lang`` attribute in the main ``<article>``. Items in
+        ``equivalent`` are ordered by their position in the XML document.
+
+        Here is an example of a return value::
+
+            titles = {
+                'main': ArticleTitle(
+                    title='Serge Emmanuel Jongué',
+                    subtitle='Capter et narrer l'indicible',
+                    lang='fr',
+                },
+                'paral': [
+                    ArticleTitle(
+                        title='Serge Emmanuel Jongué',
+                        subtitle='Capturing and Narrating the Unspeakable',
+                        lang='en'
+                    )
+                ],
+                'equivalent': [
+                    ArticleTitle(
+                    title='la lorem ipsum dolor sit amet',
+                    subtitle='la sub lorem ipsum',
+                    lang='es',
+                ],
+                bibliographic_references=[],
+            }
+
+        While the ``lang`` attribute of each ``<titreparal>`` tag is specified explicitely,
+        the ``lang`` of the main title is not specified in the XML document. It is assumed
+        to be the first value of ``lang`` in the ``<article>`` tag.
+
+        If the article is ill-defined and specifies a subtitle for a given language without
+        specifying a corresponding title, this subtitle will be ignored.
+
+        Ref: http://www.erudit.org/xsd/article/3.0.0/doc/eruditarticle_xsd.html#article
+
+        """
+        languages = self.get_languages()
+        paral_titles = self.find_paral(self.find('grtitre'), 'titreparal')
+        paral_subtitles = self.find_paral(self.find('grtitre'), 'sstitreparal')
 
         titles = {
-            'title': self.get_title(),
-            'paral': self.find_paral(self.find('grtitre'), 'titreparal')
+            'main': ArticleTitle(
+                title=self.get_title(),
+                subtitle=self.get_subtitle(),
+                lang=languages.pop(0)
+            ),
+            'paral': [],
+            'equivalent': [],
+            'bibliographic_references': self.get_bibliographic_references()
         }
 
+        for lang, title in paral_titles.items():
+            paral_title = ArticleTitle(
+                title=title,
+                lang=lang,
+                subtitle=paral_subtitles[lang] if lang in paral_subtitles else None
+            )
+            if lang in languages:
+                titles['paral'].append(paral_title)
+            else:
+                titles['equivalent'].append(paral_title)
         return titles
 
-    def get_subtitles(self):
-        """ Return all the subtitles of the article object. """
+    def _format_single_title(self, title):
+        """ format an ArticleTitle namedtuple """
+        if title.lang == "fr":
+            separator = " :\xa0"
+        else:
+            separator = " : "
+        if title.title and title.subtitle:
+            return "{title}{separator}{subtitle}".format(
+                title=title.title,
+                separator=separator,
+                subtitle=title.subtitle
+            )
+        return "{title}".format(
+            title=title.title
+        )
 
-        subtitles = {
-            'title': self.get_subtitle(),
-            'paral': self.find_paral(self.find('grtitre'), 'sstitreparal')
-        }
+    def get_formatted_title(self):
+        """ Format the article titles
 
-        return subtitles
+        :returns: the formatted article title
+
+        This method calls :meth:`~.get_titles` and format its results.
+
+        The result is formatted in the following way::
+
+            "{main_title} : {main_subtitle} / .. /  {paral_title_n} : {paral_subtitle_n} / {bibliographic_references}"  # noqa
+
+        If an article title is in French, a non-breaking space is inserted after the colon
+        separating it from its subtitle.
+        """
+        titles = self.get_titles()
+        if titles['main'].title is not None:
+            if titles['paral']:
+                return "{main_title} / {paral_titles}".format(
+                    main_title=self._format_single_title(titles['main']),
+                    paral_titles=" / ".join(
+                        self._format_single_title(paral_title)
+                        for paral_title in titles['paral']
+                    )
+                )
+
+            return self._format_single_title(titles['main'])
+
+        elif titles['bibliographic_references']:
+            return " / ".join(
+                reference for reference in titles['bibliographic_references']
+            )
+
+        return None
 
     abstracts = property(get_abstracts)
     article_type = property(get_article_type)
     authors = property(get_authors)
-    bibliographic_reference = property(get_bibliographic_reference)
+    bibliographic_references = property(get_bibliographic_references)
     doi = property(get_doi)
     first_page = property(get_first_page)
     full_title = property(get_full_title)
     html_body = property(get_html_body)
     html_title = property(get_html_title)
     keywords = property(get_keywords)
-    lang = property(get_lang)
+    languages = property(get_languages)
+    language = property(get_language)
     last_page = property(get_last_page)
     ordseq = property(get_ordseq)
     processing = property(get_processing)
@@ -464,4 +583,3 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
     subtitle = property(get_subtitle)
     title = property(get_title)
     titles = property(get_titles)
-    subtitles = property(get_subtitles)
