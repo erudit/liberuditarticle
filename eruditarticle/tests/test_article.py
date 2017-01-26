@@ -47,14 +47,14 @@ class TestArticleSavantComplet(BaseTestCase):
                 ArticleTitle(title="Aesthetics and Semiotics", lang="en", subtitle="Presentation")  # noqa
             ],
             "equivalent": [],
-            'bibliographic_references': []
+            'reviewed_works': []
         }
 
         assert self.test_objects['044308ar.xml'].get_titles() == {
             'main': ArticleTitle(title=None, subtitle=None, lang="fr"),
             'paral': [],
             'equivalent': [],
-            'bibliographic_references': [
+            'reviewed_works': [
                     'Sociologie des relations professionnelles, Par Michel Lallement, Nouvelle édition, Paris\xa0: La Découverte, collection Repères, 2008, 121 p., ISBN 978-2-7071-5446-0.',  # noqa
                     'Sociologie du travail : les relations professionnelles, Par Antoine Bevort et Annette Jobert, Paris : Armand Collin, collection U, 2008, 268\xa0p., ISBN 978-2-200-34571-6.'  # noqa
             ]
@@ -64,14 +64,14 @@ class TestArticleSavantComplet(BaseTestCase):
             'main': ArticleTitle(title="Introduction: Food, Language, and Identity", subtitle=None, lang="en"),  # noqa
             'paral': [],
             'equivalent': [ArticleTitle(title="Cuisine, langue et identité", subtitle=None, lang="fr")],  # noqa
-            'bibliographic_references': [],
+            'reviewed_works': [],
         }
 
         assert self.test_objects['1003507ar.xml'].get_titles() == {
             'main': ArticleTitle(title="Reconceptualizing Translation – Some Chinese Endeavours", subtitle=None, lang="en"),  # noqa
             'paral': [],
             'equivalent': [],
-            'bibliographic_references': [],
+            'reviewed_works': [],
         }
 
     def test_can_return_formatted_titles(self):
@@ -99,7 +99,7 @@ class TestArticleSavantMinimal(BaseTestCase):
                 ArticleTitle(title='Immigration, Languages and Economic Performance: Quebec and Ontario between 1970 and 1995', lang='en', subtitle=None)  # noqa
             ],
             'paral': [],
-            'bibliographic_references': [],
+            'reviewed_works': [],
         }
 
 
@@ -125,7 +125,7 @@ class TestArticleCulturelMinimal(BaseTestCase):
             ),
             'paral': [],
             'equivalent': [],
-            'bibliographic_references': ["Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"]  # noqa
+            'reviewed_works': ["Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"]  # noqa
         }
 
     def test_issn(self):
@@ -146,5 +146,5 @@ class TestArticleCulturelMinimal(BaseTestCase):
         assert self.test_objects['65943ac.xml'].get_publication_period() ==\
             'Février–Mars–Avril–Mai 2012'
 
-    def test_can_extract_bibliographic_references(self):
-        assert self.test_objects['49222ac.xml'].get_bibliographic_references() == ["Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"]  # noqa
+    def test_can_extract_reviewed_works(self):
+        assert self.test_objects['49222ac.xml'].get_reviewed_works() == ["Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"]  # noqa

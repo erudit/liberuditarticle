@@ -418,8 +418,8 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """ :returns: the subtitle of the article object. """
         return self.stringify_children(self.find('sstitre'))
 
-    def get_bibliographic_references(self):
-        """ Return the bibliographic reference of the article """
+    def get_reviewed_works(self):
+        """ :returns: the works reviewed by this article """
         references = [self.stringify_children(ref).strip() for ref in self.findall('trefbiblio')]
         return references
 
@@ -433,16 +433,16 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         :returns: a dict containing all the titles and subtitles of the article object.
 
         Titles are grouped in four categories: ``main``, ``paral``, ``equivalent`` and
-        ``bibliographic_references``, where  ``main`` is the title proper, ``paral`` the
+        ``reviewed_works``, where  ``main`` is the title proper, ``paral`` the
         parallel titles proper, and ``equivalent`` the original titles in a language
         different from that of the title proper. Parallel titles accompanies an article
         body in the specified language, while equivalent titles do not have an
-        accompanying article body. When no ``<titre>`` tag is present, the bibliographic
-        references are used in place.
+        accompanying article body. When no ``<titre>`` tag is present, the reviewed works
+        are used in place.
 
         The value for ``main`` is an ArticleTitle namedtuple. The value for ``paral`` and
         ``equivalent`` is a list of ArticleTitle namedtuples. The value for
-        ``bibliographic_references`` is a list of strings. Items in ``paral`` are ordered
+        ``reviewed_works`` is a list of strings. Items in ``paral`` are ordered
         by the position of their ``lang`` attribute in the main ``<article>``. Items in
         ``equivalent`` are ordered by their position in the XML document.
 
@@ -467,7 +467,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
                     subtitle='la sub lorem ipsum',
                     lang='es',
                 ],
-                bibliographic_references=[],
+                reviewed_works=[],
             }
 
         While the ``lang`` attribute of each ``<titreparal>`` tag is specified explicitely,
@@ -492,7 +492,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             ),
             'paral': [],
             'equivalent': [],
-            'bibliographic_references': self.get_bibliographic_references()
+            'reviewed_works': self.get_reviewed_works()
         }
 
         for lang, title in paral_titles.items():
@@ -532,7 +532,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
 
         The result is formatted in the following way::
 
-            "{main_title} : {main_subtitle} / .. /  {paral_title_n} : {paral_subtitle_n} / {bibliographic_references}"  # noqa
+            "{main_title} : {main_subtitle} / .. /  {paral_title_n} : {paral_subtitle_n} / {reviewed_works}"  # noqa
 
         If an article title is in French, a non-breaking space is inserted after the colon
         separating it from its subtitle.
@@ -548,16 +548,16 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
                 for paral_title in titles['paral']
             ))
 
-        if titles['bibliographic_references']:
+        if titles['reviewed_works']:
             sections.append(" / ".join(
-                reference for reference in titles['bibliographic_references']
+                reference for reference in titles['reviewed_works']
             ))
         return " / ".join(sections)
 
     abstracts = property(get_abstracts)
     article_type = property(get_article_type)
     authors = property(get_authors)
-    bibliographic_references = property(get_bibliographic_references)
+    reviewed_works = property(get_reviewed_works)
     doi = property(get_doi)
     first_page = property(get_first_page)
     full_title = property(get_full_title)
