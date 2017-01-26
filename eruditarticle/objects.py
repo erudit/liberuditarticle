@@ -507,6 +507,56 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
                 titles['equivalent'].append(paral_title)
         return titles
 
+    def _format_single_title(self, title):
+        """ format an ArticleTitle namedtuple """
+        if title.lang == "fr":
+            separator = " :\xa0"
+        else:
+            separator = " : "
+        if title.title and title.subtitle:
+            return "{title}{separator}{subtitle}".format(
+                title=title.title,
+                separator=separator,
+                subtitle=title.subtitle
+            )
+        return "{title}".format(
+            title=title.title
+        )
+
+    def get_formatted_title(self):
+        """ Format the article titles
+
+        :returns: the formatted article title
+
+        This method calls :meth:`~.get_titles` and format its results.
+
+        The result is formatted in the following way::
+
+            "{main_title} : {main_subtitle} / .. /  {paral_title_n} : {paral_subtitle_n} / {bibliographic_references}"  # noqa
+
+        If an article title is in French, a non-breaking space is inserted after the colon
+        separating it from its subtitle.
+        """
+        titles = self.get_titles()
+        if titles['main'].title is not None:
+            if titles['paral']:
+                return "{main_title} / {paral_titles}".format(
+                    main_title=self._format_single_title(titles['main']),
+                    paral_titles=" / ".join(
+                        self._format_single_title(paral_title)
+                        for paral_title in titles['paral']
+                    )
+                )
+
+            return self._format_single_title(titles['main'])
+
+        elif titles['bibliographic_references']:
+            return " / ".join(
+                reference for reference in titles['bibliographic_references']
+            )
+
+        return None
+
     abstracts = property(get_abstracts)
     article_type = property(get_article_type)
     authors = property(get_authors)

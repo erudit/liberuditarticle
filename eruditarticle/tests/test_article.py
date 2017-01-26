@@ -60,6 +60,18 @@ class TestArticleSavantComplet(BaseTestCase):
             ]
         }
 
+        assert self.test_objects['1004725ar.xml'].get_titles() == {
+            'main': ArticleTitle(title="Introduction: Food, Language, and Identity", subtitle=None, lang="en"),  # noqa
+            'paral': [],
+            'equivalent': [ArticleTitle(title="Cuisine, langue et identité", subtitle=None, lang="fr")],  # noqa
+            'bibliographic_references': [],
+        }
+
+    def test_can_return_formatted_titles(self):
+        assert self.test_objects['1005860ar.xml'].get_formatted_title() == "Esthétique et sémiotique :\xa0Présentation / Aesthetics and Semiotics : Presentation"  # noqa
+
+        assert self.test_objects['044308ar.xml'].get_formatted_title() == 'Sociologie des relations professionnelles, Par Michel Lallement, Nouvelle édition, Paris\xa0: La Découverte, collection Repères, 2008, 121 p., ISBN 978-2-7071-5446-0. / Sociologie du travail : les relations professionnelles, Par Antoine Bevort et Annette Jobert, Paris : Armand Collin, collection U, 2008, 268\xa0p., ISBN 978-2-200-34571-6.'  # noqa
+
     def test_can_return_languages(self):
         assert self.test_objects['1005860ar.xml'].get_languages() == ['fr', 'en']
 
