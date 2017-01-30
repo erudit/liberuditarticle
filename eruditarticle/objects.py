@@ -49,7 +49,7 @@ class EruditPublication(
     PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject
 ):
     def get_titles(self):
-        """ :returns: the titles of the publication 
+        """ :returns: the titles of the publication
 
         If the publication does not specify a principal language, it is assumed
         to be French.
@@ -544,6 +544,16 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             title=title.title
         )
 
+    def get_formatted_journal_title(self):
+        """ Format the journal title
+
+        :returns: the formatted journal title
+
+        Calls :meth:~.get_journal_titles` and format its results.
+        """
+        titles = self.get_journal_titles()
+        return self._get_formatted_title(titles)
+
     def get_formatted_title(self):
         """ Format the article titles
 
@@ -559,21 +569,21 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         separating it from its subtitle.
         """
         titles = self.get_titles()
-        sections = []
-        if titles['main'].title is not None:
-            sections.append(self._format_single_title(titles['main']))
-
-        if titles['paral']:
-            sections.append(" / ".join(
-                self._format_single_title(paral_title)
-                for paral_title in titles['paral']
-            ))
+        formatted_title = self._get_formatted_title(titles)
 
         if titles['reviewed_works']:
-            sections.append(" / ".join(
+            reviewed_works = " / ".join(
                 reference for reference in titles['reviewed_works']
-            ))
-        return " / ".join(sections)
+            )
+
+            if formatted_title:
+                formatted_title = "{title} / {reviewed_works}".format(
+                    title=formatted_title,
+                    reviewed_works=reviewed_works
+                )
+            else:
+                formatted_title = reviewed_works
+        return formatted_title
 
     abstracts = property(get_abstracts)
     article_type = property(get_article_type)

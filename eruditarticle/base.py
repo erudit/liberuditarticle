@@ -72,6 +72,20 @@ class EruditBaseObject(object):
                 break
         return text
 
+    def _get_formatted_title(self, titles):
+
+        sections = []
+        if titles['main'].title is not None:
+            sections.append(self._format_single_title(titles['main']))
+
+        if titles['paral']:
+            sections.append(" / ".join(
+                self._format_single_title(paral_title)
+                for paral_title in titles['paral']
+            ))
+
+        return " / ".join(sections)
+
     def _get_titles(
         self, root_elem_name=None, title_elem_name=None, subtitle_elem_name=None,
         paral_title_elem_name=None, paral_subtitle_elem_name=None, languages=None

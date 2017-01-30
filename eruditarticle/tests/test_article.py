@@ -79,9 +79,10 @@ class TestArticleSavantComplet(BaseTestCase):
             'paral': [],
             'equivalent': [],
             'reviewed_works': [
-                "Coulombe Maxime, 2010, Le monde sans fin des jeux vidéo. Paris, Presses universitaires de France, coll. La nature humaine, 160 p., bibliogr."
+                "Coulombe Maxime, 2010, Le monde sans fin des jeux vidéo. Paris, Presses universitaires de France, coll. La nature humaine, 160 p., bibliogr."  # noqa
             ],
         }
+
     def test_can_return_formatted_titles(self):
         assert self.test_objects['1005860ar.xml'].get_formatted_title() == "Esthétique et sémiotique :\xa0Présentation / Aesthetics and Semiotics : Presentation"  # noqa
 
@@ -107,6 +108,10 @@ class TestArticleSavantComplet(BaseTestCase):
             "paral": [],
             "equivalent": [Title(title="Industrial Relations", subtitle=None, lang="en")],
         }
+
+    def test_can_return_its_formatted_journal_title(self):
+        assert self.test_objects['1005860ar.xml'].get_formatted_journal_title() == "Recherches sémiotiques / Semiotic Inquiry"  # noqa
+        assert self.test_objects['044308ar.xml'].get_formatted_journal_title() == "Relations industrielles"  # noqa
 
     def test_can_return_languages(self):
         assert self.test_objects['1005860ar.xml'].get_languages() == ['fr', 'en']

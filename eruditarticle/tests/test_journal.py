@@ -34,9 +34,10 @@ class TestEruditPublication(BaseTestCase):
 
         assert self.test_objects["mje02648.xml"].get_titles() == {
             'main': Title(title="McGill Journal of Education", subtitle=None, lang="en"),
-            'paral': [Title(title="Revue des sciences de l'éducation de McGill", subtitle=None, lang="fr")],
+            'paral': [Title(title="Revue des sciences de l'éducation de McGill", subtitle=None, lang="fr")],  # noqa
             'equivalent': [],
         }
+
     def test_publicationtype(self):
         assert self.test_objects["haf2442.xml"].get_publication_type() == 'index'
         assert self.test_objects["inter1068986.xml"].get_publication_type() == 'supp'
