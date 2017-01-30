@@ -425,7 +425,10 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
 
     def get_title(self):
         """ :returns: the title of the article object. """
-        return self.stringify_children(self.find('titre'), strip_elements=['liensimple', 'renvoi'])
+        return self.stringify_children(
+            self.find('titre', dom=self.find('grtitre')),
+            strip_elements=['liensimple', 'renvoi']
+        )
 
     def get_titles(self):
         """ Retrieve the titles of an article

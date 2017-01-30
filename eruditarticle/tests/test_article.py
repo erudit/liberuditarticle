@@ -74,6 +74,14 @@ class TestArticleSavantComplet(BaseTestCase):
             'reviewed_works': [],
         }
 
+        assert self.test_objects['1006389ar.xml'].get_titles() == {
+            'main': ArticleTitle(title=None, subtitle=None, lang="fr"),  # noqa
+            'paral': [],
+            'equivalent': [],
+            'reviewed_works': [
+                "Coulombe Maxime, 2010, Le monde sans fin des jeux vidéo. Paris, Presses universitaires de France, coll. La nature humaine, 160 p., bibliogr."
+            ],
+        }
     def test_can_return_formatted_titles(self):
         assert self.test_objects['1005860ar.xml'].get_formatted_title() == "Esthétique et sémiotique :\xa0Présentation / Aesthetics and Semiotics : Presentation"  # noqa
 
