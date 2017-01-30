@@ -1,6 +1,7 @@
 
 import pytest
 
+from eruditarticle.base import Title
 from eruditarticle.objects import EruditPublication
 from eruditarticle.tests.base import BaseTestCase
 
@@ -18,6 +19,24 @@ class TestEruditPublication(BaseTestCase):
         assert self.test_objects["crs1517600.xml"].get_number() == ''
         assert self.test_objects["esse02315.xml"].get_number() == '86'
 
+    def test_can_return_its_title(self):
+        assert self.test_objects["ae1375.xml"].get_titles() == {
+            'main': Title(title="L'Actualité économique", subtitle=None, lang="fr"),
+            'paral': [],
+            'equivalent': [],
+        }
+
+        assert self.test_objects["crs1517600.xml"].get_titles() == {
+            'main': Title(title="Cahiers de recherche sociologique", subtitle=None, lang="fr"),
+            'paral': [],
+            'equivalent': [],
+        }
+
+        assert self.test_objects["mje02648.xml"].get_titles() == {
+            'main': Title(title="McGill Journal of Education", subtitle=None, lang="en"),
+            'paral': [Title(title="Revue des sciences de l'éducation de McGill", subtitle=None, lang="fr")],
+            'equivalent': [],
+        }
     def test_publicationtype(self):
         assert self.test_objects["haf2442.xml"].get_publication_type() == 'index'
         assert self.test_objects["inter1068986.xml"].get_publication_type() == 'supp'

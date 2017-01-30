@@ -39,19 +39,19 @@ class TestArticleSavantComplet(BaseTestCase):
         assert self.test_objects['1005860ar.xml'].get_publication_period() == "2008–2009"
 
     def test_can_return_titles_subtitles(self):
-        from eruditarticle.objects import ArticleTitle
+        from eruditarticle.base import Title
 
         assert self.test_objects['1005860ar.xml'].get_titles() == {
-            'main': ArticleTitle(title="Esthétique et sémiotique", subtitle="Présentation", lang="fr"),  # noqa
+            'main': Title(title="Esthétique et sémiotique", subtitle="Présentation", lang="fr"),  # noqa
             "paral": [
-                ArticleTitle(title="Aesthetics and Semiotics", lang="en", subtitle="Presentation")  # noqa
+                Title(title="Aesthetics and Semiotics", lang="en", subtitle="Presentation")  # noqa
             ],
             "equivalent": [],
             'reviewed_works': []
         }
 
         assert self.test_objects['044308ar.xml'].get_titles() == {
-            'main': ArticleTitle(title=None, subtitle=None, lang="fr"),
+            'main': Title(title=None, subtitle=None, lang="fr"),
             'paral': [],
             'equivalent': [],
             'reviewed_works': [
@@ -61,21 +61,21 @@ class TestArticleSavantComplet(BaseTestCase):
         }
 
         assert self.test_objects['1004725ar.xml'].get_titles() == {
-            'main': ArticleTitle(title="Introduction: Food, Language, and Identity", subtitle=None, lang="en"),  # noqa
+            'main': Title(title="Introduction: Food, Language, and Identity", subtitle=None, lang="en"),  # noqa
             'paral': [],
-            'equivalent': [ArticleTitle(title="Cuisine, langue et identité", subtitle=None, lang="fr")],  # noqa
+            'equivalent': [Title(title="Cuisine, langue et identité", subtitle=None, lang="fr")],  # noqa
             'reviewed_works': [],
         }
 
         assert self.test_objects['1003507ar.xml'].get_titles() == {
-            'main': ArticleTitle(title="Reconceptualizing Translation – Some Chinese Endeavours", subtitle=None, lang="en"),  # noqa
+            'main': Title(title="Reconceptualizing Translation – Some Chinese Endeavours", subtitle=None, lang="en"),  # noqa
             'paral': [],
             'equivalent': [],
             'reviewed_works': [],
         }
 
         assert self.test_objects['1006389ar.xml'].get_titles() == {
-            'main': ArticleTitle(title=None, subtitle=None, lang="fr"),  # noqa
+            'main': Title(title=None, subtitle=None, lang="fr"),  # noqa
             'paral': [],
             'equivalent': [],
             'reviewed_works': [
@@ -88,24 +88,24 @@ class TestArticleSavantComplet(BaseTestCase):
         assert self.test_objects['044308ar.xml'].get_formatted_title() == 'Sociologie des relations professionnelles, Par Michel Lallement, Nouvelle édition, Paris\xa0: La Découverte, collection Repères, 2008, 121 p., ISBN 978-2-7071-5446-0. / Sociologie du travail : les relations professionnelles, Par Antoine Bevort et Annette Jobert, Paris : Armand Collin, collection U, 2008, 268\xa0p., ISBN 978-2-200-34571-6.'  # noqa
 
     def test_can_return_journal_titles(self):
-        from eruditarticle.objects import ArticleTitle
+        from eruditarticle.base import Title
 
         assert self.test_objects['1006389ar.xml'].get_journal_titles() == {
-            "main": ArticleTitle(title="Anthropologie et Sociétés", subtitle=None, lang="fr"),
+            "main": Title(title="Anthropologie et Sociétés", subtitle=None, lang="fr"),
             "paral": [],
             "equivalent": [],
         }
 
         assert self.test_objects['1005860ar.xml'].get_journal_titles() == {
-            "main": ArticleTitle(title="Recherches sémiotiques", subtitle=None, lang="fr"),
-            "paral": [ArticleTitle(title="Semiotic Inquiry", subtitle=None, lang="en")],
+            "main": Title(title="Recherches sémiotiques", subtitle=None, lang="fr"),
+            "paral": [Title(title="Semiotic Inquiry", subtitle=None, lang="en")],
             "equivalent": [],
         }
 
         assert self.test_objects['044308ar.xml'].get_journal_titles() == {
-            "main": ArticleTitle(title="Relations industrielles", subtitle=None, lang="fr"),
+            "main": Title(title="Relations industrielles", subtitle=None, lang="fr"),
             "paral": [],
-            "equivalent": [ArticleTitle(title="Industrial Relations", subtitle=None, lang="en")],
+            "equivalent": [Title(title="Industrial Relations", subtitle=None, lang="en")],
         }
 
     def test_can_return_languages(self):
@@ -121,11 +121,11 @@ class TestArticleSavantMinimal(BaseTestCase):
         super().setup()
 
     def test_can_return_titles_and_subtitles(self):
-        from eruditarticle.objects import ArticleTitle
+        from eruditarticle.base import Title
         assert self.test_objects['602354ar.xml'].get_titles() == {
-            'main': ArticleTitle(title='Immigration, langues et performance économique : le Québec et l’Ontario entre 1970 et 1995', lang="fr", subtitle=None),  # noqa
+            'main': Title(title='Immigration, langues et performance économique : le Québec et l’Ontario entre 1970 et 1995', lang="fr", subtitle=None),  # noqa
             'equivalent': [
-                ArticleTitle(title='Immigration, Languages and Economic Performance: Quebec and Ontario between 1970 and 1995', lang='en', subtitle=None)  # noqa
+                Title(title='Immigration, Languages and Economic Performance: Quebec and Ontario between 1970 and 1995', lang='en', subtitle=None)  # noqa
             ],
             'paral': [],
             'reviewed_works': [],
@@ -145,9 +145,9 @@ class TestArticleCulturelMinimal(BaseTestCase):
             assert isinstance(article, EruditArticle)
 
     def test_can_return_its_title(self):
-        from eruditarticle.objects import ArticleTitle
+        from eruditarticle.base import Title
         assert self.test_objects['49222ac.xml'].get_titles() == {
-            'main': ArticleTitle(
+            'main': Title(
                 title='Love and death on long island',
                 subtitle='Premier délice',
                 lang='fr',

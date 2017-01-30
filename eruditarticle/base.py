@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import unicode_literals
+import collections
 from copy import copy
 
 import lxml.etree as et
@@ -8,6 +9,8 @@ import six
 
 from . import xslt
 from .utils import remove_xml_namespaces
+
+Title = collections.namedtuple('Title', ['title', 'subtitle', 'lang'])
 
 
 class EruditBaseObject(object):
@@ -68,6 +71,64 @@ class EruditBaseObject(object):
             if text:
                 break
         return text
+
+    def _get_titles(
+        self, root_elem_name=None, title_elem_name=None, subtitle_elem_name=None,
+        paral_title_elem_name=None, paral_subtitle_elem_name=None, languages=None
+    ):
+        """ Helper method to extract titles relative to a root element
+
+        This supports retrieving article object titles and journal object titles.
+
+        For a complete description of the behaviour see :meth:`objects.ArticleObject.get_titles`
+
+        :param root_elem_name: the root element
+        :param title_elem_name: name of title element
+        :param subtitle_elem_name: name of the subtitle element
+        :param paral_title_elem_name: name of the parallel subtitle element
+        :param paral_subtitle_elem_name: name of the parallel subtitle element
+
+        :returns: the titles and subtitles relative to ``root_elem_name``
+        """
+        root_elem = self.find(root_elem_name)
+
+        if root_elem is None:
+            raise ValueError
+
+        if not languages:
+            languages = ['fr']
+
+        title = Title(
+            title=self.stringify_children(
+                self.find(title_elem_name, dom=root_elem),
+                strip_elements=['liensimple', 'renvoi']
+            ),
+            subtitle=self.stringify_children(self.find(subtitle_elem_name, dom=root_elem)),
+            lang=languages.pop(0)
+        )
+
+        titles = {
+            'main': title,
+            'paral': [],
+            'equivalent': [],
+        }
+
+        paral_titles = self.find_paral(root_elem, paral_title_elem_name)
+
+        paral_subtitles = self.find_paral(root_elem, paral_subtitle_elem_name)
+
+        for lang, title in paral_titles.items():
+            paral_title = Title(
+                title=title,
+                lang=lang,
+                subtitle=paral_subtitles[lang] if lang in paral_subtitles else None
+            )
+
+            if lang in languages:
+                titles['paral'].append(paral_title)
+            else:
+                titles['equivalent'].append(paral_title)
+        return titles
 
     def parse_person(self, person_tag):
         """ Parses a person tag

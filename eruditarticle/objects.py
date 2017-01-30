@@ -10,10 +10,9 @@ from .mixins import ISBNMixin
 from .mixins import ISSNMixin
 from .mixins import PublicationPeriodMixin
 
-ArticleTitle = collections.namedtuple('ArticleTitle', ['title', 'subtitle', 'lang'])
-
 
 class EruditJournal(EruditBaseObject):
+
     def get_first_publication_year(self):
         """ :returns: the first publication year of the journal. """
         pubyears = self.get_publication_years()
@@ -34,7 +33,6 @@ class EruditJournal(EruditBaseObject):
             return pubyears[0]
 
     def get_publication_years(self):
-        """ :returns: a list of publication years. """
         """ :returns: the publication period of the journal object. """
         pubyears = []
         for tree_year in self.findall('annee'):
@@ -50,6 +48,26 @@ class EruditJournal(EruditBaseObject):
 class EruditPublication(
     PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject
 ):
+    def get_titles(self):
+        """ :returns: the titles of the publication 
+
+        If the publication does not specify a principal language, it is assumed
+        to be French.
+        """
+        languages = self.find("revue").get('lang')
+        if languages:
+            languages = languages.split()
+        else:
+            languages = ["fr"]
+        return self._get_titles(
+            root_elem_name="revue",
+            title_elem_name="titrerev",
+            subtitle_elem_name="sstitrerev",
+            paral_title_elem_name="titrerevparal",
+            paral_subtitle_elem_name="sstitrerevparal",
+            languages=languages,
+        )
+
     def get_article_count(self):
         """ :returns: the number of articles of the publication object. """
         return int(self.get_text('nbarticle'))
@@ -433,59 +451,32 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
     def get_journal_titles(self):
         """ :returns: the titles of the journal
 
-        Titles are grouped in three categories: ``main``,
+        This method has the same behaviour as :meth:`~.get_titles`.
         """
-        revue_dom = self.find('revue')
-
-        if not revue_dom:
-            raise ValueError
-
         languages = self.find('revue').get('lang').split()
-
-        title = ArticleTitle(
-            title=self.stringify_children(self.find('titrerev', dom=revue_dom)),
-            subtitle=self.stringify_children(self.find('sstitrerev', dom=revue_dom)),
-            lang=languages.pop(0)
+        return self._get_titles(
+            root_elem_name='revue',
+            title_elem_name='titrerev',
+            subtitle_elem_name='sstitrerev',
+            paral_title_elem_name='titrerevparal',
+            paral_subtitle_elem_name='sstitrerevparal',
+            languages=languages,
         )
-
-        titles = {
-            'main': title,
-            'paral': [],
-            'equivalent': [],
-        }
-
-        paral_titles = self.find_paral(revue_dom, 'titrerevparal')
-
-        paral_subtitles = self.find_paral(revue_dom, 'sstitrerevparal')
-
-        for lang, title in paral_titles.items():
-            paral_title = ArticleTitle(
-                title=title,
-                lang=lang,
-                subtitle=paral_subtitles[lang] if lang in paral_subtitles else None
-            )
-
-            if lang in languages:
-                titles['paral'].append(paral_title)
-            else:
-                titles['equivalent'].append(paral_title)
-        return titles
 
     def get_titles(self):
         """ Retrieve the titles of an article
 
-        :returns: a dict containing all the titles and subtitles of the article object.
+        :returns: a dict containing all the titles and subtitles of the object.
 
         Titles are grouped in four categories: ``main``, ``paral``, ``equivalent`` and
         ``reviewed_works``, where  ``main`` is the title proper, ``paral`` the
         parallel titles proper, and ``equivalent`` the original titles in a language
         different from that of the title proper. Parallel titles accompanies an article
         body in the specified language, while equivalent titles do not have an
-        accompanying article body. When no ``<titre>`` tag is present, the reviewed works
-        are used in place.
+        accompanying article body.
 
-        The value for ``main`` is an ArticleTitle namedtuple. The value for ``paral`` and
-        ``equivalent`` is a list of ArticleTitle namedtuples. The value for
+        The value for ``main`` is an Title namedtuple. The value for ``paral`` and
+        ``equivalent`` is a list of Title namedtuples. The value for
         ``reviewed_works`` is a list of strings. Items in ``paral`` are ordered
         by the position of their ``lang`` attribute in the main ``<article>``. Items in
         ``equivalent`` are ordered by their position in the XML document.
@@ -493,20 +484,20 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         Here is an example of a return value::
 
             titles = {
-                'main': ArticleTitle(
+                'main': Title(
                     title='Serge Emmanuel Jongué',
                     subtitle='Capter et narrer l'indicible',
                     lang='fr',
                 },
                 'paral': [
-                    ArticleTitle(
+                    Title(
                         title='Serge Emmanuel Jongué',
                         subtitle='Capturing and Narrating the Unspeakable',
                         lang='en'
                     )
                 ],
                 'equivalent': [
-                    ArticleTitle(
+                    Title(
                     title='la lorem ipsum dolor sit amet',
                     subtitle='la sub lorem ipsum',
                     lang='es',
@@ -524,35 +515,21 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         Ref: http://www.erudit.org/xsd/article/3.0.0/doc/eruditarticle_xsd.html#article
 
         """
-        languages = self.get_languages()
-        paral_titles = self.find_paral(self.find('grtitre'), 'titreparal')
-        paral_subtitles = self.find_paral(self.find('grtitre'), 'sstitreparal')
 
-        titles = {
-            'main': ArticleTitle(
-                title=self.get_title(),
-                subtitle=self.get_subtitle(),
-                lang=languages.pop(0)
-            ),
-            'paral': [],
-            'equivalent': [],
-            'reviewed_works': self.get_reviewed_works()
-        }
+        titles = self._get_titles(
+            root_elem_name='grtitre',
+            title_elem_name='titre',
+            subtitle_elem_name='sstitre',
+            paral_title_elem_name='titreparal',
+            paral_subtitle_elem_name='sstitreparal',
+            languages=self.get_languages(),
+        )
 
-        for lang, title in paral_titles.items():
-            paral_title = ArticleTitle(
-                title=title,
-                lang=lang,
-                subtitle=paral_subtitles[lang] if lang in paral_subtitles else None
-            )
-            if lang in languages:
-                titles['paral'].append(paral_title)
-            else:
-                titles['equivalent'].append(paral_title)
+        titles['reviewed_works'] = self.get_reviewed_works()
         return titles
 
     def _format_single_title(self, title):
-        """ format an ArticleTitle namedtuple """
+        """ format an Title namedtuple """
         if title.lang == "fr":
             separator = " :\xa0"
         else:
