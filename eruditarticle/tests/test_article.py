@@ -87,6 +87,27 @@ class TestArticleSavantComplet(BaseTestCase):
 
         assert self.test_objects['044308ar.xml'].get_formatted_title() == 'Sociologie des relations professionnelles, Par Michel Lallement, Nouvelle édition, Paris\xa0: La Découverte, collection Repères, 2008, 121 p., ISBN 978-2-7071-5446-0. / Sociologie du travail : les relations professionnelles, Par Antoine Bevort et Annette Jobert, Paris : Armand Collin, collection U, 2008, 268\xa0p., ISBN 978-2-200-34571-6.'  # noqa
 
+    def test_can_return_journal_titles(self):
+        from eruditarticle.objects import ArticleTitle
+
+        assert self.test_objects['1006389ar.xml'].get_journal_titles() == {
+            "main": ArticleTitle(title="Anthropologie et Sociétés", subtitle=None, lang="fr"),
+            "paral": [],
+            "equivalent": [],
+        }
+
+        assert self.test_objects['1005860ar.xml'].get_journal_titles() == {
+            "main": ArticleTitle(title="Recherches sémiotiques", subtitle=None, lang="fr"),
+            "paral": [ArticleTitle(title="Semiotic Inquiry", subtitle=None, lang="en")],
+            "equivalent": [],
+        }
+
+        assert self.test_objects['044308ar.xml'].get_journal_titles() == {
+            "main": ArticleTitle(title="Relations industrielles", subtitle=None, lang="fr"),
+            "paral": [],
+            "equivalent": [ArticleTitle(title="Industrial Relations", subtitle=None, lang="en")],
+        }
+
     def test_can_return_languages(self):
         assert self.test_objects['1005860ar.xml'].get_languages() == ['fr', 'en']
 

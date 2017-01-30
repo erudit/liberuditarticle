@@ -430,6 +430,47 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             strip_elements=['liensimple', 'renvoi']
         )
 
+    def get_journal_titles(self):
+        """ :returns: the titles of the journal
+
+        Titles are grouped in three categories: ``main``,
+        """
+        revue_dom = self.find('revue')
+
+        if not revue_dom:
+            raise ValueError
+
+        languages = self.find('revue').get('lang').split()
+
+        title = ArticleTitle(
+            title=self.stringify_children(self.find('titrerev', dom=revue_dom)),
+            subtitle=self.stringify_children(self.find('sstitrerev', dom=revue_dom)),
+            lang=languages.pop(0)
+        )
+
+        titles = {
+            'main': title,
+            'paral': [],
+            'equivalent': [],
+        }
+
+        paral_titles = self.find_paral(revue_dom, 'titrerevparal')
+
+        paral_subtitles = self.find_paral(revue_dom, 'sstitrerevparal')
+
+        for lang, title in paral_titles.items():
+            paral_title = ArticleTitle(
+                title=title,
+                lang=lang,
+                subtitle=paral_subtitles[lang] if lang in paral_subtitles else None
+            )
+
+            if lang in languages:
+                titles['paral'].append(paral_title)
+            else:
+                titles['equivalent'].append(paral_title)
+        return titles
+
     def get_titles(self):
         """ Retrieve the titles of an article
 
