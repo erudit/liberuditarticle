@@ -94,7 +94,7 @@ class CopyrightMixin(object):
 
         for da in da_nodes:
             link_node = self.find('liensimple', da)
-            if link_node:
+            if link_node is not None:
                 da_list.append(self.parse_simple_link(link_node))
             else:
                 da_list.append({'text': ''.join(da.itertext())})
