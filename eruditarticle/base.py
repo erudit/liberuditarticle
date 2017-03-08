@@ -72,7 +72,7 @@ class EruditBaseObject(object):
                 break
         return text
 
-    def _get_formatted_title(self, titles):
+    def _get_formatted_single_title(self, titles):
 
         sections = []
         if titles['main'].title is not None:

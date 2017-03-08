@@ -566,9 +566,9 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         Calls :meth:~.get_journal_titles` and format its results.
         """
         titles = self.get_journal_titles()
-        return self._get_formatted_title(titles)
+        return self._get_formatted_single_title(titles)
 
-    def get_formatted_title(self, strip_markup=False):
+    def _get_formatted_title(self, strip_markup=False):
         """ Format the article titles
 
         :returns: the formatted article title
@@ -583,7 +583,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         separating it from its subtitle.
         """
         titles = self.get_titles(strip_markup=strip_markup)
-        formatted_title = self._get_formatted_title(titles)
+        formatted_title = self._get_formatted_single_title(titles)
 
         if titles['reviewed_works']:
             reviewed_works = " / ".join(
@@ -598,6 +598,12 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             else:
                 formatted_title = reviewed_works
         return formatted_title
+
+    def get_formatted_title(self):
+        return self._get_formatted_title(strip_markup=True)
+
+    def get_formatted_html_title(self):
+        return self._get_formatted_title(strip_markup=False)
 
     abstracts = property(get_abstracts)
     article_type = property(get_article_type)
