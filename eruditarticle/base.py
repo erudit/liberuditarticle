@@ -88,7 +88,8 @@ class EruditBaseObject(object):
 
     def _get_titles(
         self, root_elem_name=None, title_elem_name=None, subtitle_elem_name=None,
-        paral_title_elem_name=None, paral_subtitle_elem_name=None, languages=None
+        paral_title_elem_name=None, paral_subtitle_elem_name=None, languages=None,
+        strip_markup=False
     ):
         """ Helper method to extract titles relative to a root element
 
@@ -112,14 +113,27 @@ class EruditBaseObject(object):
         if not languages:
             languages = ['fr']
 
-        title = Title(
-            title=self.stringify_children(
-                self.find(title_elem_name, dom=root_elem),
-                strip_elements=['liensimple', 'renvoi']
-            ),
-            subtitle=self.stringify_children(self.find(subtitle_elem_name, dom=root_elem)),
-            lang=languages.pop(0)
-        )
+        title_elem = self.find(title_elem_name, dom=root_elem)
+        subtitle_elem = self.find(subtitle_elem_name, dom=root_elem)
+
+        if strip_markup:
+            title = Title(
+                title=self.stringify_children(title_elem),
+                subtitle=self.stringify_children(subtitle_elem),
+                lang=languages.pop(0)
+            )
+        else:
+            title = Title(
+                title=self.convert_marquage_content_to_html(
+                    title_elem,
+                    as_string=True
+                ),
+                subtitle=self.convert_marquage_content_to_html(
+                    subtitle_elem,
+                    as_string=True
+                ),
+                lang=languages.pop(0)
+            )
 
         titles = {
             'main': title,
@@ -127,9 +141,17 @@ class EruditBaseObject(object):
             'equivalent': [],
         }
 
-        paral_titles = self.find_paral(root_elem, paral_title_elem_name)
+        paral_titles = self.find_paral(
+            root_elem,
+            paral_title_elem_name,
+            strip_markup=strip_markup
+        )
 
-        paral_subtitles = self.find_paral(root_elem, paral_subtitle_elem_name)
+        paral_subtitles = self.find_paral(
+            root_elem,
+            paral_subtitle_elem_name,
+            strip_markup=strip_markup
+        )
 
         for lang, title in paral_titles.items():
             paral_title = Title(
@@ -225,11 +247,13 @@ class EruditBaseObject(object):
         et.strip_tags(node, "*")
         return node.text
 
-    def convert_marquage_content_to_html(self, node):
-        """ Converts <marquage> tags to HTML using a specific node. """
+    def convert_marquage_content_to_html(self, node, as_string=False):
+        """ Converts <marquage> tags to HTML using a specific node.
+
+            :param as_string: encode the bytes as an utf-8 string
+        """
         if node is None:
             return
-
         # Converts <marquage> tags to HTML
         _node = xslt.marquage_to_html(copy(node))
         # Strip all other tags but keep text
@@ -240,11 +264,19 @@ class EruditBaseObject(object):
                 'liensimple', 'marquepage', 'objetmedia', 'renvoi'
             ])
         _html = et.tostring(_node.getroot())
-        return _html.split(b'>', 1)[1].rsplit(b'<', 1)[0]
+        output = _html.split(b'>', 1)[1].rsplit(b'<', 1)[0]
+        if output and as_string:
+            return output.decode('utf-8')
+        return output
 
-    def find_paral(self, tag, paral_tag_name):
+    def find_paral(self, tag, paral_tag_name, strip_markup=False):
         """ Find the parallel values for the given tag using the given tag name. """
         pn = {}
         for title_paral in tag.findall(paral_tag_name):
-            pn[title_paral.get('lang')] = self.stringify_children(title_paral)
+            if strip_markup:
+                pn[title_paral.get('lang')] = self.stringify_children(title_paral)
+            else:
+                pn[title_paral.get('lang')] = self.convert_marquage_content_to_html(
+                    title_paral, as_string=True
+                )
         return pn

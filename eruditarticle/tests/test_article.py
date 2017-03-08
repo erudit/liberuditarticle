@@ -42,7 +42,7 @@ class TestArticleSavantComplet(BaseTestCase):
         from eruditarticle.base import Title
 
         assert self.test_objects['1005860ar.xml'].get_titles() == {
-            'main': Title(title="Esthétique et sémiotique", subtitle="Présentation", lang="fr"),  # noqa
+            'main': Title(title="Esth&#233;tique et s&#233;miotique", subtitle="Pr&#233;sentation", lang="fr"),  # noqa
             "paral": [
                 Title(title="Aesthetics and Semiotics", lang="en", subtitle="Presentation")  # noqa
             ],
@@ -55,20 +55,20 @@ class TestArticleSavantComplet(BaseTestCase):
             'paral': [],
             'equivalent': [],
             'reviewed_works': [
-                    'Sociologie des relations professionnelles, Par Michel Lallement, Nouvelle édition, Paris\xa0: La Découverte, collection Repères, 2008, 121 p., ISBN 978-2-7071-5446-0.',  # noqa
-                    'Sociologie du travail : les relations professionnelles, Par Antoine Bevort et Annette Jobert, Paris : Armand Collin, collection U, 2008, 268\xa0p., ISBN 978-2-200-34571-6.'  # noqa
+                    '<em>Sociologie des relations professionnelles</em>, Par Michel Lallement, Nouvelle &#233;dition, Paris&#160;: La D&#233;couverte, collection Rep&#232;res, 2008, 121&#160;p., ISBN 978-2-7071-5446-0.',  # noqa
+                    '<em>Sociologie du travail&#160;: les relations professionnelles</em>, Par Antoine Bevort et Annette Jobert, Paris&#160;: Armand Collin, collection U, 2008, 268&#160;p., ISBN 978-2-200-34571-6.'  # noqa
             ]
         }
 
         assert self.test_objects['1004725ar.xml'].get_titles() == {
             'main': Title(title="Introduction: Food, Language, and Identity", subtitle=None, lang="en"),  # noqa
             'paral': [],
-            'equivalent': [Title(title="Cuisine, langue et identité", subtitle=None, lang="fr")],  # noqa
+            'equivalent': [Title(title="Cuisine, langue et identit&#233;", subtitle=None, lang="fr")],  # noqa
             'reviewed_works': [],
         }
 
         assert self.test_objects['1003507ar.xml'].get_titles() == {
-            'main': Title(title="Reconceptualizing Translation – Some Chinese Endeavours", subtitle=None, lang="en"),  # noqa
+            'main': Title(title="Reconceptualizing Translation &#8211; Some Chinese Endeavours", subtitle=None, lang="en"),  # noqa
             'paral': [],
             'equivalent': [],
             'reviewed_works': [],
@@ -79,26 +79,26 @@ class TestArticleSavantComplet(BaseTestCase):
             'paral': [],
             'equivalent': [],
             'reviewed_works': [
-                "Coulombe Maxime, 2010, Le monde sans fin des jeux vidéo. Paris, Presses universitaires de France, coll. La nature humaine, 160 p., bibliogr."  # noqa
+                'C<span class="petitecap">oulombe</span> Maxime, 2010, <em>Le monde sans fin des jeux vid&#233;o</em>. Paris, Presses universitaires de France, coll. La nature humaine, 160 p., bibliogr.'  # noqa
             ],
         }
 
     def test_can_return_formatted_titles(self):
-        assert self.test_objects['1005860ar.xml'].get_formatted_title() == "Esthétique et sémiotique :\xa0Présentation / Aesthetics and Semiotics : Presentation"  # noqa
+        assert self.test_objects['1005860ar.xml'].get_formatted_title() == "Esth&#233;tique et s&#233;miotique :\xa0Pr&#233;sentation / Aesthetics and Semiotics : Presentation"  # noqa
 
-        assert self.test_objects['044308ar.xml'].get_formatted_title() == 'Sociologie des relations professionnelles, Par Michel Lallement, Nouvelle édition, Paris\xa0: La Découverte, collection Repères, 2008, 121 p., ISBN 978-2-7071-5446-0. / Sociologie du travail : les relations professionnelles, Par Antoine Bevort et Annette Jobert, Paris : Armand Collin, collection U, 2008, 268\xa0p., ISBN 978-2-200-34571-6.'  # noqa
+        assert self.test_objects['044308ar.xml'].get_formatted_title() == '<em>Sociologie des relations professionnelles</em>, Par Michel Lallement, Nouvelle &#233;dition, Paris&#160;: La D&#233;couverte, collection Rep&#232;res, 2008, 121&#160;p., ISBN 978-2-7071-5446-0. / <em>Sociologie du travail&#160;: les relations professionnelles</em>, Par Antoine Bevort et Annette Jobert, Paris&#160;: Armand Collin, collection U, 2008, 268&#160;p., ISBN 978-2-200-34571-6.'  # noqa
 
     def test_can_return_journal_titles(self):
         from eruditarticle.base import Title
 
         assert self.test_objects['1006389ar.xml'].get_journal_titles() == {
-            "main": Title(title="Anthropologie et Sociétés", subtitle=None, lang="fr"),
+            "main": Title(title="Anthropologie et Soci&#233;t&#233;s", subtitle=None, lang="fr"),
             "paral": [],
             "equivalent": [],
         }
 
         assert self.test_objects['1005860ar.xml'].get_journal_titles() == {
-            "main": Title(title="Recherches sémiotiques", subtitle=None, lang="fr"),
+            "main": Title(title="Recherches s&#233;miotiques", subtitle=None, lang="fr"),
             "paral": [Title(title="Semiotic Inquiry", subtitle=None, lang="en")],
             "equivalent": [],
         }
@@ -110,7 +110,7 @@ class TestArticleSavantComplet(BaseTestCase):
         }
 
     def test_can_return_its_formatted_journal_title(self):
-        assert self.test_objects['1005860ar.xml'].get_formatted_journal_title() == "Recherches sémiotiques / Semiotic Inquiry"  # noqa
+        assert self.test_objects['1005860ar.xml'].get_formatted_journal_title() == "Recherches s&#233;miotiques / Semiotic Inquiry"  # noqa
         assert self.test_objects['044308ar.xml'].get_formatted_journal_title() == "Relations industrielles"  # noqa
 
     def test_can_return_languages(self):
@@ -127,7 +127,7 @@ class TestArticleSavantMinimal(BaseTestCase):
 
     def test_can_return_titles_and_subtitles(self):
         from eruditarticle.base import Title
-        assert self.test_objects['602354ar.xml'].get_titles() == {
+        assert self.test_objects['602354ar.xml'].get_titles(strip_markup=True) == {
             'main': Title(title='Immigration, langues et performance économique : le Québec et l’Ontario entre 1970 et 1995', lang="fr", subtitle=None),  # noqa
             'equivalent': [
                 Title(title='Immigration, Languages and Economic Performance: Quebec and Ontario between 1970 and 1995', lang='en', subtitle=None)  # noqa
@@ -151,7 +151,7 @@ class TestArticleCulturelMinimal(BaseTestCase):
 
     def test_can_return_its_title(self):
         from eruditarticle.base import Title
-        assert self.test_objects['49222ac.xml'].get_titles() == {
+        assert self.test_objects['49222ac.xml'].get_titles(strip_markup=True) == {
             'main': Title(
                 title='Love and death on long island',
                 subtitle='Premier délice',
@@ -181,4 +181,4 @@ class TestArticleCulturelMinimal(BaseTestCase):
             'Février–Mars–Avril–Mai 2012'
 
     def test_can_extract_reviewed_works(self):
-        assert self.test_objects['49222ac.xml'].get_reviewed_works() == ["Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"]  # noqa
+        assert self.test_objects['49222ac.xml'].get_reviewed_works(strip_markup=True) == ["Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"]  # noqa

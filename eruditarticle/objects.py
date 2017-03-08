@@ -48,7 +48,7 @@ class EruditJournal(EruditBaseObject):
 class EruditPublication(
     PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject
 ):
-    def get_titles(self):
+    def get_titles(self, strip_markup=False):
         """ :returns: the titles of the publication
 
         If the publication does not specify a principal language, it is assumed
@@ -66,6 +66,7 @@ class EruditPublication(
             paral_title_elem_name="titrerevparal",
             paral_subtitle_elem_name="sstitrerevparal",
             languages=languages,
+            strip_markup=strip_markup
         )
 
     def get_article_count(self):
@@ -436,9 +437,18 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """ :returns: the subtitle of the article object. """
         return self.stringify_children(self.find('sstitre'))
 
-    def get_reviewed_works(self):
+    def get_reviewed_works(self, strip_markup=False):
         """ :returns: the works reviewed by this article """
-        references = [self.stringify_children(ref).strip() for ref in self.findall('trefbiblio')]
+        if not strip_markup:
+            references = [
+                self.convert_marquage_content_to_html(ref, as_string=True).strip()
+                for ref in self.findall('trefbiblio')
+            ]
+        else:
+            references = [
+                self.stringify_children(ref).strip()
+                for ref in self.findall('trefbiblio')
+            ]
         return references
 
     def get_title(self):
@@ -463,8 +473,11 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             languages=languages,
         )
 
-    def get_titles(self):
+    def get_titles(self, strip_markup=False):
         """ Retrieve the titles of an article
+
+        :param strip_markup: if set to True, strip all XML / HTML markup and return only
+            a string.
 
         :returns: a dict containing all the titles and subtitles of the object.
 
@@ -523,9 +536,10 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             paral_title_elem_name='titreparal',
             paral_subtitle_elem_name='sstitreparal',
             languages=self.get_languages(),
+            strip_markup=strip_markup
         )
 
-        titles['reviewed_works'] = self.get_reviewed_works()
+        titles['reviewed_works'] = self.get_reviewed_works(strip_markup=strip_markup)
         return titles
 
     def _format_single_title(self, title):
@@ -554,7 +568,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         titles = self.get_journal_titles()
         return self._get_formatted_title(titles)
 
-    def get_formatted_title(self):
+    def get_formatted_title(self, strip_markup=False):
         """ Format the article titles
 
         :returns: the formatted article title
@@ -568,7 +582,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         If an article title is in French, a non-breaking space is inserted after the colon
         separating it from its subtitle.
         """
-        titles = self.get_titles()
+        titles = self.get_titles(strip_markup=strip_markup)
         formatted_title = self._get_formatted_title(titles)
 
         if titles['reviewed_works']:
