@@ -244,7 +244,7 @@ class EruditBaseObject(object):
             return None
         node = copy(node)
         if strip_elements:
-            et.strip_elements(node, *strip_elements)
+            et.strip_elements(node, *strip_elements, with_tail=False)
         et.strip_tags(node, "*")
         return re.sub(' +', ' ', node.text)
 
@@ -255,8 +255,8 @@ class EruditBaseObject(object):
         """
         if node is None:
             return
-        if strip_element:
-            et.strip_elements(node, *strip_elements)
+        if strip_elements:
+            et.strip_elements(node, *strip_elements, with_tail=False)
         # Converts <marquage> tags to HTML
         _node = xslt.marquage_to_html(copy(node))
         # Strip all other tags but keep text
