@@ -116,6 +116,19 @@ class TestArticleSavantComplet(BaseTestCase):
     def test_can_return_languages(self):
         assert self.test_objects['1005860ar.xml'].get_languages() == ['fr', 'en']
 
+    def test_can_return_references(self):
+        references = self.test_objects['009255ar.xml'].get_references(strip_markup=True)
+        assert references[0] == {'title': "Akenside, Mark. Poems. London: J. Dodsley, 1772.", 'doi': None}  # noqa
+        assert len(references) == 53
+
+        references = self.test_objects['1003507ar.xml'].get_references(strip_markup=True)
+        assert references[3] == {'title': "Cheung, Martha P. Y. (2005): ‘To translate’ means ‘to exchange’? A new interpretation of the earliest Chinese attempts to define translation (‘fanyi’). Target. 17(1):27-48.", 'doi': '10.1075/target.17.1.03che'}  # noqa
+
+    def test_can_return_references_with_markup(self):
+        references = self.test_objects['009255ar.xml'].get_references()
+        assert references[0] == {'title': "Akenside, Mark.  <em>Poems</em>.  London: J. Dodsley, 1772.", 'doi': None}  # noqa
+        assert len(references) == 53
+
 
 class TestArticleSavantMinimal(BaseTestCase):
 
