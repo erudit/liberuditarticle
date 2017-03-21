@@ -248,13 +248,15 @@ class EruditBaseObject(object):
         et.strip_tags(node, "*")
         return re.sub(' +', ' ', node.text)
 
-    def convert_marquage_content_to_html(self, node, as_string=False):
+    def convert_marquage_content_to_html(self, node, as_string=False, strip_elements=None):
         """ Converts <marquage> tags to HTML using a specific node.
 
             :param as_string: encode the bytes as an utf-8 string
         """
         if node is None:
             return
+        if strip_element:
+            et.strip_elements(node, *strip_elements)
         # Converts <marquage> tags to HTML
         _node = xslt.marquage_to_html(copy(node))
         # Strip all other tags but keep text
