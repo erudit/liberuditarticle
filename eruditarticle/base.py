@@ -3,6 +3,7 @@
 from __future__ import unicode_literals
 import collections
 from copy import copy
+import re
 
 import lxml.etree as et
 import six
@@ -245,7 +246,7 @@ class EruditBaseObject(object):
         if strip_elements:
             et.strip_elements(node, *strip_elements)
         et.strip_tags(node, "*")
-        return node.text
+        return re.sub(' +', ' ', node.text)
 
     def convert_marquage_content_to_html(self, node, as_string=False):
         """ Converts <marquage> tags to HTML using a specific node.
