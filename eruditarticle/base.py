@@ -246,7 +246,9 @@ class EruditBaseObject(object):
         if strip_elements:
             et.strip_elements(node, *strip_elements, with_tail=False)
         et.strip_tags(node, "*")
-        return re.sub(' +', ' ', node.text)
+
+        if node.text is not None:
+            return re.sub(' +', ' ', node.text)
 
     def convert_marquage_content_to_html(self, node, as_string=False, strip_elements=None):
         """ Converts <marquage> tags to HTML using a specific node.

@@ -149,6 +149,9 @@ class TestArticleSavantMinimal(BaseTestCase):
             'reviewed_works': [],
         }
 
+    def test_can_return_titles_with_malformed_grtitre(self):
+        assert self.test_objects['001296ar.xml'].get_formatted_title() is not None
+
 
 class TestArticleCulturelMinimal(BaseTestCase):
 
