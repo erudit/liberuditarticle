@@ -111,10 +111,23 @@ class TestArticleSavantComplet(BaseTestCase):
 
     def test_can_return_its_formatted_journal_title(self):
         assert self.test_objects['1005860ar.xml'].get_formatted_journal_title() == "Recherches s&#233;miotiques / Semiotic Inquiry"  # noqa
-        assert self.test_objects['044308ar.xml'].get_formatted_journal_title() == "Relations industrielles"  # noqa
+        assert self.test_objects['044308ar.xml'].get_formatted_journal_title() == "Relations industrielles / Industrial Relations"  # noqa
 
     def test_can_return_languages(self):
         assert self.test_objects['1005860ar.xml'].get_languages() == ['fr', 'en']
+
+    def test_can_return_references(self):
+        references = self.test_objects['009255ar.xml'].get_references(strip_markup=True)
+        assert references[0] == {'title': "Akenside, Mark. Poems. London: J. Dodsley, 1772.", 'doi': None}  # noqa
+        assert len(references) == 53
+
+        references = self.test_objects['1003507ar.xml'].get_references(strip_markup=True)
+        assert references[3] == {'title': "Cheung, Martha P. Y. (2005): ‘To translate’ means ‘to exchange’? A new interpretation of the earliest Chinese attempts to define translation (‘fanyi’). Target. 17(1):27-48.", 'doi': '10.1075/target.17.1.03che'}  # noqa
+
+    def test_can_return_references_with_markup(self):
+        references = self.test_objects['009255ar.xml'].get_references()
+        assert references[0] == {'title': "Akenside, Mark.  <em>Poems</em>.  London: J. Dodsley, 1772.", 'doi': None}  # noqa
+        assert len(references) == 53
 
 
 class TestArticleSavantMinimal(BaseTestCase):
@@ -135,6 +148,9 @@ class TestArticleSavantMinimal(BaseTestCase):
             'paral': [],
             'reviewed_works': [],
         }
+
+    def test_can_return_titles_with_malformed_grtitre(self):
+        assert self.test_objects['001296ar.xml'].get_formatted_title() is not None
 
 
 class TestArticleCulturelMinimal(BaseTestCase):

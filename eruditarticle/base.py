@@ -3,6 +3,7 @@
 from __future__ import unicode_literals
 import collections
 from copy import copy
+import re
 
 import lxml.etree as et
 import six
@@ -72,7 +73,16 @@ class EruditBaseObject(object):
                 break
         return text
 
-    def _get_formatted_single_title(self, titles):
+    def _get_formatted_single_title(self, titles, use_equivalent=False):
+        """ Format the main, paral and equivalent titles in a single title
+
+            :param use_equivalent: whether or not to use equivalent titles. In the
+                case of formatting an :py:class:`erudit.models.Article` title, only
+                paralel titles are used. The XML of :py:class:`erudit.models.Journal`
+                equivalent titles are also used.
+
+            :returns: a formatted title
+        """
 
         sections = []
         if titles['main'].title is not None:
@@ -82,6 +92,12 @@ class EruditBaseObject(object):
             sections.append(" / ".join(
                 self._format_single_title(paral_title)
                 for paral_title in titles['paral']
+            ))
+
+        if titles['equivalent'] and use_equivalent:
+            sections.append(" / ".join(
+                self._format_single_title(paral_title)
+                for paral_title in titles['equivalent']
             ))
 
         return " / ".join(sections)
@@ -243,17 +259,21 @@ class EruditBaseObject(object):
             return None
         node = copy(node)
         if strip_elements:
-            et.strip_elements(node, *strip_elements)
+            et.strip_elements(node, *strip_elements, with_tail=False)
         et.strip_tags(node, "*")
-        return node.text
 
-    def convert_marquage_content_to_html(self, node, as_string=False):
+        if node.text is not None:
+            return re.sub(' +', ' ', node.text)
+
+    def convert_marquage_content_to_html(self, node, as_string=False, strip_elements=None):
         """ Converts <marquage> tags to HTML using a specific node.
 
             :param as_string: encode the bytes as an utf-8 string
         """
         if node is None:
             return
+        if strip_elements:
+            et.strip_elements(node, *strip_elements, with_tail=False)
         # Converts <marquage> tags to HTML
         _node = xslt.marquage_to_html(copy(node))
         # Strip all other tags but keep text

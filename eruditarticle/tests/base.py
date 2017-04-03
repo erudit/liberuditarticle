@@ -18,6 +18,8 @@ class BaseTestCase(object):
         self.test_objects = {}
 
         for filename in os.listdir(path=self.objects_path):
+            if not filename.endswith('xml'):
+                continue
             path = "{}/{}".format(self.objects_path, filename)
 
             with open(path, 'rb') as test_xml:

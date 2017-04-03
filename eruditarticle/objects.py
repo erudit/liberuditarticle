@@ -13,6 +13,10 @@ from .mixins import PublicationPeriodMixin
 
 class EruditJournal(EruditBaseObject):
 
+    def get_title(self):
+        """ :returns: the title of the journal """
+        return self.find('setName').text
+
     def get_first_publication_year(self):
         """ :returns: the first publication year of the journal. """
         pubyears = self.get_publication_years()
@@ -36,7 +40,7 @@ class EruditJournal(EruditBaseObject):
         """ :returns: the publication period of the journal object. """
         pubyears = []
         for tree_year in self.findall('annee'):
-            pubyears.append(int(tree_year.get('valeur')))
+            pubyears.append(tree_year.get('valeur'))
         pubyears = sorted(pubyears)
         return pubyears
 
@@ -437,18 +441,42 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """ :returns: the subtitle of the article object. """
         return self.stringify_children(self.find('sstitre'))
 
-    def get_reviewed_works(self, strip_markup=False):
-        """ :returns: the works reviewed by this article """
+    def _get_reviewed_or_referenced_works(self, tag, strip_markup=False):
         if not strip_markup:
             references = [
                 self.convert_marquage_content_to_html(ref, as_string=True).strip()
-                for ref in self.findall('trefbiblio')
+                for ref in self.findall(tag)
             ]
         else:
             references = [
                 self.stringify_children(ref).strip()
-                for ref in self.findall('trefbiblio')
+                for ref in self.findall(tag)
             ]
+        return references
+
+    def get_reviewed_works(self, strip_markup=False):
+        """ :returns: the works reviewed by this article """
+        return self._get_reviewed_or_referenced_works('trefbiblio', strip_markup=strip_markup)
+
+    def get_references(self, strip_markup=False):
+        """ :returns: the works referenced by this article. returns a dictionary
+                that contains possibly two keys: doi and title
+
+            :param strip_markup: strip all xml markup
+        """
+        references = []
+        xml_references = self.findall('refbiblio')
+        for reference in xml_references:
+            doi = reference.find('idpublic[@scheme="doi"]')
+            if doi is not None:
+                doi = doi.text
+            if strip_markup:
+                title = self.stringify_children(reference, strip_elements=('idpublic',))
+            else:
+                title = self.convert_marquage_content_to_html(
+                    reference, as_string=True, strip_elements=('idpublic',)
+                )
+            references.append({'doi': doi, 'title': title})
         return references
 
     def get_title(self):
@@ -566,7 +594,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         Calls :meth:~.get_journal_titles` and format its results.
         """
         titles = self.get_journal_titles()
-        return self._get_formatted_single_title(titles)
+        return self._get_formatted_single_title(titles, use_equivalent=True)
 
     def _get_formatted_title(self, strip_markup=False):
         """ Format the article titles
