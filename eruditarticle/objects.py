@@ -13,6 +13,10 @@ from .mixins import PublicationPeriodMixin
 
 class EruditJournal(EruditBaseObject):
 
+    def get_title(self):
+        """ :returns: the title of the journal """
+        return self.find('setName').text
+
     def get_first_publication_year(self):
         """ :returns: the first publication year of the journal. """
         pubyears = self.get_publication_years()
@@ -36,7 +40,7 @@ class EruditJournal(EruditBaseObject):
         """ :returns: the publication period of the journal object. """
         pubyears = []
         for tree_year in self.findall('annee'):
-            pubyears.append(int(tree_year.get('valeur')))
+            pubyears.append(tree_year.get('valeur'))
         pubyears = sorted(pubyears)
         return pubyears
 
