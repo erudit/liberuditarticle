@@ -73,7 +73,16 @@ class EruditBaseObject(object):
                 break
         return text
 
-    def _get_formatted_single_title(self, titles):
+    def _get_formatted_single_title(self, titles, use_equivalent=False):
+        """ Format the main, paral and equivalent titles in a single title
+
+            :param use_equivalent: whether or not to use equivalent titles. In the
+                case of formatting an :py:class:`erudit.models.Article` title, only
+                paralel titles are used. The XML of :py:class:`erudit.models.Journal`
+                equivalent titles are also used.
+
+            :returns: a formatted title
+        """
 
         sections = []
         if titles['main'].title is not None:
@@ -83,6 +92,12 @@ class EruditBaseObject(object):
             sections.append(" / ".join(
                 self._format_single_title(paral_title)
                 for paral_title in titles['paral']
+            ))
+
+        if titles['equivalent'] and use_equivalent:
+            sections.append(" / ".join(
+                self._format_single_title(paral_title)
+                for paral_title in titles['equivalent']
             ))
 
         return " / ".join(sections)

@@ -594,7 +594,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         Calls :meth:~.get_journal_titles` and format its results.
         """
         titles = self.get_journal_titles()
-        return self._get_formatted_single_title(titles)
+        return self._get_formatted_single_title(titles, use_equivalent=True)
 
     def _get_formatted_title(self, strip_markup=False):
         """ Format the article titles

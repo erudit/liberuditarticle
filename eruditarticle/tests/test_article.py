@@ -111,7 +111,7 @@ class TestArticleSavantComplet(BaseTestCase):
 
     def test_can_return_its_formatted_journal_title(self):
         assert self.test_objects['1005860ar.xml'].get_formatted_journal_title() == "Recherches s&#233;miotiques / Semiotic Inquiry"  # noqa
-        assert self.test_objects['044308ar.xml'].get_formatted_journal_title() == "Relations industrielles"  # noqa
+        assert self.test_objects['044308ar.xml'].get_formatted_journal_title() == "Relations industrielles / Industrial Relations"  # noqa
 
     def test_can_return_languages(self):
         assert self.test_objects['1005860ar.xml'].get_languages() == ['fr', 'en']
