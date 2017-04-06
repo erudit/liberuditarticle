@@ -1,11 +1,17 @@
 import os
 
 
-def ea_value(filename, value, *args, **kwargs):
+def with_value(test_object, method, *args, **kwargs):
+    """ Test function decorator that calls the specified method
+    on the test_object and pass the value to the test
+
+    :param test_object: the object on which to call the method
+    :param method: the method to call
+    """
     def decorator(func):
         def wrapper(self):
-            method = getattr(self.test_objects[filename], value)
-            results = method(*args, **kwargs)
+            object_method = getattr(self.test_objects[test_object], method)
+            results = object_method(*args, **kwargs)
             return func(self, results)
         return wrapper
     return decorator
