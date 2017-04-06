@@ -1,16 +1,9 @@
-import pytest
-
 from eruditarticle.objects import EruditArticle
-from eruditarticle.tests.base import BaseTestCase, with_value
+from eruditarticle.tests.base import with_value, with_fixtures
 
 
-class TestArticleSavantComplet(BaseTestCase):
-
-    @pytest.fixture(autouse=True)
-    def setup(self):
-        self.object_type = EruditArticle
-        self.objects_path = './eruditarticle/tests/fixtures/article/savant/complet'
-        super().setup()
+@with_fixtures('./eruditarticle/tests/fixtures/article/savant/complet', EruditArticle)
+class TestArticleSavantComplet(object):
 
     def test_all_instances(self):
         for object_name, article in self.test_objects.items():
@@ -130,13 +123,8 @@ class TestArticleSavantComplet(BaseTestCase):
         assert len(references) == 53
 
 
-class TestArticleSavantMinimal(BaseTestCase):
-
-    @pytest.fixture(autouse=True)
-    def setup(self):
-        self.object_type = EruditArticle
-        self.objects_path = './eruditarticle/tests/fixtures/article/savant/minimal'
-        super().setup()
+@with_fixtures('./eruditarticle/tests/fixtures/article/savant/minimal', EruditArticle)
+class TestArticleSavantMinimal(object):
 
     def test_can_return_titles_and_subtitles(self):
         from eruditarticle.base import Title
@@ -153,13 +141,8 @@ class TestArticleSavantMinimal(BaseTestCase):
         assert self.test_objects['001296ar.xml'].get_formatted_title() is not None
 
 
-class TestFormatPersonName(BaseTestCase):
-
-    @pytest.fixture(autouse=True)
-    def setup(self):
-        self.object_type = EruditArticle
-        self.objects_path = './eruditarticle/tests/fixtures/article/format_person_name/'
-        super().setup()
+@with_fixtures('./eruditarticle/tests/fixtures/article/format_person_name/', EruditArticle)
+class TestFormatPersonName(object):
 
     @with_value('firstname_lastname.xml', 'get_formatted_authors')
     def test_can_format_a_firstname_lastname(self, value):
@@ -190,13 +173,8 @@ class TestFormatPersonName(BaseTestCase):
         assert value == ['Thibault Martin Ph.D.']
 
 
-class TestArticleCulturelMinimal(BaseTestCase):
-
-    @pytest.fixture(autouse=True)
-    def setup(self):
-        self.object_type = EruditArticle
-        self.objects_path = './eruditarticle/tests/fixtures/article/culturel/minimal'
-        super().setup()
+@with_fixtures('./eruditarticle/tests/fixtures/article/culturel/minimal', EruditArticle)
+class TestArticleCulturelMinimal(object):
 
     def test_all_instances(self):
         for object_name, article in self.test_objects.items():

@@ -1,4 +1,24 @@
 import os
+import pytest
+
+
+def with_fixtures(path, object_type):
+    """ Class decorator that adds a ``test_objects`` dictionary to
+    the test case.
+
+    Loads all the objects in ``path`` and instantiates the corresponding
+    ``object_types``
+    """
+
+    def decorator(cls):
+        @pytest.fixture(autouse=True)
+        def build_fixtures(self, *args, **kwargs):
+            self.wrapped = cls(*args, **kwargs)
+            self.test_objects = _get_test_objects(path, object_type)
+
+        cls.build_fixtures = build_fixtures
+        return cls
+    return decorator
 
 
 def with_value(test_object, method, *args, **kwargs):
@@ -17,28 +37,35 @@ def with_value(test_object, method, *args, **kwargs):
     return decorator
 
 
+def _get_test_objects(objects_path, object_type):
+    """
+    Loads all the test_objects in object_path and store them
+    in a dictionary.
+
+    Each key/value pair of the dictionary is
+
+        key: filename of the object
+        value: an instance of self.object_type
+
+        :param objects_path: the path of the objects
+        :param object_type: the object type
+        :returns: a dictionary of the objects in path
+    """
+    test_objects = {}
+    for filename in os.listdir(path=objects_path):
+        if not filename.endswith('xml'):
+            continue
+        path = "{}/{}".format(objects_path, filename)
+
+        with open(path, 'rb') as test_xml:
+            test_objects[filename] = object_type(
+                test_xml.read()
+            )
+    return test_objects
+
+
 class BaseTestCase(object):
     def setup(self):
-        """ Populates the test_objects dictionary
-
-        Loads all the test_objects in object_path and store them
-        in the test_objects dictionary.
-
-        Each key/value pair of the test_objects dictionary is
-            key: filename of the object
-            value: an instance of self.object_type
-
-        This TestCase assumes that all the test objects in
-        directory `objects_path` are of the same type."""
-
-        self.test_objects = {}
-
-        for filename in os.listdir(path=self.objects_path):
-            if not filename.endswith('xml'):
-                continue
-            path = "{}/{}".format(self.objects_path, filename)
-
-            with open(path, 'rb') as test_xml:
-                self.test_objects[filename] = self.object_type(
-                    test_xml.read()
-                )
+        """ Base test case that creates a instanciates a dictionary with all
+        the objects in the path """
+        self.test_objects = _get_test_objects(self.objects_path, self.object_type)
