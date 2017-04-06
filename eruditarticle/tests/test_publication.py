@@ -1,18 +1,11 @@
 
-import pytest
-
 from eruditarticle.base import Title
 from eruditarticle.objects import EruditPublication
-from eruditarticle.tests.base import BaseTestCase
+from eruditarticle.tests.decorators import with_fixtures
 
 
-class TestEruditPublication(BaseTestCase):
-
-    @pytest.fixture(autouse=True)
-    def setup(self):
-        self.object_type = EruditPublication
-        self.objects_path = './eruditarticle/tests/fixtures/publication'
-        super().setup()
+@with_fixtures('./eruditarticle/tests/fixtures/publication', EruditPublication)
+class TestEruditPublication(object):
 
     def test_number(self):
         assert self.test_objects["ae1375.xml"].get_number() == '1-2'
@@ -148,6 +141,7 @@ class TestEruditPublication(BaseTestCase):
             'lastname': 'Donni',
             'organization': None,
             'role': {},
+            'suffix': None,
         }]
 
     def test_directors(self):
@@ -159,6 +153,7 @@ class TestEruditPublication(BaseTestCase):
             'lastname': 'González',
             'organization': None,
             'role': {},
+            'suffix': None,
         }]
 
         assert self.test_objects['haf2442.xml'].directors == [{
@@ -169,6 +164,7 @@ class TestEruditPublication(BaseTestCase):
             'lastname': 'Roy',
             'organization': None,
             'role': {'fr': 'Directrice'},
+            'suffix': None,
         }]
 
         assert 'role_en' not in self.test_objects['haf2442.xml'].directors
@@ -182,6 +178,7 @@ class TestEruditPublication(BaseTestCase):
             'email': None,
             'organization': None,
             'role': {'fr': 'Rédactrice adjointe'},
+            'suffix': None,
         }]
 
     def test_can_find_roles_in_all_languages(self):

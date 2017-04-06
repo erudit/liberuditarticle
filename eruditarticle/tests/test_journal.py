@@ -1,17 +1,9 @@
-
-import pytest
-
 from eruditarticle.objects import EruditJournal
-from eruditarticle.tests.base import BaseTestCase
+from eruditarticle.tests.decorators import with_fixtures
 
 
-class TestEruditPublication(BaseTestCase):
-
-    @pytest.fixture(autouse=True)
-    def setup(self):
-        self.object_type = EruditJournal
-        self.objects_path = './eruditarticle/tests/fixtures/journal'
-        super().setup()
+@with_fixtures('./eruditarticle/tests/fixtures/journal', EruditJournal)
+class TestEruditPublication(object):
 
     def test_can_return_first_publication_year(self):
         assert self.test_objects['mi115.xml'].get_first_publication_year() == '2009'

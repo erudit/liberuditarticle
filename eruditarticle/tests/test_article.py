@@ -1,16 +1,9 @@
-import pytest
-
 from eruditarticle.objects import EruditArticle
-from eruditarticle.tests.base import BaseTestCase
+from eruditarticle.tests.decorators import with_value, with_fixtures
 
 
-class TestArticleSavantComplet(BaseTestCase):
-
-    @pytest.fixture(autouse=True)
-    def setup(self):
-        self.object_type = EruditArticle
-        self.objects_path = './eruditarticle/tests/fixtures/article/savant/complet'
-        super().setup()
+@with_fixtures('./eruditarticle/tests/fixtures/article/savant/complet', EruditArticle)
+class TestArticleSavantComplet(object):
 
     def test_all_instances(self):
         for object_name, article in self.test_objects.items():
@@ -130,13 +123,8 @@ class TestArticleSavantComplet(BaseTestCase):
         assert len(references) == 53
 
 
-class TestArticleSavantMinimal(BaseTestCase):
-
-    @pytest.fixture(autouse=True)
-    def setup(self):
-        self.object_type = EruditArticle
-        self.objects_path = './eruditarticle/tests/fixtures/article/savant/minimal'
-        super().setup()
+@with_fixtures('./eruditarticle/tests/fixtures/article/savant/minimal', EruditArticle)
+class TestArticleSavantMinimal(object):
 
     def test_can_return_titles_and_subtitles(self):
         from eruditarticle.base import Title
@@ -153,13 +141,40 @@ class TestArticleSavantMinimal(BaseTestCase):
         assert self.test_objects['001296ar.xml'].get_formatted_title() is not None
 
 
-class TestArticleCulturelMinimal(BaseTestCase):
+@with_fixtures('./eruditarticle/tests/fixtures/article/format_person_name/', EruditArticle)
+class TestFormatPersonName(object):
 
-    @pytest.fixture(autouse=True)
-    def setup(self):
-        self.object_type = EruditArticle
-        self.objects_path = './eruditarticle/tests/fixtures/article/culturel/minimal'
-        super().setup()
+    @with_value('firstname_lastname.xml', 'get_formatted_authors')
+    def test_can_format_a_firstname_lastname(self, value):
+        assert value == ['Natascha Niederstrass']
+
+    @with_value('with_othername.xml', 'get_formatted_authors')
+    def test_can_format_firstname_othername_lastname(self, value):
+        assert value == ['Georges L. Bastin']
+
+    @with_value('firstname_lastname_alias.xml', 'get_formatted_authors')
+    def test_can_format_firstname_lastname_and_alias(self, value):
+        assert value == ['Patrick Straram, alias le Bison ravi']
+
+    @with_value('only_alias.xml', 'get_formatted_authors')
+    def test_can_format_only_alias(self, value):
+        assert value == ['Aude']
+
+    @with_value('only_firstname.xml', 'get_formatted_authors')
+    def test_can_format_only_firstname(self, value):
+        assert value == ['Presseau']
+
+    @with_value('only_lastname.xml', 'get_formatted_authors')
+    def test_can_format_only_lastname(self, value):
+        assert value == ['Marbic']
+
+    @with_value('with_suffix.xml', 'get_formatted_authors')
+    def test_can_format_name_with_suffix(self, value):
+        assert value == ['Thibault Martin Ph.D.']
+
+
+@with_fixtures('./eruditarticle/tests/fixtures/article/culturel/minimal', EruditArticle)
+class TestArticleCulturelMinimal(object):
 
     def test_all_instances(self):
         for object_name, article in self.test_objects.items():

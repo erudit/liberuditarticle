@@ -182,6 +182,31 @@ class EruditBaseObject(object):
                 titles['equivalent'].append(paral_title)
         return titles
 
+    def format_person_name(self, person):
+        """ Formats the name in the person dictionary
+
+        :returns: the formatted person name
+        """
+
+        formatted_person_name = ""
+
+        keys_order = ['prefix', 'firstname', 'othername', 'lastname', 'suffix']
+
+        first_item = True
+        for index, key in enumerate(keys_order):
+            if key in person and person[key]:
+                if first_item:
+                    value = ""
+                    first_item = False
+                else:
+                    value = " "
+                formatted_person_name += value + person[key]
+
+        if 'pseudo' in person:
+            return formatted_person_name + ', alias ' + self.format_person_name(person['pseudo'])
+
+        return formatted_person_name
+
     def parse_person(self, person_tag):
         """ Parses a person tag
 
@@ -197,6 +222,7 @@ class EruditBaseObject(object):
                    'affiliations': ['TEST1', 'TEST2']
                    'email': 'foo.bar@example.com',
                    'organization': 'Test',
+                   'suffix': 'Ph.D.'
                 },
             ]
         """
@@ -204,6 +230,7 @@ class EruditBaseObject(object):
             'firstname': self.get_text('prenom', dom=person_tag),
             'lastname': self.get_text('nomfamille', dom=person_tag),
             'othername': self.get_text('autreprenom', dom=person_tag),
+            'suffix': self.get_text('suffixe', dom=person_tag),
             'affiliations': [
                 self.get_text('alinea', dom=affiliation_dom)
                 for affiliation_dom in self.findall('affiliation', dom=person_tag)
@@ -217,6 +244,11 @@ class EruditBaseObject(object):
         roles = find_role(person_tag)
         for role in roles:
             person['role'][role.get('lang')] = role.text
+
+        pseudo = self.find('nompers[@typenompers="pseudonyme"]', dom=person_tag)
+        all_person_names = self.findall('nompers', dom=person_tag)
+        if pseudo and len(all_person_names) > 1:
+            person['pseudo'] = self.parse_person(pseudo)
         return person
 
     def parse_simple_link(self, simplelink_node):
