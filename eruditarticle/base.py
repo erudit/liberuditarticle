@@ -202,6 +202,9 @@ class EruditBaseObject(object):
                     value = " "
                 formatted_person_name += value + person[key]
 
+        if 'pseudo' in person:
+            return formatted_person_name + ', alias ' + self.format_person_name(person['pseudo'])
+
         return formatted_person_name
 
     def parse_person(self, person_tag):
@@ -241,6 +244,11 @@ class EruditBaseObject(object):
         roles = find_role(person_tag)
         for role in roles:
             person['role'][role.get('lang')] = role.text
+
+        pseudo = self.find('nompers[@typenompers="pseudonyme"]', dom=person_tag)
+        all_person_names = self.findall('nompers', dom=person_tag)
+        if pseudo and len(all_person_names) > 1:
+            person['pseudo'] = self.parse_person(pseudo)
         return person
 
     def parse_simple_link(self, simplelink_node):
