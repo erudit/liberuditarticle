@@ -1,0 +1,68 @@
+<article xmlns="http://www.erudit.org/xsd/article" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" idproprio="5620ac" lang="fr" ordseq="32" qualtraitement="minimal" typeart="article" xsi:schemaLocation="http://www.erudit.org/xsd/article http://www.erudit.org/xsd/article/3.0.0/eruditarticle.xsd">
+          <admin>
+            <infoarticle>
+              <pagination>
+                <ppage>66</ppage>
+                <dpage>66</dpage>
+              </pagination>
+            </infoarticle>
+            <revue id="bl1000329" lang="fr">
+              <titrerev>Brèves littéraires</titrerev>
+              <titrerevabr>bl</titrerevabr>
+              <idissn>1194-8159</idissn>
+              <idissnnum>1920-812X</idissnnum>
+              <directeur sexe="masculin">
+                <nompers>
+                  <prenom>Laurent</prenom>
+                  <nomfamille>Berthiaume</nomfamille>
+                </nompers>
+              </directeur>
+            </revue>
+            <numero id="bl1001717">
+              <nonumero>49</nonumero>
+              <pub>
+                <periode>Printemps</periode>
+                <annee>1998</annee>
+              </pub>
+              <pubnum>
+                <date typedate="publication">2009-12-03</date>
+              </pubnum>
+            </numero>
+            <editeur>
+              <nomorg>Société littéraire de Laval</nomorg>
+            </editeur>
+            <prodnum>
+              <nomorg>Érudit</nomorg>
+            </prodnum>
+            <diffnum>
+              <nomorg>Érudit</nomorg>
+            </diffnum>
+            <schema lang="fr" nom="Erudit Article" version="3.0.0"/>
+            <droitsauteur>Tous droits réservés © <nomorg>Société littéraire de Laval</nomorg>, 1998</droitsauteur>
+          </admin>
+          <liminaire>
+            <grtitre>
+              <titre>Coeur dé(mots)</titre>
+            </grtitre>
+            <grauteur>
+              <auteur id="au1">
+                <nompers>
+                  <nomfamille>Marbic</nomfamille>
+                </nompers>
+              </auteur>
+            </grauteur>
+          </liminaire>
+          <corps>
+            <texte>66
+
+MARBIC
+
+coeur dé(mots)
+
+dans une tête qui n'est plus la mienne, les mots s'étouffent
+
+à répétition cliques claqués j'étouffe comme le vent souffle de partout la mort à de pour qui précis ajuste valeur   l'oubli le progrès suit s'ensuit son cours à travers les illusions à se détruire s'éparpiller pêle-mêle comme des feuilles mortes les mots s'épuisent de tomber dans le vide de s'épuiser les mots que l'on reprend vides et malades sur les grandes surfaces à sourires que l'on oublie au coin de la rue désertée désolée dans l'immensité qui nous assaille et nous taxe l'hésitation cruelle est sans parole et un peu trop frivole
+
+à demeurer les mots libres nomades !</texte>
+          </corps>
+        </article>

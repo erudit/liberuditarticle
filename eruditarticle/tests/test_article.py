@@ -1,7 +1,7 @@
 import pytest
 
 from eruditarticle.objects import EruditArticle
-from eruditarticle.tests.base import BaseTestCase
+from eruditarticle.tests.base import BaseTestCase, ea_value
 
 
 class TestArticleSavantComplet(BaseTestCase):
@@ -152,6 +152,42 @@ class TestArticleSavantMinimal(BaseTestCase):
     def test_can_return_titles_with_malformed_grtitre(self):
         assert self.test_objects['001296ar.xml'].get_formatted_title() is not None
 
+
+class TestFormatPersonName(BaseTestCase):
+
+    @pytest.fixture(autouse=True)
+    def setup(self):
+        self.object_type = EruditArticle
+        self.objects_path = './eruditarticle/tests/fixtures/article/format_person_name/'
+        super().setup()
+
+    @ea_value('firstname_lastname.xml', 'get_formatted_authors')
+    def test_can_format_a_firstname_lastname(self, value):
+        assert value == ['Natascha Niederstrass']
+
+    @ea_value('with_othername.xml', 'get_formatted_authors')
+    def test_can_format_firstname_othername_lastname(self, value):
+        assert value == ['Georges L. Bastin']
+
+    @ea_value('firstname_lastname_alias.xml', 'get_formatted_authors')
+    def test_can_format_firstname_lastname_and_alias(self, value):
+        assert value == ['Patrick Straram, alias le Bison ravi']
+
+    @ea_value('only_alias.xml', 'get_formatted_authors')
+    def test_can_format_only_alias(self, value):
+        assert value == ['Aude']
+
+    @ea_value('only_firstname.xml', 'get_formatted_authors')
+    def test_can_format_only_firstname(self, value):
+        assert value == ['Presseau']
+
+    @ea_value('only_lastname.xml', 'get_formatted_authors')
+    def test_can_format_only_lastname(self, value):
+        assert value == ['Marbic']
+
+    @ea_value('with_suffix.xml', 'get_formatted_authors')
+    def test_can_format_name_with_suffix(self, value):
+        assert value == ['Thibault Martin Ph.D.']
 
 class TestArticleCulturelMinimal(BaseTestCase):
 

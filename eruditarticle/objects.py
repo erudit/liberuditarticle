@@ -319,6 +319,13 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """ :returns: the authors of the article object. """
         return self.get_persons('auteur')
 
+    def get_formatted_authors(self):
+        """ :returns: the formatted author names of the article object. """
+        return [
+            self.format_person_name(author)
+            for author in self.get_authors()
+        ]
+
     def get_doi(self):
         """ :returns: the DOI of the article object. """
         return self.get_text('idpublic[@scheme="doi"]')

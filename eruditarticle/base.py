@@ -182,6 +182,28 @@ class EruditBaseObject(object):
                 titles['equivalent'].append(paral_title)
         return titles
 
+    def format_person_name(self, person):
+        """ Formats the name in the person dictionary
+
+        :returns: the formatted person name
+        """
+
+        formatted_person_name = ""
+
+        keys_order = ['prefix', 'firstname', 'othername', 'lastname', 'suffix']
+
+        first_item = True
+        for index, key in enumerate(keys_order):
+            if key in person and person[key]:
+                if first_item:
+                    value = ""
+                    first_item = False
+                else:
+                    value = " "
+                formatted_person_name += value + person[key]
+
+        return formatted_person_name
+
     def parse_person(self, person_tag):
         """ Parses a person tag
 
