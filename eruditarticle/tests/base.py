@@ -1,6 +1,16 @@
 import os
 
 
+def ea_value(filename, value, *args, **kwargs):
+    def decorator(func):
+        def wrapper(self):
+            method = getattr(self.test_objects[filename], value)
+            results = method(*args, **kwargs)
+            return func(self, results)
+        return wrapper
+    return decorator
+
+
 class BaseTestCase(object):
     def setup(self):
         """ Populates the test_objects dictionary
