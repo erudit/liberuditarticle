@@ -219,6 +219,7 @@ class EruditBaseObject(object):
                    'affiliations': ['TEST1', 'TEST2']
                    'email': 'foo.bar@example.com',
                    'organization': 'Test',
+                   'suffix': 'Ph.D.'
                 },
             ]
         """
@@ -226,6 +227,7 @@ class EruditBaseObject(object):
             'firstname': self.get_text('prenom', dom=person_tag),
             'lastname': self.get_text('nomfamille', dom=person_tag),
             'othername': self.get_text('autreprenom', dom=person_tag),
+            'suffix': self.get_text('suffixe', dom=person_tag),
             'affiliations': [
                 self.get_text('alinea', dom=affiliation_dom)
                 for affiliation_dom in self.findall('affiliation', dom=person_tag)
