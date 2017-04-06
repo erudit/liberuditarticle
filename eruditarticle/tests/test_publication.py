@@ -1,18 +1,11 @@
 
-import pytest
-
 from eruditarticle.base import Title
 from eruditarticle.objects import EruditPublication
-from eruditarticle.tests.base import BaseTestCase
+from eruditarticle.tests.decorators import with_fixtures
 
 
-class TestEruditPublication(BaseTestCase):
-
-    @pytest.fixture(autouse=True)
-    def setup(self):
-        self.object_type = EruditPublication
-        self.objects_path = './eruditarticle/tests/fixtures/publication'
-        super().setup()
+@with_fixtures('./eruditarticle/tests/fixtures/publication', EruditPublication)
+class TestEruditPublication(object):
 
     def test_number(self):
         assert self.test_objects["ae1375.xml"].get_number() == '1-2'

@@ -1,5 +1,5 @@
 from eruditarticle.objects import EruditArticle
-from eruditarticle.tests.base import with_value, with_fixtures
+from eruditarticle.tests.decorators import with_value, with_fixtures
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/savant/complet', EruditArticle)
