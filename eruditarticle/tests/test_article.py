@@ -173,6 +173,24 @@ class TestFormatPersonName(object):
         assert value == ['Thibault Martin Ph.D.']
 
 
+@with_fixtures('./eruditarticle/tests/fixtures/article/find_authors/', EruditArticle)
+class TestFindAuthors(object):
+    @with_value('with_translator_as_contributor.xml', 'get_authors')
+    def test_can_exclude_translators(self, value):
+        assert value == [
+            {
+                'affiliations': ['Universidade de São Paulo'],
+                'email': None,
+                'firstname': 'Ismail',
+                'lastname': 'Xavier',
+                'organization': None,
+                'othername': None,
+                'role': {},
+                'suffix': None
+            }
+        ]
+
+
 @with_fixtures('./eruditarticle/tests/fixtures/article/culturel/minimal', EruditArticle)
 class TestArticleCulturelMinimal(object):
 
