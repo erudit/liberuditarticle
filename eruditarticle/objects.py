@@ -317,7 +317,11 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
 
     def get_authors(self):
         """ :returns: the authors of the article object. """
-        return self.get_persons('auteur')
+        authors = [
+            self.parse_person(author) for author in
+            self._root.xpath('//auteur[not(contribution[@typecontrib!="aut"])]')
+        ]
+        return authors
 
     def get_formatted_authors(self):
         """ :returns: the formatted author names of the article object. """
