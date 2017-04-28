@@ -151,8 +151,15 @@ class EruditPublication(
         for theme_tag in self.findall('grtheme'):
             theme_id, theme = self.parse_theme(theme_tag)
             themes[theme_id] = theme
-
         return themes
+
+    def get_formatted_theme_guest_editors(self, theme):
+        """ Format the names of the guest editors of the theme """
+        guest_editors = theme.get("redacteurchef", [])
+        formatted_guest_editors = map(
+            lambda x: self.format_person_name(x), guest_editors
+        )
+        return list(formatted_guest_editors)
 
     def get_redacteurchef(self, idrefs=None):
         """ Return the redacteurchef of this publication """
