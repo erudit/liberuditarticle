@@ -147,7 +147,6 @@ class EruditPublication(
                 as_string=True
             ),
         }
-
         theme_id = theme_tag.get('id')
 
         # theme redacteurs en chef
@@ -171,6 +170,36 @@ class EruditPublication(
             lambda x: self.format_person_name(x), guest_editors
         )
         return list(formatted_guest_editors)
+
+    def _format_theme_names(self, theme):
+        """ Format the theme name """
+        theme_name_subnames = [
+            (theme['name'], theme.get('subname', None), theme['lang'])
+        ] + [
+            (paral['name'], paral.get('subname', None), paral.get('lang'))
+            for paral in theme['paral'].values()
+        ]
+
+        def _theme_name_formatter(name, subname, lang):
+            # Lower case the first letter if theme name is in French.
+            if subname and lang == 'fr':
+                subname = subname[0].lower() + subname[1:]
+            return "{} : {}".format(name, subname) if subname else name
+
+        return list(map(lambda t: _theme_name_formatter(t[0], t[1], t[2]), theme_name_subnames))
+
+    def get_formatted_themes(self):
+        """ Return the formatted themes of this publication """
+        themes = self.get_themes()
+        formatted_themes = []
+        for theme_id, theme in themes.items():
+            formatted_themes.append(
+                {
+                    'names': self._format_theme_names(theme),
+                    'editors': self.get_formatted_theme_guest_editors(theme)
+                }
+            )
+        return formatted_themes
 
     def get_redacteurchef(self, idrefs=None):
         """ Return the redacteurchef of this publication """

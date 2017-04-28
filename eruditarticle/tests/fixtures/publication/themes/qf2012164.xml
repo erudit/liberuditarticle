@@ -1,0 +1,1871 @@
+<?xml version="1.0" encoding="UTF-8"?><site><revues>
+    <revue code="bc1000004" fond="0" letter="B" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="bc1000004">
+        <disciplines>
+            <discipline>1209089</discipline>
+        </disciplines>
+        <titreTexte>Biscuit chinois : littérature pop</titreTexte>
+        <titreAlpha>Biscuit chinois : littérature pop</titreAlpha>
+        <raccourcis>biscuitchinois</raccourcis>
+        <apropos>http://www.biscuitchinois.com</apropos>
+    </revue>
+    <revue code="espace1041666" fond="0" letter="E" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="espace1041666">
+        <disciplines>
+            <discipline>1209059</discipline>
+        </disciplines>
+        <titreTexte>Espace : Art actuel</titreTexte>
+        <titreAlpha>Espace : Art actuel</titreAlpha>
+        <raccourcis>espace</raccourcis>
+        <apropos>http://www.espace-sculpture.com/</apropos>
+    </revue>
+	 <revue code="esse045" fond="0" letter="E" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="esse045">
+        <disciplines>
+            <discipline>1209059</discipline>
+        </disciplines>
+        <titreTexte>esse arts + opinions</titreTexte>
+        <titreAlpha>esse arts + opinions</titreAlpha>
+        <raccourcis>esse</raccourcis>
+		<apropos>http://www.esse.ca</apropos>
+    </revue>
+    <revue code="moebius1006620" fond="0" letter="M" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="moebius1006620">
+        <disciplines>
+            <discipline>1209089</discipline>
+        </disciplines>
+        <titreTexte>Moebius : écritures / littérature</titreTexte>
+        <titreAlpha>Moebius : écritures / littérature</titreAlpha>
+            <raccourcis>moebius</raccourcis>
+            <apropos>http://www.triptyque.qc.ca/abonne.html</apropos>
+        </revue>
+    <revue code="cd1035538" fond="0" letter="C" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="cd1035538">
+        <disciplines>
+            <discipline>12</discipline>
+        </disciplines>
+        <titreTexte>Cap-aux-Diamants : la revue d'histoire du Québec</titreTexte>
+        <titreAlpha>Cap-aux-Diamants : la revue d'histoire du Québec</titreAlpha>
+        <raccourcis>cap-aux-diamants</raccourcis>
+        <apropos>http://www.capauxdiamants.org</apropos>
+    </revue>
+    <revue code="continuite1050475" fond="0" letter="C" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="continuite1050475">
+        <disciplines>
+            <discipline>12</discipline>
+        </disciplines>
+        <titreTexte>Continuité</titreTexte>
+        <titreAlpha>Continuité</titreAlpha>
+        <raccourcis>continuite</raccourcis>
+        <apropos>http://www.magazinecontinuite.com/</apropos>
+    </revue>
+    <revue code="bl1000329" fond="0" letter="B" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="bl1000329">
+        <disciplines>
+            <discipline>1209089</discipline>
+        </disciplines>
+        <titreTexte>Brèves littéraires</titreTexte>
+        <titreAlpha>Brèves littéraires</titreAlpha>
+        <raccourcis>breveslitteraires</raccourcis>
+        <anciensnoms>
+            <anciennom code="entrevous02595" id="1">EntreVous</anciennom>
+        </anciensnoms>
+        <apropos>http://www.sodep.qc.ca/publicationdetails.aspx?id=41</apropos>
+    </revue>
+    <revue code="entrevous02595" fond="0" letter="E" nouveau="1" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="entrevous02595">
+        <disciplines>
+            <discipline>1209089</discipline>
+        </disciplines>
+        <titreTexte>Entrevous : littérature organique</titreTexte>
+        <titreAlpha>Entrevous</titreAlpha>
+        <anciensnoms>
+            <anciennom code="bl1000329" id="-1">Brèves littéraires</anciennom>
+        </anciensnoms>
+        <raccourcis>entrevous</raccourcis>
+        <apropos>http://sll-entrevous.org/</apropos>
+    </revue>
+    <revue code="lecture073" fond="0" letter="C" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="lecture073">
+        <disciplines>
+            <discipline>18</discipline>
+        </disciplines>
+        <titreTexte>Les Cahiers de lecture de L'Action nationale</titreTexte>
+        <titreAlpha>Les Cahiers de lecture de L'Action nationale</titreAlpha>
+        <raccourcis>cahierlecture</raccourcis>
+        <apropos>http://www.action-nationale.qc.ca</apropos>
+    </revue>
+    <revue code="images1058019" fond="0" letter="1-2-3" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="images1058019">
+        <disciplines>
+            <discipline>1484901</discipline>
+        </disciplines>
+        <titreTexte>24 images</titreTexte>
+        <titreAlpha>24 images</titreAlpha>
+        <raccourcis>24images</raccourcis>
+        <apropos>http://www.revue24images.com/</apropos>
+    </revue>
+    <revue code="cv1057878" fond="0" letter="C" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="cv1057878">
+        <disciplines>
+            <discipline>1209059</discipline>
+        </disciplines>
+        <titreTexte>Ciel variable : art, photo, médias, culture</titreTexte>
+        <titreAlpha>Ciel variable : art, photo, médias, culture</titreAlpha>
+      	<anciensnoms>
+            <anciennom code="cvphoto1383919" id="-1">CV Photo</anciennom>
+        </anciensnoms>
+        <raccourcis>cielvariable</raccourcis>
+        <apropos>http://www.cielvariable.ca/</apropos>
+    </revue>
+    <revue code="cvphoto1383919" fond="0" letter="C" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="non" identifier="cvphoto1383919">
+        <disciplines>
+            <discipline>1209059</discipline>
+        </disciplines>
+        <titreTexte>CV Photo</titreTexte>
+        <titreAlpha>CV Photo</titreAlpha>
+      	<anciensnoms>
+            <anciennom code="cv1057878" id="1">Ciel variable : art, photo, médias, culture</anciennom>
+        </anciensnoms>
+      	<anciensnoms>
+            <anciennom code="cielvariable1383965" id="-1">Ciel variable</anciennom>
+        </anciensnoms>
+        <raccourcis>cvphoto</raccourcis>
+        <apropos>http://www.cielvariable.ca/</apropos>
+    </revue>
+    <revue code="cielvariable1383965" fond="0" letter="C" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="non" identifier="cielvariable1383965">
+        <disciplines>
+            <discipline>1209059</discipline>
+        </disciplines>
+        <titreTexte>Ciel variable</titreTexte>
+        <titreAlpha>Ciel variable</titreAlpha>
+      	<anciensnoms>
+            <anciennom code="cvphoto1383919" id="1">CV Photo</anciennom>
+        </anciensnoms>
+        <raccourcis>cv</raccourcis>
+        <apropos>http://www.cielvariable.ca/</apropos>
+    </revue>
+    <revue code="cb1068900" fond="0" letter="C" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="cb1068900">
+        <disciplines>
+            <discipline>1484901</discipline>
+        </disciplines>
+        <titreTexte>Ciné-Bulles</titreTexte>
+        <titreAlpha>Ciné-Bulles</titreAlpha>
+        <raccourcis>cine-bulles</raccourcis>
+        <apropos>http://www.cinemasparalleles.qc.ca/rubrique.php3?id_rubrique=16</apropos>
+    </revue>
+    <revue code="cj1001905" fond="0" letter="C" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="cj1001905">
+        <disciplines>
+            <discipline>1209089</discipline>
+        </disciplines>
+        <titreTexte>Contre-jour : cahiers littéraires</titreTexte>
+        <titreAlpha>Contre-jour : cahiers littéraires</titreAlpha>
+        <raccourcis>contre-jour</raccourcis>
+        <apropos>http://www.contre-jour.ca</apropos>
+    </revue>
+    <revue code="el1057873" fond="0" letter="E" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="el1057873">
+        <disciplines>
+            <discipline>1209089</discipline>
+        </disciplines>
+        <titreTexte>Entre les lignes : le plaisir de lire au Québec</titreTexte>
+        <titreAlpha>Entre les lignes : le plaisir de lire au Québec</titreAlpha>
+        <raccourcis>entreleslignes</raccourcis>
+        <apropos>http://www.entreleslignes.ca</apropos>
+    </revue>
+    <revue code="etc1073425" fond="0" letter="E" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="non" identifier="etc1073425">
+        <disciplines>
+            <discipline>1209059</discipline>
+        </disciplines>
+        <titreTexte>ETC</titreTexte>
+        <titreAlpha>ETC</titreAlpha>
+        <raccourcis>etc</raccourcis>
+        <anciensnoms>
+            <anciennom code="etcmedia01491" id="1">ETC MEDIA</anciennom>
+        </anciensnoms>
+        <apropos>http://www.etcmedia.ca</apropos>
+    </revue>
+    <revue code="etcmedia01491" fond="0" letter="E" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="etcmedia01491">
+        <disciplines>
+            <discipline>1209059</discipline>
+        </disciplines>
+        <titreTexte>ETC MEDIA</titreTexte>
+        <titreAlpha>ETC MEDIA</titreAlpha>
+        <anciensnoms>
+            <anciennom code="etc1073425" id="-1">ETC</anciennom>
+        </anciensnoms>
+        <raccourcis>etcmedia</raccourcis>
+        <apropos>http://www.etcmedia.ca</apropos>
+    </revue>
+    <revue code="hq1056841" fond="0" letter="H" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="hq1056841">
+        <disciplines>
+            <discipline>12</discipline>
+        </disciplines>
+        <titreTexte>Histoire Québec</titreTexte>
+        <titreAlpha>Histoire Québec</titreAlpha>
+        <raccourcis>histoirequebec</raccourcis>
+        <apropos>http://www.histoirequebec.qc.ca</apropos>
+    </revue>
+    <revue code="linconvenient01887" fond="0" letter="I" nouveau="1" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="linconvenient01887">
+        <disciplines>
+            <discipline>1209085</discipline>
+			<discipline>18</discipline>
+        </disciplines>
+        <titreTexte>L’Inconvénient</titreTexte>
+        <titreAlpha>Inconvénient</titreAlpha>
+        <raccourcis>linconvenient</raccourcis>
+        <apropos>https://linconvenient.wordpress.com/</apropos>
+    </revue>
+    <revue code="inter1068986" fond="0" letter="I" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="inter1068986">
+        <disciplines>
+            <discipline>1209059</discipline>
+        </disciplines>
+        <titreTexte>Inter : art actuel</titreTexte>
+        <titreAlpha>Inter : art actuel</titreAlpha>
+        <anciensnoms>
+            <anciennom code="intervention1119689" id="-1">Intervention</anciennom>
+        </anciensnoms>
+        <raccourcis>inter</raccourcis>
+        <apropos>http://www.inter-lelieu.org/</apropos>
+    </revue>
+    <revue code="intervention1119689" fond="0" letter="I" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="non" identifier="intervention1119689">
+        <disciplines>
+            <discipline>1209059</discipline>
+        </disciplines>
+        <titreTexte>Intervention</titreTexte>
+        <titreAlpha>Intervention</titreAlpha>
+        <anciensnoms>
+            <anciennom code="inter1068986" id="1">Inter</anciennom>
+        </anciensnoms>
+        <raccourcis>intervention</raccourcis>
+		<apropos>http://www.inter-lelieu.org/</apropos>
+    </revue>
+    <revue code="jeu1060667" fond="0" letter="J" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="jeu1060667">
+        <disciplines>
+            <discipline>1209127</discipline>
+        </disciplines>
+        <titreTexte>Jeu : revue de théâtre</titreTexte>
+        <titreAlpha>Jeu : revue de théâtre</titreAlpha>
+        <raccourcis>jeu</raccourcis>
+        <apropos>http://www.revuejeu.org</apropos>
+    </revue>
+    <revue code="lq1076302" fond="0" letter="L" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="lq1076302">
+        <disciplines>
+            <discipline>1209089</discipline>
+        </disciplines>
+        <titreTexte>Lettres québécoises : la revue de l'actualité littéraire</titreTexte>
+        <titreAlpha>Lettres québécoises : la revue de l'actualité littéraire</titreAlpha>
+        <raccourcis>lettresquebecoises</raccourcis>
+        <apropos>http://www.lettresquebecoises.qc.ca</apropos>
+    </revue>
+    <revue code="liaison1076624" fond="0" letter="L" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="liaison1076624">
+        <disciplines>
+            <discipline>1209085</discipline>
+        </disciplines>
+        <titreTexte>Liaison</titreTexte>
+        <titreAlpha>Liaison</titreAlpha>
+        <raccourcis>liaison</raccourcis>
+        <apropos>https://liaison.erudit.org/</apropos>
+    </revue>
+    <revue code="liberte1026896" fond="0" letter="L" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="liberte1026896">
+        <disciplines>
+            <discipline>1209089</discipline>
+        </disciplines>
+        <titreTexte>Liberté</titreTexte>
+        <titreAlpha>Liberté</titreAlpha>
+        <raccourcis>liberte</raccourcis>
+        <apropos>http://www.revueliberte.ca</apropos>
+    </revue>
+    <revue code="lurelu1081565" fond="0" letter="L" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="lurelu1081565">
+        <disciplines>
+            <discipline>1209089</discipline>
+        </disciplines>
+        <titreTexte>Lurelu</titreTexte>
+        <titreAlpha>Lurelu</titreAlpha>
+        <raccourcis>lurelu</raccourcis>
+        <apropos>http://www.lurelu.net/</apropos>
+    </revue>
+   <revue code="ncs01917" fond="0" letter="N" nouveau="1" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="ncs01917">
+        <disciplines>
+            <discipline>18</discipline>
+        </disciplines>
+        <titreTexte>Nouveaux Cahiers du socialisme</titreTexte>
+        <titreAlpha>Nouveaux Cahiers du socialisme</titreAlpha>
+		<apropos>http://www.cahiersdusocialisme.org/</apropos>
+    </revue>
+    <revue code="nb1073421" fond="0" letter="N" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="nb1073421">
+        <disciplines>
+            <discipline>1209089</discipline>
+        </disciplines>
+        <titreTexte>Nuit blanche, magazine littéraire</titreTexte>
+        <titreAlpha>Nuit blanche, magazine littéraire</titreAlpha>
+        <raccourcis>nuitblanche</raccourcis>
+        <apropos>http://www.nuitblanche.com</apropos>
+    </revue>
+    <revue code="qf1076656" fond="0" letter="Q" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="qf1076656">
+        <disciplines>
+            <discipline>1209089</discipline>
+            <discipline>7</discipline>
+        </disciplines>
+        <titreTexte>Québec français</titreTexte>
+        <titreAlpha>Québec français</titreAlpha>
+        <raccourcis>quebecfrancais</raccourcis>
+        <apropos>http://www.quebecfrancais.ca/</apropos>
+    </revue>
+	<revue code="rel049" fond="0" letter="R" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="rel049">
+        <disciplines>
+            <discipline>18</discipline>
+        </disciplines>
+		<titreTexte>Relations</titreTexte>
+        <titreAlpha>Relations</titreAlpha>
+        <raccourcis>relations</raccourcis>
+		<apropos>http://www.cjf.qc.ca/fr/relations/ </apropos>
+    </revue>
+    <revue code="sequences1081634" fond="0" letter="S" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="sequences1081634">
+        <disciplines>
+            <discipline>1484901</discipline>
+        </disciplines>
+        <titreTexte>Séquences : la revue de cinéma</titreTexte>
+        <titreAlpha>Séquences : la revue de cinéma</titreAlpha>
+        <raccourcis>sequences</raccourcis>
+        <apropos>http://www.revuesequences.org/</apropos>
+    </revue>
+    <revue code="spirale1048177" fond="0" letter="S" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="spirale1048177">
+        <disciplines>
+            <discipline>1209085</discipline>
+        </disciplines>
+        <titreTexte>Spirale : arts • lettres • sciences humaines</titreTexte>
+        <titreAlpha>Spirale : arts • lettres • sciences humaines</titreAlpha>
+        <raccourcis>spirale</raccourcis>
+        <apropos>http://www.spiralemagazine.com/</apropos>
+    </revue>
+    <revue code="va1081917" fond="0" letter="V" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="va1081917">
+        <disciplines>
+            <discipline>1209059</discipline>
+        </disciplines>
+        <titreTexte>Vie des Arts</titreTexte>
+        <titreAlpha>Vie des Arts</titreAlpha>
+        <raccourcis>viedesarts</raccourcis>
+        <apropos>http://www.viedesarts.com</apropos>
+    </revue>
+    <revue code="xyz1016803" fond="0" letter="X" nouveau="" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="xyz1016803">
+        <disciplines>
+            <discipline>1209089</discipline>
+        </disciplines>
+        <titreTexte>XYZ. La revue de la nouvelle</titreTexte>
+        <titreAlpha>XYZ. La revue de la nouvelle</titreAlpha>
+        <raccourcis>xyz</raccourcis>
+        <apropos>http://www.xyzrevue.com/</apropos>
+    </revue>
+    <revue code="mgaspesie0787" fond="0" letter="M" nouveau="0" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="mgaspesie0787">
+        <disciplines>
+            <discipline>12</discipline>
+        </disciplines>
+        <titreTexte>Magazine Gaspésie</titreTexte>
+        <titreAlpha>Magazine Gaspésie</titreAlpha>
+        <raccourcis>mgaspesie</raccourcis>
+        <apropos>http://www.museedelagaspesie.ca/fr/magazine/index.php</apropos>
+    </revue>
+    <revue code="lesecrits02594" fond="0" letter="E" nouveau="1" publiee="1" titreparaseulement="0" culturelle="oui" visible="oui" identifier="lesecrits02594">
+        <disciplines>
+            <discipline>1209089</discipline>
+        </disciplines>
+        <titreTexte>Les Écrits</titreTexte>
+        <titreAlpha>Les Écrits</titreAlpha>
+        <raccourcis>lesecrits</raccourcis>
+        <apropos>http://www.lesecrits.ca/</apropos>
+    </revue>
+    <revue code="ticarttoc02667" fond="0" letter="T" nouveau="1" publiee="0" titreparaseulement="0" identifier="ticarttoc02667" culturelle="oui" apropos_cms="0" visible="oui">
+        <disciplines>
+            <discipline>1209059</discipline>
+        </disciplines>
+        <titreTexte>TicArtToc : Diversité/Arts/Réflexion(s)</titreTexte>
+        <titreAlpha>TicArtToc : Diversité/Arts/Réflexion(s)</titreAlpha>
+        <raccourcis>ticarttoc</raccourcis>
+        <apropos>https://ticarttoc.com/</apropos>
+    </revue>
+</revues><publications><numeros>
+  <originator app="Tournesol 0.4.2" date="2017-02-21" username="p0965012"/>
+  <revue>
+    <gratuites>
+      <gratuite pid="erudit:erudit.qf1076656" revue="qf" valeur="true"/>
+    </gratuites>
+    <notes/>
+  </revue>
+  <liste>
+    <decennie dannee="2015" pannee="2011">
+      <annee valeur="2015">
+        <numero annee="2015" autrenumero="" nonumero="175" periode="" pid="erudit:erudit.qf1076656.qf02472" revAbr="qf" type="reg" url="qf1076656/qf02472" volume=""/>
+        <numero annee="2015" autrenumero="" nonumero="174" periode="" pid="erudit:erudit.qf1076656.qf01737" revAbr="qf" type="reg" url="qf1076656/qf01737" volume=""/>
+      </annee>
+      <annee valeur="2014">
+        <numero annee="2014" autrenumero="" nonumero="173" periode="" pid="erudit:erudit.qf1076656.qf01579" revAbr="qf" type="reg" url="qf1076656/qf01579" volume=""/>
+        <numero annee="2014" autrenumero="" nonumero="172" periode="" pid="erudit:erudit.qf1076656.qf01455" revAbr="qf" type="reg" url="qf1076656/qf01455" volume=""/>
+        <numero annee="2014" autrenumero="" nonumero="171" periode="" pid="erudit:erudit.qf1076656.qf01221" revAbr="qf" type="reg" url="qf1076656/qf01221" volume=""/>
+      </annee>
+      <annee valeur="2013">
+        <numero annee="2013" autrenumero="" nonumero="170" periode="" pid="erudit:erudit.qf1076656.qf0918" revAbr="qf" type="reg" url="qf1076656/qf0918" volume=""/>
+        <numero annee="2013" autrenumero="" nonumero="169" periode="" pid="erudit:erudit.qf1076656.qf0688" revAbr="qf" type="reg" url="qf1076656/qf0688" volume=""/>
+        <numero annee="2013" autrenumero="" nonumero="168" periode="Hiver" pid="erudit:erudit.qf1076656.qf0476" revAbr="qf" type="reg" url="qf1076656/qf0476" volume=""/>
+      </annee>
+      <annee valeur="2012">
+        <numero annee="2012" autrenumero="" nonumero="167" periode="Automne" pid="erudit:erudit.qf1076656.qf0344" revAbr="qf" type="reg" url="qf1076656/qf0344" volume=""/>
+        <numero annee="2012" autrenumero="" nonumero="166" periode="Été" pid="erudit:erudit.qf1076656.qf0266" revAbr="qf" type="reg" url="qf1076656/qf0266" volume=""/>
+        <numero annee="2012" autrenumero="" nonumero="165" periode="Printemps" pid="erudit:erudit.qf1076656.qf089" revAbr="qf" type="reg" url="qf1076656/qf089" volume=""/>
+        <numero annee="2012" autrenumero="" nonumero="164" periode="Hiver" pid="erudit:erudit.qf1076656.qf07" revAbr="qf" type="reg" url="qf1076656/qf07" volume=""/>
+      </annee>
+      <annee valeur="2011">
+        <numero annee="2011" autrenumero="" nonumero="163" periode="Automne" pid="erudit:erudit.qf1076656.qf1823256" revAbr="qf" type="reg" url="qf1076656/qf1823256" volume=""/>
+        <numero annee="2011" autrenumero="" nonumero="162" periode="Été" pid="erudit:erudit.qf1076656.qf1809955" revAbr="qf" type="reg" url="qf1076656/qf1809955" volume=""/>
+        <numero annee="2011" autrenumero="" nonumero="161" periode="Printemps" pid="erudit:erudit.qf1076656.qf1806347" revAbr="qf" type="reg" url="qf1076656/qf1806347" volume=""/>
+        <numero annee="2011" autrenumero="" nonumero="160" periode="Hiver" pid="erudit:erudit.qf1076656.qf1504630" revAbr="qf" type="reg" url="qf1076656/qf1504630" volume=""/>
+      </annee>
+    </decennie>
+    <decennie dannee="2010" pannee="2001">
+      <annee valeur="2010">
+        <numero annee="2010" autrenumero="" nonumero="159" periode="Automne" pid="erudit:erudit.qf1076656.qf1504492" revAbr="qf" type="reg" url="qf1076656/qf1504492" volume=""/>
+        <numero annee="2010" autrenumero="" nonumero="158" periode="Été" pid="erudit:erudit.qf1076656.qf1504327" revAbr="qf" type="reg" url="qf1076656/qf1504327" volume=""/>
+        <numero annee="2010" autrenumero="" nonumero="157" periode="Printemps" pid="erudit:erudit.qf1076656.qf1503646" revAbr="qf" type="reg" url="qf1076656/qf1503646" volume=""/>
+        <numero annee="2010" autrenumero="" nonumero="156" periode="Hiver" pid="erudit:erudit.qf1076656.qf1502914" revAbr="qf" type="reg" url="qf1076656/qf1502914" volume=""/>
+      </annee>
+      <annee valeur="2009">
+        <numero annee="2009" autrenumero="" nonumero="155" periode="Automne" pid="erudit:erudit.qf1076656.qf1093575" revAbr="qf" type="reg" url="qf1076656/qf1093575" volume=""/>
+        <numero annee="2009" autrenumero="" nonumero="154" periode="Été" pid="erudit:erudit.qf1076656.qf1095144" revAbr="qf" type="reg" url="qf1076656/qf1095144" volume=""/>
+        <numero annee="2009" autrenumero="" nonumero="153" periode="Printemps" pid="erudit:erudit.qf1076656.qf1097061" revAbr="qf" type="reg" url="qf1076656/qf1097061" volume=""/>
+        <numero annee="2009" autrenumero="" nonumero="152" periode="Hiver" pid="erudit:erudit.qf1076656.qf1098199" revAbr="qf" type="reg" url="qf1076656/qf1098199" volume=""/>
+      </annee>
+      <annee valeur="2008">
+        <numero annee="2008" autrenumero="" nonumero="151" periode="Automne" pid="erudit:erudit.qf1076656.qf1098918" revAbr="qf" type="reg" url="qf1076656/qf1098918" volume=""/>
+        <numero annee="2008" autrenumero="" nonumero="150" periode="Été" pid="erudit:erudit.qf1076656.qf1099697" revAbr="qf" type="reg" url="qf1076656/qf1099697" volume=""/>
+        <numero annee="2008" autrenumero="" nonumero="149" periode="Printemps" pid="erudit:erudit.qf1076656.qf1100688" revAbr="qf" type="reg" url="qf1076656/qf1100688" volume=""/>
+        <numero annee="2008" autrenumero="" nonumero="148" periode="Hiver" pid="erudit:erudit.qf1076656.qf1101512" revAbr="qf" type="reg" url="qf1076656/qf1101512" volume=""/>
+      </annee>
+      <annee valeur="2007">
+        <numero annee="2007" autrenumero="" nonumero="147" periode="Automne" pid="erudit:erudit.qf1076656.qf1176972" revAbr="qf" type="reg" url="qf1076656/qf1176972" volume=""/>
+        <numero annee="2007" autrenumero="" nonumero="146" periode="Été" pid="erudit:erudit.qf1076656.qf1177604" revAbr="qf" type="reg" url="qf1076656/qf1177604" volume=""/>
+        <numero annee="2007" autrenumero="" nonumero="145" periode="Printemps" pid="erudit:erudit.qf1076656.qf1178006" revAbr="qf" type="reg" url="qf1076656/qf1178006" volume=""/>
+        <numero annee="2007" autrenumero="" nonumero="144" periode="Hiver" pid="erudit:erudit.qf1076656.qf1178543" revAbr="qf" type="reg" url="qf1076656/qf1178543" volume=""/>
+      </annee>
+      <annee valeur="2006">
+        <numero annee="2006" autrenumero="" nonumero="143" periode="Automne" pid="erudit:erudit.qf1076656.qf1179170" revAbr="qf" type="reg" url="qf1076656/qf1179170" volume=""/>
+        <numero annee="2006" autrenumero="" nonumero="142" periode="Été" pid="erudit:erudit.qf1076656.qf1179745" revAbr="qf" type="reg" url="qf1076656/qf1179745" volume=""/>
+        <numero annee="2006" autrenumero="" nonumero="141" periode="Printemps" pid="erudit:erudit.qf1076656.qf1180056" revAbr="qf" type="reg" url="qf1076656/qf1180056" volume=""/>
+        <numero annee="2006" autrenumero="" nonumero="140" periode="Hiver" pid="erudit:erudit.qf1076656.qf1180399" revAbr="qf" type="reg" url="qf1076656/qf1180399" volume=""/>
+      </annee>
+      <annee valeur="2005">
+        <numero annee="2005" autrenumero="" nonumero="139" periode="Automne" pid="erudit:erudit.qf1076656.qf1180867" revAbr="qf" type="reg" url="qf1076656/qf1180867" volume=""/>
+        <numero annee="2005" autrenumero="" nonumero="138" periode="Été" pid="erudit:erudit.qf1076656.qf1181461" revAbr="qf" type="reg" url="qf1076656/qf1181461" volume=""/>
+        <numero annee="2005" autrenumero="" nonumero="137" periode="Printemps" pid="erudit:erudit.qf1076656.qf1182140" revAbr="qf" type="reg" url="qf1076656/qf1182140" volume=""/>
+        <numero annee="2005" autrenumero="" nonumero="136" periode="Hiver" pid="erudit:erudit.qf1076656.qf1182920" revAbr="qf" type="reg" url="qf1076656/qf1182920" volume=""/>
+      </annee>
+      <annee valeur="2004">
+        <numero annee="2004" autrenumero="" nonumero="135" periode="Automne" pid="erudit:erudit.qf1076656.qf1183720" revAbr="qf" type="reg" url="qf1076656/qf1183720" volume=""/>
+        <numero annee="2004" autrenumero="" nonumero="134" periode="Été" pid="erudit:erudit.qf1076656.qf1184730" revAbr="qf" type="reg" url="qf1076656/qf1184730" volume=""/>
+        <numero annee="2004" autrenumero="" nonumero="133" periode="Printemps" pid="erudit:erudit.qf1076656.qf1185444" revAbr="qf" type="reg" url="qf1076656/qf1185444" volume=""/>
+        <numero annee="2004" autrenumero="" nonumero="132" periode="Hiver" pid="erudit:erudit.qf1076656.qf1186402" revAbr="qf" type="reg" url="qf1076656/qf1186402" volume=""/>
+      </annee>
+      <annee valeur="2003">
+        <numero annee="2003" autrenumero="" nonumero="131" periode="Automne" pid="erudit:erudit.qf1076656.qf1187311" revAbr="qf" type="reg" url="qf1076656/qf1187311" volume=""/>
+        <numero annee="2003" autrenumero="" nonumero="130" periode="Été" pid="erudit:erudit.qf1076656.qf1188762" revAbr="qf" type="reg" url="qf1076656/qf1188762" volume=""/>
+        <numero annee="2003" autrenumero="" nonumero="129" periode="Printemps" pid="erudit:erudit.qf1076656.qf1189952" revAbr="qf" type="reg" url="qf1076656/qf1189952" volume=""/>
+        <numero annee="2003" autrenumero="" nonumero="128" periode="Hiver" pid="erudit:erudit.qf1076656.qf1190890" revAbr="qf" type="reg" url="qf1076656/qf1190890" volume=""/>
+      </annee>
+      <annee valeur="2002">
+        <numero annee="2002" autrenumero="" nonumero="127" periode="Automne" pid="erudit:erudit.qf1076656.qf1191933" revAbr="qf" type="reg" url="qf1076656/qf1191933" volume=""/>
+        <numero annee="2002" autrenumero="" nonumero="126" periode="Été" pid="erudit:erudit.qf1076656.qf1192584" revAbr="qf" type="reg" url="qf1076656/qf1192584" volume=""/>
+        <numero annee="2002" autrenumero="" nonumero="125" periode="Printemps" pid="erudit:erudit.qf1076656.qf1385560" revAbr="qf" type="reg" url="qf1076656/qf1385560" volume=""/>
+      </annee>
+      <annee valeur="2001">
+        <numero annee="2001-2002" autrenumero="" nonumero="124" periode="Hiver" pid="erudit:erudit.qf1076656.qf1193303" revAbr="qf" type="reg" url="qf1076656/qf1193303" volume=""/>
+        <numero annee="2001" autrenumero="" nonumero="123" periode="Automne" pid="erudit:erudit.qf1076656.qf1193885" revAbr="qf" type="reg" url="qf1076656/qf1193885" volume=""/>
+        <numero annee="2001" autrenumero="" nonumero="122" periode="Été" pid="erudit:erudit.qf1076656.qf1194379" revAbr="qf" type="reg" url="qf1076656/qf1194379" volume=""/>
+        <numero annee="2001" autrenumero="" nonumero="121" periode="Printemps" pid="erudit:erudit.qf1076656.qf1195159" revAbr="qf" type="reg" url="qf1076656/qf1195159" volume=""/>
+        <numero annee="2001" autrenumero="" nonumero="120" periode="Hiver" pid="erudit:erudit.qf1076656.qf1195934" revAbr="qf" type="reg" url="qf1076656/qf1195934" volume=""/>
+      </annee>
+    </decennie>
+    <decennie dannee="2000" pannee="1991">
+      <annee valeur="2000">
+        <numero annee="2000" autrenumero="" nonumero="119" periode="Automne" pid="erudit:erudit.qf1076656.qf1196762" revAbr="qf" type="reg" url="qf1076656/qf1196762" volume=""/>
+        <numero annee="2000" autrenumero="" nonumero="118" periode="Été" pid="erudit:erudit.qf1076656.qf1197351" revAbr="qf" type="reg" url="qf1076656/qf1197351" volume=""/>
+        <numero annee="2000" autrenumero="" nonumero="117" periode="Printemps" pid="erudit:erudit.qf1076656.qf1198085" revAbr="qf" type="reg" url="qf1076656/qf1198085" volume=""/>
+        <numero annee="2000" autrenumero="" nonumero="116" periode="Hiver" pid="erudit:erudit.qf1076656.qf1198824" revAbr="qf" type="reg" url="qf1076656/qf1198824" volume=""/>
+      </annee>
+      <annee valeur="1999">
+        <numero annee="1999" autrenumero="" nonumero="115" periode="Automne" pid="erudit:erudit.qf1076656.qf1199433" revAbr="qf" type="reg" url="qf1076656/qf1199433" volume=""/>
+        <numero annee="1999" autrenumero="" nonumero="114" periode="Été" pid="erudit:erudit.qf1076656.qf1200499" revAbr="qf" type="reg" url="qf1076656/qf1200499" volume=""/>
+        <numero annee="1999" autrenumero="" nonumero="113" periode="Printemps" pid="erudit:erudit.qf1076656.qf1201247" revAbr="qf" type="reg" url="qf1076656/qf1201247" volume=""/>
+        <numero annee="1999" autrenumero="" nonumero="112" periode="Hiver" pid="erudit:erudit.qf1076656.qf1202079" revAbr="qf" type="reg" url="qf1076656/qf1202079" volume=""/>
+      </annee>
+      <annee valeur="1998">
+        <numero annee="1998" autrenumero="" nonumero="111" periode="Automne" pid="erudit:erudit.qf1076656.qf1202763" revAbr="qf" type="reg" url="qf1076656/qf1202763" volume=""/>
+        <numero annee="1998" autrenumero="" nonumero="110" periode="Été" pid="erudit:erudit.qf1076656.qf1203783" revAbr="qf" type="reg" url="qf1076656/qf1203783" volume=""/>
+        <numero annee="1998" autrenumero="" nonumero="109" periode="Printemps" pid="erudit:erudit.qf1076656.qf1204267" revAbr="qf" type="reg" url="qf1076656/qf1204267" volume=""/>
+        <numero annee="1998" autrenumero="" nonumero="108" periode="Hiver" pid="erudit:erudit.qf1076656.qf1204935" revAbr="qf" type="reg" url="qf1076656/qf1204935" volume=""/>
+      </annee>
+      <annee valeur="1997">
+        <numero annee="1997" autrenumero="" nonumero="107" periode="Automne" pid="erudit:erudit.qf1076656.qf1205255" revAbr="qf" type="reg" url="qf1076656/qf1205255" volume=""/>
+        <numero annee="1997" autrenumero="" nonumero="106" periode="Été" pid="erudit:erudit.qf1076656.qf1205961" revAbr="qf" type="reg" url="qf1076656/qf1205961" volume=""/>
+        <numero annee="1997" autrenumero="" nonumero="105" periode="Printemps" pid="erudit:erudit.qf1076656.qf1377382" revAbr="qf" type="reg" url="qf1076656/qf1377382" volume=""/>
+        <numero annee="1997" autrenumero="" nonumero="104" periode="Hiver" pid="erudit:erudit.qf1076656.qf1377386" revAbr="qf" type="reg" url="qf1076656/qf1377386" volume=""/>
+      </annee>
+      <annee valeur="1996">
+        <numero annee="1996" autrenumero="" nonumero="103" periode="Automne" pid="erudit:erudit.qf1076656.qf1377390" revAbr="qf" type="reg" url="qf1076656/qf1377390" volume=""/>
+        <numero annee="1996" autrenumero="" nonumero="102" periode="Été" pid="erudit:erudit.qf1076656.qf1377394" revAbr="qf" type="reg" url="qf1076656/qf1377394" volume=""/>
+        <numero annee="1996" autrenumero="" nonumero="101" periode="Printemps" pid="erudit:erudit.qf1076656.qf1377398" revAbr="qf" type="reg" url="qf1076656/qf1377398" volume=""/>
+        <numero annee="1996" autrenumero="" nonumero="100" periode="Hiver" pid="erudit:erudit.qf1076656.qf1377402" revAbr="qf" type="reg" url="qf1076656/qf1377402" volume=""/>
+      </annee>
+      <annee valeur="1995">
+        <numero annee="1995" autrenumero="" nonumero="99" periode="Automne" pid="erudit:erudit.qf1076656.qf1229588" revAbr="qf" type="reg" url="qf1076656/qf1229588" volume=""/>
+        <numero annee="1995" autrenumero="" nonumero="98" periode="Été" pid="erudit:erudit.qf1076656.qf1229585" revAbr="qf" type="reg" url="qf1076656/qf1229585" volume=""/>
+        <numero annee="1995" autrenumero="" nonumero="97" periode="Printemps" pid="erudit:erudit.qf1076656.qf1229595" revAbr="qf" type="reg" url="qf1076656/qf1229595" volume=""/>
+        <numero annee="1995" autrenumero="" nonumero="96" periode="Hiver" pid="erudit:erudit.qf1076656.qf1229579" revAbr="qf" type="reg" url="qf1076656/qf1229579" volume=""/>
+      </annee>
+      <annee valeur="1994">
+        <numero annee="1994" autrenumero="" nonumero="95" periode="Automne" pid="erudit:erudit.qf1076656.qf1229576" revAbr="qf" type="reg" url="qf1076656/qf1229576" volume=""/>
+        <numero annee="1994" autrenumero="" nonumero="94" periode="Été" pid="erudit:erudit.qf1076656.qf1229573" revAbr="qf" type="reg" url="qf1076656/qf1229573" volume=""/>
+        <numero annee="1994" autrenumero="" nonumero="93" periode="Printemps" pid="erudit:erudit.qf1076656.qf1229570" revAbr="qf" type="reg" url="qf1076656/qf1229570" volume=""/>
+        <numero annee="1994" autrenumero="" nonumero="92" periode="Hiver" pid="erudit:erudit.qf1076656.qf1229567" revAbr="qf" type="reg" url="qf1076656/qf1229567" volume=""/>
+      </annee>
+      <annee valeur="1993">
+        <numero annee="1993" autrenumero="" nonumero="91" periode="Automne" pid="erudit:erudit.qf1076656.qf1227732" revAbr="qf" type="reg" url="qf1076656/qf1227732" volume=""/>
+        <numero annee="1993" autrenumero="" nonumero="90" periode="Été" pid="erudit:erudit.qf1076656.qf1227729" revAbr="qf" type="reg" url="qf1076656/qf1227729" volume=""/>
+        <numero annee="1993" autrenumero="" nonumero="89" periode="Printemps" pid="erudit:erudit.qf1076656.qf1227726" revAbr="qf" type="reg" url="qf1076656/qf1227726" volume=""/>
+        <numero annee="1993" autrenumero="" nonumero="88" periode="Hiver" pid="erudit:erudit.qf1076656.qf1227723" revAbr="qf" type="reg" url="qf1076656/qf1227723" volume=""/>
+      </annee>
+      <annee valeur="1992">
+        <numero annee="1992" autrenumero="" nonumero="87" periode="Automne" pid="erudit:erudit.qf1076656.qf1227720" revAbr="qf" type="reg" url="qf1076656/qf1227720" volume=""/>
+        <numero annee="1992" autrenumero="" nonumero="86" periode="Été" pid="erudit:erudit.qf1076656.qf1227717" revAbr="qf" type="reg" url="qf1076656/qf1227717" volume=""/>
+        <numero annee="1992" autrenumero="" nonumero="85" periode="Printemps" pid="erudit:erudit.qf1076656.qf1227714" revAbr="qf" type="reg" url="qf1076656/qf1227714" volume=""/>
+        <numero annee="1992" autrenumero="" nonumero="84" periode="Hiver" pid="erudit:erudit.qf1076656.qf1227657" revAbr="qf" type="reg" url="qf1076656/qf1227657" volume=""/>
+      </annee>
+      <annee valeur="1991">
+        <numero annee="1991" autrenumero="" nonumero="83" periode="Automne" pid="erudit:erudit.qf1076656.qf1224777" revAbr="qf" type="reg" url="qf1076656/qf1224777" volume=""/>
+        <numero annee="1991" autrenumero="" nonumero="82" periode="Été" pid="erudit:erudit.qf1076656.qf1224783" revAbr="qf" type="reg" url="qf1076656/qf1224783" volume=""/>
+        <numero annee="1991" autrenumero="" nonumero="81" periode="Hiver" pid="erudit:erudit.qf1076656.qf1224774" revAbr="qf" type="reg" url="qf1076656/qf1224774" volume=""/>
+        <numero annee="1991" autrenumero="" nonumero="80" periode="Hiver" pid="erudit:erudit.qf1076656.qf1224771" revAbr="qf" type="reg" url="qf1076656/qf1224771" volume=""/>
+      </annee>
+    </decennie>
+    <decennie dannee="1990" pannee="1981">
+      <annee valeur="1990">
+        <numero annee="1990" autrenumero="" nonumero="79" periode="Été" pid="erudit:erudit.qf1076656.qf1224768" revAbr="qf" type="reg" url="qf1076656/qf1224768" volume=""/>
+        <numero annee="1990" autrenumero="" nonumero="78" periode="Été" pid="erudit:erudit.qf1076656.qf1224780" revAbr="qf" type="reg" url="qf1076656/qf1224780" volume=""/>
+        <numero annee="1990" autrenumero="" nonumero="77" periode="Printemps" pid="erudit:erudit.qf1076656.qf1224762" revAbr="qf" type="reg" url="qf1076656/qf1224762" volume=""/>
+        <numero annee="1990" autrenumero="" nonumero="76" periode="Hiver" pid="erudit:erudit.qf1076656.qf1224759" revAbr="qf" type="reg" url="qf1076656/qf1224759" volume=""/>
+      </annee>
+      <annee valeur="1989">
+        <numero annee="1989" autrenumero="" nonumero="75" periode="Automne" pid="erudit:erudit.qf1076656.qf1222086" revAbr="qf" type="reg" url="qf1076656/qf1222086" volume=""/>
+        <numero annee="1989" autrenumero="" nonumero="74" periode="Mai" pid="erudit:erudit.qf1076656.qf1222083" revAbr="qf" type="reg" url="qf1076656/qf1222083" volume=""/>
+        <numero annee="1989" autrenumero="" nonumero="73" periode="Mars" pid="erudit:erudit.qf1076656.qf1222080" revAbr="qf" type="reg" url="qf1076656/qf1222080" volume=""/>
+      </annee>
+      <annee valeur="1988">
+        <numero annee="1988" autrenumero="" nonumero="72" periode="Décembre" pid="erudit:erudit.qf1076656.qf1222077" revAbr="qf" type="reg" url="qf1076656/qf1222077" volume=""/>
+        <numero annee="1988" autrenumero="" nonumero="71" periode="Octobre" pid="erudit:erudit.qf1076656.qf1222074" revAbr="qf" type="reg" url="qf1076656/qf1222074" volume=""/>
+        <numero annee="1988" autrenumero="" nonumero="70" periode="Mai" pid="erudit:erudit.qf1076656.qf1222071" revAbr="qf" type="reg" url="qf1076656/qf1222071" volume=""/>
+        <numero annee="1988" autrenumero="" nonumero="69" periode="Mars" pid="erudit:erudit.qf1076656.qf1222068" revAbr="qf" type="reg" url="qf1076656/qf1222068" volume=""/>
+      </annee>
+      <annee valeur="1987">
+        <numero annee="1987" autrenumero="" nonumero="68" periode="Décembre" pid="erudit:erudit.qf1076656.qf1222065" revAbr="qf" type="reg" url="qf1076656/qf1222065" volume=""/>
+        <numero annee="1987" autrenumero="" nonumero="67" periode="Octobre" pid="erudit:erudit.qf1076656.qf1219140" revAbr="qf" type="reg" url="qf1076656/qf1219140" volume=""/>
+        <numero annee="1987" autrenumero="" nonumero="66" periode="Mai" pid="erudit:erudit.qf1076656.qf1219137" revAbr="qf" type="reg" url="qf1076656/qf1219137" volume=""/>
+        <numero annee="1987" autrenumero="" nonumero="65" periode="Mars" pid="erudit:erudit.qf1076656.qf1219134" revAbr="qf" type="reg" url="qf1076656/qf1219134" volume=""/>
+      </annee>
+      <annee valeur="1986">
+        <numero annee="1986" autrenumero="" nonumero="64" periode="Décembre" pid="erudit:erudit.qf1076656.qf1219131" revAbr="qf" type="reg" url="qf1076656/qf1219131" volume=""/>
+        <numero annee="1986" autrenumero="" nonumero="63" periode="Octobre" pid="erudit:erudit.qf1076656.qf1219128" revAbr="qf" type="reg" url="qf1076656/qf1219128" volume=""/>
+        <numero annee="1986" autrenumero="" nonumero="62" periode="Mai" pid="erudit:erudit.qf1076656.qf1219743" revAbr="qf" type="supp" url="qf1076656/qf1219743" volume=""/>
+        <numero annee="1986" autrenumero="" nonumero="62" periode="Mai" pid="erudit:erudit.qf1076656.qf1219125" revAbr="qf" type="reg" url="qf1076656/qf1219125" volume=""/>
+        <numero annee="1986" autrenumero="" nonumero="61" periode="Mars" pid="erudit:erudit.qf1076656.qf1219212" revAbr="qf" type="supp" url="qf1076656/qf1219212" volume=""/>
+        <numero annee="1986" autrenumero="" nonumero="61" periode="Mars" pid="erudit:erudit.qf1076656.qf1219122" revAbr="qf" type="reg" url="qf1076656/qf1219122" volume=""/>
+      </annee>
+      <annee valeur="1985">
+        <numero annee="1985" autrenumero="" nonumero="60" periode="Décembre" pid="erudit:erudit.qf1076656.qf1220400" revAbr="qf" type="supp" url="qf1076656/qf1220400" volume=""/>
+        <numero annee="1985" autrenumero="" nonumero="60" periode="Décembre" pid="erudit:erudit.qf1076656.qf1219209" revAbr="qf" type="supp" url="qf1076656/qf1219209" volume=""/>
+        <numero annee="1985" autrenumero="" nonumero="60" periode="Décembre" pid="erudit:erudit.qf1076656.qf1219119" revAbr="qf" type="reg" url="qf1076656/qf1219119" volume=""/>
+        <numero annee="1985" autrenumero="" nonumero="59" periode="Octobre" pid="erudit:erudit.qf1076656.qf1216382" revAbr="qf" type="reg" url="qf1076656/qf1216382" volume=""/>
+        <numero annee="1985" autrenumero="" nonumero="58" periode="Mai" pid="erudit:erudit.qf1076656.qf1218992" revAbr="qf" type="supp" url="qf1076656/qf1218992" volume=""/>
+        <numero annee="1985" autrenumero="" nonumero="58" periode="Mai" pid="erudit:erudit.qf1076656.qf1216379" revAbr="qf" type="reg" url="qf1076656/qf1216379" volume=""/>
+        <numero annee="1985" autrenumero="" nonumero="57" periode="Mars" pid="erudit:erudit.qf1076656.qf1218677" revAbr="qf" type="supp" url="qf1076656/qf1218677" volume=""/>
+        <numero annee="1985" autrenumero="" nonumero="57" periode="Mars" pid="erudit:erudit.qf1076656.qf1216376" revAbr="qf" type="reg" url="qf1076656/qf1216376" volume=""/>
+      </annee>
+      <annee valeur="1984">
+        <numero annee="1984" autrenumero="" nonumero="56" periode="Décembre" pid="erudit:erudit.qf1076656.qf1216373" revAbr="qf" type="reg" url="qf1076656/qf1216373" volume=""/>
+        <numero annee="1984" autrenumero="" nonumero="55" periode="Octobre" pid="erudit:erudit.qf1076656.qf1216370" revAbr="qf" type="reg" url="qf1076656/qf1216370" volume=""/>
+        <numero annee="1984" autrenumero="" nonumero="54" periode="Mai" pid="erudit:erudit.qf1076656.qf1217659" revAbr="qf" type="supp" url="qf1076656/qf1217659" volume=""/>
+        <numero annee="1984" autrenumero="" nonumero="54" periode="Mai" pid="erudit:erudit.qf1076656.qf1216367" revAbr="qf" type="reg" url="qf1076656/qf1216367" volume=""/>
+        <numero annee="1984" autrenumero="" nonumero="53" periode="Mars" pid="erudit:erudit.qf1076656.qf1217278" revAbr="qf" type="index" url="qf1076656/qf1217278" volume=""/>
+        <numero annee="1984" autrenumero="" nonumero="53" periode="Mars" pid="erudit:erudit.qf1076656.qf1216364" revAbr="qf" type="reg" url="qf1076656/qf1216364" volume=""/>
+      </annee>
+      <annee valeur="1983">
+        <numero annee="1983" autrenumero="" nonumero="52" periode="Décembre" pid="erudit:erudit.qf1076656.qf1216361" revAbr="qf" type="reg" url="qf1076656/qf1216361" volume=""/>
+        <numero annee="1983" autrenumero="" nonumero="51" periode="Octobre" pid="erudit:erudit.qf1076656.qf1364670" revAbr="qf" type="supp" url="qf1076656/qf1364670" volume=""/>
+        <numero annee="1983" autrenumero="" nonumero="51" periode="Octobre" pid="erudit:erudit.qf1076656.qf1209838" revAbr="qf" type="reg" url="qf1076656/qf1209838" volume=""/>
+        <numero annee="1983" autrenumero="" nonumero="50" periode="Mai" pid="erudit:erudit.qf1076656.qf1210773" revAbr="qf" type="reg" url="qf1076656/qf1210773" volume=""/>
+        <numero annee="1983" autrenumero="" nonumero="49" periode="Mars" pid="erudit:erudit.qf1076656.qf1215368" revAbr="qf" type="supp" url="qf1076656/qf1215368" volume=""/>
+        <numero annee="1983" autrenumero="" nonumero="49" periode="Mars" pid="erudit:erudit.qf1076656.qf1210776" revAbr="qf" type="reg" url="qf1076656/qf1210776" volume=""/>
+      </annee>
+      <annee valeur="1982">
+        <numero annee="1982" autrenumero="" nonumero="48" periode="Décembre" pid="erudit:erudit.qf1076656.qf1213342" revAbr="qf" type="supp" url="qf1076656/qf1213342" volume=""/>
+        <numero annee="1982" autrenumero="" nonumero="48" periode="Décembre" pid="erudit:erudit.qf1076656.qf1210779" revAbr="qf" type="reg" url="qf1076656/qf1210779" volume=""/>
+        <numero annee="1982" autrenumero="" nonumero="47" periode="Octobre" pid="erudit:erudit.qf1076656.qf1210782" revAbr="qf" type="reg" url="qf1076656/qf1210782" volume=""/>
+        <numero annee="1982" autrenumero="" nonumero="46" periode="Mai" pid="erudit:erudit.qf1076656.qf1210785" revAbr="qf" type="reg" url="qf1076656/qf1210785" volume=""/>
+        <numero annee="1982" autrenumero="" nonumero="45" periode="Mars" pid="erudit:erudit.qf1076656.qf1210788" revAbr="qf" type="reg" url="qf1076656/qf1210788" volume=""/>
+      </annee>
+      <annee valeur="1981">
+        <numero annee="1981" autrenumero="" nonumero="44" periode="Décembre" pid="erudit:erudit.qf1076656.qf1377144" revAbr="qf" type="supp" url="qf1076656/qf1377144" volume=""/>
+        <numero annee="1981" autrenumero="" nonumero="44" periode="Décembre" pid="erudit:erudit.qf1076656.qf1211470" revAbr="qf" type="supp" url="qf1076656/qf1211470" volume=""/>
+        <numero annee="1981" autrenumero="" nonumero="44" periode="Décembre" pid="erudit:erudit.qf1076656.qf1210791" revAbr="qf" type="reg" url="qf1076656/qf1210791" volume=""/>
+        <numero annee="1981" autrenumero="" nonumero="43" periode="Octobre" pid="erudit:erudit.qf1076656.qf1204121" revAbr="qf" type="supp" url="qf1076656/qf1204121" volume=""/>
+        <numero annee="1981" autrenumero="" nonumero="43" periode="Octobre" pid="erudit:erudit.qf1076656.qf1203658" revAbr="qf" type="reg" url="qf1076656/qf1203658" volume=""/>
+        <numero annee="1981" autrenumero="" nonumero="42" periode="Mai" pid="erudit:erudit.qf1076656.qf1204588" revAbr="qf" type="reg" url="qf1076656/qf1204588" volume=""/>
+        <numero annee="1981" autrenumero="" nonumero="41" periode="Février" pid="erudit:erudit.qf1076656.qf1205295" revAbr="qf" type="reg" url="qf1076656/qf1205295" volume=""/>
+      </annee>
+    </decennie>
+    <decennie dannee="1980" pannee="1974">
+      <annee valeur="1980">
+        <numero annee="1980" autrenumero="" nonumero="40" periode="Décembre" pid="erudit:erudit.qf1076656.qf1205958" revAbr="qf" type="reg" url="qf1076656/qf1205958" volume=""/>
+        <numero annee="1980" autrenumero="" nonumero="39" periode="Octobre" pid="erudit:erudit.qf1076656.qf1206268" revAbr="qf" type="reg" url="qf1076656/qf1206268" volume=""/>
+        <numero annee="1980" autrenumero="" nonumero="38" periode="Mai" pid="erudit:erudit.qf1076656.qf1207014" revAbr="qf" type="reg" url="qf1076656/qf1207014" volume=""/>
+        <numero annee="1980" autrenumero="" nonumero="37" periode="Mars" pid="erudit:erudit.qf1076656.qf1207544" revAbr="qf" type="reg" url="qf1076656/qf1207544" volume=""/>
+      </annee>
+      <annee valeur="1979">
+        <numero annee="1979" autrenumero="" nonumero="36" periode="Décembre" pid="erudit:erudit.qf1076656.qf1208689" revAbr="qf" type="reg" url="qf1076656/qf1208689" volume=""/>
+        <numero annee="1979" autrenumero="" nonumero="35" periode="Octobre" pid="erudit:erudit.qf1076656.qf1205593" revAbr="qf" type="reg" url="qf1076656/qf1205593" volume=""/>
+        <numero annee="1979" autrenumero="" nonumero="34" periode="Mai" pid="erudit:erudit.qf1076656.qf1205162" revAbr="qf" type="reg" url="qf1076656/qf1205162" volume=""/>
+        <numero annee="1979" autrenumero="" nonumero="33" periode="Mars" pid="erudit:erudit.qf1076656.qf1204917" revAbr="qf" type="reg" url="qf1076656/qf1204917" volume=""/>
+      </annee>
+      <annee valeur="1978">
+        <numero annee="1978" autrenumero="" nonumero="32" periode="Décembre" pid="erudit:erudit.qf1076656.qf1204337" revAbr="qf" type="reg" url="qf1076656/qf1204337" volume=""/>
+        <numero annee="1978" autrenumero="" nonumero="31" periode="Octobre" pid="erudit:erudit.qf1076656.qf1204050" revAbr="qf" type="reg" url="qf1076656/qf1204050" volume=""/>
+        <numero annee="1978" autrenumero="" nonumero="30" periode="Mai" pid="erudit:erudit.qf1076656.qf1203302" revAbr="qf" type="reg" url="qf1076656/qf1203302" volume=""/>
+      </annee>
+      <annee valeur="1977">
+        <numero annee="1977" autrenumero="" nonumero="28" periode="Décembre" pid="erudit:erudit.qf1076656.qf1202706" revAbr="qf" type="reg" url="qf1076656/qf1202706" volume=""/>
+        <numero annee="1977" autrenumero="" nonumero="27" periode="Octobre" pid="erudit:erudit.qf1076656.qf1202389" revAbr="qf" type="reg" url="qf1076656/qf1202389" volume=""/>
+        <numero annee="1977" autrenumero="" nonumero="26" periode="Mai" pid="erudit:erudit.qf1076656.qf1201845" revAbr="qf" type="reg" url="qf1076656/qf1201845" volume=""/>
+        <numero annee="1977" autrenumero="" nonumero="25" periode="Mars" pid="erudit:erudit.qf1076656.qf1201674" revAbr="qf" type="reg" url="qf1076656/qf1201674" volume=""/>
+      </annee>
+      <annee valeur="1976">
+        <numero annee="1976" autrenumero="" nonumero="24" periode="Décembre" pid="erudit:erudit.qf1076656.qf1201303" revAbr="qf" type="reg" url="qf1076656/qf1201303" volume=""/>
+        <numero annee="1976" autrenumero="" nonumero="23" periode="Octobre" pid="erudit:erudit.qf1076656.qf1201043" revAbr="qf" type="reg" url="qf1076656/qf1201043" volume=""/>
+        <numero annee="1976" autrenumero="" nonumero="22" periode="Mai" pid="erudit:erudit.qf1076656.qf1200871" revAbr="qf" type="reg" url="qf1076656/qf1200871" volume=""/>
+        <numero annee="1976" autrenumero="" nonumero="21" periode="Mars" pid="erudit:erudit.qf1076656.qf1200251" revAbr="qf" type="reg" url="qf1076656/qf1200251" volume=""/>
+      </annee>
+      <annee valeur="1975">
+        <numero annee="1975" autrenumero="" nonumero="20" periode="Décembre" pid="erudit:erudit.qf1076656.qf1199975" revAbr="qf" type="reg" url="qf1076656/qf1199975" volume=""/>
+        <numero annee="1975" autrenumero="" nonumero="19" periode="Octobre" pid="erudit:erudit.qf1076656.qf1199528" revAbr="qf" type="reg" url="qf1076656/qf1199528" volume=""/>
+        <numero annee="1975" autrenumero="" nonumero="18" periode="Mai" pid="erudit:erudit.qf1076656.qf1199297" revAbr="qf" type="reg" url="qf1076656/qf1199297" volume=""/>
+        <numero annee="1975" autrenumero="" nonumero="17" periode="Février" pid="erudit:erudit.qf1076656.qf1199209" revAbr="qf" type="reg" url="qf1076656/qf1199209" volume=""/>
+      </annee>
+      <annee valeur="1974">
+        <numero annee="1974" autrenumero="" nonumero="16" periode="Novembre" pid="erudit:erudit.qf1076656.qf1198920" revAbr="qf" type="reg" url="qf1076656/qf1198920" volume=""/>
+        <numero annee="1974" autrenumero="" nonumero="15" periode="Juin" pid="erudit:erudit.qf1076656.qf1198650" revAbr="qf" type="reg" url="qf1076656/qf1198650" volume=""/>
+        <numero annee="1974" autrenumero="" nonumero="14" periode="Mars" pid="erudit:erudit.qf1076656.qf1198325" revAbr="qf" type="reg" url="qf1076656/qf1198325" volume=""/>
+        <numero annee="1974" autrenumero="" nonumero="13" periode="Janvier" pid="erudit:erudit.qf1076656.qf1198089" revAbr="qf" type="reg" url="qf1076656/qf1198089" volume=""/>
+      </annee>
+    </decennie>
+  </liste>
+</numeros></publications><sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+<originator username="p0915755" date="2012-09-13" app="Tournesol 0.4.1"/>
+<copyright>
+	<year>2012</year>
+<contribution>
+<artificialperson>
+	<name>Les Publications Québec français</name>
+</artificialperson>
+<contributiontype>
+	<code>droit</code>
+	<label lang="fr">Titulaire du droit d'auteur</label>
+	<label lang="en">Copyright Holder</label>
+	<label lang="es">Titular del derecho de autor</label>
+</contributiontype>
+	<ordering>0</ordering>
+</contribution>
+<copyrightdeclaration>
+	<code>tdr</code>
+	<label lang="fr">Tous droits réservés</label>
+	<label lang="en">All Rights Reserved</label>
+	<label lang="es">Reservados todos los derechos</label>
+</copyrightdeclaration>
+</copyright>
+<publicationnumberingkeys>
+	<publicationtypecode>reg</publicationtypecode>
+	<years>
+		<year value="2012">
+			<periodcode>hiver</periodcode>
+		</year>
+	</years>
+</publicationnumberingkeys><infosommaire>
+  <url>/culture/qf1076656/qf07</url>
+  <nbarticle>33</nbarticle>
+  <revue id="qf1076656" lang="fr">
+    <titrerev>Québec français</titrerev>
+    <titrerevabr>qf</titrerevabr>
+    <idissn>0316-2052</idissn>
+    <idissnnum>1923-5119</idissnnum>
+    <directeur sexe="masculin">
+      <nompers>
+        <prenom>Aurélien</prenom>
+        <nomfamille>Boivin</nomfamille>
+      </nompers>
+      <key>directeur</key>
+    </directeur>
+    <redacteurchef idrefs="th1" sexe="masculin" typerc="invite">
+      <nompers>
+        <prenom>Vincent</prenom>
+        <autreprenom>C.</autreprenom>
+        <nomfamille>Lambert</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+    <redacteurchef idrefs="th2" sexe="masculin" typerc="invite">
+      <nompers>
+        <prenom>Christian</prenom>
+        <nomfamille>Dumais</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+    <redacteurchef idrefs="th2" sexe="masculin" typerc="invite">
+      <nompers>
+        <prenom>Réal</prenom>
+        <nomfamille>Bergeron</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+    <redacteurchef sexe="feminin" typerc="regulier">
+      <fonction lang="fr">Rédactrice en chef, littérature, langue et société</fonction>
+      <nompers>
+        <prenom>Isabelle</prenom>
+        <nomfamille>L'Italien-Savard</nomfamille>
+      </nompers>
+      <key>redactriceenchef,litterature,langueetsociete</key>
+    </redacteurchef>
+    <redacteurchef sexe="feminin" typerc="regulier">
+      <fonction lang="fr">Rédactrice en chef, littérature, langue et société</fonction>
+      <nompers>
+        <prenom>Geneviève</prenom>
+        <nomfamille>Ouellet</nomfamille>
+      </nompers>
+      <key>redactriceenchef,litterature,langueetsociete</key>
+    </redacteurchef>
+    <redacteurchef sexe="masculin" typerc="regulier">
+      <fonction lang="fr">Rédacteur en chef, didactique</fonction>
+      <nompers>
+        <prenom>Réal</prenom>
+        <nomfamille>Bergeron</nomfamille>
+      </nompers>
+      <key>redacteurenchef,didactique</key>
+    </redacteurchef>
+    <redacteurchef sexe="feminin" typerc="regulier">
+      <fonction lang="fr">Rédactrice en chef, didactique</fonction>
+      <nompers>
+        <prenom>Monique</prenom>
+        <nomfamille>Noël-Gaudreault</nomfamille>
+      </nompers>
+      <key>redactriceenchef,didactique</key>
+    </redacteurchef>
+  </revue>
+  <numero id="qf07">
+    <nonumero>164</nonumero>
+    <pub>
+      <periode>Hiver</periode>
+      <annee>2012</annee>
+    </pub>
+    <pubnum>
+      <date typedate="publication">2012-02-07</date>
+    </pubnum>
+    <grtheme id="th1">
+      <theme>L’actualité du mythe</theme>
+    </grtheme>
+    <grtheme id="th2">
+      <theme>Comprendre des textes à l’oral et à l’écrit</theme>
+    </grtheme>
+  </numero>
+  <editeur>
+    <nomorg>Les Publications Québec français</nomorg>
+    <key>editeur</key>
+  </editeur>
+  <droitsauteur>Tous droits réservés © <nomorg>Les Publications Québec français</nomorg>, 2012</droitsauteur>
+</infosommaire>
+<article horstheme="oui" idproprio="65881ac" lang="fr" ordseq="1" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="473" unite="ko">/culture/qf1076656/qf07/65881ac.pdf</urlpdf>
+  <pagination>
+    <ppage>1</ppage>
+    <dpage>1</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Éditorial</surtitre>
+                  <titre>La déchéance de la langue française au Québec</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Aurélien</prenom>
+    <nomfamille>Boivin</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="65882ac" lang="fr" ordseq="2" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="1,3" unite="mo">/culture/qf1076656/qf07/65882ac.pdf</urlpdf>
+  <pagination>
+    <ppage>4</ppage>
+    <dpage>21</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>Nouveautés</titre>
+                
+         </grtitre>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="65883ac" lang="fr" ordseq="3" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="145" unite="ko">/culture/qf1076656/qf07/65883ac.pdf</urlpdf>
+  <pagination>
+    <ppage>22</ppage>
+    <dpage>22</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>Printemps des Poètes / Productions Rhizome</titre>
+                <sstitre>Des activités à l’année pour des publics d’âge scolaire</sstitre>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Chantal</prenom>
+    <nomfamille>Bergeron</nomfamille>
+   </nompers>
+  <affiliation><alinea>Coordinatrice, Printemps des Poètes</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="65884ac" lang="fr" ordseq="4" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="92" unite="ko">/culture/qf1076656/qf07/65884ac.pdf</urlpdf>
+  <pagination>
+    <ppage>23</ppage>
+    <dpage>23</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>L’avenir, c’est pour plus tard</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Gilles</prenom>
+    <nomfamille>Perron</nomfamille>
+   </nompers>
+  <affiliation><alinea>Cégep Limoilou</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="65885ac" idref="th1" lang="fr" ordseq="5" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="259" unite="ko">/culture/qf1076656/qf07/65885ac.pdf</urlpdf>
+  <pagination>
+    <ppage>24</ppage>
+    <dpage>25</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Littérature</surtitre>
+    <surtitre2>
+L’actualité du mythe</surtitre2>
+                  <titre>L’actualité du mythe</titre>
+                <sstitre>Présentation</sstitre>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Vincent</prenom><autreprenom>C.</autreprenom>
+    <nomfamille>Lambert</nomfamille>
+   </nompers>
+  <affiliation><alinea>Doctorant en littérature, Université Laval</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="65886ac" idref="th1" lang="fr" ordseq="6" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="1,4" unite="mo">/culture/qf1076656/qf07/65886ac.pdf</urlpdf>
+  <pagination>
+    <ppage>26</ppage>
+    <dpage>31</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Littérature</surtitre>
+    <surtitre2>
+L’actualité du mythe</surtitre2>
+                  <titre>Les genres de la tradition orale</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Bertrand</prenom>
+    <nomfamille>Bergeron</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeur de littérature orale à la retraite, Cégep d’Alma</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="65887ac" idref="th1" lang="fr" ordseq="7" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="1,4" unite="mo">/culture/qf1076656/qf07/65887ac.pdf</urlpdf>
+  <pagination>
+    <ppage>32</ppage>
+    <dpage>37</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Littérature</surtitre>
+    <surtitre2>
+L’actualité du mythe</surtitre2>
+                  <titre>L’imaginaire québécois : thèmes et mythes</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Isabelle</prenom>
+    <nomfamille>L’Italien-Savard</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeure de littérature, Cégep Limoilou</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="65888ac" idref="th1" lang="fr" ordseq="8" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="1,3" unite="mo">/culture/qf1076656/qf07/65888ac.pdf</urlpdf>
+  <pagination>
+    <ppage>38</ppage>
+    <dpage>41</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Littérature</surtitre>
+    <surtitre2>
+L’actualité du mythe</surtitre2>
+                  <titre>« Les voyages forment la jeunesse » : mythe américain et rite initiatique dans le roman de la route québécois contemporain</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Pierre-Paul</prenom>
+    <nomfamille>Ferland</nomfamille>
+   </nompers>
+  <affiliation><alinea>Doctorant en littérature québécoise, Université Laval</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur><notegen typenoteg="edito"><alinea>Ce texte suit la graphie rectifiée de la réforme orthographique de 1990</alinea></notegen>
+</liminaire>
+</article>
+<article idproprio="65889ac" idref="th1" lang="fr" ordseq="9" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="1,6" unite="mo">/culture/qf1076656/qf07/65889ac.pdf</urlpdf>
+  <pagination>
+    <ppage>42</ppage>
+    <dpage>46</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Littérature</surtitre>
+    <surtitre2>
+L’actualité du mythe</surtitre2>
+                  <titre>Vers une lecture mythocritique des textes littéraires</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Camille</prenom>
+    <nomfamille>Deslauriers</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeure, Université du Québec à Rimouski</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="65890ac" idref="th1" lang="fr" ordseq="10" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="968" unite="ko">/culture/qf1076656/qf07/65890ac.pdf</urlpdf>
+  <pagination>
+    <ppage>47</ppage>
+    <dpage>49</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Littérature</surtitre>
+    <surtitre2>
+L’actualité du mythe</surtitre2>
+                  <titre>Leçons de tragédie</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Lise</prenom>
+    <nomfamille>Fontaine</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeure de littérature, Cégep de Limoilou</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="65891ac" idref="th1" lang="fr" ordseq="11" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="735" unite="ko">/culture/qf1076656/qf07/65891ac.pdf</urlpdf>
+  <pagination>
+    <ppage>50</ppage>
+    <dpage>51</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Littérature</surtitre>
+    <surtitre2>
+L’actualité du mythe</surtitre2>
+                  <titre>Enseigner <marquage typemarq="italique">Prochain épisode</marquage> d’Hubert Aquin</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>François</prenom>
+    <nomfamille>Poisson</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeur au Collège Lionel-Groulx</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="65892ac" idref="th2" lang="fr" ordseq="12" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="127" unite="ko">/culture/qf1076656/qf07/65892ac.pdf</urlpdf>
+  <pagination>
+    <ppage>52</ppage>
+    <dpage>53</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Didactique</surtitre>
+    <surtitre2>
+Comprendre des textes à l’oral et à l’écrit</surtitre2>
+              <titre>Comprendre des textes à l’oral et à l’écrit</titre>
+            <sstitre>Présentation</sstitre>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+                
+   <nompers>
+                    
+    <prenom>Christian</prenom>
+                    
+                    
+    <nomfamille>Dumais</nomfamille>
+                
+   </nompers>
+                
+  <affiliation>
+                    <alinea>Doctorant en éducation à l’Université du Québec en                        Outaouais</alinea>
+                
+  </affiliation>
+                
+  <affiliation>
+                    <alinea>Chargé de cours à l’Université de Montréal et à l’Université du                        Québec à Montréal</alinea>
+                
+  </affiliation>
+                
+  <affiliation>
+                    <alinea>Enseignant au secondaire en français langue première à la Commission                        scolaire de Montréal</alinea>
+                
+  </affiliation>
+            
+  </auteur>
+  <auteur id="au2">
+                
+   <nompers>
+                    
+    <prenom>Réal</prenom>
+                    
+                    
+    <nomfamille>Bergeron</nomfamille>
+                
+   </nompers>
+                
+  <affiliation>
+                    <alinea>Professeur, Université du Québec en Abitibi-Témiscamingue</alinea>
+                
+  </affiliation>
+            
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="65893ac" idref="th2" lang="fr" ordseq="13" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="561" unite="ko">/culture/qf1076656/qf07/65893ac.pdf</urlpdf>
+  <pagination>
+    <ppage>54</ppage>
+    <dpage>56</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Didactique</surtitre>
+    <surtitre2>
+Comprendre des textes à l’oral et à l’écrit</surtitre2>
+                  <titre>Pistes d’enseignement de la compréhension orale</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Lizanne</prenom>
+    <nomfamille>Lafontaine</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeure agrégée en didactique du français à l’Université du Québec en Outaouais</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>Christian</prenom>
+    <nomfamille>Dumais</nomfamille>
+   </nompers>
+  <affiliation><alinea>Doctorant en éducation à l’Université du Québec en Outaouais</alinea>
+  </affiliation>
+  <affiliation><alinea>Chargé de cours à l’Université de Montréal et à l’Université du Québec à Montréal</alinea>
+  </affiliation>
+  <affiliation><alinea>Enseignant au secondaire en français langue première à la Commission scolaire de Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="65894ac" idref="th2" lang="fr" ordseq="14" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="161" unite="ko">/culture/qf1076656/qf07/65894ac.pdf</urlpdf>
+  <pagination>
+    <ppage>57</ppage>
+    <dpage>58</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Didactique</surtitre>
+    <surtitre2>
+Comprendre des textes à l’oral et à l’écrit</surtitre2>
+                  <titre>L’enseignement explicite des stratégies d’écoute</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Christian</prenom>
+    <nomfamille>Dumais</nomfamille>
+   </nompers>
+  <affiliation><alinea>Doctorant en éducation à l’Université du Québec en Outaouais</alinea>
+  </affiliation>
+  <affiliation><alinea>Chargé de cours à l’Université de Montréal et à l’Université du Québec à Montréal</alinea>
+  </affiliation>
+  <affiliation><alinea>Enseignant au secondaire en français langue première à la Commission scolaire de Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="65895ac" idref="th2" lang="fr" ordseq="15" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="98" unite="ko">/culture/qf1076656/qf07/65895ac.pdf</urlpdf>
+  <pagination>
+    <ppage>59</ppage>
+    <dpage>60</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Didactique</surtitre>
+    <surtitre2>
+Comprendre des textes à l’oral et à l’écrit</surtitre2>
+                  <titre>Parler et écouter pour mieux comprendre</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Murielle</prenom>
+    <nomfamille>Doré</nomfamille>
+   </nompers>
+  <affiliation><alinea>Enseignante au préscolaire à San Francisco</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="65896ac" idref="th2" lang="fr" ordseq="16" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="1003" unite="ko">/culture/qf1076656/qf07/65896ac.pdf</urlpdf>
+  <pagination>
+    <ppage>61</ppage>
+    <dpage>63</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Didactique</surtitre>
+    <surtitre2>
+Comprendre des textes à l’oral et à l’écrit</surtitre2>
+                  <titre>Les élèves écoutent-ils lorsque j’enseigne ?</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Joanne</prenom>
+    <nomfamille>Pharand</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeure agrégée en formation pratique à l’Université du Québec en Outaouais, campus de Saint-Jérôme</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>Lizanne</prenom>
+    <nomfamille>Lafontaine</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeure agrégée de didactique du français à l’Université du Québec en Outaouais, campus de Saint-Jérôme</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="65897ac" idref="th2" lang="fr" ordseq="17" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="122" unite="ko">/culture/qf1076656/qf07/65897ac.pdf</urlpdf>
+  <pagination>
+    <ppage>63</ppage>
+    <dpage>64</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Didactique</surtitre>
+    <surtitre2>
+Comprendre des textes à l’oral et à l’écrit</surtitre2>
+                  <titre>La grande absente de la classe de français</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Kathleen</prenom>
+    <nomfamille>Sénéchal</nomfamille>
+   </nompers>
+  <affiliation><alinea>Enseignante de français au secondaire</alinea>
+  </affiliation>
+  <affiliation><alinea>Étudiante au doctorat en didactique à l’Université Laval</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="65898ac" idref="th2" lang="fr" ordseq="18" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="1,4" unite="mo">/culture/qf1076656/qf07/65898ac.pdf</urlpdf>
+  <pagination>
+    <ppage>65</ppage>
+    <dpage>68</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Didactique</surtitre>
+    <surtitre2>
+Comprendre des textes à l’oral et à l’écrit</surtitre2>
+                  <titre>La littérature de jeunesse au service de la compréhension</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Marie-Claire</prenom>
+    <nomfamille>Desnoyers-Mathieu</nomfamille>
+   </nompers>
+  <affiliation><alinea>Enseignante au primaire</alinea>
+  </affiliation>
+  <affiliation><alinea>Finissante à la Maîtrise en enseignement à l’Université de Sherbrooke</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>Marie-France</prenom>
+    <nomfamille>Morin</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeure titulaire à la faculté d’éducation de l’Université de Sherbrooke</alinea>
+  </affiliation>
+  <affiliation><alinea>Titulaire de la Chaire de recherche sur l’apprentissage de la lecture et de l’écriture chez le jeune enfant</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="65899ac" idref="th2" lang="fr" ordseq="19" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="144" unite="ko">/culture/qf1076656/qf07/65899ac.pdf</urlpdf>
+  <pagination>
+    <ppage>69</ppage>
+    <dpage>70</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Didactique</surtitre>
+    <surtitre2>
+Comprendre des textes à l’oral et à l’écrit</surtitre2>
+                  <titre>Questions sous la loupe</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Julie</prenom>
+    <nomfamille>Ayotte</nomfamille>
+   </nompers>
+  <affiliation><alinea>Enseignante de français, école Saint-Martin, Commission scolaire de Laval</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>Geneviève</prenom>
+    <nomfamille>East</nomfamille>
+   </nompers>
+  <affiliation><alinea>Enseignante de français, école Saint-Martin, Commission scolaire de Laval</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="65900ac" idref="th2" lang="fr" ordseq="20" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="573" unite="ko">/culture/qf1076656/qf07/65900ac.pdf</urlpdf>
+  <pagination>
+    <ppage>71</ppage>
+    <dpage>72</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Didactique</surtitre>
+    <surtitre2>
+Comprendre des textes à l’oral et à l’écrit</surtitre2>
+                  <titre>Expliciter la compétence à lire et apprécier pour mieux l’évaluer</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Érick</prenom>
+    <nomfamille>Falardeau</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeur, Faculté de sciences de l’éducation, Université Laval</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>Frédéric</prenom>
+    <nomfamille>Guay</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeur, Faculté de sciences de l’éducation, Université Laval</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au3">
+   <nompers>
+    <prenom>Pierre</prenom>
+    <nomfamille>Valois</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeur, Faculté de sciences de l’éducation, Université Laval</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="65901ac" lang="fr" ordseq="21" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="789" unite="ko">/culture/qf1076656/qf07/65901ac.pdf</urlpdf>
+  <pagination>
+    <ppage>73</ppage>
+    <dpage>76</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Didactique</surtitre>
+    <surtitre2>
+Situation d’apprentissage 190-191</surtitre2>
+                  <titre>Je parle et ils écoutent, mais comprennent-ils ?</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Raymond</prenom>
+    <nomfamille>Nolin</nomfamille>
+   </nompers>
+  <affiliation><alinea>Étudiant à la maîtrise en éducation à l’Université du Québec à Montréal</alinea>
+  </affiliation>
+  <affiliation><alinea>Enseignant au primaire à la Commission scolaire de Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="65902ac" lang="fr" ordseq="22" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="818" unite="ko">/culture/qf1076656/qf07/65902ac.pdf</urlpdf>
+  <pagination>
+    <ppage>77</ppage>
+    <dpage>81</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Didactique</surtitre>
+    <surtitre2>
+Situation d’apprentissage 190-191</surtitre2>
+                  <titre><marquage typemarq="italique">Les Belles-Soeurs </marquage>de Michel Tremblay dans une classe de français en 5<exposant>e</exposant> secondaire</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Layla</prenom>
+    <nomfamille>Khanji</nomfamille>
+   </nompers>
+  <affiliation><alinea>Enseignante de français à l’école secondaire Westmount High / Commission scolaire English-Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="65903ac" lang="fr" ordseq="23" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="617" unite="ko">/culture/qf1076656/qf07/65903ac.pdf</urlpdf>
+  <pagination>
+    <ppage>83</ppage>
+    <dpage>85</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Chroniques</surtitre>
+    <surtitre2>
+Échos de la recherche en didactique du français</surtitre2>
+                  <titre>Évaluation à l’oral de la compréhension en lecture de textes narratifs chez des garçons de 5<exposant>e</exposant> secondaire</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Amélie</prenom>
+    <nomfamille>Guay</nomfamille>
+   </nompers>
+  <affiliation><alinea>Chargée de cours et responsable du centre d’aide en français à l’Université du Québec en Outaouais à Saint-Jérôme</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="65904ac" lang="fr" ordseq="24" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="770" unite="ko">/culture/qf1076656/qf07/65904ac.pdf</urlpdf>
+  <pagination>
+    <ppage>86</ppage>
+    <dpage>87</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Chroniques</surtitre>
+    <surtitre2>
+Échos de la recherche en didactique du français</surtitre2>
+                  <titre>Pour un enseignement plus efficace des stratégies de lecture aux 2<exposant>e</exposant> et 3<exposant>e</exposant> cycles du primaire</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Pascale</prenom>
+    <nomfamille>Thériault</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeure en apprentissage de la lecture et de l’écriture au primaire, Université du Québec à Chicoutimi</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>Nadine</prenom>
+    <nomfamille>Laurin</nomfamille>
+   </nompers>
+  <affiliation><alinea>Doctorante en éducation, Université du Québec à Chicoutimi</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="65905ac" lang="fr" ordseq="25" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="773" unite="ko">/culture/qf1076656/qf07/65905ac.pdf</urlpdf>
+  <pagination>
+    <ppage>88</ppage>
+    <dpage>89</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Chroniques</surtitre>
+    <surtitre2>
+TIC</surtitre2>
+                  <titre>L’interaction avec le réviseur orthographique. Ébauche d’un portrait d’élèves de première secondaire</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Pascal</prenom>
+    <nomfamille>Grégoire</nomfamille>
+   </nompers>
+  <affiliation><alinea>Doctorant en psychopédagogie à l’Université de Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="65906ac" lang="fr" ordseq="26" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="665" unite="ko">/culture/qf1076656/qf07/65906ac.pdf</urlpdf>
+  <pagination>
+    <ppage>90</ppage>
+    <dpage>92</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Chroniques</surtitre>
+    <surtitre2>
+Fantastique</surtitre2>
+                  <titre>La sorcière : « antimère » et femme libérée ?</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Steve</prenom>
+    <nomfamille>Laflamme</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeur de littérature, Cégep de Sainte-Foy</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="65907ac" lang="fr" ordseq="27" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="141" unite="ko">/culture/qf1076656/qf07/65907ac.pdf</urlpdf>
+  <pagination>
+    <ppage>93</ppage>
+    <dpage>95</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Chroniques</surtitre>
+    <surtitre2>
+Fiche de lecture</surtitre2>
+                  <titre><marquage typemarq="italique">Les héritiers de la mine </marquage>ou le prix du sacrifice</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Aurélien</prenom>
+    <nomfamille>Boivin</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeur de littérature québécoise, Université Laval</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="65908ac" lang="fr" ordseq="28" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="875" unite="ko">/culture/qf1076656/qf07/65908ac.pdf</urlpdf>
+  <pagination>
+    <ppage>96</ppage>
+    <dpage>98</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Chroniques</surtitre>
+    <surtitre2>
+Chanson</surtitre2>
+                  <titre>Voix plurielles</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Denys</prenom>
+    <nomfamille>Lelièvre</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="65909ac" lang="fr" ordseq="29" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="901" unite="ko">/culture/qf1076656/qf07/65909ac.pdf</urlpdf>
+  <pagination>
+    <ppage>99</ppage>
+    <dpage>101</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Chroniques</surtitre>
+    <surtitre2>
+Cinéma</surtitre2>
+                  <titre>Une magistrale adaptation</titre>
+                    <trefbiblio>
+<marquage typemarq="italique">Monsieur Lazhar</marquage></trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>David</prenom>
+    <nomfamille>Rancourt</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="65910ac" lang="fr" ordseq="30" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="363" unite="ko">/culture/qf1076656/qf07/65910ac.pdf</urlpdf>
+  <pagination>
+    <ppage>102</ppage>
+    <dpage>104</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Chroniques</surtitre>
+    <surtitre2>
+Histoires de mots</surtitre2>
+                  <titre>« L’homme rapaillé »</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Suzelle</prenom>
+    <nomfamille>Blais</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="65911ac" lang="fr" ordseq="31" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="886" unite="ko">/culture/qf1076656/qf07/65911ac.pdf</urlpdf>
+  <pagination>
+    <ppage>105</ppage>
+    <dpage>107</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Chroniques</surtitre>
+    <surtitre2>
+Littérature jeunesse</surtitre2>
+                  <titre>Mythes et misères de jeunes héros</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Isabelle</prenom>
+    <nomfamille>L’Italien-Savard</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeure de littérature, Cégep Limoilou</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="65912ac" lang="fr" ordseq="32" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="1,2" unite="mo">/culture/qf1076656/qf07/65912ac.pdf</urlpdf>
+  <pagination>
+    <ppage>108</ppage>
+    <dpage>109</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Chroniques</surtitre>
+    <surtitre2>
+Entrevue</surtitre2>
+                  <titre>Comment Mario Francis a écrit la série <marquage typemarq="italique">Leonis</marquage></titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1"><contribution typecontrib="aut">Propos recueillis par</contribution>
+   <nompers>
+    <prenom>Monique</prenom>
+    <nomfamille>Noël-Gaudreault</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeure, Département de didactique, Université de Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="65913ac" lang="fr" ordseq="33" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="909" unite="ko">/culture/qf1076656/qf07/65913ac.pdf</urlpdf>
+  <pagination>
+    <ppage>110</ppage>
+    <dpage>113</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Chroniques</surtitre>
+    <surtitre2>
+Fiche de lecture jeunesse</surtitre2>
+                  <titre><marquage typemarq="italique">Le talisman des Pharaons</marquage> de Mario Francis</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Martine</prenom>
+    <nomfamille>Brunet</nomfamille>
+   </nompers>
+  <affiliation><alinea>Enseignante à la Commission scolaire de Rouyn-Noranda</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>Maryse</prenom>
+    <nomfamille>Lévesque</nomfamille>
+   </nompers>
+  <affiliation><alinea>Conseillère pédagogique à la commission scolaire de la Pointe-de-l’Île</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+</sommaire><pages image="true" imageHeight="1800" imageWidth="1390" nb="120" smallImage="true" smallImageHeight="800" smallImageWidth="618">
+  <originator application="Tournesol" date="2012-02-15" username="robichma"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p1" valeur="1"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p2" valeur="2"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p3" valeur="3"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p4" valeur="4"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p5" valeur="5"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p6" valeur="6"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p7" valeur="7"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p8" valeur="8"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p9" valeur="9"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p10" valeur="10"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p11" valeur="11"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p12" valeur="12"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p13" valeur="13"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p14" valeur="14"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p15" valeur="15"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p16" valeur="16"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p17" valeur="17"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p18" valeur="18"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p19" valeur="19"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p20" valeur="20"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p21" valeur="21"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p22" valeur="22"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p23" valeur="23"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p24" valeur="24"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p25" valeur="25"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p26" valeur="26"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p27" valeur="27"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p28" valeur="28"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p29" valeur="29"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p30" valeur="30"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p31" valeur="31"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p32" valeur="32"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p33" valeur="33"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p34" valeur="34"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p35" valeur="35"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p36" valeur="36"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p37" valeur="37"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p38" valeur="38"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p39" valeur="39"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p40" valeur="40"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p41" valeur="41"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p42" valeur="42"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p43" valeur="43"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p44" valeur="44"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p45" valeur="45"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p46" valeur="46"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p47" valeur="47"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p48" valeur="48"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p49" valeur="49"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p50" valeur="50"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p51" valeur="51"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p52" valeur="52"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p53" valeur="53"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p54" valeur="54"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p55" valeur="55"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p56" valeur="56"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p57" valeur="57"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p58" valeur="58"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p59" valeur="59"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p60" valeur="60"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p61" valeur="61"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p62" valeur="62"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p63" valeur="63"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p64" valeur="64"/>  
+<page pid="erudit:erudit.qf1076656.qf07.p65" valeur="65"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p66" valeur="66"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p67" valeur="67"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p68" valeur="68"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p69" valeur="69"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p70" valeur="70"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p71" valeur="71"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p72" valeur="72"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p73" valeur="73"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p74" valeur="74"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p75" valeur="75"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p76" valeur="76"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p77" valeur="77"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p78" valeur="78"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p79" valeur="79"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p80" valeur="80"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p81" valeur="81"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p82" valeur="82"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p83" valeur="83"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p84" valeur="84"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p85" valeur="85"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p86" valeur="86"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p87" valeur="87"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p88" valeur="88"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p89" valeur="89"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p90" valeur="90"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p91" valeur="91"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p92" valeur="92"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p93" valeur="93"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p94" valeur="94"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p95" valeur="95"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p96" valeur="96"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p97" valeur="97"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p98" valeur="98"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p99" valeur="99"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p100" valeur="100"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p101" valeur="101"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p102" valeur="102"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p103" valeur="103"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p104" valeur="104"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p105" valeur="105"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p106" valeur="106"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p107" valeur="107"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p108" valeur="108"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p109" valeur="109"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p110" valeur="110"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p111" valeur="111"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p112" valeur="112"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p113" valeur="113"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p114" valeur="114"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p115" valeur="115"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p116" valeur="116"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p117" valeur="117"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p118" valeur="118"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p119" valeur="119"/>
+  <page pid="erudit:erudit.qf1076656.qf07.p120" valeur="120"/>
+</pages><panier><page xmlns:util="http://apache.org/xsp/util/2.0" xmlns:xsp-session="http://apache.org/xsp/session/2.0" xmlns:xsp-cookie="http://apache.org/xsp/cookie/2.0" xmlns:xsp-request="http://apache.org/xsp/request/2.0">
+
+ 
+	<nombreitems>0</nombreitems>
+	 
+			 
+	
+	
+	<usersession>
+		21057F6172D1D2FCA40557D47D5AAF8E
+	</usersession>	 
+	
+	<referer>
+		
+	</referer>
+    	<selections/>
+		<message>
+		
+		</message>
+		<form_values>
+			<taille>10000</taille>
+			<pageDebut>0</pageDebut>
+		
+			<typeAffichage/>
+			<typeTri/>
+		</form_values>
+</page></panier></site>
