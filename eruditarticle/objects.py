@@ -115,7 +115,7 @@ class EruditPublication(
 
     def _find_themeparal(self, theme_tag):
         """ Find the parallel names of the theme """
-        pn = {}
+        pn = collections.OrderedDict()
         for theme_paral in theme_tag.findall('themeparal'):
             lang = theme_paral.get('lang')
             pn[lang] = {
