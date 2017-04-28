@@ -46,6 +46,7 @@ class TestEruditPublication(object):
                 'subname': None,
                 'html_name': b'David Cronenberg',
                 'html_subname': None,
+                'lang': 'fr',
             },
             'th2': {
                 'name': 'La production au Québec',
@@ -54,6 +55,7 @@ class TestEruditPublication(object):
                 'subname': 'Cinq cinéastes sur le divan',
                 'html_name': b'La production au Qu&#233;bec',
                 'html_subname': b'Cinq cin&#233;astes sur le divan',
+                'lang': 'fr',
             },
         }
 
@@ -83,6 +85,7 @@ class TestEruditPublication(object):
             'subname': 'Cinq cinéastes sur le divan',
             'html_name': b'La production au Qu&#233;bec',
             'html_subname': b'Cinq cin&#233;astes sur le divan',
+            'lang': 'fr',
         }
 
     def test_redacteurchef(self):

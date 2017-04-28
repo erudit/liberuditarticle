@@ -131,6 +131,7 @@ class EruditPublication(
         """ Parse a theme tag """
         theme = {
             'name': self.get_text('theme', dom=theme_tag),
+            'lang': self.find('theme').get('lang') or "fr",
             'subname': self.get_text('sstheme', dom=theme_tag),
             'html_name': self.convert_marquage_content_to_html(self.find('theme', dom=theme_tag)),
             'html_subname': self.convert_marquage_content_to_html(
