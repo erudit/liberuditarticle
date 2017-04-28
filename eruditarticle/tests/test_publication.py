@@ -44,7 +44,7 @@ class TestEruditPublication(object):
                 'redacteurchef': [],
                 'paral': {},
                 'subname': None,
-                'html_name': b'David Cronenberg',
+                'html_name': 'David Cronenberg',
                 'html_subname': None,
                 'lang': 'fr',
             },
@@ -53,8 +53,8 @@ class TestEruditPublication(object):
                 'redacteurchef': [],
                 'paral': {},
                 'subname': 'Cinq cinéastes sur le divan',
-                'html_name': b'La production au Qu&#233;bec',
-                'html_subname': b'Cinq cin&#233;astes sur le divan',
+                'html_name': 'La production au Qu&#233;bec',
+                'html_subname': 'Cinq cin&#233;astes sur le divan',
                 'lang': 'fr',
             },
         }
@@ -72,7 +72,7 @@ class TestEruditPublication(object):
         assert len(themes.keys()) == 1
         assert themes['th1']['name'] == 'Géopolitique'
         assert themes['th1']['paral']['en'] == {
-            'name': 'Geopolitics', 'subname': None, 'html_name': b'Geopolitics',
+            'name': 'Geopolitics', 'subname': None, 'html_name': 'Geopolitics',
             'html_subname': None, }
 
     def test_sstheme(self):
@@ -83,8 +83,8 @@ class TestEruditPublication(object):
             'paral': {},
             'redacteurchef': [],
             'subname': 'Cinq cinéastes sur le divan',
-            'html_name': b'La production au Qu&#233;bec',
-            'html_subname': b'Cinq cin&#233;astes sur le divan',
+            'html_name': 'La production au Qu&#233;bec',
+            'html_subname': 'Cinq cin&#233;astes sur le divan',
             'lang': 'fr',
         }
 
