@@ -1,7 +1,85 @@
 
 from eruditarticle.base import Title
 from eruditarticle.objects import EruditPublication
-from eruditarticle.tests.decorators import with_fixtures
+from eruditarticle.tests.decorators import with_value, with_fixtures
+
+
+@with_fixtures('./eruditarticle/tests/fixtures/publication/themes', EruditPublication)
+class TestPublicationThemes(object):
+
+    @with_value('smq1996211.xml', 'get_formatted_themes')
+    def test_can_display_multiple_themes_and_editors(self, value):
+        assert value == [
+            {
+                'names': ["Virage ambulatoire"],
+                'editors': ["Alain Lesage"]
+            },
+            {
+                'names': ["Les états de stress post-traumatique"],
+                "editors": ["Alain Lesage", "Louis Côté", "Yves Lecomte"]
+            }
+        ]
+
+    @with_value('qf2012164.xml', 'get_formatted_themes')
+    def test_can_display_multiple_themes_and_multiple_editors(self, value):
+        assert value == [
+            {
+                'names': ["L’actualité du mythe"],
+                'editors': ['Vincent C. Lambert']
+            },
+            {
+                'names': ["Comprendre des textes à l’oral et à l’écrit"],
+                "editors": [
+                    "Christian Dumais",
+                    "Réal Bergeron"
+                ]
+            }
+        ]
+
+    @with_value('nps20121.xml', 'get_formatted_themes')
+    def test_can_display_multiple_themes_and_no_editors(self, value):
+        assert value == [
+            {
+                'names': ["La prévention précoce en question"],
+                "editors": [
+                    "Michel Parazelli",
+                    "Sylvie Lévesque",
+                    "Carol Gélinas",
+                ]
+            },
+            {
+                'names': ["Regards croisés France-Québec"],
+                "editors": []
+            }
+        ]
+
+    @with_value('as20113512.xml', 'get_formatted_themes')
+    def test_can_display_paral_themes_and_editors(self, value):
+        assert value == [
+            {
+                'names': [
+                    "Cyberespace et anthropologie : transmission des savoirs et des savoir-faire",  # noqa
+                    "Cyberspace and Anthropology : Transmission of Knowledge and Know-How",  # noqa
+                    "Ciberespacio y antropologia : Transmision de conocimientos y de saber-como",  # noqa
+                ],
+                'editors': [
+                    "Joseph J. Lévy",
+                    "Évelyne Lasserre"
+                ]
+            }
+        ]
+
+    # @with_value('ltp2010663.xml', 'get_formatted_themes')
+    # def test_can_display_no_theme_and_guest_editor(self, value):
+    #    assert value == [
+    #        {'name': None, 'editors': 'Marc Dumas'}
+    #    ]
+
+    # @with_value('dss201092.xml', 'get_formatted_themes')
+    # def test_can_display_no_theme_and_multiple_guest_editors(self, value):
+    #     assert value == [
+    #         {'name': None, 'editors': 'Pierre Lauzon et Michel Landry'}
+    #     ]
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication', EruditPublication)
@@ -44,16 +122,18 @@ class TestEruditPublication(object):
                 'redacteurchef': [],
                 'paral': {},
                 'subname': None,
-                'html_name': b'David Cronenberg',
+                'html_name': 'David Cronenberg',
                 'html_subname': None,
+                'lang': 'fr',
             },
             'th2': {
                 'name': 'La production au Québec',
                 'redacteurchef': [],
                 'paral': {},
                 'subname': 'Cinq cinéastes sur le divan',
-                'html_name': b'La production au Qu&#233;bec',
-                'html_subname': b'Cinq cin&#233;astes sur le divan',
+                'html_name': 'La production au Qu&#233;bec',
+                'html_subname': 'Cinq cin&#233;astes sur le divan',
+                'lang': 'fr',
             },
         }
 
@@ -70,7 +150,7 @@ class TestEruditPublication(object):
         assert len(themes.keys()) == 1
         assert themes['th1']['name'] == 'Géopolitique'
         assert themes['th1']['paral']['en'] == {
-            'name': 'Geopolitics', 'subname': None, 'html_name': b'Geopolitics',
+            'name': 'Geopolitics', 'subname': None, 'html_name': 'Geopolitics',
             'html_subname': None, }
 
     def test_sstheme(self):
@@ -81,8 +161,9 @@ class TestEruditPublication(object):
             'paral': {},
             'redacteurchef': [],
             'subname': 'Cinq cinéastes sur le divan',
-            'html_name': b'La production au Qu&#233;bec',
-            'html_subname': b'Cinq cin&#233;astes sur le divan',
+            'html_name': 'La production au Qu&#233;bec',
+            'html_subname': 'Cinq cin&#233;astes sur le divan',
+            'lang': 'fr',
         }
 
     def test_redacteurchef(self):

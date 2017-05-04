@@ -115,15 +115,20 @@ class EruditPublication(
 
     def _find_themeparal(self, theme_tag):
         """ Find the parallel names of the theme """
-        pn = {}
+        pn = collections.OrderedDict()
         for theme_paral in theme_tag.findall('themeparal'):
             lang = theme_paral.get('lang')
             pn[lang] = {
                 'name': theme_paral.text,
                 'subname': self.get_text("ssthemeparal[@lang='{}']".format(lang), dom=theme_tag),
-                'html_name': self.convert_marquage_content_to_html(theme_paral),
+                'html_name': self.convert_marquage_content_to_html(
+                    theme_paral,
+                    as_string=True
+                ),
                 'html_subname': self.convert_marquage_content_to_html(
-                    self.find("ssthemeparal[@lang='{}']".format(lang), dom=theme_tag)),
+                    self.find("ssthemeparal[@lang='{}']".format(lang), dom=theme_tag),
+                    as_string=True
+                ),
             }
         return pn
 
@@ -131,12 +136,17 @@ class EruditPublication(
         """ Parse a theme tag """
         theme = {
             'name': self.get_text('theme', dom=theme_tag),
+            'lang': self.find('theme').get('lang') or "fr",
             'subname': self.get_text('sstheme', dom=theme_tag),
-            'html_name': self.convert_marquage_content_to_html(self.find('theme', dom=theme_tag)),
+            'html_name': self.convert_marquage_content_to_html(
+                self.find('theme', dom=theme_tag),
+                as_string=True
+            ),
             'html_subname': self.convert_marquage_content_to_html(
-                self.find('sstheme', dom=theme_tag)),
+                self.find('sstheme', dom=theme_tag),
+                as_string=True
+            ),
         }
-
         theme_id = theme_tag.get('id')
 
         # theme redacteurs en chef
@@ -151,8 +161,45 @@ class EruditPublication(
         for theme_tag in self.findall('grtheme'):
             theme_id, theme = self.parse_theme(theme_tag)
             themes[theme_id] = theme
-
         return themes
+
+    def get_formatted_theme_guest_editors(self, theme):
+        """ Format the names of the guest editors of the theme """
+        guest_editors = theme.get("redacteurchef", [])
+        formatted_guest_editors = map(
+            lambda x: self.format_person_name(x), guest_editors
+        )
+        return list(formatted_guest_editors)
+
+    def _format_theme_names(self, theme):
+        """ Format the theme name """
+        theme_name_subnames = [
+            (theme['name'], theme.get('subname', None), theme['lang'])
+        ] + [
+            (paral['name'], paral.get('subname', None), paral.get('lang'))
+            for paral in theme['paral'].values()
+        ]
+
+        def _theme_name_formatter(name, subname, lang):
+            # Lower case the first letter if theme name is in French.
+            if subname and lang == 'fr':
+                subname = subname[0].lower() + subname[1:]
+            return "{} : {}".format(name, subname) if subname else name
+
+        return list(map(lambda t: _theme_name_formatter(t[0], t[1], t[2]), theme_name_subnames))
+
+    def get_formatted_themes(self):
+        """ Return the formatted themes of this publication """
+        themes = self.get_themes()
+        formatted_themes = []
+        for theme_id, theme in themes.items():
+            formatted_themes.append(
+                {
+                    'names': self._format_theme_names(theme),
+                    'editors': self.get_formatted_theme_guest_editors(theme)
+                }
+            )
+        return formatted_themes
 
     def get_redacteurchef(self, idrefs=None):
         """ Return the redacteurchef of this publication """
