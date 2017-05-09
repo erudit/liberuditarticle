@@ -130,18 +130,22 @@ class EruditBaseObject(object):
             languages = ['fr']
 
         title_elem = self.find(title_elem_name, dom=root_elem)
-        subtitle_elem = self.find(subtitle_elem_name, dom=root_elem)
 
+        # Set title_elem to None if it has no text and no child
+        if title_elem is None or (not title_elem.text and len(title_elem) == 0):
+            title_elem = None
+
+        subtitle_elem = self.find(subtitle_elem_name, dom=root_elem)
         if strip_markup:
             title = Title(
-                title=self.stringify_children(title_elem),
+                title=self.stringify_children(title_elem) if title_elem is not None else None,
                 subtitle=self.stringify_children(subtitle_elem),
                 lang=languages.pop(0)
             )
         else:
             title = Title(
                 title=self.convert_marquage_content_to_html(
-                    title_elem,
+                    title_elem if title_elem is not None else None,
                     as_string=True
                 ),
                 subtitle=self.convert_marquage_content_to_html(
@@ -293,7 +297,6 @@ class EruditBaseObject(object):
         if strip_elements:
             et.strip_elements(node, *strip_elements, with_tail=False)
         et.strip_tags(node, "*")
-
         if node.text is not None:
             return re.sub(' +', ' ', node.text)
 

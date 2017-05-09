@@ -211,6 +211,20 @@ class TestArticleCulturelMinimal(object):
             'reviewed_works': ["Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"]  # noqa
         }
 
+    @with_value('67660ac.xml', 'get_titles')
+    def test_untitled_article_can_return_its_title(self, value):
+        from eruditarticle.base import Title
+        assert value == {
+            'main': Title(
+                title=None,
+                subtitle=None,
+                lang='fr',
+            ),
+            'paral': [],
+            'equivalent': [],
+            'reviewed_works': []
+        }
+
     def test_issn(self):
         assert self.test_objects['34598ac.xml'].get_issn() == '0835-7641'
 
