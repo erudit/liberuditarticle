@@ -1,5 +1,41 @@
+import collections
 from eruditarticle.objects import EruditArticle
 from eruditarticle.tests.decorators import with_value, with_fixtures
+
+
+@with_fixtures('./eruditarticle/tests/fixtures/article/section_titles', EruditArticle)
+class TestSectionTitle(object):
+
+    def test_can_return_section_titles(self):
+        value = self.test_objects['1027883ar.xml'].get_section_titles(
+            level=1
+        )
+        assert value == {
+            'main': "Paroles et points de vue atikamekw nehirowisiwok",
+            'paral': collections.OrderedDict(),
+        }
+
+        value = self.test_objects['1027883ar.xml'].get_section_titles(
+            level=2
+        )
+
+        assert value == {
+            'main': "Paroles d&#8217;a&#238;n&#233;s nehirowisiwok",
+            'paral': collections.OrderedDict(),
+        }
+
+    def test_can_return_multilingual_section_titles(self):
+        value = self.test_objects['1030384ar.xml'].get_section_titles(
+            level=1
+        )
+
+        assert value == {
+            'main': "Dossier sp&#233;cial&#160;: Entreprendre et innover dans une &#233;conomie globalis&#233;e...",  # noqa
+            'paral': collections.OrderedDict({
+                'es': "Dossier especial: Emprender e innovar en una econom&#237;a globalizada&#8230;",  # noqa
+                'en': "Special Edition: Undertaking and innovating in a globalised economy...",
+            })
+        }
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/savant/complet', EruditArticle)

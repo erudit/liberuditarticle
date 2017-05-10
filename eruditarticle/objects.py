@@ -448,41 +448,37 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """ :returns: the publisher of the article object. """
         return self.get_text('editeur//nomorg')
 
-    def get_section_title(self):
-        """ :returns: the section title of the article object. """
-        return self.stringify_children(self.find('liminaire//grtitre//surtitre'))
+    def get_section_titles(self, level=1, html=True):
+        """ :returns: the section titles of the article object
 
-    def get_section_titles(self):
-        """ :returns: all the section titles of the article object. """
-        section_title = self.section_title
+            :param title_type: type of the title (main or paral)
+            :param level: level of the section title (1, 2 or 3)
+            :param html: True if special characters should be converted to html entities
+        """
+        if level not in (1, 2, 3):
+            raise ValueError("Level should be 1, 2 or 3")
+
+        section_title = self._get_section_title(level=level)
+
+        surtitre_elem = 'surtitreparal{}'.format(
+            "" if level == 1 else level
+        )
+
         return {
             'main': section_title,
-            'paral': self.find_paral(self.find('liminaire//grtitre'), 'surtitreparal'),
+            'paral': self.find_paral(self.find('liminaire//grtitre'), surtitre_elem),
         } if section_title else None
 
-    def get_section_title_2(self):
-        """ :returns: the second section title of the article object. """
-        return self.stringify_children(self.find('liminaire//grtitre//surtitre2'))
+    def _get_section_title(self, level=1):
+        """ :returns: the section title of the article object. """
+        element = 'liminaire//grtitre//surtitre{}'.format(
+            "" if level == 1 else level
+        )
 
-    def get_section_titles_2(self):
-        """ :returns: all the second section titles of the article object. """
-        section_title_2 = self.section_title_2
-        return {
-            'main': section_title_2,
-            'paral': self.find_paral(self.find('liminaire//grtitre'), 'surtitreparal2'),
-        } if section_title_2 else None
-
-    def get_section_title_3(self):
-        """ :returns: the third section title of the article object. """
-        return self.stringify_children(self.find('liminaire//grtitre//surtitre3'))
-
-    def get_section_titles_3(self):
-        """ :returns: all the third section titles of the article object. """
-        section_title_3 = self.section_title_3
-        return {
-            'main': section_title_3,
-            'paral': self.find_paral(self.find('liminaire//grtitre'), 'surtitreparal3'),
-        } if section_title_3 else None
+        return self.convert_marquage_content_to_html(
+            self.find(element),
+            as_string=True
+        )
 
     def get_subtitle(self):
         """ :returns: the subtitle of the article object. """
@@ -696,12 +692,6 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
     processing = property(get_processing)
     publication_year = property(get_publication_year)
     publisher = property(get_publisher)
-    section_title = property(get_section_title)
-    section_titles = property(get_section_titles)
-    section_title_2 = property(get_section_title_2)
-    section_titles_2 = property(get_section_titles_2)
-    section_title_3 = property(get_section_title_3)
-    section_titles_3 = property(get_section_titles_3)
     subtitle = property(get_subtitle)
     title = property(get_title)
     titles = property(get_titles)

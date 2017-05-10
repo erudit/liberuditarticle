@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?><article xmlns="http://www.erudit.org/xsd/article" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.erudit.org/xsd/article http://www.erudit.org/xsd/article/3.0.0/eruditarticle.xsd" qualtraitement="complet" idproprio="1030384ar" typeart="autre" lang="fr" ordseq="2"><admin><infoarticle><idpublic scheme="doi">10.7202/1030384ar</idpublic><pagination> <ppage>15</ppage> <dpage>21</dpage>  
+       </pagination></infoarticle><revue id="mi115" lang="fr en es"><titrerev>Management international</titrerev><titrerevparal lang="en">International Management</titrerevparal><titrerevparal lang="es">Gestiòn Internacional</titrerevparal><titrerevabr>mi</titrerevabr><idissn>1206-1697</idissn><idissnnum>1918-9222</idissnnum><redacteurchef typerc="regulier" sexe="masculin"><nompers><prenom>Patrick</prenom><nomfamille>Cohendet</nomfamille></nompers></redacteurchef><redacteurchef typerc="regulier" sexe="masculin"><nompers><prenom>Bachir</prenom><nomfamille>Mazouz</nomfamille></nompers></redacteurchef></revue><numero id="mi01857"><volume>19</volume><nonumero>2</nonumero><pub><periode>Hiver</periode><annee>2015</annee></pub><pubnum><date typedate="publication">2015-05-07</date></pubnum><notegen lang="fr" porteenoteg="surtitre" typenoteg="edito"><alinea>Sous la direction de Serge Amabile</alinea></notegen><notegen lang="en" porteenoteg="surtitre" typenoteg="edito"><alinea>Guest-edited by Serge Amabile</alinea></notegen><notegen lang="es" porteenoteg="surtitre" typenoteg="edito"><alinea>Dirigido por Serge Amabile</alinea></notegen></numero><editeur><nomorg>HEC Montréal</nomorg></editeur><editeur><nomorg>Université Paris Dauphine</nomorg></editeur><prodnum><nomorg>Érudit</nomorg></prodnum><diffnum><nomorg>Érudit</nomorg></diffnum><schema nom="Erudit Article" version="3.0.0" lang="fr"/><droitsauteur>Tous droits réservés © <nomorg>Management international / International Management / Gestión Internacional</nomorg>, 2015</droitsauteur></admin><liminaire><grtitre><surtitre>Dossier spécial : Entreprendre et innover dans une économie globalisée...</surtitre><surtitreparal lang="en">Special Edition: Undertaking and innovating in a globalised economy...</surtitreparal><surtitreparal lang="es">Dossier especial: Emprender e innovar en una economía globalizada…</surtitreparal>
+      <titre>Introduction au dossier spécial</titre>
+      <sstitre><marquage typemarq="majuscule">E</marquage>ntreprendre et innover dans une économie globalisée...</sstitre>
+      <titreparal lang="en">Introduction to the special edition</titreparal>
+      <sstitreparal lang="en">Undertaking and innovating in a globalised economy...</sstitreparal>
+      <titreparal lang="es">Introduction – Dossier especial</titreparal>
+      <sstitreparal lang="es">Emprender e innovar en una economía globalizada…</sstitreparal>
+    </grtitre><grauteur><auteur id="au1"><nompers>
+        <prenom>Serge</prenom>
+        
+        <nomfamille>Amabile</nomfamille>
+        </nompers><affiliation>
+        <alinea>CERGAM – Faculté d’Economie et de Gestion – Aix-Marseille Université –          France</alinea>
+        </affiliation></auteur></grauteur></liminaire><corps><section1 id="s1n1"><no>1</no><para id="pa1"><no>1</no>
+        <alinea>Dans la proximité de débats qui font aujourd’hui l’actualité, le titre de cette
+          introduction évoque, en premier lieu, la mondialisation de l’économie et, par là-même,
+          l’expression de tensions concurrentielles, écologiques, sociales, institutionnelles ou,
+          encore, politiques, toujours plus aigües. En second lieu, il rappelle que l’innovation est
+          souvent présentée comme l’un des moyens susceptibles d’assurer la pérennité, la
+          performance et le développement des firmes et des organisations. </alinea>
+      </para><para id="pa2"><no>2</no>
+        <alinea>Toutefois, aborder le développement des entreprises et l’innovation revient à
+          vouloir cerner un champ extrêmement diversifié et en évolution permanente ! En effet, le
+          titre de cette introduction a également été le thème central du cinquième colloque
+          <marquage typemarq="gras">EIDEV</marquage><renvoi id="re1no1" idref="no1" typeref="note">1</renvoi>. Parmi les
+          quarante communications qui furent présentées lors de cette manifestation, cinq thèmes
+          pouvaient être dégagés assez précisément : </alinea>
+        <listenonord signe="tiret">
+          <elemliste><alinea>dix articles évoquaient l’innovation et le management des systèmes et des
+          technologies de l’information; ont notamment été explorées, en relation avec l’innovation,
+          des thématiques concernant la sécurité et la veille stratégique ou, encore, le
+          développement des réseaux sociaux;</alinea></elemliste>
+          <elemliste><alinea>neuf présentations reliaient l’innovation et l’analyse financière (c’est le cas de
+          recherches présentées dans ce dossier);</alinea></elemliste>
+          <elemliste><alinea>huit communications traitées de l’innovation et de l’entrepreneuriat, ce dernier
+          étant décliné sous des formes souvent originales (l’entrepreneuriat au féminin,
+          l’entrepreneuriat des étudiants étrangers en Europe, etc.);</alinea></elemliste>
+          <elemliste><alinea>huit recherches évoquaient l’innovation et le développement des organisations en
+          relation, en particulier, avec des problématiques concernant la gestion des ressources
+          humaine et la RSE;</alinea></elemliste>
+          <elemliste><alinea>enfin, cinq articles s’intéressaient à l’innovation marketing (en l’abordant,
+          notamment, sous l’angle de la nostalgie);</alinea></elemliste>
+        </listenonord>
+      </para><para id="pa3"><no>3</no>
+        <alinea>De fait, au-delà de l’originalité des articles qui le constituent, le premier apport
+          qui ressort de ce dossier est celui de la diversité des thèmes et des questionnements
+          envisagés. Du développement de start-up issues du sérail universitaire, à la perception de
+          la RSE par les actionnaires ou à l’analyse de l’échec d’une innovation organisationnelle,
+          il apparaît que l’innovation et le développement des entreprises peuvent être interprétés
+          à plusieurs niveaux (micro ou macro) et selon différents perspectives. Les thématiques
+          concernées peuvent être regardées sous l’angle du management public (les universités), de
+          l’analyse financière (les rendements mensuels des actions sur les marchés européens) et du
+          management (le cas du syndicat de la librairie française). En cela, elles concernent
+          l’ensemble des sciences de gestion. Enfin, outre des contextes et des possibilités
+          d’analyses différenciées, des couples, ponts ou relations (« start-up - université »,
+          « RSE – actionnariat », etc.) sont établis et investis de façons originales. Cela souligne
+          la richesse et, en même temps, l’immensité des champs investis !</alinea>
+      </para><para id="pa4"><no>4</no>
+        <alinea>Dans cette perspective, le premier article, présenté par Elisa Salvador et
+          Pierre-Jean Benghozi, s’intéresse aux start-up. A l’heure où ces dernières font
+          l’actualité, les deux auteurs précisent les conditions de développement des Research Spin
+          Off (RSOs), caractérisant leur écosystème institutionnel et le poids de leur lien avec
+          leur alma mater ou “parent institute”. En particulier, ils étudient la relation entre le
+          degré d’attention et d’intérêt que portent les universités aux entreprises qui en sont
+          issues et les performances de ces RSOs. Afin de développer des éléments de réponse, les
+          auteurs ont constitué et exploité une base de données inédite sur les RSOs italiennes.
+          Plusieurs résultats originaux émergent. Notamment, sont identifiés des types de profils
+          d’entreprises. Ainsi, les « open-oriented » ou « autonomous-oriented » sont caractérisées
+          selon trois éléments. Premièrement, il y a le degré de compétences managériales à même de
+          soutenir le développement de l’organisation. Deuxièmement, est citée l’orientation
+          industrielle (« company orientation »), c’est à dire la capacité de construire une offre
+          commerciale spécifique de produits et de services. Enfin, émerge la dépendance de
+          l’entreprise des choix de ses fondateurs et de son université d’origine (“spin-off
+          founders and university choices”). La recherche confirme ainsi le rôle central joué par
+          les Alma Mater en montrant, toutefois, que la relation avec leurs RSOs n’est ni unique, ni
+          uniforme. La variété des situations observables appelle une variété des stratégies de
+          soutiens et de développement qui explique en particulier des résultats inégaux en termes
+          de performances économiques et de valorisation industrielle des compétences
+          technologiques.</alinea>
+      </para><para id="pa5"><no>5</no>
+        <alinea>Dans un deuxième article, Jean-Michel Sahut et Hélène Pasquini-Descomps
+          s’intéressent à la RSE (Responsabilité sociale des entreprises) des firmes. En cela, ces
+          auteurs évoquent un sujet occupant une place, désormais centrale, dans la sphère
+          socio-économique comme dans la littérature managériale. Très présente dans les discours
+          des acteurs économiques et sociaux (firmes, institutions nationales et supranationales,
+          ONG, etc.), cette thématique correspond également à une préoccupation académique
+          récurrente. Par exemple, Journal of Management Studies a annoncé (pour 2015) un numéro
+          spécial autour des questions de la durabilité, de l’éthique, et de l’entrepreneuriat
+          (Sustainability, Ethics and Entrepreneurship). Si elle s’inscrit dans cette perspective,
+          la recherche de Jean-Michel Sahut et Hélène Pasquini-Descomps questionne la thématique de
+          la RSE de façon originale. En effet, ces auteurs mobilisent les indicateurs du GRI (Global
+          Reporting Initiative) et cherchent ainsi à déterminer si une relation existe entre les
+          pratiques de RSE des entreprises et leur perception par leurs actionnaires au travers des
+          rendements de leurs actions. Ce questionnement est novateur dans la mesure où les
+          observations des organismes professionnels comme l’ORSE (Observatoire de la Responsabilité
+          Sociétale des Entreprises) ou, encore, Novethic ainsi que la littérature en sciences de
+          gestion (Bocquet &amp; Mothe, 2013; Delpucech, 2013<renvoi id="re1no2" idref="no2" typeref="note">2</renvoi>)
+          tendent à montrer que les entreprises mettant en oeuvre de façon proactive la RSE,
+          atteignent souvent un positionnement innovant, différenciant et attractif pour la plupart
+          de leurs clients. Toutefois, si les bénéfices de ce type de démarche RSE sont perceptibles
+          pour leurs clients, d’autres parties prenantes, notamment les actionnaires, peuvent
+          éprouver des réticences réelles. Or, en s’intéressant à la relation entre les informations
+          de RSE et les rendements mensuels des actions sur les marchés en Suisse, aux États-Unis et
+          au Royaume-Uni, les auteurs montrent que les changements dans les sous-catégories de notes
+          du GRI présentent, sur la performance des actions, un impact faible mais significatif.
+          Leurs analyses précisent que ce dernier se situe sur des périodes restreintes ou pour des
+          secteurs limités pouvant varier selon les pays concernés. Elles tendent donc à montrer que
+          les pratiques de RSE sont perçues positivement par les actionnaires mais que les réactions
+          de ces derniers ne sont pas aussi immédiates et fortes qu’on aurait pu le penser. En cela,
+          les auteurs désignent de nouvelles possibilités de développement de la RSE dans les
+          entreprises européennes.</alinea>
+      </para><para id="pa6"><no>6</no>
+        <alinea>Présenté par Carole Poirel, le troisième article de ce dossier aborde un sujet
+          relativement rare en management, celui de l’échec en stratégie et, plus précisément, de
+          l’échec d’une innovation organisationnelle. Avec 1001Libraires.com, l’auteur étudie un
+          portail de ventes en ligne créé par le syndicat de la librairie française. A travers cette
+          structure, ont ainsi été réunis près de 300 libraires indépendants, implantés en France et
+          proposant des services numériques à leurs clients. Analysé sous l’angle du corpus des
+          stratégies collectives, la conception de ce portail aurait dû être un succès. Ce fut
+          pourtant un échec. Ainsi, une originalité de cette contribution réside dans le choix d’un
+          cas mettant en perspective les limites de la théorie concernant la compréhension des
+          échecs. En effet, les études et les réflexions évoquant directement ces derniers sont
+          relativement peu nombreuses… alors que la réalité des affaires est ponctuée de produits
+          nouveaux qui ne trouvent pas de marché, de processus de réorganisation de services qui ne
+          s’achèvent pas, etc. De fait, afin de mieux saisir les causes de l’échec de
+          1001Libraires.com, Carole Poirel préconise de recourir simultanément aux approches en
+          termes de business model et de coopétition. Différentes dimensions managériales,
+          constituant autant d’apports à la gestion de l’innovation, sont ainsi révélées.
+          Précisément, il s’agit de l’identification de tensions coopétitives entre partenaires, de
+          l’élaboration d’un business-model équitable au plan de la création et du partage de la
+          valeur et, enfin, de la qualité du pilote dans la conduite du projet (en termes
+          d’efficacité et de légitimité). L’auteur souligne ainsi que les stratégies collectives
+          mettent l’accent sur des conditions sectorielles mais sous-estiment les dimensions
+          managériales des projets concernés.</alinea>
+      </para><para id="pa7"><no>7</no>
+        <alinea>Les articles présentés dans ce dossier mettent donc en perspective des connaissances
+          originales concernant l’innovation et le développement des entreprises. </alinea>
+      </para><para id="pa8"><no>8</no>
+        <alinea>Toutefois, qu’il s’agisse de l’incubation de start-up, de l’influence de la RSE sur
+          la perception d’actionnaires européens ou, encore, de la compréhension de l’échec d’une
+          innovation, les champs et les situations apparaissent larges et variés. De même, si
+          l’innovation peut être synonyme de nouveaux marchés, être à l’origine de gains de
+          productivité, de performance et, dans le même temps, de progrès social, elle peut aussi
+          participer à la disparition de ces mêmes éléments (telle une « destruction créatrice »
+          selon l’expression de Schumpeter) ! Ainsi, les recherches de ce dossier participent
+          seulement à l’amélioration de notre compréhension de situations d’innovation et de
+          développement des entreprises. Au-delà des résultats présentés, des apports précisés ou
+          des pistes suggérées, elles ne constituent qu’une étape supplémentaire de ce long
+          processus. En particulier, les facteurs à considérer pour valoriser ou tirer le meilleur
+          parti des connaissances ici dégagées sont multiples, font souvent l’objet d’interactions
+          et peuvent résulter de combinaisons contingentes. De nombreuses voies restent donc à
+          investir, à développer et, certainement, à découvrir.</alinea>
+      </para></section1></corps><corps lang="en"><section1 id="s1n2"><no>2</no><para id="pa9"><no>9</no>
+        <alinea>Closely related to the debates which are today taking the spotlight, the title of
+          this introduction evokes, firstly, the globalisation of the economy and, through this, the
+          expression of competitive, ecological, social and institutional tensions, or even
+          political, which are becoming ever more acute. Secondly, it is a reminder that innovation
+          is often presented as one of the ways likely to ensure the durability, performance and
+          development of firms and organisations. </alinea>
+      </para><para id="pa10"><no>10</no>
+        <alinea>However, approaching company development and innovation amounts to attempting to
+          understand an extremely diversified field and in permanent evolution! Indeed, the title of
+          this introduction was also the central theme of the fifth EIDEV symposium<renvoi id="re1no3" idref="no3" typeref="note">1</renvoi>. Among the forty communications which were presented during this
+          event, five themes can be singled out quite precisely:</alinea>
+        <listenonord signe="tiret">
+          <elemliste><alinea>ten articles alluded to innovation and the management of systems and information
+          technologies; were notably explored, in relation to innovation, themes concerning security
+          and strategic monitoring or the development of social medias;</alinea></elemliste>
+          <elemliste><alinea>nine presentations linked innovation and financial analysis (which is the case for
+          some studies presented in this dossier);</alinea></elemliste>
+          <elemliste><alinea>eight communications dealt with innovation and entrepreneurship, the latter often
+          developed in unusual forms (feminine entrepreneurship, entrepreneurship of foreign
+          students in Europe, etc.);</alinea></elemliste>
+          <elemliste><alinea>eight research topics evoked innovation and the development of organisations in
+          relation, in particular, to the issues concerning the management of human resources and
+          CSR;</alinea></elemliste>
+          <elemliste><alinea>finally, five articles focused on marketing innovation (by addressing the topic
+          from the angle of nostalgia);</alinea></elemliste>
+          <elemliste><alinea>From this, further to the originality of the articles which form it, the first
+          contribution which stands out from this dossier is the diversity of themes and questioning
+          contemplated. From the development of start-ups stemming from university establishments,
+          to the perception of CSR by shareholders or to the analysis of organisational innovation
+          failure, it appears that innovation and company development can be interpreted on many
+          levels (micro or macro) and according to different perspectives. The themes concerned can
+          be seen from the angle of public management (universities), financial analysis (monthly
+          yields of shares on the European markets) and management (the case of the union of the
+          French bookshops). In this, they concern the entirety of the managerial sciences. Finally,
+          besides the contexts and the possibilities for differential analysis, some pairs, bridges
+          or relationships (“start-ups – university”, “CSR – shareholders”, etc.) are established
+          and committed to in original ways. This underlines the richness and, at the same time, the
+          vastness of the fields invested in!</alinea></elemliste>
+        </listenonord>
+      </para><para id="pa11"><no>11</no>
+        <alinea>From this perspective, the first article, presented by Elisa Salvador and
+          Pierre-Jean Benghozi, focuses on start-ups. At the time where the latter are in the
+          spotlight, the two authors specify the conditions for development of the Research Spin
+          Offs (RSOs), characterising their institutional ecosystem and the weight of their links
+          with their alma mater or “parent institute”. In particular, they study the relationship
+          between the degree of attention and the interest given by the universities to the
+          companies which stemmed from them and the performances of these RSOs. In order to develop
+          the elements to answer this, the authors formed and made use of an unprecedented database
+          on Italian RSOs. Many new results emerged from this. Notably, some company profiles were
+          identified. Thus, the “open-orientated” or “autonomous-oriented” are characterised
+          according to three elements. Firstly, there is a degree of managerial skills capable of
+          supporting the development of the organisation. Secondly, the industrial orientation
+          (“company orientation”) is cited, namely the capacity to build a specific commercial offer
+          of products and services. Finally arose the dependency of the company on the choices of
+          its founders and of its university of origin (“spin-off founders and university choices”).
+          Research thus confirms the central role played by the Alma Mater by showing, nevertheless,
+          that the relationship with their RSOs is neither unique nor uniform. The variety of
+          situations observable call for a variety of strategies for support and development which
+          explains, in particular, some uneven results in terms of economic performances and
+          industrial development of technological competencies.</alinea>
+      </para><para id="pa12"><no>12</no>
+        <alinea>In a second article, Jean-Michel Sahut and Hélène Pasquini-Descomps focus on the CSR
+          (Corporate Social Responsibility) of firms. In this, these authors mention a subject
+          taking a place, now central, in the socio-economic sphere as well as in the managerial
+          literature. Strongly present in the speeches of economic and social actors (firms,
+          national and supranational firms, NGOs, etc.), this theme also corresponds to a recurring
+          academic preoccupation. For example, the Journal of Management Studies announced (for
+          2015) a special edition around the questions of sustainability, ethics and
+          entrepreneurship. If it falls within this perspective, the research of Jean-Michel Sahut
+          and Hélène Pasquini-Descomps questions the theme of CSR in an unusual way. Indeed, these
+          authors mobilised GRI indicators (Global Reporting Initiative) and attempted to determine
+          if a relationship exists between the firms’ CSR practices and their perception by their
+          shareholders through the yields of their shares. This questioning is innovative in the
+          fact that the observations from professional organisations such as ORSE (Observatory of
+          Corporate Social Responsibility) or, also, Novethic, as well as the management sciences
+          literature (Bocquet &amp; Mothe, 2013; Delpuech, 2013<renvoi id="re1no4" idref="no4" typeref="note">2</renvoi>)
+          tend to show that companies implementing CSR in a proactive way, often reach an innovative
+          positioning, differentiated and attractive for most of their clients. However, if the
+          benefits of this type of CSR approach are perceptible for their clients, other
+          stakeholders, notably shareholders, can feel a real reluctance. Furthermore, by taking an
+          interest in the relationship between CSR information and the monthly yields of shares in
+          Switzerland, the United States and the United Kingdom, the authors show that the changes
+          in the sub-categories of grades from the GRI present, on the performance of the shares, a
+          weak yet significant impact. Their analyses specify that the latter is situated in periods
+          of restraint or for limited sectors which can vary depending on the related countries.
+          They tend to show that CSR practices are perceived positively by shareholders, but that
+          their reactions are not as immediate and strong as what we could expect. In this, the
+          authors point out new possibilities for CSR development in European companies.</alinea>
+      </para><para id="pa13"><no>13</no>
+        <alinea>Presented by Carole Poirel, the third article of this dossier addresses a relatively
+          rare subject in management, the failure of strategy and more precisely, the failure of an
+          organisational innovation. With 1001Libraires.com, the author studies a web portal for
+          online sales created by the French bookshop union. Through this structure, around 300
+          independent booksellers were assembled, all established in France and offering digital
+          services to their clients. Analysed from the angle of the collective strategies corpus,
+          the conception of this portal should have been a success. It was nevertheless a failure.
+          Thus, a novelty in this contribution resides in the choice of a case putting into
+          perspective the limits of the theory concerning the understanding of failures. Indeed, the
+          number of studies and thoughts mentioning the latter directly is relatively small... when
+          the reality of business is punctuated with new products which do not find a market,
+          processes for the reorganisation of services which are never completed, etc. In this, in
+          order to better grasp the reasons for the failure of 1001Libraires.com, Carole Poirel
+          recommends that we simultaneously approach them in terms of business models and of
+          coopetition. Different managerial dimensions, constituting as many contributions to the
+          management of innovation, are thus revealed. To be precise, it concerns the identification
+          of coopetitive tensions between partners, from the elaboration of a fair business model to
+          the framework of creation and sharing of wealth and, finally, the quality of the pilot in
+          project management (in terms of efficiency and legitimacy). The author thus underlines
+          that the collective strategies emphasize the sector-specific conditions but underestimate
+          the managerial dimensions of the related projects.</alinea>
+      </para><para id="pa14"><no>14</no>
+        <alinea>Hence the articles presented in this dossier put into perspective original knowledge
+          concerning innovation and the development of companies. </alinea>
+      </para><para id="pa15"><no>15</no>
+        <alinea>Nevertheless, whether it’s a matter of incubating start-ups, the influence of CSR on
+          the perception of European shareholders or a comprehension of the failure of an
+          innovation, the fields and situations appear large and varied. In the same way, if
+          innovation can be a synonym for new markets, the source of productivity gains, performance
+          and, at the same time, of social progress, it can also participate in the disappearance of
+          these same elements (such as a “creative destruction” according to the expression of
+          Schumpeter)! Thus, the research in this dossier participates solely in the improvement of
+          our comprehension of the situations of innovation and company development. Beyond the
+          presented findings, specified contributions and suggested leads, this is only a
+          supplementary step in a long process. In particular, the factors considered in order to
+          enhance or take advantage of the best ideas drawn out here are multiple, are often the
+          object of interactions and can result in contingent combinations. Hence numerous paths
+          remain for people to invest in, develop and, certainly, discover.</alinea>
+      </para></section1></corps><corps lang="es"><section1 id="s1n3"><no>3</no><para id="pa16"><no>16</no>
+        <alinea>A continuación de los debates que alimentan la actualidad de hoy, el titulo de esta
+          introducción, menciona, en primer lugar, la globalización de la economía, y por lo tanto,
+          la expresión de tensiones competitiva, medioambientales, sociales, institucionales, o
+          incluso política, son cada vez más agudos. En segundo lugar, ese titulo señala que la
+          innovación es a menudo presentada como uno de los medios para garantizar la
+          sostenibilidad, el rendimiento y el desarrollo de empresas y organizaciones. </alinea>
+      </para><para id="pa17"><no>17</no>
+        <alinea>Sin embargo, abordar el desarrollo empresarial y la innovación es como tratar de
+          identificar un campo muy diverso y en constante evolución! De hecho, el título de esta
+          introducción fue también el tema central de la quinta conferencia EIDEV<renvoi id="re1no5" idref="no5" typeref="note">1</renvoi>. Entre las cuarenta comunicaciones que se presentaron en el
+          evento, cinco temas se podrían generar con bastante precisión:</alinea>
+        <listenonord signe="tiret">
+          <elemliste><alinea>Diez artículos trataban de los sistemas de innovación y de gestión y tecnología de
+          la información; han sido explorados en particular en relación con la innovación, la
+          temática vinculada con la seguridad e inteligencia económica, o, de nuevo, el desarrollo
+          de las redes sociales;</alinea></elemliste>
+          <elemliste><alinea>Nueve presentaciones relacionaban la innovación y el análisis financiero (es el
+          caso de la investigación presentada en este dossier);</alinea></elemliste>
+          <elemliste><alinea>Ocho comunicaciones trataban de innovación y de espíritu empresarial, este último
+          tema a veces de forma muy original (empresariado femenino, el espíritu empresarial
+          estudiantes extranjeros en Europa, etc.);</alinea></elemliste>
+          <elemliste><alinea>Ocho investigaciones evocaron la innovación y el desarrollo de las organizaciones,
+          relacionados especialmente con cuestiones relativas a la gestión de los recursos humanos y
+          la Responsabilidad Social de las Empresas(RSE);</alinea></elemliste>
+          <elemliste><alinea>Por último, cinco artículos se interesaron por la innovación desde el punto de
+          vista del marketing (por ejemplo a partir de la nostalgia).</alinea></elemliste>
+        </listenonord>
+      </para><para id="pa18"><no>18</no>
+        <alinea>De hecho, más allá de la originalidad de los artículos que la componen, la primera
+          contribución que este dossier es la diversidad de los temas y las preguntas propuestas.
+          Desde el desarrollo de las start-up afincadas en universidades, la percepción de la RSE
+          por los accionistas o el análisis del fracaso de la innovación organizativa, parece que la
+          innovación y el desarrollo empresarial pueden ser interpretados en varios niveles (micro o
+          macro) y con diferentes perspectivas. Las temáticas estudiadas pueden ser vistas desde la
+          perspectiva de la gestión pública (las universidades), del análisis financiero
+          (rendimientos de las acciones mensuales en los mercados europeos) y de administración (el
+          caso del sindicato de la librería francesa). Por eso se refieren en las ciencias de
+          gestión. Por último, a pesar de contextos y análisis diferenciados, puentes o relaciones
+          (« start-up – universidad », « RSE – accionistas », etc.) se establecen y abordados de
+          manera innovadora. Esto pone de relieve la riqueza y, al mismo tiempo, la inmensidad de
+          los campos investidos! </alinea>
+      </para><para id="pa19"><no>19</no>
+        <alinea>Desde esta perspectiva, el primer documento, presentado por Elisa Salvador y
+          Pierre-Jean Benghozi, trata de start-up. Tema de moda, los dos autores especifican las
+          condiciones para el desarrollo de las spin-off en el campo de la investigación (RSO),
+          caracterizado por su ecosistema institucional y el peso de su relación con su alma mater o
+          «parent institute.» En particular, se estudia la relación entre el grado de atención y el
+          interés de las universidades por sus empresas y el rendimiento de estos RSO. Para
+          desarrollar respuestas, los autores establecieron una nueva base de datos sobre los RSO
+          italianos. Varios resultados originales surgen. En particular, varios tipos de perfiles de
+          empresas son identificados. Por lo tanto, « open-oriented » o « autonomous-oriented » se
+          caracterizan según tres elementos. En primer lugar, se identifica la capacidad de gestión
+          que puede apoyar el desarrollo de la organización. En segundo lugar, se cita la
+          orientación industrial (« company orientation »), es decir, la capacidad de construir una
+          oferta de productos comerciales y servicios específicos. Por último, nace la dependencia
+          de las decisiones de sus fundadores con su universidad de origen (« spin-off founders and
+          university choices »). La investigación confirma el papel central desempeñado por el Alma
+          Mater, sin embargo, que la relación con sus RSO no es única ni uniforme. La variedad de
+          situaciones observables requiere una variedad de estrategias para el apoyo y desarrollo
+          debido a resultados mixtos en términos de rendimiento económico y de desarrollo industrial
+          de las capacidades tecnológicas. </alinea>
+      </para><para id="pa20"><no>20</no>
+        <alinea>En un segundo artículo, Jean-Michel Sahut y Helen Pasquini-Descomps se interesan por
+          la RSE (Responsabilidad Social Empresarial). De este modo, los autores sugieren un tema
+          que ocupa una posición central en la esfera socio- económica como en la literatura de
+          gestión. Muy presente en el discurso de los actores económicos y sociales (empresas,
+          instituciones nacionales y supranacionales, ONG, etc.), este tema también corresponde a
+          una preocupación académica recurrente. Por ejemplo, la revista Journal of Management
+          Studies anunció (para 2015) un número especial sobre temas como la sostenibilidad, la
+          ética y el espíritu empresarial (Sustainability, Ethics and Entrepreneurship). Desde esta
+          perspectiva, la investigación Jean -Michel Sahut y Helen Pasquini-Descomps cuestiona el
+          tema de la RSE de forma original. De hecho, estos autores movilizan los indicadores GRI
+          (Global Reporting Initiative) y por lo tanto tratan de determinar si existe una relación
+          entre las prácticas de responsabilidad social de las empresas y su percepción por parte de
+          sus accionistas a través de los rendimientos de sus acciones. Este cuestionamiento es
+          innovador, ya que las observaciones de las organizaciones profesionales como el ORSE
+          (Observatorio de la Responsabilidad Social Corporativa) o, alternativamente, Novethic
+          además de la literatura en ciencias de gestión. (Bocquet &amp; Mothe, 2013; Delpucech,
+          2013) sugieren que las empresas que utilizan de forma proactiva la RSE, a menudo llegan a
+          un posicionamiento innovador, diferenciador y atractivo para la mayoría de sus clientes.
+          Sin embargo, si los beneficios de este tipo de RSE son notables para sus clientes, otras
+          partes interesadas, como los accionistas, pueden ser reacios. A su vez, al observar la
+          relación entre la información sobre la RSE y los rendimientos mensuales des activos
+          financieros en los mercados de Suiza, de los EE.UU. y del Reino Unido, los autores
+          muestran que los cambios en las subcategorías de notas GRI tienen sobre los cambios de las
+          acciones, un pequeño pero significativo impacto. Sus análisis indican que este efecto se
+          observa en períodos o zonas limitadas, pueden variar dependiendo del país. Por lo tanto,
+          sugieren que las prácticas de RSE son vistas positivamente por los accionistas, pero estas
+          reacciones no son tan inmediata y fuerte como podría pensarse. De hecho, los autores
+          subrayan nuevas oportunidades para el desarrollo de la RSE en las empresas
+          europeas.</alinea>
+      </para><para id="pa21"><no>21</no>
+        <alinea>Presentado por Carole Poirel, el tercer artículo de esta edición trata de un tema
+          poco frecuente en gestión, el fracaso de la estrategia y, más concretamente, el fracaso de
+          una innovación organizativa. Con 1001Libraires.com, el autor explora un portal de ventas
+          en línea creado por la unión de la librería francesa. A través de esta estructura, han se
+          han juntado casi 300 librerías independientes, ubicadas en Francia y que ofrecen servicios
+          digitales a sus clientes. Analizado desde el corpus de estrategias colectivas, el diseño
+          de este portal habría tenido que ser un éxito. Sin embargo, fue un fracaso. Por lo tanto,
+          una originalidad de esta contribución es la elección de un caso usando las limitaciones
+          desde el ambito de la teoría en la comprensión de fracasos. De hecho, estudios y
+          reflexiones que evocan directamente estos temas son relativamente pocos en número...
+          cuando la realidad de los negocios da a conocer muchos casos de fracasos de nuevos
+          productos o nuevos procesos de reorganización que nunca terminan, etc. De hecho, para
+          entender mejor las causas de la quiebra de 1001Libraires.com Carole Poirel defiende al
+          mismo tiempo utilizar los enfoques en términos de modelo de negocio y cooperación
+          competitiva. Diferentes dimensiones de administración de empresas, formando muchas
+          contribuciones a la gestión de la innovación son así reveladas. En concreto, es la
+          identificación de las tensiones coopetitivas entre los socios, el desarrollo de un modelo
+          de negocio justo en términos de la creación y el intercambio de valor y, por último, la
+          calidad del pilotaje en la conducta del proyecto (en términos de eficacia y legitimidad).
+          El autor hace hincapié en que las estrategias colectivas se centran en las condiciones
+          sectoriales, pero subestiman los aspectos de gestión de los proyectos.</alinea>
+      </para><para id="pa22"><no>22</no>
+        <alinea>Los artículos presentados en este número ponen en perspectiva el conocimiento
+          original sobre la innovación y el desarrollo empresarial. </alinea>
+      </para><para id="pa23"><no>23</no>
+        <alinea>Sin embargo, si la incubación de start-up, la influencia de la RSE en la percepción
+          de los accionistas europeos o, incluso, la comprensión del fracaso de una innovación, los
+          campos y las situaciones parecen amplios y variados. De mismo modo, si la innovación puede
+          significar nuevos mercados, siendo la fuente de incremento de productividad, el
+          rendimiento y, al mismo tiempo, el progreso social, también puede participar en la
+          desaparición de estos elementos (así como «destrucción creativa», en palabras de
+          Schumpeter)! Por ejemplo, la investigación presentada en este dossier, sólo ayuda a
+          mejorar nuestra comprensión de las situaciones de innovación y desarrollo de negocios. Mas
+          alla de los resultados presentados, las aportaciones precisadas o pistas sugeridas, son
+          sólo un paso más en este largo proceso. En particular, los factores a considerar para
+          valorar o sacar el mejor provecho de los conocimientos identificados aquí son múltiples, a
+          menudo son objeto de interacciones y pueden ser el resultado de combinaciones
+          contingentes. Muchos caminos quedan por recorrer, desarrollar y ciertamente
+          descubrir.</alinea>
+      </para></section1></corps><partiesann lang="fr"><grnote>
+      <note id="no1">
+        <no>1</no>
+        <alinea>Soutenu par l’AIM (Association Information et Management), le
+          5<exposant>e</exposant> colloque EIDEV (Entrepreneuriat, Innovation et DEVeloppement) a
+          été organisé par le Département E2I (Entrepreneuriat, Information, Internationalisation)
+          du CERGAM (Centre d’Etudes et de Recherche en Gestion d’Aix-Marseille) à la Faculté
+          d’Economie et de Gestion d’Aix Marseille Université (France). Dans un premier temps, les
+          articles sélectionnés dans le présent dossier ont fait l’objet d’une procédure
+          d’évaluation afin de déterminer leur participation au colloque. Dans un second temps, à la
+          suite de la manifestation, les membres du comité scientifique d’EIDEV ont fait parvenir
+          une sélection d’articles à la revue <marquage typemarq="italique">Management
+          international</marquage> (<marquage typemarq="italique">Mi</marquage>) pour laquelle
+          d’autres évaluateurs ont effectué une dernière sélection selon les principes et règles de
+          l’anonymat double. Nous tenons à remercier les membres du comité scientifique d’EIDEV
+          ainsi que les évaluateurs sollicités par la revue <marquage typemarq="italique">Mi</marquage> pour la qualité des évaluations effectuées.</alinea>
+      </note>
+      <note id="no2">
+        <no>2</no>
+        <alinea>Bocquet R., Mothe C., 2013, « Profil des entreprises en matière de RSE et innovation
+          technologique », <marquage typemarq="italique">Management &amp; Avenir</marquage>, vol. 8,
+          n°66. Delpuech C., 2013, « La RSE comme source d’innovation dans les entreprises de
+          service public en réseau », <marquage typemarq="italique">Revue Interdisciplinaire
+          Management &amp; Humanisme</marquage>, n°8, Août/septembre/octobre.</alinea>
+      </note>
+    </grnote></partiesann><partiesann lang="en"><grnote>
+      <note id="no3">
+        <no>1</no>
+        <alinea>Backed by the AIM (Association of Information and Management), the fifth EIDEV
+          (Entrepreneurship, Innovation and DEVelopment) symposium was organized by the CERGAM
+          (Centre of Studies and Research in Management of Aix-Marseille) at the Faculty of
+          Economics and Management of Aix Marseille University (France). First of all, the selected
+          articles in the present dossier were submitted to a blind evaluation procedure to
+          determine their participation or not in the symposium. Secondly, following the event, the
+          members of the EIDEV committee sent a selection of articles to Revue Management
+          International so that other evaluators could make a final double-blind selection. We would
+          like to thank the members of the EIDEV scientific committee as well as the evaluators
+          requested by the review for the quality of the evaluations.</alinea>
+      </note>
+      <note id="no4">
+        <no>2</no>
+        <alinea>Bocquet R., Mothe C., 2013, « Profil des entreprises en matière de RSE et innovation
+          technologique », Management &amp; Avenir, vol. 8, n°66. Delpuech C., 2013, « La RSE comme
+          source d’innovation dans les entreprises de service public en réseau », Revue
+          Interdisciplinaire Management &amp; Humanisme, n°8, August/September/October.</alinea>
+      </note>
+    </grnote></partiesann><partiesann lang="es"><grnote>
+      <note id="no5">
+        <no>1</no>
+        <alinea>Apoyado por AIM (Asociación de Información y Gestión), el quinto simposio EIDEV
+          (Emprendimiento, Innovación y Desarrollo), fue organizado por el Departamento E2I
+          (Entrepreneurship, Información, Internacionalización) del CERGAM (Centro de Estudios e
+          Investigación en Gestión de Aix-Marselle) en la Facultad de Economía y Administración de
+          la Universidad de Aix-Marseille (Francia). Inicialmente, los elementos seleccionados en
+          este caso han sido objeto de un proceso de evaluación para determinar su participación en
+          la conferencia. En un segundo paso, después del acontecimiento, los miembros del Comité
+          Científico EIDEV han enviado una gran variedad de artículos a la revista Management
+          Internacional (Mi) para cual otros evaluadores realizaron una última selección basada en
+          los principios del doble anonimato. Damos las gracias a los miembros del Comité EIDEV y
+          evaluadores científicos solicitados por la revista Mi por la calidad de las
+          evaluaciones.</alinea>
+      </note>
+    </grnote></partiesann></article>
