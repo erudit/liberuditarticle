@@ -32,8 +32,8 @@ class TestSectionTitle(object):
         assert value == {
             'main': "Dossier sp&#233;cial&#160;: Entreprendre et innover dans une &#233;conomie globalis&#233;e...",  # noqa
             'paral': collections.OrderedDict({
-                'es': "Dossier especial: Emprender e innovar en una econom&#237;a globalizada&#8230;",  # noqa
                 'en': "Special Edition: Undertaking and innovating in a globalised economy...",
+                'es': "Dossier especial: Emprender e innovar en una econom&#237;a globalizada&#8230;",  # noqa
             })
         }
 
