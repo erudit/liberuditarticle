@@ -385,17 +385,6 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """ :returns: the first page of the article object. """
         return self.get_text('infoarticle//pagination//ppage')
 
-    def get_full_title(self):
-        """ :returns: the full title of the article object. """
-        title = self.title
-        subtitle = self.subtitle
-
-        if title and subtitle:
-            return '{0} - {1}'.format(title, subtitle)
-        elif title:
-            return title
-        return None
-
     def get_html_body(self):
         """ :returns: the full body of the article object as HTML text. """
         alinea_nodes = self.findall('para/alinea')
@@ -697,7 +686,6 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
     reviewed_works = property(get_reviewed_works)
     doi = property(get_doi)
     first_page = property(get_first_page)
-    full_title = property(get_full_title)
     html_body = property(get_html_body)
     html_title = property(get_html_title)
     keywords = property(get_keywords)
