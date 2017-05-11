@@ -5,6 +5,14 @@ from eruditarticle.tests.decorators import with_value, with_fixtures
 @with_fixtures('./eruditarticle/tests/fixtures/article/savant/complet', EruditArticle)
 class TestArticleSavantComplet(object):
 
+    @with_value('1001948ar.xml', 'get_first_page')
+    def test_can_return_its_first_page(self, value):
+        assert value == '133'
+
+    @with_value('1001948ar.xml', 'get_last_page')
+    def test_can_return_its_last_page(self, value):
+        assert value == "162"
+
     def test_all_instances(self):
         for object_name, article in self.test_objects.items():
             assert isinstance(article, EruditArticle)
