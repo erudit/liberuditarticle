@@ -1,6 +1,7 @@
 # liberuditarticle
 
 [![Build Status](https://secure.travis-ci.org/erudit/liberuditarticle.svg?branch=master)](https://secure.travis-ci.org/erudit/liberuditarticle?branch=master)
+[![Coverage](https://codecov.io/github/erudit/liberuditarticle/coverage.svg?branch=master)](https://codecov.io/github/erudit/liberuditarticle?branch=master)
 
 `liberuditarticle` is a library for parsing the [EruditArticle v3 specification](http://www.erudit.org/xsd/article/3.0.0/doc/)
 
