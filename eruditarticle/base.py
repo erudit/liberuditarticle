@@ -326,7 +326,7 @@ class EruditBaseObject(object):
 
     def find_paral(self, tag, paral_tag_name, strip_markup=False):
         """ Find the parallel values for the given tag using the given tag name. """
-        pn = {}
+        pn = collections.OrderedDict()
         for title_paral in tag.findall(paral_tag_name):
             if strip_markup:
                 pn[title_paral.get('lang')] = self.stringify_children(title_paral)
