@@ -29,12 +29,13 @@ class TestSectionTitle(object):
             level=1
         )
 
+        paral = collections.OrderedDict()
+        paral['en'] = "Special Edition: Undertaking and innovating in a globalised economy..."
+        paral['es'] = "Dossier especial: Emprender e innovar en una econom&#237;a globalizada&#8230;"  # noqa
+
         assert value == {
             'main': "Dossier sp&#233;cial&#160;: Entreprendre et innover dans une &#233;conomie globalis&#233;e...",  # noqa
-            'paral': collections.OrderedDict({
-                'en': "Special Edition: Undertaking and innovating in a globalised economy...",
-                'es': "Dossier especial: Emprender e innovar en una econom&#237;a globalizada&#8230;",  # noqa
-            })
+            'paral': paral,
         }
 
 
