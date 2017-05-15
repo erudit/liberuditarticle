@@ -4,3 +4,4 @@ lxml
 pytest
 pytest-sugar
 pytest-cov
+ipdb
