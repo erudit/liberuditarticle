@@ -397,6 +397,10 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """ :returns: the DOI of the article object. """
         return self.get_text('idpublic[@scheme="doi"]')
 
+    def get_uri(self):
+        """ :returns: the URI of the article object. """
+        return self.get_text('idpublic[@scheme="uri"]')
+
     def get_first_page(self):
         """ :returns: the first page of the article object. """
         return self.get_text('infoarticle//pagination//ppage')
@@ -697,6 +701,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
     authors = property(get_authors)
     reviewed_works = property(get_reviewed_works)
     doi = property(get_doi)
+    uri = property(get_uri)
     first_page = property(get_first_page)
     html_body = property(get_html_body)
     html_title = property(get_html_title)
