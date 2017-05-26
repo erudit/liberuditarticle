@@ -39,6 +39,47 @@ class TestSectionTitle(object):
         }
 
 
+@with_fixtures('./eruditarticle/tests/fixtures/article/notegen', EruditArticle)
+class TestArticleNoteGen(object):
+
+    @with_value('1006336ar.xml', 'get_notegens')
+    def test_can_return_its_notegen(self, value):
+        assert value == [{
+            "type": "edito",
+            "content": ["Une version ant&#233;rieure de ce texte &#224; &#233;t&#233; publi&#233;e dans <em>Le Devoir </em>du 7 mars 2011."]  # noqa
+        }]
+
+    @with_value('1006460ar.xml', 'get_notegens')
+    def test_can_return_its_notegen_with_links(self, value):
+        assert value == [{
+            "type": "edito",
+            "content": ['Pour obtenir la liste des sigles utilis&#233;s dans cet article et les r&#233;f&#233;rences compl&#232;tes aux oeuvres de Marie-Claire Blais, <a href="http://www.erudit.org/revue/vi/2011/v37/n1/1006456ar.html">voir p.&#160;7</a>.']  # noqa
+        }]
+
+    @with_value('1007816ar.xml', 'get_notegens')
+    def test_can_return_its_notegen_with_biography(self, value):
+        assert value == [{
+            "type": "edito",
+            "content": ["Sophie Th&#233;riault est professeure &#224; la Facult&#233; de droit de l&#8217;Universit&#233; d&#8217;Ottawa, Section de droit civil. Elle est &#233;galement membre du Barreau du Qu&#233;bec, du Centre du droit de l&#8217;environnement et de la durabilit&#233; mondiale de l&#8217;Universit&#233; d&#8217;Ottawa et du Centre de recherche et d&#8217;enseignement sur les droits de la personne de l&#8217;Universit&#233; d&#8217;Ottawa. David Robitaille est professeur &#224; la Facult&#233; de droit de l&#8217;Universit&#233; d&#8217;Ottawa, Section de droit civil. Il est &#233;galement membre du Barreau du Qu&#233;bec et du Centre de recherche et d&#8217;enseignement sur les droits de la personne de l&#8217;Universit&#233; d&#8217;Ottawa. Cet article a &#233;t&#233; r&#233;alis&#233; gr&#226;ce &#224; l&#8217;appui financier de la Fondation du Barreau du Qu&#233;bec, que nous remercions vivement. Nos remerciements vont &#233;galement &#224; nos assistants de recherche Camille Provencher, Pierre-Alexandre Henri, Nora Szeles et Karine H&#233;bert, ainsi qu&#8217;&#224; notre coll&#232;gue S&#233;bastien Grammond, pour ses commentaires judicieux."]  # noqa
+        }, {
+            "type": "edito",
+            "content": [
+                "Citation: (2011) 57:2 McGill LJ 211",
+                "R&#233;f&#233;rence&#160;: (2011) 57&#160;:&#160;2 RD McGill 211",
+            ]
+        }]
+
+    @with_value('1038621ar.xml', 'get_notegens')
+    def test_can_return_its_notegen_with_multiple_paragraphs(self, value):
+        assert value == [{
+            "type": "edito",
+            "content": ["Le pr&#233;sent texte suscite un questionnement approfondi sur l&#8217;&#233;conomie du contrat. Le lecteur trouvera des &#233;l&#233;ments de r&#233;ponse dans le texte suivant&#160;: &#171;&#160;L&#8217;apport &#233;pist&#233;mologique de la notion d&#8217;&#233;conomie du contrat en mati&#232;re d&#8217;interpr&#233;tation&#160;&#187;, (2016) 57:4 C&#160;de&#160;D &#224; para&#238;tre en d&#233;cembre."]  # noqa
+        }, {
+            "type": "auteur",
+            "content": ["Je tiens &#224; remercier les professeurs Andr&#233; B&#233;langer (Universit&#233; Laval) et Martin Ndende (Universit&#233; de Nantes) sous la direction desquels s&#8217;effectue ma th&#232;se intitul&#233;e &#171;&#160;L&#8217;&#233;conomie du contrat dans l&#8217;effet obligatoire des clauses du contrat&#160;: l&#8217;exemple du contrat de transport&#160;&#187;."]  # noqa
+        }]
+
+
 @with_fixtures('./eruditarticle/tests/fixtures/article/savant/complet', EruditArticle)
 class TestArticleSavantComplet(object):
 
