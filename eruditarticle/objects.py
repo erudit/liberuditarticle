@@ -377,9 +377,29 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             for author in self.get_authors()
         ]
 
+    def get_notegens(self):
+        """ :returns: the notes of the article object. """
+        notegen_nodes = self.findall('notegen')
+        notegens = []
+        for notegen_node in notegen_nodes:
+            notegen = {}
+            alinea_nodes = self.findall("alinea", dom=notegen_node)
+            notegen['type'] = notegen_node.get('typenoteg')
+            notegen["content"] = [
+                self.convert_marquage_content_to_html(n, as_string=True)
+                for n in alinea_nodes
+            ]
+
+            notegens.append(notegen)
+        return notegens
+
     def get_doi(self):
         """ :returns: the DOI of the article object. """
         return self.get_text('idpublic[@scheme="doi"]')
+
+    def get_uri(self):
+        """ :returns: the URI of the article object. """
+        return self.get_text('idpublic[@scheme="uri"]')
 
     def get_first_page(self):
         """ :returns: the first page of the article object. """
@@ -681,6 +701,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
     authors = property(get_authors)
     reviewed_works = property(get_reviewed_works)
     doi = property(get_doi)
+    uri = property(get_uri)
     first_page = property(get_first_page)
     html_body = property(get_html_body)
     html_title = property(get_html_title)
