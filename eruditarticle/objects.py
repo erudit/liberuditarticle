@@ -85,6 +85,13 @@ class EruditPublication(
         """ :returns: the the editors of the publication object. """
         return self.get_persons('redacteurchef')
 
+    def get_publishers(self):
+        """ :returns: the publisher of the issue object. """
+        return [
+            publisher.text
+            for publisher in self.findall('editeur//nomorg')
+        ]
+
     def get_guest_editors(self):
         """ :returns: the guest editors associated with the publication object. """
         return self.get_persons('redacteurchef[@typerc="invite"]')
@@ -337,6 +344,7 @@ class EruditPublication(
     theme = property(get_theme)
     themes = property(get_themes)
     volume = property(get_volume)
+    publishers = property(get_publishers)
 
 
 class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
