@@ -85,6 +85,13 @@ class EruditPublication(
         """ :returns: the the editors of the publication object. """
         return self.get_persons('redacteurchef')
 
+    def get_publishers(self):
+        """ :returns: the publisher of the issue object. """
+        return [
+            publisher.text
+            for publisher in self.findall('editeur//nomorg')
+        ]
+
     def get_guest_editors(self):
         """ :returns: the guest editors associated with the publication object. """
         return self.get_persons('redacteurchef[@typerc="invite"]')
@@ -337,6 +344,7 @@ class EruditPublication(
     theme = property(get_theme)
     themes = property(get_themes)
     volume = property(get_volume)
+    publishers = property(get_publishers)
 
 
 class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
@@ -464,9 +472,12 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """ :returns: the year of publication of the article object. """
         return self.get_text('numero//pub//annee')
 
-    def get_publisher(self):
+    def get_publishers(self):
         """ :returns: the publisher of the article object. """
-        return self.get_text('editeur//nomorg')
+        return [
+            publisher.text
+            for publisher in self.findall('editeur//nomorg')
+        ]
 
     def get_section_titles(self, level=1, html=True):
         """ :returns: the section titles of the article object
@@ -712,7 +723,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
     ordseq = property(get_ordseq)
     processing = property(get_processing)
     publication_year = property(get_publication_year)
-    publisher = property(get_publisher)
+    publishers = property(get_publishers)
     subtitle = property(get_subtitle)
     title = property(get_title)
     titles = property(get_titles)

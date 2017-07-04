@@ -4,6 +4,14 @@ from eruditarticle.objects import EruditPublication
 from eruditarticle.tests.decorators import with_value, with_fixtures
 
 
+@with_fixtures('./eruditarticle/tests/fixtures/publication', EruditPublication)
+class TestPublicationPublisher(object):
+
+    @with_value('ae1375.xml', 'get_publishers')
+    def test_can_return_a_single_publisher(self, value):
+        assert value == ['HEC Montréal', ]
+
+
 @with_fixtures('./eruditarticle/tests/fixtures/publication/themes', EruditPublication)
 class TestPublicationThemes(object):
 
