@@ -452,9 +452,12 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """ :returns: the year of publication of the article object. """
         return self.get_text('numero//pub//annee')
 
-    def get_publisher(self):
+    def get_publishers(self):
         """ :returns: the publisher of the article object. """
-        return self.get_text('editeur//nomorg')
+        return [
+            publisher.text
+            for publisher in self.findall('editeur//nomorg')
+        ]
 
     def get_section_titles(self, level=1, html=True):
         """ :returns: the section titles of the article object
@@ -699,7 +702,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
     ordseq = property(get_ordseq)
     processing = property(get_processing)
     publication_year = property(get_publication_year)
-    publisher = property(get_publisher)
+    publishers = property(get_publishers)
     subtitle = property(get_subtitle)
     title = property(get_title)
     titles = property(get_titles)
