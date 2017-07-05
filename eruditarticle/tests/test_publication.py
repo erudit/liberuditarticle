@@ -12,6 +12,44 @@ class TestPublicationPublisher(object):
         assert value == ['HEC Montréal', ]
 
 
+@with_fixtures('./eruditarticle/tests/fixtures/publication/editors', EruditPublication)
+class TestPublicationEditors(object):
+
+    @with_value('annuaire016.xml', 'get_editors')
+    def test_get_editors_should_return_regular_editors_but_not_guest_editors(self, value):
+        assert value == [{
+            'affiliations': [],
+            'othername': None,
+            'firstname': 'Louise',
+            'email': None,
+            'lastname': 'Ladouceur',
+            'organization': None,
+            'role': {
+                'fr': 'Rédactrice en chef',
+            },
+            'suffix': None,
+        }]
+
+    @with_value('arbo02664.xml', 'get_editors')
+    def test_get_editors_should_not_return_guest_editors(self, value):
+        assert value == []
+
+    @with_value('ateliers02858.xml', 'get_editors')
+    def test_get_editors_should_return_all_regular_editors(self, value):
+        assert value == [{
+            'affiliations': [],
+            'othername': None,
+            'firstname': 'Christine',
+            'email': None,
+            'lastname': 'Tappolet',
+            'organization': None,
+            'role': {
+                'fr': 'Rédactrice en chef',
+            },
+            'suffix': None,
+        }]
+
+
 @with_fixtures('./eruditarticle/tests/fixtures/publication/themes', EruditPublication)
 class TestPublicationThemes(object):
 

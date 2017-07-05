@@ -81,16 +81,16 @@ class EruditPublication(
         """ :returns: the authors of the publication object. """
         return self.get_persons('directeur')
 
-    def get_editors(self):
-        """ :returns: the the editors of the publication object. """
-        return self.get_persons('redacteurchef')
-
     def get_publishers(self):
         """ :returns: the publisher of the issue object. """
         return [
             publisher.text
             for publisher in self.findall('editeur//nomorg')
         ]
+
+    def get_editors(self):
+        """ :returns: the the editors of the publication object. """
+        return self.get_persons('redacteurchef[@typerc="regulier"]')
 
     def get_guest_editors(self):
         """ :returns: the guest editors associated with the publication object. """
