@@ -230,6 +230,10 @@ class TestArticleSavantMinimal(object):
 @with_fixtures('./eruditarticle/tests/fixtures/article/format_person_name/', EruditArticle)
 class TestFormatPersonName(object):
 
+    @with_value('strip_tags.xml', 'get_formatted_authors')
+    def test_can_strip_elements_from_author_name(self, value):
+        assert value == ['Réjean Savard']
+
     @with_value('firstname_lastname.xml', 'get_formatted_authors')
     def test_can_format_a_firstname_lastname(self, value):
         assert value == ['Natascha Niederstrass']

@@ -230,6 +230,8 @@ class EruditBaseObject(object):
                 },
             ]
         """
+        et.strip_tags(person_tag, 'marquage')
+
         person = {
             'firstname': self.get_text('prenom', dom=person_tag),
             'lastname': self.get_text('nomfamille', dom=person_tag),
