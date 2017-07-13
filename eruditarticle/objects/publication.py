@@ -72,10 +72,34 @@ class EruditPublication(
         """ :returns: the guest editors associated with the publication object. """
         return self.get_persons('redacteurchef[@typerc="invite"]')
 
-    def get_notegen_edito(self):
-        """ Return the editorial note for this publicaiton """
-        notegen = self.get_itertext('notegen[@typenoteg="edito"]')
-        return re.sub('^ | $', '', re.sub(' +', ' ', re.sub('\n', '', notegen)))
+    def get_notegens_edito(self, formatted=False, html=False):
+        """ Return the editorial note for this publication """
+        first_article = self.find('article')
+        notes = []
+        for note_elem in self.findall('notegen[@typenoteg="edito"]', dom=first_article):
+
+            if html:
+                parser_method = self.convert_marquage_content_to_html
+            else:
+                parser_method = self.stringify_children
+
+            alineas_content = "".join([
+                parser_method(
+                    alinea,
+                )
+                for alinea in self.findall('alinea', dom=note_elem)
+            ])
+
+            # Delete all beginning / trailing whitespaces
+            alineas_content = re.sub('^ | $', '', re.sub(' +', ' ', re.sub('\n', '', alineas_content)))  # noqa
+
+            note = {
+                "lang": note_elem.get("lang"),
+                "type": note_elem.get("typenoteg"),
+                "content": alineas_content
+            }
+            notes.append(note)
+        return notes
 
     def get_notegen_numerique(self):
         """ Return the digital edition note of this publication """

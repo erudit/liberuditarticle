@@ -86,6 +86,87 @@ class TestPublicationVolumeNumbering(object):
         assert value == "Volume 32, numéro hors-série, 2008"
 
 
+@with_fixtures('./eruditarticle/tests/fixtures/publication/general_notes', EruditPublication)
+class TestEditorialNotes(object):
+
+    @with_value('multilingual_edito.xml', 'get_notegens_edito', html=True)
+    def test_can_return_multilingual_note_html(self, value):
+        assert value == [
+            {
+                "lang": "de",
+                "type": "edito",
+                "content": "Hergestellt mit Unterst&#252;tzung durch den DAAD aus Mitteln, die das Ausw&#228;rtige Amt bereitstellt.",  # noqa
+            }, {
+                "lang": "fr",
+                "type": "edito",
+                "content": "Ce num&#233;ro d&#8217;Eurostudia est publi&#233; avec l&#8217;aide de l&#8217;Office allemand d&#8217;&#233;changes universitaires (DAAD) gr&#226;ce au soutien financier du minist&#232;re des Affaires &#233;trang&#232;res de la R&#233;publique f&#233;d&#233;rale d&#8217;Allemagne."  # noqa
+            }, {
+                "lang": "en",
+                "type": "edito",
+                "content": "This issue of <em>Eurostudia</em> is published with the support of the German Academic Exchange Service (DAAD) thanks to financial assistance from the Foreign Office of the Federal Republic of Germany."  # noqa
+            }
+        ]
+
+    @with_value('multilingual_edito.xml', 'get_notegens_edito')
+    def test_can_return_multilingual_note(self, value):
+        assert value == [
+            {
+                "lang": "de",
+                "type": "edito",
+                "content": "Hergestellt mit Unterstützung durch den DAAD aus Mitteln, die das Auswärtige Amt bereitstellt.",  # noqa
+            }, {
+                "lang": "fr",
+                "type": "edito",
+                "content": "Ce numéro d’Eurostudia est publié avec l’aide de l’Office allemand d’échanges universitaires (DAAD) grâce au soutien financier du ministère des Affaires étrangères de la République fédérale d’Allemagne."  # noqa
+            }, {
+                "lang": "en",
+                "type": "edito",
+                "content": "This issue of Eurostudia is published with the support of the German Academic Exchange Service (DAAD) thanks to financial assistance from the Foreign Office of the Federal Republic of Germany."  # noqa
+            }
+        ]
+
+    @with_value('edito_with_link.xml', 'get_notegens_edito', html=True)
+    def test_can_return_note_with_link_html(self, value):
+        assert value == [
+            {
+                "lang": "fr",
+                "type": "edito",
+                "content": '<a href="http://www.erudit.org/projspec/ateliers/v10n2_complet.pdf">T&#233;l&#233;charger le num&#233;ro complet / Download the complete issue</a>'  # noqa
+            }
+        ]
+        pass
+
+    @with_value('simple_edito.xml', 'get_notegens_edito', html=True)
+    def test_can_return_simple_note_html(self, value):
+        assert value == [
+            {
+                "lang": "fr",
+                "type": "edito",
+                "content": "&#192; la m&#233;moire de Robert Plante, m&#233;decin du travail"
+            }
+        ]
+
+    @with_value('simple_edito_with_link.xml', 'get_notegens_edito', html=True)
+    def test_can_return_simple_note_with_link_html(self, value):
+        assert value == [
+            {
+                "lang": "fr",
+                "type": "edito",
+                "content": 'Les textes qui composent ce num&#233;ro sp&#233;cial de la <em>Revue de droit de McGill</em> se r&#233;f&#232;rent &#224; la pr&#233;sente introduction pour la pr&#233;sentation des faits de l&#8217;affaire et pour le r&#233;sum&#233; des jugements. Comme la plupart de ces textes sont en anglais, une version anglaise de cette introduction est disponible sur le site Web de la <em>Revue</em> (<a href="http://lawjournal.mcgill.ca">http://lawjournal.mcgill.ca</a>).'  # noqa
+            }
+        ]
+
+    @with_value('simple_edito_with_marquage.xml', 'get_notegens_edito', html=True)
+    def test_can_return_simple_note_with_marquage_html(self, value):
+        assert value == [
+            {
+                "lang": "fr",
+                "type": "edito",
+                "content": "<strong>Remerciements&#160;:</strong> La Revue remercie le Bureau du Vice-rectorat &#224; l&#8217;enseignement et &#224; la recherche (Affaires francophones) de l&#8217;Universit&#233; Laurentienne et l&#8217;Institut fran&#231;ais de l&#8217;Universit&#233; de R&#233;gina de leur appui financier &#224; la production de ce num&#233;ro."  # noqa
+            }
+        ]
+
+
 @with_fixtures('./eruditarticle/tests/fixtures/publication', EruditPublication)
 class TestPublicationPublisher(object):
 
@@ -372,7 +453,13 @@ class TestEruditPublication(object):
         assert self.test_objects['liberte1035607.xml'].get_droitsauteurorg() == "Collectif Liberté"
 
     def test_notegen(self):
-        assert self.test_objects['rum01069.xml'].get_notegen_edito() == """POUR NABIHA : Nabiha Jerad, Professeur de socio-linguistique à la Faculté des Lettres de l’Université de Tunis se trouvait dans son île natale, Kerkennah, pour célébrer le Ramadan avec sa famille. Sortie pour prendre l’air avant le dîner, elle fut renversée par une voiture. Le chauffeur - ou plutôt le chauffard - ne s’arrêta pas et s’enfuit. C’était le 11 août 2012. Elle tomba dans un coma dont elle ne se sortira jamais, malgré les soins intensifs et le dévouement du personnel médical, d’abord à Bruxelles, ensuite à Tunis où elle rendit l’âme le 19 octobre 2012. Pour ceux et celles qui l’ont connue, Nabiha avait le coeur sur la main, l’esprit ouvert à “tous les souffles du monde” pour reprendre Aimé Césaire. Elle était d’un grand dévouement envers ses étudiants, très attachée à son pays la Tunisie et fortement engagée dans ce qui fut appelée la Révolution de Jasmin. Son article non achevé, qui devait paraître dans ce volume, se serait ajouté à ses nombreuses autres publications dans le domaine de la socio-linguistique. Cette petite note rappellera la mémoire de celle qui fut non seulement une collègue, mais aussi une amie. Université Laval 3 Juillet 2013 Justin K. Bisanswa"""  # noqa
+        assert self.test_objects['rum01069.xml'].get_notegens_edito(html=True) == [
+            {
+                "type": "edito",
+                "lang": "fr",
+                "content": """<strong>POUR NABIHA</strong> : Nabiha Jerad, Professeur de socio-linguistique &#224; la Facult&#233; des Lettres de l&#8217;Universit&#233; de Tunis se trouvait dans son &#238;le natale, Kerkennah, pour c&#233;l&#233;brer le Ramadan avec sa famille. Sortie pour prendre l&#8217;air avant le d&#238;ner, elle fut renvers&#233;e par une voiture. Le chauffeur - ou plut&#244;t le chauffard - ne s&#8217;arr&#234;ta pas et s&#8217;enfuit. C&#8217;&#233;tait le 11 ao&#251;t 2012. Elle tomba dans un coma dont elle ne se sortira jamais, malgr&#233; les soins intensifs et le d&#233;vouement du personnel m&#233;dical, d&#8217;abord &#224; Bruxelles, ensuite &#224; Tunis o&#249; elle rendit l&#8217;&#226;me le 19 octobre 2012. Pour ceux et celles qui l&#8217;ont connue, Nabiha avait le coeur sur la main, l&#8217;esprit ouvert &#224; &#8220;tous les souffles du monde&#8221; pour reprendre Aim&#233; C&#233;saire. Elle &#233;tait d&#8217;un grand d&#233;vouement envers ses &#233;tudiants, tr&#232;s attach&#233;e &#224; son pays la Tunisie et fortement engag&#233;e dans ce qui fut appel&#233;e la R&#233;volution de Jasmin. Son article non achev&#233;, qui devait para&#238;tre dans ce volume, se serait ajout&#233; &#224; ses nombreuses autres publications dans le domaine de la socio-linguistique. Cette petite note rappellera la m&#233;moire de celle qui fut non seulement une coll&#232;gue, mais aussi une amie. Universit&#233; Laval 3 Juillet 2013"""  # noqa
+            }
+        ]
 
     def test_issn(self):
         assert self.test_objects['ae1375.xml'].issn == '0001-771X'
