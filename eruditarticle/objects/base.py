@@ -146,11 +146,9 @@ class EruditBaseObject(object):
             title = Title(
                 title=self.convert_marquage_content_to_html(
                     title_elem if title_elem is not None else None,
-                    as_string=True
                 ),
                 subtitle=self.convert_marquage_content_to_html(
                     subtitle_elem,
-                    as_string=True
                 ),
                 lang=languages.pop(0)
             )
@@ -302,10 +300,8 @@ class EruditBaseObject(object):
         if node.text is not None:
             return re.sub(' +', ' ', node.text)
 
-    def convert_marquage_content_to_html(self, node, as_string=False, strip_elements=None):
+    def convert_marquage_content_to_html(self, node, strip_elements=None):
         """ Converts <marquage> tags to HTML using a specific node.
-
-            :param as_string: encode the bytes as an utf-8 string
         """
         if node is None:
             return
@@ -322,9 +318,7 @@ class EruditBaseObject(object):
             ])
         _html = et.tostring(_node.getroot())
         output = _html.split(b'>', 1)[1].rsplit(b'<', 1)[0]
-        if output and as_string:
-            return output.decode('utf-8')
-        return output
+        return output.decode('utf-8')
 
     def find_paral(self, tag, paral_tag_name, strip_markup=False):
         """ Find the parallel values for the given tag using the given tag name. """
@@ -334,6 +328,6 @@ class EruditBaseObject(object):
                 pn[title_paral.get('lang')] = self.stringify_children(title_paral)
             else:
                 pn[title_paral.get('lang')] = self.convert_marquage_content_to_html(
-                    title_paral, as_string=True
+                    title_paral
                 )
         return pn

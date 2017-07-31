@@ -90,11 +90,9 @@ class EruditPublication(
                 'subname': self.get_text("ssthemeparal[@lang='{}']".format(lang), dom=theme_tag),
                 'html_name': self.convert_marquage_content_to_html(
                     theme_paral,
-                    as_string=True
                 ),
                 'html_subname': self.convert_marquage_content_to_html(
                     self.find("ssthemeparal[@lang='{}']".format(lang), dom=theme_tag),
-                    as_string=True
                 ),
             }
         return pn
@@ -107,11 +105,9 @@ class EruditPublication(
             'subname': self.get_text('sstheme', dom=theme_tag),
             'html_name': self.convert_marquage_content_to_html(
                 self.find('theme', dom=theme_tag),
-                as_string=True
             ),
             'html_subname': self.convert_marquage_content_to_html(
                 self.find('sstheme', dom=theme_tag),
-                as_string=True
             ),
         }
         theme_id = theme_tag.get('id')

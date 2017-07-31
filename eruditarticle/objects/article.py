@@ -52,7 +52,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             alinea_nodes = self.findall("alinea", dom=notegen_node)
             notegen['type'] = notegen_node.get('typenoteg')
             notegen["content"] = [
-                self.convert_marquage_content_to_html(n, as_string=True)
+                self.convert_marquage_content_to_html(n)
                 for n in alinea_nodes
             ]
 
@@ -166,7 +166,6 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
 
         return self.convert_marquage_content_to_html(
             self.find(element),
-            as_string=True
         )
 
     def get_subtitle(self):
@@ -176,7 +175,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
     def _get_reviewed_or_referenced_works(self, tag, strip_markup=False):
         if not strip_markup:
             references = [
-                self.convert_marquage_content_to_html(ref, as_string=True).strip()
+                self.convert_marquage_content_to_html(ref).strip()
                 for ref in self.findall(tag)
             ]
         else:
@@ -206,7 +205,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
                 title = self.stringify_children(reference, strip_elements=('idpublic',))
             else:
                 title = self.convert_marquage_content_to_html(
-                    reference, as_string=True, strip_elements=('idpublic',)
+                    reference, strip_elements=('idpublic',)
                 )
             references.append({'doi': doi, 'title': title})
         return references
