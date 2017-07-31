@@ -1,5 +1,5 @@
 
-from eruditarticle.base import Title
+from eruditarticle.objects.base import Title
 from eruditarticle.objects import EruditPublication
 from eruditarticle.tests.decorators import with_value, with_fixtures
 

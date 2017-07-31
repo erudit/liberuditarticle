@@ -8,8 +8,8 @@ import re
 import lxml.etree as et
 import six
 
-from . import xslt
-from .utils import remove_xml_namespaces
+from .. import xslt
+from ..utils import remove_xml_namespaces
 
 Title = collections.namedtuple('Title', ['title', 'subtitle', 'lang'])
 

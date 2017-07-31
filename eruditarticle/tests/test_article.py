@@ -118,7 +118,7 @@ class TestArticleSavantComplet(object):
         assert self.test_objects['1005860ar.xml'].get_publication_period() == "2008–2009"
 
     def test_can_return_titles_subtitles(self):
-        from eruditarticle.base import Title
+        from eruditarticle.objects.base import Title
 
         assert self.test_objects['1005860ar.xml'].get_titles() == {
             'main': Title(title="Esth&#233;tique et s&#233;miotique", subtitle="Pr&#233;sentation", lang="fr"),  # noqa
@@ -168,7 +168,7 @@ class TestArticleSavantComplet(object):
         assert self.test_objects['044308ar.xml'].get_formatted_html_title() == '<em>Sociologie des relations professionnelles</em>, Par Michel Lallement, Nouvelle &#233;dition, Paris&#160;: La D&#233;couverte, collection Rep&#232;res, 2008, 121&#160;p., ISBN 978-2-7071-5446-0. / <em>Sociologie du travail&#160;: les relations professionnelles</em>, Par Antoine Bevort et Annette Jobert, Paris&#160;: Armand Collin, collection U, 2008, 268&#160;p., ISBN 978-2-200-34571-6.'  # noqa
 
     def test_can_return_journal_titles(self):
-        from eruditarticle.base import Title
+        from eruditarticle.objects.base import Title
 
         assert self.test_objects['1006389ar.xml'].get_journal_titles() == {
             "main": Title(title="Anthropologie et Soci&#233;t&#233;s", subtitle=None, lang="fr"),
@@ -213,7 +213,7 @@ class TestArticleSavantComplet(object):
 class TestArticleSavantMinimal(object):
 
     def test_can_return_titles_and_subtitles(self):
-        from eruditarticle.base import Title
+        from eruditarticle.objects.base import Title
         assert self.test_objects['602354ar.xml'].get_titles(strip_markup=True) == {
             'main': Title(title='Immigration, langues et performance économique : le Québec et l’Ontario entre 1970 et 1995', lang="fr", subtitle=None),  # noqa
             'equivalent': [
@@ -289,7 +289,7 @@ class TestArticleCulturelMinimal(object):
             assert isinstance(article, EruditArticle)
 
     def test_can_return_its_title(self):
-        from eruditarticle.base import Title
+        from eruditarticle.objects.base import Title
         assert self.test_objects['49222ac.xml'].get_titles(strip_markup=True) == {
             'main': Title(
                 title='Love and death on long island',
@@ -303,7 +303,7 @@ class TestArticleCulturelMinimal(object):
 
     @with_value('67660ac.xml', 'get_titles')
     def test_untitled_article_can_return_its_title(self, value):
-        from eruditarticle.base import Title
+        from eruditarticle.objects.base import Title
         assert value == {
             'main': Title(
                 title=None,
