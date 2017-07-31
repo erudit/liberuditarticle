@@ -39,8 +39,9 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
     def get_formatted_authors(self):
         """ :returns: the formatted author names of the article object. """
         return [
-            self.format_person_name(author)
-            for author in self.get_authors()
+            self.format_person_name(self.parse_formatted_person(author))
+            for author in
+            self._root.xpath('//auteur[not(contribution[@typecontrib!="aut"])]')
         ]
 
     def get_notegens(self):
