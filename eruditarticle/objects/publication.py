@@ -13,7 +13,12 @@ class EruditPublication(
     PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject
 ):
     def get_titles(self, strip_markup=False):
-        """ :returns: the titles of the publication
+        """
+        .. warning::
+           Will be removed or modified 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
+
+        :returns: the titles of the publication
 
         If the publication does not specify a principal language, it is assumed
         to be French.
@@ -127,7 +132,12 @@ class EruditPublication(
         return themes
 
     def get_formatted_theme_guest_editors(self, theme):
-        """ Format the names of the guest editors of the theme """
+        """
+        .. warning::
+           Will be removed or modified 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
+
+        Format the names of the guest editors of the theme """
         guest_editors = theme.get("redacteurchef", [])
         formatted_guest_editors = map(
             lambda x: self.format_person_name(x), guest_editors
@@ -152,7 +162,12 @@ class EruditPublication(
         return list(map(lambda t: _theme_name_formatter(t[0], t[1], t[2]), theme_name_subnames))
 
     def get_formatted_themes(self):
-        """ Return the formatted themes of this publication """
+        """
+        .. warning::
+           Will be removed or modified 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
+
+        :returns: the formatted themes of this publication """
         themes = self.get_themes()
         formatted_themes = []
         for theme_id, theme in themes.items():
@@ -195,7 +210,12 @@ class EruditPublication(
         return first_page
 
     def get_html_theme(self):
-        """ :returns: the theme of the publication object with HTML tags. """
+        """
+        .. warning::
+           Will be removed or modified 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
+
+        :returns: the theme of the publication object with HTML tags. """
         return self.convert_marquage_content_to_html(self.find('theme'))
 
     def get_journal_subtitle(self):

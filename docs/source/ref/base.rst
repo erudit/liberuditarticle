@@ -1,7 +1,7 @@
 Base objects reference
 ======================
 
-.. module :: eruditarticle.base
+.. module :: eruditarticle.objects
 
 .. autoclass :: EruditBaseObject 
    :members:

@@ -256,7 +256,12 @@ class EruditBaseObject(object):
         return person
 
     def parse_formatted_person(self, person_tag):
-        """ Parses a person tag
+        """
+        .. warning::
+           Will be removed or modified 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
+
+        Parses a person tag
 
         :returns: a person dictionary
 
@@ -319,7 +324,12 @@ class EruditBaseObject(object):
         return link
 
     def get_persons(self, tag_name, dom=None):
-        """ :returns: the persons for the considered tag name.
+        """
+        .. warning::
+           Will be removed or modified 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
+
+        :returns: the persons for the considered tag name.
 
         Return a list of dictionaries in the format specified by parse_person
         """

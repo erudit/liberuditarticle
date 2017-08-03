@@ -13,7 +13,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
 
             {
                 'lang': 'fr',
-                'resume': 'Content',
+                'content': 'Content',
             }
         """
         abstracts = []
@@ -37,7 +37,13 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         return authors
 
     def get_formatted_authors(self):
-        """ :returns: the formatted author names of the article object. """
+        """
+        .. warning::
+           Will be removed or modified 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
+
+        :returns: the formatted author names of the article object.
+        """
         return [
             self.format_person_name(self.parse_formatted_person(author))
             for author in
@@ -45,7 +51,12 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         ]
 
     def get_notegens(self):
-        """ :returns: the notes of the article object. """
+        """
+        .. warning::
+           Will be modified in 0.3.0. An ``html=True`` param will be added to let the user
+           specify if the note should be converted to html or not.
+
+        :returns: the HTML notes of the article object. """
         notegen_nodes = self.findall('notegen')
         notegens = []
         for notegen_node in notegen_nodes:
@@ -73,7 +84,12 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         return self.get_text('infoarticle//pagination//ppage')
 
     def get_html_body(self):
-        """ :returns: the full body of the article object as HTML text. """
+        """
+        .. warning::
+           Will be removed or modified 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
+
+        :returns: the full body of the article object as HTML text. """
         alinea_nodes = self.findall('para/alinea')
         if alinea_nodes:
             html_body = b' '.join([self.convert_marquage_content_to_html(n) for n in alinea_nodes])
@@ -83,7 +99,12 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         return b' '.join(html_body.split()) if html_body else ''
 
     def get_html_title(self):
-        """ :returns: the title of the article object with HTML tags. """
+        """
+        .. warning::
+           Will be removed or modified in 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
+
+        :returns: the title of the article object with HTML tags. """
         return self.convert_marquage_content_to_html(self.find('titre'))
 
     def get_keywords(self):
@@ -105,11 +126,11 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         return keywords
 
     def get_languages(self):
-        """ :returns: the language of the article object. """
+        """ :returns: a list of  languages of the article object. """
         return self._root.get('lang').split()
 
     def get_language(self):
-        """ Return the principal language of the article. """
+        """ :returns: the main language of the article. """
         languages = self.get_languages()
         if languages:
             return languages[0]
@@ -174,6 +195,11 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         return self.stringify_children(self.find('sstitre'))
 
     def _get_reviewed_or_referenced_works(self, tag, strip_markup=False):
+        """
+        .. warning::
+           Will be removed or modified 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
+        """
         if not strip_markup:
             references = [
                 self.convert_marquage_content_to_html(ref).strip()
@@ -191,10 +217,15 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         return self._get_reviewed_or_referenced_works('trefbiblio', strip_markup=strip_markup)
 
     def get_references(self, strip_markup=False):
-        """ :returns: the works referenced by this article. returns a dictionary
-                that contains possibly two keys: doi and title
+        """
+        .. warning::
+           Will be removed or modified 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
 
-            :param strip_markup: strip all xml markup
+         :returns: the works referenced by this article. returns a dictionary
+             that contains possibly two keys: doi and title
+
+         :param strip_markup: strip all xml markup
         """
         references = []
         xml_references = self.findall('refbiblio')
@@ -235,6 +266,10 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
 
     def get_titles(self, strip_markup=False):
         """ Retrieve the titles of an article
+
+        .. warning::
+           The interface of this method will be modified in 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
 
         :param strip_markup: if set to True, strip all XML / HTML markup and return only
             a string.
@@ -319,7 +354,12 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         )
 
     def get_formatted_journal_title(self):
-        """ Format the journal title
+        """
+        .. warning::
+           Will be removed or modified 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
+
+        Format the journal title
 
         :returns: the formatted journal title
 
@@ -330,6 +370,10 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
 
     def _get_formatted_title(self, strip_markup=False):
         """ Format the article titles
+
+        .. warning::
+           Will be removed or modified 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
 
         :returns: the formatted article title
 
@@ -360,9 +404,19 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         return formatted_title
 
     def get_formatted_title(self):
+        """
+        .. warning::
+           Will be removed or modified 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
+        """
         return self._get_formatted_title(strip_markup=True)
 
     def get_formatted_html_title(self):
+        """
+        .. warning::
+           Will be removed or modified 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
+        """
         return self._get_formatted_title(strip_markup=False)
 
     abstracts = property(get_abstracts)
