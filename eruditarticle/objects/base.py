@@ -58,6 +58,11 @@ class EruditBaseObject(object):
         result = self.find(tag_name, dom=dom)
         return result.text if result is not None else None
 
+    def get_html(self, tag_name, dom=None):
+        """ :returns: the content of the considered tag converted to html. """
+        result = self.find(tag_name, dom=dom)
+        return self.convert_marquage_content_to_html(result)
+
     def get_itertext(self, tag_name, dom=None):
         """ :returns: the text associated with the considered tag and its children tags
         """
@@ -184,7 +189,7 @@ class EruditBaseObject(object):
                 titles['equivalent'].append(paral_title)
         return titles
 
-    def format_person_name(self, person):
+    def format_person_name(self, person, html=False):
         """ Formats the name in the person dictionary
 
         :returns: the formatted person name
@@ -209,7 +214,7 @@ class EruditBaseObject(object):
 
         return formatted_person_name
 
-    def parse_person(self, person_tag):
+    def parse_person(self, person_tag, html=False):
         """ Parses a person tag
 
         :returns: a person dictionary
@@ -230,17 +235,21 @@ class EruditBaseObject(object):
         """
         et.strip_tags(person_tag, 'marquage')
 
+        method = self.get_text
+        if html:
+            method = self.get_html
+
         person = {
-            'firstname': self.get_text('prenom', dom=person_tag),
-            'lastname': self.get_text('nomfamille', dom=person_tag),
-            'othername': self.get_text('autreprenom', dom=person_tag),
-            'suffix': self.get_text('suffixe', dom=person_tag),
+            'firstname': method('prenom', dom=person_tag),
+            'lastname': method('nomfamille', dom=person_tag),
+            'othername': method('autreprenom', dom=person_tag),
+            'suffix': method('suffixe', dom=person_tag),
             'affiliations': [
-                self.get_text('alinea', dom=affiliation_dom)
+                method('alinea', dom=affiliation_dom)
                 for affiliation_dom in self.findall('affiliation', dom=person_tag)
             ],
-            'email': self.get_text('courriel/liensimple', dom=person_tag),
-            'organization': self.get_text('nomorg', dom=person_tag),
+            'email': method('courriel/liensimple', dom=person_tag),
+            'organization': method('nomorg', dom=person_tag),
             'role': {},
         }
 
@@ -323,7 +332,7 @@ class EruditBaseObject(object):
 
         return link
 
-    def get_persons(self, tag_name, dom=None):
+    def get_persons(self, tag_name, dom=None, html=False, formatted=False):
         """
         .. warning::
            Will be removed or modified 0.3.0
