@@ -51,9 +51,18 @@ class TestPublicationEditors(object):
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication/themes', EruditPublication)
-class TestPublicationThemes(object):
+class TestPublicationFormattedThemes(object):
 
-    @with_value('smq1996211.xml', 'get_formatted_themes')
+    @with_value('rmo20170401.xml', 'get_themes', formatted=True, html=True)
+    def test_can_return_theme_names_with_child_elements(self, value):
+        assert value == [
+            {
+                'names': ["Apprendre et enseigner la musique au XXI<sup>e</sup> si&#232;cle. Nouvelles propositions p&#233;dagogiques"],  # noqa
+                'editors': ["Francis Dub&#233;"],
+            }
+        ]
+
+    @with_value('smq1996211.xml', 'get_themes', html=True, formatted=True)
     def test_can_display_multiple_themes_and_editors(self, value):
         assert value == [
             {
@@ -61,45 +70,45 @@ class TestPublicationThemes(object):
                 'editors': ["Alain Lesage"]
             },
             {
-                'names': ["Les états de stress post-traumatique"],
-                "editors": ["Alain Lesage", "Louis Côté", "Yves Lecomte"]
+                'names': ["Les &#233;tats de stress post-traumatique"],
+                "editors": ["Alain Lesage", "Louis C&#244;t&#233;", "Yves Lecomte"]
             }
         ]
 
-    @with_value('qf2012164.xml', 'get_formatted_themes')
+    @with_value('qf2012164.xml', 'get_themes', html=True, formatted=True)
     def test_can_display_multiple_themes_and_multiple_editors(self, value):
         assert value == [
             {
-                'names': ["L’actualité du mythe"],
+                'names': ["L&#8217;actualit&#233; du mythe"],
                 'editors': ['Vincent C. Lambert']
             },
             {
-                'names': ["Comprendre des textes à l’oral et à l’écrit"],
+                'names': ["Comprendre des textes &#224; l&#8217;oral et &#224; l&#8217;&#233;crit"],
                 "editors": [
                     "Christian Dumais",
-                    "Réal Bergeron"
+                    "R&#233;al Bergeron"
                 ]
             }
         ]
 
-    @with_value('nps20121.xml', 'get_formatted_themes')
+    @with_value('nps20121.xml', 'get_themes', html=True, formatted=True)
     def test_can_display_multiple_themes_and_no_editors(self, value):
         assert value == [
             {
-                'names': ["La prévention précoce en question"],
+                'names': ["La pr&#233;vention pr&#233;coce en question"],
                 "editors": [
                     "Michel Parazelli",
-                    "Sylvie Lévesque",
-                    "Carol Gélinas",
+                    "Sylvie L&#233;vesque",
+                    "Carol G&#233;linas",
                 ]
             },
             {
-                'names': ["Regards croisés France-Québec"],
+                'names': ["Regards crois&#233;s France-Qu&#233;bec"],
                 "editors": []
             }
         ]
 
-    @with_value('as20113512.xml', 'get_formatted_themes')
+    @with_value('as20113512.xml', 'get_themes', html=True, formatted=True)
     def test_can_display_paral_themes_and_editors(self, value):
         assert value == [
             {
@@ -109,19 +118,19 @@ class TestPublicationThemes(object):
                     "Ciberespacio y antropologia : Transmision de conocimientos y de saber-como",  # noqa
                 ],
                 'editors': [
-                    "Joseph J. Lévy",
-                    "Évelyne Lasserre"
+                    "Joseph J. L&#233;vy",
+                    "&#201;velyne Lasserre"
                 ]
             }
         ]
 
-    # @with_value('ltp2010663.xml', 'get_formatted_themes')
+    # @with_value('ltp2010663.xml', 'get_themes', html=True, formatted=True)
     # def test_can_display_no_theme_and_guest_editor(self, value):
     #    assert value == [
     #        {'name': None, 'editors': 'Marc Dumas'}
     #    ]
 
-    # @with_value('dss201092.xml', 'get_formatted_themes')
+    # @with_value('dss201092.xml', 'get_themes', html=True, formatted=True)
     # def test_can_display_no_theme_and_multiple_guest_editors(self, value):
     #     assert value == [
     #         {'name': None, 'editors': 'Pierre Lauzon et Michel Landry'}

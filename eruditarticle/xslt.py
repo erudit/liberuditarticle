@@ -40,6 +40,12 @@ marquage_to_html = et.XSLT(et.parse(io.StringIO(
 <xsl:template match="renvoi">
 </xsl:template>
 
+<xsl:template match="exposant">
+    <sup>
+        <xsl:apply-templates/>
+    </sup>
+</xsl:template>
+
 <xsl:template match="*">
     <xsl:copy>
         <xsl:apply-templates/>

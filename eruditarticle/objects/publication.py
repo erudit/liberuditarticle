@@ -75,10 +75,10 @@ class EruditPublication(
         """ Return the type of this publication """
         return self.get_text('publicationtypecode')
 
-    def _find_redacteurchef(self, theme_id):
+    def _find_redacteurchef(self, theme_id, html=False):
         """ Find the redacteurchef for the given theme """
         rc = []
-        for redacteurchef in self.get_redacteurchef():
+        for redacteurchef in self.get_redacteurchef(html=html):
 
             themes = redacteurchef.get('themes')
             if themes and theme_id in themes:
@@ -102,12 +102,17 @@ class EruditPublication(
             }
         return pn
 
-    def parse_theme(self, theme_tag):
+    def parse_theme(self, theme_tag, html=False):
         """ Parse a theme tag """
+
+        method = self.get_text
+        if html:
+            method = self.get_html
+
         theme = {
-            'name': self.get_text('theme', dom=theme_tag),
+            'name': method('theme', dom=theme_tag),
             'lang': self.find('theme').get('lang') or "fr",
-            'subname': self.get_text('sstheme', dom=theme_tag),
+            'subname': method('sstheme', dom=theme_tag),
             'html_name': self.convert_marquage_content_to_html(
                 self.find('theme', dom=theme_tag),
             ),
@@ -116,19 +121,28 @@ class EruditPublication(
             ),
         }
         theme_id = theme_tag.get('id')
-
         # theme redacteurs en chef
-        theme['redacteurchef'] = self._find_redacteurchef(theme_id)
+        theme['redacteurchef'] = self._find_redacteurchef(theme_id, html=html)
         theme['paral'] = self._find_themeparal(theme_tag)
 
         return theme_id, theme
 
-    def get_themes(self):
-        """ Return the themes of this publication """
+    def get_themes(self, html=False, formatted=False):
+        """ :returns: the themes of this publication """
         themes = collections.OrderedDict()
         for theme_tag in self.findall('grtheme'):
-            theme_id, theme = self.parse_theme(theme_tag)
+            theme_id, theme = self.parse_theme(theme_tag, html=html)
             themes[theme_id] = theme
+        if formatted:
+            formatted_themes = []
+            for theme_id, theme in themes.items():
+                formatted_themes.append(
+                    {
+                        'names': self._format_theme_names(theme),
+                        'editors': self.get_formatted_theme_guest_editors(theme)
+                    }
+                )
+            return formatted_themes
         return themes
 
     def get_formatted_theme_guest_editors(self, theme):
@@ -140,7 +154,7 @@ class EruditPublication(
         Format the names of the guest editors of the theme """
         guest_editors = theme.get("redacteurchef", [])
         formatted_guest_editors = map(
-            lambda x: self.format_person_name(x), guest_editors
+            lambda x: self.format_person_name(x, html=True), guest_editors
         )
         return list(formatted_guest_editors)
 
@@ -168,18 +182,9 @@ class EruditPublication(
            For more information please refer to :py:mod:`eruditarticle.objects`
 
         :returns: the formatted themes of this publication """
-        themes = self.get_themes()
-        formatted_themes = []
-        for theme_id, theme in themes.items():
-            formatted_themes.append(
-                {
-                    'names': self._format_theme_names(theme),
-                    'editors': self.get_formatted_theme_guest_editors(theme)
-                }
-            )
-        return formatted_themes
+        return self.get_themes(html=True, formatted=True)
 
-    def get_redacteurchef(self, idrefs=None):
+    def get_redacteurchef(self, idrefs=None, html=False):
         """ Return the redacteurchef of this publication """
         tag = 'redacteurchef'
         if idrefs:
@@ -188,7 +193,7 @@ class EruditPublication(
         redacteurchefs = []
         redacteurchef_tags = self.findall(tag)
         for redacteurchef_tag in redacteurchef_tags:
-            redacteurchef_parsed = self.parse_person(redacteurchef_tag)
+            redacteurchef_parsed = self.parse_person(redacteurchef_tag, html=html)
             redacteurchef_parsed['type'] = redacteurchef_tag.get('typerc')
             if redacteurchef_tag.get('idrefs'):
                 redacteurchef_parsed['themes'] = redacteurchef_tag.get('idrefs').split()
