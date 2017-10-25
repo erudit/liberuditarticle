@@ -260,7 +260,7 @@ class EruditBaseObject(object):
 
         pseudo = self.find('nompers[@typenompers="pseudonyme"]', dom=person_tag)
         all_person_names = self.findall('nompers', dom=person_tag)
-        if pseudo and len(all_person_names) > 1:
+        if pseudo is not None and len(all_person_names) > 1:
             person['pseudo'] = self.parse_person(pseudo)
         return person
 
@@ -310,7 +310,7 @@ class EruditBaseObject(object):
 
         pseudo = self.find('nompers[@typenompers="pseudonyme"]', dom=person_tag)
         all_person_names = self.findall('nompers', dom=person_tag)
-        if pseudo and len(all_person_names) > 1:
+        if pseudo is not None and len(all_person_names) > 1:
             person['pseudo'] = self.parse_person(pseudo)
         return person
 
