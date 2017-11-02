@@ -1,8 +1,9 @@
-from .base import EruditBaseObject
+from gettext import gettext as _
 import collections
 import re
 import itertools
 
+from .base import EruditBaseObject
 from .mixins import CopyrightMixin
 from .mixins import ISBNMixin
 from .mixins import ISSNMixin
@@ -71,9 +72,24 @@ class EruditPublication(
         notegen = self.get_itertext('notegen[@typenoteg="edito"]')
         return re.sub('^ | $', '', re.sub(' +', ' ', re.sub('\n', '', notegen)))
 
-    def get_publication_type(self):
-        """ Return the type of this publication """
-        return self.get_text('publicationtypecode')
+    def get_publication_type(self, formatted=False):
+        """ Return the type of this publication
+
+        Return the ``publicationtypecode`` of the Publication object.
+
+        :param formatted: if False, only the publication type code will be returned
+        :returns:
+        """
+        publication_type = self.get_text('publicationtypecode')
+        if formatted:
+            if publication_type == 'supp':
+                return _('supplément')
+            if publication_type == 'index':
+                return _('index')
+            if publication_type == 'hs':
+                return _('hors-série')
+        else:
+            return publication_type
 
     def _find_redacteurchef(self, theme_id, html=False):
         """ Find the redacteurchef for the given theme """

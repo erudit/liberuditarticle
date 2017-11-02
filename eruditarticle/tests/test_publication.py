@@ -164,10 +164,15 @@ class TestEruditPublication(object):
             'equivalent': [],
         }
 
-    def test_publicationtype(self):
+    def test_can_return_its_publication_type(self):
         assert self.test_objects["haf2442.xml"].get_publication_type() == 'index'
         assert self.test_objects["inter1068986.xml"].get_publication_type() == 'supp'
         assert self.test_objects["crs1517600.xml"].get_publication_type() == 'hs'
+
+    def test_can_return_its_formatted_publication_type(self):
+        assert self.test_objects["haf2442.xml"].get_publication_type(formatted=True) == 'index'  # noqa
+        assert self.test_objects["inter1068986.xml"].get_publication_type(formatted=True) == 'supplément'  # noqa
+        assert self.test_objects["crs1517600.xml"].get_publication_type(formatted=True) == 'hors-série'  # noqa
 
     def test_themes(self):
         themes = self.test_objects["images1080663.xml"].get_themes()
