@@ -2,6 +2,7 @@ from gettext import gettext as _
 import collections
 import re
 import itertools
+from datetime import datetime
 
 from .base import EruditBaseObject
 from .mixins import CopyrightMixin
@@ -297,9 +298,16 @@ class EruditPublication(
         originator_node = self.find('originator')
         return originator_node.get('date') if originator_node is not None else None
 
-    def get_publication_date(self):
-        """ :returns: the publication date of the publication object. """
-        return self.get_text('numero//pubnum/date')
+    def get_publication_date(self, as_datetime=False):
+        """
+        :param as_datetime: return a datetime object. Assumes that the
+        date is formatted as %Y-%m-%d
+        :returns: the publication date of the publication object. """
+        publication_date = self.get_text("numero//pubnum/date")
+        if not as_datetime:
+            return publication_date
+        else:
+            return datetime.strptime(publication_date, "%Y-%m-%d")
 
     def get_publication_year(self):
         """ :returns: the publication year of the publication object. """
