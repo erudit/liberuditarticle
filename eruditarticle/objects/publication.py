@@ -328,6 +328,51 @@ class EruditPublication(
         """ :returns: the volume of the publication object. """
         return self.get_text('numero/volume')
 
+    def get_volume_numbering(self, html=False, formatted=False):
+        """ Return the volume title of this publication
+
+        :param html: return result as HTML
+        :param formatted: format the result as a String
+        :return: the volume title of this publication
+        """
+
+        volume = self.get_volume()
+        number = self.get_number()
+        number_type = self.get_publication_type(formatted=True)
+        publication_period = self.get_publication_period().lower()
+
+        args = dict(
+            volume=volume,
+            number=number,
+            number_type=number_type,
+            publication_period=publication_period
+        )
+
+        if not formatted:
+            return args
+
+        if volume and number and number_type != 'index':
+            string = _('Volume {volume}, numéro {number}, {publication_period}')
+
+        elif not volume and number_type and number:
+            string = _('Numéro {number}, {number_type}, {publication_period}')
+
+        elif not volume and number and number_type:
+            string = _('Numéro {number}, {number_type}, {publication_period}')
+
+        elif not volume and number_type and number_type == 'index':
+            string = _('Index, {publication_period}')
+
+        elif not volume and not number and number_type:
+            string = _('Numéro {number_type}, {publication_period}')
+
+        elif volume and not number:
+            string = _('Volume {volume}, {publication_period}')
+        elif volume and number and number_type:
+            string = _('Volume {volume}, numéro {number} {number_type}, {publication_period}')
+        elif number:
+            string = _('Numéro {number}, {publication_period}')
+        return string.format(**args)
     article_count = property(get_article_count)
     directors = property(get_directors)
     editors = property(get_editors)

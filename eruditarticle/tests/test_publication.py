@@ -1,7 +1,35 @@
-
+from datetime import datetime
 from eruditarticle.objects.base import Title
 from eruditarticle.objects import EruditPublication
 from eruditarticle.tests.decorators import with_value, with_fixtures
+
+
+@with_fixtures('./eruditarticle/tests/fixtures/publication/volume_numbering', EruditPublication)
+class TestPublicationVolumeNumbering(object):
+
+    @with_value("annuaire3703.xml", "get_volume_numbering", formatted=True)
+    def test_can_format_volume_numbering_horsserie_year(self, value):
+        assert value == "Numéro hors-série, 2001"
+
+    @with_value("haf2442.xml", "get_volume_numbering", formatted=True)
+    def test_can_format_volume_numbering_in_case_of_index(self, value):
+        assert value == "Index, 1997"
+
+    @with_value("sequences1128840.xml", "get_volume_numbering", formatted=True)
+    def test_can_format_volume_numbering_no_volume_multiple_months(self, value):
+        assert value == "Numéro 211, janvier–février 2001"
+
+    @with_value("sequences1081634.xml", "get_volume_numbering", formatted=True)
+    def test_can_format_volume_numbering_in_case_of_index_with_number(self, value):
+        assert value == "Numéro 125, index, 1986"
+
+    @with_value("inter1068986.xml", "get_volume_numbering", formatted=True)
+    def test_can_format_volume_numbering_in_case_of_supplement(self, value):
+        assert value == "Numéro 110, supplément, hiver 2012"
+
+    @with_value("crs1517600.xml", "get_volume_numbering", formatted=True)
+    def test_can_format_volume_numbering_in_case_of_horsserie(self, value):
+        assert value == "Numéro hors-série, 2003"
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication', EruditPublication)
@@ -163,6 +191,14 @@ class TestEruditPublication(object):
             'paral': [Title(title="Revue des sciences de l'éducation de McGill", subtitle=None, lang="fr")],  # noqa
             'equivalent': [],
         }
+
+    @with_value("haf2442.xml", "get_publication_date")
+    def test_can_return_its_publication_date_as_string(self, value):
+        assert value == "2008-10-28"
+
+    @with_value("haf2442.xml", "get_publication_date", as_datetime=True)
+    def test_can_return_its_publication_date_as_date(self, value):
+        assert value == datetime(year=2008, month=10, day=28)
 
     def test_can_return_its_publication_type(self):
         assert self.test_objects["haf2442.xml"].get_publication_type() == 'index'

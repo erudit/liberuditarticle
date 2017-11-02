@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+<originator username="robichac" date="2012-02-08" application="Tournesol"/>
+
+<publicationnumberingkeys>
+	<publicationtypecode>hs</publicationtypecode>
+	<years>
+		<year value="2001">
+		</year>
+	</years>
+</publicationnumberingkeys><infosommaire>
+  <url>/revue/annuaire/2001/v/nannuaire3703</url>
+  <nbarticle>7</nbarticle>
+  <revue id="annuaire130" lang="fr">
+    <titrerev>L’Annuaire théâtral</titrerev>
+    <sstitrerev>Revue québécoise d’études théâtrales</sstitrerev>
+    <titrerevabr>annuaire</titrerevabr>
+    <idissn>0827-0198</idissn>
+    <idissnnum>1923-0893</idissnnum>
+  </revue>
+  <numero id="annuaire3703">
+    <pub>
+      <annee>2001</annee>
+    </pub>
+    <pubnum>
+      <date>2010-04-30</date>
+    </pubnum>
+    <grtheme>
+      <theme>SHTQ 1976 - SQET 2001. Vingt-cinq ans de recherches théâtrales au Québec</theme>
+    </grtheme>
+    <idisbn>0-88927-195-X</idisbn>
+  </numero>
+  <editeur id="ed110">
+    <nomorg>Société québécoise d'études théâtrales (SQET)</nomorg>
+    <key>editeur</key>
+  </editeur>
+  <droitsauteur>Tous droits réservés © <nomorg>Société québécoise d'études théâtrales
+				(SQET)</nomorg>, 2001</droitsauteur>
+</infosommaire>
+<article idproprio="041722ar" lang="fr" qualtraitement="minimal" typeart="autre" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlpdf taille="41" unite="ko">/revue/annuaire/2001/v/nannuaire3703/041722ar.pdf</urlpdf>
+  <pagination>
+    <ppage>3</ppage>
+    <dpage>3</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+			  <titre>Présentation</titre>
+		 </grtitre>
+</liminaire>
+</article>
+<article idproprio="041723ar" lang="fr" qualtraitement="minimal" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlpdf taille="1000" unite="ko">/revue/annuaire/2001/v/nannuaire3703/041723ar.pdf</urlpdf>
+  <pagination>
+    <ppage>5</ppage>
+    <dpage>33</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+              <titre>Petit historique d’une grande histoire</titre>
+            <sstitre>De la Société d’histoire du théâtre du Québec à la Société québécoise d’études
+                théâtrales</sstitre>
+         </grtitre>
+        
+ <grauteur>
+            
+  <auteur id="au1">
+                
+   <nompers>
+                    
+    <prenom>Renée</prenom>
+                    <autreprenom>N.</autreprenom>
+                    
+    <nomfamille>Gurik</nomfamille>
+                
+   </nompers>
+                
+  <affiliation>
+                    <alinea>Présidente de la Société québécoise d’études
+                        théâtrales</alinea>
+                
+  </affiliation>
+            
+  </auteur>
+        
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="041724ar" lang="fr" qualtraitement="minimal" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlpdf taille="148" unite="ko">/revue/annuaire/2001/v/nannuaire3703/041724ar.pdf</urlpdf>
+  <pagination>
+    <ppage>34</ppage>
+    <dpage>37</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+              <titre>Historique de la revue <marquage typemarq="italique">L’Annuaire
+                    théâtral</marquage></titre>
+         </grtitre>
+        
+ <grauteur>
+            
+  <auteur id="au1">
+                
+   <nompers>
+                    
+    <prenom>Dominique</prenom>
+                    
+    <nomfamille>Lafon</nomfamille>
+                
+   </nompers>
+            
+  </auteur>
+        
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="041725ar" lang="fr" qualtraitement="minimal" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlpdf taille="821" unite="ko">/revue/annuaire/2001/v/nannuaire3703/041725ar.pdf</urlpdf>
+  <pagination>
+    <ppage>38</ppage>
+    <dpage>61</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+              <titre>Bibliographie des sommaires de <marquage typemarq="italique">L’Annuaire
+                    théâtral</marquage></titre>
+            <sstitre>Numéros 1 à 30</sstitre>
+         </grtitre>
+        
+ <grauteur>
+            
+  <auteur id="au1">
+                <contribution>Compilé par</contribution>
+                
+   <nompers>
+                    
+    <prenom>Sylvain</prenom>
+                    
+    <nomfamille>Schryburt</nomfamille>
+                
+   </nompers>
+            
+  </auteur>
+            
+  <auteur id="au2">
+                <contribution>Compilé par</contribution>
+                
+   <nompers>
+                    
+    <prenom>Catherine</prenom>
+                    
+    <nomfamille>Cyr</nomfamille>
+                
+   </nompers>
+            
+  </auteur>
+        
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="041726ar" lang="fr" qualtraitement="minimal" typeart="autre" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlpdf taille="344" unite="ko">/revue/annuaire/2001/v/nannuaire3703/041726ar.pdf</urlpdf>
+  <pagination>
+    <ppage>62</ppage>
+    <dpage>71</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+              <titre>Index des auteurs de <marquage typemarq="italique">L’Annuaire
+                théâtral</marquage></titre>
+            <sstitre>Numéros 1 à 30</sstitre>
+         </grtitre>
+        
+ <grauteur>
+            
+  <auteur id="au1">
+                <contribution>Compilé par</contribution>
+                
+   <nompers>
+                    
+    <prenom>Catherine</prenom>
+                    
+    <nomfamille>Cyr</nomfamille>
+                
+   </nompers>
+            
+  </auteur>
+        
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="041727ar" lang="fr" qualtraitement="minimal" typeart="autre" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlpdf taille="83" unite="ko">/revue/annuaire/2001/v/nannuaire3703/041727ar.pdf</urlpdf>
+  <pagination>
+    <ppage>72</ppage>
+    <dpage>74</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+              <titre>Bibliographie des sommaires des <marquage typemarq="italique">Cahiers de la
+                    Société d’histoire du théâtre du Québec</marquage></titre>
+            <sstitre>Numéros 1 à 8</sstitre>
+         </grtitre>
+</liminaire>
+</article>
+<article idproprio="041728ar" lang="fr" qualtraitement="minimal" typeart="autre" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlpdf taille="49" unite="ko">/revue/annuaire/2001/v/nannuaire3703/041728ar.pdf</urlpdf>
+  <pagination>
+    <ppage>75</ppage>
+    <dpage>76</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+              <titre>Index des auteurs des <marquage typemarq="italique">Cahiers de la Société
+                    d’histoire du théâtre du Québec</marquage></titre>
+            <sstitre>Numéros 1 à 8</sstitre>
+         </grtitre>
+</liminaire>
+</article>
+</sommaire>
