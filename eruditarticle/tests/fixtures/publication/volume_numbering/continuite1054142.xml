@@ -1,0 +1,116 @@
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+          <copyright>
+            <year>1990</year>
+            <contribution>
+              <artificialperson>
+                <name>Éditions Continuité</name>
+              </artificialperson>
+              <contributiontype>
+                <code>droit</code>
+                <label lang="fr">Titulaire du droit d'auteur</label>
+                <label lang="en">Copyright Holder</label>
+                <label lang="es">Titular del derecho de autor</label>
+              </contributiontype>
+              <ordering>0</ordering>
+            </contribution>
+            <contributiondeclaration>
+              <code>tdr</code>
+              <label lang="fr">Tous droits réservés</label>
+              <label lang="en">All Rights Reserved</label>
+              <label lang="es">Reservados todos los derechos</label>
+            </contributiondeclaration>
+          </copyright>
+          <publicationnumberingkeys>
+            <publicationtypecode>supp</publicationtypecode>
+            <years>
+              <year value="1990">
+                <periodcode>print</periodcode>
+              </year>
+            </years>
+          </publicationnumberingkeys>
+          <infosommaire>
+            <url>/culture/erudit/erudit/continuite1050475/continuite1054142/17986ac/</url>
+            <nbarticle>1</nbarticle>
+            <icone>/logosodep/erudit</icone>
+            <revue id="continuite1050475" lang="fr">
+              <titrerev>Continuité</titrerev>
+              <titrerevabr>continuite</titrerevabr>
+              <idissn>0714-9476</idissn>
+              <idissnnum>1923-2543</idissnnum>
+              <directeur sexe="feminin">
+                <fonction lang="fr">Directrice</fonction>
+                <nompers>
+                  <prenom>France</prenom>
+                  <nomfamille>Gagnon Pratte</nomfamille>
+                </nompers>
+                <key>directrice</key>
+              </directeur>
+              <redacteurchef sexe="masculin" typerc="regulier">
+                <nompers>
+                  <prenom>Paul</prenom>
+                  <nomfamille>Trépanier</nomfamille>
+                </nompers>
+                <key>redacteurchef</key>
+              </redacteurchef>
+              <redacteurchef sexe="feminin" typerc="regulier">
+                <fonction lang="fr">Rédactrice adjointe</fonction>
+                <nompers>
+                  <prenom>Ghislaine</prenom>
+                  <nomfamille>Fiset</nomfamille>
+                </nompers>
+                <key>redactriceadjointe</key>
+              </redacteurchef>
+            </revue>
+            <numero id="continuite1054142">
+              <nonumero>47</nonumero>
+              <pub>
+                <periode>Printemps</periode>
+                <annee>1990</annee>
+              </pub>
+              <pubnum>
+                <date typedate="publication">2010-03-02</date>
+              </pubnum>
+            </numero>
+            <editeur>
+              <nomorg>Éditions Continuité</nomorg>
+              <key>editeur</key>
+            </editeur>
+            <droitsauteur>Tous droits réservés © <nomorg>Éditions Continuité</nomorg>, 1990</droitsauteur>
+          </infosommaire>
+          <article idproprio="17986ac" lang="fr" ordseq="1" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="2,6" unite="mo">/culture/erudit/erudit/continuite1050475/continuite1054142/17986ac.pdf</urlpdf>
+            <pagination>
+              <ppage>1</ppage>
+              <dpage>14</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Sur les pas d’un architecte</surtitre>
+                <titre>Joseph-Ferdinand Peachy 1830-1903</titre>
+                <sstitre>L’architecte du visage français de Québec au XIX<exposant>e</exposant> siècle</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Denyse</prenom>
+                    <nomfamille>Légaré</nomfamille>
+                  </nompers>
+                </auteur>
+                <auteur id="au2">
+                  <contribution>Avec la collaboration de</contribution>
+                  <nompers>
+                    <prenom>Nicole</prenom>
+                    <nomfamille>Allard</nomfamille>
+                  </nompers>
+                </auteur>
+                <auteur id="au3">
+                  <contribution>Avec la collaboration de</contribution>
+                  <nompers>
+                    <prenom>Luc</prenom>
+                    <nomfamille>Noppen</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+        </sommaire>

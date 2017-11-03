@@ -299,10 +299,12 @@ class EruditPublication(
         return originator_node.get('date') if originator_node is not None else None
 
     def get_publication_date(self, as_datetime=False):
-        """
+        """ Return the publication date
         :param as_datetime: return a datetime object. Assumes that the
         date is formatted as %Y-%m-%d
-        :returns: the publication date of the publication object. """
+
+        :returns: the publication date of the publication object.
+        """
         publication_date = self.get_text("numero//pubnum/date")
         if not as_datetime:
             return publication_date
@@ -328,12 +330,20 @@ class EruditPublication(
         """ :returns: the volume of the publication object. """
         return self.get_text('numero/volume')
 
-    def get_volume_numbering(self, html=False, formatted=False):
+    def get_volume_numbering(self, html=False, abbreviated=False, formatted=False):
         """ Return the volume title of this publication
 
+        If not formatted, return a dictionary containg the volume
+        numbering information for this publication.
+
+        If formatted, format the result as a locale aware string.
+
         :param html: return result as HTML
+        :param abbreviated: if the formatted result should be abbreviated.
+            Only has effect if ``formatted=True``.
         :param formatted: format the result as a String
-        :return: the volume title of this publication
+
+        :returns: the volume title of this publication
         """
 
         volume = self.get_volume()
@@ -341,38 +351,45 @@ class EruditPublication(
         number_type = self.get_publication_type(formatted=True)
         publication_period = self.get_publication_period().lower()
 
+        if abbreviated and html:
+            volume_str = _("Vol.")
+            number_str = _("N<sup>o</sup>")
+        elif abbreviated:
+            volume_str = _("Vol.")
+            number_str = _("N°")
+        else:
+            volume_str = _("Volume")
+            number_str = _("Numéro")
+
         args = dict(
             volume=volume,
             number=number,
             number_type=number_type,
-            publication_period=publication_period
+            publication_period=publication_period,
+            number_str=number_str,
+            volume_str=volume_str,
         )
 
         if not formatted:
             return args
-
-        if volume and number and number_type != 'index':
-            string = _('Volume {volume}, numéro {number}, {publication_period}')
-
-        elif not volume and number_type and number:
-            string = _('Numéro {number}, {number_type}, {publication_period}')
-
+        elif volume and number and number_type:
+            string = _('{volume_str} {volume}, {number_str} {number}, {number_type}, {publication_period}')  # noqa
+            args['number_str'] = args['number_str'].lower()
+        elif volume and number:
+            string = _('{volume_str} {volume}, {number_str} {number}, {publication_period}')
+            args['number_str'] = args['number_str'].lower()
+        elif volume and not number:
+            string = _('{volume_str} {volume}, {publication_period}')
         elif not volume and number and number_type:
-            string = _('Numéro {number}, {number_type}, {publication_period}')
-
+            string = _('{number_str} {number}, {number_type}, {publication_period}')
         elif not volume and number_type and number_type == 'index':
             string = _('Index, {publication_period}')
-
         elif not volume and not number and number_type:
-            string = _('Numéro {number_type}, {publication_period}')
-
-        elif volume and not number:
-            string = _('Volume {volume}, {publication_period}')
-        elif volume and number and number_type:
-            string = _('Volume {volume}, numéro {number} {number_type}, {publication_period}')
-        elif number:
-            string = _('Numéro {number}, {publication_period}')
+            string = _('{number_str} {number_type}, {publication_period}')
+        elif not volume and number:
+            string = _('{number_str} {number}, {publication_period}')
         return string.format(**args)
+
     article_count = property(get_article_count)
     directors = property(get_directors)
     editors = property(get_editors)
