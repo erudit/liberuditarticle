@@ -365,7 +365,7 @@ class EruditPublication(
             volume=volume,
             number=number,
             number_type=number_type,
-            publication_period=publication_period,
+            publication_period=publication_period.lower(),
             number_str=number_str,
             volume_str=volume_str,
         )
