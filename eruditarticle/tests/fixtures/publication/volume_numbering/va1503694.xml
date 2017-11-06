@@ -1,0 +1,489 @@
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+          <copyright>
+            <year>2009</year>
+            <contribution>
+              <artificialperson>
+                <name>La Société La Vie des Arts</name>
+              </artificialperson>
+              <contributiontype>
+                <code>droit</code>
+                <label lang="fr">Titulaire du droit d'auteur</label>
+                <label lang="en">Copyright Holder</label>
+                <label lang="es">Titular del derecho de autor</label>
+              </contributiontype>
+              <ordering>0</ordering>
+            </contribution>
+            <copyrightdeclaration>
+              <code>tdr</code>
+              <label lang="fr">Tous droits réservés</label>
+              <label lang="en">All Rights Reserved</label>
+              <label lang="es">Reservados todos los derechos</label>
+            </copyrightdeclaration>
+          </copyright>
+          <publicationnumberingkeys>
+            <publicationtypecode>supp</publicationtypecode>
+            <years>
+              <year value="2009">
+                <periodcode>print</periodcode>
+              </year>
+            </years>
+          </publicationnumberingkeys>
+          <infosommaire>
+            <url>/culture/erudit/erudit/va1081917/va1503694/61892ac/</url>
+            <nbarticle>18</nbarticle>
+            <icone>/logo/va1081917</icone>
+            <revue id="va1081917" lang="fr en">
+              <titrerev>Vie des Arts</titrerev>
+              <titrerevabr>va</titrerevabr>
+              <idissn>0042-5435</idissn>
+              <idissnnum>1923-3183</idissnnum>
+              <directeur sexe="feminin">
+                <fonction lang="en">Managing Editor</fonction>
+                <nompers>
+                  <prenom>Dorota</prenom>
+                  <nomfamille>Kozinska</nomfamille>
+                </nompers>
+                <key>managingeditor</key>
+              </directeur>
+              <redacteurchef sexe="masculin" typerc="regulier">
+                <fonction lang="en">Editor</fonction>
+                <nompers>
+                  <prenom>Bernard</prenom>
+                  <nomfamille>Lévy</nomfamille>
+                </nompers>
+                <key>editor</key>
+              </redacteurchef>
+            </revue>
+            <numero id="va1503694">
+              <volume intitule="volume">52</volume>
+              <nonumero intitule="numéro">214</nonumero>
+              <pub>
+                <periode>Printemps</periode>
+                <annee>2009</annee>
+              </pub>
+              <pubnum>
+                <date typedate="publication">2011-03-08</date>
+              </pubnum>
+            </numero>
+            <editeur>
+              <nomorg>La Société La Vie des Arts</nomorg>
+              <key>editeur</key>
+            </editeur>
+            <droitsauteur>Tous droits réservés © <nomorg>La Société La Vie des Arts</nomorg>, 2009</droitsauteur>
+          </infosommaire>
+          <article idproprio="61892ac" lang="en" ordseq="1" qualtraitement="minimal" typeart="autre">
+            <urlpdf taille="265" unite="ko">/culture/erudit/erudit/va1081917/va1503694/61892ac.pdf</urlpdf>
+            <pagination>
+              <ppage>0</ppage>
+              <dpage>0</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Note from the Editor</surtitre>
+                <titre>Of Faces and Spring</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Dorota</prenom>
+                    <nomfamille>Kozinska</nomfamille>
+                  </nompers>
+                  <affiliation>
+                    <alinea>Editor</alinea>
+                  </affiliation>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="61893ac" lang="en" ordseq="2" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="225" unite="ko">/culture/erudit/erudit/va1081917/va1503694/61893ac.pdf</urlpdf>
+            <pagination>
+              <ppage>1</ppage>
+              <dpage>1</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Features</surtitre>
+                <titre>Maleonn</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Dorota</prenom>
+                    <nomfamille>Kozinska</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="61894ac" lang="en" ordseq="3" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="437" unite="ko">/culture/erudit/erudit/va1081917/va1503694/61894ac.pdf</urlpdf>
+            <pagination>
+              <ppage>2</ppage>
+              <dpage>17</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Features</surtitre>
+                <titre>Rachel Berman</titre>
+                <sstitre>
+                  <marquage typemarq="majuscule">R</marquage>ecent Work</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Brian</prenom>
+                    <nomfamille>Grison</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="61895ac" lang="en" ordseq="4" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="434" unite="ko">/culture/erudit/erudit/va1081917/va1503694/61895ac.pdf</urlpdf>
+            <pagination>
+              <ppage>3</ppage>
+              <dpage>17</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Features</surtitre>
+                <titre>Kees Van Dongen: Forever Fauve</titre>
+                <trefbiblio>Montreal Museum of Fine Arts, <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:actuate="onRequest" xlink:href="http://www.mmfa.qc.ca" xlink:show="replace" xlink:type="simple">www.mmfa.qc.ca</liensimple>, January 22 to April 19, 2009</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Dorota</prenom>
+                    <nomfamille>Kozinska</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="61896ac" lang="en" ordseq="5" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="470" unite="ko">/culture/erudit/erudit/va1081917/va1503694/61896ac.pdf</urlpdf>
+            <pagination>
+              <ppage>4</ppage>
+              <dpage>5</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Faces in Contemporary Art</surtitre>
+                <titre>Marc Quinn <marquage typemarq="italique">Self</marquage>
+                </titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Dorota</prenom>
+                    <nomfamille>Kozinska</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="61897ac" lang="en" ordseq="6" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="470" unite="ko">/culture/erudit/erudit/va1081917/va1503694/61897ac.pdf</urlpdf>
+            <pagination>
+              <ppage>4</ppage>
+              <dpage>5</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Faces in Contemporary Art</surtitre>
+                <titre>Luc Giard: Portrait of Alberto Giacometti</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1"> 
+                 <nompers>
+                    <prenom>John</prenom>
+                    <autreprenom>K.</autreprenom>
+                    <nomfamille>Grande</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="61898ac" lang="en" ordseq="7" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="211" unite="ko">/culture/erudit/erudit/va1081917/va1503694/61898ac.pdf</urlpdf>
+            <pagination>
+              <ppage>5</ppage>
+              <dpage>5</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Faces in Contemporary Art</surtitre>
+                <titre>Stan Douglas: The Inconsolable</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Melissa</prenom>
+                    <nomfamille>Lam</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="61899ac" lang="en" ordseq="8" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="246" unite="ko">/culture/erudit/erudit/va1081917/va1503694/61899ac.pdf</urlpdf>
+            <pagination>
+              <ppage>6</ppage>
+              <dpage>6</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Faces in Contemporary Art</surtitre>
+                <titre>Walter Dexter: <marquage typemarq="italique">Bottle with Face — Bill</marquage>
+                </titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Brian</prenom>
+                    <nomfamille>Grison</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="61900ac" lang="en" ordseq="9" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="488" unite="ko">/culture/erudit/erudit/va1081917/va1503694/61900ac.pdf</urlpdf>
+            <pagination>
+              <ppage>6</ppage>
+              <dpage>7</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Faces in Contemporary Art</surtitre>
+                <titre>Evan Penny — <marquage typemarq="italique">The Dims of Panagiota: Conversation #2</marquage>
+                </titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>J.</prenom>
+                    <autreprenom>Lynn</autreprenom>
+                    <nomfamille>Fraser</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="63592ac" lang="en" ordseq="10" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="488" unite="ko">/culture/erudit/erudit/va1081917/va1503694/63592ac.pdf</urlpdf>
+            <pagination>
+              <ppage>6</ppage>
+              <dpage>7</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Faces in Contemporary Art</surtitre>
+                <titre>Dorothy Grostern</titre>
+                <sstitre>
+                  <marquage typemarq="italique">The Secret II</marquage>
+                </sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Lori</prenom>
+                    <nomfamille>Beaman</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="61902ac" lang="en" ordseq="11" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="364" unite="ko">/culture/erudit/erudit/va1081917/va1503694/61902ac.pdf</urlpdf>
+            <pagination>
+              <ppage>8</ppage>
+              <dpage>9</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Homage</surtitre>
+                <titre>Pierre Théberge: A Career in the Service of Art, Artists and the Public</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <contribution typecontrib="aut">Editing and coordination</contribution>
+                  <nompers>
+                    <prenom>Constance</prenom>
+                    <nomfamille>Naubert-Riser</nomfamille>
+                  </nompers>
+                </auteur>
+                <auteur id="au2">
+                  <contribution typecontrib="trl">Translation</contribution>
+                  <nompers>
+                    <prenom>Oliver</prenom>
+                    <nomfamille>Haeffely</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="61903ac" lang="en" ordseq="12" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="215" unite="ko">/culture/erudit/erudit/va1081917/va1503694/61903ac.pdf</urlpdf>
+            <pagination>
+              <ppage>10</ppage>
+              <dpage>10</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Reviews</surtitre>
+                <surtitre2>Winnipeg, MB</surtitre2>
+                <titre>Frank Shebageget and Michael Belmore: <marquage typemarq="italique">Scout's Honour</marquage>
+                </titre>
+                <trefbiblio>Urban Shaman Gallery, <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:actuate="onRequest" xlink:href="mailto:inquiries@urbanshaman.org" xlink:show="replace" xlink:type="simple">inquiries@urbanshaman.org</liensimple>, January 16 - February 21, 2009</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>David</prenom>
+                    <nomfamille>Garneau</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="61904ac" lang="en" ordseq="13" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="493" unite="ko">/culture/erudit/erudit/va1081917/va1503694/61904ac.pdf</urlpdf>
+            <pagination>
+              <ppage>11</ppage>
+              <dpage>17</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Reviews</surtitre>
+                <surtitre2>Toronto, Ont.</surtitre2>
+                <titre>When Women Rule the World: Judy Chicago in Thread</titre>
+                <trefbiblio>The Textile Museum of Canada, <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:actuate="onRequest" xlink:href="mailto:info@textilemuseum.ca" xlink:show="replace" xlink:type="simple">info@textilemuseum.ca</liensimple>, Feb 11, 2009 - Sep 7, 2009</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Julie</prenom>
+                    <nomfamille>Oakes</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="61905ac" lang="en" ordseq="14" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="235" unite="ko">/culture/erudit/erudit/va1081917/va1503694/61905ac.pdf</urlpdf>
+            <pagination>
+              <ppage>12</ppage>
+              <dpage>12</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Reviews</surtitre>
+                <surtitre2>Montréal, QC</surtitre2>
+                <titre>The Gao Brothers: <marquage typemarq="italique">Sense of Space</marquage>
+                </titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>John</prenom>
+                    <autreprenom>K.</autreprenom>
+                    <nomfamille>Grande</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="61906ac" lang="en" ordseq="15" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="183" unite="ko">/culture/erudit/erudit/va1081917/va1503694/61906ac.pdf</urlpdf>
+            <pagination>
+              <ppage>13</ppage>
+              <dpage>13</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Reviews</surtitre>
+                <surtitre2>Sakville, NB</surtitre2>
+                <titre>
+                  <marquage typemarq="italique">The Sweetest Little Thing</marquage>
+                </titre>
+                <trefbiblio>Owens Art Gallery, 14 February 2009</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Virgil</prenom>
+                    <nomfamille>Hammock</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="61907ac" lang="en" ordseq="16" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="216" unite="ko">/culture/erudit/erudit/va1081917/va1503694/61907ac.pdf</urlpdf>
+            <pagination>
+              <ppage>14</ppage>
+              <dpage>14</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Reviews</surtitre>
+                <surtitre2>Halifax, NS</surtitre2>
+                <titre>Eva Lapka: <marquage typemarq="italique">Caprices</marquage>
+                </titre>
+                <trefbiblio>"STUDIO 21" Gallery, <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:actuate="onRequest" xlink:href="http://www.studio21.ca" xlink:show="replace" xlink:type="simple">www.studio21.ca</liensimple>, April 10 - May 6, 2009</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Dorota</prenom>
+                    <nomfamille>Kozinska</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="61908ac" lang="en" ordseq="17" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="220" unite="ko">/culture/erudit/erudit/va1081917/va1503694/61908ac.pdf</urlpdf>
+            <pagination>
+              <ppage>15</ppage>
+              <dpage>15</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>News</surtitre>
+                <titre>First Prix Pictet Awarded to Quebec Photographer Benoit Aquin</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Veronica</prenom>
+                    <nomfamille>Redgrave</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="61909ac" lang="en" ordseq="18" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="237" unite="ko">/culture/erudit/erudit/va1081917/va1503694/61909ac.pdf</urlpdf>
+            <pagination>
+              <ppage>16</ppage>
+              <dpage>16</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>News</surtitre>
+                <titre>A Letter from Bangkok</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">               
+   <nompers>
+                    <prenom>Melissa</prenom>
+                    <nomfamille>Lam</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+        </sommaire>

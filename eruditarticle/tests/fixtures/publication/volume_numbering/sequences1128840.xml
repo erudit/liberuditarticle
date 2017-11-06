@@ -1,0 +1,1174 @@
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+          <copyright>
+            <year>2000</year>
+            <contribution>
+              <artificialperson>
+                <name>La revue Séquences Inc.</name>
+              </artificialperson>
+              <contributiontype>
+                <code>droit</code>
+                <label lang="fr">Titulaire du droit d'auteur</label>
+                <label lang="en">Copyright Holder</label>
+                <label lang="es">Titular del derecho de autor</label>
+              </contributiontype>
+              <ordering>0</ordering>
+            </contribution>
+            <copyrightdeclaration>
+              <code>tdr</code>
+              <label lang="fr">Tous droits réservés</label>
+              <label lang="en">All Rights Reserved</label>
+              <label lang="es">Reservados todos los derechos</label>
+            </copyrightdeclaration>
+          </copyright>
+          <publicationnumberingkeys>
+            <publicationtypecode>reg</publicationtypecode>
+            <years>
+              <year value="2001">
+                <periodcode>janvi</periodcode>
+                <periodcode>fevri</periodcode>
+              </year>
+            </years>
+          </publicationnumberingkeys>
+          <infosommaire>
+            <url>/culture/erudit/erudit/sequences1081634/sequences1128840/48714ac/</url>
+            <nbarticle>49</nbarticle>
+            <icone>/logosodep/erudit</icone>
+            <revue id="sequences1081634" lang="fr">
+              <titrerev>Séquences</titrerev>
+              <sstitrerev>La revue de cinéma</sstitrerev>
+              <titrerevabr>sequences</titrerevabr>
+              <idissn>0037-2412</idissn>
+              <idissnnum>1923-5100</idissnnum>
+              <directeur sexe="masculin">
+                <nompers>
+                  <prenom>Yves</prenom>
+                  <nomfamille>Beauregard</nomfamille>
+                </nompers>
+                <key>directeur</key>
+              </directeur>
+              <redacteurchef sexe="feminin" typerc="regulier">
+                <nompers>
+                  <prenom>Élie</prenom>
+                  <nomfamille>Castiel</nomfamille>
+                </nompers>
+                <key>redacteurchef</key>
+              </redacteurchef>
+            </revue>
+            <numero id="sequences1128840">
+              <nonumero>211</nonumero>
+              <pub>
+                <periode>Janvier</periode>
+                <periode>Février</periode>
+                <annee>2001</annee>
+              </pub>
+              <pubnum>
+                <date typedate="publication">2010-04-15</date>
+              </pubnum>
+            </numero>
+            <editeur>
+              <nomorg>La revue Séquences Inc.</nomorg>
+              <key>editeur</key>
+            </editeur>
+            <droitsauteur>Tous droits réservés © <nomorg>La revue Séquences Inc.</nomorg>, 2000</droitsauteur>
+          </infosommaire>
+          <article idproprio="48714ac" lang="fr" ordseq="1" qualtraitement="minimal" typeart="autre">
+            <urlpdf taille="241" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48714ac.pdf</urlpdf>
+            <pagination>
+              <ppage>3</ppage>
+              <dpage>3</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Éditorial</surtitre>
+                <titre>La mémoire oubliée</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Élie</prenom>
+                    <nomfamille>Castiel</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48715ac" lang="fr" ordseq="2" qualtraitement="minimal" typeart="autre">
+            <urlpdf taille="181" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48715ac.pdf</urlpdf>
+            <pagination>
+              <ppage>6</ppage>
+              <dpage>6</dpage>         
+   </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Actualités</surtitre2>
+                <titre>Tournages</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Luc</prenom>
+                    <nomfamille>Chaput</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48716ac" lang="fr" ordseq="3" qualtraitement="minimal" typeart="autre">
+            <urlpdf taille="259" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48716ac.pdf</urlpdf>
+            <pagination>
+              <ppage>7</ppage>
+              <dpage>7</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Actualités</surtitre2>
+                <titre>Salut l’artiste</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Luc</prenom>
+                    <nomfamille>Chaput</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48717ac" lang="fr" ordseq="4" qualtraitement="minimal" typeart="autre">
+            <urlpdf taille="451" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48717ac.pdf</urlpdf>
+            <pagination>
+              <ppage>8</ppage>
+              <dpage>9</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Entrevues</surtitre2>
+                <titre>La revanche de la Côte est</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <contribution typecontrib="aut">Propos recueillis par</contribution>
+                  <nompers>
+                    <prenom>Mathieu</prenom>
+                    <nomfamille>Perreault</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48718ac" lang="fr" ordseq="5" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="481" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48718ac.pdf</urlpdf>
+            <pagination>
+              <ppage>10</ppage>
+              <dpage>11</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Voix off</surtitre2>
+                <titre>Dominic Gagnon</titre>
+                <sstitre>L’Épuisement du réel</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Dominic</prenom>
+                    <nomfamille>Gagnon</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48719ac" lang="fr" ordseq="6" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="238" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48719ac.pdf</urlpdf>
+            <pagination>
+              <ppage>11</ppage>
+              <dpage>11</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Voix off</surtitre2>
+                <titre>À découvrir… <marquage typemarq="italique">Du moteur à explosion</marquage>
+                </titre>
+                <trefbiblio>Canada, 2000, 40 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>                  
+  <prenom>Élie</prenom>
+                    <nomfamille>Castiel</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48720ac" lang="fr" ordseq="7" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="244" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48720ac.pdf</urlpdf>
+            <pagination>
+              <ppage>12</ppage>
+              <dpage>12</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Côté court</surtitre2>
+                <titre>
+                  <marquage typemarq="italique">Les Chasseurs d’ombre</marquage>
+                </titre>
+                <trefbiblio>Canada (Québec), 2000, 58 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Pierre</prenom>
+                    <nomfamille>Ranger</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48722ac" lang="fr" ordseq="8" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="244" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48722ac.pdf</urlpdf>
+            <pagination>
+              <ppage>12</ppage>
+              <dpage>12</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Côté court</surtitre2>
+                <titre>
+                  <marquage typemarq="italique">Cyberworld 3D</marquage>
+                </titre>
+                <trefbiblio>États-Unis, 2000, 48 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Luc</prenom>
+                    <nomfamille>Chaput</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48721ac" lang="fr" ordseq="9" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="244" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48721ac.pdf</urlpdf>
+            <pagination>
+              <ppage>12</ppage>
+              <dpage>12</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Côté court</surtitre2>
+                <titre>
+                  <marquage typemarq="italique">L’Emploi du temps</marquage>
+                </titre>
+                <trefbiblio>Canada (Québec), 2000, 58 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Pierre</prenom>
+                    <nomfamille>Ranger</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48723ac" lang="fr" ordseq="10" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="219" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48723ac.pdf</urlpdf>
+            <pagination>
+              <ppage>13</ppage>
+              <dpage>13</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Côté court</surtitre2>
+                <titre>
+                  <marquage typemarq="italique">Les Enfants de choeur</marquage> et <marquage typemarq="italique">Un Syndicat avec ça?</marquage> Tensions dans les groupes</titre>
+                <trefbiblio>
+                  <marquage typemarq="italique">Un syndicat avec ça?</marquage> Canada (Québec), 1999, 53 minutes</trefbiblio>
+                <trefbiblio>
+                  <marquage typemarq="italique">Enfants de choeur</marquage>, Canada (Québec), 1999, 52 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Luc</prenom>
+                    <nomfamille>Chaput</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48724ac" lang="fr" ordseq="11" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="219" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48724ac.pdf</urlpdf>
+            <pagination>
+              <ppage>13</ppage>
+              <dpage>13</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Côté court</surtitre2>
+                <titre>
+                  <marquage typemarq="italique">Guantanamera Boxe</marquage>
+                </titre>
+                <trefbiblio>Canada [Québec], 2000, 52 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Élie</prenom>
+                    <nomfamille>Castiel</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48725ac" lang="fr" ordseq="12" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="247" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48725ac.pdf</urlpdf>
+            <pagination>
+              <ppage>14</ppage>
+              <dpage>14</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Côté court</surtitre2>
+                <titre>
+                  <marquage typemarq="italique">Lettres d’amour et de guerre</marquage>
+                </titre>
+                <trefbiblio>Canada, 2000, 50 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Élie</prenom>
+                    <nomfamille>Castiel</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48726ac" lang="fr" ordseq="13" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="247" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48726ac.pdf</urlpdf>
+            <pagination>
+              <ppage>14</ppage>
+              <dpage>14</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Côté court</surtitre2>
+                <titre>
+                  <marquage typemarq="italique">Man of Grease</marquage>
+                </titre>
+                <trefbiblio>Canada [Québec], 2000, 48 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Élie</prenom>
+                    <nomfamille>Castiel</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48727ac" lang="fr" ordseq="14" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="247" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48727ac.pdf</urlpdf>
+            <pagination>
+              <ppage>14</ppage>
+              <dpage>14</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Côté court</surtitre2>      
+          <titre>
+                  <marquage typemarq="italique">Tokyo Girls</marquage>
+                </titre>
+                <trefbiblio>Canada, 2000, 57 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Pierre</prenom>
+                    <nomfamille>Ranger</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48728ac" lang="fr" ordseq="15" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="267" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48728ac.pdf</urlpdf>
+            <pagination>
+              <ppage>15</ppage>
+              <dpage>15</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Il y a 30 ans sortait…</surtitre2>
+                <titre>M*A*S*H* de Robert Altman — 1970</titre>
+                <sstitre>Le fourmillement</sstitre>
+                <trefbiblio>
+                  <marquage typemarq="italique">M*A*S*H*</marquage> États-Unis, 1970, 116 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Luc</prenom>
+                    <nomfamille>Chaput</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48729ac" lang="fr" ordseq="16" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="818" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48729ac.pdf</urlpdf>
+            <pagination>
+              <ppage>16</ppage>
+              <dpage>18</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Festivals</surtitre2>
+                <surtitre3>29<exposant>e </exposant>Festival international du nouveau Cinéma et des nouveaux Médias de Montréal</surtitre3>
+                <titre>Sélection internationale — Longs métrages de fiction</titre>
+                <sstitre>La beauté des valeurs sûres</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Dominique</prenom>
+                    <nomfamille>Pellerin</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48730ac" lang="fr" ordseq="17" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="518" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48730ac.pdf</urlpdf>
+            <pagination>
+              <ppage>18</ppage>
+              <dpage>19</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Festivals</surtitre2>
+                <surtitre3>29<exposant>e </exposant>Festival international du nouveau Cinéma et des nouveaux Médias de Montréal</surtitre3>
+                <titre>Les documentaires </titre>
+                <sstitre>Du sujet en son lieu</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Luc</prenom>
+                    <nomfamille>Chaput</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48731ac" lang="fr" ordseq="18" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="745" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48731ac.pdf</urlpdf>
+            <pagination>
+              <ppage>20</ppage>
+              <dpage>22</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Festivals</surtitre2>
+                <surtitre3>29<exposant>e </exposant>Festival international du nouveau Cinéma et des nouveaux Médias de Montréal</surtitre3>
+                <titre>La vidéo (numérique) et l’iconoclasme</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Monica</prenom>
+                    <nomfamille>Haïm</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48732ac" lang="fr" ordseq="19" qualtraitement="minimal" typeart="autre">
+            <urlpdf taille="282" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48732ac.pdf</urlpdf>
+            <pagination>
+              <ppage>22</ppage>
+              <dpage>22</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Festivals</surtitre2>
+                <titre>Palmarès</titre>
+              </grtitre>
+            </liminaire>
+          </article>
+          <article idproprio="48733ac" lang="fr" ordseq="20" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="400" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48733ac.pdf</urlpdf>
+            <pagination>
+              <ppage>24</ppage>
+              <dpage>25</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Festivals</surtitre2>
+                <titre>25<exposant>e </exposant>Festival international du film de Toronto</titre>
+                <sstitre>Chercher le film</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Maurice</prenom>
+                    <nomfamille>Elia</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48734ac" lang="fr" ordseq="21" qualtraitement="minimal" typeart="autre">
+            <urlpdf taille="187" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48734ac.pdf</urlpdf>
+            <pagination>
+              <ppage>25</ppage>
+              <dpage>25</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Festivals</surtitre2>
+                <titre>Palmarès</titre>
+              </grtitre>
+            </liminaire>
+          </article>
+          <article idproprio="48735ac" lang="fr" ordseq="22" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="397" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48735ac.pdf</urlpdf>
+            <pagination>
+              <ppage>25</ppage>
+              <dpage>26</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Festivals</surtitre2>
+                <titre>9<exposant>e </exposant>Festival du cinéma international en Abitibi-Témiscamingue</titre>
+                <sstitre>Des courts au loin</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Luc</prenom>
+                    <nomfamille>Chaput</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48736ac" lang="fr" ordseq="23" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="218" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48736ac.pdf</urlpdf> 
+           <pagination>
+              <ppage>26</ppage>
+              <dpage>26</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Festivals</surtitre2>
+                <titre>Palmarès</titre>
+              </grtitre>
+            </liminaire>
+          </article>
+          <article idproprio="48737ac" lang="fr" ordseq="24" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="480" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48737ac.pdf</urlpdf>
+            <pagination>
+              <ppage>26</ppage>
+              <dpage>27</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Festivals</surtitre2>
+                <titre>Image et Nation — Festival international de cinéma gai et lesbien de Montréal</titre>
+                <sstitre>Variations sur un même thème</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Élie</prenom>
+                    <nomfamille>Castiel</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48738ac" lang="fr" ordseq="25" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="270" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48738ac.pdf</urlpdf>
+            <pagination>
+              <ppage>61</ppage>
+              <dpage>61</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Trames sonores</surtitre2>
+                <titre>Les justiciers et les musiciens qui leur font justice</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Sandro</prenom>
+                    <nomfamille>Forte</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48739ac" lang="fr" ordseq="26" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="209" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48739ac.pdf</urlpdf>
+            <pagination>
+              <ppage>62</ppage>
+              <dpage>62</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Scripts</surtitre2>
+                <trefbiblio>
+                  <marquage typemarq="italique">L’Art du film, une introduction</marquage>, David Bordwell et Kristin Thompson, Traduit de l’américain par Cyril Beghin, Collection Arts et Cinéma, Bruxelles : De Boeck Université, 2000, 637 pages</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Carlo</prenom>
+                    <nomfamille>Mandolini</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48740ac" lang="fr" ordseq="27" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="209" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48740ac.pdf</urlpdf>
+            <pagination>
+              <ppage>62</ppage>
+              <dpage>62</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Scripts</surtitre2>
+                <trefbiblio>
+                  <marquage typemarq="italique">L’Organisation de l’espace dans le « Faust » de Murnau</marquage>, Éric Rohmer, Petite bibliothèque des Cahiers du cinéma, Paris : Éditions des Cahiers du cinéma, 2000, 143 pages</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Luc</prenom>
+                    <nomfamille>Chaput</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48741ac" lang="fr" ordseq="28" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="223" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48741ac.pdf</urlpdf>
+            <pagination>
+              <ppage>63</ppage>
+              <dpage>63</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Scripts</surtitre2>
+                <trefbiblio>
+                  <marquage typemarq="italique">Nous autres icitte à l’île : récits poétiques</marquage>, Pierre Perrault Montréal : Éditions de l’Hexagone, 1999, 245 pages</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Carlo</prenom>
+                    <nomfamille>Mandolini</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48742ac" lang="fr" ordseq="29" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="223" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48742ac.pdf</urlpdf>
+            <pagination>
+              <ppage>63</ppage>
+              <dpage>63</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Scripts</surtitre2>
+                <trefbiblio>
+                  <marquage typemarq="italique">Guide vidéo et DVD 2001</marquage>Montréal : Fides, avec la collaboration de La Boîte Noire, 2000, 835 pages</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Élie</prenom>
+                    <nomfamille>Castiel</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48743ac" lang="fr" ordseq="30" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="223" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48743ac.pdf</urlpdf>
+            <pagination>
+              <ppage>63</ppage>
+              <dpage>63</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <surtitre2>Scripts</surtitre2>
+                <trefbiblio>
+                  <marquage typemarq="italique">Voyage au pays du cinéma (La vie parallèle 2)</marquage> André Roy, Préface de Robert Daudelin, postface de Laurent-Michel Vacher, Montréal : Les Herbes rouges, 1999, 390 pages</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Élie</prenom>
+                    <nomfamille>Castiel</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48744ac" lang="fr" ordseq="31" qualtraitement="minimal" typeart="autre">
+            <urlpdf taille="447" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48744ac.pdf</urlpdf>
+            <pagination>
+              <ppage>64</ppage>
+              <dpage>64</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <titre>Mise aux points</titre>
+              </grtitre>
+            </liminaire>
+          </article>   
+       <article idproprio="48745ac" lang="fr" ordseq="32" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="449" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48745ac.pdf</urlpdf>
+            <pagination>
+              <ppage>28</ppage>
+              <dpage>29</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Les films</surtitre>
+                <surtitre2>En couverture</surtitre2>
+                <titre>La veuve de Saint-Pierre</titre>
+                <sstitre>Signes rédempteurs</sstitre>
+                <trefbiblio>
+                  <marquage typemarq="italique">La veuve de Saint-Pierre</marquage>, France / Canada [Québec], 2000,110 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Élie</prenom>
+                    <nomfamille>Castiel</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48746ac" lang="fr" ordseq="33" qualtraitement="minimal" typeart="autre">
+            <urlpdf taille="479" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48746ac.pdf</urlpdf>
+            <pagination>
+              <ppage>29</ppage>
+              <dpage>30</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Les films</surtitre>
+                <surtitre2>En couverture</surtitre2>
+                <titre>D’ennemi en ami</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <contribution typecontrib="aut">Propos recueillis par</contribution>
+                  <nompers>
+                    <prenom>Mathieu</prenom>
+                    <nomfamille>Perreault</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48747ac" lang="fr" ordseq="34" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="441" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48747ac.pdf</urlpdf>
+            <pagination>
+              <ppage>30</ppage>
+              <dpage>31</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Les films</surtitre>
+                <surtitre2>En couverture</surtitre2>
+                <titre>Coproductions</titre>
+                <sstitre>
+                  <marquage typemarq="majuscule">L</marquage>ondres dépasse Paris</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Mathieu</prenom>
+                    <nomfamille>Perreault</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="48748ac" lang="fr" ordseq="35" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="228" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48748ac.pdf</urlpdf>
+            <pagination>
+              <ppage>33</ppage>
+              <dpage>33</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Les films</surtitre>
+                <surtitre2>Critiques</surtitre2>
+                <titre>15 Février 1839</titre>
+                <sstitre>La lutte nécessaire</sstitre>
+                <trefbiblio>
+                  <marquage typemarq="italique">15 Février 1839</marquage>, Canada [Québec] 2000, 114 minutes</trefbiblio>
+              </grtitre>
+            </liminaire>
+          </article>
+          <article idproprio="59219ac" lang="fr" ordseq="36" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="282" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/59219ac.pdf</urlpdf>
+            <pagination>
+              <ppage>34</ppage>
+              <dpage>34</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Les films</surtitre>
+                <surtitre2>Critiques</surtitre2>
+                <titre>Les fantômes des trois Madeleine</titre>
+                <sstitre>Souvenirs et onirisme</sstitre>
+                <trefbiblio>
+                  <marquage typemarq="italique">Les fantômes des trois Madeleine</marquage>, Canada [Québec] 2000, 81 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Charles-Stéphane</prenom>
+                    <nomfamille>Roy</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="59220ac" lang="fr" ordseq="37" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="266" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/59220ac.pdf</urlpdf>
+            <pagination>
+              <ppage>35</ppage>
+              <dpage>35</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Les films</surtitre>
+                <surtitre2>Critiques</surtitre2>
+                <titre>Maelström</titre>
+                <sstitre>Beauté glacée</sstitre>
+                <trefbiblio>
+                  <marquage typemarq="italique">Maelström</marquage>, Canada [Québec] 2000, 86 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Carlo</prenom>
+                    <nomfamille>Mandolini</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="59221ac" lang="fr" ordseq="38" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="266" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/59221ac.pdf</urlpdf>
+            <pagination>
+              <ppage>36</ppage>
+              <dpage>36</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Les films</surtitre>
+                <surtitre2>Critiques</surtitre2>
+                <titre>Possible Worlds</titre>
+                <sstitre>Variations sur un thème difficile</sstitre>
+                <trefbiblio>
+                  <marquage typemarq="italique">Mondes possibles</marquage>, Canada 2000, 93 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Philippe</prenom>
+                    <nomfamille>Théophanidis</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="59222ac" lang="fr" ordseq="39" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="245" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/59222ac.pdf</urlpdf>
+            <pagination>
+              <ppage>37</ppage>
+              <dpage>37</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Les films</surtitre>
+                <surtitre2>Critiques</surtitre2>
+                <titre>In the Mood for Love</titre>
+                <sstitre>Premier film tactile de l’histoire du cinéma</sstitre>
+                <trefbiblio>
+                  <marquage typemarq="italique">In the Mood for Love</marquage>, Hong Kong / France 2000,97 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Maurice</prenom>
+                    <nomfamille>Elia</nomfamille>
+                  </nompers>
+                </auteur>  
+            </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="59223ac" lang="fr" ordseq="40" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="257" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/59223ac.pdf</urlpdf>
+            <pagination>
+              <ppage>38</ppage>
+              <dpage>38</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Les films</surtitre>
+                <surtitre2>Critiques</surtitre2>
+                <titre>Harry, un ami qui vous veut du bien</titre>
+                <sstitre>L’épreuve d’une famille pour sauver sa normalité</sstitre>
+                <trefbiblio>
+                  <marquage typemarq="italique">Harry, un ami qui vous veut du bien</marquage>, France 2000, 117 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Alexandre</prenom>
+                    <nomfamille>Laforest</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="59224ac" lang="fr" ordseq="41" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="249" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/59224ac.pdf</urlpdf>
+            <pagination>
+              <ppage>39</ppage>
+              <dpage>39</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Les films</surtitre>
+                <surtitre2>Critiques</surtitre2>
+                <titre>Shower</titre>
+                <sstitre>Entre deux eaux</sstitre>
+                <trefbiblio>
+                  <marquage typemarq="italique">Xizao</marquage>, Chine 1999, 92 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>André</prenom>
+                    <nomfamille>Habib</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="59225ac" lang="fr" ordseq="42" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="299" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/59225ac.pdf</urlpdf>
+            <pagination>
+              <ppage>40</ppage>
+              <dpage>40</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Les films</surtitre>
+                <surtitre2>Critiques</surtitre2>
+                <titre>Dancer in the Dark</titre>
+                <sstitre>On peut rêver</sstitre>
+                <trefbiblio>
+                  <marquage typemarq="italique">Danser dans le noir</marquage>, Danemark 2000, 139 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Claire</prenom>
+                    <nomfamille>Valade</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="59226ac" lang="fr" ordseq="43" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="268" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/59226ac.pdf</urlpdf>
+            <pagination>
+              <ppage>41</ppage>
+              <dpage>41</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Les films</surtitre>
+                <surtitre2>Critiques</surtitre2>
+                <titre>Les confessions du docteur Sachs</titre>
+                <sstitre>Réjouissantes considérations sur l’humanité</sstitre>
+                <trefbiblio>
+                  <marquage typemarq="italique">La Maladie de Sachs</marquage>, France 1999, 107 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Philippe</prenom>
+                    <nomfamille>Théophanidis</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="59227ac" lang="fr" ordseq="44" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="298" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/59227ac.pdf</urlpdf>
+            <pagination>
+              <ppage>42</ppage>
+              <dpage>42</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Les films</surtitre>
+                <surtitre2>Critiques</surtitre2>
+                <titre>Almost Famous</titre>
+                <sstitre>Temps révolu</sstitre>
+                <trefbiblio>
+                  <marquage typemarq="italique">Presque célèbre</marquage>, États-Unis 2000, 122 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Alexandre</prenom>
+                    <nomfamille>Laforest</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="59228ac" lang="fr" ordseq="45" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="303" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/59228ac.pdf</urlpdf>
+            <pagination>
+              <ppage>43</ppage>
+              <dpage>43</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Les films</surtitre>
+                <surtitre2>Critiques</surtitre2>
+                <titre>Les destinées sentimentales</titre>
+                <sstitre>Irrépressible effritement</sstitre>
+                <trefbiblio>
+                  <marquage typemarq="italique">Les destinées sentimentales</marquage>, France / Suisse 2000, 180 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Dominique</prenom>
+                    <nomfamille>Pellerin</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="59229ac" lang="fr" ordseq="46" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="290" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/59229ac.pdf</urlpdf>
+            <pagination>
+              <ppage>44</ppage>
+              <dpage>44</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Les films</surtitre>
+                <surtitre2>Critiques</surtitre2>
+                <titre>Dr. T and the Women</titre>
+                <sstitre>Une satire légère et généreuse</sstitre>
+                <trefbiblio>
+                  <marquage typemarq="italique">Dr T et les femmes</marquage>, États-Unis 2000, 122 minutes</trefbiblio>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Maurice</prenom>
+                    <nomfamille>Elia</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="59230ac" lang="fr" ordseq="47" qualtraitement="minimal" typeart="autre">
+            <urlpdf taille="290" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/59230ac.pdf</urlpdf>
+            <pagination>
+              <ppage>44</ppage>
+              <dpage>44</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Les films</surtitre>
+                <surtitre2>Critiques</surtitre2>
+                <titre>
+                  <marquage typemarq="italique">Erratum </marquage>
+                </titre>
+              </grtitre>
+            </liminaire>
+          </article>
+          <article idproprio="48749ac" lang="fr" ordseq="48" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="2,6" unite="mo">/culture/erudit/erudit/sequences1081634/sequences1128840/48749ac.pdf</urlpdf>
+            <pagination>
+              <ppage>46</ppage>
+              <dpage>56</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Les films</surtitre>
+                <titre>Vues d’ensemble</titre>
+              </grtitre>
+            </liminaire>
+          </article>
+          <article idproprio="48750ac" lang="fr" ordseq="49" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="649" unite="ko">/culture/erudit/erudit/sequences1081634/sequences1128840/48750ac.pdf</urlpdf>
+            <pagination>
+              <ppage>58</ppage>
+              <dpage>60</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Les films</surtitre>
+                <titre>Coups d’oeil</titre>
+              </grtitre>
+            </liminaire>
+          </article>
+        </sommaire>

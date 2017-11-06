@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+<originator username="jestp27" date="2016-01-18" app="Tournesol 0.4.2"/>
+<copyright>
+	<year>2015</year>
+<contribution>
+<artificialperson>
+	<name>Université Laval</name>
+</artificialperson>
+<contributiontype>
+	<code>droit</code>
+	<label lang="en">Copyright Holder</label>
+	<label lang="fr">Titulaire du droit d'auteur</label>
+	<label lang="es">Titular del derecho de autor</label>
+</contributiontype>
+	<ordering>0</ordering>
+</contribution>
+<copyrightdeclaration>
+	<code>tdr</code>
+	<label lang="en">All Rights Reserved</label>
+	<label lang="fr">Tous droits réservés</label>
+	<label lang="es">Reservados todos los derechos</label>
+</copyrightdeclaration>
+</copyright>
+<publicationnumberingkeys>
+	<publicationtypecode>reg</publicationtypecode>
+	<years>
+		<year value="2015">
+			<periodcode>septe</periodcode>
+			<periodcode>decem</periodcode>
+		</year>
+	</years>
+</publicationnumberingkeys><infosommaire>
+  <url>/revue/cd/2015/v56/n3-4</url>
+  <nbarticle>19</nbarticle>
+  <revue id="cd110" lang="fr">
+    <titrerev>Les Cahiers de droit</titrerev>
+    <titrerevabr>cd</titrerevabr>
+    <idissn>0007-974X</idissn>
+    <idissnnum>1918-8218</idissnnum>
+    <directeur sexe="feminin">
+      <fonction lang="fr">Directrice</fonction>
+      <nompers>
+        <prenom>Sylvette</prenom>
+        <nomfamille>Guillemard</nomfamille>
+      </nompers>
+      <key>directrice</key>
+    </directeur>
+    <redacteurchef idrefs="th1" sexe="feminin" typerc="invite">
+      <nompers>
+        <prenom>Sylvette</prenom>
+        <nomfamille>Guillemard</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+    <redacteurchef idrefs="th1" sexe="masculin" typerc="invite">
+      <nompers>
+        <prenom>Pierre</prenom>
+        <nomfamille>Rainville</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+    <redacteurchef sexe="feminin" typerc="regulier">
+      <fonction lang="fr">Rédactrice en chef</fonction>
+      <nompers>
+        <prenom>Sylvette</prenom>
+        <nomfamille>Guillemard</nomfamille>
+      </nompers>
+      <key>redactriceenchef</key>
+    </redacteurchef>
+  </revue>
+  <numero id="cd02305">
+    <volume>56</volume>
+    <nonumero>3</nonumero>
+    <nonumero>4</nonumero>
+    <pub>
+      <periode>Septembre</periode>
+      <periode>Décembre</periode>
+      <annee>2015</annee>
+    </pub>
+    <pubnum>
+      <date typedate="publication">2015-12-17</date>
+    </pubnum>
+    <grtheme id="th1">
+      <theme>Le silence</theme>
+    </grtheme>
+  </numero>
+  <editeur>
+    <nomorg>Faculté de droit de l’Université Laval</nomorg>
+    <key>editeur</key>
+  </editeur>
+  <droitsauteur>Tous droits réservés © <nomorg>Université Laval</nomorg>, 2015</droitsauteur>
+</infosommaire>
+<article doi="10.7202/1034450ar" idproprio="1034450ar" idref="th1" lang="fr" ordseq="1" qualtraitement="complet" typeart="autre">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034450ar.html</urlhtml>
+  <urlpdf taille="224" unite="ko">/revue/cd/2015/v56/n3-4/1034450ar.pdf</urlpdf>
+  <pagination>
+    <ppage>229</ppage>
+    <dpage>231</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>Présentation</titre>
+      <sstitre>Le silence</sstitre>
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Sylvette</prenom>
+    <nomfamille>Guillemard</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeure, Faculté de droit, Université Laval</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>Pierre</prenom>
+    <nomfamille>Rainville</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeur titulaire, Faculté de droit, Université Laval</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1034451ar" idproprio="1034451ar" idref="th1" lang="fr" ordseq="2" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034451ar.html</urlhtml>
+  <urlpdf taille="1,7" unite="mo">/revue/cd/2015/v56/n3-4/1034451ar.pdf</urlpdf>
+  <urlplan>/revue/cd/2015/v56/n3-4/1034451ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>233</ppage>
+    <dpage>255</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>Briser la loi du silence sur le silence de la loi : de l’interprétation sémantique à l’application pragmatique du droit</titre>
+      
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Stéphane</prenom>
+    <nomfamille>Bernatchez</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeur titulaire, Faculté de droit, Université de Sherbrooke</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>En matière d’interprétation juridique, l’hypothèse du silence de la loi renvoie à l’indétermination sémantique du droit. C’est du moins ainsi que la jurisprudence et la doctrine ont principalement conceptualisé la thèse de l’indétermination, soit en affirmant la primauté du texte législatif sur la règle de droit, et ce, malgré la nécessité de distinguer le texte de la norme. Le présent article réaffirme le nécessaire dépassement de la formulation sémantique de l’indétermination du droit, laquelle doit plutôt être comprise de manière pragmatique. Le problème interprétatif est, dès lors, conçu en insistant sur l’usage du droit plutôt que sur le recours aux règles interprétatives. En cela, le problème de l’indétermination du droit et, corrélativement, celui du silence de la loi sont envisagés en fonction de l’application pragmatique du droit et au-delà de la réponse apportée par l’herméneutique juridique. L’approche pragmatique proposée ici consiste à déplacer l’organisation de la fonction de juger vers d’autres formes de régulation sociale au lieu de la maintenir dans l’opération mentale du juge.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>In the field of legal interpretation, the hypothesis of the silence of the law refers back to the semantic indetermination of the law. This is, at least, how jurisprudence and doctrine have mainly conceptualized the thesis of indetermination, by affirming the primacy of the legislative text over legal rules despite the need to distinguish between the text and the norm. This paper reiterates the need to go beyond a semantic formulation of the indetermination of the law, which must be understood more pragmatically. The interpretative problem is, as a result, defined by emphasizing the use of the law, rather than the recourse to interpretative rules. The problem of the indetermination of the law and, as a corollary, the silence of the law, are considered on the basis of the pragmatic application of the law beyond the response provided by legal hermeneutics. The pragmatic approach proposed here involves moving the organization of judging as a function towards other forms of social regulation, rather than maintaining it as part of a judge’s mental process.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="es"><alinea>En materia de interpretación jurídica, la hipótesis del silencio de la ley remite a la indeterminación semántica del derecho. Es al menos así como la jurisprudencia y la doctrina han conceptualizado principalmente a la tesis de la indeterminación, afirmando la primacía del texto legislativo sobre la regla de derecho, y esto, a pesar de la necesidad de distinguir el texto de la norma.  Este artículo reafirma la necesaria superación de la formulación semántica de la indeterminación del derecho, que más bien tiene que ser comprendida de manera pragmática. Por consiguiente, el problema interpretativo se concibe en la insistencia sobre el uso del derecho, en vez de hacerse sobre el recurso de las reglas interpretativas. En ello, el problema de la indeterminación del derecho y correlativamente al del silencio de la ley, es materia de reflexión en función de la aplicación pragmática del derecho, y aún más allá de la respuesta brindada por la hermenéutica jurídica. El enfoque pragmático que aquí se propone consiste en desplazar la organización de la función de juzgar hacia otras formas de regulación social, en vez de mantenerla en la operación mental del juez.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1034452ar" idproprio="1034452ar" idref="th1" lang="fr" ordseq="3" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034452ar.html</urlhtml>
+  <urlpdf taille="2,2" unite="mo">/revue/cd/2015/v56/n3-4/1034452ar.pdf</urlpdf>
+  <urlplan>/revue/cd/2015/v56/n3-4/1034452ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>257</ppage>
+    <dpage>285</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>Le silence et le procès civil</titre>
+      
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Sylvie</prenom>
+    <nomfamille>Bernigaud</nomfamille>
+   </nompers>
+  <affiliation><alinea>Maître de conférences, habiletée à diriger des recherches (HDR), Université Lumière Lyon 2</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Qu’il soit ou non le reflet d’une stratégie procédurale, le silence est valorisé lorsqu’il s’inscrit dans une optique respectueuse des droits de la défense et du principe du contradictoire. Le Code de procédure civile lui attribue une valeur fonctionnelle qui dépend à la fois de la maîtrise des parties sur le déroulement du procès et de la responsabilité du juge en matière juridictionnelle, concernant la régulation de l’instance. Accepté, toléré ou réprouvé, le silence n’est pas un, mais s’exprime de différentes manières dans le cadre du procès civil, ce qui rend aléatoire toute tentative d’intégration dans telle ou telle catégorie juridique. Il n’est pas pour autant l’expression d’une quelconque anarchie procédurale, la loi encadrant ses différentes manifestations et les effets juridiques qu’elles produisent.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>Silence, whether or not it reflects a procedural strategy, is accepted when it is part of a process that respects the rights of the defence and the adversarial principle. The Code of Civil Procedure assigns it a functional value that depends, first, on the parties’ mastery of the trial process and, second, on the judge’s jurisdictional responsibility for regulating the proceedings. Whether accepted, tolerated or reproved, silence is expressed in various ways during a civil trial, which makes any attempt to incorporate it into a specific legal category a hazardous undertaking. However, this does not mean that it reflects a form of procedural anarchy, since the law structures its various forms and their legal effects.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="es"><alinea>El silencio tiene un valor cuando se circunscribe en un enfoque respetuoso de los derechos de la defensa y del principio de contradicción, independientemente que sea o no el reflejo de una estrategia procesal. El Código de Procedimiento Civil le otorga un valor funcional que depende a la vez de la pericia de las partes en el desarrollo del proceso, y de la responsabilidad del juez en materia jurisdiccional relacionada con la regulación de la instancia. El silencio ha sido aceptado, tolerado, e incluso reprobado, y se expresa de diferentes maneras en el marco del proceso civil, lo cual convierte en aleatoria cualquier tentativa de integración en tal y cual categoría jurídica. No obstante, no es la expresión de una anarquía procesal cualquiera, ya que la ley circunscribe sus diversas manifestaciones y los efectos jurídicos que producen.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1034453ar" idproprio="1034453ar" idref="th1" lang="fr" ordseq="4" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034453ar.html</urlhtml>
+  <urlpdf taille="2,4" unite="mo">/revue/cd/2015/v56/n3-4/1034453ar.pdf</urlpdf>
+  <urlplan>/revue/cd/2015/v56/n3-4/1034453ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>287</ppage>
+    <dpage>318</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>Le droit et l’indicible : les juristes réduits au silence</titre>
+      
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>François</prenom><autreprenom>Colonna</autreprenom>
+    <nomfamille>d’Istria</nomfamille>
+   </nompers>
+  <affiliation><alinea>Maître de conférences, habilité à diriger des recherches (HDR), Université de Franche-Comté</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>L’un des principaux arguments opposés aux juristes pour les convaincre de ce que leur activité dogmatique ne relève pas de la science est tiré de son défaut d’empiricité. La dogmatique ne serait pas scientifique, car lui manquerait un objet empirique. Dans la mesure où elle se caractérise par la théorisation de règles légales ou prétoriennes, elle ne porterait pas sur des faits et toute scientificité devrait, à ce titre, lui être refusée. En ce sens, les juristes seraient enfermés dans une sombre alternative : le silence ou le bavardage ; en toute hypothèse, rien de ce qu’ils pourraient dire ne saurait être pris scientifiquement au sérieux. C’est contre une telle analyse, dont le réalisme issu du positivisme logique est le plus radical représentant, que s’inscrit la présente contribution. Elle se propose d’ouvrir un chemin par lequel les règles travaillées par la doctrine seraient pensées comme des faits, comme une empirie, au même titre que les données issues des sens. Elle prône alors un élargissement du concept de fait, et ce en s’appuyant sur trois instruments conceptuels : la contrainte, la tradition et le signifiant saussurien. En se donnant les moyens épistémologiques de penser la dogmatique comme une science empirique, l’on serait en mesure d’allouer aux juristes une parole qui, tout en leur demeurant propre sans faire de concessions aux points de vue externes, réponde aux critères modernes de la scientificité.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>One of the main arguments used to suggest that jurists’ dogmatic activities are not scientific is based on the fact that the activities are not empiric-in other words, dogmatics is not a science because it has no empirical object. Or again, to the extent that dogmatics involves the theorization of legal or praetorian rules, it does not focus on facts and so should be refused any scientific dimension. This gives jurists an uninspiring choice, between silence and empty chatter. Either way, nothing they have to say will be taken seriously from a scientific point of view. This paper argues against this analysis, most radically presented by the approach to realism derived from logical positivism. Instead, it suggests opening up a new approach, in which the rules defined by the doctrine are considered to be facts, or empirical experiences, just like the information captured by the senses. This requires a broadening of the concept of fact, using three conceptual instruments : constraint, tradition and the Saussurian signifier. By creating the epistemological tools needed to consider dogmatics as an empirical science, jurists can be allocated a right to speak that, while remaining their own and making no concessions to outside points of view, meets the modern criteria for scientificity.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="es"><alinea>Uno de los principales argumentos que se alega en contra de los juristas para convencerlos de que su actividad dogmática no forma parte de la ciencia, proviene de la falta de justificaciones empíricas. La dogmática no sería científica porque le falta un objeto empírico. En la medida en que ésta se caracteriza por la teorización de reglas legales o pretorianas, no trataría sobre los hechos, y por esta razón, debería negársele cualquier cientificidad. En este sentido, los juristas se encontrarían confinados en un vaho alternativo : el silencio o la palabra. En cualquier caso, nada de lo que podrían decir sería considerado como científicamente serio.  La presente contribución se inscribe en contra de un tal análisis, cuyo realismo proviene del positivismo lógico y constituye su representante más radical.  La contribución propone abrir una vía, en la cual las reglas trasformadas por la doctrina estarían concebidas como hechos, como una empírea, al igual que las informaciones provenientes de los sentidos. De igual manera, incita a una ampliación del concepto de hecho, basándose en tres instrumentos conceptuales : la coerción, la tradición y el significante saussureano. Al proporcionarse de los medios epistemológicos para concebir la dogmática como una ciencia empírica, se les podría permitir a los juristas una palabra, que sería propia, que no cedería ante los puntos de vista externos y que respondería a los criterios modernos de la cientificidad.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1034454ar" idproprio="1034454ar" idref="th1" lang="fr" ordseq="5" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034454ar.html</urlhtml>
+  <urlpdf taille="2,7" unite="mo">/revue/cd/2015/v56/n3-4/1034454ar.pdf</urlpdf>
+  <urlplan>/revue/cd/2015/v56/n3-4/1034454ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>319</ppage>
+    <dpage>354</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>Le silence du mis en cause au cours de la phase préparatoire du procès pénal en droit français</titre>
+      
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Carine</prenom>
+    <nomfamille>Copain</nomfamille>
+   </nompers>
+  <affiliation><alinea>Maître de conférences, membre du Laboratoire de recherche sur la personne, Université Catholique de Lyon</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Le silence d’une personne peut faire l’objet de multiples interprétations. L’histoire du procès pénal français en est une illustration. Parfois interprété comme un aveu, le silence du mis en cause au cours de la phase préparatoire du procès pénal a longtemps été rejeté par les autorités pénales françaises. Il a même été régulièrement la source de certaines dérives de leur part. Cependant, il est aujourd’hui toléré, notamment au nom de la dignité humaine. Le droit positif reconnaît même un droit au silence au mis en cause. Toutefois, ce droit est loin d’être absolu à l’heure actuelle. Sa reconnaissance a été hésitante et sa portée reste encore limitée. Quelques évolutions paraissent dès lors nécessaires.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>A person’s silence may be interpreted in a number of different ways, as illustrated in the history of French criminal trials. Sometimes considered an admission of guilt, the accused’s silence during the preparatory phase of a criminal trial was for many years rejected by the French penal authorities, and even led the authorities to overstep their powers regularly. Today it is tolerated, in particular in the name of human dignity. Positive law recognizes the accused’s right to silence. However, this right is still not absolute, and is not always recognized ; it remains of limited scope. Further changes appear to be necessary.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="es"><alinea>El silencio de una persona puede ser objeto de múltiples interpretaciones, la historia del proceso penal francés es un ejemplo. A veces, el silencio del procesado ha sido interpretado como una confesión, y en la fase preparatoria del proceso penal ha sido rechazado durante mucho tiempo por las autoridades penales francesas. Incluso, frecuentemente ha sido la fuente de algunos desvíos por parte de las autoridades. Sin embargo, hoy en día se tolera particularmente fundamentándose en el principio de la dignidad humana. El derecho positivo reconoce inclusive un derecho al silencio por parte del procesado. No obstante, este derecho al silencio del procesado no es considerado como absoluto actualmente. Su reconocimiento ha sido indeterminado, y su alcance es todavía limitado. Entonces, parece necesario que se realicen algunos cambios.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1034455ar" idproprio="1034455ar" idref="th1" lang="fr" ordseq="6" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034455ar.html</urlhtml>
+  <urlpdf taille="2,6" unite="mo">/revue/cd/2015/v56/n3-4/1034455ar.pdf</urlpdf>
+  <urlplan>/revue/cd/2015/v56/n3-4/1034455ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>355</ppage>
+    <dpage>388</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>L’armée française et le secret : contribution à l’étude d’un régime juridique dérogatoire</titre>
+      
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Sandrine</prenom>
+    <nomfamille>Cursoux-Bruyère</nomfamille>
+   </nompers>
+  <affiliation><alinea>Maître de conférences, Université catholique de Lyon</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Le secret, en tant qu’expression du silence, caractérise à la fois l’organisation et l’action de l’armée française. De l’ambiguïté constitutionnelle quant à la répartition des compétences militaires, favorable de fait au chef de l’État, aux multiples régimes dérogatoires qui se combinent — statut des militaires, « secret-défense », actes de gouvernement —, tout conduit à constater que les « secrets militaires » sont bien gardés. Toutefois, s’il apparaît légitime, même dans une société démocratique, de prévoir de tels dispositifs en vue de sauvegarder des intérêts fondamentaux de la nation dans les domaines de la défense, leur recours jugé parfois abusif n’est pas exempt de critique. Le droit s’est donc de plus en plus attaché à en circonscrire l’objet en cherchant à plus concilier les objectifs de liberté, de sécurité et de transparence, ce qui se matérialise notamment par l’instauration de contrôles.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>Secrecy, one of the expressions of silence, is a defining characteristic of both the organization and the actions of the French army. From the constitutional ambiguity surrounding responsibility for military decisions, which in fact favours the Head of State, to multiple, overlapping exemptions - for the status of military personnel, defence secrets, and government actions - everything underlines how well-kept “military secrets” really are. Although, in a democratic society, it is clearly legitimate to create mechanisms to safeguard the fundamental interests of the nation in the realm of defence, the sometimes abusive way in which they are applied leaves room for criticism. The law has increasingly focused on their underlying objectives and sought to better reconcile the goals of freedom, security and transparency, in particular by establishing controls of various kinds.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="es"><alinea>El secreto como expresión del silencio, caracteriza a la vez la organización y la acción del ejército francés. La ambigüedad constitucional en cuanto a la repartición de competencias militares que favorece de hecho al Jefe de Estado, y a los múltiples regímenes derogatorios que se combinan — estatus de los militares, secreto de defensa, actos de gobierno — todo conlleva a constatar que los « secretos militares » están bien protegidos. Sin embargo, si pareciera legítimo prever tales dispositivos, incluso en una sociedad democrática, con el objetivo de salvaguardar los intereses fundamentales de la nación en materia de defensa, su recurso considerado a veces como abusivo, no se encuentra exento de crítica. El derecho está cada vez más limitado a circunscribir el objeto, y busca conciliar más los objetivos de libertad, de seguridad y de transparencia, lo cual se materializa específicamente con la instauración de controles.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1034456ar" idproprio="1034456ar" idref="th1" lang="fr" ordseq="7" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034456ar.html</urlhtml>
+  <urlpdf taille="1,7" unite="mo">/revue/cd/2015/v56/n3-4/1034456ar.pdf</urlpdf>
+  <urlplan>/revue/cd/2015/v56/n3-4/1034456ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>389</ppage>
+    <dpage>410</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>Le silence de l’Administration en droit administratif français</titre>
+      
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Maryse</prenom>
+    <nomfamille>Deguergue</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeure, Université Paris 1, Panthéon-Sorbonne</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Le silence de l’Administration en droit administratif français a fait l’objet d’une récente réforme qui renverse le principe du silence valant rejet de la demande. Alors que le silence est habituellement étudié globalement, il semble qu’il peut être analysé du point de vue de sa signification et du point de vue de son sens. La signification du silence est une fiction d’une décision administrative qui a été prise malgré l’inertie de l’Administration. Le sens du silence s’apparente à une présomption de rejet ou d’acceptation de la demande, selon les époques. Mais le jeu du principe et des exceptions est obscurci par la succession des textes, à tel point qu’ils se distinguent difficilement. Sous ces deux acceptions du silence, la réforme, présentée comme simplificatrice et favorable aux administrés, est empreinte de complexité et de contradictions.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>In French administrative law, a recent reform has addressed the question of administrative silence, reversing the previous principle that silence equates to the rejection of an application. While silence is generally examined as a whole, it appears that it can be analyzed in terms of its signification and meaning. The signification of silence is that of a fictitious administrative decision made despite the administration’s inertia. The meaning of silence is similar to a presumption that an application has been rejected or accepted, depending on the era concerned. However, the effect of the principle and its exceptions is obscured by the succession of texts, making them hard to distinguish. In terms of the two acceptations of silence, the reform, despite being presented as a simplification that works in favour of applicants, is in fact both complex and contradictory.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="es"><alinea>El silencio de la administración en el derecho administrativo francés ha sido objeto de una reforma reciente, que ha revertido el principio del silencio que equivalía a un rechazo de la demanda. Puesto que generalmente el silencio ha sido estudiado de manera global, pareciera que podría ser analizado desde el punto de vista de su significado y desde el punto de vista de su sentido. El significado del silencio es una ficción de una decisión administrativa que ha sido tomada a pesar de la inercia de la administración. El sentido del silencio se asemeja a una presunción de rechazo o de aceptación de la demanda, dependiendo de las épocas. Pero el juego del principio y de las excepciones se ha empañado por la sucesión de textos, a un punto tal que difícilmente se pueden distinguir. Bajo estas dos acepciones del silencio, la reforma que ha sido presentada como simplificadora y favorable hacia los administrados, está llena de complejidad y de contradicciones.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1034457ar" idproprio="1034457ar" idref="th1" lang="fr" ordseq="8" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034457ar.html</urlhtml>
+  <urlpdf taille="2,8" unite="mo">/revue/cd/2015/v56/n3-4/1034457ar.pdf</urlpdf>
+  <urlplan>/revue/cd/2015/v56/n3-4/1034457ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>411</ppage>
+    <dpage>446</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>Le silence des textes constitutionnels canadiens - expression d’une constitution encore inachevée</titre>
+      
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Dave</prenom>
+    <nomfamille>Guénette</nomfamille>
+   </nompers>
+  <affiliation><alinea>Étudiant au doctorat en droit à l’Université Laval et à l’Université catholique de Louvain</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>À travers le prisme de la thématique du silence, l’auteur propose d’étudier la nature incomplète et l’état de désuétude de la Constitution canadienne. La conception du silence élaborée dans sa démonstration dépasse le simple mutisme, le vide ou l’omission pour s’étendre au « malaise » et à l’« hypocrisie » constitutionnelle. C’est à l’aide de cette conception, et en se basant sur la théorie des <marquage typemarq="italique">constitutional</marquage> abeyances, que l’auteur veut démontrer que la Constitution canadienne regorge de silences substantiels, témoignant ainsi de son inachèvement. L’origine et les conséquences de ces silences qui transcendent l’ordre constitutionnel canadien sont également un objet d’analyse. Plus généralement, l’auteur critique aussi le rôle que joue la formule d’amendement dans le maintien du silence constitutionnel au Canada.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>Through the prism of the “silence” theme, the author reviews the incomplete and obsolete nature of the Canadian Constitution. The notion of silence used here goes beyond a simple failure to speak, or the absence or omission of information, to extend to constitutional “awkwardness” and “hypocrisy”. Using this approach, along with the theory of constitutional abeyance, the author shows that the Canadian Constitution contains many examples of substantive silence that reflect its incomplete state. The origin and consequences of these silences that transcend the Canadian constitutional order are also analyzed. More generally, the author criticizes the role played by the amending formula in maintaining constitutional silence in Canada.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="es"><alinea>A través del prisma de la temática del silencio, el autor propone el estudio de la naturaleza incompleta y el estado de desuso de la Constitución canadiense. La concepción del silencio desarrollada en esta demostración supera el simple mutismo, el vacío o la omisión, para franquear hacia el « malestar » y hacia la « hipocresía » constitucional. Con este concepto y con la teoría de las constitutional abeyances, el autor quiere demostrar que en la Constitución canadiense abundan silencios substanciales que testifican así, su inconclusión. En este estudio, se analizan tanto el origen como las consecuencias de estos silencios, que trascienden en el orden constitucional canadiense. De manera general, el autor critica igualmente el rol que juega la fórmula de la enmienda en la preservación del silencio constitucional en Canadá.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1034458ar" idproprio="1034458ar" idref="th1" lang="fr" ordseq="9" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034458ar.html</urlhtml>
+  <urlpdf taille="1,5" unite="mo">/revue/cd/2015/v56/n3-4/1034458ar.pdf</urlpdf>
+  <urlplan>/revue/cd/2015/v56/n3-4/1034458ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>447</ppage>
+    <dpage>466</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>Effectivité du droit à l’exécution forcée du créancier et silence des personnes légalement requises</titre>
+      
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Anne</prenom>
+    <nomfamille>Leborgne</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeure, Faculté de droit, Aix-Marseille Université</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Les procédures civiles d’exécution françaises, profondément réformées à la fin du <marquage typemarq="petitecap">xx</marquage><exposant>e</exposant> siècle et codifiées de manière autonome depuis 2012, réglementent les voies de droit permettant au créancier de contraindre son débiteur défaillant à exécuter ses obligations à son égard. S’il n’était pas interdit d’espérer une participation de ce débiteur à la mesure engagée, le silence de ce dernier ne pouvait pénaliser le créancier porteur d’un titre exécutoire, et c’est donc une collaboration active de tous les tiers que les auteurs de la réforme ont instaurée. Le silence de ces derniers, et spécialement celui des tiers entre les mains desquels une saisie est engagée, est ainsi sévèrement sanctionné.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>Civil procedure in France in the area of forced execution was extensively reformed in the late 20<exposant>th</exposant> century and separately codified in 2012. It regulates the legal tools that can be used by a creditor to force a debtor in default to settle his or her obligation. Although it was still hoped that the debtor would participate in the process, the debtor’s silence could not be allowed to penalize a creditor holding an enforceable title, and so the authors of the reform introduced a process requiring all third parties to play an active role. The silence of these third parties, especially if they hold property that can be seized, is severely sanctioned.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="es"><alinea>Los procedimientos civiles de ejecución franceses fueron reformados considerablemente a fines del siglo XX, y han sido codificados de manera autónoma desde el año 2012. Estos reglamentan las vías de derecho, y le permiten al acreedor obligar al deudor en mora para que ejecute las obligaciones contraídas a su favor. Si no estuviera prohibido esperar una participación por parte del deudor en el procedimiento incoado, el silencio de éste último no podría penalizar al acreedor poseedor de un título ejecutorio. Los autores de la reforma han instaurado entonces una colaboración activa por parte de todos los terceros. Se sanciona severamente el silencio de estos últimos, y de manera más específica, el de terceros entre cuyas manos se procede a un embargo.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1034459ar" idproprio="1034459ar" idref="th1" lang="fr" ordseq="10" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034459ar.html</urlhtml>
+  <urlpdf taille="1,8" unite="mo">/revue/cd/2015/v56/n3-4/1034459ar.pdf</urlpdf>
+  <urlplan>/revue/cd/2015/v56/n3-4/1034459ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>467</ppage>
+    <dpage>489</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>La « quérulence processive » : vacarme, silence ou parole ?</titre>
+      
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Benjamin</prenom>
+    <nomfamille>Lévy</nomfamille>
+   </nompers>
+  <affiliation><alinea>Psychologue clinicien, doctorant en philosophie des sciences, Université Diderot - Paris 7 et Université Descartes - Paris 5, Sorbonne Paris Cité</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>L’auteur aborde la question de la quérulence processive en s’appuyant sur le témoignage de plusieurs sujets ayant été qualifiés de quérulents. En leur donnant la parole, il essaie de déterminer en quoi le bruit qu’ils causent répond au silence du droit à leur égard et cherche à mieux comprendre les enjeux de leurs requêtes incessantes. Enfin, il tente de déterminer s’il est possible de changer le vacarme de leurs multiples revendications en un discours auquel le droit serait susceptible de répondre.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>Based on interviews with several persons described as “querulous”, the author tackles the issues raised by “querulous-litigiousness”. By giving these people a voice, he endeavours to discover how the noise they make constitutes a reply to the law’s silence in their regard, and also to better understand what is at stake when they file their numberless petitions. Finally, he asks whether it is possible to transform the roar of their numerous claims into a way of speaking that the law can answer.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="es"><alinea>El autor aborda el tema de la querella procesal basándose en los testimonios de varios declarantes que han sido calificados como querellantes recurrentes. Otorgándoles la palabra, se indaga cómo el ruido que estas personas producen responde al silencio del derecho hacia ellos. Asimismo, se trata de comprender mejor los motivos de sus exigencias incesantes. Finalmente, el autor intenta determinar si es posible cambiar el vocerío de sus múltiples reivindicaciones en un discurso que el derecho podría responder.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1034460ar" idproprio="1034460ar" idref="th1" lang="fr" ordseq="11" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034460ar.html</urlhtml>
+  <urlpdf taille="2,5" unite="mo">/revue/cd/2015/v56/n3-4/1034460ar.pdf</urlpdf>
+  <urlplan>/revue/cd/2015/v56/n3-4/1034460ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>491</ppage>
+    <dpage>524</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>Le silence du défendeur dans le procès international : paroles de droit judiciaire européen</titre>
+      
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Séverine</prenom>
+    <nomfamille>Menétrey</nomfamille>
+   </nompers>
+  <affiliation><alinea>Assistante-professeure de droit judiciaire privé, Faculté de droit, d’économie et de finance, Université du Luxembourg</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>Vincent</prenom>
+    <nomfamille>Richard</nomfamille>
+   </nompers>
+  <affiliation><alinea><marquage typemarq="italique">Research fellow</marquage>, Institut Max Planck de droit procédural international et européen du Luxembourg</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Le silence du défendeur dans le procès international est une hypothèse fréquente qui soulève des difficultés théoriques et pratiques pendant le procès, mais aussi en amont et en aval. L’équilibre entre la protection des droits de la défense et le droit d’agir du demandeur de bonne foi est particulièrement délicat en droit international privé judiciaire. Le droit judiciaire européen, tel qu’il se dessine dans différents instruments (notamment le <marquage typemarq="italique">Règlement (CE) n<exposant>o</exposant> 44/2001 du Conseil du 22 décembre 2000 concernant la compétence judiciaire, la reconnaissance et l’exécution des décisions en matière civile et commerciale</marquage> mais aussi le <marquage typemarq="italique">Règlement (CE) n<exposant>o</exposant> 805/2004 du Parlement européen et du Conseil du 21 avril 2004 portant création d’un titre exécutoire européen pour les créances incontestées</marquage>), apporte un éclairage intéressant. La protection du défendeur silencieux a été très tôt affirmée par la Cour de justice, mais se dessine progressivement un droit judiciaire au service du demandeur de bonne foi.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>The silence of the defendant in an international trial is a frequent occurrence that raises theoretical and practical problems during, but also before and after, the trial. It is especially hard, in private international judicial law, to strike a balance between protection for the defendant’s rights, and the right to act of a plaintiff in good faith. European judicial law, as set out in various instruments (including Regulation (EC) 44/2001 of 22 December 2000 on jurisdiction and the recognition and enforcement of judgment, in civil and commercial matters and Regulation (EC) 805/2004 of 21 April 2004 creating a European Enforcement Order for uncontested claims), sheds some interesting new light on the question. Protection for a silent defendant was a principle stated early on by the Court of Justice, but a judicial right supporting a plaintiff in good faith has gradually begun to emerge.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="es"><alinea>El silencio del demandado en el proceso internacional es una hipótesis frecuente que ha planteado dificultades tanto teóricas como prácticas antes, durante y después del proceso. El equilibrio entre la protección de los derechos de la defensa, y el derecho de acción del demandante de buena fe es un tema particularmente delicado en derecho internacional privado judicial. El derecho judicial europeo, tal y como se delinea actualmente en los diferentes mecanismos (particularmente el Reglamento (CE) nro. 44/2001 del Consejo de 22 de diciembre de 2000, relativo a la competencia judicial, el reconocimiento y la ejecución de resoluciones judiciales en materia civil y mercantil, e igualmente el Reglamento (CE) Nro. 805/2004 del Parlamento Europeo y del Consejo de 21 de abril de 2004 por el que se establece un título ejecutivo europeo para créditos no impugnados) ha aportado una aclaratoria interesante. La protección del demandado silencioso ha sido afirmada anticipadamente por la Corte de Justicia ; sin embargo, se ha esbozado de forma progresiva un derecho judicial al servicio del demandante de buena fe.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1034461ar" idproprio="1034461ar" idref="th1" lang="fr" ordseq="12" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034461ar.html</urlhtml>
+  <urlpdf taille="1,4" unite="mo">/revue/cd/2015/v56/n3-4/1034461ar.pdf</urlpdf>
+  <urlplan>/revue/cd/2015/v56/n3-4/1034461ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>525</ppage>
+    <dpage>543</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>Le silence de l’administration française : ambitions et limites de la Loi du 12 novembre 2013</titre>
+      
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Majolaine</prenom>
+    <nomfamille>Monot-Fouletier</nomfamille>
+   </nompers>
+  <affiliation><alinea>Docteure en droit, maître de conférences, Université catholique de Lyon</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Le silence de la puissance publique est une forme d’expression, un signifiant qui révèle une intention dans la mesure où le droit positif entend manifester et traduire le sens ce langage en creux. Traditionnellement, ce silence en droit français vaut refus. La loi du 12 novembre 2013, tout en réaffirmant la volonté du droit positif de donner sens au silence de la puissance publique, a décidé d’en changer le contenu et d’en faire une acceptation. Au-delà de l’aspect technique de cette réforme, il est essentiel d’en comprendre la portée quant aux droits des citoyens qu’elle entend protéger et d’appréhender son impact, discutable, sur la place de l’intérêt général dans l’organisation sociale. Le législateur en a pris conscience, en proclamant en réalité un principe paradoxalement résiduel au regard des exceptions multiples dont il fait et fera l’objet lorsque le texte sera totalement entré en vigueur, en novembre 2015.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>The silence of the public authorities is a form of expression that signals an intent, to the extent that the positive law intends to make manifest and translate the meaning of this absence of language. Traditionally, this form of silence in French law was equivalent to a refusal. The Act of November 12, 2013, while reaffirming the intention of the positive law to give meaning to the silence of the public authorities, decided to reverse its thrust and to make it an acceptance. It is essential to understand, in addition to the technical aspects of the reform, its impact on the rights of citizens it is designed to protect, as well as its questionable impact on the role of the general interest in social organization. The legislator is aware of this, and has in fact introduced a paradoxically residual principle concerning the multiple exceptions that will be specified when the Act takes full effect in November 2015.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="es"><alinea>El silencio del poder público es una forma de expresión, un significante que revela una intención en la medida en la que el derecho positivo trata de manifestar y traducir el sentido de este lenguaje específico. Tradicionalmente, este silencio en el derecho francés equivale al rechazo. La ley del 12 de noviembre de 2013 ha reafirmado la voluntad del derecho positivo de otorgar un sentido al silencio del poder público, y es por ello que ha decidido cambiar el contenido y concebir una aceptación. Más allá del aspecto técnico de esta reforma, es esencial comprender el alcance, en lo que se refiere a los derechos de los ciudadanos que dicha ley trata de proteger ; de igual manera comprender su impacto, el cual sería discutible en el lugar del interés general de la organización social. El legislador ha tomado consciencia al proclamar en realidad a un principio paradoxalmente residual, en consideración de las excepciones múltiples de las cuales es y será el objeto, cuando el texto habrá entrado en vigencia en el mes de noviembre de 2015.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1034462ar" idproprio="1034462ar" idref="th1" lang="fr" ordseq="13" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034462ar.html</urlhtml>
+  <urlpdf taille="2,2" unite="mo">/revue/cd/2015/v56/n3-4/1034462ar.pdf</urlpdf>
+  <urlplan>/revue/cd/2015/v56/n3-4/1034462ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>545</ppage>
+    <dpage>574</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>L’inaction en tant que modalité de l’<marquage typemarq="italique">actus reus</marquage> en droit criminel économique canadien</titre>
+      
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Mario</prenom>
+    <nomfamille>Naccarato</nomfamille>
+   </nompers>
+  <affiliation><alinea>Avocat et professeur, Faculté de droit, Université Laval</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>L’auteur étudie et analyse les solutions élaborées par la jurisprudence canadienne en matière de crimes économiques au sujet de la possibilité de déclarer un individu coupable d’une infraction à titre d’auteur réel et à titre de complice en raison de son comportement passif. La jurisprudence de droit pénal général a créé quatre catégories d’omissions qui peuvent engager la responsabilité criminelle. Dans son article, l’auteur propose d’ajouter une autre catégorie d’infractions, soit lorsque l’inaction d’une personne est susceptible d’engager sa responsabilité criminelle : c’est alors l’inaction contraire à une obligation d’agir en vertu du droit privé et en vertu des lois particulières.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>The author studies and analyzes the solutions found in Canadian jurisprudence on economic crime concerning the possibility of finding an individual guilty of an offence as principal or accessory on the grounds of passive behaviour. Jurisprudence in the field of general penal law allows for four categories of omission that engage a person’s criminal liability. In this article, the author proposes the creation of a fifth category, engaging a person’s criminal liability as the result of inaction despite an obligation to act under private law or under specific legislation.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="es"><alinea>El autor ha realizado un estudio y un análisis de las soluciones aportadas por la jurisprudencia canadiense en materia de delitos económicos, particularmente sobre la posibilidad de declarar culpable a un individuo por ser el autor de la comisión de un delito, y ser declarado culpable por cómplice debido a su comportamiento pasivo. La jurisprudencia del derecho penal general ha concebido cuatro categorías de omisión susceptibles de acarrear la responsabilidad penal. En este artículo, el autor propone que se añada una quinta categoría de infracciones : la inacción de una persona, hecho susceptible de acarrear su responsabilidad penal. Se trata de la inacción contraria a una obligación de actuar de conformidad con el derecho privado y con arreglo a leyes especiales.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1034463ar" idproprio="1034463ar" idref="th1" lang="fr" ordseq="14" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034463ar.html</urlhtml>
+  <urlpdf taille="3" unite="mo">/revue/cd/2015/v56/n3-4/1034463ar.pdf</urlpdf>
+  <urlplan>/revue/cd/2015/v56/n3-4/1034463ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>575</ppage>
+    <dpage>613</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>Quelques réflexions sur le silence et le droit : essai de systématisation</titre>
+      
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Marcel</prenom><autreprenom>Urbain</autreprenom>
+    <nomfamille>Ngah Noah</nomfamille>
+   </nompers>
+  <affiliation><alinea>Assistant, Faculté des sciences juridiques et politiques, Université de Douala</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Le silence côtoie indiscutablement le droit. Il s’agit d’un couple en interaction. Le silence saisit le droit à travers les silences du droit. Ces silences, justifiés par plusieurs raisons, sont protéiformes et source d’incertitude. Le droit essaie tant bien que mal de les combler quand il ne les génère pas lui-même. Par ailleurs, le droit appréhende le silence en tentant de le juridiciser. Entreprise perceptible à travers non seulement le droit au silence, mais aussi par l’imposition ou l’interdiction du silence selon les cas. Constatant la présence du silence, le droit l’interprète en lui octroyant ou non une portée juridique.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>Silence is clearly a close companion to the law — the pair constantly interact. Silence appears through gaps in the law. The gaps, justified by a variety of reasons, are protean and, as a source of uncertainty, the law attempts to fill even those it does not generate. The law deals with silence by attempting to define it in legal terms. This can be seen not only in the right to remain silent, but also when the law requires or prohibits silence in various cases. In the presence of silence, the law interprets it by granting or denying it a legal effect.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="es"><alinea>El silencio se relaciona indiscutiblemente con el derecho, se trata de una pareja en interacción. El silencio recurre al derecho a través de los silencios del derecho, que son polifacéticos y se justifican por diversas razones. Son fuentes ambiguas, que el derecho trata bien que mal de colmar cuando no las produce él mismo. Por su parte, el derecho recurre al silencio y trata de normalizarlo. Esto constituye una tarea que se puede percibir no solamente a través del derecho al silencio, sino también a través de la imposición o de la prohibición del silencio según el caso. Al constatar la presencia del silencio, lo interpreta confiriéndole o no una trascendencia jurídica.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1034464ar" idproprio="1034464ar" idref="th1" lang="fr" ordseq="15" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034464ar.html</urlhtml>
+  <urlpdf taille="4,6" unite="mo">/revue/cd/2015/v56/n3-4/1034464ar.pdf</urlpdf>
+  <urlplan>/revue/cd/2015/v56/n3-4/1034464ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>615</ppage>
+    <dpage>676</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>Volonté interne et for intérieur : le silence et l’inaction en guise d’outils interprétatifs du contrat</titre>
+      
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Pierre</prenom>
+    <nomfamille>Rainville</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeur titulaire, Faculté de droit, Université Laval</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Ni insondable ni impénétrable, le silence ne possède pas d’ambiguïté consubstantielle. À l’encontre de la thèse de son inexpressivité, le présent article dévoile la juridicité du silence au stade de l’interprétation du contrat. À défaut d’avoir été exprimée avec toute l’éloquence voulue au moment de la formation du contrat, la volonté contractuelle peut apparaître lors de sa phase d’exécution. La passivité possède, à cet égard, un vaste registre expressif (défaut de démenti, absence de protestation, inexécution prolongée, tardivité d’une réclamation…) de nature à seconder l’interprète du contrat. La teneur des obligations et les modalités du contrat peuvent se loger dans une attitude passive : par le jeu du non-dit, le contrat prend alors peu à peu forme. Fidèle au primat de la volonté interne des parties, la portée interprétative confiée au silence se destine à la compréhension intime de l’accord. Trois méthodes d’interprétation contractuelle se font soudainement complémentaires : la recherche subjective de la volonté, l’interprétation fondée sur la bonne foi et celle axée sur le respect des attentes légitimes des parties sont tour à tour interpellées et confortées par l’étude du silence du contractant.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>Silence is neither unfathomable nor impenetrable - it has no consubstantial ambiguity. To counterbalance the argument that silence lacks significance, this article discloses the juridical relevance of silence as it applies to the interpretation of contracts. A contractual intention may, unless it has been expressed with sufficient certainty when the contract is formed, appear only when the agreement is being performed. Passivity has, from this point of view, a broad expressive range (lack of denial, absence of protest, extended non-performance, lateness of claim, etc.) that facilitates the agreement’s interpretation. The scope of the obligations and the terms and conditions of the contract may be evidenced through silence or inaction : the contract gradually takes shape through what is left unsaid. Based on the principle that the parties’ internal will is paramount, the interpretative role of silence offers an internal look on the agreement’s contours. The use of silence as an interpretative tool brings together three methods of contractual interpretation that are generally seen as distinct : the subjective search for intention, interpretation based on good faith, and interpretation based on the parties’ legitimate expectations are all involved when silence is given an interpretative role.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="es"><alinea>El silencio no es inescrutable, ni es arcano, y tampoco posee una ambigüedad consustancial. A pesar de la tesis de su inexpresividad, el presente artículo revela la juridicidad del silencio en el estado de la interpretación del contrato. A falta de haberse expresado con la elocuencia debida al momento de la formación del contrato, la voluntad contractual puede surgir en la fase de la ejecución. En este sentido, la pasividad posee un vasto registro expresivo (a falta de que sea desmentido, en ausencia de protesta, por inejecución prolongada, por tardanza para realizar un reclamo, etc.) para secundar al intérprete del contrato. Los términos de las obligaciones, y las modalidades del contrato pueden encontrarse en una actitud pasiva a través del juego de lo no expresado ; así, el contrato va tomando forma poco a poco. Fiel a la primacía de la voluntad interna de las partes, el alcance interpretativo confiado al silencio se destina a la comprensión íntima del acuerdo. Entonces, tres métodos de interpretación contractual se vuelven inesperadamente complementarios : la búsqueda subjetiva de la voluntad, la interpretación basada en la buena fe, y aquel que se enfoca en el respeto de las aspiraciones legítimas de las partes que son, a su vez, interpeladas y respaldadas por el estudio del silencio del contratante.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1034465ar" idproprio="1034465ar" idref="th1" lang="fr" ordseq="16" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034465ar.html</urlhtml>
+  <urlpdf taille="2,3" unite="mo">/revue/cd/2015/v56/n3-4/1034465ar.pdf</urlpdf>
+  <urlplan>/revue/cd/2015/v56/n3-4/1034465ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>677</ppage>
+    <dpage>706</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>Le silence au service de la production juridictionnelle du droit : méthodes et politiques des juridictions ordinaires françaises</titre>
+      
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Benjamin</prenom>
+    <nomfamille>Ricou</nomfamille>
+   </nompers>
+  <affiliation><alinea>Maître de conférences en droit public, Université du Maine, Faculté de droit, Le Mans, Laboratoire Thémis-Um (E.A. 4333)</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Bien qu’il intervienne dans un système légaliste, le juge ordinaire français dispose d’un pouvoir normatif important. Un tel pouvoir est légitimé par le silence du législateur : tout système juridique étant inévitablement lacunaire, le juge est contraint, pour éviter le déni de justice, de procéder au comblement des lacunes existantes malgré l’interdiction qui lui est faite de se prononcer par voie de disposition générale sur les causes qui lui sont soumises. La création juridictionnelle du droit se fait elle-même de façon plus ou moins silencieuse, qu’il s’agisse de combler une lacune ou non. Parfois mal à l’aise avec son pouvoir normatif, inquiet de trop empiéter sur les terres du législateur et soucieux d’une diffusion efficace de la règle, le juge utilise alors des méthodes et des politiques juridictionnelles de fabrication du droit plus ou moins silencieuses.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>In France, ordinary judges wield an important normative power, even though they work within a legalistic system. Their power is legitimized by legislative silence—since any legal system is inevitably incomplete, judges must fill the gaps in order to avoid a denial of justice, despite the fact that they are prohibited from ruling in general terms on the cases brought before them. The judicial creation of law is more or less hidden, whether or not it is triggered by the existence of a gap. Judges, sometimes uncomfortable with their normative power, unwilling to encroach too far into legislative territory, and concerned about the effective dissemination of their rules, use judicial methods and policies to manufacture law that remain largely hidden.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="es"><alinea>Si bien el juez francés en materia ordinaria interviene en un sistema legalista, éste dispone de un poder normativo importante. Dicho poder ha sido legitimado por el silencio del legislador, ya que en todo sistema jurídico en el cual inevitablemente existen lagunas, el juez está obligado a decidir para evitar la denegación de justicia. El juez debe colmar tales lagunas, a pesar de la interdicción que tiene para pronunciarse a través de las disposiciones generales de las causas que le han sido presentadas. La creación jurisdiccional del Derecho se forma por sí misma, generalmente con discreción, independientemente de que se trate de colmar una laguna o no. A veces, el poder normativo del juez lo coloca en una situación incómoda, pues le preocupa tener que intervenir en el área de competencia del legislador, y velar por una difusión eficaz de la regla. El juez emplea métodos y políticas jurisdiccionales de fabricación de Derecho más o menos discretas.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1034466ar" idproprio="1034466ar" idref="th1" lang="fr" ordseq="17" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034466ar.html</urlhtml>
+  <urlpdf taille="2" unite="mo">/revue/cd/2015/v56/n3-4/1034466ar.pdf</urlpdf>
+  <urlplan>/revue/cd/2015/v56/n3-4/1034466ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>707</ppage>
+    <dpage>732</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>L’indemnisation des victimes d’actes criminels et l’impossibilité psychologique d’agir : une réforme à deux vitesses</titre>
+      
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Mathilde</prenom>
+    <nomfamille>Valentini</nomfamille>
+   </nompers>
+  <affiliation><alinea>Avocate, étudiante de deuxième cycle en droit, Université du Québec à Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>L’article qui suit explore le traitement réservé aux victimes d’actes criminels qui revendiquent leurs droits à l’extérieur des délais prescrits en invoquant que leur silence est dû à des motifs d’ordre psychologique. Dans un premier temps, l’auteure étudie l’essor de la notion d’impossibilité psychologique d’agir telle qu’elle a été développée par les tribunaux de droit commun comme motif de suspension de la prescription. Dans un deuxième temps, l’auteure examine la manière dont est appliqué l’article 11 de la <marquage typemarq="italique">Loi sur l’indemnisation des victimes d’actes criminels</marquage> par le Tribunal administratif du Québec. Ce dernier a adopté une approche libérale et accepté plusieurs motifs d’ordre psychologique pour renverser la présomption de renonciation prévue dans cette disposition. Dans un troisième temps, enfin, l’auteure critique la récente réforme de 2013, qui a permis une augmentation significative des délais en matière civile, mais s’est contentée d’une prolongation symbolique du délai celui prévu par la <marquage typemarq="italique">Loi sur l’indemnisation des victimes d’actes criminels</marquage>.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>This article explores the treatment meted out to crime victims who miss the prescribed deadlines for asserting their rights, on the basis that they remained silent for psychological reasons. First, the author studies the notion of psychological inability to act, as developed by the ordinary courts as a reason for suspending prescription. Second, she examines how section 11 of the Crime Victims Compensation Act is applied by the Administrative Tribunal of Québec, which has adopted a liberal approach and accepted a range of psychological reasons in order to reverse the presumption that the claimant has renounced his or her rights, as set out in that section. Last, the author criticizes the reform of 2013, which significantly increased the time limits for acting in civil matters, but only extends the deadline in the Crime Victims Compensation Act by a symbolic amount.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="es"><alinea>Este artículo explora el trato reservado a las víctimas de actos criminales que reivindican sus derechos fuera de los lapsos establecidos y que alegan que su silencio se debe a razones de orden psicológico. En un primer momento, la autora estudia el auge de la noción de imposibilidad psicológica para actuar, tal y como ha sido desarrollada por los tribunales de derecho común como motivo de suspensión de la prescripción. Seguidamente, la autora examina la aplicación del artículo 11 de la Loi sur l’indemnisation des victimes d’actes criminels (Ley de Indemnizaciones para las víctimas de actos criminales) por el Tribunal administrativo de Quebec (provincia de Quebec, Canadá). Este último ha adoptado un enfoque liberal, y ha aceptado diversos motivos de orden psicológico para revertir la presunción de renuncia prevista en esta disposición. Finalmente, la autora critica la reciente reforma llevada a cabo en el año 2013, la cual ha permitido un aumento significativo de los lapsos en materia civil, pero que se ha conformado con una prolongación simbólica como la que se ha previsto en la LIVAC - Loi sur l’indemnisation des victimes d’actes criminels - (Ley de Indemnizaciones para las víctimas de actos criminales).</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1034467ar" idproprio="1034467ar" idref="th1" lang="fr" ordseq="18" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034467ar.html</urlhtml>
+  <urlpdf taille="606" unite="ko">/revue/cd/2015/v56/n3-4/1034467ar.pdf</urlpdf>
+  <urlplan>/revue/cd/2015/v56/n3-4/1034467ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>733</ppage>
+    <dpage>740</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>Épilogue</titre>
+      <sstitre>Libres propos sur le silence</sstitre>
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Philippe</prenom>
+    <nomfamille>Jestaz</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeur émérite, Université Paris-Est</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1034468ar" horstheme="oui" idproprio="1034468ar" lang="fr" ordseq="19" qualtraitement="complet" typeart="autre">
+  <urlhtml>/revue/cd/2015/v56/n3-4/1034468ar.html</urlhtml>
+  <urlpdf taille="79" unite="ko">/revue/cd/2015/v56/n3-4/1034468ar.pdf</urlpdf>
+  <pagination>
+    <ppage>741</ppage>
+    <dpage>741</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>Livres reçus</titre>
+      
+     </grtitre>
+</liminaire>
+</article>
+</sommaire>

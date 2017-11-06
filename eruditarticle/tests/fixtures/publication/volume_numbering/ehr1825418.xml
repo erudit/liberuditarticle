@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+<originator username="p0888284" date="2011-12-22" application="Tournesol"/>
+<copyright>
+	<year>2007</year>
+<contribution>
+<artificialperson>
+	<name>Les Éditions Historia Ecclesiæ Catholicæ Canadensis Inc.</name>
+</artificialperson>
+<contributiontype>
+	<code>droit</code>
+	<label lang="fr">Titulaire du droit d'auteur</label>
+	<label lang="en">Copyright Holder</label>
+	<label lang="es">Titular del derecho de autor</label>
+</contributiontype>
+	<ordering>0</ordering>
+</contribution>
+</copyright>
+<publicationnumberingkeys>
+	<publicationtypecode>reg</publicationtypecode>
+	<years>
+		<year value="2007">
+		</year>
+	</years>
+</publicationnumberingkeys><infosommaire>
+  <url>/revue/ehr/2007/v73/n</url>
+  <nbarticle>21</nbarticle>
+  <revue id="ehr122" lang="fr">
+    <titrerev>Études d'histoire religieuse</titrerev>
+    <titrerevabr>ehr</titrerevabr>
+    <idissn>1193-199X</idissn>
+    <idissnnum>1920-6267</idissnnum>
+    <directeur sexe="feminin">
+      <fonction lang="fr">Directrice</fonction>
+      <nompers>
+        <prenom>Lucia</prenom>
+        <nomfamille>Ferretti</nomfamille>
+      </nompers>
+      <key>directrice</key>
+    </directeur>
+  </revue>
+  <numero id="ehr1825418">
+    <volume>73</volume>
+    <pub>
+      <annee>2007</annee>
+    </pub>
+    <pubnum>
+      <date typedate="publication">2011-12-09</date>
+    </pubnum>
+  </numero>
+  <editeur>
+    <nomorg>Société canadienne d'histoire de l'Église catholique</nomorg>
+    <key>editeur</key>
+  </editeur>
+  <droitsauteur> © <nomorg>Les Éditions Historia Ecclesiæ Catholicæ Canadensis Inc.</nomorg>, 2007</droitsauteur>
+</infosommaire>
+<article idproprio="1006564ar" lang="fr" ordseq="1" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="3,5" unite="mo">/revue/ehr/2007/v73/n/1006564ar.pdf</urlpdf>
+  <pagination>
+    <ppage>7</ppage>
+    <dpage>30</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Articles</surtitre>
+                  <titre>La religion, fer de lance de l’aide aux démunis dans la communauté protestante montréalaise au XIX<exposant>e</exposant> siècle et au début du XX<exposant>e</exposant> siècle</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Janice</prenom>
+    <nomfamille>Harvey</nomfamille>
+   </nompers>
+  <affiliation><alinea>Collège Dawson</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Un mélange de devoir chrétien, d’évangélisme et de pensée libérale formait la base sur laquelle reposait le réseau charitable protestant qui s’est graduellement mis en place à Montréal au XIX<exposant>e</exposant> et au début du XX<exposant>e</exposant> siècle. La religion était ainsi au coeur de l’activité des organismes de bienfaisance laïques, et son importance a crû tout au long du XIX<exposant>e</exposant> siècle grâce aux efforts de plus en plus significatifs des Églises protestantes et des protestants évangéliques pour atteindre les pauvres au moyen de l’assistance et de services éducatifs. Cet article jette d’abord un regard général sur ces développements. Puis, on y réserve une attention plus particulière à l’Église anglicane et à l’auberge qu’elle a ouverte pour les immigrants en 1895; enfin, on s’attache au travail de la Old Brewery Mission et de la Welcome Hall Mission, deux missions évangéliques qui ont fourni de l’assistance et porté le message évangélique aux itinérants, aux alcooliques et aux familles pauvres, car leurs missionnaires étaient convaincus que la foi peut sauver des âmes, reconstruire les vies et mettre fin à la pauvreté.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>The social service network that was slowly developing in the XlXth and early XXth centuries in protestant Montreal was influenced by a mixture of Christian duty, evangelism and liberal ideology. Religion was thus key to the work of secular charities, and its importance grew over the century as mainstream Protestant and Evangelical churches increased their efforts to reach the poor and extend aid and educative services. This article will look at these developments in general and then examine, in more detail, the Anglican church's settlement house for immigrants, opened in 1895. The article will also highlight the work of the Old Brewery Mission and the Welcome Hall Mission, two Evangelical organizations whose mission strove to extend relief to the homeless, to alcoholics and to poor families, confident in the power of religion to save souls, change lives and eliminate poverty.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article idproprio="1006565ar" lang="fr" ordseq="2" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="1,8" unite="mo">/revue/ehr/2007/v73/n/1006565ar.pdf</urlpdf>
+  <pagination>
+    <ppage>31</ppage>
+    <dpage>47</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Articles</surtitre>
+                  <titre>Être journaliste catholique au XX<exposant>e</exposant> siècle, un apostolat : les exemples de Jules Dorion et Eugène L’Heureux</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Dominique</prenom>
+    <nomfamille>Marquis</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université du Québec à Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Au XX<exposant>e</exposant> siècle, les journalistes, catholiques ou non, doivent oeuvrer dans un nouveau type de presse. La grande presse d’information est destinée à un public plus vaste et ceux qui y travaillent doivent suivre de nouvelles règles où l’information prime sur l’opinion s’ils veulent maintenir un certain pouvoir d’attraction sur la population. Le journaliste catholique, souvent associé à un personnage très combatif, a-t-il encore un rôle à jouer si l’opinion cède le pas à l’information? Peut-on être journaliste catholique dans un journal devenu média de masse? Cet article s’intéresse au journalisme catholique du XX<exposant>e</exposant> siècle dans la grande presse d’information, plus particulièrement durant la première moitié de ce siècle. Encore considéré comme un apostolat, le journalisme catholique peut prendre plusieurs visages, mais est-il différent de celui exercé au XIX<exposant>e</exposant> siècle? Plusieurs individus sont prêts à d’importants sacrifices pour oeuvrer pour cette cause où catholicisme se conjugue souvent avec nationalisme. Une cause qui apparaît toujours aussi importante. Deux exemples illustreront notre propos : Jules Dorion et Eugène L’Heureux. Le premier dirigera durant plus de trente ans le quotidien L’Action catholique, tandis que le second y sera rédacteur en chef, mais exercera aussi son métier de journaliste dans d’autres médias.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>During the 20th century, journalists, be they Catholic or not, have worked in a new environment. The daily press is now aimed at a larger readership and information is more important than opinion. Do Catholic journalists, usually associated with the struggle for Catholic values, still have roles to play in a press culture where opinion is less important than information? This article is concerned with Catholic journalism during the first half of the 20<exposant>th</exposant> century. Still considered as an apostolic work, Catholic journalism has taken many faces, but it is very different from 19<exposant>th</exposant> century journalism. Many people are ready to make sacrifices for this cause where Catholicism and nationalism are often closely linked together. Jules Dorion and Eugène L’Heureux are two good examples of this new kind of journalism. For more than thirty years, Dorion was the editor of the Catholic daily <marquage typemarq="italique">L’Action catholique</marquage>, while L’Heureux served the same journal as redactor in chief as well as working in a variety of other médias.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article idproprio="1006566ar" lang="fr" ordseq="3" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="1,2" unite="mo">/revue/ehr/2007/v73/n/1006566ar.pdf</urlpdf>
+  <pagination>
+    <ppage>49</ppage>
+    <dpage>60</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Articles</surtitre>
+                  <titre>Être digne de l’<marquage typemarq="italique">Esto Vir</marquage>. Une exploration de la socialisation religieuse chez les acéjistes (1904 - 1931)</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Caroline</prenom>
+    <nomfamille>Manseau</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université de Sherbrooke</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Un des principaux buts de l’Association catholique de la jeunesse canadienne-française (ACJC) était que ses membres deviennent sincèrement et ouvertement de fervents catholiques. Pourtant, durant les premières décennies du XX<exposant>e</exposant> siècle, la démonstration d’une spiritualité profonde chez la jeunesse masculine n’est pas nécessairement valorisée dans la culture populaire. À cet égard, nous profitons de cet article pour présenter quelques aspects du discours et de la pratique acéjiste qui témoignent d’une virilisation de la piété. Par exemple, la pratique religieuse devient une affaire publique, pragmatique et collective. Le recours aux imageries militaires marque également le discours, les membres étant comparés à des soldats, des chevaliers ou des croisés.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>One of the main goals of the Association catholique de la jeunesse canadienne-française (ACJC) was to make its members openly and sincerely become enthusiastic Catholics. Yet, the mentality of the early XXth century did not approve the demonstration of a profound spirituality among young males. In this respect, this article focuses on some of the aspects found in "acejists" discourse and practices that confirm an up growing process of virile piety. For instance, religious practices became public, pragmatic and collective concerns; military metaphors also became widely used to speak of members as soldiers, knights or crusaders.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article idproprio="1006567ar" lang="fr" ordseq="4" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="1,5" unite="mo">/revue/ehr/2007/v73/n/1006567ar.pdf</urlpdf>
+  <pagination>
+    <ppage>61</ppage>
+    <dpage>75</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Articles</surtitre>
+                  <titre>L’implication du clergé et du laïcat dans les ciné-clubs étudiants au Québec, 1949-1970</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Olivier</prenom>
+    <nomfamille>Ménard</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université de Sherbrooke</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>L’article insiste tout particulièrement sur l’implication du clergé et du laïcat dans l’histoire du mouvement des ciné-clubs étudiants au Québec durant les décennies 1950 et 1960. Issus des mouvements d’Action catholique, les ciné-clubs étudiants se sont développés, à l’intérieur de la structure ecclésiale, dans le but de répondre aux problèmes de manque de culture, de préparation déficiente et de sens critique insuffisamment aiguisé en matière de cinéma. L’évolution des ciné-clubs reflète les différentes préoccupations du clergé et du laïcat à l’égard de l’éducation cinématographique au Québec. La présente analyse des rapports entre les clercs et les laïcs, au sein de ces organisations, permet même d’entrevoir le bouillonnement d’idées qui a alors annoncé les profondes transformations qu’allait connaître la société québécoise à partir des années 1960.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>This article focuses on the involvement of Catholic clergy and 
+laity in Quebec's student film society movement of the nineteen fifties and 
+nineteen sixties. Film societies emerged within the Quebec church at this 
+time in order to address young people's lack of culture and absence of critical 
+thinking in regard to film genres. The history of the film society movement in 
+Quebec reflects both clergy and lay concerns with regard to cinematographic 
+education in Quebec. The article argues that underlying this movement were 
+the myriad influences resulting from the period of change that marked the 
+Quiet Revolution.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article idproprio="1006568ar" lang="fr" ordseq="5" qualtraitement="minimal" typeart="note">
+  <urlpdf taille="615" unite="ko">/revue/ehr/2007/v73/n/1006568ar.pdf</urlpdf>
+  <pagination>
+    <ppage>77</ppage>
+    <dpage>82</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Note de recherche</surtitre>
+                  <titre>Sur l’histoire du quotidien et la religion</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Ollivier</prenom>
+    <nomfamille>Hubert</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université de Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>L’histoire du quotidien, sous ses diverses formes, a investi des
+problèmes forts différents selon les époques et les courants. L’histoire
+des mentalités à la française demeurait dans l’abstraction, mais d’autres écoles,
+italienne, allemande ou britannique, proposaient un retour vers l’individu,
+citoyen banal confronté aux multiples et menues exigences de tous les jours.
+L’histoire religieuse québécoise ne fut pas à part de cet élan. Explorant les
+archives qui évoquaient la vie ordinaire des paroisses, elle décrivit une religion
+concrète, inséparable du jeu général de la sociabilité locale. Une seconde
+histoire du quotidien est possible cependant, qui cherche non pas à faire sens
+des événements les plus habituels, mais entend produire une histoire de la
+catégorie et de son incorporation. Il s’agit en fait d’un retour vers la structure
+et son évolution, celle du temps défini, représenté, expérimenté sur le mode
+de la répétition. Dans cette perspective, l’histoire religieuse a également
+beaucoup à apporter.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>Recounting the history of everyday life in its various forms poses 
+different problems in regard to the time period under examination and the 
+scholarly approach being taken. While French "histoire des mentalités" 
+remained on the level of the abstract, other schools - Italian, German and 
+British - returned the emphasis to the individual, the ordinary citizen confronted 
+by the many trivial necessities of everyday life. The telling of Quebec's religious 
+history became part of this social historical trend. Exploring archives which 
+evoked the ordinary life of the parishes, these historians described a concrete 
+religion, inseparable from forms of local sociability. Another kind of history of 
+everyday life is possible, however: one that seeks not to make sense of ordinary 
+events, but to produce a history of the category itself, and of its incorporation. 
+It involves, in fact, a renewed emphasis on structure and its evolution, a history 
+of defined time, represented and experienced through repetition. Taken from 
+this perspective, religious history has much from which to benefit.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article idproprio="1006569ar" lang="fr" ordseq="6" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="522" unite="ko">/revue/ehr/2007/v73/n/1006569ar.pdf</urlpdf>
+  <pagination>
+    <ppage>83</ppage>
+    <dpage>87</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+Michael Gauvreau, <marquage typemarq="italique">The Catholic Origins of Quebec's Quiet Revolution, 1931-1970</marquage>. Montréal/Kingston, McGill-Queen's University Press, 2005, 501 p. 85 $</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Lucie</prenom>
+    <nomfamille>Piché</nomfamille>
+   </nompers>
+  <affiliation><alinea>Historienne, Cégep de Sainte-Foy</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="1006570ar" lang="fr" ordseq="7" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="309" unite="ko">/revue/ehr/2007/v73/n/1006570ar.pdf</urlpdf>
+  <pagination>
+    <ppage>87</ppage>
+    <dpage>89</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+Serge Gagnon, <marquage typemarq="italique">Quand le Québec manquait de prêtres : la charge pastorale au Bas-Canada</marquage>, Sainte-Foy, Les Presses de l’Université Laval, 2006, 426 p. 25 $</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Ollivier</prenom>
+    <nomfamille>Hubert</nomfamille>
+   </nompers>
+  <affiliation><alinea>Département d’histoire, Université de Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="1006571ar" lang="fr" ordseq="8" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="331" unite="ko">/revue/ehr/2007/v73/n/1006571ar.pdf</urlpdf>
+  <pagination>
+    <ppage>90</ppage>
+    <dpage>92</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+J. I. Little,  <marquage typemarq="italique">The Other Quebec. Microhistorical Essays on Nineteenth-Century Religion and Society</marquage>, Toronto, University of Toronto Press, 2006, 278 p. 35 $</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Louis-Georges</prenom>
+    <nomfamille>Harvey</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université Bishop’s</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="1006572ar" lang="fr" ordseq="9" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="431" unite="ko">/revue/ehr/2007/v73/n/1006572ar.pdf</urlpdf>
+  <pagination>
+    <ppage>92</ppage>
+    <dpage>95</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+Guy Laperrière, <marquage typemarq="italique">Les congrégations religieuses. De la France au Québec, 1880-1914</marquage>. Tome 3, <marquage typemarq="italique">Vers des eaux plus calmes, 1905-1914</marquage>, Québec, Les Presses de l’Université Laval, 2005, 732 p. 39 $</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Gilles</prenom>
+    <nomfamille>Routhier</nomfamille>
+   </nompers>
+  <affiliation><alinea>Faculté de théologie et de sciences religieuses, Université Laval</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="1006573ar" lang="fr" ordseq="10" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="311" unite="ko">/revue/ehr/2007/v73/n/1006573ar.pdf</urlpdf>
+  <pagination>
+    <ppage>95</ppage>
+    <dpage>97</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+Paul Laverdure, <marquage typemarq="italique">Sunday in Canada. The Rise and Fall of the Lord's Day</marquage>, Yorkton, Gravelbooks, 2004, xxiii, 253 p. 30 $</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Dominique</prenom>
+    <nomfamille>Marquis</nomfamille>
+   </nompers>
+  <affiliation><alinea>Département d’histoire, Université du Québec à Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="1006574ar" lang="fr" ordseq="11" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="540" unite="ko">/revue/ehr/2007/v73/n/1006574ar.pdf</urlpdf>
+  <pagination>
+    <ppage>98</ppage>
+    <dpage>102</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+Pierre Hébert, Yves Lever et Kenneth Landry, dir., <marquage typemarq="italique">Dictionnaire de la censure au Québec - Littérature et cinéma</marquage>, Montréal, Fides, 2006, 717 p. 55 $</trefbiblio>    <trefbiblio>
+Nicole M. Boisvert et Telesforo Tajuelo, <marquage typemarq="italique">La saga des interdits. La censure cinématographique au Québec</marquage>, Outremont, Libre Expression, 2006, 351 p. Préface de Jean-Claude Robert. 30 $</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Pierre</prenom>
+    <nomfamille>Véronneau</nomfamille>
+   </nompers>
+  <affiliation><alinea>Cinémathèque québécoise</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="1006575ar" lang="fr" ordseq="12" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="466" unite="ko">/revue/ehr/2007/v73/n/1006575ar.pdf</urlpdf>
+  <pagination>
+    <ppage>102</ppage>
+    <dpage>105</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+Pascale Ryan, <marquage typemarq="italique">Penser la nation. La Ligue d’action nationale, 1917-1960</marquage>, Montréal, Leméac Éditeur, 2006, 324 p. 30 $</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Dominique</prenom>
+    <nomfamille>Foisy-Geoffroy</nomfamille>
+   </nompers>
+  <affiliation><alinea><marquage typemarq="italique">Dictionnaire biographique du Canada</marquage></alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="1006576ar" lang="fr" ordseq="13" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="312" unite="ko">/revue/ehr/2007/v73/n/1006576ar.pdf</urlpdf>
+  <pagination>
+    <ppage>105</ppage>
+    <dpage>107</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+Stéphanie Angers et Gérard Fabre. <marquage typemarq="italique">Échanges intellectuels entre la France et le Québec, 1930-2000. Les réseaux de la revue</marquage> Esprit <marquage typemarq="italique">avec</marquage> La Relève, Cité libre, Parti pris<marquage typemarq="italique"> et </marquage>Possibles, Québec, Les Presses de l’Université Laval, 2004, 248 p. 30 $</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Pascale</prenom>
+    <nomfamille>Ryan</nomfamille>
+   </nompers>
+  <affiliation><alinea>Bibliothèque et Archives nationales du Québec</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="1006577ar" lang="fr" ordseq="14" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="299" unite="ko">/revue/ehr/2007/v73/n/1006577ar.pdf</urlpdf>
+  <pagination>
+    <ppage>107</ppage>
+    <dpage>109</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+Esther Delisle et Pierre K. Malouf, <marquage typemarq="italique">Le quatuor d’Asbestos. Autour de la grève de l’amiante</marquage>. Montréal, Les Éditions Varia, Collection « Histoire et Société », 2004, 527 p. 40 $</trefbiblio>    <trefbiblio>
+Suzanne Clavette, <marquage typemarq="italique">Les dessous d’Asbestos. Une lutte idéologique contre la participation des travailleurs</marquage>, Québec, Les Presses de l’Université Laval, 2005, 566 p. 40 $</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Bernard</prenom>
+    <nomfamille>Dansereau</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université du Québec à Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="1006578ar" lang="fr" ordseq="15" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="196" unite="ko">/revue/ehr/2007/v73/n/1006578ar.pdf</urlpdf>
+  <pagination>
+    <ppage>110</ppage>
+    <dpage>111</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                  <titre>Deux évêques se racontent…</titre>
+                    <trefbiblio>
+Robert Lebel, <marquage typemarq="italique">Mon Église que j’aime : ce que j’y ai vécu et ce dont j’ai été témoin</marquage>, Québec, Anne Sigier, 2004, 265 p. 25 $</trefbiblio>    <trefbiblio>
+Napoléon-Alexandre Labrie, <marquage typemarq="italique">Quelques souvenirs (1905-1931)</marquage> et <marquage typemarq="italique">Chronique du diocèse du Golfe Saint-Laurent (1938-1956). Les mémoires d’un pionnier de la Côte-Nord</marquage>, Baie-Comeau, Pierre Frenette, éditeur, Société historique de la Côte-Nord, 2003, 355 p. 20 $</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Nive</prenom>
+    <nomfamille>Voisine</nomfamille>
+   </nompers>
+  <affiliation><alinea>Historien, Rimouski</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="1006579ar" lang="fr" ordseq="16" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="301" unite="ko">/revue/ehr/2007/v73/n/1006579ar.pdf</urlpdf>
+  <pagination>
+    <ppage>111</ppage>
+    <dpage>113</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+Godefroy-C. Dévost, <marquage typemarq="italique">Les deux allégeances d’Anselme Chiasson. Sa vie et son oeuvre</marquage>, Moncton, Centre d’études acadiennes, Université de Moncton, 2006, 387 p. 27 $</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Robert</prenom>
+    <nomfamille>Pichette</nomfamille>
+   </nompers>
+  <affiliation><alinea>Moncton</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="1006580ar" lang="fr" ordseq="17" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="305" unite="ko">/revue/ehr/2007/v73/n/1006580ar.pdf</urlpdf>
+  <pagination>
+    <ppage>113</ppage>
+    <dpage>115</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+Richard Gauthier, <marquage typemarq="italique">Le </marquage>devenir <marquage typemarq="italique">de l’art d’église dans les paroisses catholiques du Québec. Architecture, arts, pratiques, patrimoine (1965-2002)</marquage>, Québec, Les Presses de l’Université Laval, 2005, 183 p. 35 $</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Denise</prenom>
+    <nomfamille>Caron</nomfamille>
+   </nompers>
+  <affiliation><alinea>Historienne, Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="1006581ar" lang="fr" ordseq="18" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="305" unite="ko">/revue/ehr/2007/v73/n/1006581ar.pdf</urlpdf>
+  <pagination>
+    <ppage>115</ppage>
+    <dpage>117</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+Gaétane Dufour, <marquage typemarq="italique">La modernité devient patrimoine. L’église Saint- Thomas-d’Aquin de Saint-Lambert</marquage>, Outremont, Éditions Carte blanche, 2004, 129 p. 20 $</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Denise</prenom>
+    <nomfamille>Caron</nomfamille>
+   </nompers>
+  <affiliation><alinea>Historienne, Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="1006582ar" lang="fr" ordseq="19" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="306" unite="ko">/revue/ehr/2007/v73/n/1006582ar.pdf</urlpdf>
+  <pagination>
+    <ppage>117</ppage>
+    <dpage>119</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+Pierre-Richard Bisson, Mario Brodeur et Daniel Drouin, <marquage typemarq="italique">Cimetière Notre-Dame-des-Neiges</marquage>, Montréal, Henri Rivard Éditeur, 2004, 192 p. 110 $</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Guy</prenom>
+    <nomfamille>Mongrain</nomfamille>
+   </nompers>
+  <affiliation><alinea>Consultant en histoire, Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="1006583ar" lang="fr" ordseq="20" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="293" unite="ko">/revue/ehr/2007/v73/n/1006583ar.pdf</urlpdf>
+  <pagination>
+    <ppage>119</ppage>
+    <dpage>121</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+Jacques Lacoursière, <marquage typemarq="italique">L’Île-des-Soeurs. D’hier à aujourd’hui</marquage>, Montréal, Les Éditions de l’Homme, 2005, 261 p. 25 $</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Joanne</prenom>
+    <nomfamille>Burgess</nomfamille>
+   </nompers>
+  <affiliation><alinea>Département d’histoire, Université du Québec à Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="1006584ar" lang="fr" ordseq="21" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="2,4" unite="mo">/revue/ehr/2007/v73/n/1006584ar.pdf</urlpdf>
+  <pagination>
+    <ppage>B 1</ppage>
+    <dpage>B 32</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>Bibliographie récente d’histoire religieuse du Canada, 2006-2007</titre>  <titreparal lang="en">A Current Bibliography of Canadian Religious History, 2006-2007</titreparal>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1"><contribution typecontrib="aut">Sous la direction de / Under the supervision of</contribution>
+   <nompers>
+    <prenom>Jean-Marie</prenom>
+    <nomfamille>LeBlanc</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université Saint-Paul / Saint Paul University (Ottawa, Ont.)</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au2"><contribution typecontrib="aut">Avec la collaboration de / In collaboration with</contribution>
+   <nompers>
+    <prenom>Guy</prenom>
+    <nomfamille>Laperrière</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université de Sherbrooke (Sherbrooke, Qué.)</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au3">
+   <nompers>
+    <prenom>Jocelyne</prenom>
+    <nomfamille>Murray</nomfamille>
+   </nompers>
+  <affiliation><alinea>Québec</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au4">
+   <nompers>
+    <prenom>Margaret</prenom>
+    <nomfamille>Sanche</nomfamille>
+   </nompers>
+  <affiliation><alinea>St. Thomas More College (Saskatoon, Sask.)</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au5"><contribution typecontrib="aut">Préparée par / Prepared by</contribution><nomorg>Centre de recherche en histoire religieuse du Canada / Research Centre for the Religious History of Canada</nomorg>
+  <affiliation><alinea>Université Saint-Paul / Saint Paul University (Ottawa)</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+</sommaire>

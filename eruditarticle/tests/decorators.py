@@ -25,8 +25,13 @@ def with_value(test_object, method, *args, **kwargs):
     """ Test function decorator that calls the specified method
     on the test_object and pass the value to the test
 
+    All positional and keywords arguments passed to the ``with_value``
+    decorator will be passed to ``method``
+
     :param test_object: the object on which to call the method
     :param method: the method to call
+    :param args: positional arguments to pass to ``method``
+    :param kwargs: keyword arguments to pass to ``method``
     """
     def decorator(func):
         def wrapper(self):

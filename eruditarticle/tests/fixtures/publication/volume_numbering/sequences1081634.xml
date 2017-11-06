@@ -1,0 +1,46 @@
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+          <publicationnumberingkeys>
+            <publicationtypecode>index</publicationtypecode>
+            <years>
+              <year value="1986"/>
+            </years>
+          </publicationnumberingkeys>
+          <infosommaire>
+            <url>/culture/erudit/erudit/sequences1081634/sequences1424464/59507ac/</url>
+            <nbarticle>1</nbarticle>
+            <icone>/logosodep/erudit</icone>
+            <revue id="sequences1081634" lang="fr">
+              <titrerev>Séquences</titrerev>
+              <sstitrerev>La revue de cinéma</sstitrerev>
+              <titrerevabr>sequences</titrerevabr>
+              <idissn>0037-2412</idissn>
+              <idissnnum>1923-5100</idissnnum>
+            </revue>
+            <numero id="sequences1424464">
+              <nonumero>125</nonumero>
+              <pub>
+                <annee>1986</annee>
+              </pub>
+              <pubnum>
+                <date typedate="publication">2010-10-14</date>
+              </pubnum>
+            </numero>
+            <editeur>
+              <nomorg>La revue Séquences Inc.</nomorg>
+              <key>editeur</key>
+            </editeur>
+            <droitsauteur>Tous droits réservés © <nomorg>La revue Séquences Inc.</nomorg>, </droitsauteur>
+          </infosommaire>
+          <article idproprio="59507ac" lang="fr" ordseq="1" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="6,4" unite="mo">/culture/erudit/erudit/sequences1081634/sequences1424464/59507ac.pdf</urlpdf>
+            <pagination>
+              <ppage>1</ppage>
+              <dpage>40</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Index 111 à 125 1983-1986</titre>
+              </grtitre>
+            </liminaire>
+          </article>
+        </sommaire>

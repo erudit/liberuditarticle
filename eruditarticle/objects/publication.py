@@ -1,8 +1,10 @@
-from .base import EruditBaseObject
+from gettext import gettext as _
 import collections
 import re
 import itertools
+from datetime import datetime
 
+from .base import EruditBaseObject
 from .mixins import CopyrightMixin
 from .mixins import ISBNMixin
 from .mixins import ISSNMixin
@@ -71,9 +73,24 @@ class EruditPublication(
         notegen = self.get_itertext('notegen[@typenoteg="edito"]')
         return re.sub('^ | $', '', re.sub(' +', ' ', re.sub('\n', '', notegen)))
 
-    def get_publication_type(self):
-        """ Return the type of this publication """
-        return self.get_text('publicationtypecode')
+    def get_publication_type(self, formatted=False):
+        """ Return the type of this publication
+
+        Return the ``publicationtypecode`` of the Publication object.
+
+        :param formatted: if False, only the publication type code will be returned
+        :returns:
+        """
+        publication_type = self.get_text('publicationtypecode')
+        if formatted:
+            if publication_type == 'supp':
+                return _('supplément')
+            if publication_type == 'index':
+                return _('index')
+            if publication_type == 'hs':
+                return _('hors-série')
+        else:
+            return publication_type
 
     def _find_redacteurchef(self, theme_id, html=False):
         """ Find the redacteurchef for the given theme """
@@ -281,9 +298,18 @@ class EruditPublication(
         originator_node = self.find('originator')
         return originator_node.get('date') if originator_node is not None else None
 
-    def get_publication_date(self):
-        """ :returns: the publication date of the publication object. """
-        return self.get_text('numero//pubnum/date')
+    def get_publication_date(self, as_datetime=False):
+        """ Return the publication date
+        :param as_datetime: return a datetime object. Assumes that the
+        date is formatted as %Y-%m-%d
+
+        :returns: the publication date of the publication object.
+        """
+        publication_date = self.get_text("numero//pubnum/date")
+        if not as_datetime:
+            return publication_date
+        else:
+            return datetime.strptime(publication_date, "%Y-%m-%d")
 
     def get_publication_year(self):
         """ :returns: the publication year of the publication object. """
@@ -303,6 +329,66 @@ class EruditPublication(
     def get_volume(self):
         """ :returns: the volume of the publication object. """
         return self.get_text('numero/volume')
+
+    def get_volume_numbering(self, html=False, abbreviated=False, formatted=False):
+        """ Return the volume title of this publication
+
+        If not formatted, return a dictionary containg the volume
+        numbering information for this publication.
+
+        If formatted, format the result as a locale aware string.
+
+        :param html: return result as HTML
+        :param abbreviated: if the formatted result should be abbreviated.
+            Only has effect if ``formatted=True``.
+        :param formatted: format the result as a String
+
+        :returns: the volume title of this publication
+        """
+
+        volume = self.get_volume()
+        number = self.get_number()
+        number_type = self.get_publication_type(formatted=True)
+        publication_period = self.get_publication_period().lower()
+
+        if abbreviated and html:
+            volume_str = _("Vol.")
+            number_str = _("N<sup>o</sup>")
+        elif abbreviated:
+            volume_str = _("Vol.")
+            number_str = _("N°")
+        else:
+            volume_str = _("Volume")
+            number_str = _("Numéro")
+
+        args = dict(
+            volume=volume,
+            number=number,
+            number_type=number_type,
+            publication_period=publication_period.lower(),
+            number_str=number_str,
+            volume_str=volume_str,
+        )
+
+        if not formatted:
+            return args
+        elif volume and number and number_type:
+            string = _('{volume_str} {volume}, {number_str} {number}, {number_type}, {publication_period}')  # noqa
+            args['number_str'] = args['number_str'].lower()
+        elif volume and number:
+            string = _('{volume_str} {volume}, {number_str} {number}, {publication_period}')
+            args['number_str'] = args['number_str'].lower()
+        elif volume and not number:
+            string = _('{volume_str} {volume}, {publication_period}')
+        elif not volume and number and number_type:
+            string = _('{number_str} {number}, {number_type}, {publication_period}')
+        elif not volume and number_type and number_type == 'index':
+            string = _('Index, {publication_period}')
+        elif not volume and not number and number_type:
+            string = _('{number_str} {number_type}, {publication_period}')
+        elif not volume and number:
+            string = _('{number_str} {number}, {publication_period}')
+        return string.format(**args)
 
     article_count = property(get_article_count)
     directors = property(get_directors)
