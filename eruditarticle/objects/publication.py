@@ -375,6 +375,9 @@ class EruditPublication(
         elif volume and number and number_type:
             string = _('{volume_str} {volume}, {number_str} {number}, {number_type}, {publication_period}')  # noqa
             args['number_str'] = args['number_str'].lower()
+        elif volume and not number and number_type:
+            string = _('{volume_str} {volume}, {number_str} {number_type}, {publication_period}')
+            args['number_str'] = args['number_str'].lower()
         elif volume and number:
             string = _('{volume_str} {volume}, {number_str} {number}, {publication_period}')
             args['number_str'] = args['number_str'].lower()

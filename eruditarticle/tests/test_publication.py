@@ -79,6 +79,10 @@ class TestPublicationVolumeNumbering(object):
     def test_can_format_volume_number_numbertype(self, value):
         assert value == "Volume 52, numéro 214, supplément, printemps 2009"
 
+    @with_value("as2866.xml", "get_volume_numbering", formatted=True)
+    def test_can_format_volume_numbering_horsserie_no_number(self, value):
+        assert value == "Volume 32, numéro hors-série, 2008"
+
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication', EruditPublication)
 class TestPublicationPublisher(object):

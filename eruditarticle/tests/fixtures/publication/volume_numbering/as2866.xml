@@ -1,0 +1,1639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+<originator username="robichac" date="2012-02-28" application="Tournesol"/>
+
+<publicationnumberingkeys>
+	<publicationtypecode>hs</publicationtypecode>
+	<years>
+		<year value="2008">
+		</year>
+	</years>
+</publicationnumberingkeys><infosommaire>
+  <url>/revue/as/2008/v32/nas2866</url>
+  <nbarticle>17</nbarticle>
+  <revue id="AS23" lang="fr">
+    <titrerev>Anthropologie et Sociétés</titrerev>
+    <titrerevabr>AS</titrerevabr>
+    <idissn>0702-8997</idissn>
+    <idissnnum>1703-7921</idissnnum>
+    <directeur sexe="feminin">
+      <fonction lang="fr">Directrice</fonction>
+      <nompers>
+        <prenom>Francine</prenom>
+        <nomfamille>Saillant</nomfamille>
+      </nompers>
+      <key>directrice</key>
+    </directeur>
+    <redacteurchef sexe="masculin" typerc="invite">
+      <nompers>
+        <prenom>Fabien</prenom>
+        <nomfamille>Pernet</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+    <redacteurchef sexe="feminin" typerc="invite">
+      <nompers>
+        <prenom>Karoline</prenom>
+        <nomfamille>Truchon</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+  </revue>
+  <numero id="AS2866">
+    <volume>32</volume>
+    <pub>
+      <annee>2008</annee>
+    </pub>
+    <pubnum>
+      <date>2009-02-19</date>
+    </pubnum>
+    <grtheme>
+      <theme>Globalisation des cultures : traces, traverses et voix de jeunes
+          anthropologues</theme>
+    </grtheme>
+  </numero>
+  <editeur id="ed14">
+    <nomorg>Département d'anthropologie de l'Université Laval</nomorg>
+    <key>editeur</key>
+  </editeur>
+  <droitsauteur>Tous droits réservés © <nomorg>Anthropologie et Sociétés, Université
+      Laval</nomorg>, 2008</droitsauteur>
+</infosommaire>
+<article idproprio="000198ar" lang="fr" qualtraitement="complet" typeart="autre" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/as/2008/v32/nas2866/000198ar.html</urlhtml>
+  <urlpdf taille="123" unite="ko">/revue/as/2008/v32/nas2866/000198ar.pdf</urlpdf>
+  <pagination>
+    <ppage>3</ppage>
+    <dpage>3</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>Mot de la rédactrice</titre>
+     </grtitre>
+    
+ <grauteur>
+      
+  <auteur id="au1"> 
+   <nompers>
+        
+    <prenom>Francine</prenom>
+        
+    <nomfamille>Saillant</nomfamille>
+        
+   </nompers> 
+  </auteur>
+    
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="000199ar" lang="fr" qualtraitement="complet" typeart="autre" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/as/2008/v32/nas2866/000199ar.html</urlhtml>
+  <urlpdf taille="162" unite="ko">/revue/as/2008/v32/nas2866/000199ar.pdf</urlpdf>
+  <urlplan>/revue/as/2008/v32/nas2866/000199ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>4</ppage>
+    <dpage>10</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+        <titre>Présentation</titre>
+      <sstitre>« Il faut étudier l’homme sur son terrain si on ne veut pas avoir à le penser comme
+        un chaos<renvoi id="re1no1" idref="no1" typeref="note">1</renvoi> »</sstitre>
+     </grtitre>
+    
+ <grauteur>
+      
+  <auteur id="au1"> 
+   <nompers>
+        
+    <prenom>Fabien</prenom>
+        
+    <nomfamille>Pernet</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Département d’anthropologie</alinea>
+        <alinea>1030, avenue des Sciences-Humaines, Université Laval</alinea>
+        <alinea>Québec (Québec) G1V 0A6 Canada</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:fabien.pernet.1@ulaval.ca">fabien.pernet.1@ulaval.ca</liensimple>
+  </courriel> 
+  </auteur>
+    
+ </grauteur>
+</liminaire>
+</article>
+<article idproprio="000200ar" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/as/2008/v32/nas2866/000200ar.html</urlhtml>
+  <urlpdf taille="398" unite="ko">/revue/as/2008/v32/nas2866/000200ar.pdf</urlpdf>
+  <urlplan>/revue/as/2008/v32/nas2866/000200ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>11</ppage>
+    <dpage>17</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+      
+  <surtitre>Plasticité et actualité de l’expérience ethnographique</surtitre>
+        <titre>Le charme féminin chez les Peuls Djeneri du Mali</titre>
+      <sstitre>Un « objet » de la nature ou de la culture?</sstitre>
+        <titreparal lang="en">Charm of Fulani women</titreparal>
+      <sstitreparal lang="en">An « object » of nature or culture?</sstitreparal>
+     </grtitre>
+    
+ <grauteur>
+      
+  <auteur id="au1"> 
+   <nompers>
+        
+    <prenom>Dorothée</prenom>
+        
+    <nomfamille>Guilhem</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Centre d’études des mondes africains</alinea>
+        <alinea>Université de Provence</alinea>
+        <alinea>16 Perrier</alinea>
+        <alinea>13100 Aix-en-Provence</alinea>
+        <alinea>France</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:dorotheeguilhem@yahoo.fr">dorotheeguilhem@yahoo.fr</liensimple>
+  </courriel> 
+  </auteur>
+    
+ </grauteur>
+    
+ <resume lang="fr">
+        <titre>Résumé</titre>
+      <alinea>La notion de charme soulève une confusion de sens, car elle est souvent utilisée dans
+        un sens commun et dans une perspective occidentale. Le charme a été défini comme une qualité
+        naturelle et s’oppose à la séduction, qui est une stratégie du paraître. Cette distinction
+        reprend celles de l’inné et de l’acquis, comme du naturel et du culturel ou socialement
+        construit. Les représentations du charme féminin des Peuls Djeneri du Mali montrent que le
+        charme n’est pas un don naturel ou inné. Il relève des représentations sociales du corps, du
+        symbolisme humoral et des normes esthétiques. Il s’appuie sur un savoir-faire gestuel, sur
+        le code d’expression des émotions et sur l’incorporation de valeurs sociales qui lui donnent
+        un sens. Le charme met donc en relation différents ordres, le biologique, le social et le
+        culturel.</alinea>
+    
+ </resume>
+    
+ <resume lang="en">
+        <titre>Abstract</titre>
+      <alinea>The concept of charm raises a confusion of direction, because it is often used in a
+        common direction and the Western point of view. The charm was defined like a natural quality
+        and is opposed to the seduction, which is a strategy of appearing. This distinction takes
+        again those of innate and the asset, like naturalness and the cultural one or socially
+        built. The representations of the female charm of Fulani society of Mali show that the charm
+        is not a natural or innate gift. It concerns the social representations of the body, through
+        humoral symbolism and aesthetic standards. It also depends on a gestural know-how, code of
+        expression of the emotions and incorporation of social values, which give him a direction.
+        The charm thus connects various orders, the biological one, the social one and the cultural
+        one.</alinea>
+    
+ </resume>
+    <grmotcle lang="fr">
+        <titre>Mots-clés</titre>
+      <motcle>Guilhem</motcle>
+      <motcle>charme</motcle>
+      <motcle>corps</motcle>
+      <motcle>esthétique</motcle>
+      <motcle>Peuls</motcle>
+    </grmotcle>
+    <grmotcle lang="en">
+        <titre>Keywords</titre>
+      <motcle>Guilhem</motcle>
+      <motcle>charm</motcle>
+      <motcle>body</motcle>
+      <motcle>aesthetics</motcle>
+      <motcle>Peuls</motcle>
+    </grmotcle>
+</liminaire>
+</article>
+<article idproprio="000201ar" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/as/2008/v32/nas2866/000201ar.html</urlhtml>
+  <urlpdf taille="169" unite="ko">/revue/as/2008/v32/nas2866/000201ar.pdf</urlpdf>
+  <urlplan>/revue/as/2008/v32/nas2866/000201ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>18</ppage>
+    <dpage>25</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+      
+  <surtitre>Plasticité et actualité de l’expérience ethnographique</surtitre>
+        <titre>Pluralisme médical polarisé</titre>
+      <sstitre>La représentation de la maladie du patient comme canal de communication
+        interdisciplinaire</sstitre>
+        <titreparal lang="en">Polarised medical pluralism</titreparal>
+      <sstitreparal lang="en">Patient’s representation of illness as an interdisciplinary
+        communication channel.</sstitreparal>
+     </grtitre>
+    
+ <grauteur>
+      
+  <auteur id="au1"> 
+   <nompers>
+        
+    <prenom>Mathieu</prenom>
+        
+    <nomfamille>Bujold</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Département d’anthropologie</alinea>
+        <alinea>Université Laval</alinea>
+        <alinea>Pavillon Charles-De Koninck</alinea>
+        <alinea>1030, avenue des Sciences-Humaines</alinea>
+        <alinea>Québec (Québec) G1V 0A6</alinea>
+        <alinea>Canada</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:mathieu.bujold.1@ulaval.ca">mathieu.bujold.1@ulaval.ca</liensimple>
+  </courriel> 
+  </auteur>
+    
+ </grauteur>
+    
+ <resume lang="fr">
+        <titre>Résumé</titre>
+      <alinea>La dernière décennie a vu apparaître, en Amérique du Nord, des cliniques de soins de
+        santé intégrés (SSI) visant la coopération entre praticiens de différentes spécialités
+        (alternatives et biomédicales) afin de fournir des soins holistiques centrés sur l’individu.
+        Ce phénomène représente un défi pour l’anthropologue s’intéressant à l’analyse des
+        interactions entre diverses formes de savoirs relatifs à la santé. Outre son volet
+        ethnographique, l’objectif de cette étude était d’identifier et d’analyser les facteurs
+        favorisant ou entravant l’articulation, voire la négociation, entre différents points de vue
+        relatifs à un épisode de maladie. Un terrain dans une coopérative de SSI québécoise, a
+        permis, entre autres, de suivre l’expérience thérapeutique de quinze individus. Le cadre
+        conceptuel de cette étude, avec son utilisation novatrice du concept des modèles explicatifs
+        individuels de la maladie (MEM), a permis d’analyser l’interaction entre les perceptions des
+        acteurs impliqués dans les processus de soins (patient et thérapeutes). L’hypothèse suivante
+        tend à émerger de l’analyse préliminaire des résultats : la représentation de la maladie du
+        patient peut être un canal de communication favorisant l’articulation interdisciplinaire,
+        entre autres en atténuant certaines barrières d’épistémologie et de langage. Tenir compte de
+        la perspective du patient serait plus qu’une simple concordance avec un postulat de base des
+        soins de santé intégrés ; cela faciliterait le passage de la multidisciplinarité à
+        l’interdisciplinarité, processus fondamental pour le développement de ce nouveau paradigme
+        de soins.</alinea>
+    
+ </resume>
+    
+ <resume lang="en">
+        <titre>Abstract</titre>
+      <alinea>In the past decade, North America has witnessed the emergence of integrative
+        healthcare (IHC) clinics, in which practitioners of different clinical backgrounds
+        (alternative and biomedical) offer holistic person-centered care in a spirit of cooperation.
+        This phenomenon is a challenge for anthropologists interested in the analysis of the
+        interaction between diverse forms of health-related knowledge. The objective of this study,
+        in addition to its ethnographic dimensions, was to identify and analyse the factors that
+        either foster or impede the articulation and negotiation of different points of views
+        related to an illness episode. During a field study in a Quebec IHC cooperative, the
+        therapeutic experiences of fifteen participants were examined. The conceptual framework,
+        with its innovative use of the concept of explanatory models of illness, made it possible to
+        analyse the interaction between the perceptions of the actors involved in the health care
+        process (patient and practitioners). The following hypotheses emerge from the preliminary
+        data analysis : the patient’s representation could be a communication channel that
+        attenuates the constraints of epistemological and language barriers. Beyond the fact that
+        it’s in keeping with a central postulate of IHC, recognizing the importance of the patient’s
+        point of view also appears to facilitate the transition from multidisciplinary to
+        interdisciplinary team work, a fundamental process for development of this new care
+        paradigm.</alinea>
+    
+ </resume>
+    <grmotcle lang="fr">
+        <titre>Mots-clés</titre>
+      <motcle>Bujold</motcle>
+      <motcle>pluralisme médical</motcle>
+      <motcle>soins de santé intégrés</motcle>
+      <motcle>médecines alternatives et complémentaires (MAC)</motcle>
+      <motcle>modèles explicatifs de la maladie (MEM)</motcle>
+      <motcle>coopérative de santé</motcle>
+      <motcle>soins centrés sur le patient</motcle>
+    </grmotcle>
+    <grmotcle lang="en">
+        <titre>Keywords</titre>
+      <motcle>Bujold</motcle>
+      <motcle>medical pluralism</motcle>
+      <motcle>integrative health care (IHC)</motcle>
+      <motcle>complementary and alternatives medicines (CAM)</motcle>
+      <motcle>explanatory model (EM)</motcle>
+      <motcle>health cooperative</motcle>
+      <motcle>patient-centered care</motcle>
+    </grmotcle>
+</liminaire>
+</article>
+<article idproprio="000202ar" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/as/2008/v32/nas2866/000202ar.html</urlhtml>
+  <urlpdf taille="167" unite="ko">/revue/as/2008/v32/nas2866/000202ar.pdf</urlpdf>
+  <urlplan>/revue/as/2008/v32/nas2866/000202ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>26</ppage>
+    <dpage>34</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+      
+  <surtitre>Plasticité et actualité de l’expérience ethnographique</surtitre>
+        <titre>Posséder le dena’ina</titre>
+      <sstitre>Luttes autour de l’appropriation d’une langue autochtone en Alaska</sstitre>
+        <titreparal lang="en">Debating Dena’ina</titreparal>
+      <sstitreparal lang="en">Discursive struggles and language revitalization in
+        Alaska</sstitreparal>
+     </grtitre>
+    
+ <grauteur>
+      
+  <auteur id="au1"> 
+   <nompers>
+        
+    <prenom>Lindsay</prenom>
+        
+    <nomfamille>Bell</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Sociologie et études de l’équité en éducation</alinea>
+        <alinea>Université de Toronto</alinea>
+        <alinea>252, rue Bloor Ouest</alinea>
+        <alinea>Toronto (Ontario) M5S 1V6</alinea>
+        <alinea>Canada</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:lgbell@oise.utoronto.ca">lgbell@oise.utoronto.ca</liensimple>
+  </courriel>
+      
+  </auteur>
+    
+ </grauteur>
+    
+ <resume lang="fr">
+        <titre>Résumé</titre>
+      <alinea>Dans ce texte, je me baserai sur le cas du dena’ina, une langue autochtone de
+        l’Alaska, pour montrer que le discours sur les « langues en danger » s’appuie sur une
+        définition de la langue, de l’identité et du territoire qui se présente comme naturelle et
+        essentielle, mais qui est en réalité un terrain de luttes discursives traversées par des
+        rapports de pouvoir. La construction de l’identité ethnolinguistique repose en effet sur des
+        processus de définition et de légitimation du dena’ina qui induisent des phénomènes
+        d’inclusion/exclusion pour les Dena’ina. D’autre part, différents acteurs sont impliqués
+        dans des luttes pour le pouvoir de définir la langue dena’ina et, donc, les pratiques
+        linguistiques et sociales qui comptent comme étant légitimement du dena’ina. Ceci m’amène à
+        interroger par ailleurs la façon dont le chercheur, à travers son discours et son
+        intervention sur le terrain, est également impliqué dans ces luttes discursives et dès lors
+        dans la production et la reproduction d’idéologies et de rapports de pouvoir.</alinea>
+    
+ </resume>
+    
+ <resume lang="en">
+        <titre>Abstract</titre>
+      <alinea>This article examines how language, identity and territory are defined and connected
+        in discourses of « language endangerment ». Drawing on fieldwork with learners of Dena’ina
+        Athabascan, an Alaska Native Language, I propose that language, identity and territory are
+        terrains for complex discursive struggles which may reveal how social relations are
+        constructed and contested. I focus on the various actors, past and present, who have defined
+        what counts as Dena’ina, and by extension which linguistic and social practices are deemed
+        « legitimate » Dena’ina. I consider the ways in which the researcher, through their
+        contributing discourses and engagements in the field, are equally implicated in discursive
+        struggles and therefore in the (re)production of ideologies and relations of power.</alinea>
+    
+ </resume>
+    <grmotcle lang="fr">
+        <titre>Mots-clés</titre>
+      <motcle>Bell</motcle>
+      <motcle>langue</motcle>
+      <motcle>identité</motcle>
+      <motcle>documentation linguistique</motcle>
+      <motcle>Alaska</motcle>
+      <motcle>langues en danger</motcle>
+    </grmotcle>
+    <grmotcle lang="en">
+        <titre>Keywords</titre>
+      <motcle>Bell</motcle>
+      <motcle>Language</motcle>
+      <motcle>identity</motcle>
+      <motcle>linguistic documentation</motcle>
+      <motcle>Alaska</motcle>
+      <motcle>endangered languages</motcle>
+    </grmotcle>
+</liminaire>
+</article>
+<article idproprio="000203ar" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/as/2008/v32/nas2866/000203ar.html</urlhtml>
+  <urlpdf taille="157" unite="ko">/revue/as/2008/v32/nas2866/000203ar.pdf</urlpdf>
+  <urlplan>/revue/as/2008/v32/nas2866/000203ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>35</ppage>
+    <dpage>41</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+      
+  <surtitre>Plasticité et actualité de l’expérience ethnographique</surtitre>
+        <titre>Frontières du « proche » et du « lointain »</titre>
+      <sstitre>Pour une anthropologie de l’expérience partagée et du mouvement</sstitre>
+        <titreparal lang="en">The Frontiers of « Near » and « Far »</titreparal>
+      <sstitreparal lang="en">For Anthropology of Shared Experience and Movement</sstitreparal>
+     </grtitre>
+    
+ <grauteur>
+      
+  <auteur id="au1"> 
+   <nompers>
+        
+    <prenom>Catherine</prenom>
+        
+    <nomfamille>Therrien</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Département d’anthropologie</alinea>
+        <alinea>Université de Montréal</alinea>
+        <alinea>Pavillon Lionel-Groulx</alinea>
+        <alinea>3150, rue Jean-Brillant</alinea>
+        <alinea>Montréal (Québec) H3T 1N8</alinea>
+        <alinea>Canada</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:catherinetherrien@yahoo.fr">catherinetherrien@yahoo.fr</liensimple>
+  </courriel> 
+  </auteur>
+    
+ </grauteur>
+    
+ <resume lang="fr">
+        <titre>Résumé</titre>
+      <alinea>Les nouveaux paramètres de l’anthropologie contemporaine tendent à rendre la frontière
+        entre les notions de « proche » et de « lointain » de plus en plus floues. Basé sur un
+        terrain de recherche mené auprès de couples mixtes au Maroc, ce texte propose une réflexion
+        sur la mouvance de cette frontière et plus précisément sur trois aspects liés à la
+        particularité de ma recherche doctorale : mon statut de chercheure-immigrante qui brouille
+        les frontières classiques de l’anthropologie en faisant de mon terrain, mené en terre
+        exotique, un second chez moi ; mon choix méthodologique, celui de placer l’expérience
+        partagée au coeur de ma recherche, puisqu’il amène un questionnement sur ma posture de
+        chercheure ; et finalement la production d’une connaissance scientifique sur un sujet dans
+        lequel on est personnellement engagé. Cette proximité avec mon sujet de recherche soulève
+        une réflexion sur les notions d’engagement et de distanciation, mais également sur la part
+        de biographie présente dans l’élaboration d’une théorie.</alinea>
+    
+ </resume>
+    
+ <resume lang="en">
+        <titre>Abstract</titre>
+      <alinea>New parameters of contemporary anthropology tend to make distinctions between the
+        notions of « near » and « far » increasingly hazy. Based on field research involving mixed
+        couples in Morocco, this text is a reflection on the movements of this frontier. It
+        specifically examines three particular aspects of my Ph.D. research : my
+        immigrant-researcher status which, by making the exotic land of my field research a second
+        home, blurs the classical boundaries of anthropology ; the methodological choice of doing
+        anthropology so close to my own experience, since this choice raises questions about my
+        researcher status and forces me to look at the notion of shared experience ; and, finally,
+        the production of scientific knowledge on a topic involving me personally. Such proximity
+        with my research subject has inspired reflection on the notions of commitment and
+        detachment, as well as on the role of the researcher’s biography in the development of
+        theory.</alinea>
+    
+ </resume>
+    <grmotcle lang="fr">
+        <titre>Mots-clés</titre>
+      <motcle>Therrien</motcle>
+      <motcle>mixité</motcle>
+      <motcle>identité</motcle>
+      <motcle>Maroc</motcle>
+      <motcle>expérience partagée</motcle>
+      <motcle>biographie</motcle>
+    </grmotcle>
+    <grmotcle lang="en">
+        <titre>Keywords</titre>
+      <motcle>Therrien</motcle>
+      <motcle>identity</motcle>
+      <motcle>mixed</motcle>
+      <motcle>Morocco</motcle>
+      <motcle>shared experience</motcle>
+      <motcle>biography</motcle>
+    </grmotcle>
+</liminaire>
+</article>
+<article idproprio="000204ar" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/as/2008/v32/nas2866/000204ar.html</urlhtml>
+  <urlpdf taille="183" unite="ko">/revue/as/2008/v32/nas2866/000204ar.pdf</urlpdf>
+  <urlplan>/revue/as/2008/v32/nas2866/000204ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>42</ppage>
+    <dpage>47</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+      
+  <surtitre>Plasticité et actualité de l’expérience ethnographique</surtitre>
+        <titre>Les furita et la définition du travail temporaire au Japon</titre>
+        <titreparal lang="en">Freeters and the definition of work in Japan</titreparal>
+     </grtitre>
+    
+ <grauteur>
+      
+  <auteur id="au1"> 
+   <nompers>
+        
+    <prenom>Vincent</prenom>
+        
+    <nomfamille>Mirza</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Département d’études est-asiatiques</alinea>
+        <alinea>Université McGill</alinea>
+        <alinea>3434, rue McTavish</alinea>
+        <alinea>Montréal (Québec) H3A 1X9</alinea>
+        <alinea>Canada</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:vincent.mirza@videotron.ca">vincent.mirza@videotron.ca</liensimple>
+  </courriel> 
+  </auteur>
+    
+ </grauteur>
+    
+ <resume lang="fr">
+        <titre>Résumé</titre>
+      <alinea>Depuis le début des années 1990, le Japon est entré dans une période de difficultés
+        économiques qui perdure. Une conséquence majeure de cette crise concerne l’affaiblissement
+        de la transition entre le système d’éducation et le monde du travail qui s’est traduit par
+        l’augmentation des employés à temps partiel et temporaire. Paradoxalement, la
+        flexibilisation de la main-d’oeuvre s’est accompagnée d’un discours conservateur dénonçant
+        le manque d’éthique du travail chez les jeunes adultes. À travers la formation d’une
+        catégorie, les<marquage typemarq="italique"> furita</marquage>, nous verrons comment la
+        signification du travail est mise en jeu.</alinea>
+    
+ </resume>
+    
+ <resume lang="en">
+        <titre>Abstract</titre>
+      <alinea>Since the early 90s’, Japan is going through a time of major economical difficulties.
+        One of the consequences of the crisis is the weakening of the ties between big companies and
+        universities that translated into an increase of temp workforce. Paradoxically, even if many
+        worry about the increasing unemployment and insecurity, there is also narratives in the
+        public space that are accusing the new generation for being irresponsible, selfish and to
+        lack ambition. Through the creation of a category, the freeters, we will examine how the
+        meaning of work comes into play.</alinea>
+    
+ </resume>
+    <grmotcle lang="fr">
+        <titre>Mots-clés</titre>
+      <motcle>Mirza</motcle>
+      <motcle>représentations</motcle>
+      <motcle>furita</motcle>
+      <motcle>travail</motcle>
+      <motcle>Japon</motcle>
+    </grmotcle>
+    <grmotcle lang="en">
+        <titre>Keywords</titre>
+      <motcle>Mirza</motcle>
+      <motcle>representations</motcle>
+      <motcle>freeters</motcle>
+      <motcle>work</motcle>
+      <motcle>Japan</motcle>
+    </grmotcle>
+</liminaire>
+</article>
+<article idproprio="000205ar" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/as/2008/v32/nas2866/000205ar.html</urlhtml>
+  <urlpdf taille="162" unite="ko">/revue/as/2008/v32/nas2866/000205ar.pdf</urlpdf>
+  <urlplan>/revue/as/2008/v32/nas2866/000205ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>48</ppage>
+    <dpage>54</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+      
+  <surtitre>Plasticité et actualité de l’expérience ethnographique</surtitre>
+        <titre>De l’appropriation anthropologique de l’interculturalité</titre>
+      <sstitre>La théorie des mythes modèles appliquée aux cas des expatriés occidentaux en
+        Inde</sstitre>
+        <titreparal lang="en">Intercultural Encounters as an Anthropological Object?</titreparal>
+      <sstitreparal lang="en">Applying Myth-model Theory to the Case of Western Expatriates in
+        India</sstitreparal>
+     </grtitre>
+    
+ <grauteur>
+      
+  <auteur id="au1"> 
+   <nompers>
+        
+    <prenom>Nadia</prenom>
+        
+    <nomfamille>Giguère</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Département d’anthropologie</alinea>
+        <alinea>Université de Montréal</alinea>
+        <alinea>Pavillon Lionel-Groulx</alinea>
+        <alinea>3150, rue Jean-Brillant</alinea>
+        <alinea>Montréal (Québec) H3T 1N8</alinea>
+        <alinea>Canada</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:nadia.giguere@umontreal.ca">nadia.giguere@umontreal.ca</liensimple>
+  </courriel> 
+  </auteur>
+    
+ </grauteur>
+    
+ <resume lang="fr">
+        <titre>Résumé</titre>
+      <alinea>Lorsqu’il s’agit de parler de rencontres des cultures, le terme « interculturel »
+        semble approprié. Pourtant, si de nombreux travaux traitent de ce concept, l’absence des
+        anthropologues y est notable. Paradoxalement, l’interculturalité est au coeur de la
+        discipline ; omniprésente, mais exprimée en d’autres termes. La théorie des mythes modèles
+        de Gananath Obeyesekere est ici appliquée aux cas des expatriés occidentaux en Inde, afin de
+        mettre à contribution les travaux des anthropologues et d’enrichir la réflexion sur
+        l’interculturalité. À travers l’étude de l’appropriation et de la transformation des mythes
+        du renonçant, du bienfaiteur et du hippie, la théorie des mythes modèles permet de
+        s’approprier l’interculturalité comme objet d’étude tout en préservant la richesse de
+        l’analyse anthropologique. La rencontre culturelle est ainsi théorisée de façon à permettre
+        de s’éloigner des théories par étapes courantes, d’étudier l’interculturel dans son contexte
+        et dans toute sa complexité, en tenant compte de ce qui entoure et précède imaginairement et
+        historiquement la rencontre.</alinea>
+    
+ </resume>
+    
+ <resume lang="en">
+        <titre>Abstract</titre>
+      <alinea>When discussing cultural encounters, the term “intercultural” is more than relevant.
+        Yet, despite the abundance of literature related to intercultural experiences, anthropology
+        has been peculiarly silent on interculturality as a concept. Paradoxically, (inter)cultural
+        encounters are at the core of anthropological thought. They are omnipresent, but expressed
+        in other terms. In this article, I apply Gananath Obeyesekere’s myth-model theory to the
+        cases of Western expatriates in India, thus using anthropological tools in order to add
+        another dimension to theories of cultural encounters. By studying the various ways Western
+        expatriates transform and reappropriate the myths of the renunciant, the philanthropist and
+        the hippy, myth-model theory allows me to hold cultural encounters as an object of
+        anthropological scrutiny while preserving the thickness of the field. This approach goes
+        beyond step-by-step simplistic theories, since it highlights the contexts and complexities
+        of cultural encounters by taking into account what precedes and surrounds them – both in an
+        imaginary and historical axis.</alinea>
+    
+ </resume>
+    <grmotcle lang="fr">
+        <titre>Mots-clés</titre>
+      <motcle>interculturalité</motcle>
+      <motcle>mythes</motcle>
+      <motcle>Inde</motcle>
+      <motcle>Occident</motcle>
+      <motcle>immigration</motcle>
+    </grmotcle>
+    <grmotcle lang="en">
+        <titre>Keywords</titre>
+      <motcle>Cultural encounters</motcle>
+      <motcle>myth</motcle>
+      <motcle>India</motcle>
+      <motcle>West</motcle>
+      <motcle>immigration</motcle>
+    </grmotcle>
+</liminaire>
+</article>
+<article idproprio="000206ar" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/as/2008/v32/nas2866/000206ar.html</urlhtml>
+  <urlpdf taille="203" unite="ko">/revue/as/2008/v32/nas2866/000206ar.pdf</urlpdf>
+  <urlplan>/revue/as/2008/v32/nas2866/000206ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>55</ppage>
+    <dpage>63</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+      
+  <surtitre>Au plus près. Silences, fractures, liens</surtitre>
+        <titre>Le silence du figurant de sa propre histoire</titre>
+      <sstitre>Autour du tournage du film français  « Opération turquoise » au Rwanda</sstitre>
+        <titreparal lang="en">On cinema and the making of history in Rwanda.</titreparal>
+      <sstitreparal lang="en">A role for Rwandans ?</sstitreparal>
+     </grtitre>
+    
+ <grauteur>
+      
+  <auteur id="au1"> 
+   <nompers>
+        
+    <prenom>Annie</prenom>
+        
+    <nomfamille>Laliberté</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Département d’anthropologie</alinea>
+        <alinea>Université Laval</alinea>
+        <alinea>Pavillon Charles-De Koninck</alinea>
+        <alinea>1030, avenue des Sciences-Humaines</alinea>
+        <alinea>Québec (Québec) G1V 0A6</alinea>
+        <alinea>Canada</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:annie_laliberte@hotmail.com">annie_laliberte@hotmail.com</liensimple>
+  </courriel> 
+  </auteur>
+    
+ </grauteur>
+    
+ <resume lang="fr">
+        <titre>Résumé</titre>
+      <alinea>Une abondante cinématographie est née des cendres du génocide rwandais de 1994. En
+        juin 2007, le cinéaste français Alain Tasma et son équipe ont parcouru le Rwanda dans le but
+        de tourner un film sur l’Opération Turquoise, une action militaire organisée par la France
+        vers la fin du génocide rwandais. L’équipe s’est arrêtée dans la ville de Butare, province
+        très touché par les massacres : elle y a recruté des figurants parmi les Rwandais présents
+        au moment du drame de 1994 et a procédé à une reconstitution du drame tandis que les
+        habitants vaquaient à leurs occupations quotidiennes. Le tout treize ans après le drame. Une
+        réflexion peut s’engager sur la perception de ces tournages chez les Rwandais. Nous avons
+        choisi de mettre l’accent sur les intellectuels de Butare : dans le cadre de discussions
+        avec les élèves et les enseignants et la présence sur les lieux du tournage de l’Opération
+        Turquoise, nous avons constaté que ce tournage suscitait des attentes au sujet du
+        déséquilibre dans les représentations, en particulier pour des raisons politiques. Ce point
+        de vue des élites est aussi révélateur d’un rapport trouble avec la transparence,
+        l’expression et la relation avec la paysannerie.</alinea>
+    
+ </resume>
+    
+ <resume lang="en">
+        <titre>Abstract</titre>
+      <alinea>An abundant cinematography was born from ashes of the Rwandan genocide of 1994. In
+        June 2007, the French filmaker Alain Tasma walked a team in Rwanda in order to make a film
+        on the Turquoise Operation, a military action organized by France at the end of the Rwandan
+        genocide. The team stopped in Butare, province very touched by the massacres : it recruited
+        extras there among the Rwandan present at the time of the drama of 1994 ; it carried out a
+        reconstitution of the drama whereas the inhabitants were occupied with their daily
+        occupations. The whole, 13 years after the drama. A reflection can be raised about the
+        perceptions of these filmakings within the Rwandans. We chose to focus on intellectuals from
+        Butare : through discussions with students and teachers and presence at the scene of the
+        shooting of Operation Turquoise, we found that the eyes of foreigners raise expectations
+        about the imbalance in the performances, particularly for political reasons. This view of
+        the elites on the shooting is also indicative of a report trouble with transparency, the
+        expression and relationship with the peasantry.</alinea>
+    
+ </resume>
+    <grmotcle lang="fr">
+        <titre>Mots-clés</titre>
+      <motcle>Laliberté</motcle>
+      <motcle>cinéma</motcle>
+      <motcle>film</motcle>
+      <motcle>représentation</motcle>
+      <motcle>Rwanda</motcle>
+      <motcle>génocide</motcle>
+      <motcle>non-dit</motcle>
+      <motcle>Opération Turquoise</motcle>
+      <motcle>anthropologie</motcle>
+      <motcle>histoire</motcle>
+    </grmotcle>
+    <grmotcle lang="en">
+        <titre>Keywords</titre>
+      <motcle>Laliberté</motcle>
+      <motcle>cinema</motcle>
+      <motcle>movie</motcle>
+      <motcle>representation</motcle>
+      <motcle>Rwanda</motcle>
+      <motcle>genocide</motcle>
+      <motcle>silence</motcle>
+      <motcle>Opération Turquoise</motcle>
+      <motcle>anthropology</motcle>
+      <motcle>history</motcle>
+    </grmotcle>
+</liminaire>
+</article>
+<article idproprio="000225ar" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/as/2008/v32/nas2866/000225ar.html</urlhtml>
+  <urlpdf taille="169" unite="ko">/revue/as/2008/v32/nas2866/000225ar.pdf</urlpdf>
+  <pagination>
+    <ppage>64</ppage>
+    <dpage>71</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+      
+  <surtitre>Au plus près. Silences, fractures, liens</surtitre>
+        <titre>Ethnographier les silences de la violence<renvoi id="re1no1" idref="no1" typeref="note">1</renvoi></titre>
+        <titreparal lang="en">Doing ethnography of the silences of violence</titreparal>
+     </grtitre>
+    
+ <grauteur>
+      
+  <auteur id="au1"> 
+   <nompers>
+        
+    <prenom>Karine</prenom>
+        
+    <nomfamille>Vanthuyne</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Institut de recherche interdisciplinaire sur les enjeux sociaux</alinea>
+        <alinea>Sciences sociales, politique, santé</alinea>
+        <alinea>École des hautes études en sciences sociales (EHESS)</alinea>
+        <alinea>96 boulevard Raspail</alinea>
+        <alinea>75006 Paris</alinea>
+        <alinea>France</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:karine.vanthuyne@mail.mcgill.ca">karine.vanthuyne@mail.mcgill.ca</liensimple>
+  </courriel> 
+  </auteur>
+    
+ </grauteur>
+    
+ <resume lang="fr">
+        <titre>Résumé</titre>
+      <alinea>Est fréquemment souligné, en ce qui concerne les mémoires d’atrocités, à quel point
+        celles-ci sont en partie sinon pas totalement indicibles. Or, bien que de nombreux
+        survivants témoignent de l’absence de mots pouvant traduire l’ampleur de l’horreur vécue,
+        l’indicible est dit. Ces récits comportent certes des silences. Néanmoins, si on leur prête
+        l’oreille, aurais-je appris en analysant ceux de survivants du conflit armé guatémaltèque,
+        on peut parfois en apprendre davantage que des récits eux-mêmes. A partir de l’examen du
+        silence de Mateo, seul témoin oculaire du massacre de la finca San Francisco, Nentón,
+        Huehuetenango, je cherche à démontrer l’importance de s’intéresser aux non-dits si l’on veut
+        véritablement se saisir de ce que « survivre » signifie dans le Guatemala
+        d’aujourd’hui.</alinea>
+    
+ </resume>
+    
+ <resume lang="en">
+        <titre>Abstract</titre>
+      <alinea>It is often noted, in terms of people’s memories of atrocities, that these are
+        partially if not totally impossible to put into words. However, even though numerous
+        survivors bear witness to the absence of words able to translate the magnitude of the
+        horrors they have been through, words are used nonetheless. These life stories of course
+        contain silences. If we listen to them, as I learned to do in analyzing the life stories of
+        survivors of the Guatemalan armed conflict, we can sometimes learn more from them than from
+        the stories themselves. Beginning with an examination of Mateo’s silence (who is the sole
+        eye witness of the massacre finca San Fransisco, Nentón, Huehuetenango), I seek to show the
+        importance of an attention to the unsaid if we want to really understand what it means to
+        “survive” in contemporary Guatemala.</alinea>
+    
+ </resume>
+    <grmotcle lang="fr">
+        <titre>Mots-clés</titre>
+      <motcle>Vanthuyne</motcle>
+      <motcle>Guatemala</motcle>
+      <motcle>post-conflit armé interne</motcle>
+      <motcle>politiques de la mémoire</motcle>
+      <motcle>« victimisation »</motcle>
+      <motcle>silence des survivants</motcle>
+    </grmotcle>
+    <grmotcle lang="en">
+        <titre>Keywords</titre>
+      <motcle>Vanthuyne</motcle>
+      <motcle>Guatemala</motcle>
+      <motcle>post internal armed conflict</motcle>
+      <motcle>politics of memory</motcle>
+      <motcle>“victimization”</motcle>
+      <motcle>survivors’ silences</motcle>
+    </grmotcle>
+</liminaire>
+</article>
+<article idproprio="000226ar" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/as/2008/v32/nas2866/000226ar.html</urlhtml>
+  <urlpdf taille="165" unite="ko">/revue/as/2008/v32/nas2866/000226ar.pdf</urlpdf>
+  <urlplan>/revue/as/2008/v32/nas2866/000226ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>72</ppage>
+    <dpage>78</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+      
+  <surtitre>Au plus près. Silences, fractures, liens</surtitre>
+        <titre>Esquisse d’une anthropologie impliquée auprès des victimes de la « disparition
+        forcée »</titre>
+        <titreparal lang="en">Sketching an involved anthropolgy by the side of victims of “forced
+        disappearance”</titreparal>
+     </grtitre>
+    
+ <grauteur>
+      
+  <auteur id="au1"> 
+   <nompers>
+        
+    <prenom>Alice</prenom>
+        
+    <nomfamille>Verstaeten</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Département d’anthropologie</alinea>
+        <alinea>Université Lyon II</alinea>
+        <alinea>5 avenue Pierre Mendès-France</alinea>
+        <alinea>69676 BRON France</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:versalice@yahoo.fr">versalice@yahoo.fr</liensimple>
+  </courriel> 
+  </auteur>
+    
+ </grauteur>
+    
+ <resume lang="fr">
+        <titre>Résumé</titre>
+      <alinea>La « disparition forcée » en Argentine questionne la capacité, pour l’anthropologie,
+        d’aborder la violence et ce qu’elle a d’indicible. Il s’agit donc, comme tout préalable à
+        l’immersion dans un terrain « miné », de questionner la tension qui nous habite. Faite
+        d’oscillation entre empathie, engagement et distanciation, notre position ethnographique
+        interroge notre rapport de sens à la société qui nous entoure et qui nous fait, alors même
+        que nous en avons expérimenté la capacité d’autodestruction. Il s’agira d’éclairer ici ce
+        que je comprends comme la double implication possible des chercheurs : réélaboration du
+        sens, reconstruction des liens. Car face à la « mort sociale », l’anthropologue peut
+        participer d’une dynamique sociale de reconnaissance (comme recomposition du lien social et
+        politique depuis une relation de réciprocité). Participer de cette dynamique, c’est aussi en
+        questionner les enjeux éthiques et politiques. Face au déni, à la dépersonnalisation de
+        l’autre, à son effacement, s’engager sur la voie du personnel, de l’intime, c’est rappeler
+        que ces crimes contre l’humanité ont d’abord touché des intimités. Cette démarche
+        anthropologique, impliquée aux côtés des victimes de la « disparition », élaborée avec
+        elles, est vécue comme une co-naissance du sens, comme un parcours menant de l’intimité
+        blessée à l’histoire et la mémoire collectives (D. Fassin, F. Laplantine, C. Coquio). Il
+        s’agit, somme toute, de transmettre l’intime pour penser la terreur.</alinea>
+    
+ </resume>
+    
+ <resume lang="en">
+        <titre>Abstract</titre>
+      <alinea>The « forced disappearance » in Argentina questions the capacity of anthropology to
+        approach violence and its unspeakable elements. Before entering such a minefield it is
+        necessary to examine our own internal feelings. Our ethnographical position is made up of
+        changeable feelings of empathy, involvement and detachment and questions the relationship of
+        sense in the society which surrounds and forms us, while at the same time experimenting with
+        that same society’s capacity for self-destruction. In this article I intend to examine what
+        I consider to be the possible doble involvement of the researchers: the reconstruction of
+        sense and the rebuilding of relationships. Confronted by ‘social death’ the anthropologist
+        may participate in a social dynamic of recognition (as a reconstruction of a social and
+        political link resulting from a reciprocal relationship). Taking part in this dynamic means
+        that its ethical and political implications are also called into question. Faced with
+        denial, with the depersonalization and elimination of the other, we need to follow the way
+        of individualization, of intimity. It indeedy reminds us that crimes against humanity were
+        first perpetrated against that which is most intimate. This anthropological approach,
+        involved by the side of victims of “disappearance”, and developed in conjunction with them,
+        is experienced as a rebirth of sense, as a journey which leads us from wounded intimacy
+        towards history and collective memory (D. Fassin, F. Laplantine, C. Coquio). In short, I’m
+        trying to transmit the intimate to make possible thinking terror.</alinea>
+    
+ </resume>
+    <grmotcle lang="fr">
+        <titre>Mots-clés</titre>
+      <motcle>Verstraeten</motcle>
+      <motcle>disparition</motcle>
+      <motcle>terreur</motcle>
+      <motcle>émotion</motcle>
+      <motcle>implication</motcle>
+      <motcle>reconnaissance</motcle>
+    </grmotcle>
+    <grmotcle lang="en">
+        <titre>Keywords</titre>
+      <motcle>Verstraeten</motcle>
+      <motcle>disappearance</motcle>
+      <motcle>terror</motcle>
+      <motcle>emotion</motcle>
+      <motcle>involvement</motcle>
+      <motcle>recognition</motcle>
+    </grmotcle>
+</liminaire>
+</article>
+<article idproprio="000228ar" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/as/2008/v32/nas2866/000228ar.html</urlhtml>
+  <urlpdf taille="201" unite="ko">/revue/as/2008/v32/nas2866/000228ar.pdf</urlpdf>
+  <urlplan>/revue/as/2008/v32/nas2866/000228ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>79</ppage>
+    <dpage>84</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+      
+  <surtitre>Anthropologies indigènes</surtitre>
+        <titre>Action politique zapatiste et contexte régional</titre>
+      <sstitre>Le cas de Puebla, Mexique</sstitre>
+        <titreparal lang="en">Zapatista Political Action and Regional Context</titreparal>
+      <sstitreparal lang="en">The case of Puebla, Mexico</sstitreparal>
+     </grtitre>
+    
+ <grauteur>
+      
+  <auteur id="au1"> 
+   <nompers>
+        
+    <prenom>Eduardo</prenom>
+        <autreprenom>González</autreprenom>
+        
+    <nomfamille>Castillo</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Département d’anthropologie</alinea>
+        <alinea>Université Laval</alinea>
+        <alinea>3730, pavillon Alphonse-Marie-Parent</alinea>
+        <alinea>Québec (Québec) G1V 0A6</alinea>
+        <alinea>Canada</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:eduardo.gonzalez.1@ulaval.ca">eduardo.gonzalez.1@ulaval.ca</liensimple>
+  </courriel> 
+  </auteur>
+    
+ </grauteur>
+    
+ <resume lang="fr">
+        <titre>Résumé</titre>
+      <alinea>Cet article porte sur la diffusion du mouvement zapatiste dans la région centrale de
+        l’État de Puebla, au Mexique. L’objectif du document est de mettre en valeur les processus
+        locaux qui ont rendu possible la diffusion nationale de « La otra », campagne politique
+        initiée par l’Armée Zapatiste pour la Libération Nationale (EZLN) au Mexique en 2005.
+        L’analyse s’appuie sur un survol de l’histoire récente de cet État mexicain à partir d’une
+        approche qui relève de l’économie politique. Ainsi, nous étudierons l’évolution économique
+        de cette région du Mexique ainsi que les implications politiques de ces changements. Ainsi
+        que le suggère le titre de l’article, une attention spéciale sera portée à l’évolution des
+        mouvements sociaux contestataires dans l’État. De cette façon, nous ferons allusion aux
+        moments de rayonnement et de recul des organisations politiques de la ville.</alinea>
+    
+ </resume>
+    
+ <resume lang="en">
+        <titre>Abstract</titre>
+      <alinea>This article concerns the diffusion of the Zapatista political movement in Puebla,
+        Mexican state located at the center of the Republic. The goal of the paper is to show how
+        some local processes have made possible de national diffusion of « La otra campaña »,
+        political campaign initiated in 2005 by the Zapatista Army of National Liberation (EZLN) in
+        Mexico. The analysis leans on a revision of the recent history of that Mexican state from a
+        political economy approach. The economical evolution of this Mexican region is studied in a
+        general way, as well as the political implications of those economical changes. As suggested
+        by the title of the paper, particular attention is given to the evolution of dissenting
+        social movements in the state. In order to do it, the “best” and the worst moments of the
+        local political organizations are called up too.</alinea>
+    
+ </resume>
+    <grmotcle lang="fr">
+        <titre>Mots-clés</titre>
+      <motcle>González Castillo</motcle>
+      <motcle>Mexique (Puebla)</motcle>
+      <motcle>zapatisme</motcle>
+      <motcle>analyse régionale</motcle>
+      <motcle>mouvements sociaux</motcle>
+      <motcle>économie politique</motcle>
+    </grmotcle>
+    <grmotcle lang="en">
+        <titre>Keywords</titre>
+      <motcle>Puebla (Mexico)</motcle>
+      <motcle>zapatism</motcle>
+      <motcle>regional analysis</motcle>
+      <motcle>collective political action</motcle>
+      <motcle>social mouvements</motcle>
+      <motcle>political economy</motcle>
+    </grmotcle>
+</liminaire>
+</article>
+<article idproprio="000229ar" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/as/2008/v32/nas2866/000229ar.html</urlhtml>
+  <urlpdf taille="220" unite="ko">/revue/as/2008/v32/nas2866/000229ar.pdf</urlpdf>
+  <urlplan>/revue/as/2008/v32/nas2866/000229ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>85</ppage>
+    <dpage>93</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+      
+  <surtitre>Anthropologies indigènes</surtitre>
+        <titre>Mobilisations transnationales des communautés homosexuelles en Afrique</titre>
+      <sstitre>Une affaire à suivre</sstitre>
+        <titreparal lang="en">Transnational Mobilization of Homosexuals Communities in
+        Africa</titreparal>
+      <sstitreparal lang="en">A Story in Progress.</sstitreparal>
+     </grtitre>
+    
+ <grauteur>
+      
+  <auteur id="au1"> 
+   <nompers>
+        
+    <prenom>Charles</prenom>
+        
+    <nomfamille>Guéboguo</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Département de sociologie</alinea>
+        <alinea>Université de Yaoundé I</alinea>
+        <alinea>BP 30057 Yaounde</alinea>
+        <alinea>Cameroun</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:charles_gue@hotmail.fr">charles_gue@hotmail.fr</liensimple>
+  </courriel>
+      
+  </auteur>
+    
+ </grauteur>
+    
+ <resume lang="fr">
+        <titre>Résumé</titre>
+      <alinea>Une observation contemporaine de la société civile africaine laisse entrevoir une
+        dynamique significative où, de plus en plus, les communautés lesbiennes, gaies, bisexuelles,
+        transgenres et intersexuelles (LGBTI) posent des formes revendicatives d’occupation légitime
+        des espaces sociaux en dépit des rigidités sociales qui se veulent anti-homosexuelles. C’est
+        ce qui explique que, alors qu’elle était naguère cachée, la sexualité en général, et
+        l’homosexualité en Afrique sous la forme de mobilisations communautaires en particulier,
+        tutoient désormais les sphères publiques. Ce mouvement socio-sexuel d’un genre nouveau
+        dégage des significations socio-anthropologiques qu’il convient de suivre. Ce travail est
+        une première esquisse analytique qui expose les logiques des relations entre les
+        mobilisations collectives naissantes et les diverses forces internes qui condamnent
+        l’homosexualité, ceci dans le but de faire ressortir les logiques qui contribuent à
+        l’évolution de la condition et des formes de mobilisation pour une plus grande
+        « visibilisation » de l’homosexualité en Afrique ; avec ce paradoxe qu’il faut préciser, à
+        savoir que l’hostilité du contexte social, parfois considérable, contribue à alimenter et à
+        consolider les mobilisations naissantes.</alinea>
+    
+ </resume>
+    
+ <resume lang="en">
+        <titre>Abstract</titre>
+      <alinea>Across the African continent there is an increasingly visible and audible LGBTI
+        community, claiming social space and demanding legitimacy, in a context which is
+        demonstrably repressive of homosexuality; homosexuality in Africa is no longer willing to
+        stay hidden. In this new socio-sexual movement one can find socio-anthropologic meanings.
+        The work presented is an analytical first draft exposing relations between the nascent
+        collectives’ transnational mobilizations and contextual forces which prohibit homosexuality.
+        The objective is to expose the framework in which the process of “visibilisation” of
+        homosexuality takes place through new forms of community mobilization. One of our hypothesis
+        is that the hostility of the social environment may contribute positively to feed and to
+        strengthen those nascent mobilizations.</alinea>
+    
+ </resume>
+    <grmotcle lang="fr">
+        <titre>Mots-clés</titre>
+      <motcle>Gueboguo</motcle>
+      <motcle>homosexualité</motcle>
+      <motcle>« visibilisation »</motcle>
+      <motcle>mobilisations</motcle>
+      <motcle>communautés homosexuelles</motcle>
+      <motcle>Afrique</motcle>
+    </grmotcle>
+    <grmotcle lang="en">
+        <titre>Keywords</titre>
+      <motcle>Gueboguo</motcle>
+      <motcle>homosexuality</motcle>
+      <motcle>« visibilization »</motcle>
+      <motcle>mobilizations</motcle>
+      <motcle>homosexuals communities</motcle>
+      <motcle>Africa</motcle>
+    </grmotcle>
+</liminaire>
+</article>
+<article idproprio="000252ar" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/as/2008/v32/nas2866/000252ar.html</urlhtml>
+  <urlpdf taille="160" unite="ko">/revue/as/2008/v32/nas2866/000252ar.pdf</urlpdf>
+  <urlplan>/revue/as/2008/v32/nas2866/000252ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>94</ppage>
+    <dpage>100</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+      
+  <surtitre>Anthropologies indigènes</surtitre>
+        <titre>Le pouvoir tutélaire et la lutte pour la souveraineté des peuples autochtones du
+        Brésil</titre>
+        <titreparal lang="en">How does the tutelage affect the sovereignty of the Brazil’s aboriginal
+        people?</titreparal>
+     </grtitre>
+    
+ <grauteur>
+      
+  <auteur id="au1"> 
+   <nompers>
+        
+    <prenom>Livia</prenom>
+        
+    <nomfamille>Vitenti</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Département d’anthropologie,</alinea>
+        <alinea>Université de Montréal</alinea>
+        <alinea>Pavillon Lionel-Groulx</alinea>
+        <alinea>3150, rue Jean-Brillant</alinea>
+        <alinea>Montréal (Québec) H3T 1N8</alinea>
+        <alinea>Canada</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:lvitenti@yahoo.com.br">lvitenti@yahoo.com.br</liensimple>
+  </courriel>
+      
+  </auteur>
+    
+ </grauteur>
+    
+ <resume lang="fr">
+        <titre>Résumé</titre>
+      <alinea>La souveraineté autochtone existe-t-elle? Dans cet article, j’aborde cette question à
+        travers une lecture critique des ouvrages de quelques chercheurs d’Amérique Latine, qui
+        examinent les droits spécifiques des peuples autochtones, leurs conditions et leurs
+        déterminants. À partir de ces lectures, je propose d’une part une réflexion sur le droit
+        étatique occidental, caractérisé par le monisme juridique, d’abord défendu par Hans Kelsen.
+        D’autre part, je discute des possibilités de la création d’un État multiculturel et de
+        l’imposition d’un pluralisme juridique. Je développe mon argument en affirmant que toutes
+        les sociétés ont des formes spécifiques de droit, mais que cela implique plutôt une
+        affirmation sur le plan de l’identité sociale et culturelle. Pour finaliser mon argument, je
+        me base sur l’ouvrage d’Antônio Carlos de Souza Lima pour discuter des effets du pourvoir
+        tutélaire sur les peuples autochtones du Brésil.</alinea>
+    
+ </resume>
+    
+ <resume lang="en">
+        <titre>Abstract</titre>
+      <alinea>This article proposes a discussion about the aboriginal sovereignty. Thus, we will
+        mention some Latin-American investigators, whose works study the rights of aboriginal
+        people, their circumstances, and determinants. From these papers, we will propose to reflect
+        about the occidental state law, characterized by the juridical monism, which was first
+        mentioned by Hans Kelsen. We will discuss the analysis of the state law, and the
+        possibilities of both the creation of a multicultural estate and the imposition of a
+        juridical pluralism. We will develop our arguments by saying that any society has a
+        particular form of law, which implies, in the social and cultural aspect, an affirmation.
+        Finally, we will study the work of Antonio Carlos Souza Lima to discuss the effects of the
+        tutelage of the aboriginal people of Brazil.</alinea>
+    
+ </resume>
+    <grmotcle lang="fr">
+        <titre>Mots-clés</titre>
+      <motcle>Vitenti</motcle>
+      <motcle>droits spécifique</motcle>
+      <motcle>peuples autochtones</motcle>
+      <motcle>pluralisme juridique</motcle>
+      <motcle>identité</motcle>
+      <motcle>changement social et culturel</motcle>
+    </grmotcle>
+    <grmotcle lang="en">
+        <titre>Keywords</titre>
+      <motcle>Vitenti</motcle>
+      <motcle>particular form of law</motcle>
+      <motcle>aboriginal peoples</motcle>
+      <motcle>juridical pluralism</motcle>
+      <motcle>identity</motcle>
+      <motcle>cultural and social changes</motcle>
+    </grmotcle>
+</liminaire>
+</article>
+<article idproprio="000253ar" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/as/2008/v32/nas2866/000253ar.html</urlhtml>
+  <urlpdf taille="157" unite="ko">/revue/as/2008/v32/nas2866/000253ar.pdf</urlpdf>
+  <urlplan>/revue/as/2008/v32/nas2866/000253ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>101</ppage>
+    <dpage>106</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+      
+  <surtitre>Concevoir les continuités</surtitre>
+        <titre>Pour une autre démarche anthropologique</titre>
+      <sstitre>Étude de cas du Rif du Maroc</sstitre>
+        <titreparal lang="en">For another anthropological frame</titreparal>
+      <sstitreparal lang="en">The example of Rif of Morocco</sstitreparal>
+     </grtitre>
+    
+ <grauteur>
+      
+  <auteur id="au1"> 
+   <nompers>
+        
+    <prenom>Khalid</prenom>
+        
+    <nomfamille>Mouna</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Institut Maghreb Europe</alinea>
+        <alinea>Université Paris 8</alinea>
+        <alinea>2 rue de la Liberté 93526</alinea>
+        <alinea>Saint-Denis CEDEX</alinea>
+        <alinea>France</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:tamudamouna@yahoo.fr">tamudamouna@yahoo.fr</liensimple>
+  </courriel>
+      
+  </auteur>
+    
+ </grauteur>
+    
+ <resume lang="fr">
+        <titre>Résumé</titre>
+      <alinea>Nous souhaitons présenter dans cet article une réflexion anthropologique sur le Rif du
+        Maroc. En effet, l’anthropologie maghrébine en général, et marocaine en particulier, est
+        restée fortement marquée par les grands courants anthropologiques malgré des évolutions
+        sociologiques récentes. Partant de la présentation des travaux de Hart et Jamous, cet
+        article cherche à interroger cet héritage, toujours perceptible dans les études consacrées à
+        la société maghrébine. À partir d’une lecture de notre matériel de terrain relatif à la
+        société Ketama du Rif central, dont la principale activité économique réside dans la culture
+        du cannabis et de ses dérivés, nous proposons ici une analyse de la société rifaine à partir
+        de la démarche khaldounienne afin de nous atteler à une autre approche de l’anthropologie du
+        Rif et du Maghreb.</alinea>
+    
+ </resume>
+    
+ <resume lang="en">
+        <titre>Abstract</titre>
+      <alinea>This article presents a anthropological analysis on the Rif of Morocco. Maghrebian and
+        Moroccan anthropologies have remained deeply marked by the main anthropological schools of
+        thought in spite of the recent sociological changes. This article investigates the heritage
+        of Hart and Jamous’s works in the actual research on the maghrebian society. Our empirical
+        study leans on the Ketama tribe, which main economical activity consists in the culture of
+        kif and its derivatives. We offer an analysis of the society of Rif based on the perspective
+        of Ibn Khaldoun in order to develop an alternative approach of the anthropology of Rif and
+        Maghreb.</alinea>
+    
+ </resume>
+    <grmotcle lang="fr">
+        <titre>Mots-clés</titre>
+      <motcle>Mouna</motcle>
+      <motcle>cannabis</motcle>
+      <motcle>changement</motcle>
+      <motcle>Rif</motcle>
+      <motcle>Maroc</motcle>
+    </grmotcle>
+    <grmotcle lang="en">
+        <titre>Keywords</titre>
+      <motcle>Mouna</motcle>
+      <motcle>cannabis</motcle>
+      <motcle>change</motcle>
+      <motcle>Rif</motcle>
+      <motcle>Morocco</motcle>
+    </grmotcle>
+</liminaire>
+</article>
+<article idproprio="000285ar" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/as/2008/v32/nas2866/000285ar.html</urlhtml>
+  <urlpdf taille="1,8" unite="mo">/revue/as/2008/v32/nas2866/000285ar.pdf</urlpdf>
+  <urlplan>/revue/as/2008/v32/nas2866/000285ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>107</ppage>
+    <dpage>116</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+      
+  <surtitre>Concevoir les continuités</surtitre>
+        <titre>L’inaltérable mémoire des exemples</titre>
+      <sstitre>À propos de la confiance sociale en régime de transition</sstitre>
+        <titreparal lang="en">The enduring social memory of exemplars</titreparal>
+      <sstitreparal lang="en">About social trust in a transitional political process.</sstitreparal>
+     </grtitre>
+    
+ <grauteur>
+      
+  <auteur id="au1"> 
+   <nompers>
+        
+    <prenom>Laurent</prenom>
+        
+    <nomfamille>Legrain</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Laboratoire d’anthropologie des mondes contemporains</alinea>
+        <alinea>Université Libre de Bruxelles</alinea>
+        <alinea>Institut de Sociologie</alinea>
+        <alinea>44 avenue Jeanne</alinea>
+        <alinea>1050 Bruxelles</alinea>
+        <alinea>Belgique</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:Laurent.Legrain@ulb.ac.be">Laurent.Legrain@ulb.ac.be</liensimple>
+  </courriel> 
+  </auteur>
+    
+ </grauteur>
+    
+ <resume lang="fr">
+        <titre>Résumé</titre>
+      <alinea>À travers quelle sorte de panoptique une communauté sociale regarde-t-elle la société
+        dans laquelle elle vit et comment donne-t-elle à l’image de cette société l’apparence d’une
+        totalité bienveillante? Ce texte pose l’hypothèse de la perpétuation, dans la Mongolie
+        postsocialiste, d’un dispositif de mise en confiance façonné dans la dernière phase de
+        l’édification du socialisme en Mongolie (vers la fin des années 1950). Ce dispositif ancre
+        un type particulier de mémoire sociale – la mémoire sociale des exemples – dans un sentiment
+        nostalgique commun mais très prégnant en Mongolie : l’absence des êtres chers. J’avance que
+        cet ancrage permet de comprendre la pérennité de ce dispositif dans une société mongole
+        postsocialiste surtout caractérisée par une situation de précarité de la confiance
+        sociale.</alinea>
+    
+ </resume>
+    
+ <resume lang="en">
+        <titre>Abstract</titre>
+      <alinea>Through which kind of panopticon a social community looks the society in which it
+        lives? How this community gives to the image of this society the appearance of a benevolent
+        totality? This text make the assumption of the perpetuation, in postsocialist Mongolia, of a
+        technology of trust implemanted during the last phase of the construction of socialism in
+        Mongolia (from the end of the Fifties). This technology roots a particular type of social
+        memory – « the social memory of exemplars » (Kaplonski 2004 : 182) - in a common but very
+        well distributed nostalgic feeling : the absence of the beloved beings. I argue that this
+        emotional fundation makes it possible to better understand the perenniality of this kind of
+        technology in a Mongolian postsocialist society characterized by a situation of
+        precariousness of social trust.</alinea>
+    
+ </resume>
+    <grmotcle lang="fr">
+        <titre>Mots-clés</titre>
+      <motcle>Legrain</motcle>
+      <motcle>confiance sociale</motcle>
+      <motcle>Mongolie</motcle>
+      <motcle>post-socialisme</motcle>
+      <motcle>nostalgie</motcle>
+      <motcle>mémoire sociale</motcle>
+    </grmotcle>
+    <grmotcle lang="en">
+        <titre>Keywords</titre>
+      <motcle>Legrain</motcle>
+      <motcle>social trust</motcle>
+      <motcle>Mongolia</motcle>
+      <motcle>postsocialism</motcle>
+      <motcle>nostalgia</motcle>
+      <motcle>social memory</motcle>
+    </grmotcle>
+</liminaire>
+</article>
+<article idproprio="000286ar" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/as/2008/v32/nas2866/000286ar.html</urlhtml>
+  <urlpdf taille="194" unite="ko">/revue/as/2008/v32/nas2866/000286ar.pdf</urlpdf>
+  <urlplan>/revue/as/2008/v32/nas2866/000286ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>117</ppage>
+    <dpage>126</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+      
+  <surtitre>Quatre voix pour une anthropologie</surtitre>
+        <titre>L’anthropologie et ses lieux</titre>
+      <sstitre>Altérité, genre, relativisme culturel et dé-colonisation</sstitre>
+        <titreparal lang="en">On anthropology’s future</titreparal>
+      <sstitreparal lang="en">Alterity, gender, cultural relativism and
+        de-colonization</sstitreparal>
+     </grtitre>
+    
+ <grauteur>
+      
+  <auteur id="au1"> 
+   <nompers>
+        
+    <prenom>Eduardo</prenom>
+        <autreprenom>González</autreprenom>
+        
+    <nomfamille>Castillo</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Département d’anthropologie</alinea>
+        <alinea>Université Laval</alinea>
+        <alinea>Pavillon Charles-De Koninck</alinea>
+        <alinea>1030, avenue des Sciences-Humaines</alinea>
+        <alinea>Québec (Québec) G1V 0A6</alinea>
+        <alinea>Canada</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:eduardo.gonzalez.1@ulaval.ca">eduardo.gonzalez.1@ulaval.ca</liensimple>
+  </courriel> 
+  </auteur>
+      
+  <auteur id="au2"> 
+   <nompers>
+        
+    <prenom>Anne</prenom>
+        
+    <nomfamille>Lavanchy</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Maison d’analyse des processus sociaux</alinea>
+        <alinea>Université de Neuchâtel</alinea>
+        <alinea>Faubourg de l’Hôpital 27</alinea>
+        <alinea>2000 Neuchâtel</alinea>
+        <alinea>Suisse</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:Anne.Lavanchy@unine.ch">Anne.Lavanchy@unine.ch</liensimple>
+  </courriel> 
+  </auteur>
+      
+  <auteur id="au3"> 
+   <nompers>
+        
+    <prenom>Zakaria</prenom>
+        
+    <nomfamille>Rhani</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Département d’anthropologie</alinea>
+        <alinea>Université de Montréal</alinea>
+        <alinea>Pavillon Lionel-Groulx</alinea>
+        <alinea>3150, rue Jean-Brillant</alinea>
+        <alinea>Montréal (Québec) H3T 1N8</alinea>
+        <alinea>Canada</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:zrhani@gmail.com">zrhani@gmail.com</liensimple>
+  </courriel> 
+  </auteur>
+      
+  <auteur id="au4"> 
+   <nompers>
+        
+    <prenom>Karoline</prenom>
+        
+    <nomfamille>Truchon</nomfamille>
+        
+   </nompers> 
+  <affiliation>
+        <alinea>Département d’anthropologie</alinea>
+        <alinea>Université Laval</alinea>
+        <alinea>Pavillon Charles-De Koninck</alinea>
+        <alinea>1030, avenue des Sciences-Humaines</alinea>
+        <alinea>Québec (Québec) G1V 0A6</alinea>
+        <alinea>Canada</alinea>
+        
+  </affiliation> 
+  <courriel>
+ <liensimple xlink:type="simple" xlink:href="mailto:karoline.truchon.1@ulaval.ca">karoline.truchon.1@ulaval.ca</liensimple>
+  </courriel> 
+  </auteur>
+    
+ </grauteur>
+    
+ <resume lang="fr">
+        <titre>Résumé</titre>
+      <alinea>Cet article résulte d’une rencontre entre quatre « jeunes » anthropologues originaires
+        de différentes parties du monde pour échanger au sujet de la condition actuelle -et du futur
+        souhaitable- des anthropologies du monde. Malgré la pluralité de nos avis, une certaine
+        convergence fondamentale émerge : celle d’une critique contre, et d’un refus des inerties
+        qui de temps en temps s’acharnent sur le travail anthropologique un peu avec le consentement
+        des anthropologues, sous la forme d’un élitisme désengagé, d’une confortable réification du
+        sujet d’étude et de l’oubli des conditions historiques et socioéconomiques qui sont à la
+        base de l’expansion mondiale et de la reproduction de la discipline. Nous soulignons donc
+        l’urgence de prendre la mesure des préoccupations quotidiennes de nos interlocuteurs et
+        interlocutrices, de revendiquer des espaces et une légitimité dans des champs politiques de
+        recherche étatiques comme dans la sphère médiatique.</alinea>
+    
+ </resume>
+    
+ <resume lang="en">
+        <titre>Abstract</titre>
+      <alinea>This article stems from a dialogue between four “young” anthropologists from different
+        parts of the world on the actual and future stake of what we refer as “anthropologies of the
+        world”. Despite the diversity of our critics, a fundamental convergence occurs in the
+        refusal of a disengaged elitism, of a comfortable reification of our objects of studies as
+        well as of the erasure of the historical and socioeconomic conditions on which the global
+        expansion and reproduction of our discipline is based As such, we underline the urgency to
+        account for our research interlocutors’ daily preoccupations and to revendicate spaces and
+        legitimacy to intervene within political as well as media spheres.</alinea>
+    
+ </resume>
+    <grmotcle lang="fr">
+        <titre>Mots-clés</titre>
+      <motcle>González Castillo</motcle>
+      <motcle>Lavanchy</motcle>
+      <motcle>Rhani</motcle>
+      <motcle>Truchon</motcle>
+      <motcle>altérité</motcle>
+      <motcle>genre</motcle>
+      <motcle>relativisme culturel et dé-colonisation</motcle>
+    </grmotcle>
+    <grmotcle lang="en">
+        <titre>Keywords</titre>
+      <motcle>González Castillo</motcle>
+      <motcle>Lavanchy</motcle>
+      <motcle>Rhani</motcle>
+      <motcle>Truchon</motcle>
+      <motcle>alterity</motcle>
+      <motcle>gender</motcle>
+      <motcle>cultural relativism and de-colonization</motcle>
+    </grmotcle>
+</liminaire>
+</article>
+</sommaire>
