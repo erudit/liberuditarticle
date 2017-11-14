@@ -1,5 +1,31 @@
 import os
+import inspect
 import pytest
+
+
+def with_locale(locale):
+    """ Class decorator that runs all the test with the given locale
+
+    Decorates all the test functions so that they activate a specific locale
+    before the test execution and reactivate the current locale after
+    test execution.
+    """
+    def decorator(cls):
+        def func_decorator(func):
+            def wrapper(*args, **kwargs):
+                from django.utils import translation
+                old_locale = translation.get_language()
+                translation.activate(locale)
+                results = func(*args, **kwargs)
+                translation.activate(old_locale)
+                return results
+            return wrapper
+
+        for name, cls_func in inspect.getmembers(cls, inspect.isfunction):
+            if name.startswith("test_"):
+                setattr(cls, name, func_decorator(cls_func))
+        return cls
+    return decorator
 
 
 def with_fixtures(path, object_type):
