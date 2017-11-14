@@ -4,4 +4,7 @@ lxml
 pytest
 pytest-sugar
 pytest-cov
+pytest-django
+Django>=1.10.0
 ipdb
+
