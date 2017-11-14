@@ -1,4 +1,10 @@
-from gettext import gettext as _
+try:
+    from django.utils.translation import pgettext
+    from django.utils.translation import gettext as _
+except ImportError:
+    pgettext = lambda ctx, msg: msg  # noqa
+    _ = lambda x: x  # noqa
+
 import collections
 import re
 import itertools
@@ -84,11 +90,11 @@ class EruditPublication(
         publication_type = self.get_text('publicationtypecode')
         if formatted:
             if publication_type == 'supp':
-                return _('supplément')
+                return pgettext("numbering", 'supplément')
             if publication_type == 'index':
-                return _('index')
+                return pgettext("numbering", 'index')
             if publication_type == 'hs':
-                return _('hors-série')
+                return pgettext("numbering", 'hors-série')
         else:
             return publication_type
 
@@ -348,49 +354,71 @@ class EruditPublication(
 
         volume = self.get_volume()
         number = self.get_number()
-        number_type = self.get_publication_type(formatted=True)
-        publication_period = self.get_publication_period().lower()
+        number_type = self.get_publication_type()
+        publication_period = self.get_publication_period()
+
+        if not formatted:
+            return {
+                'volume': volume,
+                'number': number,
+                'number_type': number_type,
+                'publication_period': publication_period
+            }
 
         if abbreviated and html:
-            volume_str = _("Vol.")
-            number_str = _("N<sup>o</sup>")
+            volume_str = pgettext('numbering', "Vol.")
+            number_str = pgettext('numbering', "N<sup>o</sup>")
+            untranslated_number_str = "N<sup>o</sup>"
         elif abbreviated:
-            volume_str = _("Vol.")
-            number_str = _("N°")
+            volume_str = pgettext('numbering', "Vol.")
+            number_str = pgettext('numbering', "N°")
+            untranslated_number_str = "N°"
         else:
-            volume_str = _("Volume")
-            number_str = _("Numéro")
+            volume_str = pgettext('numbering', "Volume")
+            number_str = pgettext('numbering', "Numéro")
+            untranslated_number_str = "Numéro"
+
+        if number_type == 'hs':
+            number_type = self.get_publication_type(formatted=True)
+            number_str_number_type = pgettext(
+                "numbering", "{} hors-série".format(untranslated_number_str)
+            )
+        else:
+            number_type = self.get_publication_type(formatted=True)
+            number_str_number_type = pgettext("numbering", "{} {}".format(
+                untranslated_number_str, number_type
+            ))
 
         args = dict(
             volume=volume,
             number=number,
             number_type=number_type,
-            publication_period=publication_period.lower(),
+            number_type_lcase=number_type.lower() if number_type else None,
+            publication_period=publication_period,
+            publication_period_lcase=publication_period.lower() if publication_period else None,
             number_str=number_str,
+            number_str_lcase=number_str.lower() if number_str else None,
             volume_str=volume_str,
+            number_str_number_type=number_str_number_type,
+            number_str_number_type_lcase = number_str_number_type.lower() if number_str_number_type else None  # noqa
         )
 
-        if not formatted:
-            return args
-        elif volume and number and number_type:
-            string = _('{volume_str} {volume}, {number_str} {number}, {number_type}, {publication_period}')  # noqa
-            args['number_str'] = args['number_str'].lower()
+        if volume and number and number_type:
+            string = _('{volume_str} {volume}, {number_str_lcase} {number}, {number_type_lcase}, {publication_period_lcase}')  # noqa
         elif volume and not number and number_type:
-            string = _('{volume_str} {volume}, {number_str} {number_type}, {publication_period}')
-            args['number_str'] = args['number_str'].lower()
+            string = _('{volume_str} {volume}, {number_str_number_type_lcase}, {publication_period_lcase}')  # noqa
         elif volume and number:
-            string = _('{volume_str} {volume}, {number_str} {number}, {publication_period}')
-            args['number_str'] = args['number_str'].lower()
+            string = _('{volume_str} {volume}, {number_str_lcase} {number}, {publication_period_lcase}')  # noqa
         elif volume and not number:
-            string = _('{volume_str} {volume}, {publication_period}')
+            string = _('{volume_str} {volume}, {publication_period_lcase}')
         elif not volume and number and number_type:
-            string = _('{number_str} {number}, {number_type}, {publication_period}')
-        elif not volume and number_type and number_type == 'index':
-            string = _('Index, {publication_period}')
+            string = _('{number_str} {number}, {number_type_lcase}, {publication_period_lcase}')
+        elif not volume and number_type and number_type.lower() == 'index':
+            string = _('Index, {publication_period_lcase}')
         elif not volume and not number and number_type:
-            string = _('{number_str} {number_type}, {publication_period}')
+            string = _('{number_str_number_type}, {publication_period_lcase}')
         elif not volume and number:
-            string = _('{number_str} {number}, {publication_period}')
+            string = _('{number_str} {number}, {publication_period_lcase}')
         return string.format(**args)
 
     article_count = property(get_article_count)

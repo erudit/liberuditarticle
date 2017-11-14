@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-14 11:56-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: objects/publication.py:89 translations.py:5
+msgctxt "numbering"
+msgid "supplément"
+msgstr "Supplement"
+
+#: objects/publication.py:91 translations.py:6
+msgctxt "numbering"
+msgid "index"
+msgstr "Index"
+
+#: objects/publication.py:93 translations.py:3
+msgctxt "numbering"
+msgid "hors-série"
+msgstr "Special"
+
+#: objects/publication.py:365 objects/publication.py:368
+msgctxt "numbering"
+msgid "Vol."
+msgstr ""
+
+#: objects/publication.py:366
+msgctxt "numbering"
+msgid "N<sup>o</sup>"
+msgstr ""
+
+#: objects/publication.py:369
+msgctxt "numbering"
+msgid "N°"
+msgstr ""
+
+#: objects/publication.py:371
+msgctxt "numbering"
+msgid "Volume"
+msgstr ""
+
+#: objects/publication.py:372
+msgctxt "numbering"
+msgid "Numéro"
+msgstr "Number"
+
+#: objects/publication.py:376
+msgctxt "numbering"
+msgid "Numéro hors-série"
+msgstr "Special Issue"
+
+#: objects/publication.py:379
+msgctxt "numbering"
+msgid "{} {}"
+msgstr ""
+
+#: objects/publication.py:397
+msgid ""
+"{volume_str} {volume}, {number_str_lcase} {number}, {number_type_lcase}, "
+"{publication_period_lcase}"
+msgstr ""
+"{volume_str} {volume}, {number_str} {number}, {number_type}, "
+"{publication_period}"
+
+#: objects/publication.py:399
+msgid ""
+"{volume_str} {volume}, {number_str_number_type_lcase}, {publication_period_lcase}"
+msgstr ""
+"{volume_str} {volume}, {number_str_number_type}, {publication_period}"
+
+#: objects/publication.py:401
+msgid ""
+"{volume_str} {volume}, {number_str_lcase} {number}, "
+"{publication_period_lcase}"
+msgstr "{volume_str} {volume}, {number_str} {number}, {publication_period}"
+
+#: objects/publication.py:403
+msgid "{volume_str} {volume}, {publication_period_lcase}"
+msgstr "{volume_str} {volume}, {publication_period}"
+
+#: objects/publication.py:405
+msgid "{number_str} {number}, {number_type_lcase}, {publication_period_lcase}"
+msgstr "{number_str} {number}, {number_type}, {publication_period}"
+
+#: objects/publication.py:407
+msgid "Index, {publication_period_lcase}"
+msgstr "Index, {publication_period}"
+
+#: objects/publication.py:409
+msgid "{number_str_number_type}, {publication_period_lcase}"
+msgstr "{number_str_number_type}, {publication_period}"
+
+#: objects/publication.py:411
+msgid "{number_str} {number}, {publication_period_lcase}"
+msgstr "{number_str} {number}, {publication_period}"
+
+#: translations.py:4
+msgctxt "numbering"
+msgid "numéro hors-série"
+msgstr "Special Issue"
+
+#: translations.py:8
+msgctxt "numbering"
+msgid "Printemps"
+msgstr "Spring"
+
+#: translations.py:9
+msgctxt "numbering"
+msgid "Été"
+msgstr "Summer"
+
+#: translations.py:10
+msgctxt "numbering"
+msgid "Automne"
+msgstr "Fall"
+
+#: translations.py:11
+msgctxt "numbering"
+msgid "Hiver"
+msgstr "Winter"
+
+#: translations.py:13
+msgctxt "numbering"
+msgid "Janvier"
+msgstr "January"
+
+#: translations.py:14
+msgctxt "numbering"
+msgid "Février"
+msgstr "February"
+
+#: translations.py:15
+msgctxt "numbering"
+msgid "Mars"
+msgstr ""
+
+#: translations.py:16
+msgctxt "numbering"
+msgid "Avril"
+msgstr "April"
+
+#: translations.py:17
+msgctxt "numbering"
+msgid "Mai"
+msgstr "May"
+
+#: translations.py:18
+msgctxt "numbering"
+msgid "Juin"
+msgstr ""
+
+#: translations.py:19
+msgctxt "numbering"
+msgid "Juillet"
+msgstr "July"
+
+#: translations.py:20
+msgctxt "numbering"
+msgid "Août"
+msgstr "August"
+
+#: translations.py:21
+msgctxt "numbering"
+msgid "Septembre"
+msgstr "September"
+
+#: translations.py:22
+msgctxt "numbering"
+msgid "Octobre"
+msgstr "October"
+
+#: translations.py:23
+msgctxt "numbering"
+msgid "Novembre"
+msgstr "November"
+
+#: translations.py:24
+msgctxt "numbering"
+msgid "Décembre"
+msgstr "December"
