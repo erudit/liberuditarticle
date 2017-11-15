@@ -233,6 +233,13 @@ class EruditBaseObject(object):
                 },
             ]
         """
+        # NOTE: This is one of the slowest functions of liberuditarticle.
+        #
+        # Searching for slow tests and profiling the code led to discover that this
+        # function was a bottleneck. When asking for a "html" person, a XSL transfo
+        # is performed for every tag. An optimization would be to perform *one*
+        # XSL transformation for the whole sub tree.
+
         et.strip_tags(person_tag, 'marquage')
 
         method = self.get_text
