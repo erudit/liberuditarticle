@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
 
+try:
+    from django.utils.translation import pgettext
+except ImportError:
+    pgettext = lambda ctx, msg: msg  # noqa
+
 
 class PublicationPeriodMixin(object):
 
@@ -19,30 +24,30 @@ class PublicationPeriodMixin(object):
             if element.tag == 'periode':
                 if previous_item_is_year:
                     publication_period = "{}, {}".format(
-                        publication_period,
-                        element.text,
+                        pgettext("numbering", publication_period),
+                        pgettext("numbering", element.text),
                     )
                 else:
                     publication_period = "{}–{}".format(
-                        publication_period,
-                        element.text,
+                        pgettext("numbering", publication_period),
+                        pgettext("numbering", element.text),
                     )
                 previous_item_is_year = False
 
             if element.tag == 'annee':
                 if previous_item_is_year:
                     publication_period = "{}–{}".format(
-                        publication_period,
-                        element.text
+                        pgettext("numbering", publication_period),
+                        pgettext("numbering", element.text)
                     )
                 else:
                     publication_period = "{} {}".format(
-                        publication_period,
-                        element.text
+                        pgettext("numbering", publication_period),
+                        pgettext("numbering", element.text)
                     )
                 previous_item_is_year = True
 
-        return publication_period
+        return pgettext("numbering", publication_period)
 
     publication_period = property(get_publication_period)
 

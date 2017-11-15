@@ -142,7 +142,10 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
     def get_ordseq(self):
         """ :returns: the ordering number of the article object. """
         ordseq = self._root.get('ordseq')
-        return int(ordseq) if ordseq is not None else 0
+        try:
+            return int(ordseq) if ordseq is not None else 0
+        except ValueError:
+            raise ValueError("ordseq needs to be a positive integer")
 
     def get_processing(self):
         """ :returns: the processing type of the article object. """
