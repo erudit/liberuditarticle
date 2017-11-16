@@ -1,5 +1,6 @@
 include LICENSE
 include MANIFEST.in
+recursive-include eruditarticle *.po *.mo
 include *.rst
 include *.md
 global-exclude *.pyc
