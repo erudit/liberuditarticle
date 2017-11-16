@@ -145,7 +145,7 @@ msgstr "February"
 #: translations.py:15
 msgctxt "numbering"
 msgid "Mars"
-msgstr ""
+msgstr "March"
 
 #: translations.py:16
 msgctxt "numbering"
@@ -160,7 +160,7 @@ msgstr "May"
 #: translations.py:18
 msgctxt "numbering"
 msgid "Juin"
-msgstr ""
+msgstr "June"
 
 #: translations.py:19
 msgctxt "numbering"
