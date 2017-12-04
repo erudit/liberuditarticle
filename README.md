@@ -7,20 +7,28 @@
 
 ## Supported python versions
 
-3.3, 3.4
+3.3, 3.4, 3.5, 3.6
 
 ## Installation
 
 You can install liberuditarticle using pip:
 
-```sh
-$ pip install git@gitlab.erudit.org:erudit/portail/liberuditarticle.git
-```
-If you wish to contribute to the development of `liberuditarticle`:
+## Development
+
+1. Clone the project
+2. Install the dev dependencies in a virtualenv
 
 ```sh
-$ pip install -e git@gitlab.erudit.org:erudit/portail/liberuditarticle.git@master#egg=liberuditarticle
+pip install -r dev-requirements.txt
 ```
+
+3. Run the tests
+
+```sh
+tox
+```
+
+You are ready to go! :tada:
 
 ## References
 
