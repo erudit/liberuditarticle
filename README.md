@@ -14,12 +14,12 @@
 You can install liberuditarticle using pip:
 
 ```sh
-$ pip install git@github.com:erudit/liberuditarticle.git
+$ pip install git@gitlab.erudit.org:erudit/portail/liberuditarticle.git
 ```
 If you wish to contribute to the development of `liberuditarticle`:
 
 ```sh
-$ pip install -e git+https://github.com/erudit/liberuditarticle.git@master#egg=liberuditarticle
+$ pip install -e git@gitlab.erudit.org:erudit/portail/liberuditarticle.git@master#egg=liberuditarticle
 ```
 
 ## References
