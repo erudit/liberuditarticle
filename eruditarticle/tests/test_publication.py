@@ -217,6 +217,18 @@ class TestPublicationFormattedThemes(object):
     #     ]
 
 
+@with_fixtures('./eruditarticle/tests/fixtures/publication/redacteurchef', EruditPublication)
+class TestRedacteurChef(object):
+
+    @with_value("ltp3991.xml", "get_redacteurchef", type="invite")
+    def test_can_find_redacteurchef_when_no_theme(self, value):
+        redacteurchef = value[0]
+        assert len(value) == 1
+        assert redacteurchef['firstname'] == 'Marc' and \
+            redacteurchef['lastname'] == 'Dumas' and \
+            redacteurchef['type'] == 'invite'
+
+
 @with_fixtures('./eruditarticle/tests/fixtures/publication', EruditPublication)
 class TestEruditPublication(object):
 

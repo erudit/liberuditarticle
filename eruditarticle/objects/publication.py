@@ -207,11 +207,24 @@ class EruditPublication(
         :returns: the formatted themes of this publication """
         return self.get_themes(html=True, formatted=True)
 
-    def get_redacteurchef(self, idrefs=None, html=False):
-        """ Return the redacteurchef of this publication """
+    def get_redacteurchef(self, type=None, idrefs=None, html=False):
+        """
+            :param type: If set, only return redacteurchef that match this type
+            :param idrefs: ids associated to a theme
+            :param html: if set to True, html tags will be kept
+
+        :returns: a list of redacteurchef objects of this publication """
         tag = 'redacteurchef'
+        attribute_search = []
         if idrefs:
-            tag = "redacteurchef[@idrefs='{}']".format(idrefs)
+            attribute_search.append("@idrefs='{}'".format(idrefs))
+        if type:
+            attribute_search.append("@typerc='{}'".format(type))
+
+        if attribute_search:
+            tag = "redacteurchef[{}]".format(
+                ",".join(attribute_search)
+            )
 
         redacteurchefs = []
         redacteurchef_tags = self.findall(tag)
