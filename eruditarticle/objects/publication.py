@@ -20,6 +20,9 @@ from .mixins import PublicationPeriodMixin
 class EruditPublication(
     PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject
 ):
+    """
+    Expects the ``SUMMARY`` datastream of a Fedora ``Publication`` object
+    """
     def get_titles(self, strip_markup=False):
         """
         .. warning::
