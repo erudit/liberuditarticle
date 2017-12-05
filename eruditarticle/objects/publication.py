@@ -210,32 +210,65 @@ class EruditPublication(
         :returns: the formatted themes of this publication """
         return self.get_themes(html=True, formatted=True)
 
-    def get_redacteurchef(self, typerc=None, idrefs=None, html=False):
+    def get_redacteurchef(self, typerc=None, idrefs=None, formatted=False, html=False):
         """
-            :param typerc: If set, only return redacteurchef that match this type
-            :param idrefs: ids associated to a theme
-            :param html: if set to True, html tags will be kept
+        Return the list of redacteurchef of this Publication. If called with the default arguments,
+        ``get_redacteurchef`` will return a list containg all redacteurchef objects of this
+        publication.
 
+        :param typerc:
+            If specified, only return redacteurchef matching that type. Must be one of "regulier"
+            or "invite"
+        :param idrefs: Filter redacteurchef by theme id.
+            Value of ``idrefs`` must be one of the following:
+
+            :None: all redacteurchef, whether they are linked to a theme or
+              not, will be returned.
+            :list[str]: only redacteurchef linked to these themes will be returned.
+            :[]: only redacteurchef linked to **NO** themes will be returned
+
+        :param boolean formatted: format the redacteurchef name
+        :param boolean html: if set to True, html tags will be kept
+        :type idrefs: list[str] or None
+        :type typerc: str or None
+        :raises ValueError: if typerc is not one of "regulier" or "invite"
         :returns: a list of redacteurchef objects of this publication """
+
         tag = 'redacteurchef'
+
+        if typerc is not None and typerc not in ["regulier", "invite"]:
+            raise ValueError("Must be 'regulier' or 'invite'")
+
         attribute_search = []
-        if idrefs:
-            attribute_search.append("@idrefs='{}'".format(idrefs))
+        if idrefs is not None and len(idrefs) == 0:
+            attribute_search.append("not(@idrefs)")
+        elif idrefs is not None:
+            idrefs_search = []
+            for idref in idrefs:
+                idrefs_search.append('contains(@idrefs, "{}")'.format(idref))
+            idrefs_query = "({})".format(" or ".join(idrefs_search))
+            attribute_search.append(idrefs_query)
         if typerc:
             attribute_search.append("@typerc='{}'".format(typerc))
 
         if attribute_search:
             tag = "redacteurchef[{}]".format(
-                ",".join(attribute_search)
+                " and ".join(attribute_search)
             )
 
         redacteurchefs = []
-        redacteurchef_tags = self.findall(tag)
+        redacteurchef_tags = self._root.xpath("//{}".format(tag))
         for redacteurchef_tag in redacteurchef_tags:
-            redacteurchef_parsed = self.parse_person(redacteurchef_tag, html=html)
-            redacteurchef_parsed['typerc'] = redacteurchef_tag.get('typerc')
-            if redacteurchef_tag.get('idrefs'):
-                redacteurchef_parsed['themes'] = redacteurchef_tag.get('idrefs').split()
+            if formatted:
+                redacteurchef_parsed = self.format_person_name(
+                    self.parse_person(redacteurchef_tag),
+                    html=html
+                )
+            else:
+                redacteurchef_parsed = self.parse_person(redacteurchef_tag, html=html)
+                redacteurchef_parsed['typerc'] = redacteurchef_tag.get('typerc')
+                if redacteurchef_tag.get('idrefs'):
+                    redacteurchef_parsed['themes'] = redacteurchef_tag.get('idrefs').split()
             redacteurchefs.append(redacteurchef_parsed)
         return redacteurchefs
 
