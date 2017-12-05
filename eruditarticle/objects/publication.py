@@ -210,9 +210,9 @@ class EruditPublication(
         :returns: the formatted themes of this publication """
         return self.get_themes(html=True, formatted=True)
 
-    def get_redacteurchef(self, type=None, idrefs=None, html=False):
+    def get_redacteurchef(self, typerc=None, idrefs=None, html=False):
         """
-            :param type: If set, only return redacteurchef that match this type
+            :param typerc: If set, only return redacteurchef that match this type
             :param idrefs: ids associated to a theme
             :param html: if set to True, html tags will be kept
 
@@ -221,8 +221,8 @@ class EruditPublication(
         attribute_search = []
         if idrefs:
             attribute_search.append("@idrefs='{}'".format(idrefs))
-        if type:
-            attribute_search.append("@typerc='{}'".format(type))
+        if typerc:
+            attribute_search.append("@typerc='{}'".format(typerc))
 
         if attribute_search:
             tag = "redacteurchef[{}]".format(
@@ -233,7 +233,7 @@ class EruditPublication(
         redacteurchef_tags = self.findall(tag)
         for redacteurchef_tag in redacteurchef_tags:
             redacteurchef_parsed = self.parse_person(redacteurchef_tag, html=html)
-            redacteurchef_parsed['type'] = redacteurchef_tag.get('typerc')
+            redacteurchef_parsed['typerc'] = redacteurchef_tag.get('typerc')
             if redacteurchef_tag.get('idrefs'):
                 redacteurchef_parsed['themes'] = redacteurchef_tag.get('idrefs').split()
             redacteurchefs.append(redacteurchef_parsed)

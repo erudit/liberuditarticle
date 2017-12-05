@@ -220,13 +220,13 @@ class TestPublicationFormattedThemes(object):
 @with_fixtures('./eruditarticle/tests/fixtures/publication/redacteurchef', EruditPublication)
 class TestRedacteurChef(object):
 
-    @with_value("ltp3991.xml", "get_redacteurchef", type="invite")
+    @with_value("ltp3991.xml", "get_redacteurchef", typerc="invite")
     def test_can_find_redacteurchef_when_no_theme(self, value):
         redacteurchef = value[0]
         assert len(value) == 1
         assert redacteurchef['firstname'] == 'Marc' and \
             redacteurchef['lastname'] == 'Dumas' and \
-            redacteurchef['type'] == 'invite'
+            redacteurchef['typerc'] == 'invite'
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication', EruditPublication)
@@ -330,12 +330,12 @@ class TestEruditPublication(object):
         redacteurchef = self.test_objects['ae1375.xml'].get_redacteurchef()
         assert redacteurchef[0]['firstname'] == 'Olivier'
         assert redacteurchef[0]['lastname'] == 'Donni'
-        assert redacteurchef[0]['type'] == 'invite'
+        assert redacteurchef[0]['typerc'] == 'invite'
 
         redacteurchef = self.test_objects['images1102374.xml'].get_redacteurchef()  # noqa
         assert redacteurchef[0]['firstname'] == 'Marie-Claude'
         assert redacteurchef[0]['lastname'] == 'Loiselle'
-        assert redacteurchef[0]['type'] == 'regulier'
+        assert redacteurchef[0]['typerc'] == 'regulier'
 
     def test_droitsauteur(self):
         assert self.test_objects['images1102374.xml'].get_droitsauteur() == [{'text': "Tous droits réservés © 24 images, 2000"}]  # noqa
