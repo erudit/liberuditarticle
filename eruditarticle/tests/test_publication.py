@@ -206,18 +206,6 @@ class TestPublicationFormattedThemes(object):
             }
         ]
 
-    # @with_value('ltp2010663.xml', 'get_themes', html=True, formatted=True)
-    # def test_can_display_no_theme_and_guest_editor(self, value):
-    #    assert value == [
-    #        {'name': None, 'editors': 'Marc Dumas'}
-    #    ]
-
-    # @with_value('dss201092.xml', 'get_themes', html=True, formatted=True)
-    # def test_can_display_no_theme_and_multiple_guest_editors(self, value):
-    #     assert value == [
-    #         {'name': None, 'editors': 'Pierre Lauzon et Michel Landry'}
-    #     ]
-
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication/redacteurchef', EruditPublication)
 class TestRedacteurChef(object):
