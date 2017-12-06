@@ -271,56 +271,6 @@ class EruditBaseObject(object):
             person['pseudo'] = self.parse_person(pseudo)
         return person
 
-    def parse_formatted_person(self, person_tag):
-        """
-        .. warning::
-           Will be removed or modified 0.3.0
-           For more information please refer to :py:mod:`eruditarticle.objects`
-
-        Parses a person tag
-
-        :returns: a person dictionary
-
-        The persons are returned as a list of dictionaries of the form::
-
-            [
-                {
-                   'firstname': 'Foo',
-                   'lastname': 'Bar',
-                   'othername': 'Dummy',
-                   'affiliations': ['TEST1', 'TEST2']
-                   'email': 'foo.bar@example.com',
-                   'organization': 'Test',
-                   'suffix': 'Ph.D.'
-                },
-            ]
-        """
-        et.strip_tags(person_tag, 'marquage')
-        person = {
-           'firstname': self.convert_marquage_content_to_html(self.find('prenom', dom=person_tag)),  # noqa
-           'lastname': self.convert_marquage_content_to_html(self.find('nomfamille', dom=person_tag)),  # noqa
-           'othername': self.convert_marquage_content_to_html(self.find('autreprenom', dom=person_tag)),  # noqa
-           'suffix': self.convert_marquage_content_to_html(self.find('suffixe', dom=person_tag)),  # noqa
-           'affiliations': [
-               self.convert_marquage_content_to_html(self.find('alinea', dom=affiliation_dom))
-               for affiliation_dom in self.findall('affiliation', dom=person_tag)
-           ],
-           'email': self.convert_marquage_content_to_html(self.find('courriel/liensimple', dom=person_tag)),  # noqa
-           'organization': self.convert_marquage_content_to_html(self.find('nomorg', dom=person_tag)),  # noqa
-           'role': {},
-        }
-
-        find_role = et.XPath('fonction')
-        roles = find_role(person_tag)
-        for role in roles:
-            person['role'][role.get('lang')] = role.text
-
-        pseudo = self.find('nompers[@typenompers="pseudonyme"]', dom=person_tag)
-        all_person_names = self.findall('nompers', dom=person_tag)
-        if pseudo is not None and len(all_person_names) > 1:
-            person['pseudo'] = self.parse_person(pseudo)
-        return person
-
     def parse_simple_link(self, simplelink_node):
         """ Parses a "liensimple" node.
 
