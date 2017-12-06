@@ -101,11 +101,6 @@ class EruditPublication(
             notes.append(note)
         return notes
 
-    def get_notegen_numerique(self):
-        """ Return the digital edition note of this publication """
-        notegen = self.get_itertext('notegen[@typenoteg="edito"]')
-        return re.sub('^ | $', '', re.sub(' +', ' ', re.sub('\n', '', notegen)))
-
     def get_publication_type(self, formatted=False):
         """ Return the type of this publication
 
