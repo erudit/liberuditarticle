@@ -32,7 +32,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """ :returns: the authors of the article object. """
         authors = [
             self.parse_person(author) for author in
-            self._root.xpath('//auteur[not(contribution[@typecontrib!="aut"])]')
+            self._root.xpath('//liminaire//auteur[not(contribution[@typecontrib!="aut"])]')
         ]
         return authors
 
