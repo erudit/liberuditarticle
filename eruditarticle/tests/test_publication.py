@@ -334,6 +334,18 @@ class TestRedacteurChef(object):
 @with_fixtures('./eruditarticle/tests/fixtures/publication', EruditPublication)
 class TestEruditPublication(object):
 
+    @with_value("ae1375.xml", "get_article_count")
+    def test_can_return_the_number_of_articles_of_this_publication(self, value):
+        assert value == 10
+
+    @with_value("ae1375.xml", "get_first_page")
+    def test_can_return_the_first_page_of_the_publication(self, value):
+        assert value == "5"
+
+    @with_value("ae1375.xml", "get_last_page")
+    def test_can_return_the_last_page_of_the_publication(self, value):
+        assert value == "316"
+
     def test_number(self):
         assert self.test_objects["ae1375.xml"].get_number() == '1-2'
         assert self.test_objects["crs1517600.xml"].get_number() == ''
