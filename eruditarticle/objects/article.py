@@ -28,12 +28,16 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """ :returns: the type of the article. """
         return self._dom.getroot().get('typeart')
 
-    def get_authors(self):
+    def get_authors(self, formatted=False, html=False):
         """ :returns: the authors of the article object. """
+
         authors = [
-            self.parse_person(author) for author in
+            self.parse_person(author, html=html) for author in
             self._root.xpath('//liminaire//auteur[not(contribution[@typecontrib!="aut"])]')
         ]
+
+        if formatted:
+            authors = [self.format_person_name(author) for author in authors]
         return authors
 
     def get_formatted_authors(self):
@@ -44,11 +48,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
 
         :returns: the formatted author names of the article object.
         """
-        return [
-            self.format_person_name(self.parse_formatted_person(author))
-            for author in
-            self._root.xpath('//auteur[not(contribution[@typecontrib!="aut"])]')
-        ]
+        return self.get_authors(formatted=True)
 
     def get_notegens(self):
         """

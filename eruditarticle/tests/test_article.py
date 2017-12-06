@@ -232,7 +232,7 @@ class TestFormatPersonName(object):
 
     @with_value('strip_tags.xml', 'get_formatted_authors')
     def test_can_strip_elements_from_author_name(self, value):
-        assert value == ['R&#233;jean Savard']
+        assert value == ['Réjean Savard']
 
     @with_value('firstname_lastname.xml', 'get_formatted_authors')
     def test_can_format_a_firstname_lastname(self, value):
@@ -261,6 +261,10 @@ class TestFormatPersonName(object):
     @with_value('with_suffix.xml', 'get_formatted_authors')
     def test_can_format_name_with_suffix(self, value):
         assert value == ['Thibault Martin Ph.D.']
+
+    @with_value('with_guest_editor.xml', 'get_formatted_authors')
+    def test_can_format_name_when_guest_editors(self, value):
+        assert value == ['Justin K. Bisanswa']
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/find_authors/', EruditArticle)
