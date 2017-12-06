@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+<originator username="pabis18" date="2017-01-12" app="Tournesol 0.4.2"/>
+<copyright>
+	<year>2016</year>
+<contribution>
+<artificialperson>
+	<name>Laval théologique et philosophique, Université Laval</name>
+</artificialperson>
+<contributiontype>
+	<code>droit</code>
+	<label lang="en">Copyright Holder</label>
+	<label lang="fr">Titulaire du droit d'auteur</label>
+	<label lang="es">Titular del derecho de autor</label>
+</contributiontype>
+	<ordering>0</ordering>
+</contribution>
+<copyrightdeclaration>
+	<code>tdr</code>
+	<label lang="en">All Rights Reserved</label>
+	<label lang="fr">Tous droits réservés</label>
+	<label lang="es">Reservados todos los derechos</label>
+</copyrightdeclaration>
+</copyright>
+<publicationnumberingkeys>
+	<publicationtypecode>reg</publicationtypecode>
+	<years>
+		<year value="2016">
+			<periodcode>fevri</periodcode>
+		</year>
+	</years>
+</publicationnumberingkeys><infosommaire>
+  <url>/revue/ltp/2016/v72/n1</url>
+  <nbarticle>17</nbarticle>
+  <revue id="ltp26" lang="fr">
+    <titrerev>Laval théologique et philosophique</titrerev>
+    <titrerevabr>ltp</titrerevabr>
+    <idissn>0023-9054</idissn>
+    <idissnnum>1703-8804</idissnnum>
+    <directeur sexe="masculin">
+      <nompers>
+        <prenom>Luc</prenom>
+        <nomfamille>Langlois</nomfamille>
+      </nompers>
+      <key>directeur</key>
+    </directeur>
+    <redacteurchef idrefs="th1" sexe="masculin" typerc="invite">
+      <fonction lang="fr">Rédacteur invité</fonction>
+      <nompers>
+        <prenom>Luc</prenom>
+        <nomfamille>Langlois</nomfamille>
+      </nompers>
+      <key>redacteurinvite</key>
+    </redacteurchef>
+    <redacteurchef sexe="masculin" typerc="regulier">
+      <nompers>
+        <prenom>Thomas</prenom>
+        <nomfamille>De Koninck</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+    <redacteurchef sexe="masculin" typerc="regulier">
+      <nompers>
+        <prenom>Paul-Hubert</prenom>
+        <nomfamille>Poirier</nomfamille>
+      </nompers>
+      <key>redacteurchef</key>
+    </redacteurchef>
+  </revue>
+  <numero id="ltp02888">
+    <volume>72</volume>
+    <nonumero>1</nonumero>
+    <pub>
+      <periode>Février</periode>
+      <annee>2016</annee>
+    </pub>
+    <pubnum>
+      <date typedate="publication">2017-01-04</date>
+    </pubnum>
+    <grtheme id="th1">
+      <theme>Fichte</theme>
+      <sstheme>L’Absolu et sa manifestation</sstheme>
+    </grtheme>
+  </numero>
+  <editeur>
+    <nomorg>Faculté de philosophie, Université Laval</nomorg>
+    <key>editeurs</key>
+  </editeur>
+  <editeur>
+    <nomorg>Faculté de théologie et de sciences religieuses, Université Laval</nomorg>
+    <key>editeurs</key>
+  </editeur>
+  <droitsauteur>Tous droits réservés © <nomorg>Laval théologique et philosophique, Université Laval</nomorg>, 2016</droitsauteur>
+</infosommaire>
+<article doi="10.7202/1038535ar" idproprio="1038535ar" idref="th1" lang="fr" ordseq="1" qualtraitement="complet" typeart="autre">
+  <urlhtml>/revue/ltp/2016/v72/n1/1038535ar.html</urlhtml>
+  <urlpdf taille="193" unite="ko">/revue/ltp/2016/v72/n1/1038535ar.pdf</urlpdf>
+  <pagination>
+    <ppage>5</ppage>
+    <dpage>6</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre>Liminaire</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Luc</prenom>
+    <nomfamille>Langlois</nomfamille>
+   </nompers>
+  <affiliation><alinea>Faculté de philosophie, Université Laval, Québec</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1038536ar" idproprio="1038536ar" idref="th1" lang="fr" ordseq="2" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/ltp/2016/v72/n1/1038536ar.html</urlhtml>
+  <urlpdf taille="1,3" unite="mo">/revue/ltp/2016/v72/n1/1038536ar.pdf</urlpdf>
+  <urlplan>/revue/ltp/2016/v72/n1/1038536ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>7</ppage>
+    <dpage>20</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre>La philosophie fichtéenne de la religion</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Gaetano</prenom>
+    <nomfamille>Rametta</nomfamille>
+   </nompers>
+  <affiliation><alinea>Dipartimento di Filosofia, Pedagogia e Psicologia Applicata, Università degli Studi di Padova</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au2"><contribution typecontrib="trl">traduction de l’italien par</contribution>
+   <nompers>
+    <prenom>Roberto</prenom>
+    <nomfamille>Formisano</nomfamille>
+   </nompers>
+  <affiliation><alinea>Dipartimento di Filosofia e Comunicazione, Università degli Studi di Bologna</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Le présent essai tente de dégager les structures fondamentales de la philosophie de la religion de Fichte après 1800. Une attention particulière est accordée à l’<marquage typemarq="italique">Initiation à la vie bienheureuse</marquage> (1806) et à la <marquage typemarq="italique">Doctrine de l’État</marquage> (1813). La connaissance théorique, la version johannique de la chrétienté, ainsi qu’une nouvelle conception de l’État sont interprétées ici comme autant de visages différents d’un système philosophique strictement interconnecté. Dans sa période berlinoise, Fichte n’a plus conçu le sujet comme le premier principe de sa Doctrine de la science, mais plutôt comme l’« image » transcendantale au travers de laquelle s’écoule le flot d’une vie indivisée et spirituellement transfigurée.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>The present essay tries to show the fundamental structures of Fichte’s philosophy of religion after 1800. Particular attention is focused on the <marquage typemarq="italique">Introduction to a Blessed Life</marquage> (1806) and the <marquage typemarq="italique">Theory of the State</marquage> (1813). Theoretical knowledge, John’s version of Christianity, and a new concept of the State are here interpreted as different faces of a strictly interconnected philosophical system. In his Berliner period, Fichte did not conceive the Subject any more as the “first principle” of his Doctrine of science, but rather as the transcendental “image” through which flows the stream of an undivided and spiritually transfigured Life.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1038537ar" idproprio="1038537ar" idref="th1" lang="fr" ordseq="3" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/ltp/2016/v72/n1/1038537ar.html</urlhtml>
+  <urlpdf taille="1,2" unite="mo">/revue/ltp/2016/v72/n1/1038537ar.pdf</urlpdf>
+  <urlplan>/revue/ltp/2016/v72/n1/1038537ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>21</ppage>
+    <dpage>33</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre>Le savoir comme image de l’Absolu dans la philosophie de la religion de Fichte (1804-1806)</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Luc</prenom>
+    <nomfamille>Langlois</nomfamille>
+   </nompers>
+  <affiliation><alinea>Faculté de philosophie, Université Laval, Québec</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Dans <marquage typemarq="italique">L’initiation à la vie bienheureuse</marquage> (1806), qui est son écrit majeur sur la philosophie de la religion, Fichte, dans le sillage de la <marquage typemarq="italique">Doctrine de la science</marquage> 1804/II, insiste (en réplique à Schelling) sur la corrélation de l’Absolu et de sa manifestation, de l’Absolu et de sa révélation dans le savoir. L’inspiration johannique de son propos (« Au commencement était le Verbe ») s’accorde non seulement avec la prémisse de la philosophie transcendantale de la corrélation de l’être et du savoir, mais la radicalise dans une philosophie de l’Absolu qui fait du savoir véritable, de la Doctrine de la science elle-même, la condition d’une authentique vie en Dieu.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>In the <marquage typemarq="italique">Introduction to a Blessed Life</marquage> (1806), which is his major writing on the philosophy of religion, Fichte, in the wake of the <marquage typemarq="italique">Doctrine of Science</marquage> 1804/II, insists (replying to Schelling) on the correlation of the Absolute and its manifestation, of the Absolute and its revelation in knowledge. The inspiration drawn from John (“In the beginning was the Word”) is not only in acccord with the premiss of the transcendandal philosophy of the correlation between being and knowledge, but it radicalizes it in a philosophy of the Absolute which makes true knowledge, indeed the Doctrine of Science itself, the condition of an authentic life in God.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1038538ar" idproprio="1038538ar" idref="th1" lang="en" ordseq="4" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/ltp/2016/v72/n1/1038538ar.html</urlhtml>
+  <urlpdf taille="341" unite="ko">/revue/ltp/2016/v72/n1/1038538ar.pdf</urlpdf>
+  <urlplan>/revue/ltp/2016/v72/n1/1038538ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>35</ppage>
+    <dpage>64</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre>The Doctrine of Manifestation in Fichte’s <marquage typemarq="italique">Principien</marquage> (1805)</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Marco</prenom>
+    <nomfamille>Ivaldo</nomfamille>
+   </nompers>
+  <affiliation><alinea>Dipartimento di Studi umanistici, Università degli studi “Federico II” di Napoli</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au2"><contribution typecontrib="trl">translation from Italian by</contribution>
+   <nompers>
+    <prenom>Garth</prenom>
+    <nomfamille>Green<renvoi id="re1no1" idref="no1" typeref="note">1</renvoi></nomfamille>
+   </nompers>
+  <affiliation><alinea>Faculty of Religious, Studies McGill University, Montreal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="en"><alinea>This article considers the systematic position of Fichte’s <marquage typemarq="italique">Principien</marquage> (1805), between the <marquage typemarq="italique">philosophia prima</marquage> that is the <marquage typemarq="italique">Wissenschaftslehre</marquage> and the specific doctrines of its application ; nature, right, morality, and religion. It considers also the systematic structures of the <marquage typemarq="italique">Principien</marquage>, with particular attention to the doctrine of manifestation. It does so with sustained attention to the philosophy of religion, since the <marquage typemarq="italique">Principien</marquage> determines manifestation with respect to the relation between God and world, and the relation between God and world with respect to the doctrine of manifestation.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="fr"><alinea>Cet article considère la position systématique des <marquage typemarq="italique">Principien</marquage> de Fichte (1805), entre la <marquage typemarq="italique">prima philosophia</marquage> qu’est la <marquage typemarq="italique">Wissenschaftslehre</marquage> et les doctrines spécifiques de son application ; la nature, le droit, la morale et la religion. Il examine également les structures systématiques des <marquage typemarq="italique">Principien</marquage>, avec une attention particulière à la doctrine de la manifestation. Il le fait avec une attention soutenue à la philosophie de la religion, puisque les <marquage typemarq="italique">Principien</marquage> déterminent la manifestation par rapport à la relation entre Dieu et le monde, et la relation entre Dieu et le monde par rapport à la doctrine de la manifestation.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1038539ar" idproprio="1038539ar" idref="th1" lang="fr" ordseq="5" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/ltp/2016/v72/n1/1038539ar.html</urlhtml>
+  <urlpdf taille="1,7" unite="mo">/revue/ltp/2016/v72/n1/1038539ar.pdf</urlpdf>
+  <pagination>
+    <ppage>65</ppage>
+    <dpage>82</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre>Immanence et existence</titre>
+                <sstitre><marquage typemarq="majuscule">M</marquage>ichel Henry et le problème de l’ontologie, entre Heidegger et Fichte</sstitre>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Roberto</prenom>
+    <nomfamille>Formisano</nomfamille>
+   </nompers>
+  <affiliation><alinea>Dipartimento di Filosofia e Comunicazione, Università degli Studi di Bologna</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur><notegen typenoteg="edito"><alinea>La présente étude a été développée dans le cadre d’une recherche postdoctorale menée au <marquage typemarq="italique">Fonds d’archives Michel Henry</marquage> de Louvain-la-Neuve, et soutenue par le « Fonds Spécial de la Recherche » (<marquage typemarq="italique">FSR Incoming Post-doctoral Fellowship</marquage>) en Belgique, cofinancée par les « Marie-Curie Actions » de la Commission européenne (Programme COFUND 2012). Qu’il me soit permis de remercier le directeur du <marquage typemarq="italique">Fonds d’archives Michel Henry</marquage>, le professeur Jean Leclercq, et son équipe de recherche pour l’ambiance amicale et propice au travail et à l’échange d’idées ainsi que pour la permission de citer les manuscrits inédits consultés.</alinea></notegen>
+ <resume typeresume="resume" lang="fr"><alinea>Dans <marquage typemarq="italique">L’essence de la manifestation</marquage> (1963), la phénoménologie de Michel Henry se présente à la manière d’une philosophie première qui demande expressément et exige l’expulsion de la finitude hors du questionnement ontologique. Dans cet article, je vise à montrer que la raison ultime de cette exigence repose sur une opposition que, dans le cadre de la « critique du monisme ontologique », la problématique henryenne établit entre l’existence en soi de l’absolu et sa manifestation opérée par l’ouverture de l’horizon temporellement fini de l’existence humaine. Reprise et développée à partir d’une interprétation critique de la <marquage typemarq="italique">philosophie de la religion</marquage> de Fichte, la thèse de l’opposition entre l’absolu en soi et sa manifestation finie dans l’existence constitue en effet le préalable décisif qui régit le renversement — toujours revendiqué par Henry — de l’ontologie de Heidegger et de sa conceptualisation de la phénoménologie.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>In <marquage typemarq="italique">L’essence de la manifestation</marquage> (1963), Michel Henry’s phenomenology takes the form of a first philosophy which expressly demands and requires the expulsion of finitude out of the ontological questioning. In this article, I aim to show that the ultimate reason for that requirement rests on an opposition which, within the frame of the “critique of ontological monism”, the issues raised by Michel Henry establish between the existence in itself of the absolute and its manifestation brought about by opening up the temporally finite horizon of human existence. Taken up and developed starting with Fichte’s <marquage typemarq="italique">philosophy of religion</marquage>, the thesis of the opposition between the absolute in itself and its finite manifestation in existence constitutes indeed the decisive precondition governing the reversal — constantly advocated by Henry — of Heidegger’s ontology and of his conceptualization of phenomenology.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1038540ar" idproprio="1038540ar" idref="th1" lang="fr" ordseq="6" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/ltp/2016/v72/n1/1038540ar.html</urlhtml>
+  <urlpdf taille="1,6" unite="mo">/revue/ltp/2016/v72/n1/1038540ar.pdf</urlpdf>
+  <pagination>
+    <ppage>83</ppage>
+    <dpage>99</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre>La lettre tue particulièrement dans la Doctrine de la science</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Claude</prenom>
+    <nomfamille>Piché</nomfamille>
+   </nompers>
+  <affiliation><alinea>Département de philosophie, Université de Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Il est symptomatique que Fichte ait destiné la première version écrite de sa <marquage typemarq="italique">Doctrine de la science</marquage> (1794-1795) « à ses auditeurs », c’est-à-dire aux étudiants de l’Université d’Iéna où il venait d’entrer en fonction. En effet, Fichte a toujours cru que la lettre de l’exposé proprement scientifique de sa philosophie devait être accompagnée d’une explicitation orale, privilégiant ainsi un contact direct avec l’auditoire en vue d’éviter les malentendus. Tout au long de sa carrière, il s’est en vérité résolument méfié de l’« écrit » et c’est la radicalité de cette attitude qui explique en partie le différend qui s’est fait jour entre lui et Schiller à propos de l’article sur l’« <marquage typemarq="italique">esprit</marquage> et la <marquage typemarq="italique">lettre</marquage> en philosophie ». Ces deux termes prennent sous la plume de Fichte une signification inattendue qui témoigne de manière privilégiée de la façon dont il envisage la philosophie transcendantale et son mode de transmission.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>It is striking to notice that Fichte intended the first written version of his <marquage typemarq="italique">Doctrine of Science</marquage> (1794-1795) “for his listeners,” namely for the students of the University of Jena where he had just taken up his post. Fichte in fact always believed that the ‘letter’ of the scientific exposition of his philosophy should be accompanied by an oral explanation, so as to establish a direct contact with his audience in order to avoid misunderstandings. Throughout his career, he was suspicious of the “written” word ; this radical attitude explains at least in part the disagreement that took place between him and Schiller concerning the article “on the <marquage typemarq="italique">spirit</marquage> and the <marquage typemarq="italique">letter</marquage> in philosophy.” Under Fichte’s pen, these two terms take on an unexpected meaning that illustrates, in a priviledged way, how he envisages transcendental philosophy and its mode of transmission.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1038541ar" idproprio="1038541ar" idref="th1" lang="fr" ordseq="7" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/ltp/2016/v72/n1/1038541ar.html</urlhtml>
+  <urlpdf taille="2" unite="mo">/revue/ltp/2016/v72/n1/1038541ar.pdf</urlpdf>
+  <urlplan>/revue/ltp/2016/v72/n1/1038541ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>101</ppage>
+    <dpage>122</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Articles spéciaux</surtitre>
+                  <titre><marquage typemarq="italique">Corporate Personality</marquage> : la possible jeunesse théologique d’une ancienne notion exégétique</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Alain</prenom>
+    <nomfamille>Grau</nomfamille>
+   </nompers>
+  <affiliation><alinea>Le Lavandou, France</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Au légiste qui l’interroge sur ce qu’il faut faire, Jésus répond : « <marquage typemarq="italique">Comment</marquage> lis-tu ? » À nous qui lisons, la question n’est pas sans poser le problème de savoir quel corps nous formons par cette lecture. La « personnalité corporative » pourrait constituer une réponse, pourvu toutefois qu’elle soit dépouillée de tous ses attributs classiques : psychologique, religieux, ou encore littéraire. Sans contenu objectif, elle n’en est pas moins opératoire. Mais en figure seulement, qui attend d’être comblée par la chair pour devenir vraie. La Chair de Jésus, et la nôtre. L’avenir de cette vieille notion ne serait-il pas la grâce divine ?</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>To the expert in the law who asks Him what to do, Jesus replies: “<marquage typemarq="italique">How</marquage> do you read ?” For us who do read, the question is not without posing the problem of knowing what body we form by this reading. The “corporate personality” could provide an answer, but on the condition that it be stripped of all its classical attributes : psychological, religious, or literary. Even deprived of any objective content, it is none the less operational. Yet only figuratively, waiting to be fulfilled by the flesh to become true. The Flesh of Jesus, and ours. Might not the future of that old notion be divine grace ?</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1038542ar" idproprio="1038542ar" idref="th1" lang="fr" ordseq="8" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/ltp/2016/v72/n1/1038542ar.html</urlhtml>
+  <urlpdf taille="2,1" unite="mo">/revue/ltp/2016/v72/n1/1038542ar.pdf</urlpdf>
+  <urlplan>/revue/ltp/2016/v72/n1/1038542ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>123</ppage>
+    <dpage>144</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Articles spéciaux</surtitre>
+                  <titre>À propos de la relation érotique à Christ dans son reflet féminin</titre>
+                <sstitre>Éléments d’une approche apophatique du masculin et du féminin en Christ</sstitre>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Christophe</prenom>
+    <nomfamille>Gripon</nomfamille>
+   </nompers>
+  <affiliation><alinea>Lycée Pierre Gilles de Gennes, Paris</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>La figure biblique érotisée de la Sagesse Éternelle et son lien avec Christ a amené certains hommes à percevoir Christ dans son reflet féminin et à vivre une relation érotique avec Lui/Elle. La dualité entre deux pôles antinomiques de Christ, l’un pleinement masculin et l’autre pleinement féminin, pourrait être abordée dans une approche apophatique de la tension entre deux pôles opposés, aux antipodes d’une asexualisation de Christ. Reconnaître ainsi le reflet féminin de Christ pourrait contribuer à Le/La rendre plus « aimable » pour les hommes et participer au débat concernant une théologie spirituelle qui tienne compte de l’importance du désir érotique dans la relation à Christ.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>The eroticized biblical figure of Eternal Wisdom and its link with Christ has led some men to perceive Christ in his female reflection and to live an erotic relation with He/She. The duality between two paradoxical poles of Christ, one fully male and the other fully female, could be addressed in an apophatic approach of the tension between two opposite poles, the antipodes of an asexualisation of Christ. Thus recognizing the female reflection of Christ could contribute to make Him/Her more “attractive” for men and to take part in the debate about a spiritual theology which takes into account the importance of sensual attraction in the relationship with Christ.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1038543ar" idproprio="1038543ar" idref="th1" lang="fr" ordseq="9" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/ltp/2016/v72/n1/1038543ar.html</urlhtml>
+  <urlpdf taille="3,1" unite="mo">/revue/ltp/2016/v72/n1/1038543ar.pdf</urlpdf>
+  <urlplan>/revue/ltp/2016/v72/n1/1038543ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>145</ppage>
+    <dpage>172</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Articles spéciaux</surtitre>
+                  <titre>L’expérimentation de la jouissance</titre>
+                <sstitre>Étude de Qohélet 2,1-3</sstitre>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Jean-Jacques</prenom>
+    <nomfamille>Lavoie</nomfamille>
+   </nompers>
+  <affiliation><alinea>Département des sciences des religions, Université du Québec à Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>L’auteur présente un état de la recherche des critiques textuelle et des sources ainsi que des analyses structurelle et littéraire de Qohélet 2,1-3, afin de montrer comment Qohélet relativise, non sans ironie, la valeur de la jouissance.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>The author presents the state of research about textual and source criticisms, as well as structural and literary analyses concerning Qoheleth 2:1-3, in order to show how Qoheleth seeks to relativize, not without irony, the value of enjoyment.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1038544ar" horstheme="oui" idproprio="1038544ar" lang="fr" ordseq="10" qualtraitement="complet" typeart="note">
+  <urlhtml>/revue/ltp/2016/v72/n1/1038544ar.html</urlhtml>
+  <urlpdf taille="591" unite="ko">/revue/ltp/2016/v72/n1/1038544ar.pdf</urlpdf>
+  <pagination>
+    <ppage>173</ppage>
+    <dpage>178</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Notes critiques</surtitre>
+                  <titre>Les évêques dans tous leurs états</titre>
+                <sstitre>Réponses épiscopales aux crises de l’Antiquité tardive</sstitre>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Christel</prenom>
+    <nomfamille>Freu</nomfamille>
+   </nompers>
+  <affiliation><alinea>Département des sciences historiques, Université Laval, Québec</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur><notegen typenoteg="edito"><alinea>Au sujet de : Pauline <marquage typemarq="petitecap">Allen</marquage>, Bronwen <marquage typemarq="petitecap">Neil</marquage>, <marquage typemarq="italique">Crisis Management in Late Antiquity (410-590 CE). A Survey of the Evidence from Episcopal Letters</marquage>, Leiden, Boston, Brill (coll. « Supplements to Vigiliae Christianae », 121), 2013, <marquage typemarq="petitecap">xiv</marquage>-284 p.</alinea></notegen>
+</liminaire>
+</article>
+<article doi="10.7202/1038545ar" horstheme="oui" idproprio="1038545ar" lang="fr" ordseq="11" qualtraitement="complet" typeart="compterendu">
+  <urlhtml>/revue/ltp/2016/v72/n1/1038545ar.html</urlhtml>
+  <urlpdf taille="265" unite="ko">/revue/ltp/2016/v72/n1/1038545ar.pdf</urlpdf>
+  <pagination>
+    <ppage>179</ppage>
+    <dpage>180</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Recensions</surtitre>
+                
+                    <trefbiblio>
+Bertrand <marquage typemarq="petitecap">Dumas</marquage>, Dennis <marquage typemarq="petitecap">Gira</marquage>, dir., <marquage typemarq="italique">Le désir en question. Regards bouddhistes et chrétiens. Actes du colloque interreligieux du 5 au 8 juillet 2012 au centre théologique de Meylan-Grenoble</marquage>. Lyon, PROFAC (coll. « PROFAC-Théo », 124), 2015, 186 p.</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>André</prenom>
+    <nomfamille>Couture</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université Laval, Québec</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1038546ar" horstheme="oui" idproprio="1038546ar" lang="fr" ordseq="12" qualtraitement="complet" typeart="compterendu">
+  <urlhtml>/revue/ltp/2016/v72/n1/1038546ar.html</urlhtml>
+  <urlpdf taille="261" unite="ko">/revue/ltp/2016/v72/n1/1038546ar.pdf</urlpdf>
+  <pagination>
+    <ppage>180</ppage>
+    <dpage>181</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Recensions</surtitre>
+                
+                    <trefbiblio>
+Vasundhara <marquage typemarq="petitecap">Filliozat</marquage>, <marquage typemarq="italique">La mythologie hindoue</marquage>, t. I, <marquage typemarq="italique">Viṣṇu</marquage>. Paris, Éditions Āgamāt, 2014, 285 p., avec illustrations ; et t. II, <marquage typemarq="italique">Ṡiva.</marquage> Paris, Éditions Āgamāt, 2016, 283 p., avec illustrations</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>André</prenom>
+    <nomfamille>Couture</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université Laval, Québec</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1038547ar" horstheme="oui" idproprio="1038547ar" lang="fr" ordseq="13" qualtraitement="complet" typeart="compterendu">
+  <urlhtml>/revue/ltp/2016/v72/n1/1038547ar.html</urlhtml>
+  <urlpdf taille="195" unite="ko">/revue/ltp/2016/v72/n1/1038547ar.pdf</urlpdf>
+  <pagination>
+    <ppage>182</ppage>
+    <dpage>183</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Recensions</surtitre>
+                
+                    <trefbiblio>
+Anne <marquage typemarq="petitecap">Fortin</marquage>, <marquage typemarq="italique">Comment vivre ? Naître à la suite de Jésus</marquage>. Paris, Médiaspaul, 2016, 252 p.</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Étienne</prenom>
+    <nomfamille>Pouliot</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université Laval, Québec</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1038548ar" horstheme="oui" idproprio="1038548ar" lang="fr" ordseq="14" qualtraitement="complet" typeart="compterendu">
+  <urlhtml>/revue/ltp/2016/v72/n1/1038548ar.html</urlhtml>
+  <urlpdf taille="195" unite="ko">/revue/ltp/2016/v72/n1/1038548ar.pdf</urlpdf>
+  <pagination>
+    <ppage>183</ppage>
+    <dpage>184</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Recensions</surtitre>
+                
+                    <trefbiblio>
+Bruno <marquage typemarq="petitecap">Jeanmart</marquage>, Richard <marquage typemarq="petitecap">Labévière</marquage>, <marquage typemarq="italique">Bernard-Henri Lévy ou La règle du Je</marquage><marquage typemarq="gras">.</marquage> Montreuil, Le Temps des Cerises, 2007, 163 p.</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Yves</prenom>
+    <nomfamille>Laberge</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université d’Ottawa</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1038549ar" horstheme="oui" idproprio="1038549ar" lang="fr" ordseq="15" qualtraitement="complet" typeart="compterendu">
+  <urlhtml>/revue/ltp/2016/v72/n1/1038549ar.html</urlhtml>
+  <urlpdf taille="292" unite="ko">/revue/ltp/2016/v72/n1/1038549ar.pdf</urlpdf>
+  <pagination>
+    <ppage>184</ppage>
+    <dpage>186</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Recensions</surtitre>
+                
+                    <trefbiblio>
+Gilles <marquage typemarq="petitecap">Marmasse</marquage>, <marquage typemarq="italique">L’histoire hégélienne : entre malheur et réconciliation</marquage><marquage typemarq="gras">.</marquage> Paris, Librairie Philosophique J. Vrin (coll. « Bibliothèque d’histoire de la philosophie »), 2015, 409 p.</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Antoine</prenom>
+    <nomfamille>Cantin-Brault</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université de Saint-Boniface</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1038550ar" horstheme="oui" idproprio="1038550ar" lang="fr" ordseq="16" qualtraitement="complet" typeart="compterendu">
+  <urlhtml>/revue/ltp/2016/v72/n1/1038550ar.html</urlhtml>
+  <urlpdf taille="193" unite="ko">/revue/ltp/2016/v72/n1/1038550ar.pdf</urlpdf>
+  <pagination>
+    <ppage>186</ppage>
+    <dpage>187</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Recensions</surtitre>
+                
+                    <trefbiblio>
+Jean-Pierre <marquage typemarq="petitecap">Prévost</marquage>, <marquage typemarq="italique">Pour lire les Sages</marquage>. Paris, Les Éditions du Cerf (coll. « Pour lire »), 2014, 133 p.</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Daniel</prenom><autreprenom>C.</autreprenom>
+    <nomfamille>Timmer</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université de Sudbury, Faculté de théologie évangélique, Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1038551ar" horstheme="oui" idproprio="1038551ar" lang="fr" ordseq="17" qualtraitement="complet" typeart="autre">
+  <urlhtml>/revue/ltp/2016/v72/n1/1038551ar.html</urlhtml>
+  <urlpdf taille="302" unite="ko">/revue/ltp/2016/v72/n1/1038551ar.pdf</urlpdf>
+  <pagination>
+    <ppage>189</ppage>
+    <dpage>191</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>Ouvrages reçus à la rédaction</titre>
+                
+         </grtitre>
+</liminaire>
+</article>
+</sommaire>

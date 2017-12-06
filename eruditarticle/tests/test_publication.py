@@ -1,3 +1,5 @@
+import pytest
+
 from datetime import datetime
 from eruditarticle.objects.base import Title
 from eruditarticle.objects import EruditPublication
@@ -204,17 +206,48 @@ class TestPublicationFormattedThemes(object):
             }
         ]
 
-    # @with_value('ltp2010663.xml', 'get_themes', html=True, formatted=True)
-    # def test_can_display_no_theme_and_guest_editor(self, value):
-    #    assert value == [
-    #        {'name': None, 'editors': 'Marc Dumas'}
-    #    ]
 
-    # @with_value('dss201092.xml', 'get_themes', html=True, formatted=True)
-    # def test_can_display_no_theme_and_multiple_guest_editors(self, value):
-    #     assert value == [
-    #         {'name': None, 'editors': 'Pierre Lauzon et Michel Landry'}
-    #     ]
+@with_fixtures('./eruditarticle/tests/fixtures/publication/redacteurchef', EruditPublication)
+class TestRedacteurChef(object):
+
+    @with_value("ltp3991.xml", "get_redacteurchef", typerc="invite")
+    def test_can_find_redacteurchef_when_no_theme(self, value):
+        redacteurchef = value[0]
+        assert len(value) == 1
+        assert redacteurchef['firstname'] == 'Marc' and \
+            redacteurchef['lastname'] == 'Dumas' and \
+            redacteurchef['typerc'] == 'invite'
+
+    def test_raises_value_error_when_typerc_is_not_invite_or_regulier(self):
+        with pytest.raises(ValueError):
+            self.test_objects['ltp3991.xml'].get_redacteurchef(typerc="erreur")
+
+    @with_value("ltp3991.xml", "get_redacteurchef", typerc="invite", formatted=True)
+    def test_can_format_redacteurchef(self, value):
+        redacteurchef = value[0]
+        assert len(value) == 1
+        assert redacteurchef == "Marc Dumas"
+
+    @with_value("smq1826.xml", "get_redacteurchef", idrefs=["th1"])
+    def test_can_return_redacteurchef_of_one_theme(self, value):
+        assert len(value) == 1
+        redacteurchef = value[0]
+        assert redacteurchef["lastname"] == "Lesage"
+
+    @with_value("smq1826.xml", "get_redacteurchef", idrefs=["th1", "th2"])
+    def test_can_return_redacteurchef_of_two_themes(self, value):
+        assert len(value) == 3
+
+    @with_value("smq1826.xml", "get_redacteurchef", idrefs=[])
+    def test_can_return_redacteurchef_of_publication_when_themes(self, value):
+        assert len(value) == 1
+        redacteurchef = value[0]
+        assert redacteurchef['lastname'] == "Lesage (NUMÉRO)"
+        assert redacteurchef["typerc"] == "regulier"
+
+    @with_value("ltp02888.xml", "get_redacteurchef", typerc="invite", idrefs=[])
+    def test_does_not_return_thematic_redacteurchef_when_no_themes_specified(self, value):
+        assert len(value) == 0
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication', EruditPublication)
@@ -318,12 +351,12 @@ class TestEruditPublication(object):
         redacteurchef = self.test_objects['ae1375.xml'].get_redacteurchef()
         assert redacteurchef[0]['firstname'] == 'Olivier'
         assert redacteurchef[0]['lastname'] == 'Donni'
-        assert redacteurchef[0]['type'] == 'invite'
+        assert redacteurchef[0]['typerc'] == 'invite'
 
         redacteurchef = self.test_objects['images1102374.xml'].get_redacteurchef()  # noqa
         assert redacteurchef[0]['firstname'] == 'Marie-Claude'
         assert redacteurchef[0]['lastname'] == 'Loiselle'
-        assert redacteurchef[0]['type'] == 'regulier'
+        assert redacteurchef[0]['typerc'] == 'regulier'
 
     def test_droitsauteur(self):
         assert self.test_objects['images1102374.xml'].get_droitsauteur() == [{'text': "Tous droits réservés © 24 images, 2000"}]  # noqa
