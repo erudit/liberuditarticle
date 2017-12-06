@@ -73,7 +73,14 @@ class EruditPublication(
         return self.get_persons('redacteurchef[@typerc="invite"]')
 
     def get_notegens_edito(self, formatted=False, html=False):
-        """ Return the editorial note for this publication """
+        """ Return the editorial note for this publication
+
+        .. note::
+           XML markup is partially supported. Author names are not converted to HTML.
+
+        :param html: convert XML markup to HTML
+        :returns: a list of notegens
+        """
         first_article = self.find('article')
         notes = []
         for note_elem in self.findall('notegen[@typenoteg="edito"]', dom=first_article):
@@ -83,14 +90,7 @@ class EruditPublication(
             else:
                 parser_method = self.stringify_children
 
-            alineas_content = "".join([
-                parser_method(
-                    alinea,
-                )
-                for alinea in self.findall('alinea', dom=note_elem)
-            ])
-
-            # Delete all beginning / trailing whitespaces
+            alineas_content = parser_method(note_elem)
             alineas_content = re.sub('^ | $', '', re.sub(' +', ' ', re.sub('\n', '', alineas_content)))  # noqa
 
             note = {
