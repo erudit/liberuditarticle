@@ -16,6 +16,10 @@
    * ``get_html_title`` will become ``get_title(html=True)``.
    * ``get_title(html=True, formatted=True)`` will return a formatted html title
 
+   Implementation notes:
+   * Methods can return a list, a string or a dict object
+   * ``formatted=True`` **MUST** return a string
+
 """
 from .publication import EruditPublication  # noqa
 from .article import EruditArticle  # noqa
