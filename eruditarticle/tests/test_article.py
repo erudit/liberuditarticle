@@ -230,41 +230,49 @@ class TestArticleSavantMinimal(object):
 @with_fixtures('./eruditarticle/tests/fixtures/article/format_person_name/', EruditArticle)
 class TestFormatPersonName(object):
 
+    @with_value('no_authors.xml', 'get_formatted_authors')
+    def test_can_format_no_authors(self, value):
+        assert value == ""
+
+    @with_value('multiple_authors.xml', 'get_formatted_authors')
+    def test_can_format_multiple_author_names(self, value):
+        assert value == "Marion Sauvaire et Érick Falardeau"
+
     @with_value('strip_tags.xml', 'get_formatted_authors')
     def test_can_strip_elements_from_author_name(self, value):
-        assert value == ['Réjean Savard']
+        assert value == 'Réjean Savard'
 
     @with_value('firstname_lastname.xml', 'get_formatted_authors')
     def test_can_format_a_firstname_lastname(self, value):
-        assert value == ['Natascha Niederstrass']
+        assert value == 'Natascha Niederstrass'
 
     @with_value('with_othername.xml', 'get_formatted_authors')
     def test_can_format_firstname_othername_lastname(self, value):
-        assert value == ['Georges L. Bastin']
+        assert value == 'Georges L. Bastin'
 
     @with_value('firstname_lastname_alias.xml', 'get_formatted_authors')
     def test_can_format_firstname_lastname_and_alias(self, value):
-        assert value == ['Patrick Straram, alias le Bison ravi']
+        assert value == 'Patrick Straram, alias le Bison ravi'
 
     @with_value('only_alias.xml', 'get_formatted_authors')
     def test_can_format_only_alias(self, value):
-        assert value == ['Aude']
+        assert value == 'Aude'
 
     @with_value('only_firstname.xml', 'get_formatted_authors')
     def test_can_format_only_firstname(self, value):
-        assert value == ['Presseau']
+        assert value == 'Presseau'
 
     @with_value('only_lastname.xml', 'get_formatted_authors')
     def test_can_format_only_lastname(self, value):
-        assert value == ['Marbic']
+        assert value == 'Marbic'
 
     @with_value('with_suffix.xml', 'get_formatted_authors')
     def test_can_format_name_with_suffix(self, value):
-        assert value == ['Thibault Martin Ph.D.']
+        assert value == 'Thibault Martin Ph.D.'
 
     @with_value('with_guest_editor.xml', 'get_formatted_authors')
     def test_can_format_name_when_guest_editors(self, value):
-        assert value == ['Justin K. Bisanswa']
+        assert value == 'Justin K. Bisanswa'
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/find_authors/', EruditArticle)
