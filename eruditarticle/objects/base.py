@@ -78,6 +78,22 @@ class EruditBaseObject(object):
                 break
         return text
 
+    def _format_single_title(self, title):
+        """ format a Title namedtuple """
+        if title.lang == "fr":
+            separator = " :\xa0"
+        else:
+            separator = " : "
+        if title.title and title.subtitle:
+            return "{title}{separator}{subtitle}".format(
+                title=title.title,
+                separator=separator,
+                subtitle=title.subtitle
+            )
+        return "{title}".format(
+            title=title.title
+        )
+
     def _get_formatted_single_title(self, titles, use_equivalent=False):
         """ Format the main, paral and equivalent titles in a single title
 

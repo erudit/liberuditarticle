@@ -358,22 +358,6 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         titles['reviewed_works'] = self.get_reviewed_works(strip_markup=strip_markup)
         return titles
 
-    def _format_single_title(self, title):
-        """ format an Title namedtuple """
-        if title.lang == "fr":
-            separator = " :\xa0"
-        else:
-            separator = " : "
-        if title.title and title.subtitle:
-            return "{title}{separator}{subtitle}".format(
-                title=title.title,
-                separator=separator,
-                subtitle=title.subtitle
-            )
-        return "{title}".format(
-            title=title.title
-        )
-
     def get_formatted_journal_title(self):
         """
         .. warning::
