@@ -314,18 +314,6 @@ class EruditPublication(
         :returns: the theme of the publication object with HTML tags. """
         return self.convert_marquage_content_to_html(self.find('theme'))
 
-    def get_journal_subtitle(self):
-        """ :returns: the sub-title of the journal associated with the publication object. """
-        return self.stringify_children(self.find('revue/sstitrerev'))
-
-    def get_journal_subtitles(self):
-        """ :returns: all the sub-titles of the journal associated with the publication object. """
-        titles = {
-            'main': self.journal_subtitle,
-            'paral': self.find_paral(self.find('revue'), 'sstitrerevparal'),
-        }
-        return titles
-
     def get_journal_title(self, formatted=False, html=False, subtitles=False):
         """ Return the title of the journal
 
@@ -348,14 +336,6 @@ class EruditPublication(
             return titles
         else:
             return self._get_formatted_single_title(titles)
-
-    def get_journal_titles(self):
-        """ :returns: all the titles of the journal associated with the publication object. """
-        titles = {
-            'main': self.journal_title,
-            'paral': self.find_paral(self.find('revue'), 'titrerevparal'),
-        }
-        return titles
 
     def get_last_page(self):
         """ :returns: the last page of the publication object. """
@@ -514,10 +494,7 @@ class EruditPublication(
     first_page = property(get_first_page)
     guest_editors = property(get_guest_editors)
     html_theme = property(get_html_theme)
-    journal_subtitle = property(get_journal_subtitle)
-    journal_subtitles = property(get_journal_subtitles)
     journal_title = property(get_journal_title)
-    journal_titles = property(get_journal_titles)
     last_page = property(get_last_page)
     note_edito = property(get_note_edito)
     note_erudit = property(get_note_erudit)
