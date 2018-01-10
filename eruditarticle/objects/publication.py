@@ -326,9 +326,28 @@ class EruditPublication(
         }
         return titles
 
-    def get_journal_title(self):
-        """ :returns: the title of the journal associated with the publication object. """
-        return self.stringify_children(self.find('revue/titrerev'))
+    def get_journal_title(self, formatted=False, html=False, subtitles=False):
+        """ Return the title of the journal
+
+        :param formatted: if ``True``, format all the parts of the title. Otherwise, return
+            a dict containing all the parts.
+        :param html:  if ``True``, keep html tags
+        :returns: the parts of the journal's title
+        """
+        titles = self._get_titles(
+            root_elem_name='infosommaire/revue',
+            title_elem_name='titrerev',
+            subtitle_elem_name='sstitrerev',
+            paral_title_elem_name='titrerevparal',
+            paral_subtitle_elem_name='sstitrerevparal',
+            strict_language_check=False,
+            strip_markup=not html
+        )
+
+        if not formatted:
+            return titles
+        else:
+            return self._get_formatted_single_title(titles)
 
     def get_journal_titles(self):
         """ :returns: all the titles of the journal associated with the publication object. """
