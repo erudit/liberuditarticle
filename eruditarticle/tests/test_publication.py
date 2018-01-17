@@ -1,9 +1,40 @@
 import pytest
 
 from datetime import datetime
+
 from eruditarticle.objects.base import Title
 from eruditarticle.objects import EruditPublication
 from eruditarticle.tests.decorators import with_value, with_fixtures
+
+
+@with_fixtures('./eruditarticle/tests/fixtures/publication/journal_title', EruditPublication)
+class TestCanReturnJournalTitle(object):
+
+    @with_value('memoires03051.xml', 'get_journal_title', formatted=True)
+    def test_can_return_formatted_journal_title_with_paral_titles(self, value):
+        assert value == "Mémoires du livre / Studies in Book Culture"
+
+    @with_value('memoires03051.xml', 'get_journal_title')
+    def test_can_return_journal_title_with_paral_titles(self, value):
+        assert value == {
+            "main": Title(title="Mémoires du livre", subtitle=None, lang="fr"),
+            "paral": [
+                Title(title="Studies in Book Culture", subtitle=None, lang="en")
+            ],
+            "equivalent": []
+        }
+
+    @with_value("cine02589.xml", "get_journal_title", formatted=True)
+    def test_can_format_journal_titles_and_subtitles(self, value):
+        assert value == "Cinémas :\xa0Revue d'études cinématographiques / Cinémas : Journal of Film Studies"  # noqa
+
+    @with_value("cine02589.xml", "get_journal_title")
+    def test_can_return_journal_titles_and_subtitles(self, value):
+        assert value == {
+            "main": Title(title="Cinémas", subtitle="Revue d'études cinématographiques", lang="fr"),
+            "paral": [Title(title="Cinémas", subtitle="Journal of Film Studies", lang="en")],
+            "equivalent": [],
+        }
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication/volume_numbering', EruditPublication)

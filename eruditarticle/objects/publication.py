@@ -314,29 +314,28 @@ class EruditPublication(
         :returns: the theme of the publication object with HTML tags. """
         return self.convert_marquage_content_to_html(self.find('theme'))
 
-    def get_journal_subtitle(self):
-        """ :returns: the sub-title of the journal associated with the publication object. """
-        return self.stringify_children(self.find('revue/sstitrerev'))
+    def get_journal_title(self, formatted=False, html=False, subtitles=False):
+        """ Return the title of the journal
 
-    def get_journal_subtitles(self):
-        """ :returns: all the sub-titles of the journal associated with the publication object. """
-        titles = {
-            'main': self.journal_subtitle,
-            'paral': self.find_paral(self.find('revue'), 'sstitrerevparal'),
-        }
-        return titles
+        :param formatted: if ``True``, format all the parts of the title. Otherwise, return
+            a dict containing all the parts.
+        :param html:  if ``True``, keep html tags
+        :returns: the parts of the journal's title
+        """
+        titles = self._get_titles(
+            root_elem_name='infosommaire/revue',
+            title_elem_name='titrerev',
+            subtitle_elem_name='sstitrerev',
+            paral_title_elem_name='titrerevparal',
+            paral_subtitle_elem_name='sstitrerevparal',
+            strict_language_check=False,
+            strip_markup=not html
+        )
 
-    def get_journal_title(self):
-        """ :returns: the title of the journal associated with the publication object. """
-        return self.stringify_children(self.find('revue/titrerev'))
-
-    def get_journal_titles(self):
-        """ :returns: all the titles of the journal associated with the publication object. """
-        titles = {
-            'main': self.journal_title,
-            'paral': self.find_paral(self.find('revue'), 'titrerevparal'),
-        }
-        return titles
+        if not formatted:
+            return titles
+        else:
+            return self._get_formatted_single_title(titles)
 
     def get_last_page(self):
         """ :returns: the last page of the publication object. """
@@ -495,10 +494,7 @@ class EruditPublication(
     first_page = property(get_first_page)
     guest_editors = property(get_guest_editors)
     html_theme = property(get_html_theme)
-    journal_subtitle = property(get_journal_subtitle)
-    journal_subtitles = property(get_journal_subtitles)
     journal_title = property(get_journal_title)
-    journal_titles = property(get_journal_titles)
     last_page = property(get_last_page)
     note_edito = property(get_note_edito)
     note_erudit = property(get_note_erudit)

@@ -78,6 +78,22 @@ class EruditBaseObject(object):
                 break
         return text
 
+    def _format_single_title(self, title):
+        """ format a Title namedtuple """
+        if title.lang == "fr":
+            separator = " :\xa0"
+        else:
+            separator = " : "
+        if title.title and title.subtitle:
+            return "{title}{separator}{subtitle}".format(
+                title=title.title,
+                separator=separator,
+                subtitle=title.subtitle
+            )
+        return "{title}".format(
+            title=title.title
+        )
+
     def _get_formatted_single_title(self, titles, use_equivalent=False):
         """ Format the main, paral and equivalent titles in a single title
 
@@ -110,7 +126,7 @@ class EruditBaseObject(object):
     def _get_titles(
         self, root_elem_name=None, title_elem_name=None, subtitle_elem_name=None,
         paral_title_elem_name=None, paral_subtitle_elem_name=None, languages=None,
-        strip_markup=False
+        strict_language_check=True, strip_markup=False
     ):
         """ Helper method to extract titles relative to a root element
 
@@ -123,6 +139,11 @@ class EruditBaseObject(object):
         :param subtitle_elem_name: name of the subtitle element
         :param paral_title_elem_name: name of the parallel subtitle element
         :param paral_subtitle_elem_name: name of the parallel subtitle element
+        :param strict_language_check: Determine whether or not to check if the title language
+            is one of the official document languages. If set to ``True``, only titles with a
+            language specified in the ``language`` iterable will be considered ``paral`` titles,
+            with the other titles being considered equivalent.
+        :param languages: official languages of the document. Defaults to ``['fr']``.
 
         :returns: the titles and subtitles relative to ``root_elem_name``
         """
@@ -183,7 +204,7 @@ class EruditBaseObject(object):
                 subtitle=paral_subtitles[lang] if lang in paral_subtitles else None
             )
 
-            if lang in languages:
+            if not strict_language_check or lang in languages:
                 titles['paral'].append(paral_title)
             else:
                 titles['equivalent'].append(paral_title)

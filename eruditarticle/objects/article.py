@@ -4,6 +4,13 @@ from .mixins import ISBNMixin
 from .mixins import ISSNMixin
 from .mixins import PublicationPeriodMixin
 
+try:
+    from django.utils.translation import pgettext
+    from django.utils.translation import gettext as _
+except ImportError:
+    pgettext = lambda ctx, msg: msg  # noqa
+    _ = lambda x: x  # noqa
+
 
 class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
     def get_abstracts(self):
@@ -36,8 +43,19 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             self._root.xpath('//liminaire//auteur[not(contribution[@typecontrib!="aut"])]')
         ]
 
-        if formatted:
+        if formatted and len(authors) == 0:
+            return ""
+        elif formatted:
             authors = [self.format_person_name(author) for author in authors]
+            last_author = authors.pop()
+            if len(authors) == 0:
+                return last_author
+            return "{} {} {}".format(
+                ", ".join(authors),
+                _("et"),
+                last_author
+            )
+
         return authors
 
     def get_formatted_authors(self):
@@ -339,22 +357,6 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
 
         titles['reviewed_works'] = self.get_reviewed_works(strip_markup=strip_markup)
         return titles
-
-    def _format_single_title(self, title):
-        """ format an Title namedtuple """
-        if title.lang == "fr":
-            separator = " :\xa0"
-        else:
-            separator = " : "
-        if title.title and title.subtitle:
-            return "{title}{separator}{subtitle}".format(
-                title=title.title,
-                separator=separator,
-                subtitle=title.subtitle
-            )
-        return "{title}".format(
-            title=title.title
-        )
 
     def get_formatted_journal_title(self):
         """
