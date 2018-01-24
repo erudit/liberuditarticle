@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-from __future__ import unicode_literals
 import collections
 from copy import copy
 import re
@@ -14,29 +11,9 @@ from ..utils import remove_xml_namespaces
 Title = collections.namedtuple('Title', ['title', 'subtitle', 'lang'])
 
 
-class EruditBaseObject(object):
-    def __init__(self, xml):
-        if isinstance(xml, six.string_types) or isinstance(xml, six.moves.builtins.bytes):
-            self._dom = remove_xml_namespaces(et.fromstring(xml))
-        else:
-            self._dom = remove_xml_namespaces(xml)
-        self._root = self._dom.getroot()
-
-    def __getattr__(self, name):
-        try:
-            val = super(EruditBaseObject, self).__getattr__(name)
-        except AttributeError:
-            pass
-        else:
-            return val
-
-        # Tries to fetch the value of the tag whose name
-        # matches the considered attribute
-        result = self.find(name)
-        if result is None:
-            raise AttributeError
-
-        return result
+class DomObject:
+    def __init__(self, root):
+        self._root = root
 
     def find(self, tag_name, dom=None):
         """ Find an element in the tree. """
@@ -77,6 +54,52 @@ class EruditBaseObject(object):
             if text:
                 break
         return text
+
+    @staticmethod
+    def convert_marquage_content_to_html(node, strip_elements=None):
+        """ Converts <marquage> tags to HTML using a specific node.
+        """
+        if node is None:
+            return
+        if strip_elements:
+            et.strip_elements(node, *strip_elements, with_tail=False)
+        # Converts <marquage> tags to HTML
+        _node = xslt.marquage_to_html(copy(node))
+        # Strip all other tags but keep text
+        et.strip_tags(
+            _node,
+            *[
+                node.tag, 'caracunicode', 'citation', 'equationligne', 'exposant', 'indice',
+                'liensimple', 'marquepage', 'objetmedia', 'renvoi'
+            ])
+        _html = et.tostring(_node.getroot())
+        output = _html.split(b'>', 1)[1].rsplit(b'<', 1)[0]
+        return output.decode('utf-8')
+
+
+class EruditBaseObject(DomObject):
+    def __init__(self, xml):
+        if isinstance(xml, six.string_types) or isinstance(xml, six.moves.builtins.bytes):
+            self._dom = remove_xml_namespaces(et.fromstring(xml))
+        else:
+            self._dom = remove_xml_namespaces(xml)
+        super().__init__(self._dom.getroot())
+
+    def __getattr__(self, name):
+        try:
+            val = super(EruditBaseObject, self).__getattr__(name)
+        except AttributeError:
+            pass
+        else:
+            return val
+
+        # Tries to fetch the value of the tag whose name
+        # matches the considered attribute
+        result = self.find(name)
+        if result is None:
+            raise AttributeError
+
+        return result
 
     def _format_single_title(self, title):
         """ format a Title namedtuple """
@@ -210,88 +233,6 @@ class EruditBaseObject(object):
                 titles['equivalent'].append(paral_title)
         return titles
 
-    def format_person_name(self, person, html=False):
-        """ Formats the name in the person dictionary
-
-        :returns: the formatted person name
-        """
-
-        formatted_person_name = ""
-
-        keys_order = ['prefix', 'firstname', 'othername', 'lastname', 'suffix']
-
-        first_item = True
-        for index, key in enumerate(keys_order):
-            if key in person and person[key]:
-                if first_item:
-                    value = ""
-                    first_item = False
-                else:
-                    value = " "
-                formatted_person_name += value + person[key]
-
-        if 'pseudo' in person:
-            return formatted_person_name + ', alias ' + self.format_person_name(person['pseudo'])
-
-        return formatted_person_name
-
-    def parse_person(self, person_tag, html=False):
-        """ Parses a person tag
-
-        :returns: a person dictionary
-
-        The persons are returned as a list of dictionaries of the form::
-
-            [
-                {
-                   'firstname': 'Foo',
-                   'lastname': 'Bar',
-                   'othername': 'Dummy',
-                   'affiliations': ['TEST1', 'TEST2']
-                   'email': 'foo.bar@example.com',
-                   'organization': 'Test',
-                   'suffix': 'Ph.D.'
-                },
-            ]
-        """
-        # NOTE: This is one of the slowest functions of liberuditarticle.
-        #
-        # Searching for slow tests and profiling the code led to discover that this
-        # function was a bottleneck. When asking for a "html" person, a XSL transfo
-        # is performed for every tag. An optimization would be to perform *one*
-        # XSL transformation for the whole sub tree.
-
-        et.strip_tags(person_tag, 'marquage')
-
-        method = self.get_text
-        if html:
-            method = self.get_html
-
-        person = {
-            'firstname': method('prenom', dom=person_tag),
-            'lastname': method('nomfamille', dom=person_tag),
-            'othername': method('autreprenom', dom=person_tag),
-            'suffix': method('suffixe', dom=person_tag),
-            'affiliations': [
-                method('alinea', dom=affiliation_dom)
-                for affiliation_dom in self.findall('affiliation', dom=person_tag)
-            ],
-            'email': method('courriel/liensimple', dom=person_tag),
-            'organization': method('nomorg', dom=person_tag),
-            'role': {},
-        }
-
-        find_role = et.XPath('fonction')
-        roles = find_role(person_tag)
-        for role in roles:
-            person['role'][role.get('lang')] = role.text
-
-        pseudo = self.find('nompers[@typenompers="pseudonyme"]', dom=person_tag)
-        all_person_names = self.findall('nompers', dom=person_tag)
-        if pseudo is not None and len(all_person_names) > 1:
-            person['pseudo'] = self.parse_person(pseudo)
-        return person
-
     def parse_simple_link(self, simplelink_node):
         """ Parses a "liensimple" node.
 
@@ -318,11 +259,12 @@ class EruditBaseObject(object):
 
         :returns: the persons for the considered tag name.
 
-        Return a list of dictionaries in the format specified by parse_person
+        Return a list of DomPerson
         """
+        from .person import DomPerson
         persons = []
         for tree_author in self.findall(tag_name):
-            persons.append(self.parse_person(tree_author))
+            persons.append(DomPerson(tree_author))
         return persons
 
     def stringify_children(self, node, strip_elements=None):
@@ -341,26 +283,6 @@ class EruditBaseObject(object):
         et.strip_tags(node, "*")
         if node.text is not None:
             return re.sub(' +', ' ', node.text)
-
-    def convert_marquage_content_to_html(self, node, strip_elements=None):
-        """ Converts <marquage> tags to HTML using a specific node.
-        """
-        if node is None:
-            return
-        if strip_elements:
-            et.strip_elements(node, *strip_elements, with_tail=False)
-        # Converts <marquage> tags to HTML
-        _node = xslt.marquage_to_html(copy(node))
-        # Strip all other tags but keep text
-        et.strip_tags(
-            _node,
-            *[
-                node.tag, 'caracunicode', 'citation', 'equationligne', 'exposant', 'indice',
-                'liensimple', 'marquepage', 'objetmedia', 'renvoi'
-            ])
-        _html = et.tostring(_node.getroot())
-        output = _html.split(b'>', 1)[1].rsplit(b'<', 1)[0]
-        return output.decode('utf-8')
 
     def find_paral(self, tag, paral_tag_name, strip_markup=False):
         """ Find the parallel values for the given tag using the given tag name. """

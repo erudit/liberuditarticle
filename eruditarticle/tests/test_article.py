@@ -3,6 +3,17 @@ from eruditarticle.objects import EruditArticle
 from eruditarticle.tests.decorators import with_value, with_fixtures
 
 
+def person_to_dict(person):
+    KEYS = {
+        'firstname', 'lastname', 'othername', 'suffix', 'affiliations', 'email', 'organization',
+        'role'}
+    return {key: getattr(person, key) for key in KEYS}
+
+
+def people_to_dict(people):
+    return list(map(person_to_dict, people))
+
+
 @with_fixtures('./eruditarticle/tests/fixtures/article/section_titles', EruditArticle)
 class TestSectionTitle(object):
 
@@ -279,7 +290,7 @@ class TestFormatPersonName(object):
 class TestFindAuthors(object):
     @with_value('with_translator_as_contributor.xml', 'get_authors')
     def test_can_exclude_translators(self, value):
-        assert value == [
+        assert people_to_dict(value) == [
             {
                 'affiliations': ['Universidade de São Paulo'],
                 'email': None,

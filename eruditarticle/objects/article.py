@@ -3,6 +3,7 @@ from .mixins import CopyrightMixin
 from .mixins import ISBNMixin
 from .mixins import ISSNMixin
 from .mixins import PublicationPeriodMixin
+from .person import DomPerson
 
 try:
     from django.utils.translation import pgettext
@@ -39,14 +40,14 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """ :returns: the authors of the article object. """
 
         authors = [
-            self.parse_person(author, html=html) for author in
+            DomPerson(author, html=html) for author in
             self._root.xpath('//liminaire//auteur[not(contribution[@typecontrib!="aut"])]')
         ]
 
         if formatted and len(authors) == 0:
             return ""
         elif formatted:
-            authors = [self.format_person_name(author) for author in authors]
+            authors = [author.format_name(html=html) for author in authors]
             last_author = authors.pop()
             if len(authors) == 0:
                 return last_author
