@@ -1,9 +1,9 @@
 from .base import EruditBaseObject
+from .dom import DomPerson
 from .mixins import CopyrightMixin
 from .mixins import ISBNMixin
 from .mixins import ISSNMixin
 from .mixins import PublicationPeriodMixin
-from .person import DomPerson
 
 try:
     from django.utils.translation import pgettext
@@ -40,7 +40,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """ :returns: the authors of the article object. """
 
         authors = [
-            DomPerson(author, html=html) for author in
+            DomPerson(author) for author in
             self._root.xpath('//liminaire//auteur[not(contribution[@typecontrib!="aut"])]')
         ]
 

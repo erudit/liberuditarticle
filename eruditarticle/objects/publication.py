@@ -11,11 +11,11 @@ import itertools
 from datetime import datetime
 
 from .base import EruditBaseObject
+from .dom import DomRedacteur
 from .mixins import CopyrightMixin
 from .mixins import ISBNMixin
 from .mixins import ISSNMixin
 from .mixins import PublicationPeriodMixin
-from .person import DomRedacteur
 
 
 class EruditPublication(
