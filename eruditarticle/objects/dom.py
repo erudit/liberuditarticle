@@ -134,11 +134,13 @@ class DomPerson(DomObject):
             return None
 
     def format_name(self, html=False):
-        if not html:
+        if html:
+            get = self.get_html
+        else:
+            get = self.get_text
             et.strip_tags(self._root, 'marquage')
-        orgname = self.organization
-        if orgname:
-            return orgname
+        if self.find('nomorg') is not None:
+            return get('nomorg')
         result = DomPersonName(self.find('nompers')).format(html=html)
         pseudo = self.pseudo
         if pseudo:

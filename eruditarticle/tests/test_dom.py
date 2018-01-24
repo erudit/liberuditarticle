@@ -12,3 +12,9 @@ def test_nomorg_as_text():
     person = DomPerson(get_dom('author_nomorg_formatting.xml'))
     EXPECTED = 'Comité de rédaction de Drogues, santé et société'
     assert person.format_name() == EXPECTED
+
+
+def test_nomorg_as_html():
+    person = DomPerson(get_dom('author_nomorg_formatting.xml'))
+    EXPECTED = 'Comit&#233; de r&#233;daction de <em>Drogues, sant&#233; et soci&#233;t&#233;</em>'
+    assert person.format_name(html=True) == EXPECTED
