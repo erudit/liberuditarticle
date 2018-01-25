@@ -140,7 +140,14 @@ class DomPerson(DomObject):
             get = self.get_text
             et.strip_tags(self._root, 'marquage')
         if self.find('nomorg') is not None:
-            return get('nomorg')
+            # Our "person" is in fact an organization. Special rules apply.
+            result = get('nomorg')
+            member_elems = self.findall('membre')
+            if member_elems:
+                members = (DomPersonName(elem.find('nompers')) for elem in member_elems)
+                formatted_members = ', '.join(m.format(html=html) for m in members)
+                result = '{} ({})'.format(result, formatted_members)
+            return result
         result = DomPersonName(self.find('nompers')).format(html=html)
         pseudo = self.pseudo
         if pseudo:
