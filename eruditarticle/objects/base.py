@@ -6,7 +6,8 @@ import lxml.etree as et
 import six
 
 from ..utils import remove_xml_namespaces
-from .dom import DomObject, DomPerson
+from .dom import DomObject
+from .person import Person
 
 Title = collections.namedtuple('Title', ['title', 'subtitle', 'lang'])
 
@@ -193,11 +194,11 @@ class EruditBaseObject(DomObject):
 
         :returns: the persons for the considered tag name.
 
-        Return a list of DomPerson
+        Return a list of Person
         """
         persons = []
         for tree_author in self.findall(tag_name):
-            persons.append(DomPerson(tree_author))
+            persons.append(Person(tree_author))
         return persons
 
     def stringify_children(self, node, strip_elements=None):

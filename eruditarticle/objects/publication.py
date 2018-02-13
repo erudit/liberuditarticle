@@ -11,11 +11,11 @@ import itertools
 from datetime import datetime
 
 from .base import EruditBaseObject
-from .dom import DomRedacteur
 from .mixins import CopyrightMixin
 from .mixins import ISBNMixin
 from .mixins import ISSNMixin
 from .mixins import PublicationPeriodMixin
+from .person import Redacteur
 
 
 class EruditPublication(
@@ -279,7 +279,7 @@ class EruditPublication(
         redacteurchefs = []
         redacteurchef_tags = self._root.xpath("//{}".format(tag))
         for redacteurchef_tag in redacteurchef_tags:
-            redacteurchef = DomRedacteur(redacteurchef_tag)
+            redacteurchef = Redacteur(redacteurchef_tag)
             if formatted:
                 redacteurchef_parsed = redacteurchef.format_name(html=html)
             else:
