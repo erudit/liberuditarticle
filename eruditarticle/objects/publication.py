@@ -15,6 +15,7 @@ from .mixins import CopyrightMixin
 from .mixins import ISBNMixin
 from .mixins import ISSNMixin
 from .mixins import PublicationPeriodMixin
+from .person import Redacteur
 
 
 class EruditPublication(
@@ -125,7 +126,7 @@ class EruditPublication(
         rc = []
         for redacteurchef in self.get_redacteurchef(html=html):
 
-            themes = redacteurchef.get('themes')
+            themes = redacteurchef.themes
             if themes and theme_id in themes:
                 rc.append(redacteurchef)
         return rc
@@ -199,7 +200,7 @@ class EruditPublication(
         Format the names of the guest editors of the theme """
         guest_editors = theme.get("redacteurchef", [])
         formatted_guest_editors = map(
-            lambda x: self.format_person_name(x, html=True), guest_editors
+            lambda x: x.format_name(html=True), guest_editors
         )
         return list(formatted_guest_editors)
 
@@ -278,16 +279,11 @@ class EruditPublication(
         redacteurchefs = []
         redacteurchef_tags = self._root.xpath("//{}".format(tag))
         for redacteurchef_tag in redacteurchef_tags:
+            redacteurchef = Redacteur(redacteurchef_tag)
             if formatted:
-                redacteurchef_parsed = self.format_person_name(
-                    self.parse_person(redacteurchef_tag),
-                    html=html
-                )
+                redacteurchef_parsed = redacteurchef.format_name(html=html)
             else:
-                redacteurchef_parsed = self.parse_person(redacteurchef_tag, html=html)
-                redacteurchef_parsed['typerc'] = redacteurchef_tag.get('typerc')
-                if redacteurchef_tag.get('idrefs'):
-                    redacteurchef_parsed['themes'] = redacteurchef_tag.get('idrefs').split()
+                redacteurchef_parsed = redacteurchef
             redacteurchefs.append(redacteurchef_parsed)
         return redacteurchefs
 

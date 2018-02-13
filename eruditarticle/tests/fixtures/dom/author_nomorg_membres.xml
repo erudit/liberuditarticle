@@ -1,0 +1,15 @@
+<auteur>
+    <nomorg>My Org</nomorg>
+    <membre>
+        <nompers>
+            <prenom>prenom1</prenom>
+            <nomfamille>nomfamille1</nomfamille>
+        </nompers>
+    </membre>
+    <membre>
+        <nompers>
+            <prenom>prenom2</prenom>
+            <nomfamille>nomfamille2</nomfamille>
+        </nompers>
+    </membre>
+</auteur>

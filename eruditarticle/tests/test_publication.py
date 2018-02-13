@@ -6,6 +6,8 @@ from eruditarticle.objects.base import Title
 from eruditarticle.objects import EruditPublication
 from eruditarticle.tests.decorators import with_value, with_fixtures
 
+from .test_article import people_to_dict
+
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication/journal_title', EruditPublication)
 class TestCanReturnJournalTitle(object):
@@ -211,7 +213,7 @@ class TestPublicationEditors(object):
 
     @with_value('annuaire016.xml', 'get_editors')
     def test_get_editors_should_return_regular_editors_but_not_guest_editors(self, value):
-        assert value == [{
+        assert people_to_dict(value) == [{
             'affiliations': [],
             'othername': None,
             'firstname': 'Louise',
@@ -230,7 +232,7 @@ class TestPublicationEditors(object):
 
     @with_value('ateliers02858.xml', 'get_editors')
     def test_get_editors_should_return_all_regular_editors(self, value):
-        assert value == [{
+        assert people_to_dict(value) == [{
             'affiliations': [],
             'othername': None,
             'firstname': 'Christine',
@@ -326,9 +328,9 @@ class TestRedacteurChef(object):
     def test_can_find_redacteurchef_when_no_theme(self, value):
         redacteurchef = value[0]
         assert len(value) == 1
-        assert redacteurchef['firstname'] == 'Marc' and \
-            redacteurchef['lastname'] == 'Dumas' and \
-            redacteurchef['typerc'] == 'invite'
+        assert redacteurchef.firstname == 'Marc' and \
+            redacteurchef.lastname == 'Dumas' and \
+            redacteurchef.typerc == 'invite'
 
     def test_raises_value_error_when_typerc_is_not_invite_or_regulier(self):
         with pytest.raises(ValueError):
@@ -344,7 +346,7 @@ class TestRedacteurChef(object):
     def test_can_return_redacteurchef_of_one_theme(self, value):
         assert len(value) == 1
         redacteurchef = value[0]
-        assert redacteurchef["lastname"] == "Lesage"
+        assert redacteurchef.lastname == "Lesage"
 
     @with_value("smq1826.xml", "get_redacteurchef", idrefs=["th1", "th2"])
     def test_can_return_redacteurchef_of_two_themes(self, value):
@@ -354,8 +356,8 @@ class TestRedacteurChef(object):
     def test_can_return_redacteurchef_of_publication_when_themes(self, value):
         assert len(value) == 1
         redacteurchef = value[0]
-        assert redacteurchef['lastname'] == "Lesage (NUMÉRO)"
-        assert redacteurchef["typerc"] == "regulier"
+        assert redacteurchef.lastname == "Lesage (NUMÉRO)"
+        assert redacteurchef.typerc == "regulier"
 
     @with_value("ltp02888.xml", "get_redacteurchef", typerc="invite", idrefs=[])
     def test_does_not_return_thematic_redacteurchef_when_no_themes_specified(self, value):
@@ -447,8 +449,8 @@ class TestEruditPublication(object):
         assert len(themes.keys()) == 2
         assert len(themes["th1"]["redacteurchef"]) == 1
         assert len(themes["th2"]["redacteurchef"]) == 3
-        assert themes["th1"]["redacteurchef"][0]['firstname'] == "Alain"
-        assert themes["th1"]["redacteurchef"][0]['lastname'] == "Lesage"
+        assert themes["th1"]["redacteurchef"][0].firstname == "Alain"
+        assert themes["th1"]["redacteurchef"][0].lastname == "Lesage"
 
     def test_theme_paral(self):
         themes = self.test_objects['esse02315.xml'].get_themes()
@@ -473,14 +475,14 @@ class TestEruditPublication(object):
 
     def test_redacteurchef(self):
         redacteurchef = self.test_objects['ae1375.xml'].get_redacteurchef()
-        assert redacteurchef[0]['firstname'] == 'Olivier'
-        assert redacteurchef[0]['lastname'] == 'Donni'
-        assert redacteurchef[0]['typerc'] == 'invite'
+        assert redacteurchef[0].firstname == 'Olivier'
+        assert redacteurchef[0].lastname == 'Donni'
+        assert redacteurchef[0].typerc == 'invite'
 
         redacteurchef = self.test_objects['images1102374.xml'].get_redacteurchef()  # noqa
-        assert redacteurchef[0]['firstname'] == 'Marie-Claude'
-        assert redacteurchef[0]['lastname'] == 'Loiselle'
-        assert redacteurchef[0]['typerc'] == 'regulier'
+        assert redacteurchef[0].firstname == 'Marie-Claude'
+        assert redacteurchef[0].lastname == 'Loiselle'
+        assert redacteurchef[0].typerc == 'regulier'
 
     def test_droitsauteur(self):
         assert self.test_objects['images1102374.xml'].get_droitsauteur() == [{'text': "Tous droits réservés © 24 images, 2000"}]  # noqa
@@ -525,7 +527,7 @@ class TestEruditPublication(object):
         assert self.test_objects['rum01069.xml'].note_edito.endswith('Bisanswa')
 
     def test_guest_editors(self):
-        assert self.test_objects['ae1375.xml'].guest_editors == [{
+        assert people_to_dict(self.test_objects['ae1375.xml'].guest_editors) == [{
             'affiliations': [],
             'othername': None,
             'firstname': 'Olivier',
@@ -537,7 +539,7 @@ class TestEruditPublication(object):
         }]
 
     def test_directors(self):
-        assert self.test_objects['ae1375.xml'].directors == [{
+        assert people_to_dict(self.test_objects['ae1375.xml'].directors) == [{
             'affiliations': [],
             'othername': None,
             'firstname': 'Patrick',
@@ -548,7 +550,7 @@ class TestEruditPublication(object):
             'suffix': None,
         }]
 
-        assert self.test_objects['haf2442.xml'].directors == [{
+        assert people_to_dict(self.test_objects['haf2442.xml'].directors) == [{
             'affiliations': [],
             'othername': None,
             'firstname': 'Fernande',
@@ -559,10 +561,10 @@ class TestEruditPublication(object):
             'suffix': None,
         }]
 
-        assert 'role_en' not in self.test_objects['haf2442.xml'].directors
+        assert 'en' not in self.test_objects['haf2442.xml'].directors[0].role
 
     def test_editors(self):
-        assert self.test_objects['images1080663.xml'].editors == [{
+        assert people_to_dict(self.test_objects['images1080663.xml'].editors) == [{
             'affiliations': [],
             'othername': None,
             'firstname': 'Isabelle',
@@ -577,14 +579,13 @@ class TestEruditPublication(object):
         directors = self.test_objects['haf2442-alt.xml'].directors
         assert len(directors) == 1
         director = directors[0]
-        assert 'role_fr' not in director and 'role_en' not in director
-        assert director['role'] == {'es': 'Directrice'}
+        assert director.role == {'es': 'Directrice'}
 
     def test_roles_are_associated_with_the_proper_person(self):
         """ Test that an editor only has his own roles """
         editors = self.test_objects['mje02648.xml'].editors
         editor = editors[0]
 
-        assert editor['lastname'] == 'Strong-Wilson'
-        assert 'fr' not in editor['role']
-        assert editor['role']['en'] == "Editor-in-Chief / Rédactrice-en-chef"
+        assert editor.lastname == 'Strong-Wilson'
+        assert 'fr' not in editor.role
+        assert editor.role['en'] == "Editor-in-Chief / Rédactrice-en-chef"
