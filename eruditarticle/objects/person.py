@@ -79,11 +79,15 @@ class Person(DomObject):
                 formatted_members = ', '.join(m.format(html=html) for m in members)
                 result = '{} ({})'.format(result, formatted_members)
             return result
-        result = PersonName(self.find('nompers')).format(html=html)
-        pseudo = self.pseudo
-        if pseudo:
-            result += ', alias ' + pseudo.format(html=html)
-        return result
+        nompers = self.find('nompers')
+        if nompers is not None:
+            result = PersonName(nompers).format(html=html)
+            pseudo = self.pseudo
+            if pseudo:
+                result += ', alias ' + pseudo.format(html=html)
+            return result
+        else:
+            return ''
 
 
 class Redacteur(Person):

@@ -24,3 +24,10 @@ def test_nomorg_with_members():
     person = Person(get_dom('author_nomorg_membres.xml'))
     EXPECTED = 'My Org (prenom1 nomfamille1, prenom2 nomfamille2)'
     assert person.format_name() == EXPECTED
+
+
+def test_empty_author():
+    # Don't crash on author tags that don't have a "nompers"
+    person = Person(get_dom('author_empty.xml'))
+    EXPECTED = ''
+    assert person.format_name() == EXPECTED
