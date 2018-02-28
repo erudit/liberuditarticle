@@ -1,4 +1,6 @@
 import collections
+import pytest
+
 from eruditarticle.objects import EruditArticle
 from eruditarticle.tests.decorators import with_value, with_fixtures
 
@@ -358,3 +360,14 @@ class TestArticleCulturelMinimal(object):
 
     def test_can_extract_reviewed_works(self):
         assert self.test_objects['49222ac.xml'].get_reviewed_works(strip_markup=True) == ["Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"]  # noqa
+
+
+@pytest.mark.parametrize('fixturename,isroc', [
+    ('article/culturel/minimal/34598ac.xml', False),
+    ('article/savant/minimal/602354ar.xml', True),
+])
+def test_article_is_of_type_roc(fixturename, isroc):
+    path = './eruditarticle/tests/fixtures/{}'.format(fixturename)
+    with open(path, 'rb') as fp:
+        article = EruditArticle(fp.read())
+    assert article.is_of_type_roc == isroc

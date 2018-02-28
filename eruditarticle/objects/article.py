@@ -425,6 +425,14 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """
         return self._get_formatted_title(strip_markup=False)
 
+    @property
+    def is_of_type_roc(self):
+        # If the first "corps/texte" element of the article is of type "roc" that means that
+        # its content is minimally processed. What that's the case, this property is True.
+        # Created for the purpose of fixing support#198
+        texte_node = self.find('corps/texte')
+        return texte_node is not None and texte_node.get('typetexte') == 'roc'
+
     abstracts = property(get_abstracts)
     article_type = property(get_article_type)
     authors = property(get_authors)
