@@ -78,6 +78,10 @@ class TestAbbreviatedPublicationVolumeNumbering(object):
 @with_fixtures('./eruditarticle/tests/fixtures/publication/volume_numbering', EruditPublication)
 class TestPublicationVolumeNumbering(object):
 
+    @with_value("sp063.xml", "get_volume_numbering", formatted=True)
+    def test_can_format_no_volume_no_number(self, value):
+        assert value == "2016"
+
     @with_value("cd02305.xml", "get_volume_numbering", formatted=True)
     def test_can_format_volume_and_number(self, value):
         assert value == "Volume 56, numéro 3-4, septembre–décembre 2015"
