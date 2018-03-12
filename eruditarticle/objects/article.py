@@ -1,3 +1,5 @@
+import logging
+
 from .base import EruditBaseObject
 from .mixins import CopyrightMixin
 from .mixins import ISBNMixin
@@ -8,9 +10,25 @@ from .person import (
 )
 
 
+logger = logging.getLogger(__name__)
+
+
 class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
-    def get_abstracts(self):
+    def get_abstracts(self, lang='', typeresume='', formatted=False, html=False):
         """ :returns: the abstracts of the article object.
+
+        Args:
+            lang (str, optional): Abstracts' language. Defaults to any language.
+            typeresume (str, optional): Abstracts' type. Defaults to any type.
+                The type provided must be one of these 4 options (according to EruditArticle schema)
+                    'abrege'
+                    'autre'
+                    'chapeau'
+                    'resume'
+            formatted (bool, optional): Defaults to False.
+                Not yet implemented.
+            html (bool, optional): Defaults to False.
+                Not yet implemented.
 
         The abstracts are returned as list of dictionaries of the form::
 
@@ -19,8 +37,30 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
                 'content': 'Content',
             }
         """
+        TYPERESUME_OPTIONS = (
+            'abrege',
+            'autre',
+            'chapeau',
+            'resume',
+        )
+        if typeresume and typeresume not in TYPERESUME_OPTIONS:
+            msg = 'typeresume value {} is not supported by EruditArticle schema'
+            logger.debug(msg.format(typeresume))
+
+        filters = []
+        if typeresume:
+            typeresume_filter = '[@typeresume="{}"]'.format(typeresume)
+            filters.append(typeresume_filter)
+        if lang:
+            lang_filter = '[@lang="{}"]'.format(lang)
+            filters.append(lang_filter)
+
+        query = 'resume'
+        if filters:
+            query = query + ''.join(filters)
+
         abstracts = []
-        for tree_abstract in self.findall('resume[@typeresume="resume"]'):
+        for tree_abstract in self.findall(query):
             abstracts.append({
                 'lang': tree_abstract.get('lang'),
                 'content': self.stringify_children(tree_abstract),

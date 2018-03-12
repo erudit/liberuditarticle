@@ -16,6 +16,26 @@ def people_to_dict(people):
     return list(map(person_to_dict, people))
 
 
+@with_fixtures('./eruditarticle/tests/fixtures/article/abstracts', EruditArticle)
+class TestGetAbstracts:
+
+    @with_value('1037207ar.xml', 'get_abstracts', typeresume='resume')
+    def test_can_return_abstract_when_typeresume_present(self, value):
+        assert len(value) == 1
+
+    @with_value('031125ar.xml', 'get_abstracts')
+    def test_can_return_abstract_when_typeresume_not_present(self, value):
+        assert len(value) == 2
+
+    @with_value('031125ar.xml', 'get_abstracts', lang='fr')
+    def test_can_return_abstract_for_a_specific_lang(self, value):
+        # 031125ar.xml has 2 abstracts, one in 'fr', the other in 'en'
+        # only one is selected
+        assert len(value) == 1
+        # and it's the 'fr'
+        assert value[0]['lang'] == 'fr'
+
+
 @with_fixtures('./eruditarticle/tests/fixtures/article/section_titles', EruditArticle)
 class TestSectionTitle(object):
 
