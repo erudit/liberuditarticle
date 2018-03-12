@@ -7,4 +7,5 @@ pytest-cov
 pytest-django
 Django>=1.10.0
 ipdb
-
+sphinx
+sphinx_rtd_theme
