@@ -8,6 +8,12 @@
 
 * Is there a proper regression test ?
 
+## Compatibility
+
+* Does the patch break compatibility with the following apps?
+  * `eruditorg`
+  * `epikourous`
+
 ## Adding new features
 
 * Is the feature documented ?
