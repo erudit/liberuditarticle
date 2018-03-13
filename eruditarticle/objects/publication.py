@@ -82,9 +82,8 @@ class EruditPublication(
         :param html: convert XML markup to HTML
         :returns: a list of notegens
         """
-        first_article = self.find('article')
         notes = []
-        for note_elem in self.findall('notegen[@typenoteg="edito"]', dom=first_article):
+        for note_elem in self.findall('numero/notegen[@typenoteg="edito"]'):
 
             if html:
                 parser_method = self.convert_marquage_content_to_html

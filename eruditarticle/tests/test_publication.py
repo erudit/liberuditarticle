@@ -171,7 +171,6 @@ class TestEditorialNotes(object):
                 "content": '<p><a href="http://www.erudit.org/projspec/ateliers/v10n2_complet.pdf">T&#233;l&#233;charger le num&#233;ro complet / Download the complete issue</a></p>'  # noqa
             }
         ]
-        pass
 
     @with_value('simple_edito.xml', 'get_notegens_edito', html=True)
     def test_can_return_simple_note_html(self, value):
@@ -202,6 +201,13 @@ class TestEditorialNotes(object):
                 "content": "<p><strong>Remerciements&#160;:</strong> La Revue remercie le Bureau du Vice-rectorat &#224; l&#8217;enseignement et &#224; la recherche (Affaires francophones) de l&#8217;Universit&#233; Laurentienne et l&#8217;Institut fran&#231;ais de l&#8217;Universit&#233; de R&#233;gina de leur appui financier &#224; la production de ce num&#233;ro.</p>"  # noqa
             }
         ]
+
+    @with_value('edito_in_liminaire.xml', 'get_notegens_edito')
+    def test_ignore_notegen_in_liminaire(self, value):
+        # <notegen> tags in <liminaire> parent tag should *not* be considered in
+        # get_notegens_edito(). edito_in_liminaire.xml contains such a tag ans we verify that it
+        # doesn't end up in our results.
+        assert value == []
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication', EruditPublication)
