@@ -3,14 +3,9 @@ from .mixins import CopyrightMixin
 from .mixins import ISBNMixin
 from .mixins import ISSNMixin
 from .mixins import PublicationPeriodMixin
-from .person import Person
-
-try:
-    from django.utils.translation import pgettext
-    from django.utils.translation import gettext as _
-except ImportError:
-    pgettext = lambda ctx, msg: msg  # noqa
-    _ = lambda x: x  # noqa
+from .person import (
+    Person, format_authors, format_authors_mla, format_authors_apa, format_authors_chicago
+)
 
 
 class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
@@ -36,8 +31,13 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """ :returns: the type of the article. """
         return self._dom.getroot().get('typeart')
 
-    def get_authors(self, formatted=False, html=False):
-        """ :returns: the authors of the article object. """
+    def get_authors(self, formatted=False, html=False, style=None):
+        """ :returns: the authors of the article object.
+
+            :param formatted: Whether we return a formatted string or a Person list
+            :param html: if formatted, whether we include HTML markup
+            :param style: alternative formatting style. choices: 'mla', 'apa', 'chicago'
+        """
 
         authors = [
             Person(author) for author in
@@ -47,15 +47,14 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         if formatted and len(authors) == 0:
             return ""
         elif formatted:
-            authors = [author.format_name(html=html) for author in authors]
-            last_author = authors.pop()
-            if len(authors) == 0:
-                return last_author
-            return "{} {} {}".format(
-                ", ".join(authors),
-                _("et"),
-                last_author
-            )
+            if style == 'mla':
+                authors = format_authors_mla(authors)
+            elif style == 'apa':
+                authors = format_authors_apa(authors)
+            elif style == 'chicago':
+                authors = format_authors_chicago(authors)
+            else:
+                authors = format_authors(authors, html=html)
 
         return authors
 

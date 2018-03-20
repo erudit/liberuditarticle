@@ -1,6 +1,14 @@
-import lxml.etree as et
+from collections import namedtuple
 
-from eruditarticle.objects.person import Person
+import lxml.etree as et
+import pytest
+
+from eruditarticle.objects.person import (
+    Person, format_authors_mla, format_authors_apa, format_authors_chicago
+)
+
+
+FakePerson = namedtuple('Person', 'firstname lastname othername')
 
 
 def get_dom(fixture_name):
@@ -31,3 +39,95 @@ def test_empty_author():
     person = Person(get_dom('author_empty.xml'))
     EXPECTED = ''
     assert person.format_name() == EXPECTED
+
+
+@pytest.mark.parametrize('authors,expected', [
+    (
+        [],
+        ""
+    ),
+    (
+        [("Firstname", "Lastname", "")],
+        "Lastname, Firstname."
+    ),
+    (
+        [("Firstname", "Lastname", "Othername")],
+        "Othername."
+    ),
+    (
+        [("First1", "Last1", ""), ("First2", "Last2", "")],
+        "Last1, First1 et First2 Last2"
+    ),
+    (
+        [("First1", "Last1", "Other1"), ("First2", "Last2", "Other2")],
+        "Other1 et Other2"
+    ),
+])
+def test_format_authors_mla(authors, expected):
+    authors = [FakePerson(*args) for args in authors]
+    result = format_authors_mla(authors)
+    assert result == expected
+
+
+@pytest.mark.parametrize('authors,expected', [
+    (
+        [],
+        ""
+    ),
+    (
+        [("Firstname", "Lastname", "")],
+        "Lastname, F."
+    ),
+    (
+        [("Firstname", "Lastname", "Othername")],
+        "Othername"
+    ),
+    (
+        [("First1", "Last1", ""), ("First2", "Last2", "")],
+        "Last1, F. & Last2, F."
+    ),
+    (
+        [("First1", "Last1", "Other1"), ("First2", "Last2", "Other2")],
+        "Other1 & Other2"
+    ),
+    (
+        [("First1", "Last1", ""), ("First2", "Last2", ""), ("First3", "Last3", "")],
+        "Last1, F., Last2, F. & Last3, F."
+    ),
+])
+def test_format_authors_apa(authors, expected):
+    authors = [FakePerson(*args) for args in authors]
+    result = format_authors_apa(authors)
+    assert result == expected
+
+
+@pytest.mark.parametrize('authors,expected', [
+    (
+        [],
+        ""
+    ),
+    (
+        [("Firstname", "Lastname", "")],
+        "Lastname, Firstname"
+    ),
+    (
+        [("Firstname", "Lastname", "Othername")],
+        "Othername"
+    ),
+    (
+        [("First1", "Last1", ""), ("First2", "Last2", "")],
+        "Last1, First1 et Last2, First2"
+    ),
+    (
+        [("First1", "Last1", "Other1"), ("First2", "Last2", "Other2")],
+        "Other1 et Other2"
+    ),
+    (
+        [("First1", "Last1", ""), ("First2", "Last2", ""), ("First3", "Last3", "")],
+        "Last1, First1, Last2, First2 et Last3, First3"
+    ),
+])
+def test_format_authors_chicago(authors, expected):
+    authors = [FakePerson(*args) for args in authors]
+    result = format_authors_chicago(authors)
+    assert result == expected

@@ -2,6 +2,13 @@ import lxml.etree as et
 
 from .dom import DomObject
 
+try:
+    from django.utils.translation import pgettext
+    from django.utils.translation import gettext as _
+except ImportError:
+    pgettext = lambda ctx, msg: msg  # noqa
+    _ = lambda x: x  # noqa
+
 
 class PersonName(DomObject):
     def format(self, html=False):
@@ -102,3 +109,68 @@ class Redacteur(Person):
             return idrefs.split()
         else:
             return []
+
+
+def format_authors(authors, html=False):
+    authors = [author.format_name(html=html) for author in authors]
+    last_author = authors.pop()
+    if len(authors) == 0:
+        return last_author
+    return "{} {} {}".format(
+        ", ".join(authors),
+        _("et"),
+        last_author
+    )
+    pass
+
+
+def format_authors_mla(authors):
+    def single1(author):
+        if author.othername:
+            return author.othername
+        return "{}, {}".format(author.lastname, author.firstname)
+
+    def single2(author):
+        if author.othername:
+            return author.othername
+        return "{} {}".format(author.firstname, author.lastname)
+
+    if not authors:
+        return ""
+    elif len(authors) == 1:
+        return "{}.".format(single1(authors[0]))
+    elif len(authors) == 2:
+        first, second = authors
+        return _("{} et {}").format(single1(first), single2(second))
+    else:
+        return _("{}, et al.").format(single1(authors[0]))
+
+
+def format_authors_apa(authors):
+    def single(author):
+        if author.othername:
+            return author.othername
+        return "{}, {}.".format(author.lastname, author.firstname[:1])
+
+    if not authors:
+        return ""
+    elif len(authors) == 1:
+        return single(authors[0])
+    else:
+        fmtlist = ', '.join(single(a) for a in authors[:-1])
+        return "{} & {}".format(fmtlist, single(authors[-1]))
+
+
+def format_authors_chicago(authors):
+    def single(author):
+        if author.othername:
+            return author.othername
+        return "{}, {}".format(author.lastname, author.firstname)
+
+    if not authors:
+        return ""
+    elif len(authors) == 1:
+        return single(authors[0])
+    else:
+        fmtlist = ', '.join(single(a) for a in authors[:-1])
+        return _("{} et {}").format(fmtlist, single(authors[-1]))
