@@ -243,49 +243,33 @@ class TestArticleSavantMinimal(object):
 @with_fixtures('./eruditarticle/tests/fixtures/article/format_person_name/', EruditArticle)
 class TestFormatPersonName(object):
 
-    @with_value('no_authors.xml', 'get_formatted_authors')
-    def test_can_format_no_authors(self, value):
-        assert value == ""
+    @pytest.mark.parametrize('objectname,expected', [
+        ('no_authors', ""),
+        ('multiple_authors', "Marion Sauvaire et Érick Falardeau"),
+        ('strip_tags', "Réjean Savard"),
+        ('firstname_lastname', "Natascha Niederstrass"),
+        ('with_othername', "Georges L. Bastin"),
+        ('firstname_lastname_alias', "Patrick Straram, alias le Bison ravi"),
+        ('only_alias', "Aude"),
+        ('only_firstname', "Presseau"),
+        ('only_lastname', "Marbic"),
+        ('with_suffix', "Thibault Martin Ph.D."),
+        ('with_guest_editor', "Justin K. Bisanswa"),
+    ])
+    def test_get_formatted_authors(self, objectname, expected):
+        obj = self.test_objects[objectname + '.xml']
+        assert obj.get_authors(formatted=True) == expected
 
-    @with_value('multiple_authors.xml', 'get_formatted_authors')
-    def test_can_format_multiple_author_names(self, value):
-        assert value == "Marion Sauvaire et Érick Falardeau"
-
-    @with_value('strip_tags.xml', 'get_formatted_authors')
-    def test_can_strip_elements_from_author_name(self, value):
-        assert value == 'Réjean Savard'
-
-    @with_value('firstname_lastname.xml', 'get_formatted_authors')
-    def test_can_format_a_firstname_lastname(self, value):
-        assert value == 'Natascha Niederstrass'
-
-    @with_value('with_othername.xml', 'get_formatted_authors')
-    def test_can_format_firstname_othername_lastname(self, value):
-        assert value == 'Georges L. Bastin'
-
-    @with_value('firstname_lastname_alias.xml', 'get_formatted_authors')
-    def test_can_format_firstname_lastname_and_alias(self, value):
-        assert value == 'Patrick Straram, alias le Bison ravi'
-
-    @with_value('only_alias.xml', 'get_formatted_authors')
-    def test_can_format_only_alias(self, value):
-        assert value == 'Aude'
-
-    @with_value('only_firstname.xml', 'get_formatted_authors')
-    def test_can_format_only_firstname(self, value):
-        assert value == 'Presseau'
-
-    @with_value('only_lastname.xml', 'get_formatted_authors')
-    def test_can_format_only_lastname(self, value):
-        assert value == 'Marbic'
-
-    @with_value('with_suffix.xml', 'get_formatted_authors')
-    def test_can_format_name_with_suffix(self, value):
-        assert value == 'Thibault Martin Ph.D.'
-
-    @with_value('with_guest_editor.xml', 'get_formatted_authors')
-    def test_can_format_name_when_guest_editors(self, value):
-        assert value == 'Justin K. Bisanswa'
+    @pytest.mark.parametrize('style,expected', [
+        (None, "Marion Sauvaire et Érick Falardeau"),
+        ('invalid', "Marion Sauvaire et Érick Falardeau"),
+        ('mla', "Sauvaire, Marion et Érick Falardeau"),
+        ('apa', "Sauvaire, M. & Falardeau, É."),
+        ('chicago', "Sauvaire, Marion et Falardeau, Érick"),
+    ])
+    def test_get_formatted_authors_with_style(self, style, expected):
+        obj = self.test_objects['multiple_authors.xml']
+        assert obj.get_authors(formatted=True, style=style) == expected
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/find_authors/', EruditArticle)
