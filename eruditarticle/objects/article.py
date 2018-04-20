@@ -15,57 +15,56 @@ logger = logging.getLogger(__name__)
 
 
 class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
-    def get_abstracts(self, lang='', typeresume='', formatted=False, html=False):
-        """ :returns: the abstracts of the article object.
 
-        Args:
-            lang (str, optional): Abstracts' language. Defaults to any language.
-            typeresume (str, optional): Abstracts' type. Defaults to any type.
-                The type provided must be one of these 4 options (according to EruditArticle schema)
-                    'abrege'
-                    'autre'
-                    'chapeau'
-                    'resume'
-            formatted (bool, optional): Defaults to False.
-                Not yet implemented.
-            html (bool, optional): Defaults to False.
-                Not yet implemented.
+    def get_abstracts(self, formatted=False, html=False):
+        """ Returns the abstracts of the article object
+        :param formatted: (bool, optional): Defaults to False.
+            Not applicable
+        :param html: (bool, optional): Defaults to False.
 
-        The abstracts are returned as list of dictionaries of the form::
+        :returns: a list of dictionaries of the form::
 
-            {
-                'lang': 'fr',
-                'content': 'Content',
-            }
+            abstracts = [
+                {
+                    'content': '...',
+                    'lang': 'fr',
+                    'typeresume': ''
+                    'type': 'main'
+                },
+            ]
+
         """
-        TYPERESUME_OPTIONS = (
-            'abrege',
-            'autre',
-            'chapeau',
-            'resume',
-        )
-        if typeresume and typeresume not in TYPERESUME_OPTIONS:
-            msg = 'typeresume value {} is not supported by EruditArticle schema'
-            logger.debug(msg.format(typeresume))
-
-        filters = []
-        if typeresume:
-            typeresume_filter = '[@typeresume="{}"]'.format(typeresume)
-            filters.append(typeresume_filter)
-        if lang:
-            lang_filter = '[@lang="{}"]'.format(lang)
-            filters.append(lang_filter)
-
-        query = 'resume'
-        if filters:
-            query = query + ''.join(filters)
-
         abstracts = []
-        for tree_abstract in self.findall(query):
-            abstracts.append({
-                'lang': tree_abstract.get('lang'),
-                'content': self.stringify_children(tree_abstract),
-            })
+        languages = self.get_languages()
+
+        for abstract_dom in self.findall('resume'):
+
+            abstract = {
+                'lang': abstract_dom.get('lang'),
+                'typeresume': abstract_dom.get('typeresume')
+            }
+
+            title_dom = abstract_dom.find('titre')
+            if title_dom is not None:
+                abstract['title'] = title_dom.text
+
+            if html:
+                abstract['content'] = self.convert_marquage_content_to_html(abstract_dom)
+            else:
+                abstract["content"] = "".join(
+                    self.stringify_children(n)
+                    for n in self.findall("alinea", dom=abstract_dom)
+                )
+
+            try:
+                if languages.index(abstract["lang"]) == 0:
+                    abstract["type"] = "main"
+                else:
+                    abstract["type"] = "paral"
+            except ValueError:
+                abstract["type"] = "equivalent"
+
+            abstracts.append(abstract)
         return abstracts
 
     def get_article_type(self):

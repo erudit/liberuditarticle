@@ -19,21 +19,38 @@ def people_to_dict(people):
 @with_fixtures('./eruditarticle/tests/fixtures/article/abstracts', EruditArticle)
 class TestGetAbstracts:
 
-    @with_value('1037207ar.xml', 'get_abstracts', typeresume='resume')
-    def test_can_return_abstract_when_typeresume_present(self, value):
-        assert len(value) == 1
+    @with_value('1037207ar.xml', 'get_abstracts')
+    def test_can_return_abstract_typeresume(self, value):
+        assert value[0]['typeresume'] == 'resume'
+        assert value[0]['content'] != ''
+
+    @with_value('1043568ar.xml', 'get_abstracts')
+    def test_can_return_abstracts_in_any_language(self, value):
+        assert value[0]['type'] == 'main'
+        assert value[0]['content'] != ''
+        assert len(value) == 3
+        assert len([a for a in value if a['type'] == 'equivalent']) == 2
+
+    @with_value('1043568ar.xml', 'get_abstracts', html=True)
+    def test_can_return_html_tags_of_abstracts(self, value):
+        assert value[0]['type'] == 'main'
+        assert value[0]['content'] == """<p><em>En fin de premi&#232;re ann&#233;e de formation &#224; l&#8217;enseignement primaire, les &#233;tudiants du canton de Vaud en Suisse sont certifi&#233;s par des examens de diff&#233;rentes natures. Pour cette recherche &#224; caract&#232;re exploratoire, nous avons retenu deux certifications particuli&#232;res. La premi&#232;re concerne un module intitul&#233; </em>Savoirs math&#233;matiques et enseignement<em>, qui est certifi&#233; par un questionnaire &#224; choix multiples (QCM) et qui exige des &#233;tudiants non seulement qu&#8217;ils r&#233;pondent aux questions, mais &#233;galement qu&#8217;ils indiquent leurs degr&#233;s de certitude des r&#233;ponses donn&#233;es. Ce faisant, ils s&#8217;auto&#233;valuent et cette estimation est prise en compte dans la r&#233;ussite &#224; l&#8217;examen. La seconde concerne un module intitul&#233; </em>Enseignement et apprentissage<em>. L&#8217;examen se structure par des questions ouvertes testant les capacit&#233;s d&#8217;analyse de t&#226;ches distribu&#233;es aux &#233;l&#232;ves des classes de la r&#233;gion. L&#8217;article pr&#233;sente les r&#233;sultats d&#8217;une recherche visant &#224; comprendre les liens entre des exp&#233;riences &#233;valuatives et des postures en formation de quatre &#233;tudiantes, puis &#224; d&#233;finir d&#8217;&#233;ventuelles logiques de formation. Nous avons relev&#233; quatre postures qui remettent en question le rapport aux savoirs de la profession.</em></p>"""  # noqa
+
+    @with_value('1043568ar.xml', 'get_abstracts')
+    def test_can_return_paral_abstracts_in_the_lang_order_defined_in_the_article(self, value):  # noqa
+        equivalent_abstracts = [a for a in value if a['type'] == 'equivalent']
+        assert [a['lang'] for a in equivalent_abstracts] == ["en", "pt"]
 
     @with_value('031125ar.xml', 'get_abstracts')
-    def test_can_return_abstract_when_typeresume_not_present(self, value):
-        assert len(value) == 2
+    def test_can_return_abstract_title(self, value):
+        assert value[0] is not None
+        assert value[0]['content'] != ''
+        assert value[0]['title'] == 'Abstract'
 
-    @with_value('031125ar.xml', 'get_abstracts', lang='fr')
-    def test_can_return_abstract_for_a_specific_lang(self, value):
-        # 031125ar.xml has 2 abstracts, one in 'fr', the other in 'en'
-        # only one is selected
-        assert len(value) == 1
-        # and it's the 'fr'
-        assert value[0]['lang'] == 'fr'
+    @with_value('1039501ar.xml', 'get_abstracts')
+    def test_can_return_abstract_of_tei_articles(self, value):
+        assert value[0] is not None
+        assert value[0]['content'] != ''
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/keywords', EruditArticle)
