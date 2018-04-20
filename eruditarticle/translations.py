@@ -2,6 +2,7 @@ from django.utils.translation import pgettext
 
 pgettext("numbering", "hors-série")
 pgettext("numbering", "numéro hors-série")
+pgettext("numbering", "Numéro hors-série")
 pgettext("numbering", "supplément")
 pgettext("numbering", "index")
 

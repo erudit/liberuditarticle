@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-22 08:09-0400\n"
+"POT-Creation-Date: 2018-04-20 11:06-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: objects/publication.py:115 translations.py:5
+#: objects/publication.py:115 translations.py:6
 msgctxt "numbering"
 msgid "supplément"
 msgstr "Supplement"
 
-#: objects/publication.py:117 translations.py:6
+#: objects/publication.py:117 translations.py:7
 msgctxt "numbering"
 msgid "index"
 msgstr "Index"
@@ -132,86 +132,87 @@ msgctxt "numbering"
 msgid "numéro hors-série"
 msgstr "Special Issue"
 
-#: translations.py:8
+#: translations.py:5
+msgctxt "numbering"
+msgid "Numéro hors-série"
+msgstr "Special Issue"
+
+#: translations.py:9
 msgctxt "numbering"
 msgid "Printemps"
 msgstr "Spring"
 
-#: translations.py:9
+#: translations.py:10
 msgctxt "numbering"
 msgid "Été"
 msgstr "Summer"
 
-#: translations.py:10
+#: translations.py:11
 msgctxt "numbering"
 msgid "Automne"
 msgstr "Fall"
 
-#: translations.py:11
+#: translations.py:12
 msgctxt "numbering"
 msgid "Hiver"
 msgstr "Winter"
 
-#: translations.py:13
+#: translations.py:14
 msgctxt "numbering"
 msgid "Janvier"
 msgstr "January"
 
-#: translations.py:14
+#: translations.py:15
 msgctxt "numbering"
 msgid "Février"
 msgstr "February"
 
-#: translations.py:15
+#: translations.py:16
 msgctxt "numbering"
 msgid "Mars"
 msgstr "March"
 
-#: translations.py:16
+#: translations.py:17
 msgctxt "numbering"
 msgid "Avril"
 msgstr "April"
 
-#: translations.py:17
+#: translations.py:18
 msgctxt "numbering"
 msgid "Mai"
 msgstr "May"
 
-#: translations.py:18
+#: translations.py:19
 msgctxt "numbering"
 msgid "Juin"
 msgstr "June"
 
-#: translations.py:19
+#: translations.py:20
 msgctxt "numbering"
 msgid "Juillet"
 msgstr "July"
 
-#: translations.py:20
+#: translations.py:21
 msgctxt "numbering"
 msgid "Août"
 msgstr "August"
 
-#: translations.py:21
+#: translations.py:22
 msgctxt "numbering"
 msgid "Septembre"
 msgstr "September"
 
-#: translations.py:22
+#: translations.py:23
 msgctxt "numbering"
 msgid "Octobre"
 msgstr "October"
 
-#: translations.py:23
+#: translations.py:24
 msgctxt "numbering"
 msgid "Novembre"
 msgstr "November"
 
-#: translations.py:24
+#: translations.py:25
 msgctxt "numbering"
 msgid "Décembre"
 msgstr "December"
-
-#~ msgctxt "numbering"
-#~ msgid "Numéro hors-série"
-#~ msgstr "Special Issue"
