@@ -1,0 +1,1018 @@
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.erudit.org/xsd/article" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.erudit.org/xsd/article http://www.erudit.org/xsd/article/3.0.0/eruditarticle.xsd" qualtraitement="complet" idproprio="1039501ar" typeart="article" lang="fr" ordseq="6" idref="th1">
+   <admin>
+      <infoarticle>
+         <idpublic scheme="doi">10.7202/1039501ar</idpublic>
+         <pagination>
+            <ppage/>
+            <dpage/>
+         </pagination>
+      </infoarticle>
+      <revue id="efg76" lang="fr">
+         <titrerev>Enfances, Familles, Générations</titrerev>
+         <titrerevabr>efg</titrerevabr>
+         <idissnnum>1708-6310</idissnnum>
+         <directeur>
+            <nompers>
+               <prenom>Laurence</prenom>
+               <nomfamille>Charton</nomfamille>
+            </nompers>
+         </directeur>
+         <redacteurchef typerc="invite" idrefs="th1">
+            <nompers>
+               <prenom>Christiane</prenom>
+               <nomfamille>Guay</nomfamille>
+            </nompers>
+         </redacteurchef>
+         <redacteurchef typerc="invite" idrefs="th1">
+            <nompers>
+               <prenom>Sébastien</prenom>
+               <nomfamille>Grammond</nomfamille>
+            </nompers>
+         </redacteurchef>
+      </revue>
+      <numero id="efg03027" lang="fr">
+         <nonumero>25</nonumero>
+         <pub>
+            <annee>2016</annee>
+         </pub>
+         <pubnum>
+            <date typedate="pubnum">2016-10-04</date>
+         </pubnum>
+         <grtheme id="th1">
+            <theme>Enfance et famille autochtones</theme>
+         </grtheme>
+      </numero>
+      <editeur>
+         <nomorg>INRS-UCS</nomorg>
+      </editeur>
+      <prodnum>
+         <nomorg>Érudit</nomorg>
+      </prodnum>
+      <diffnum>
+         <nomorg>Érudit</nomorg>
+      </diffnum>
+      <schema nom="Erudit Article" version="3.0.0" lang="fr"/>
+      <droitsauteur>Tous droits réservés ©<nomorg>INRS-UCS</nomorg>,
+                            2016</droitsauteur>
+   </admin>
+   <liminaire>
+      <grtitre>
+         <surtitre>Enfance et famille autochtones</surtitre>
+         <titre>La plainte de discrimination
+          devant le Tribunal canadien des droits de la personne portant sur les services d’aide à
+          l’enfance aux enfants des Premières Nations et le Principe de Jordan</titre>
+         <titreparal lang="en">The discrimination case before the Canadian
+          Human Rights Tribunal on child welfare services for First Nations children and the Jordan
+          Principle</titreparal>
+      </grtitre>
+      <grauteur>
+         <auteur>
+            <nompers>
+               <nomfamille>Anne Levesque</nomfamille>
+            </nompers>
+            <affiliation>
+               <alinea>Avocate, Equality Law, Ottawa,
+          anne@equalitylaw.ca</alinea>
+            </affiliation>
+         </auteur>
+         <auteur>
+            <nompers>
+               <nomfamille>Sarah Clarke</nomfamille>
+            </nompers>
+            <affiliation>
+               <alinea>Avocate, Clarke Child and Family Law, Toronto,
+          sarah@childandfamilylaw.ca</alinea>
+            </affiliation>
+         </auteur>
+         <auteur>
+            <nompers>
+               <nomfamille>Cindy Blackstock</nomfamille>
+            </nompers>
+            <affiliation>
+               <alinea>Directrice exécutive, Société de soutien à
+          l’enfance et à la famille des Premières Nations du Canada, Professeure agrégée, Université
+          McGill, cblackst@fncaringsociety.com</alinea>
+            </affiliation>
+         </auteur>
+      </grauteur>
+      <resume lang="fr">
+         <alinea>Il y a aujourd’hui plus d’enfants des Premières Nations placés en famille
+          d’accueil qu’il y a jamais eu d’élèves autochtones fréquentant les pensionnats. Il est de
+          plus en plus évident que ce problème est causé par les structures de financement
+          inéquitables et déficientes du gouvernement fédéral pour les services d’aide à l’enfance.
+          En 2007, la Société de soutien à l’enfance et à la famille des Premières Nations du Canada
+          (la Société de soutien) et l’Assemblée des Premières Nations (APN) ont déposé une plainte
+          qui mettait de l’avant deux allégations de discrimination. La première allégation portait
+          sur les conflits de compétence entre les gouvernements fédéral et provinciaux, qui font en
+          sorte que les enfants des Premières Nations sont souvent laissés en attente de services
+          dont ils ont désespérément besoin ou se voient même refuser des services qui sont offerts
+          aux autres enfants. La deuxième allégation de discrimination concernait le traitement
+          défavorable de 163 000 enfants des Premières Nations dans le cadre du système de
+          protection de l’enfance offert sur les réserves. Dans les deux cas, il était allégué que
+          ces traitements constituaient des actes discriminatoires prohibés par la <marquage typemarq="italique">Loi canadienne sur les droits de la personne</marquage> (LCDP). Au cours des six
+          années suivantes, le gouvernement canadien a dépensé des millions de dollars dans une
+          multitude de tentatives infructueuses pour faire avorter la poursuite. L’audience a
+          néanmoins commencé en février 2013 devant le Tribunal des droits de la personne (TCDP).
+          Pour la première fois dans l’histoire du Canada, la responsabilité du gouvernement fédéral
+          quant à des allégations de discrimination envers les enfants des Premières Nations a été
+          évaluée par un organisme pouvant rendre des décisions judiciairement contraignantes et des
+          ordonnances réparatrices. Au cours de l’année suivante, le Tribunal a entendu plus de 25
+          témoins et a examiné plus de 500 documents mis en preuve. Les documents internes fédéraux
+          déposés ont révélé une discrimination constante et systématique envers les enfants des
+          Premières Nations ainsi que l’échec du gouvernement fédéral à résoudre le problème même si
+          les solutions étaient connues. Alors même que le procès se déroulait devant le Tribunal,
+          plusieurs auteurs de doctrine et membres des Premières Nations établissaient un parallèle
+          entre la réaction du gouvernement fédéral dans ce dossier et d’autres cas de
+          discrimination quant à l’accès à des services tels que l’éducation, la police, la santé et
+          le logement dans les communautés autochtones. Cet article est écrit du point de vue des
+          trois auteures, qui étaient étroitement impliquées dans la cause, deux à titre d’avocates
+          et l’autre à titre de témoin et plaignante. Il offre d’abord une vue d’ensemble des
+          principales questions juridiques soulevées par ce dossier avant d’analyser la preuve
+          documentaire et testimoniale. La nécessité de redresser la situation dans d’autres sphères
+          de services gouvernementaux pour les Premières Nations sera aussi abordée. </alinea>
+      </resume>
+      <resume lang="en">
+         <alinea>More First Nations children today are being placed in
+          foster care than the number of students who ever attended residential schools. It is
+          becoming increasingly clear that this problem is caused by inequitable and insufficient
+          federal government funding for child welfare services. In 2007, the First Nations Child
+          &amp; Family Caring Society of Canada (the Caring Society) and the Assembly of First
+          Nations filed a complaint concerning two allegations of discrimination. The first
+          allegation concerned a conflict of jurisdiction between the federal and provincial
+          governments that resulted in First Nations children often having to wait to receive vital
+          services or even refused services provided to other children. The second allegation of
+          discrimination concerned the unfair treatment of 163,000 First Nations children in the
+          child welfare system provided on reserves. In both cases, it was alleged that these
+          treatments constituted discriminatory acts prohibited under the <marquage typemarq="italique">Canada Human Rights Act</marquage>. Over the next six years, the
+          Canadian government spent millions of dollars on numerous unsuccessful attempts to derail
+          the case. The case was nevertheless brought before the Human Rights Tribunal in February
+          2013; for the first time in Canadian history, the federal government’s liability regarding
+          allegations of discrimination toward First Nations children was examined by a body that
+          could make legally binding decisions and remedial orders. Over the year that followed, the
+          Tribunal heard from over 25 witnesses and examined over 500 evidentiary documents.
+          Internal federal documents that were submitted revealed consistent and systematic
+          discrimination against First Nations children, along with a failure to resolve the
+          problem, even with known solutions at hand. Even while the case was still before the
+          Tribunal, a number of academics and members of First Nations began making parallels
+          between the federal government’s reaction in this case and other cases of discrimination
+          in access to services such as education, policing, health, and housing in Indigenous
+          communities. This article expresses the perspectives of three authors who were closely
+          involved in the case: two as lawyers and the other as a witness and complainant. It first
+          provides an overview of the main legal issues raised in the case and then analyses the
+          documentary and testimonial evidence. The need to correct the situation in other spheres
+          of governmental services for First Nations people is also discussed. </alinea>
+      </resume>
+      <grmotcle lang="fr">
+         <motcle>Premières Nations</motcle>
+         <motcle>enfants</motcle>
+         <motcle>discrimination</motcle>
+         <motcle>droits de la personne</motcle>
+      </grmotcle>
+      <grmotcle lang="en">
+         <motcle>First Nations</motcle>
+         <motcle>children</motcle>
+         <motcle>discrimination</motcle>
+         <motcle>human rights</motcle>
+      </grmotcle>
+   </liminaire>
+   <corps>
+      <section1 id="s1n1">
+         <no>1</no>
+         <para id="pa1">
+            <no>1</no>
+            <alinea>Il y a aujourd’hui plus d’enfants des Premières Nations placés en famille
+        d’accueil qu’il y a jamais eu d’élèves autochtones fréquentant les pensionnats. Il est de
+        plus en plus évident que ce problème est causé par les structures de financement
+        inéquitables et déficientes du gouvernement fédéral pour les services d’aide à l’enfance. En
+        2007, la Société de soutien à l’enfance et à la famille des Premières Nations du Canada (la
+        Société de soutien) et l’Assemblée des Premières Nations (APN) ont déposé une plainte qui
+        mettait de l’avant deux allégations de discrimination. La première allégation portait sur
+        les conflits de compétence entre les gouvernements fédéral et provinciaux, qui font en sorte
+        que les enfants des Premières Nations sont souvent laissés en attente de services dont ils
+        ont désespérément besoin ou se voient même refuser des services qui sont offerts aux autres
+        enfants. La deuxième allégation de discrimination concernait le traitement défavorable de
+        163 000 enfants des Premières Nations dans le cadre du système de protection de l’enfance
+        offert sur les réserves. Dans les deux cas, il était allégué que ces traitements
+        constituaient des actes discriminatoires prohibés par la <marquage typemarq="italique">Loi canadienne
+        sur les droits de la personne</marquage> (LCDP). Au cours des six années suivantes, le
+        gouvernement canadien a dépensé des millions de dollars dans une multitude de tentatives
+        infructueuses pour faire avorter les audiences préliminaires. L’audience a néanmoins
+        commencé en février 2013 devant le Tribunal des droits de la personne (TCDP). Pour la
+        première fois dans l’histoire du Canada, la responsabilité du gouvernement fédéral quant à
+        des allégations de discrimination envers les enfants des Premières Nations a été évaluée par
+        un organisme pouvant rendre des décisions judiciairement contraignantes et des ordonnances
+        réparatrices. Au cours de l’année suivante, le Tribunal a entendu plus de 25 témoins et a
+        examiné plus de 500 documents mis en preuve. Les documents internes fédéraux déposés ont
+        révélé une discrimination constante et systématique envers les enfants des Premières Nations
+        ainsi que l’échec du gouvernement fédéral à résoudre le problème même si les solutions
+        étaient connues. Alors même que le procès se déroulait devant le Tribunal, plusieurs auteurs
+        de doctrine et membres des Premières Nations établissaient un parallèle entre la réaction du
+        gouvernement fédéral dans ce dossier et d’autres cas de discrimination quant à l’accès à des
+        services tels que l’éducation, la police, la santé et le logement dans les communautés
+        autochtones. Cet article est écrit du point de vue des trois auteures, qui étaient
+        étroitement impliquées dans la cause, deux à titre d’avocates et l’autre à titre de témoin
+        et plaignante. Il offre d’abord une vue d’ensemble des principales questions juridiques
+        soulevées par ce dossier avant d’analyser la preuve documentaire et testimoniale. La
+        nécessité de redresser la situation dans d’autres sphères de services gouvernementaux pour
+        les Premières Nations sera aussi abordée.</alinea>
+         </para>
+      </section1>
+      <section1 id="s1n2">
+         <no>2</no>
+         <titre>Le rôle du TCDP</titre>
+         <para id="pa2">
+            <no>2</no>
+            <alinea>La LCDP est une loi fédérale qui interdit aux employeurs, associations
+          professionnelles et autres fournisseurs de services de refuser d’offrir un service ou
+          d’offrir un traitement différent en raison de la race, de l’origine nationale ou ethnique,
+          de la couleur, de la religion, de l’âge, du sexe, de l’orientation sexuelle, de l’état
+          matrimonial, de la situation de famille, de l’état de personne graciée ou de la déficience
+          (LCDP, 1985 : article 3(1)). Comme pour la plupart des lois provinciales en matière de
+          droits de la personne, l’objectif de la LCDP est d’éliminer la discrimination dans la
+          société (LCDP, 1985 : article 2 ; <marquage typemarq="italique">Code des droits de la
+          personne</marquage>, 1990 : préambule; et <marquage typemarq="italique">Code des droits de la
+          personne</marquage>, 2013 : préambule). Bien que divers mécanismes, incluant des ordonnances
+          quasi criminelles, aient été considérés par le Parlement avant l’adoption de la LCDP, le
+          régime qui a été ultimement choisi et qui est aujourd’hui applicable repose sur la volonté
+          de l’individu ou du groupe d’individus de déposer une plainte devant la Commission
+          canadienne des droits de la personne (Commission ou CCDP) lorsqu’il existe des motifs
+          raisonnables de croire qu’une personne a commis un acte discriminatoire (LCDP, 1985 :
+          article 40(1) ; Tarnopolsky, 1982 : 27). Par conséquent, la réalisation des objectifs
+          législatifs de la LCDP dépend de la volonté des plaignants d’aller de l’avant et de
+          dénoncer les actes discriminatoires contraires aux droits de la personne. C’est
+          probablement pour cette raison que la Cour suprême décrit le système des droits de la
+          personne créé par le TCDP comme étant le « dernier recours de la personne désavantagée et
+          de la personne privée dans ses droits de représentation » (<marquage typemarq="italique">Zurich
+          Insurance Co. c. Ontario</marquage>, 1992).</alinea>
+         </para>
+         <para id="pa3">
+            <no>3</no>
+            <alinea>Lorsqu’elle reçoit une plainte, la Commission examine celle-ci et décide
+          s’il y a lieu de la confier au Tribunal. Si, après avoir tenu une audience, le Tribunal
+          juge la plainte comme étant fondée, il peut émettre toute ordonnance visant à faire cesser
+          l’acte discriminatoire. Ceci inclut la mise en place de programmes ou de mesures de
+          redressement destinés à prévenir tout désavantage auquel doivent faire face ceux qui sont
+          victimes de discrimination (LCDP, 1985 : articles 16(1) et 53(1)). Le Tribunal peut par
+          ailleurs ordonner à l’intimé de fournir une compensation à l’individu victime de
+          discrimination en lui accordant les droits, les chances et les occasions dont l’acte
+          discriminatoire l’a privé (LCDP, 1985 : article 53(1)). L’objectif de tels recours est de
+          dédommager entièrement la victime de discrimination (<marquage typemarq="italique">Tranchemontagne
+          c. Ontario,</marquage> 2006 : 33).</alinea>
+         </para>
+         <para id="pa4">
+            <no>4</no>
+            <alinea>Compte tenu de l’objectif de la LCDP d’éradiquer la discrimination dans
+          la société canadienne, le TCDP peut aussi émettre des ordonnances afin de prévenir toute
+          forme future de discrimination contre le plaignant ou le groupe qu’il représente.
+          Lorsqu’il est question de discrimination systémique, le TCDP peut émettre des ordonnances
+          connues sous le nom de « réparations d’intérêt public ». Celles-ci incluent des
+          réparations telles que la formation de personnel, des campagnes publicitaires éducatives,
+          et des consultations avec le TCDP et des membres de groupes victimes de discrimination
+          ainsi que d’autres mesures proactives visant à prévenir les actes discriminatoires (<marquage typemarq="italique">Hughes c. Éléction Canada</marquage>, 2010).</alinea>
+         </para>
+      </section1>
+      <section1 id="s1n3">
+         <no>3</no>
+         <titre>Les parties</titre>
+         <para id="pa5">
+            <no>5</no>
+            <alinea>En 2007, la Société de soutien et l’APN ont déposé une
+          plainte à la Commission, alléguant que les conflits de compétence entre les gouvernements
+          fédéral et provinciaux qui font en sorte que les enfants des Premières Nations sont
+          souvent laissés en attente de services dont ils ont désespérément besoin ou se voient même
+          refuser des services qui sont offerts aux autres enfants, ainsi que le traitement
+          défavorable de 163 000 enfants des Premières Nations dans le cadre du système de
+          protection de l’enfance offert sur les réserves, étaient des actes discriminatoires. Cette
+          plainte a été déposée à la Commission fédérale, car les plaignants étaient d’avis que ce
+          palier de gouvernement était responsable de ces iniquités. </alinea>
+         </para>
+         <para id="pa6">
+            <no>6</no>
+            <alinea>La Commission a accepté la plainte et l’a confiée au Tribunal pour qu’il
+          tranche cette affaire en septembre 2008. Le gouvernement canadien a contesté sans succès
+          cette décision devant la Cour fédérale (<marquage typemarq="italique">Canada (Procureur général) c.
+          Société de soutien à l’enfance et à la famille des Premières Nations du Canada</marquage>,
+          2010). Une fois la plainte devant le Tribunal, le gouvernement canadien a cherché une fois
+          de plus à la faire rejeter de façon préliminaire. Dans ce qui a d’abord semblé dévastateur
+          pour les plaignants, le Tribunal a rejeté la plainte en raison d’un défaut procédural
+          soulevé par le gouvernement fédéral. Toutefois, la Cour fédérale et la Cour d’appel
+          fédérale n’ont pas partagé le point de vue du Tribunal, et elles ont ordonné la tenue
+          d’une nouvelle audience sur le fond (<marquage typemarq="italique">Canada (Commission canadienne des
+          droits de la personne) c. Canada (Procureur général</marquage>), 2012 ; et <marquage typemarq="italique">Canada (Procureur général) c. Commission canadienne des droits de la personne</marquage>,
+          2013).</alinea>
+         </para>
+      </section1>
+      <section1 id="s1n4">
+         <no>4</no>
+         <titre>La preuve</titre>
+         <section2 id="s2n1">
+            <no>4.1</no>
+            <titre>La discrimination dans les services de protection
+            de l’enfance</titre>
+            <para id="pa7">
+               <no>7</no>
+               <alinea>Les enfants des Premières Nations sont surreprésentés à toutes les
+            étapes du système de protection de l’enfance, depuis le traitement des signalements
+            jusqu’au placement en famille d’accueil. Ils sont 12 fois plus susceptibles d’être
+            placés hors de leur foyer que les autres enfants canadiens (Trocmé <marquage typemarq="italique">et al.</marquage>, 2006). Les principaux motifs de placement sont la négligence physique et
+            la supervision inadéquate de l’enfant. Ces deux facteurs sont hautement corrélés avec la
+            pauvreté, les mauvaises conditions de logement et l’utilisation inappropriée de drogues
+            par les parents (Trocmé <marquage typemarq="italique">et al.</marquage>, 2006). Une amélioration de la
+            situation est néanmoins possible grâce à des interventions culturelles ciblées.
+            Malheureusement, le sous-financement significatif et prolongé du système de protection
+            de l’enfance rend difficile la mise en place de telles interventions (Commission royale
+            sur les peuples autochtones, 1996). Les familles des Premières Nations tentent encore
+            aujourd’hui de se remettre des décennies au cours desquelles leurs enfants ont été
+            arrachés à leur foyer et placés dans des pensionnats où l’on dénigrait leur culture,
+            leur langue et leurs traditions (Commission royale sur les peuples autochtones, 1996).
+            Selon les données recueillies par le gouvernement fédéral, les enfants des Premières
+            Nations ont passé plus de 66 millions de nuits en famille d’accueil entre 1989 et 2012
+            (excluant l’année fiscale 2011 pour l’Ontario). En bref, il y a aujourd’hui plus
+            d’enfants des Premières Nations en famille d’accueil qu’il y a eu d’élèves autochtones
+            dans les pensionnats à l’apogée du système.</alinea>
+            </para>
+            <para id="pa8">
+               <no>8</no>
+               <alinea>Pour contrer cette importante surreprésentation, de nombreuses nations
+            autochtones ont mis sur pied, dès les années 1970, leurs propres organismes de
+            protection de l’enfance. En 2014, on comptait plus de 108 organismes de ce type à
+            travers le Canada.</alinea>
+            </para>
+            <para id="pa9">
+               <no>9</no>
+               <alinea>En dehors des réserves, les organismes de protection de l’enfance
+            tirent leur mandat et leur financement des gouvernements provinciaux et territoriaux.
+            Par contre, les organismes desservant les communautés autochtones doivent s’accommoder
+            d’un régime de financement fédéral fondé sur une formule. Même si le gouvernement
+            fédéral exige que les organismes autochtones respectent les lois provinciales ou
+            territoriales, la formule de financement ne tient pas compte de ces exigences et n’est
+            pas axée sur les besoins des enfants concernés (Blackstock, 2011). Le gouvernement
+            fédéral administre les services offerts aux enfants des Premières Nations ainsi qu’à
+            leurs familles par le biais de son ministère des Affaires indiennes et du Nord canadien
+            (AINC). Selon les manuels nationaux du programme d’AINC (Affaires indiennes et du Nord
+            Canadien, 2005 ; Affaires indiennes et du Nord canadien, 2012a), celui-ci a pour
+            objectif de fournir des services culturellement appropriés aux enfants et aux familles
+            des Premières Nations, d’un niveau comparable aux services reçus par les autres enfants
+            canadiens.<renvoi id="re1no1" idref="no1" typeref="note">1</renvoi> AINC emploie trois régimes distincts de
+            financement pour les services offerts aux enfants et aux familles des Premières Nations
+            à travers le pays. La Directive 20-1 (développée en 1989) est applicable en
+            Colombie-Britannique, au Nouveau-Brunswick, à Terre-Neuve-et-Labrador ainsi qu’au Yukon.
+            L'Approche améliorée axée sur la prévention (AAAP) est en vigueur en Alberta, en
+            Saskatchewan, au Manitoba, au Québec et à l’Île-du-Prince-Édouard. L’Entente de 1965 sur
+            le bien-être des Indiens (développée en 1965), quant à elle, est applicable en Ontario
+            (Affaires indiennes et du Nord canadien, 2012a). Les évaluations menées par le Bureau du
+            vérificateur général du Canada (Vérificateur général du Canada, 2008 et 2011) ont
+            démontré que les trois régimes en question étaient biaisés et inéquitables, ce qui
+            rejoint les résultats d’études conduites auparavant par le Ministère (Commission royale
+            sur les peuples autochtones, 1996 ; MacDonald et Ladd, 2000 ; Loxley <marquage typemarq="italique">et al.</marquage>, 2005) et ceux d’une évaluation menée par le Comité des Nations Unies sur
+            les droits de l’enfant,2003). Le rapport déposé par le témoin expert du gouvernement
+            fédéral et préparé par KPMG LLP (KPMG LLP, 2010) est encore plus frappant et confirme le
+            déficit quant au financement, avec un écart de 0,25 pour cent par rapport aux résultats
+            obtenus dans un rapport conjoint réalisé en 2005 par le gouvernement fédéral et
+            l’Assemblée des Premières Nations (Loxley <marquage typemarq="italique">et al.</marquage>, 2005).</alinea>
+            </para>
+            <para id="pa10">
+               <no>10</no>
+               <alinea>En plus de ces études globales, une preuve a été présentée pour chaque
+            régime de financement. Le gouvernement fédéral a développé la Directive 20-1 en 1989
+            (Affaires indiennes et du Nord canadien, 1995) et, bien qu’il ait élargi au fil des
+            années l’éventail de services couverts par la formule, le financement n’a pas été
+            augmenté en conséquence. En réalité, la formule de financement a été ajustée à la baisse
+            puisque le gouvernement fédéral a décidé unilatéralement de cesser d’ajuster les
+            montants de façon à refléter l’augmentation du coût de la vie, ce qui a résulté en une
+            baisse de 21 pour cent du pouvoir d’achat des organismes entre 1999 et 2005 (Loxley <marquage typemarq="italique">et al.</marquage>, 2005). L’étude de la Directive 20-1 par le gouvernement
+            fédéral révèle que l’allocation pour la prévention, qui a pour objectif de garder les
+            enfants en sécurité dans leur foyer, est particulièrement inadéquate (MacDonald et Ladd,
+            2000 ; Loxley <marquage typemarq="italique">et al.</marquage>, 2005) et n’a pas augmenté depuis 24 ans,
+            contribuant ainsi à une augmentation du taux de placement en famille d’accueil. Cet
+            extrait d’une fiche publiée sur le site Web du ministère des Affaires indiennes en 2007
+            résume le point de vue du ministère quant à la Directive 20-1 :</alinea>
+            </para>
+            <bloccitation>
+               <alinea>Changement de décor : Les Provinces et les Territoires
+            ont introduit de nouvelles approches législatives relativement à la protection de
+            l’enfance ainsi qu’un continuum de services plus large que les organismes de services à
+            l’enfance et à la famille des Premières Nations doivent dispenser afin de conserver leur
+            mandat provincial à titre de fournisseurs de services. Néanmoins, le mode de financement
+            présentement employé par le fédéral ne permet pas aux organismes de services à l’enfance
+            et à la famille des Premières Nations de s’adapter aux changements législatifs
+            provinciaux et territoriaux. Par conséquent, ces organismes sont incapables de fournir
+            des services comparables à ceux offerts aux autres Canadiens et Canadiennes. Un
+            changement fondamental d’approche en matière de financement des organismes de services à
+            l’enfance et à la famille des Premières Nations est nécessaire afin que les organismes
+            puissent satisfaire à leurs obligations, permettant ainsi de renverser la tendance et de
+            faire diminuer le nombre croissant d’enfants pris en charge (Ministère des Affaires
+            indiennes et du Nord canadien, 2006 [nous traduisons].</alinea>
+            </bloccitation>
+            <para id="pa11">
+               <no>11</no>
+               <alinea>Malgré l’impact négatif évident de la Directive 20-1, le ministère
+            continue d’appliquer cette formule de financement inadéquate et biaisée en
+            Colombie-Britannique, à Terre-Neuve-et-Labrador, au Nouveau-Brunswick ainsi qu’au Yukon.
+            Le Comité permanent des comptes publics s’est indigné à ce sujet en 2009 :</alinea>
+            </para>
+            <bloccitation>
+               <alinea>Parce que le Ministère continue d’utiliser une formule
+            de financement boiteuse, les organismes des Premières Nations offrant des services à
+            l’enfance et à la famille sont souvent sous-financés, et les enfants des Premières
+            Nations de même que leurs familles ne reçoivent pas les services dont ils ont besoin. Au
+            contraire, les enfants des Premières Nations sont plus susceptibles d’être pris en
+            charge et de le rester, et leurs familles n’ont pas accès à tout l’éventail des services
+            de soutien qui les aideraient à offrir un milieu de vie sûr à leurs enfants. Cette
+            situation est intenable (Comité permanent des comptes publics, 2009 : 15).</alinea>
+            </bloccitation>
+            <para id="pa12">
+               <no>12</no>
+               <alinea>En réponse aux arguments relatifs à la discrimination, le gouvernement
+            fédéral se contente de citer l’Approche améliorée axée sur la prévention (AAAP)
+            développée en 2006 et initialement mise en œuvre en 2007 en Alberta. Aujourd’hui, ce
+            régime est également appliqué en Saskatchewan, au Manitoba, au Québec ainsi qu’à
+            l’Île-du-Prince-Édouard. L’AAAP est une version modifiée de la Directive 20-1 (Affaires
+            autochtones et Développement du Nord Canada, 2012a) qui, bien qu’elle augmente le niveau
+            de financement préventif, incorpore néanmoins plusieurs hypothèses erronées de la
+            Directive 20-1 et ne tient pas compte de façon adéquate des besoins des enfants et des
+            familles concernés (Vérificateur général du Canada, 2008 et 2011).</alinea>
+            </para>
+            <para id="pa13">
+               <no>13</no>
+               <alinea>La preuve présentée par les témoins du gouvernement fédéral révèle des
+            lacunes significatives dans l’AAAP. Par exemple, des services essentiels tels que la
+            réception et l’examen des signalements ainsi que les frais légaux associés aux services
+            ne sont pas inclus dans la formule de financement. Des exigences de base – par exemple,
+            s’assurer que les organismes de services à l’enfance et à la famille des Premières
+            Nations puissent se conformer aux standards de construction et d’accessibilité – sont
+            négligées, et il n’existe aucun ajustement permettant de pallier l’inflation (Commission
+            canadienne des droits de la personne, 2014).</alinea>
+            </para>
+            <para id="pa14">
+               <no>14</no>
+               <alinea>Une présentation interne préparée pour le sous-ministre adjoint en 2012
+            indique qu’un montant additionnel de 43,1 millions de dollars serait nécessaire afin
+            d’amener l’AAAP à un niveau raisonnablement comparable, c’est-à-dire afin </alinea>
+            </para>
+            <bloccitation>
+               <alinea>[…] d’assurer que les organismes soient en mesure
+            d’atteindre les standards provinciaux tout en maintenant la programmation relative à la
+            prévention à un niveau élevé (Évaluation AAAP des recommandations de la Nouvelle-Écosse
+            et de la Saskatchewan, 2012) et que le financement demeure <marquage typemarq="souligne">raisonnablement comparable</marquage> à celui offert par les provinces (Affaires autochtones
+            et Développement du Nord Canada, 2012b : 16) [nous traduisons].</alinea>
+            </bloccitation>
+            <para id="pa15">
+               <no>15</no>
+               <alinea>Bien que le gouvernement fédéral estime que l’AAAP constitue la
+            solution aux problèmes de la Directive 20-1, il n’a fourni de financement à aucune
+            nouvelle région relativement à l’AAAP depuis 2010.</alinea>
+            </para>
+            <para id="pa16">
+               <no>16</no>
+               <alinea>Le dernier régime de financement offert aux organismes de services à
+            l’enfance et à la famille des Premières Nations est celui qui s’applique en Ontario.
+            Développée en 1965, l’Entente sur le bien-être des Indiens (aussi connue sous le nom
+            d’Entente de 1965) est un accord bilatéral entre le gouvernement fédéral et la province
+            de l’Ontario. Les Premières Nations n’ont pas été impliquées dans les négociations et ne
+            sont pas signataires de l’entente originale ni de ses amendements subséquents. L’Entente
+            de 1965 est un mécanisme en vertu duquel le gouvernement fédéral rembourse au
+            gouvernement ontarien approximativement 93 pour cent des dépenses engagées par celui-ci
+            dans une vaste gamme de services sociaux dispensés dans les réserves, incluant les
+            services de protection de l’enfance. Le gouvernement fédéral n’a jamais révisé l’Entente
+            de 1965 afin de s’assurer qu’elle se traduise en des services équitables et
+            culturellement adaptés aux besoins des enfants et des familles des Premières Nations. Le
+            vérificateur général du Canada a jugé à deux reprises (2008, 2011) que la formule était
+            inéquitable et ne respectait pas les besoins des enfants. La preuve déposée devant le
+            Tribunal révèle que l’annexe du document relativement à la protection de l’enfance
+            réfère à la version de 1978 de l’Entente, laquelle n’a pas été mise à jour de façon à
+            refléter les services actuellement exigés par la loi (<marquage typemarq="italique">Loi sur les
+            </marquage>
+                  <marquage typemarq="italique">services à l'enfance et à la famille</marquage>, 1990). Cela
+            signifie que les dispositions exigeant que des représentants des bandes participent à la
+            prise de décision en matière de protection de l’enfance n’étaient financées ni par le
+            gouvernement fédéral ni par la province. Le témoignage des fonctionnaires fédéraux a
+            révélé des lacunes quant aux services de prévention en Ontario ; un nombre important de
+            communautés du sud de l’Ontario ne reçoivent aucun service de prévention (Commission
+            canadienne sur les droits de la personne, 2014).</alinea>
+            </para>
+            <para id="pa17">
+               <no>17</no>
+               <alinea>Le gouvernement canadien subventionne les provinces ainsi que diverses
+            sociétés non autochtones d’aide à l’enfance afin qu’elles offrent leurs services sur les
+            réserves non desservies par un organisme de protection de l’enfance des Premières
+            Nations. Cette situation survient dans la majorité des cas au Yukon, en
+            Colombie-Britannique, en Alberta et au Québec ; dans chaque cas, le gouvernement fédéral
+            fournit un appui financier plus important ainsi qu’une marge de flexibilité plus grande
+            aux organismes non autochtones, lesquels ne sont pas soumis aux mêmes contrôles que les
+            organismes sur les réserves. Toutefois, la preuve présentée concernant la province de la
+            Colombie-Britannique et un centre jeunesse québécois démontre que, même lorsqu’un appui
+            plus significatif est offert, le financement accordé ne suffit pas à pallier les besoins
+            (Commission canadienne des droits de la personne, 2014). Dans sa plaidoirie finale, la
+            Société de soutien à l’enfance et à la famille des Premières Nations du Canada (2014) a
+            affirmé que le financement supérieur octroyé à des fournisseurs de services non
+            autochtones constitue un incitatif à offrir des services et des soins qui ne sont pas
+            culturellement appropriés. Cet élément s’ajoute donc à la preuve démontrant que le
+            financement fédéral est discriminatoire à l’endroit des Premières Nations.</alinea>
+            </para>
+            <para id="pa18">
+               <no>18</no>
+               <alinea>Des éléments de preuve additionnels ressortent des présentations d’AINC
+            (2013). Ces dernières démontrent qu’AINC réaffecte plus d’un demi-milliard de dollars
+            afin d’assurer un financement minimal pour une foule de programmes destinés aux
+            Premières Nations, incluant ceux relatifs à la protection de l’enfance. Comme l’énonce
+            l’une des présentations :</alinea>
+            </para>
+            <bloccitation>
+               <alinea>Des sommes significatives réservées aux
+            infrastructures ont été affectées à d'autres programmes au cours des six dernières
+            années. Par exemple, AADNC a réaffecté près de 505 millions de dollars dans des
+            programmes d'éducation, des programmes d'aide sociale et d’autres services afin de
+            combler les lacunes dans ces secteurs. Puisque les infrastructures n’étaient pas en
+            mesure de couvrir l’ensemble des besoins sociaux et économiques annuels, d’autres
+            ressources internes ont été utilisées afin de combler les lacunes restantes. Cette
+            réaffectation continue met beaucoup de pression sur une infrastructure déjà fragile et
+            ne suffit pas à combler les besoins des programmes sociaux et éducatifs (AINC, 2013 : 6)
+            [nous traduisons].</alinea>
+            </bloccitation>
+            <para id="pa19">
+               <no>19</no>
+               <alinea>Si ces réaffectations temporaires font diminuer temporairement la
+            pression budgétaire, à long terme elles risquent d’aggraver les principaux facteurs qui
+            contribuent à la surreprésentation des enfants des Premières Nations au sein du système
+            de protection de l’enfance, soit le manque de logements et l’inefficacité des programmes
+            de lutte à la pauvreté (Trocmé <marquage typemarq="italique">et al.</marquage>, 2006).</alinea>
+            </para>
+            <para id="pa20">
+               <no>20</no>
+               <alinea>Il est vrai que le budget des services à l’enfance et à
+            la famille des Premières Nations a augmenté au cours des 14 dernières années. Toutefois,
+            comme le montre la présentation de 2013 d’AINC (laquelle est disponible sur le site
+            Internet d’AINC en date de mai 2015), ces sommes additionnelles étaient largement
+            attribuables aux enfants placés en foyer d’accueil, et non aux services de prévention. </alinea>
+            </para>
+            <bloccitation>
+               <alinea>Cette augmentation du financement découle
+            principalement du fait que les frais de maintenance (frais relatifs aux enfants placés
+            en foyer d’accueil) par enfant ont plus que doublé depuis 1999. Cette augmentation
+            découle de : (1) l’augmentation des coûts facturés par les provinces ; (2) une
+            augmentation des coûts pour les enfants ayant des besoins spéciaux, lesquels sont en
+            nombre grandissant ; et (3) une plus grande dépendance des organismes envers les soins
+            en établissement (Affaires indiennes et du Nord canadien, 2013) [nous traduisons].</alinea>
+            </bloccitation>
+            <para id="pa21">
+               <no>21</no>
+               <alinea>La même présentation montre par ailleurs une augmentation relativement
+            minime du pourcentage de financement accordé aux provinces où l’AAAP s’applique et
+            confirme qu’aucun financement additionnel n’a été attribué pour compenser la
+            discrimination dont sont victimes les enfants des Premières Nations et leurs familles en
+            Colombie-Britannique, au Nouveau-Brunswick, à Terre-Neuve-et-Labrador ainsi qu’au
+            Yukon.</alinea>
+            </para>
+            <para id="pa22">
+               <no>22</no>
+               <alinea>Il importe de souligner que le gouvernement fédéral n’a soumis aucune
+            preuve affirmant que ces documents et les points de vue exprimés par ses employés sont
+            erronés<marquage typemarq="italique">.</marquage>
+               </alinea>
+            </para>
+         </section2>
+         <section2 id="s2n2">
+            <no>4.2</no>
+            <titre>La mise en œuvre déficiente du principe de
+            Jordan</titre>
+            <para id="pa23">
+               <no>23</no>
+               <alinea>La plainte de la Société de soutien et de l’APN allègue en outre que la
+            mise en œuvre déficiente du principe de Jordan constitue une forme de discrimination
+            prohibée par la LCDP. Le principe de Jordan veut que, dans les conflits de compétence,
+            on accorde la priorité aux intérêts et aux besoins des enfants. Ce principe a été nommé
+            en mémoire de Jordan River Anderson, un enfant de la nation crie de Norway House, au
+            Manitoba. Le garçon, né dans un hôpital à Winnipeg en raison de complications durant la
+            grossesse, avait des besoins médicaux complexes ; à l’âge de deux ans, il a reçu
+            l’autorisation de son équipe médicale de quitter l’hôpital. Cependant, Jordan n’a pas pu
+            rentrer chez lui, car la province du Manitoba et le gouvernement fédéral se renvoyaient
+            mutuellement la balle quant au paiement des soins à domicile du garçon, alors que les
+            autres Canadiens tiennent de tels soins pour acquis. Jordan est décédé à l'hôpital à
+            l'âge de cinq ans et n’a jamais passé une seule journée dans son foyer familial (Société
+            de soutien, 2014 : 146). Selon le principe de Jordan, le gouvernement qui a été contacté
+            en premier lieu doit payer pour les services et demander un remboursement plus tard,
+            afin que l'enfant ne soit pas coincé tragiquement entre deux bureaucraties qui
+            s’affrontent (Société de soutien, 2014 : 146).</alinea>
+            </para>
+            <para id="pa24">
+               <no>24</no>
+               <alinea>Selon la preuve, les litiges sont fréquents entre les gouvernements
+            fédéral et provinciaux concernant les paiements pour les services aux enfants des
+            Premières Nations. Les enfants autochtones doivent souvent attendre pour recevoir des
+            services dont ils ont besoin ; il arrive aussi qu’ils se voient refuser des services qui
+            sont offerts aux autres enfants. Par exemple, selon un témoin, des travailleuses
+            sociales en Saskatchewan ont dû faire une campagne de financement afin d’acheter un
+            fauteuil roulant à un enfant, après qu’AINC eut refusé de payer. De même, un enfant
+            souffrant de difficultés respiratoires a dû attendre 16 mois pour obtenir le lit
+            nécessaire en raison de sa condition médicale (Société de soutien, 2014 : 150).</alinea>
+            </para>
+         </section2>
+      </section1>
+      <section1 id="s1n5">
+         <no>5</no>
+         <titre>La campagne Je suis un témoin (<liensimple xlink:href="http://www.fnwitness.ca/" xlink:type="simple">
+               <marquage typemarq="gras">www.fnwitness.ca</marquage>
+            </liensimple>)</titre>
+         <para id="pa25">
+            <no>25</no>
+            <alinea>La Société de soutien croit que cette cause est un bon exemple de la
+          discrimination dont sont victimes les enfants et les familles des Premières Nations eu
+          égard à d’autres programmes financés par le gouvernement fédéral, notamment en matière
+          d’éducation, de santé, de logement et d’accès à l’eau potable (Société de soutien, 2015).
+          Puisque la décision dans cette affaire pouvait servir de précédent, en 2008, la Société de
+          soutien a mis sur pied une campagne d’éducation publique, nommée « Je suis un témoin ». Il
+          s’agit d’une ressource éducative disponible sur Internet qui publie régulièrement les
+          arguments juridiques présentés par les parties et des rapports indépendants tels que ceux
+          du vérificateur général du Canada (2008 et 2011), et qui invite la population et les
+          organisations à s’enregistrer comme témoins. Il ne s’agit pas d’un appel à prendre parti
+          d’un côté ou de l’autre, mais plutôt d’une invitation lancée au public à jeter un regard
+          critique sur la preuve soumise et à déterminer par lui-même si les Premières Nations sont
+          traitées équitablement. </alinea>
+         </para>
+         <para id="pa26">
+            <no>26</no>
+            <alinea>L’objectif de la campagne a été mis en lumière lorsque la Cour fédérale a
+          permis, en dépit des objections du gouvernement fédéral, la diffusion des audiences du
+          Tribunal par le Réseau de télévision des peuples autochtones (APTN) (<marquage typemarq="italique">Réseau de télévision des peuples autochtones c. Commission canadienne des droits de la
+          personne</marquage>, 2011). Cette décision a permis au public de visionner l’ensemble des
+          témoignages, les déclarations d’ouverture et les plaidoiries finales. L’enregistrement est
+          archivé sur le site Internet Je suis un témoin, qui offre ainsi une excellente ressource
+          éducative et historique. </alinea>
+         </para>
+         <para id="pa27">
+            <no>27</no>
+            <alinea>Le site Internet Je suis un témoin et la diffusion des audiences par APTN
+          ont permis aux enfants des Premières Nations et à leurs familles à travers le Canada de
+          participer à cette décision qui aura un impact direct sur leur vie. Grâce à la campagne,
+          les Canadiens non autochtones ont également pu en apprendre davantage sur la situation des
+          enfants et des familles des Premières Nations. Les enfants et les adolescents ont été des
+          témoins particulièrement actifs et ont quotidiennement assisté aux audiences et rédigé
+          leurs réflexions sur celles-ci. </alinea>
+         </para>
+         <para id="pa28">
+            <no>28</no>
+            <alinea>Près de 14 000 individus et organisations sont inscrits à titre de
+          témoins en date de mai 2015, et plusieurs personnes ont accepté l’invitation à assister
+          aux audiences, faisant de cette affaire le procès le plus suivi dans l’histoire du Canada
+          en matière de droits de la personne. </alinea>
+         </para>
+      </section1>
+      <section1 id="s1n6">
+         <no>6</no>
+         <titre>La décision du Tribunal</titre>
+         <para id="pa29">
+            <no>29</no>
+            <alinea>Le Tribunal canadien des droits de la personne a rendu sa décision le 26
+          janvier 2016. Sur le fond, il a donné entièrement raison aux plaignants, et il a accepté
+          la preuve analysée plus haut. Il a jugé que les trois régimes de financement étaient
+          discriminatoires puisque le financement qui en découlait ne permettait pas aux agences des
+          Premières Nations d’offrir des services qui répondent aux besoins ni, à plus forte raison,
+          de fournir des services culturellement adaptés. De plus, il a reconnu que les formules de
+          financement ont pour effet d’inciter les agences des Premières Nations à placer les
+          enfants autochtones dans des foyers d’accueil, puisque le gouvernement fédéral rembourse
+          alors toutes les dépenses. Le fait de ne pas ajuster les niveaux de financement en
+          fonction de l’augmentation du coût de la vie est également discriminatoire. Enfin, le
+          manque de coordination entre les différents ministères fédéraux, combiné à une définition
+          étroite et à une mise en œuvre déficiente du principe de Jordan, conduit aussi à des refus
+          de service ou à des délais qui constituent une forme de discrimination.</alinea>
+         </para>
+         <para id="pa30">
+            <no>30</no>
+            <alinea>Le Tribunal a également rejeté les arguments juridiques présentés par le
+          gouvernement fédéral pour tenter d’éviter une condamnation. Ces arguments étaient
+          principalement de deux ordres : (i) le gouvernement fédéral ne fournit pas de services
+          visés par la LCDP (la question des « services »); et (ii) pour appliquer la LCDP, il n’est
+          pas permis de comparer un service offert par le gouvernement fédéral avec un service
+          offert par les provinces (la question de la « comparaison »). Ces arguments étaient fondés
+          sur une interprétation technique et étroite de la LCDP.</alinea>
+         </para>
+         <para id="pa31">
+            <no>31</no>
+            <alinea>Par rapport à la question des « services », le gouvernement fédéral
+          prétendait que le financement qu’il offre en matière de services à l’enfance et à la
+          famille n’est pas assujetti à la LCDP. En effet, comme dans bien d’autres domaines, il ne
+          fournit pas directement ces services aux membres des Premières Nations ; il se contente de
+          financer d’autres organismes pour que ceux-ci offrent le service. Cependant, comme l’a
+          noté le Tribunal, le gouvernement fédéral fournit tout de même une aide ou un bénéfice
+          concret aux individus par le biais du financement qu’il accorde. De plus, les conditions
+          auxquelles le financement est accordé déterminent directement la manière dont le service
+          est offert aux individus. Bref, AADNC conserve un degré de contrôle important sur la
+          manière dont les services à l’enfance et à la famille sont offerts aux Premières Nations,
+          même s’il ne livre pas lui-même ces services. </alinea>
+         </para>
+         <para id="pa32">
+            <no>32</no>
+            <alinea>Pour la question de la « comparaison », le Tribunal s’est principalement
+          fondé sur les décisions de la Cour fédérale et de la Cour d’appel fédérale, qui avaient
+          rejeté les requêtes du gouvernement fédéral visant à faire avorter la cause au stade
+          préliminaire. Ces décisions soulignaient que, pour faire la preuve d’une discrimination,
+          il n’est pas toujours nécessaire de se fonder sur une comparaison. En particulier, puisque
+          les peuples autochtones relèvent de la compétence fédérale et que bien des services
+          offerts aux Premières Nations par le gouvernement fédéral sont offerts aux autres citoyens
+          par les provinces, accepter l’argument du gouvernement fédéral aurait permis à celui-ci de
+          discriminer impunément les Autochtones. De plus, il était ironique que le gouvernement
+          soulève cet argument, alors qu’il s’était lui-même fixé l’objectif de fournir des services
+          à l’enfance et à la famille qui soient « raisonnablement comparables » à ceux qui sont
+          offerts par les provinces. De toute manière, le Tribunal a noté que de nombreux éléments
+          de preuve permettaient d’établir des comparaisons entre les niveaux du financement octroyé
+          par le gouvernement fédéral et par les provinces.</alinea>
+         </para>
+      </section1>
+      <section1 id="s1n7">
+         <no>7</no>
+         <titre>Les suites de la décision</titre>
+         <para id="pa33">
+            <no>33</no>
+            <alinea>Une fois la décision rendue, le gouvernement fédéral a indiqué, après un
+          long mois de silence, qu’il ne porterait pas l’affaire en appel. Cependant, le Tribunal a
+          réservé sa décision quant aux ordonnances précises demandées par les plaignants, afin
+          d’obtenir plus d’information à ce sujet. Au moment d’écrire ces lignes, le Tribunal n’a
+          pas encore rendu ses ordonnances. Il peut toutefois être utile d’examiner le type
+          d’ordonnances qui sont susceptibles d’être rendues.</alinea>
+         </para>
+         <para id="pa34">
+            <no>34</no>
+            <alinea>Premièrement, le Tribunal pourrait chercher à dédommager les enfants des
+          Premières Nations qui ont été victimes de discrimination. Cette conclusion serait conforme
+          au souhait exprimé par la Société de soutien à l’effet qu’une fiducie indépendante soit
+          créée par le gouvernement du Canada au bénéfice des enfants des Premières Nations pour les
+          souffrances découlant de la discrimination (Société de soutien, 2014 : 200). Plus
+          particulièrement, la Société de soutien affirme que le gouvernement du Canada devrait
+          verser, en raison de sa conduite discriminatoire et téméraire, une somme de 20 000 dollars
+          à chaque enfant des Premières Nations qui a été pris en charge par le système depuis
+          février 2006, jusqu’à la date du jugement final (Société de soutien, 2014 : 200). S’il est
+          difficile d’imaginer une façon réellement adéquate de dédommager les enfants des Premières
+          Nations pour les conséquences dévastatrices à long terme qu’a eues sur eux un système de
+          protection de l’enfance discriminatoire, l’objectif de la fiducie réclamée par la Société
+          de soutien est de leur permettre d’avoir accès à des services tels que des programmes
+          linguistiques et culturels, des programmes de réunification familiale, des services
+          d’orientation, des programmes de santé et bien-être et des programmes éducatifs (Société
+          de soutien, 2014 : 200).</alinea>
+         </para>
+         <para id="pa35">
+            <no>35</no>
+            <alinea>Deuxièmement, le Tribunal pourrait ordonner l’arrêt immédiat de toute
+          discrimination. Cela pourrait inclure une ordonnance obligeant le gouvernement du Canada à
+          injecter immédiatement des fonds additionnels pour pallier le sous-financement identifié
+          par le Tribunal. Ces fonds viseraient à combler sans attendre certaines lacunes bien
+          connues des formules de financement. La Société de soutien demande également la mise en
+          application du principe de Jordan à tout conflit entre les divers ministères fédéraux
+          (Société de soutien, 2014 : 206). Ceci marquerait un premier pas vers l’atteinte d’une
+          égalité réelle pour les enfants des Premières Nations et leurs familles dans le contexte
+          des services de protection de l’enfance. </alinea>
+         </para>
+         <para id="pa36">
+            <no>36</no>
+            <alinea>Troisièmement, la Société de soutien demande un vaste
+          éventail de réparations d’intérêt public, dont l’établissement d’un processus de
+          consultation publique qui assureraient une solution durable et culturellement appropriée,
+          basée sur les besoins réels des enfants et des familles et sur les connaissances des
+          experts qui travaillent avec eux. Ceci inclut la création et le financement d’un comité
+          national consultatif composé d’employés du siège social d’AINCC et des bureaux régionaux
+          d’AINC, des plaignants et de représentants des organismes régionaux offrant des services
+          aux enfants des Premières Nations et à leurs familles. Ce comité examinerait et émettrait
+          des recommandations en plus de surveiller la mise en œuvre d’une formule de financement
+          non discriminatoire et culturellement appropriée qui prendrait en considération les
+          besoins de chaque enfant (Société de soutien, 2014 : 209). La Société de soutien demande
+          aussi la mise en place d’un programme de formation pour les employés d’AADNC qui les
+          instruirait sur la culture autochtone et sur le travail social auprès des Premières
+          Nations (Société de soutien, 2014 : 187). Finalement, elle réclame la diffusion publique
+          de toute information ou politique concernant le service de protection de l’enfance des
+          Premières Nations (Société de soutien, 2014 : 188) afin de prévenir toute forme de
+          discrimination.</alinea>
+         </para>
+         <para id="pa37">
+            <no>37</no>
+            <alinea>Il est important de noter que plusieurs des réparations demandées par les
+          plaignants reflètent les recommandations relatives à la protection de l’enfance émises par
+          la Commission de vérité et réconciliation (Commission de vérité et réconciliation, 2015 :
+          1-2). Ainsi, la mise en œuvre de ces réparations pourrait aussi faire progresser le
+          processus de réconciliation prôné par la Commission. En l’absence d’une volonté politique
+          ou d’une obligation éthique d’agir, le gouvernement du Canada pourrait bien être forcé
+          légalement par le Tribunal de prendre des mesures. </alinea>
+         </para>
+      </section1>
+      <section1 id="s1n8">
+         <no>8</no>
+         <titre>Implications en matière de droits de la
+          personne</titre>
+         <para id="pa38">
+            <no>38</no>
+            <alinea>La décision rendue par le Tribunal a des répercussions considérables
+          au-delà du domaine de la protection de l’enfance. Premièrement, en affirmant que le
+          programme de services à l’enfance et à la famille du gouvernement fédéral constitue un
+          « service » en vertu de la LCDP, le Tribunal établit un précédent qui pourrait s’appliquer
+          à tous les programmes et services dispensés par le gouvernement fédéral à l’intention des
+          Premières Nations, même si ces services sont fournis par le biais d’un tiers ou par un
+          autre type d’arrangement. Ce précédent serait particulièrement important pour les membres
+          des Premières Nations vivant sur les réserves, puisque de nombreux services essentiels
+          (tels que les services de santé, la police et les programmes d’aide à la vie autonome)
+          sont financés par le gouvernement du Canada mais livrés par des intermédiaires (<marquage typemarq="italique">Pictou Landing Band Council c. Canada (Procureur général), </marquage>2013). Le
+          sous-financement de ces services pourrait donc constituer une forme de discrimination
+          prohibée par la LCDP. D’ailleurs, des poursuites concernant certains de ces services ont
+          déjà été engagées devant le Tribunal. </alinea>
+         </para>
+         <para id="pa39">
+            <no>39</no>
+            <alinea>Deuxièmement, la reconnaissance du droit à l’égalité des membres des
+          Premières Nations malgré la structure constitutionnelle du Canada est véritablement
+          révolutionnaire. En effet, l’argument de la « comparaison » avancé par le gouvernement
+          fédéral avait pour conséquence de priver les Autochtones de la possibilité de comparer les
+          services qu’ils reçoivent à ceux que les provinces offrent aux autres citoyens. Le rejet
+          de cet argument permet aux tribunaux de se saisir de contestations fondées sur le
+          caractère inadéquat des services fournis par le gouvernement fédéral aux Premières
+          Nations. Cela empêchera également le gouvernement fédéral de rejeter des allégations de
+          discrimination, notamment dans des forums internationaux, en prétextant que la structure
+          constitutionnelle du Canada rend toute comparaison impossible (Amnistie internationale,
+          2013) ; un principe international en matière de droits de la personne établit qu’une
+          division constitutionnelle des pouvoirs ne peut justifier une violation des droits de la
+          personne (Hogg, 2007 : 11.2). Les membres des Premières Nations sont donc en droit de
+          réclamer des services comparables à ceux offerts aux autres Canadiens. </alinea>
+         </para>
+         <para id="pa40">
+            <no>40</no>
+            <alinea>Le rejet de l’argument relatif au « groupe de comparaison » marque
+          également un progrès significatif dans la jurisprudence canadienne en matière de droits de
+          la personne, puisqu’il montre que les tribunaux peuvent être flexibles dans l’application
+          des précédents afin de considérer les nuances et les subtilités des expériences de vie
+          ainsi que la situation sociale des plaignants. Pour les membres des Premières Nations du
+          Canada, cela signifie qu’ils ont droit à une égalité réelle, sans égard au casse-tête
+          constitutionnel dans lequel ils sont plongés malgré eux. La décision du Tribunal impose
+          l’obligation d’assurer l’égalité réelle dans toutes les sphères de services
+          gouvernementaux disponibles sur les réserves et rend le système canadien des droits de la
+          personne réellement accessible aux membres des Premières Nations.</alinea>
+         </para>
+      </section1>
+      <section1 id="s1n9">
+         <no>9</no>
+         <titre>Conclusion</titre>
+         <para id="pa41">
+            <no>41</no>
+            <alinea>L’objectif du programme fédéral de services à l’enfance et à la famille
+          des Premières Nations est de fournir des services qui soient comparables à ceux offerts
+          aux autres enfants canadiens et qui soient culturellement appropriés aux enfants des
+          Premières Nations. Le but du principe de Jordan est d’assurer que tous les enfants, y
+          compris les enfants des Premières Nations, aient un accès juste et égal aux services. Le
+          fondement même de notre démocratie constitutionnelle repose sur ces deux objectifs, qui
+          reflètent un engagement à atteindre l’égalité réelle. La décision du Tribunal montre
+          cependant que le gouvernement du Canada a failli à sa tâche d’étendre ces protections
+          fondamentales et essentielles aux enfants des Premières Nations. Au contraire, il a
+          facilité la mise en place d’un programme inéquitable qui a échoué à mettre en application
+          le principe de Jordan. Cela a eu et continue d’avoir des conséquences dévastatrices sur
+          plus de 163 000 enfants des Premières Nations à travers le Canada. Les plaignants ont
+          désormais mis au jour ces réalités et le Tribunal devra déterminer de quelle façon il
+          redressera les inégalités. À travers la campagne Je suis un témoin, des dizaines de
+          milliers de personnes dans le monde ont suivi attentivement cette cause grâce aux mesures
+          exceptionnelles accordées par le Tribunal afin de rendre l’audience accessible. </alinea>
+         </para>
+         <para id="pa42">
+            <no>42</no>
+            <alinea>Cette affaire est sans précédent : le traitement des enfants des
+          Premières Nations par le gouvernement du Canada a été mis sous la loupe et, à la lumière
+          de la preuve abondante présentée par les plaignants, le Tribunal a conclu que les enfants
+          des Premières Nations n’étaient pas traités de manière juste et équitable. Cette décision
+          pourrait bien marquer un point tournant dans le traitement des membres des Premières
+          Nations par le gouvernement du Canada. Plus particulièrement, le Tribunal pourrait rendre
+          une ordonnance forçant le gouvernement fédéral à développer un nouveau mode de financement
+          pour les services de protection de l’enfance en collaboration avec les Premières Nations,
+          qui sont les experts lorsqu’il est question de la protection de leurs enfants et des soins
+          à leur fournir. Bien que plusieurs étapes restent à franchir, la Société de soutien espère
+          que cette décision mènera à la création et à la mise en place de services de protection de
+          l’enfance équitables, non discriminatoires, culturellement appropriés et axés sur besoins
+          des enfants et de leur famille, rendant ainsi la réconciliation possible pour les
+          générations futures. </alinea>
+         </para>
+      </section1>
+   </corps>
+   <partiesann lang="fr">
+      <grbiblio>
+         <biblio>
+            <refbiblio id="rb1">Affaires indiennes et du Nord canadien. 1995.
+            <marquage typemarq="italique">Corporate Manuals System</marquage>, Ottawa, Ministère des Affaires indiennes et du Nord canadien </refbiblio>
+            <refbiblio id="rb2">Affaires indiennes et du Nord canadien. 2005.
+            <marquage typemarq="italique">First Nations Child and Family Services:
+            National Program Manual</marquage>, Ottawa, Ministère des
+            Affaires indiennes et du Nord canadien.</refbiblio>
+            <refbiblio id="rb3">Affaires indiennes et du Nord canadien, 2006. « Fact Sheet – First
+            nations Child and Family Services » Pièce no 38 présentée au
+            Tribunal des droits de la personne sous T-1340/7008.</refbiblio>
+            <refbiblio id="rb4">Affaires indiennes et du Nord canadien. 2012a. <marquage typemarq="italique">Manuel des programmes sociaux,</marquage> Ottawa, Affaires autochtones et Développement du
+            Nord Canada.</refbiblio>
+            <refbiblio id="rb5">Affaires indiennes et du Nord Canada. 2012b. « The Way Forward ».
+            Pièce no 143 présentée au Tribunal des droits de la personne
+            sous T-1340/7008.</refbiblio>
+            <refbiblio id="rb6">Affaires indiennes et du Nord canadien. 2013.
+            « Cost Drivers and Pressures: The Case for New Escalators ».<marquage typemarq="italique"/>Pièce no 413 présentée au Tribunal des
+            droits de la personne sous T-1340-7008.</refbiblio>
+            <refbiblio id="rb7">Amnistie internationale. 2013. <marquage typemarq="italique">Empty Words and Double Standards: Canada’s Failure to
+            Respect and Uphold International Human Rights</marquage>. <liensimple xlink:href="http://www.amnesty.ca/sites/default/files/upr16_ngo_coalition_submission_for_the_upr_of_canada_october_2012_eng.pdf" xlink:type="simple">http://www.amnesty.ca/sites/default/files/upr16_ngo_coalition_submission_for_the_upr_of_canada_october_2012_eng.pdf</liensimple>.</refbiblio>
+            <refbiblio id="rb8">Blackstock, C. 2011. « The Canadian Human Rights
+            Tribunal on First Nations Child Welfare: Why if Canada Wins, <marquage typemarq="italique">Children and Youth Services Review</marquage>
+            (2010)</refbiblio>
+            <refbiblio id="rb9">
+               <marquage typemarq="italique">Canada (Commission canadienne des droits de la
+            personne) c. Canada (Procureur général)</marquage>, 2012 CF 445 (CanLII).</refbiblio>
+            <refbiblio id="rb10">
+               <marquage typemarq="italique">Canada (Procureur général) c. Commission
+            canadienne des droits de la personne</marquage>, 2013 CAF 75 (CanLII).</refbiblio>
+            <refbiblio id="rb11">
+               <marquage typemarq="italique">Canada (Procureur général) c. Société de soutien
+            à l’enfance et à la famille des Premières Nations du Canada</marquage>, 2010 CF 343
+            (CanLII).</refbiblio>
+            <refbiblio id="rb12">
+               <marquage typemarq="italique">Code des droits de la personne</marquage>, L.R.O.
+            1990, ch. H-19.</refbiblio>
+            <refbiblio id="rb13">
+               <marquage typemarq="italique">Code des droits de la
+            personne</marquage>, C.P.L.M. 2013, c. H-175. </refbiblio>
+            <refbiblio id="rb14">Commission canadienne des droits de la personne. 2014). « Closing Submissions of the Canadian Human Rights Commission ». Présenté
+            au Tribunal des droits de la personne sous T-1340/7008.</refbiblio>
+            <refbiblio id="rb15">Comité des Nations Unies sur les droits de l’enfant. 2003. <marquage typemarq="italique">Concluding Observations: Canada</marquage>, Genève, Comité des Nations Unies
+            sur les droits de l’enfant.</refbiblio>
+            <refbiblio id="rb16">Comité permanent des comptes publics. 2009. <marquage typemarq="italique">Rapport du Comité permanent des comptes publics</marquage>, 40e
+            législature, 2e session, Ottawa, Communications Canada.</refbiblio>
+            <refbiblio id="rb17">Commission royale sur les peuples autochtones. 1996. <marquage typemarq="italique">Rapport de la Commission royale sur les peuples autochtones,</marquage>
+            Ottawa, Ministère des Affaires indiennes et du Nord canadien. </refbiblio>
+            <refbiblio id="rb18">Commission de vérité et réconciliation du Canada. 2015. <marquage typemarq="italique">Commission de vérité et réconciliation : appels à l’action</marquage>,
+            Winnipeg. </refbiblio>
+            <refbiblio id="rb19">Hogg, P. 2007 <marquage typemarq="italique">Constitutional Law of Canada</marquage>, 5e édition, Toronto,
+            Carswell.</refbiblio>
+            <refbiblio id="rb20">
+               <marquage typemarq="italique">Hughes c. Élections Canada</marquage>, 2010 TCDP 4
+            (CanLII).</refbiblio>
+            <refbiblio id="rb21">KPMG LLP. 2010. <marquage typemarq="italique">Indian and Northern Affairs Canada: Review of </marquage>Wen:de: The Journey Continues, Ottawa, KMPG LLP.</refbiblio>
+            <refbiblio id="rb22">
+               <marquage typemarq="italique">Loi canadienne sur les droits de la
+            personne</marquage>, L.R.C. 1985, ch. H-6. </refbiblio>
+            <refbiblio id="rb23">
+               <marquage typemarq="italique">Loi sur les services à l'enfance et à la
+            famille</marquage>, L.R.O. 1990, ch. C-11.</refbiblio>
+            <refbiblio id="rb24">
+               <marquage typemarq="italique">Loi sur les Indiens,</marquage> L.R.C. 1985, ch.
+            I-5.</refbiblio>
+            <refbiblio id="rb25">Loxley, J., L. De Riviere, T. Prakash, C.
+            Blackstock, F. Wien et S. Thomas Prokop. 2005. <marquage typemarq="italique">Wen:de: The
+            Journey Continues</marquage>,<marquage typemarq="italique"/>Ottawa, Société de soutien à l’enfance
+            et à la famille des Premières Nations du Canada.</refbiblio>
+            <refbiblio id="rb26">MacDonald, R. et P. Ladd. 2000. <marquage typemarq="italique">The Joint
+            National Policy Review on First Nations Child and Family Services</marquage>, Ottawa,
+            Ministère des Affaires indiennes et du Nord canadien et Assemblée des Premières
+            Nations.</refbiblio>
+            <refbiblio id="rb27">
+               <marquage typemarq="italique">Pictou Landing Band Council c. Canada
+            (Procureur général)</marquage>, 2013 CF 342 (CanLII).</refbiblio>
+            <refbiblio id="rb28">
+               <marquage typemarq="italique">Réseau de télévision des peuples autochtones c.
+            Commission canadienne des droits de la personne</marquage>, 2011 CF 810 (CanLII).</refbiblio>
+            <refbiblio id="rb29">Société de soutien à l’enfance et à la famille des Premières
+            Nations du Canada. 2014. <marquage typemarq="italique">Société de
+            soutien à l’enfance et à la famille des Premières Nations du Canada </marquage>
+               <marquage typemarq="italique">(Société de soutien) : sommaire des arguments
+            finaux du factum</marquage>. <liensimple xlink:href="http://www.fnwitness.ca/" xlink:type="simple">www.fnwitness.ca</liensimple>.</refbiblio>
+            <refbiblio id="rb30">Société de soutien à l’enfance et à la famille des Premières
+            Nations du Canada. 2015. <marquage typemarq="italique">Canada Knows Better and Is Not Doing Better: Submission to the United
+            Nations Committee on Economic, Social and Cultural Rights</marquage>, Ottawa, Société de soutien à l’enfance et à la famille des Premières Nations du
+            Canada.</refbiblio>
+            <refbiblio id="rb31">Tarnopolsky, W.S. 1982.
+            <marquage typemarq="italique">Discrimination and the Law in Canada</marquage>, Toronto, Richard De Boo Limited.</refbiblio>
+            <refbiblio id="rb32">
+               <marquage typemarq="italique">Tranchemontagne c. Ontario (Directeur du
+            Programme ontarien de soutien aux personnes handicapées),</marquage> 2006 1 RCS 513.</refbiblio>
+            <refbiblio id="rb33">Trocmé, N., B. MacLaurin, B. Fallon, D. Knoke, L. Pitman et M.
+            McCormack. 2006. <marquage typemarq="italique">Mesnnmimk
+            Wasatek: Catching a Drop of Light: Understanding the Over-Representation of First
+            Nations Children in Canada’s Child Welfare System: An Analysis of the Canadian Incidence
+            Study of Reported Child Abuse and Neglect (CIS-2003)</marquage>, Ottawa.
+            Société de soutien à l’enfance et à la famille des Premières Nations du Canada.</refbiblio>
+            <refbiblio id="rb34">Vérificateur général du Canada.
+            2008. <marquage typemarq="italique">First Nations Child and Family Services
+            Program, Indian and Northern Affairs Canada, 2008 May: Report of the Auditor General of
+            Canada</marquage>, Ottawa, Bureau du vérificateur général du
+            Canada.</refbiblio>
+            <refbiblio id="rb35">Vérificateur général du Canada. 2011. « First
+            Nations Programs on Reserve » dans <marquage typemarq="italique">Status Report
+            of the Auditor General of Canada. </marquage>Ottawa, Bureau du vérificateur général du
+            Canada.</refbiblio>
+            <refbiblio id="rb36">
+               <marquage typemarq="italique">Zurich Insurance Co. c. Ontario (</marquage>
+               <marquage typemarq="italique">Commission canadienne des droits de la personne</marquage>
+               <marquage typemarq="italique">)</marquage>, 1992 2 RCS 321.</refbiblio>
+         </biblio>
+      </grbiblio>
+      <grnote>
+         <note id="no1">
+            <no>1</no>
+            <alinea>En 2011, en vertu du Programme de
+            coordination de l'image de marque du gouvernement du Canada, le nom du ministère en
+            question a changé de « Affaires indiennes et du Nord canadien» à « Affaires autochtones
+            et Développement du Nord Canada». Voir <liensimple xlink:href="https://www.aadnc-aandc.gc.ca/fra/1314808945787/1314809172051" xlink:type="simple">https://www.aadnc-aandc.gc.ca/fra/1314808945787/1314809172051</liensimple>. Cependant, selon
+            la <marquage typemarq="italique">Loi sur les Indiens,</marquage> L.R.C. (1985), ch. I-5, le nom
+            officiel de ministère selon la loi demeure « le ministère des Affaires indiennes et du
+            Nord canadien. » Le nom officiel du ministère, soit le ministère des Affaires indiennes
+            et du Nord canadien ou AINC, sera utilisé dans ce texte, sauf s’il s’agit d’une
+            référence à une source officielle. </alinea>
+         </note>
+      </grnote>
+   </partiesann>
+<head xmlns=""/></article>

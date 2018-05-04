@@ -36,6 +36,20 @@ class TestGetAbstracts:
         assert value[0]['lang'] == 'fr'
 
 
+@with_fixtures('./eruditarticle/tests/fixtures/article/keywords', EruditArticle)
+class TestGetKeywords:
+
+    @with_value('1039501ar.xml', 'get_keywords')
+    def test_can_return_keywords_of_tei_articles(self, value):
+        assert tuple(value.keys()) == ('fr', 'en',)
+        assert value['fr'] == ["Premières Nations", "enfants", "discrimination", "droits de la personne", ]  # noqa
+        assert value['en'] == ["First Nations", "children", "discrimination", "human rights", ]
+
+    @with_value('1043568ar.xml', 'get_keywords')
+    def test_can_return_equivalent_keywords_in_the_lang_order_defined_in_the_article(self, value):  # noqa
+        assert tuple(value.keys()) == ('fr', "en", "pt",)
+
+
 @with_fixtures('./eruditarticle/tests/fixtures/article/section_titles', EruditArticle)
 class TestSectionTitle(object):
 

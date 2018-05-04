@@ -1,4 +1,5 @@
 import logging
+from collections import OrderedDict
 
 from .base import EruditBaseObject
 from .mixins import CopyrightMixin
@@ -165,22 +166,15 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         :returns: the title of the article object with HTML tags. """
         return self.convert_marquage_content_to_html(self.find('titre'))
 
-    def get_keywords(self):
+    def get_keywords(self, formatted=False, html=False):
         """ :returns: the keywords of the article object.
 
-        The keywords are returned as a list of dictionaries of the form::
-
-            {
-                'lang': 'fr',
-                'keywords': ['foo', 'bar', ],
-            }
+        The keywords are returned as an ``OrderedDict`` index by language code.
         """
-        keywords = []
+        keywords = OrderedDict()
+
         for tree_keywords in self.findall('grmotcle'):
-            keywords.append({
-                'lang': tree_keywords.get('lang'),
-                'keywords': [n.text for n in tree_keywords.findall('motcle')],
-            })
+            keywords[tree_keywords.get('lang')] = [n.text for n in tree_keywords.findall('motcle')]
         return keywords
 
     def get_languages(self):
