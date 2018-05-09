@@ -1,5 +1,6 @@
 import collections
 import pytest
+from lxml.builder import E
 
 from eruditarticle.objects import EruditArticle
 from eruditarticle.tests.decorators import with_value, with_fixtures
@@ -406,3 +407,15 @@ def test_article_is_of_type_roc(fixturename, isroc):
     with open(path, 'rb') as fp:
         article = EruditArticle(fp.read())
     assert article.is_of_type_roc == isroc
+
+
+def test_article_title_with_note():
+    # An article title's note doesn't end up in the title, with or without markup.
+    path = './eruditarticle/tests/fixtures/article/savant/minimal/602354ar.xml'
+    with open(path, 'rb') as fp:
+        article = EruditArticle(fp.read())
+    title = article.find('grtitre/titre')
+    renvoi_elem = E.renvoi("foobar", id='id1', idref='idref1', typeref='note')
+    title.append(renvoi_elem)
+    assert 'foobar' not in article.get_formatted_title()
+    assert 'foobar' not in article.get_formatted_html_title()

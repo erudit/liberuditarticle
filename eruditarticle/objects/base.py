@@ -121,6 +121,9 @@ class EruditBaseObject(DomObject):
 
         subtitle_elem = self.find(subtitle_elem_name, dom=root_elem)
         if strip_markup:
+            for elem in [title_elem, subtitle_elem]:
+                if elem is not None:
+                    et.strip_elements(elem, 'liensimple', 'renvoi', with_tail=False)
             title = Title(
                 title=self.stringify_children(title_elem) if title_elem is not None else None,
                 subtitle=self.stringify_children(subtitle_elem),
