@@ -296,12 +296,19 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             references.append({'doi': doi, 'title': title})
         return references
 
-    def get_title(self):
-        """ :returns: the title of the article object. """
-        return self.stringify_children(
-            self.find('titre', dom=self.find('grtitre')),
-            strip_elements=['liensimple', 'renvoi']
-        )
+    def get_title(self, formatted=False, html=False):
+        """ Returns the title of the article object.
+        :param formatted: (bool, optional): Defaults to False.
+            Not applicable
+        :param html: (bool, optional): Defaults to False.
+        """
+        if formatted:
+            return self._get_formatted_title(strip_markup=not html)
+        else:
+            return self.stringify_children(
+                self.find('titre', dom=self.find('grtitre')),
+                strip_elements=['liensimple', 'renvoi']
+            )
 
     def get_journal_titles(self):
         """ :returns: the titles of the journal
