@@ -11,6 +11,8 @@ marquage_to_html = et.XSLT(et.parse(io.StringIO(
 
 <xsl:strip-space elements="*"/>
 
+<xsl:template match="resume/titre"></xsl:template>
+
 <xsl:template match="alinea | refbiblio">
     <p class="{name()}">
         <xsl:apply-templates/>
