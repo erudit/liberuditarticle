@@ -59,14 +59,15 @@ class TestGetAbstracts:
 
     @with_value('1043074ar.xml', 'get_abstracts', html=True)
     def test_can_convert_alinea_to_p(self, value):
-        assert value[0]['type'] == 'main'
         assert value[0]['content'] == """<p class="alinea">The aim of the paper is to track the scale and the strategy of European multinational firms related to the internationalization of their R&amp;D. We address two questions: 1. Can we confirm the general view assuming a growing trend in the internationalisation of technology? 2. Does the &#8220;home base augmenting&#8221; dominant strategy observed in the 1990s still hold? We use a patent data set for a sample of 349 firms and two time periods 1994-1996 and 2003-2005. We find out: 1) the remaining importance of the national technological bases of MNCs, 2) R&amp;D internationalisation is not continuously growing over the period under observation, 3) an emerging trend working to the detriment of the home base augmenting strategy.</p>"""  # noqa
 
-    def test_can_convert_listeord_to_ol(self):
-        pass
+    @with_value('602618ar.xml', 'get_abstracts', html=True)
+    def test_can_convert_listeord_to_ol(self, value):
+        assert value[0]['content'] == """<p class="alinea">Dans les subordonn&#233;es finales introduites par <em>damit</em>, on constate que le Pr&#228;teritum allemand peut entrer en concurrence avec les formes subjonctives avec lesquelles il est alors commutable sans changement appr&#233;ciable de sens&#160;:</p><ol class="lettremin" start="1"><li><p class="alinea">Ich weckte sie, wenn sie verschlief, <em>damit</em> sie rechtzeitig zur Kirche <em>kam</em>.</p><p class="alinea">Hauser-Suida, Hoppe-Beugel (1972:40)</p><p class="alinea">+&#160;<em>damit</em> sie rechtzeitig zur Kirche <em>k&#228;me</em>.</p></li></ol><p class="alinea">mais que dans ce cas, l&#8217;alternance du Pr&#228;teritum avec le Perfekt&#160;&#8212; autrement tr&#232;s fr&#233;quente&#160;&#8212; est interdite. Qu&#8217;il y ait des traits communs entre le Konjunktiv&#160;II et le Pr&#228;teritum est un fait que signale la synapse totale de ces deux formes de la conjugaison r&#233;guli&#232;re&#160;:</p><ol class="lettremin" start="2"><li><p class="alinea">Sie <em>fragte</em> ihn um Rat. (indicatif)</p></li><li><p class="alinea">Er w&#228;re der letzte, den ich um Rat <em>fragte</em>.</p></li></ol><p class="alinea">et la synapse partielle des formes irr&#233;guli&#232;res (voir exemple (a)).</p><p class="alinea">Nous allons essayer de d&#233;gager les divers effets de sens qui d&#233;coulent de l&#8217;emploi de l&#8217;une ou de l&#8217;autre forme dans la subordonn&#233;e finale introduite par <em>damit</em>, pour enfin r&#233;examiner le signifi&#233; de puissance du Pr&#228;teritum allemand, et proposer un lien avec le Konjunktiv&#160;II.</p>""" # noqa
 
-    def test_can_convert_listenonord_to_ul(self):
-        pass
+    @with_value('1005712ar.xml', 'get_abstracts', html=True)
+    def test_can_convert_listenonord_to_ul(self, value):
+        assert value[0]['content'] == """<p class="alinea">Contrairement &#224; d&#8217;autres crimes commis au sein du cercle familial, le crime passionnel, pourtant tr&#232;s visible socialement, n&#8217;a jamais fait l&#8217;objet d&#8217;une critique sociale ou psychologique efficace comme c&#8217;est le cas pour l&#8217;infanticide depuis longtemps d&#233;j&#224;, ou plus r&#233;cemment pour les abus sexuels ou le viol conjugal.</p><p class="alinea">Sur la base d&#8217;un corpus de 337 crimes et d&#8217;outils d&#8217;analyse vari&#233;s, nous soulignerons trois aspects&#160;:</p><ul class="tiret"><li><p class="alinea">Dangerosit&#233; du milieu familial et conjugal, surtout pour les femmes.</p></li><li><p class="alinea">D&#233;ni de cette dangerosit&#233; dans le discours m&#233;diatique, voire psychiatrique.</p></li><li><p class="alinea">Dangerosit&#233; masqu&#233;e enfin, car ces criminels, hommes et femmes, fonctionnent dans une pseudo-normalit&#233;.</p></li></ul>""" # noqa
 
     @with_value('1043218ar.xml', 'get_abstracts', html=True)
     def test_can_convert_bloccitation_to_blockquote(self, value):

@@ -23,6 +23,172 @@ marquage_to_html = et.XSLT(et.parse(io.StringIO(
     </blockquote>
 </xsl:template>
 
+<xsl:template match="listenonord">
+    <xsl:variable name="signe" select="@signe"/>
+    <xsl:choose>
+        <xsl:when test="@nbcol">
+            <!-- listenonord multi-colonnes -->
+            <xsl:variable name="elemlistes" select="elemliste"/>
+            <xsl:variable name="nbElems" select="count($elemlistes)"/>
+            <xsl:variable name="nbCols" select="@nbcol"/>
+            <xsl:variable name="divClass" select="concat('nbcol', $nbCols)"/>
+            <xsl:variable name="quotient" select="floor($nbElems div $nbCols)"/>
+            <xsl:variable name="reste" select="$nbElems mod $nbCols"/>
+            <!-- maximum 5 colonnes -->
+            <div class="multicolonne">
+                <xsl:variable name="arret1" select="$quotient + number($reste &gt; 0)"/>
+                <div class="{$divClass}">
+                    <ul class="{$signe}">
+                        <xsl:for-each select="elemliste[position() &gt; 0 and position() &lt;= $arret1]">
+                            <xsl:apply-templates select="."/>
+                        </xsl:for-each>
+                    </ul>
+                </div>
+                <xsl:if test="$nbCols &gt;= 2">
+                    <xsl:variable name="arret2" select="$arret1 + $quotient + number($reste &gt; 1)"/>
+                    <div class="{$divClass}">
+                        <ul class="{$signe}">
+                            <xsl:for-each select="elemliste[position() &gt; $arret1 and position() &lt;= $arret2]">
+                                <xsl:apply-templates select="."/>
+                            </xsl:for-each>
+                        </ul>
+                    </div>
+                    <xsl:if test="$nbCols &gt;= 3">
+                        <xsl:variable name="arret3" select="$arret2 + $quotient + number($reste &gt; 2)"/>
+                        <div class="{$divClass}">
+                            <ul class="{$signe}">
+                                <xsl:for-each select="elemliste[position() &gt; $arret2 and position() &lt;= $arret3]">
+                                    <xsl:apply-templates select="."/>
+                                </xsl:for-each>
+                            </ul>
+                        </div>
+                        <xsl:if test="$nbCols &gt;= 4">
+                            <xsl:variable name="arret4" select="$arret3 + $quotient + number($reste &gt; 3)"/>
+                            <div class="{$divClass}">
+                                <ul class="{$signe}">
+                                    <xsl:for-each select="elemliste[position() &gt; $arret3 and position() &lt;= $arret4]">
+                                        <xsl:apply-templates select="."/>
+                                    </xsl:for-each>
+                                </ul>
+                            </div>
+                            <xsl:if test="$nbCols &gt;= 5">
+                                <xsl:variable name="arret5" select="$arret4 + $quotient + number($reste &gt; 4)"/>
+                                <div class="{$divClass}">
+                                    <ul class="{$signe}">
+                                        <xsl:for-each select="elemliste[position() &gt; $arret4 and position() &lt;= $arret5]">
+                                            <xsl:apply-templates select="."/>
+                                        </xsl:for-each>
+                                    </ul>
+                                </div>
+                            </xsl:if>
+                        </xsl:if>
+                    </xsl:if>
+                </xsl:if>
+            </div>
+        </xsl:when>
+        <xsl:otherwise>
+            <!-- listenonord 1 colonne -->
+            <ul class="{@signe}">
+                <xsl:apply-templates/>
+            </ul>
+        </xsl:otherwise>
+    </xsl:choose>
+</xsl:template>
+
+<xsl:template match="listeord">
+    <xsl:variable name="numeration" select="@numeration"/>
+    <xsl:variable name="start">
+        <xsl:choose>
+            <xsl:when test="@compteur">
+                <xsl:value-of select="@compteur"/>
+            </xsl:when>
+            <xsl:otherwise>1</xsl:otherwise>
+        </xsl:choose>
+    </xsl:variable>
+    <xsl:choose>
+        <xsl:when test="@nbcol">
+            <!-- listeord multi-colonnes -->
+            <xsl:variable name="elemlistes" select="elemliste"/>
+            <xsl:variable name="nbElems" select="count($elemlistes)"/>
+            <xsl:variable name="nbCols" select="@nbcol"/>
+            <xsl:variable name="divClass" select="concat('nbcol', $nbCols)"/>
+            <xsl:variable name="quotient" select="floor($nbElems div $nbCols)"/>
+            <xsl:variable name="reste" select="$nbElems mod $nbCols"/>
+            <!-- maximum 5 colonnes -->
+            <div class="multicolonne">
+                <xsl:variable name="arret1" select="$quotient + number($reste &gt; 0)"/>
+                <div class="{$divClass}">
+                    <ol class="{$numeration}" start="{$start}">
+                        <xsl:for-each select="elemliste[position() &gt; 0 and position() &lt;= $arret1]">
+                            <xsl:apply-templates select="."/>
+                        </xsl:for-each>
+                    </ol>
+                </div>
+                <xsl:if test="$nbCols &gt;= 2">
+                    <xsl:variable name="arret2" select="$arret1 + $quotient + number($reste &gt; 1)"/>
+                    <div class="{$divClass}">
+                        <ol class="{$numeration}" start="{$start + $arret1}">
+                            <xsl:for-each select="elemliste[position() &gt; $arret1 and position() &lt;= $arret2]">
+                                <xsl:apply-templates select="."/>
+                            </xsl:for-each>
+                        </ol>
+                    </div>
+                    <xsl:if test="$nbCols &gt;= 3">
+                        <xsl:variable name="arret3" select="$arret2 + $quotient + number($reste &gt; 2)"/>
+                        <div class="{$divClass}">
+                            <ol class="$numeration" start="{$start + $arret2}">
+                                <xsl:for-each select="elemliste[position() &gt; $arret2 and position() &lt;= $arret3]">
+                                    <xsl:apply-templates select="."/>
+                                </xsl:for-each>
+                            </ol>
+                        </div>
+                        <xsl:if test="$nbCols &gt;= 4">
+                            <xsl:variable name="arret4" select="$arret3 + $quotient + number($reste &gt; 3)"/>
+                            <div class="{$divClass}">
+                                <ol class="$numeration" start="{$start + $arret3}">
+                                    <xsl:for-each select="elemliste[position() &gt; $arret3 and position() &lt;= $arret4]">
+                                        <xsl:apply-templates select="."/>
+                                    </xsl:for-each>
+                                </ol>
+                            </div>
+                            <xsl:if test="$nbCols &gt;= 5">
+                                <xsl:variable name="arret5" select="$arret4 + $quotient + number($reste &gt; 4)"/>
+                                <div class="{$divClass}">
+                                    <ol class="$numeration" start="{$start + $arret4}">
+                                        <xsl:for-each select="elemliste[position() &gt; $arret4 and position() &lt;= $arret5]">
+                                            <xsl:apply-templates select="."/>
+                                        </xsl:for-each>
+                                    </ol>
+                                </div>
+                            </xsl:if>
+                        </xsl:if>
+                    </xsl:if>
+                </xsl:if>
+            </div>
+        </xsl:when>
+        <xsl:otherwise>
+            <!-- listeord 1 colonne -->
+            <xsl:element name="ol">
+                <xsl:attribute name="class">
+                    <xsl:value-of select="@numeration"/>
+                </xsl:attribute>
+                <xsl:if test="@compteur">
+                    <xsl:attribute name="start">
+                        <xsl:value-of select="$start"/>
+                    </xsl:attribute>
+                </xsl:if>
+                <xsl:apply-templates/>
+            </xsl:element>
+        </xsl:otherwise>
+    </xsl:choose>
+</xsl:template>
+
+<xsl:template match="elemliste">
+    <li>
+        <xsl:apply-templates/>
+    </li>
+</xsl:template>
+
 <xsl:template match="liensimple">
     <a href="{@href}"><xsl:apply-templates/></a>
 </xsl:template>
