@@ -8,15 +8,19 @@ import lxml.etree as et
 marquage_to_html = et.XSLT(et.parse(io.StringIO(
     '''<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="html" indent="yes" encoding="UTF-8"/>
+
 <xsl:strip-space elements="*"/>
-<xsl:template match="alinea">
-    <p>
+
+<xsl:template match="alinea | refbiblio">
+    <p class="{name()}">
         <xsl:apply-templates/>
     </p>
 </xsl:template>
+
 <xsl:template match="liensimple">
     <a href="{@href}"><xsl:apply-templates/></a>
 </xsl:template>
+
 <xsl:template match="marquage">
     <xsl:choose>
         <xsl:when test="@typemarq='gras'">

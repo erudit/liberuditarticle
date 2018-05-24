@@ -132,15 +132,15 @@ class TestEditorialNotes(object):
             {
                 "lang": "de",
                 "type": "edito",
-                "content": "<p>Hergestellt mit Unterst&#252;tzung durch den DAAD aus Mitteln, die das Ausw&#228;rtige Amt bereitstellt.</p>",  # noqa
+                "content": '<p class="alinea">Hergestellt mit Unterst&#252;tzung durch den DAAD aus Mitteln, die das Ausw&#228;rtige Amt bereitstellt.</p>',  # noqa
             }, {
                 "lang": "fr",
                 "type": "edito",
-                "content": "<p>Ce num&#233;ro d&#8217;Eurostudia est publi&#233; avec l&#8217;aide de l&#8217;Office allemand d&#8217;&#233;changes universitaires (DAAD) gr&#226;ce au soutien financier du minist&#232;re des Affaires &#233;trang&#232;res de la R&#233;publique f&#233;d&#233;rale d&#8217;Allemagne.</p>"  # noqa
+                "content": '<p class="alinea">Ce num&#233;ro d&#8217;Eurostudia est publi&#233; avec l&#8217;aide de l&#8217;Office allemand d&#8217;&#233;changes universitaires (DAAD) gr&#226;ce au soutien financier du minist&#232;re des Affaires &#233;trang&#232;res de la R&#233;publique f&#233;d&#233;rale d&#8217;Allemagne.</p>'  # noqa
             }, {
                 "lang": "en",
                 "type": "edito",
-                "content": "<p>This issue of <em>Eurostudia</em> is published with the support of the German Academic Exchange Service (DAAD) thanks to financial assistance from the Foreign Office of the Federal Republic of Germany.</p>"  # noqa
+                "content": '<p class="alinea">This issue of <em>Eurostudia</em> is published with the support of the German Academic Exchange Service (DAAD) thanks to financial assistance from the Foreign Office of the Federal Republic of Germany.</p>'  # noqa
             }
         ]
 
@@ -168,7 +168,7 @@ class TestEditorialNotes(object):
             {
                 "lang": "fr",
                 "type": "edito",
-                "content": '<p><a href="http://www.erudit.org/projspec/ateliers/v10n2_complet.pdf">T&#233;l&#233;charger le num&#233;ro complet / Download the complete issue</a></p>'  # noqa
+                "content": '<p class="alinea"><a href="http://www.erudit.org/projspec/ateliers/v10n2_complet.pdf">T&#233;l&#233;charger le num&#233;ro complet / Download the complete issue</a></p>'  # noqa
             }
         ]
 
@@ -178,7 +178,7 @@ class TestEditorialNotes(object):
             {
                 "lang": "fr",
                 "type": "edito",
-                "content": "<p>&#192; la m&#233;moire de Robert Plante, m&#233;decin du travail</p>"
+                "content": '<p class="alinea">&#192; la m&#233;moire de Robert Plante, m&#233;decin du travail</p>' # noqa
             }
         ]
 
@@ -188,7 +188,7 @@ class TestEditorialNotes(object):
             {
                 "lang": "fr",
                 "type": "edito",
-                "content": '<p>Les textes qui composent ce num&#233;ro sp&#233;cial de la <em>Revue de droit de McGill</em> se r&#233;f&#232;rent &#224; la pr&#233;sente introduction pour la pr&#233;sentation des faits de l&#8217;affaire et pour le r&#233;sum&#233; des jugements. Comme la plupart de ces textes sont en anglais, une version anglaise de cette introduction est disponible sur le site Web de la <em>Revue</em> (<a href="http://lawjournal.mcgill.ca">http://lawjournal.mcgill.ca</a>).</p>'  # noqa
+                "content": '<p class="alinea">Les textes qui composent ce num&#233;ro sp&#233;cial de la <em>Revue de droit de McGill</em> se r&#233;f&#232;rent &#224; la pr&#233;sente introduction pour la pr&#233;sentation des faits de l&#8217;affaire et pour le r&#233;sum&#233; des jugements. Comme la plupart de ces textes sont en anglais, une version anglaise de cette introduction est disponible sur le site Web de la <em>Revue</em> (<a href="http://lawjournal.mcgill.ca">http://lawjournal.mcgill.ca</a>).</p>'  # noqa
             }
         ]
 
@@ -198,7 +198,7 @@ class TestEditorialNotes(object):
             {
                 "lang": "fr",
                 "type": "edito",
-                "content": "<p><strong>Remerciements&#160;:</strong> La Revue remercie le Bureau du Vice-rectorat &#224; l&#8217;enseignement et &#224; la recherche (Affaires francophones) de l&#8217;Universit&#233; Laurentienne et l&#8217;Institut fran&#231;ais de l&#8217;Universit&#233; de R&#233;gina de leur appui financier &#224; la production de ce num&#233;ro.</p>"  # noqa
+                "content": '<p class="alinea"><strong>Remerciements&#160;:</strong> La Revue remercie le Bureau du Vice-rectorat &#224; l&#8217;enseignement et &#224; la recherche (Affaires francophones) de l&#8217;Universit&#233; Laurentienne et l&#8217;Institut fran&#231;ais de l&#8217;Universit&#233; de R&#233;gina de leur appui financier &#224; la production de ce num&#233;ro.</p>'  # noqa
             }
         ]
 
@@ -512,7 +512,7 @@ class TestEruditPublication(object):
             {
                 "type": "edito",
                 "lang": "fr",
-                "content": """<p><strong>POUR NABIHA</strong> : Nabiha Jerad, Professeur de socio-linguistique &#224; la Facult&#233; des Lettres de l&#8217;Universit&#233; de Tunis se trouvait dans son &#238;le natale, Kerkennah, pour c&#233;l&#233;brer le Ramadan avec sa famille. Sortie pour prendre l&#8217;air avant le d&#238;ner, elle fut renvers&#233;e par une voiture. Le chauffeur - ou plut&#244;t le chauffard - ne s&#8217;arr&#234;ta pas et s&#8217;enfuit. C&#8217;&#233;tait le 11 ao&#251;t 2012. Elle tomba dans un coma dont elle ne se sortira jamais, malgr&#233; les soins intensifs et le d&#233;vouement du personnel m&#233;dical, d&#8217;abord &#224; Bruxelles, ensuite &#224; Tunis o&#249; elle rendit l&#8217;&#226;me le 19 octobre 2012. </p><p>Pour ceux et celles qui l&#8217;ont connue, Nabiha avait le coeur sur la main, l&#8217;esprit ouvert &#224; &#8220;tous les souffles du monde&#8221; pour reprendre Aim&#233; C&#233;saire. Elle &#233;tait d&#8217;un grand d&#233;vouement envers ses &#233;tudiants, tr&#232;s attach&#233;e &#224; son pays la Tunisie et fortement engag&#233;e dans ce qui fut appel&#233;e la R&#233;volution de Jasmin. Son article non achev&#233;, qui devait para&#238;tre dans ce volume, se serait ajout&#233; &#224; ses nombreuses autres publications dans le domaine de la socio-linguistique. Cette petite note rappellera la m&#233;moire de celle qui fut non seulement une coll&#232;gue, mais aussi une amie. Universit&#233; Laval 3 Juillet 2013</p><auteur><nompers><prenom>Justin</prenom><autreprenom>K.</autreprenom><nomfamille>Bisanswa</nomfamille></nompers></auteur>"""  # noqa
+                "content": """<p class="alinea"><strong>POUR NABIHA</strong> : Nabiha Jerad, Professeur de socio-linguistique &#224; la Facult&#233; des Lettres de l&#8217;Universit&#233; de Tunis se trouvait dans son &#238;le natale, Kerkennah, pour c&#233;l&#233;brer le Ramadan avec sa famille. Sortie pour prendre l&#8217;air avant le d&#238;ner, elle fut renvers&#233;e par une voiture. Le chauffeur - ou plut&#244;t le chauffard - ne s&#8217;arr&#234;ta pas et s&#8217;enfuit. C&#8217;&#233;tait le 11 ao&#251;t 2012. Elle tomba dans un coma dont elle ne se sortira jamais, malgr&#233; les soins intensifs et le d&#233;vouement du personnel m&#233;dical, d&#8217;abord &#224; Bruxelles, ensuite &#224; Tunis o&#249; elle rendit l&#8217;&#226;me le 19 octobre 2012. </p><p class="alinea">Pour ceux et celles qui l&#8217;ont connue, Nabiha avait le coeur sur la main, l&#8217;esprit ouvert &#224; &#8220;tous les souffles du monde&#8221; pour reprendre Aim&#233; C&#233;saire. Elle &#233;tait d&#8217;un grand d&#233;vouement envers ses &#233;tudiants, tr&#232;s attach&#233;e &#224; son pays la Tunisie et fortement engag&#233;e dans ce qui fut appel&#233;e la R&#233;volution de Jasmin. Son article non achev&#233;, qui devait para&#238;tre dans ce volume, se serait ajout&#233; &#224; ses nombreuses autres publications dans le domaine de la socio-linguistique. Cette petite note rappellera la m&#233;moire de celle qui fut non seulement une coll&#232;gue, mais aussi une amie. Universit&#233; Laval 3 Juillet 2013</p><auteur><nompers><prenom>Justin</prenom><autreprenom>K.</autreprenom><nomfamille>Bisanswa</nomfamille></nompers></auteur>"""  # noqa
             }
         ]
 
