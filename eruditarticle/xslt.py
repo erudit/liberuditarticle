@@ -17,6 +17,12 @@ marquage_to_html = et.XSLT(et.parse(io.StringIO(
     </p>
 </xsl:template>
 
+<xsl:template match="bloccitation | verbatim">
+    <blockquote class="{name()}">
+        <xsl:apply-templates/>
+    </blockquote>
+</xsl:template>
+
 <xsl:template match="liensimple">
     <a href="{@href}"><xsl:apply-templates/></a>
 </xsl:template>
