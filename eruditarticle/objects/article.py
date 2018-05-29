@@ -36,7 +36,6 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """
         abstracts = []
         languages = self.get_languages()
-
         for abstract_dom in self.findall('resume'):
 
             abstract = {
@@ -65,7 +64,11 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
                 abstract["type"] = "equivalent"
 
             abstracts.append(abstract)
-        return abstracts
+
+        return sorted(
+            abstracts,
+            key=lambda x: languages.index(x['lang']) if x['lang'] in languages else 10
+        )
 
     def get_article_type(self):
         """ :returns: the type of the article. """

@@ -42,6 +42,10 @@ class TestGetAbstracts:
         equivalent_abstracts = [a for a in value if a['type'] == 'equivalent']
         assert [a['lang'] for a in equivalent_abstracts] == ["en", "pt"]
 
+    @with_value('1043074ar.xml', 'get_abstracts')
+    def test_will_always_return_main_abstract_first(self, value):
+        assert [a['lang'] for a in value] == ['en', 'fr', 'es']
+
     @with_value('031125ar.xml', 'get_abstracts')
     def test_can_return_abstract_title(self, value):
         assert value[0] is not None
