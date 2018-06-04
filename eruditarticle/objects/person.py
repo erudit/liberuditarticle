@@ -128,6 +128,10 @@ def format_authors_mla(authors):
     def single1(author):
         if author.othername:
             return author.othername
+        if author.organization:
+            return author.organization
+        if author.pseudo:
+            return author.pseudo
         return "{}, {}".format(author.lastname, author.firstname)
 
     def single2(author):
@@ -150,6 +154,10 @@ def format_authors_apa(authors):
     def single(author):
         if author.othername:
             return author.othername
+        if author.organization:
+            return author.organization
+        if author.pseudo:
+            return author.pseudo
         return "{}, {}.".format(author.lastname, author.firstname[:1])
 
     if not authors:
@@ -165,6 +173,11 @@ def format_authors_chicago(authors):
     def single(author):
         if author.othername:
             return author.othername
+        if author.organization:
+            return author.organization
+        if author.pseudo:
+            return author.pseudo
+
         return "{}, {}".format(author.lastname, author.firstname)
 
     if not authors:

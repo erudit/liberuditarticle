@@ -8,7 +8,7 @@ from eruditarticle.objects.person import (
 )
 
 
-FakePerson = namedtuple('Person', 'firstname lastname othername')
+FakePerson = namedtuple('Person', 'firstname lastname othername organization pseudo')
 
 
 def get_dom(fixture_name):
@@ -47,19 +47,19 @@ def test_empty_author():
         ""
     ),
     (
-        [("Firstname", "Lastname", "")],
+        [("Firstname", "Lastname", "", "", "")],
         "Lastname, Firstname."
     ),
     (
-        [("Firstname", "Lastname", "Othername")],
+        [("Firstname", "Lastname", "Othername", "", "")],
         "Othername."
     ),
     (
-        [("First1", "Last1", ""), ("First2", "Last2", "")],
+        [("First1", "Last1", "", "", ""), ("First2", "Last2", "", "", "")],
         "Last1, First1 et First2 Last2"
     ),
     (
-        [("First1", "Last1", "Other1"), ("First2", "Last2", "Other2")],
+        [("First1", "Last1", "Other1", "", ""), ("First2", "Last2", "Other2", "", "")],
         "Other1 et Other2"
     ),
 ])
@@ -75,23 +75,23 @@ def test_format_authors_mla(authors, expected):
         ""
     ),
     (
-        [("Firstname", "Lastname", "")],
+        [("Firstname", "Lastname", "", "", "")],
         "Lastname, F."
     ),
     (
-        [("Firstname", "Lastname", "Othername")],
+        [("Firstname", "Lastname", "Othername", "", "")],
         "Othername"
     ),
     (
-        [("First1", "Last1", ""), ("First2", "Last2", "")],
+        [("First1", "Last1", "", "", ""), ("First2", "Last2", "", "", "")],
         "Last1, F. & Last2, F."
     ),
     (
-        [("First1", "Last1", "Other1"), ("First2", "Last2", "Other2")],
+        [("First1", "Last1", "Other1", "", ""), ("First2", "Last2", "Other2", "", "")],
         "Other1 & Other2"
     ),
     (
-        [("First1", "Last1", ""), ("First2", "Last2", ""), ("First3", "Last3", "")],
+        [("First1", "Last1", "", "", ""), ("First2", "Last2", "", "", ""), ("First3", "Last3", "", "", "")],  # noqa
         "Last1, F., Last2, F. & Last3, F."
     ),
 ])
@@ -107,23 +107,23 @@ def test_format_authors_apa(authors, expected):
         ""
     ),
     (
-        [("Firstname", "Lastname", "")],
+        [("Firstname", "Lastname", "", "", "")],
         "Lastname, Firstname"
     ),
     (
-        [("Firstname", "Lastname", "Othername")],
+        [("Firstname", "Lastname", "Othername", "", "")],
         "Othername"
     ),
     (
-        [("First1", "Last1", ""), ("First2", "Last2", "")],
+        [("First1", "Last1", "", "", ""), ("First2", "Last2", "", "", "")],
         "Last1, First1 et Last2, First2"
     ),
     (
-        [("First1", "Last1", "Other1"), ("First2", "Last2", "Other2")],
+        [("First1", "Last1", "Other1", "", ""), ("First2", "Last2", "Other2", "", "")],
         "Other1 et Other2"
     ),
     (
-        [("First1", "Last1", ""), ("First2", "Last2", ""), ("First3", "Last3", "")],
+        [("First1", "Last1", "", "", ""), ("First2", "Last2", "", "", ""), ("First3", "Last3", "", "", "")],  # noqa
         "Last1, First1, Last2, First2 et Last3, First3"
     ),
 ])
