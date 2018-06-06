@@ -76,7 +76,7 @@ class Person(DomObject):
             get = self.get_html
         else:
             get = self.get_text
-            et.strip_tags(self._root, 'marquage')
+            self.strip_markup()
         if self.find('nomorg') is not None:
             # Our "person" is in fact an organization. Special rules apply.
             result = get('nomorg')
@@ -124,61 +124,65 @@ def format_authors(authors, html=False):
     pass
 
 
+def _format_author_reverse(author, full_firstname=False):
+    author.strip_markup()
+    if author.organization:
+        return author.organization
+    lastname = author.lastname
+    firstname = author.firstname
+    othername = author.othername
+    if not lastname:
+        # special edge case. we don't have a name. let's just the firstname
+        return firstname
+    elif not firstname:
+        return lastname
+    if not full_firstname:
+        firstname = "{}.".format(firstname[:1])
+    result = "{}, {}".format(lastname, firstname)
+    if othername:
+        result = "{} {}.".format(result, othername[:1])
+    return result
+
+
 def format_authors_mla(authors):
     def single1(author):
-        if author.othername:
-            return author.othername
-        if author.organization:
-            return author.organization
-        if author.pseudo:
-            return author.pseudo
-        return "{}, {}".format(author.lastname, author.firstname)
+        return _format_author_reverse(author, full_firstname=True)
 
     def single2(author):
-        if author.othername:
-            return author.othername
-        return "{} {}".format(author.firstname, author.lastname)
+        author.strip_markup()
+        othername = author.othername
+        if othername:
+            return "{} {}. {}".format(author.firstname, othername[:1], author.lastname)
+        else:
+            return "{} {}".format(author.firstname, author.lastname)
 
     if not authors:
         return ""
     elif len(authors) == 1:
-        return "{}.".format(single1(authors[0]))
+        result = single1(authors[0])
     elif len(authors) == 2:
         first, second = authors
-        return _("{} et {}").format(single1(first), single2(second))
+        result = _("{} et {}").format(single1(first), single2(second))
     else:
-        return _("{}, et al.").format(single1(authors[0]))
+        result = _("{}, et al").format(single1(authors[0]))
+    if not result.endswith('.'):
+        result += '.'
+    return result
 
 
 def format_authors_apa(authors):
-    def single(author):
-        if author.othername:
-            return author.othername
-        if author.organization:
-            return author.organization
-        if author.pseudo:
-            return author.pseudo
-        return "{}, {}.".format(author.lastname, author.firstname[:1])
-
     if not authors:
         return ""
     elif len(authors) == 1:
-        return single(authors[0])
+        return _format_author_reverse(authors[0])
     else:
-        fmtlist = ', '.join(single(a) for a in authors[:-1])
-        return "{} & {}".format(fmtlist, single(authors[-1]))
+        fmtlist = ', '.join(_format_author_reverse(a) for a in authors[:-1])
+        return "{} & {}".format(fmtlist, _format_author_reverse(authors[-1]))
 
 
 def format_authors_chicago(authors):
     def single(author):
-        if author.othername:
-            return author.othername
-        if author.organization:
-            return author.organization
-        if author.pseudo:
-            return author.pseudo
-
-        return "{}, {}".format(author.lastname, author.firstname)
+        return _format_author_reverse(author, full_firstname=True)
 
     if not authors:
         return ""

@@ -1,5 +1,3 @@
-from collections import namedtuple
-
 import lxml.etree as et
 import pytest
 
@@ -8,7 +6,16 @@ from eruditarticle.objects.person import (
 )
 
 
-FakePerson = namedtuple('Person', 'firstname lastname othername organization pseudo')
+class FakePerson:
+    def __init__(self, firstname, lastname, othername='', organization='', pseudo=''):
+        self.firstname = firstname
+        self.lastname = lastname
+        self.othername = othername
+        self.organization = organization
+        self.pseudo = pseudo
+
+    def strip_markup(self):
+        pass
 
 
 def get_dom(fixture_name):
@@ -47,20 +54,20 @@ def test_empty_author():
         ""
     ),
     (
-        [("Firstname", "Lastname", "", "", "")],
+        [("Firstname", "Lastname")],
         "Lastname, Firstname."
     ),
     (
-        [("Firstname", "Lastname", "Othername", "", "")],
-        "Othername."
+        [("Firstname", "Lastname", "Othername")],
+        "Lastname, Firstname O."
     ),
     (
-        [("First1", "Last1", "", "", ""), ("First2", "Last2", "", "", "")],
-        "Last1, First1 et First2 Last2"
+        [("First1", "Last1"), ("First2", "Last2")],
+        "Last1, First1 et First2 Last2."
     ),
     (
-        [("First1", "Last1", "Other1", "", ""), ("First2", "Last2", "Other2", "", "")],
-        "Other1 et Other2"
+        [("First1", "Last1", "Other1"), ("First2", "Last2", "Other2")],
+        "Last1, First1 O. et First2 O. Last2."
     ),
 ])
 def test_format_authors_mla(authors, expected):
@@ -75,23 +82,23 @@ def test_format_authors_mla(authors, expected):
         ""
     ),
     (
-        [("Firstname", "Lastname", "", "", "")],
+        [("Firstname", "Lastname")],
         "Lastname, F."
     ),
     (
-        [("Firstname", "Lastname", "Othername", "", "")],
-        "Othername"
+        [("Firstname", "Lastname", "Othername")],
+        "Lastname, F. O."
     ),
     (
-        [("First1", "Last1", "", "", ""), ("First2", "Last2", "", "", "")],
+        [("First1", "Last1"), ("First2", "Last2")],
         "Last1, F. & Last2, F."
     ),
     (
-        [("First1", "Last1", "Other1", "", ""), ("First2", "Last2", "Other2", "", "")],
-        "Other1 & Other2"
+        [("First1", "Last1", "Other1"), ("First2", "Last2", "Other2")],
+        "Last1, F. O. & Last2, F. O."
     ),
     (
-        [("First1", "Last1", "", "", ""), ("First2", "Last2", "", "", ""), ("First3", "Last3", "", "", "")],  # noqa
+        [("First1", "Last1"), ("First2", "Last2"), ("First3", "Last3")],
         "Last1, F., Last2, F. & Last3, F."
     ),
 ])
@@ -107,23 +114,23 @@ def test_format_authors_apa(authors, expected):
         ""
     ),
     (
-        [("Firstname", "Lastname", "", "", "")],
+        [("Firstname", "Lastname")],
         "Lastname, Firstname"
     ),
     (
-        [("Firstname", "Lastname", "Othername", "", "")],
-        "Othername"
+        [("Firstname", "Lastname", "Othername")],
+        "Lastname, Firstname O."
     ),
     (
-        [("First1", "Last1", "", "", ""), ("First2", "Last2", "", "", "")],
+        [("First1", "Last1"), ("First2", "Last2")],
         "Last1, First1 et Last2, First2"
     ),
     (
-        [("First1", "Last1", "Other1", "", ""), ("First2", "Last2", "Other2", "", "")],
-        "Other1 et Other2"
+        [("First1", "Last1", "Other1"), ("First2", "Last2", "Other2")],
+        "Last1, First1 O. et Last2, First2 O."
     ),
     (
-        [("First1", "Last1", "", "", ""), ("First2", "Last2", "", "", ""), ("First3", "Last3", "", "", "")],  # noqa
+        [("First1", "Last1"), ("First2", "Last2"), ("First3", "Last3")],
         "Last1, First1, Last2, First2 et Last3, First3"
     ),
 ])

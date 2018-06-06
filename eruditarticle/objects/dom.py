@@ -50,6 +50,9 @@ class DomObject:
                 break
         return text
 
+    def strip_markup(self):
+        et.strip_tags(self._root, 'marquage')
+
     @staticmethod
     def convert_marquage_content_to_html(node, strip_elements=None):
         """ Converts <marquage> tags to HTML using a specific node.

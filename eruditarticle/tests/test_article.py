@@ -316,20 +316,61 @@ class TestFormatPersonName(object):
         ('with_suffix', "Thibault Martin Ph.D."),
         ('with_guest_editor', "Justin K. Bisanswa"),
     ])
-    def test_get_formatted_authors(self, objectname, expected):
+    @pytest.mark.parametrize('style', [None, 'invalid'])
+    def test_get_formatted_authors(self, objectname, style, expected):
         obj = self.test_objects[objectname + '.xml']
-        assert obj.get_authors(formatted=True) == expected
-
-    @pytest.mark.parametrize('style,expected', [
-        (None, "Marion Sauvaire et Érick Falardeau"),
-        ('invalid', "Marion Sauvaire et Érick Falardeau"),
-        ('mla', "Sauvaire, Marion et Érick Falardeau"),
-        ('apa', "Sauvaire, M. & Falardeau, É."),
-        ('chicago', "Sauvaire, Marion et Falardeau, Érick"),
-    ])
-    def test_get_formatted_authors_with_style(self, style, expected):
-        obj = self.test_objects['multiple_authors.xml']
         assert obj.get_authors(formatted=True, style=style) == expected
+
+    @pytest.mark.parametrize('objectname,expected', [
+        ('no_authors', ""),
+        ('multiple_authors', "Sauvaire, M. & Falardeau, É."),
+        ('strip_tags', "Savard, R."),
+        ('firstname_lastname', "Niederstrass, N."),
+        ('with_othername', "Bastin, G. L."),
+        ('firstname_lastname_alias', "Straram, P."),
+        ('only_alias', "Aude"),
+        ('only_firstname', "Presseau"),
+        ('only_lastname', "Marbic"),
+        ('with_suffix', "Martin, T."),
+        ('with_guest_editor', "Bisanswa, J. K."),
+    ])
+    def test_get_formatted_authors_apa(self, objectname, expected):
+        obj = self.test_objects[objectname + '.xml']
+        assert obj.get_authors(formatted=True, style='apa') == expected
+
+    @pytest.mark.parametrize('objectname,expected', [
+        ('no_authors', ""),
+        ('multiple_authors', "Sauvaire, Marion et Érick Falardeau."),
+        ('strip_tags', "Savard, Réjean."),
+        ('firstname_lastname', "Niederstrass, Natascha."),
+        ('with_othername', "Bastin, Georges L."),
+        ('firstname_lastname_alias', "Straram, Patrick."),
+        ('only_alias', "Aude."),
+        ('only_firstname', "Presseau."),
+        ('only_lastname', "Marbic."),
+        ('with_suffix', "Martin, Thibault."),
+        ('with_guest_editor', "Bisanswa, Justin K."),
+    ])
+    def test_get_formatted_authors_mla(self, objectname, expected):
+        obj = self.test_objects[objectname + '.xml']
+        assert obj.get_authors(formatted=True, style='mla') == expected
+
+    @pytest.mark.parametrize('objectname,expected', [
+        ('no_authors', ""),
+        ('multiple_authors', "Sauvaire, Marion et Falardeau, Érick"),
+        ('strip_tags', "Savard, Réjean"),
+        ('firstname_lastname', "Niederstrass, Natascha"),
+        ('with_othername', "Bastin, Georges L."),
+        ('firstname_lastname_alias', "Straram, Patrick"),
+        ('only_alias', "Aude"),
+        ('only_firstname', "Presseau"),
+        ('only_lastname', "Marbic"),
+        ('with_suffix', "Martin, Thibault"),
+        ('with_guest_editor', "Bisanswa, Justin K."),
+    ])
+    def test_get_formatted_authors_chicago(self, objectname, expected):
+        obj = self.test_objects[objectname + '.xml']
+        assert obj.get_authors(formatted=True, style='chicago') == expected
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/find_authors/', EruditArticle)
