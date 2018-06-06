@@ -281,6 +281,10 @@ class TestArticleSavantComplet(object):
         assert references[0] == {'title': "Akenside, Mark.  <em>Poems</em>.  London: J. Dodsley, 1772.", 'doi': None}  # noqa
         assert len(references) == 53
 
+    def test_html_body(self):
+        html = self.test_objects['1001948ar.xml'].get_html_body()
+        assert 'Ferreira' in html
+
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/savant/minimal', EruditArticle)
 class TestArticleSavantMinimal(object):
