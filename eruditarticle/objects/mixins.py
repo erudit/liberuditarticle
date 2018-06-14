@@ -11,7 +11,12 @@ class PublicationPeriodMixin(object):
     def get_publication_period(self):
         """ Returns the publication period and the year of the publication object. """
 
-        child_elements = self.find('numero//pub').getchildren()
+        elem = self.find('numero//pub')
+        if elem is None:
+            return ''
+        child_elements = elem.getchildren()
+        if not child_elements:
+            return ''
         first_element = child_elements.pop(0)
         if first_element.tag == 'annee':
             previous_item_is_year = True

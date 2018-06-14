@@ -599,3 +599,10 @@ class TestEruditPublication(object):
         assert editor.lastname == 'Strong-Wilson'
         assert 'fr' not in editor.role
         assert editor.role['en'] == "Editor-in-Chief / Rédactrice-en-chef"
+
+    def test_publication_period_doesnt_crash(self):
+        # Don't crash when we can't find a publication period. Return an empty value.
+        pub = self.test_objects['ae1375.xml']
+        elem = pub.find('numero/pub')
+        del elem[:]
+        assert pub.get_publication_period() == ''
