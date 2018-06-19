@@ -606,3 +606,11 @@ class TestEruditPublication(object):
         elem = pub.find('numero/pub')
         del elem[:]
         assert pub.get_publication_period() == ''
+
+    def test_volume_numbering_doesnt_crash(self):
+        # Don't crash when get_volume_numbering() is missing all info it needs to return something
+        # at all. just return an empty string.
+        pub = self.test_objects['ae1375.xml']
+        elem = pub.find('numero')
+        del elem[:]
+        assert pub.get_volume_numbering(formatted=True) == ''
