@@ -48,11 +48,17 @@ def test_empty_author():
     assert person.format_name() == EXPECTED
 
 
-@pytest.mark.parametrize('authors,expected', [
+COMMON_EDGE_CASES = [
     (
-        [],
-        ""
+        [], ""
     ),
+    (
+        [(None, None)], ""
+    ),
+]
+
+
+@pytest.mark.parametrize('authors,expected', COMMON_EDGE_CASES + [
     (
         [("Firstname", "Lastname")],
         "Lastname, Firstname."
@@ -88,11 +94,7 @@ def test_format_authors_mla(authors, expected):
     assert result == expected
 
 
-@pytest.mark.parametrize('authors,expected', [
-    (
-        [],
-        ""
-    ),
+@pytest.mark.parametrize('authors,expected', COMMON_EDGE_CASES + [
     (
         [("Firstname", "Lastname")],
         "Lastname, F."
@@ -120,11 +122,7 @@ def test_format_authors_apa(authors, expected):
     assert result == expected
 
 
-@pytest.mark.parametrize('authors,expected', [
-    (
-        [],
-        ""
-    ),
+@pytest.mark.parametrize('authors,expected', COMMON_EDGE_CASES + [
     (
         [("Firstname", "Lastname")],
         "Lastname, Firstname"

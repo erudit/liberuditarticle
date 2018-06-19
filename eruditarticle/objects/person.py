@@ -143,7 +143,7 @@ def _format_author_reverse(author, full_firstname=False):
         return ""
     if not lastname:
         # special edge case. we don't have a name. let's just the firstname
-        return firstname
+        return firstname or ''
     elif not firstname:
         return lastname
     if not full_firstname:
