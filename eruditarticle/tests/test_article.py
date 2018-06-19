@@ -467,24 +467,35 @@ class TestArticleCulturelMinimal(object):
         assert self.test_objects['49222ac.xml'].get_reviewed_works(strip_markup=True) == ["Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"]  # noqa
 
 
+def get_article(fixturename):
+    path = './eruditarticle/tests/fixtures/{}'.format(fixturename)
+    with open(path, 'rb') as fp:
+        return EruditArticle(fp.read())
+
+
 @pytest.mark.parametrize('fixturename,isroc', [
     ('article/culturel/minimal/34598ac.xml', False),
     ('article/savant/minimal/602354ar.xml', True),
 ])
 def test_article_is_of_type_roc(fixturename, isroc):
-    path = './eruditarticle/tests/fixtures/{}'.format(fixturename)
-    with open(path, 'rb') as fp:
-        article = EruditArticle(fp.read())
+    article = get_article(fixturename)
     assert article.is_of_type_roc == isroc
 
 
 def test_article_title_with_note():
     # An article title's note doesn't end up in the title, with or without markup.
-    path = './eruditarticle/tests/fixtures/article/savant/minimal/602354ar.xml'
-    with open(path, 'rb') as fp:
-        article = EruditArticle(fp.read())
+    article = get_article('article/savant/minimal/602354ar.xml')
     title = article.find('grtitre/titre')
     renvoi_elem = E.renvoi("foobar", id='id1', idref='idref1', typeref='note')
     title.append(renvoi_elem)
     assert 'foobar' not in article.get_formatted_title()
     assert 'foobar' not in article.get_formatted_html_title()
+
+
+@pytest.mark.parametrize('html', [True, False])
+def test_article_title_with_empty_alinea(html):
+    # an empty <alinea/> element doesn't make us crash.
+    article = get_article('article/savant/minimal/602354ar.xml')
+    resume = article.find('resume')
+    resume.append(E.alinea())
+    article.get_abstracts(html=html)  # no crash
