@@ -483,6 +483,8 @@ class EruditPublication(
             string = _('{number_str} {number}, {publication_period_lcase}')
         elif not volume and not number and publication_period:
             string = "{publication_period}"
+        else:
+            string = ''
         return string.format(**args)
 
     article_count = property(get_article_count)
