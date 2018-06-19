@@ -51,7 +51,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
                 abstract['content'] = self.convert_marquage_content_to_html(abstract_dom)
             else:
                 abstract["content"] = "".join(
-                    self.stringify_children(n)
+                    self.stringify_children(n) or ''
                     for n in self.findall("alinea", dom=abstract_dom)
                 )
 
