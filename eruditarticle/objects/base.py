@@ -5,7 +5,7 @@ import re
 import lxml.etree as et
 import six
 
-from ..utils import remove_xml_namespaces
+from ..utils import remove_xml_namespaces, normalize_whitespace
 from .dom import DomObject
 from .person import Person
 
@@ -213,7 +213,7 @@ class EruditBaseObject(DomObject):
             et.strip_elements(node, *strip_elements, with_tail=False)
         et.strip_tags(node, "*")
         if node.text is not None:
-            return re.sub(' +', ' ', node.text)
+            return normalize_whitespace(re.sub(' +', ' ', node.text))
 
     def find_paral(self, tag, paral_tag_name, html=True):
         """ Find the parallel values for the given tag using the given tag name. """

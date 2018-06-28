@@ -215,7 +215,7 @@ class TestArticleSavantComplet(object):
 
     def test_html_title(self):
         assert self.test_objects['1001948ar.xml'].get_html_title() == 'La pr&#233;cision des analystes financiers en Europe&#160;: l&#8217;effet pays et l&#8217;effet secteur revisit&#233;s'  # noqa
-        assert self.test_objects['1001948ar_alt.xml'].get_html_title() == 'La pr&#233;cision des analystes financiers en Europe&#160;: l&#8217;effet pays et l&#8217;effet secteur <strong>test</strong> test 2  revisit&#233;s'   # noqa
+        assert self.test_objects['1001948ar_alt.xml'].get_html_title() == 'La pr&#233;cision des analystes financiers en Europe&#160;: l&#8217;effet pays et l&#8217;effet secteur <strong>test</strong> test 2 revisit&#233;s'   # noqa
 
     def test_publication_period(self):
         assert self.test_objects['1001948ar.xml'].get_publication_period() == 'Juin 2010'
@@ -315,7 +315,7 @@ class TestArticleSavantComplet(object):
 
     def test_can_return_references_with_markup(self):
         references = self.test_objects['009255ar.xml'].get_references()
-        assert references[0] == {'title': "Akenside, Mark.  <em>Poems</em>.  London: J. Dodsley, 1772.", 'doi': None}  # noqa
+        assert references[0] == {'title': "Akenside, Mark. <em>Poems</em>. London: J. Dodsley, 1772.", 'doi': None}  # noqa
         assert len(references) == 53
 
     def test_html_body(self):
@@ -538,3 +538,11 @@ def test_article_title_with_empty_alinea(html):
     resume = article.find('resume')
     resume.append(E.alinea())
     article.get_abstracts(html=html)  # no crash
+
+
+def test_stringified_elements_normalize_whitespaces():
+    article = get_article('article/savant/minimal/602354ar.xml')
+    title = article.find('grtitre/titre')
+    title.text = 'foo\nbar'
+    assert article.get_formatted_title() == 'foo bar'
+    assert article.get_formatted_html_title() == 'foo bar'
