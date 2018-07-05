@@ -147,6 +147,7 @@ class EruditPublication(
             }
         return pn
 
+    # TODO fixup the get_theme, get_themes, get_html_themes, get_theme_guest_editors mess
     def parse_theme(self, theme_tag, html=False):
         """ Parse a theme tag """
 
@@ -219,15 +220,6 @@ class EruditPublication(
             return "{} : {}".format(name, subname) if subname else name
 
         return list(map(lambda t: _theme_name_formatter(t[0], t[1], t[2]), theme_name_subnames))
-
-    def get_formatted_themes(self):
-        """
-        .. warning::
-           Will be removed or modified 0.3.0
-           For more information please refer to :py:mod:`eruditarticle.objects`
-
-        :returns: the formatted themes of this publication """
-        return self.get_themes(html=True, formatted=True)
 
     def get_redacteurchef(self, typerc=None, idrefs=None, formatted=False, html=False):
         """
