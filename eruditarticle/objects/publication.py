@@ -278,20 +278,6 @@ class EruditPublication(
             redacteurchefs.append(redacteurchef_parsed)
         return redacteurchefs
 
-    def get_first_page(self):
-        """ :returns: the first page of the publication object. """
-        articles = self.findall('article')
-        if not len(articles):
-            return
-
-        first_article = articles[0]
-        try:
-            first_page = first_article.find('pagination//ppage').text
-        except AttributeError:
-            first_page = None
-
-        return first_page
-
     def get_html_theme(self):
         """
         .. warning::
@@ -324,19 +310,26 @@ class EruditPublication(
         else:
             return self._get_formatted_single_title(titles)
 
-    def get_last_page(self):
-        """ :returns: the last page of the publication object. """
+    def _get_page(self, xpath=None, first_page=True):
         articles = self.findall('article')
         if not len(articles):
             return
 
-        last_article = articles[-1]
+        article = articles[0 if first_page else -1]
         try:
-            last_page = last_article.find('pagination//dpage').text
+            page = article.find(xpath).text
         except AttributeError:
-            last_page = None
+            page = None
 
-        return last_page
+        return page
+
+    def get_first_page(self):
+        """ :returns: the first page of the publication object. """
+        return self._get_page(xpath='pagination//ppage', first_page=True)
+
+    def get_last_page(self):
+        """ :returns: the last page of the publication object. """
+        return self._get_page(xpath='pagination//dpage', first_page=False)
 
     def get_note_edito(self):
         """ :returns: the edito note associated with the publication object if any. """
