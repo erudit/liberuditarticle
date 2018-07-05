@@ -74,6 +74,9 @@ class TestAbbreviatedPublicationVolumeNumbering(object):
     def test_can_format_volume_numbering_in_case_of_horsserie(self, value):
         assert value == "N<sup>o</sup> hors-série, 2003"
 
+    @with_value("mc82_83.xml", "get_volume_numbering", formatted=True, abbreviated=True, html=True)
+    def test_can_format_double_volumes(self, value):
+        assert value == "Vol. 82–83, 2015–2016"
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication/volume_numbering', EruditPublication)
 class TestPublicationVolumeNumbering(object):

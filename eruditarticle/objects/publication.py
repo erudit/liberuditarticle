@@ -381,7 +381,8 @@ class EruditPublication(
 
     def get_volume(self):
         """ :returns: the volume of the publication object. """
-        return self.get_text('numero/volume')
+        volume_nodes = self.findall('numero/volume')
+        return '–'.join([n.text for n in volume_nodes])
 
     def get_volume_numbering(self, html=False, abbreviated=False, formatted=False):
         """ Return the volume title of this publication
