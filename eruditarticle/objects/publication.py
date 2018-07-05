@@ -147,6 +147,7 @@ class EruditPublication(
             }
         return pn
 
+    # TODO fixup the get_theme, get_themes, get_html_themes, get_theme_guest_editors mess
     def parse_theme(self, theme_tag, html=False):
         """ Parse a theme tag """
 
@@ -220,15 +221,6 @@ class EruditPublication(
 
         return list(map(lambda t: _theme_name_formatter(t[0], t[1], t[2]), theme_name_subnames))
 
-    def get_formatted_themes(self):
-        """
-        .. warning::
-           Will be removed or modified 0.3.0
-           For more information please refer to :py:mod:`eruditarticle.objects`
-
-        :returns: the formatted themes of this publication """
-        return self.get_themes(html=True, formatted=True)
-
     def get_redacteurchef(self, typerc=None, idrefs=None, formatted=False, html=False):
         """
         Return the list of redacteurchef of this Publication. If called with the default arguments,
@@ -286,20 +278,6 @@ class EruditPublication(
             redacteurchefs.append(redacteurchef_parsed)
         return redacteurchefs
 
-    def get_first_page(self):
-        """ :returns: the first page of the publication object. """
-        articles = self.findall('article')
-        if not len(articles):
-            return
-
-        first_article = articles[0]
-        try:
-            first_page = first_article.find('pagination//ppage').text
-        except AttributeError:
-            first_page = None
-
-        return first_page
-
     def get_html_theme(self):
         """
         .. warning::
@@ -332,28 +310,30 @@ class EruditPublication(
         else:
             return self._get_formatted_single_title(titles)
 
-    def get_last_page(self):
-        """ :returns: the last page of the publication object. """
+    def _get_page(self, xpath=None, first_page=True):
         articles = self.findall('article')
         if not len(articles):
             return
 
-        last_article = articles[-1]
+        article = articles[0 if first_page else -1]
         try:
-            last_page = last_article.find('pagination//dpage').text
+            page = article.find(xpath).text
         except AttributeError:
-            last_page = None
+            page = None
 
-        return last_page
+        return page
+
+    def get_first_page(self):
+        """ :returns: the first page of the publication object. """
+        return self._get_page(xpath='pagination//ppage', first_page=True)
+
+    def get_last_page(self):
+        """ :returns: the last page of the publication object. """
+        return self._get_page(xpath='pagination//dpage', first_page=False)
 
     def get_note_edito(self):
         """ :returns: the edito note associated with the publication object if any. """
         note = self.stringify_children(self.find('notegen[@typenoteg="edito"]'))
-        return note.strip() if note is not None else note
-
-    def get_note_erudit(self):
-        """ :returns: the erudit note associated with the publication object if any. """
-        note = self.stringify_children(self.find('notegen[@typenoteg="numerique"]'))
         return note.strip() if note is not None else note
 
     def get_number(self):
@@ -396,7 +376,8 @@ class EruditPublication(
 
     def get_volume(self):
         """ :returns: the volume of the publication object. """
-        return self.get_text('numero/volume')
+        volume_nodes = self.findall('numero/volume')
+        return '–'.join([n.text for n in volume_nodes])
 
     def get_volume_numbering(self, html=False, abbreviated=False, formatted=False):
         """ Return the volume title of this publication
@@ -496,7 +477,6 @@ class EruditPublication(
     journal_title = property(get_journal_title)
     last_page = property(get_last_page)
     note_edito = property(get_note_edito)
-    note_erudit = property(get_note_erudit)
     number = property(get_number)
     production_date = property(get_production_date)
     publication_date = property(get_publication_date)
