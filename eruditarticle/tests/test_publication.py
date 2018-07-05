@@ -125,6 +125,16 @@ class TestPublicationVolumeNumbering(object):
     def test_can_format_volume_numbering_horsserie_no_number(self, value):
         assert value == "Volume 32, numéro hors-série, 2008"
 
+    @with_value("as2866.xml", "get_volume_numbering")
+    def test_can_return_unformatted_volume_numbering_horsserie_no_number(self, value):  # noqa
+        assert value == {
+            'volume': '32',
+            'number': '',
+            'number_type': 'hs',
+            'publication_period': '2008',
+        }
+
+
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication/general_notes', EruditPublication)
 class TestEditorialNotes(object):
