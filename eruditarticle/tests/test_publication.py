@@ -76,7 +76,7 @@ class TestAbbreviatedPublicationVolumeNumbering(object):
 
     @with_value("mc82_83.xml", "get_volume_numbering", formatted=True, abbreviated=True, html=True)
     def test_can_format_double_volumes(self, value):
-        assert value == "Vol. 82–83, 2015–2016"
+        assert value == "Vol. 82-83, 2015–2016"
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication/volume_numbering', EruditPublication)
 class TestPublicationVolumeNumbering(object):
