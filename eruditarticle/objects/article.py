@@ -1,5 +1,6 @@
 import logging
 from collections import OrderedDict
+from xml.etree import ElementTree
 
 from .base import EruditBaseObject
 from .mixins import CopyrightMixin
@@ -174,9 +175,11 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         The keywords are returned as an ``OrderedDict`` index by language code.
         """
         keywords = OrderedDict()
-
         for tree_keywords in self.findall('grmotcle'):
-            keywords[tree_keywords.get('lang')] = [n.text for n in tree_keywords.findall('motcle')]
+            lang_keywords = keywords[tree_keywords.get('lang')] = []
+            for n in tree_keywords.findall('motcle'):
+                s = ElementTree.tostring(n, encoding='utf8', method='text')
+                lang_keywords.append(s.decode('utf-8').strip())
         return keywords
 
     def get_languages(self):
