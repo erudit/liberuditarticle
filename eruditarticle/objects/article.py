@@ -178,8 +178,12 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         for tree_keywords in self.findall('grmotcle'):
             lang_keywords = keywords[tree_keywords.get('lang')] = []
             for n in tree_keywords.findall('motcle'):
-                s = ElementTree.tostring(n, encoding='utf8', method='text')
-                lang_keywords.append(s.decode('utf-8').strip())
+                if html:
+                    s = self.convert_marquage_content_to_html(n)
+                else:
+                    s = ElementTree.tostring(n, encoding='utf8', method='text')
+                    s = s.decode('utf-8').strip()
+                lang_keywords.append(s)
         return keywords
 
     def get_languages(self):
