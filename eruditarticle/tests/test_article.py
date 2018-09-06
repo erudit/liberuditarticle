@@ -87,6 +87,17 @@ class TestGetKeywords:
     def test_can_return_equivalent_keywords_in_the_lang_order_defined_in_the_article(self, value):  # noqa
         assert tuple(value.keys()) == ('fr', "en", "pt",)
 
+    @with_value('1043568ar.xml', 'get_keywords')
+    def test_can_remove_tags_in_keywords(self, value):  # noqa
+        assert value['fr'] == ['formation à l’enseignement', 'postures en formation',
+                               'rapport à l’évaluation', 'rapport au savoir']
+
+    @with_value('1043568ar.xml', 'get_keywords', html=True)
+    def test_can_convert_marquage_in_keywords(self, value):  # noqa
+        assert value['fr'] == ['formation &#224; l&#8217;enseignement',
+                               '<span class=""><em>postures en formation</em></span>',
+                               'rapport &#224; l&#8217;&#233;valuation', 'rapport au savoir']
+
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/section_titles', EruditArticle)
 class TestSectionTitle(object):
