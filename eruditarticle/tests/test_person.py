@@ -69,6 +69,18 @@ def test_empty_author():
         [("First1", "Last1", "Other1"), ("First2", "Last2", "Other2")],
         "Last1, First1 O. et First2 O. Last2."
     ),
+    (
+        [(None, None)],
+        ""
+    ),
+    (
+        [("Firstname", None)],
+        "Firstname."
+    ),
+    (
+        [(None, "Lastname")],
+        "Lastname."
+    ),
 ])
 def test_format_authors_mla(authors, expected):
     authors = [FakePerson(*args) for args in authors]

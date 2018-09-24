@@ -131,6 +131,8 @@ def _format_author_reverse(author, full_firstname=False):
     lastname = author.lastname
     firstname = author.firstname
     othername = author.othername
+    if not lastname and not firstname:
+        return ""
     if not lastname:
         # special edge case. we don't have a name. let's just the firstname
         return firstname
@@ -165,7 +167,7 @@ def format_authors_mla(authors):
         result = _("{} et {}").format(single1(first), single2(second))
     else:
         result = _("{}, et al").format(single1(authors[0]))
-    if not result.endswith('.'):
+    if len(result) and not result.endswith('.'):
         result += '.'
     return result
 
