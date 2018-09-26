@@ -59,10 +59,11 @@ class DomObject:
         """
         if node is None:
             return
+        node = copy(node)
         if strip_elements:
             et.strip_elements(node, *strip_elements, with_tail=False)
         # Converts <marquage> tags to HTML
-        _node = xslt.marquage_to_html(copy(node))
+        _node = xslt.marquage_to_html(node)
         # Strip all other tags but keep text
         et.strip_tags(
             _node,
