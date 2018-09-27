@@ -59,10 +59,11 @@ class DomObject:
         """
         if node is None:
             return
+        node = copy(node)
         if strip_elements:
             et.strip_elements(node, *strip_elements, with_tail=False)
         # Converts <marquage> tags to HTML
-        _node = xslt.marquage_to_html(copy(node))
+        _node = xslt.marquage_to_html(node)
         # Strip all other tags but keep text
         et.strip_tags(
             _node,
@@ -70,6 +71,6 @@ class DomObject:
                 node.tag, 'caracunicode', 'citation', 'equationligne', 'exposant', 'indice',
                 'liensimple', 'marquepage', 'objetmedia', 'renvoi'
             ])
-        _html = et.tostring(_node.getroot())
+        _html = et.tostring(_node.getroot(), method='html')
         output = _html.split(b'>', 1)[1].rsplit(b'<', 1)[0]
         return output.decode('utf-8')
