@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<originator username="grondin" date="2018-04-20" app="Tournesol 0.4.2"/>
+
+
+
+<infosommaire>
+  <fonds>unb</fonds>
+  <url>/revue/mcr/2016/v82-83</url>
+  <nbarticle>22</nbarticle>
+  <revue id="MCR" lang="fr">
+    <titrerev>Material Culture Review</titrerev>
+    <titrerevabr>mcr</titrerevabr>
+    <idissn>1718-1259</idissn>
+    <idissnnum>0000-0000</idissnnum>
+    <directeur sexe="masculin">
+      <fonction lang="fr">Managing Editor / Directeur administratif</fonction>
+      <nompers>
+        <prenom>Richard</prenom>
+        <nomfamille>MacKinnon</nomfamille>
+      </nompers>
+      <key>managingeditor/directeuradministratif</key>
+    </directeur>
+    <directeur sexe="masculin">
+      <fonction lang="fr">Associate Editor / Rédacteur associé</fonction>
+      <nompers>
+        <prenom>Yves</prenom>
+        <nomfamille>Bergeron</nomfamille>
+      </nompers>
+      <key>associateeditor/redacteurassocie</key>
+    </directeur>
+    <directeur sexe="feminin">
+      <fonction lang="fr">Exhibition Review Editor / Responsable des comptes rendus d’expositions</fonction>
+      <nompers>
+        <prenom>Julia</prenom>
+        <nomfamille>Lum</nomfamille>
+      </nompers>
+      <key>exhibitionrevieweditor/responsabledescomptesrendusd’expositions</key>
+    </directeur>
+    <directeur sexe="feminin">
+      <fonction lang="fr">English Language Review Editor / Responsable des comptes rendus en anglais</fonction>
+      <nompers>
+        <prenom>Holly</prenom>
+        <nomfamille>Everett</nomfamille>
+      </nompers>
+      <key>englishlanguagerevieweditor/responsabledescomptesrendusenanglais</key>
+    </directeur>
+    <redacteurchef sexe="masculin" typerc="regulier">
+      <nompers>
+        <prenom>Richard</prenom>
+        <nomfamille>MacKinnon</nomfamille>
+      </nompers>
+      <key>redacteurchef</key>
+    </redacteurchef>
+  </revue>
+  <numero id="MCR82_83">
+    <volume>82</volume>
+    <volume>83</volume>
+    <pub>
+      <annee>2015</annee>
+      <annee>2016</annee>
+    </pub>
+    <pubnum>
+      <date>2016-03-01</date>
+    </pubnum>
+  </numero>
+  <editeur id="CBUP">
+    <nomorg>Cape Breton University Press</nomorg>
+    <key>editeur</key>
+  </editeur>
+  <droitsauteur>All rights reserved © <nomorg>Cape Breton University Press</nomorg>,
+   2017</droitsauteur>
+</infosommaire>
+
+<article idproprio="mcr82_83fm01" lang="en" qualtraitement="minimal" typeart="autre" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25613/29715</urlpdf>
+  <pagination>
+    <ppage>i</ppage>
+    <dpage>iv</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Front Matter</surtitre>
+     <titre>Front Matter</titre>
+   
+   </grtitre>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83art01" lang="en" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25614/29716</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25614/29717</urlpdf>
+  <urlplan>https://journals.lib.unb.ca/index.php/mcr/article/view/25614/29716?vue=plan</urlplan>
+  <pagination>
+    <ppage>1</ppage>
+    <dpage>9</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Articles</surtitre>
+     <titre>Black History Month
+     Programs</titre>
+   <sstitre>Performance and Heritage</sstitre>
+   </grtitre>
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>Wanda</prenom>
+     <autreprenom>G.</autreprenom>
+     
+
+    <nomfamille>Addison</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>National University</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+  
+
+ <resume lang="en">
+     <titre>Abstract</titre>
+<alinea><marquage typemarq="italique">Implications embedded in Black History Month programs access desires for cultural recognition of African American contributions and history within the United States. Equally important at these events is the implicit furthering of knowledge and connection to the past and the sustainability of African American heritage and culture. Concepts of “home” as historical, national, and individual community, infuse each performance and support and encourage connections that in turn insist on the removal of myopic considerations of cultural subjectivity and sustainability. Black History Month programs revision “home” through counter-stories of Blackness in America and American-ness in Black America.</marquage></alinea>
+  
+
+ </resume>
+  
+
+ <resume lang="fr">
+     <titre>Résumé</titre>
+   <alinea><marquage typemarq="italique">Les programmes du Mois de l’histoire des Noirs répondent implicitement aux désirs de reconnaissance culturelle des contributions et de l’histoire des Afro-américains aux États-Unis. Lors de ces évènements, l’approfondissement implicite de la connaissance, la relation au passé et la durabilité de la culture et du patrimoine afro-américains sont tout aussi importants. Les concepts de « chez soi » en tant que communauté historique, nationale et individuelle inspirent toutes les séances et soutiennent et encouragent des connexions qui, en retour, insistent pour que l’on abandonne les considérations à courte vue au sujet de la subjectivité culturelle et de la durabilité. Les programmes du Mois de l’histoire des Noirs revisitent le « chez soi » au moyen de contrerécits portant sur le fait d’être Noir en Amérique et d’être Américain dans l’Amérique noire.</marquage></alinea>
+  
+
+ </resume>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83art02" lang="en" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25615/29718</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25615/29719</urlpdf>
+  <urlplan>https://journals.lib.unb.ca/index.php/mcr/article/view/25615/29718?vue=plan</urlplan>
+  <pagination>
+    <ppage>10</ppage>
+    <dpage>25</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Articles</surtitre>
+     <titre>Between Orchard and
+     Highway</titre>
+   <sstitre>Roadside Produce Stands as Rural Artifact and Enterprise</sstitre>
+   </grtitre>
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>Jan</prenom>
+     
+
+    <nomfamille>Hadlaw</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>York University</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+   
+
+  <auteur id="au2">
+    
+
+   <nompers>
+     
+
+    <prenom>Ben</prenom>
+     
+
+    <nomfamille>Bradley</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>University of Alberta</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+  
+
+ <resume lang="en">
+     <titre>Abstract</titre>
+   <alinea><marquage typemarq="italique">Family-built, owned, and operated fruit stands sprouted up along the major roads of British Columbia’s southern Interior in the early 1950s, when “farm-gate” sales were the only way to sell fruit outside the province’s co-operative marketing system. Early fruit stands were often no more than crates of produce displayed at the point where orchard met road, but over time some became central to their owners’ orchard operations and were further enlarged and improved. Using two of BC’s longest-running fruit stand operations as case studies, this article traces the emergence, evolution, and persistence of this familiar yet oft-overlooked form of vernacular commercial and agricultural architecture, which has been a signature feature of the region’s landscape for more than half a century.</marquage></alinea>
+  
+
+ </resume>
+  
+
+ <resume lang="fr">
+     <titre>Résumé</titre>
+   <alinea><marquage typemarq="italique">Fruits famille-construit, détenue et exploitée se dresse bientôt poussé vers le haut le long des principales routes du sud de l’intérieur de la Colombie-Britannique dans les années 1950, quand les ventes « ferme » étaient le seul moyen de vendre les fruits en dehors de la coopérative de la province, système de commercialisation. Les peuplements de fruits début n’étaient souvent pas plus que les caisses de produisent affichée à l’endroit où verger a rencontré road, mais au fil du temps certains est devenu central dans les opérations de verger de leurs propriétaires et ont été élargies et améliorées. En utilisant deux des fruits longs de BC stand opérations comme études de cas, cet article retrace l’émergence, l’évolution et la persistance de cette forme familière et pourtant souvent négligé de l’architecture vernaculaire commercial et agricole, qui est une caractéristique du paysage de la région depuis plus d’un demi-siècle.</marquage></alinea>
+  
+
+ </resume>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83art03" lang="en" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25616/29720</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25616/29721</urlpdf>
+  <pagination>
+    <ppage>26</ppage>
+    <dpage>42</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Articles</surtitre>
+     <titre>Going Strong</titre>
+   <sstitre>The Role of Physical Strength among the Scots of Eastern Nova
+     Scotia and Cape Breton</sstitre>
+   </grtitre>
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>Laura</prenom>
+     
+
+    <nomfamille>Stanley-Blackwell</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>St. Francis Xavier University</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+   
+
+  <auteur id="au2">
+    
+
+   <nompers>
+     
+
+    <prenom>Shamus</prenom>
+     <autreprenom>Y.</autreprenom>
+     
+
+    <nomfamille>MacDonald</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>Memorial University</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+  
+
+ <resume lang="en">
+     <titre>Abstract</titre>
+   <alinea><marquage typemarq="italique">Drawing on the disciplines of social history and folklore, this article examines a much-neglected dimension of local story lore—feats of strength stories—among the immigrant Scots and their descendants in Eastern Nova Scotia and Cape Breton. Fieldwork conducted in both Gaelic and English, as well as print sources, document the rich prevalence of stories about exceptional physical strength and stamina, which once served as vital expressions of identity and community. These stories still form a vigorous component of the regional folktale corpus and represent a favourite genre among tradition bearers.</marquage></alinea>
+  
+
+ </resume>
+  
+
+ <resume lang="fr">
+     <titre>Résumé</titre>
+  <alinea><marquage typemarq="italique">Cet article, qui s’inspire de données propres au folklore et à l’histoire sociale, examine une dimension trop longtemps négligée des traditions locales—les exploits de personnes fortes—parmi les immigrants écossais, ainsi que leurs descendants dans l’est de la Nouvelle-Écosse et au Cap Breton. Des interviews menées tant en gaélique qu’en anglais, de même que des recherches dans des sources imprimées, révèlent une abondante collection d’histoires au sujet d’individus possédant une force physique exceptionelle; de plus, ces récits servirent à cette époque à exprimer leur identité et leur sens communautaire. Ces histoires font toujours partie du recueil de contes populaires dans la région et représentent un genre très apprécié de ceux et celles qui transmettent cette tradition orale.</marquage></alinea>
+  
+
+ </resume>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83art04" lang="en" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25617/29722</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25617/29723</urlpdf>
+  <urlplan>https://journals.lib.unb.ca/index.php/mcr/article/view/25617/29722?vue=plan</urlplan>
+  <pagination>
+    <ppage>43</ppage>
+    <dpage>56</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Articles</surtitre>
+     <titre>Intangible Cultural Heritage
+     Revitalization for Development and Tourism</titre>
+   <sstitre>The Case of Purulia Chhau Dance</sstitre>
+   </grtitre>
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>Stefania</prenom>
+     
+
+    <nomfamille>Cardinale</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>London Metropolitan University</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+  
+
+ <resume lang="en">
+     <titre>Abstract</titre>
+   <alinea><marquage typemarq="italique">UNESCO’s recent Conventions (2003 and 2005) take intangible heritage’s potential into account through integrating cultural expressions, practices and traditions into development frameworks. However, how this integration should happen in the realm of the practice and what impacts would result from it is crucial in defining also the safeguarding of intangible heritage. This article will investigate how the intangible cultural heritage (ICH) of Chhau dance of Purulia India, was accommodated in a development project. A critical examination of actors involved and actions of the project, through an actor-network perspective, will discuss what this meant in relation to the heritage. The article highlights that the actions of integrating intangible heritage into a development project framework translated into the revitalisation of the cultural element, considered an outdated cultural product in need of modernisation. To what extent has the traditional form of art changed in line with project and development expectations?</marquage></alinea>
+  
+
+ </resume>
+  
+
+ <resume lang="fr">
+     <titre>Résumé</titre>
+   <alinea><marquage typemarq="italique">Lorsque le patrimoine immatériel intègre les marchés et le niveau international, il se produit des problèmes d’interprétation des patrimoines locaux. À partir d’une étude de cas, cet article présente l’histoire des praticiens de la danse Chhau et leur relation à la modernisation dans le cadre du projet Art pour vivre [Art for livelihood] en Inde. Cet article met en évidence les opinions des acteurs dans le cours de ce projet qui aboutit à faire coexister différentes « identités » du patrimoine Chhau pour des audiences différentes – locale, internationale et liste de l’UNESCO. La théorie de l’acteur-réseau confère son armature à cette étude de cas qui permet d’analyser de façon critique la compréhension des points de vue des acteurs et du déséquilibre des relations. </marquage></alinea>
+  
+
+ </resume>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83art05" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25618/29724</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25618/29725</urlpdf>
+  <urlplan>https://journals.lib.unb.ca/index.php/mcr/article/view/25618/29724?vue=plan</urlplan>
+  <pagination>
+    <ppage>57</ppage>
+    <dpage>70</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Articles</surtitre>
+     <titre>Apports du réalisateur et des
+     communautés sur les films documentaires réalisés pour l’UNESCO sur le Patrimoine Culturel
+     Immatériel </titre>
+   </grtitre>
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>Tifenn</prenom>
+     
+
+    <nomfamille>Dinesh-Gourlay</nomfamille>
+    
+
+   </nompers>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+  
+
+ <resume lang="en">
+     <titre>Abstract</titre>
+   <alinea><marquage typemarq="italique">This submission deals with the messages expressed by ethnologists who have produced documentary films on topics that are included in UNESCO’s survey of Intangible Culture. The article examines the values promoted by ICH through images and sounds, taking into account the point of view of the director as well as the community’s judgement of the values that should be publicly presented.</marquage></alinea> <alinea><marquage typemarq="italique">The ideas expressed by directors and creators in conversations about their work are highlighted in the study. The various viewpoints expressed by the directors of documentaries dealing with ICH are observed, in an attempt to discern the influence a director can have on the outcome of his or her film. </marquage></alinea> <alinea><marquage typemarq="italique">The ultimate goal is to establish a theoretical space linking documentary film and heritage, in order to define an anthropology of emotions leading to an interplay of roles between the person who is filming, the subject being filmed and the audience.</marquage></alinea>
+  
+
+ </resume>
+  
+
+ <resume lang="fr">
+     <titre>Résumé</titre>
+   <alinea><marquage typemarq="italique">Cette contribution porte sur les messages véhiculés par les ethnologues ayant réalisé les films documentaires portant sur les éléments du Patrimoine culturel immatériel inscrits sur la liste de l’UNESCO. Prenant en compte à la fois le regard du réalisateur et le poids des communautés sur les valeurs qui doivent être transmises au public, cet article examine les valeurs du PCI par le biais de l’image et du son.</marquage></alinea> <alinea><marquage typemarq="italique">S’appuyant également sur les propos tenus lors d’entretiens par les réalisateurs et les concepteurs au sujet de leur travail, cette étude vise à identifier les différentes déclinaisons du regard du réalisateur dans le documentaire sur le PCI, en constatant l’apport et l’influence qu’un réalisateur peut avoir sur son film.</marquage></alinea> <alinea><marquage typemarq="italique">Il s’agit donc d’ouvrir un espace théorique entre film documentaire et patrimoine, de définir une anthropologie émotionnelle conduisant à une interaction entre l’instance qui filme, l’instance filmée et l’instance réceptrice. </marquage></alinea>
+  
+
+ </resume>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83art06" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25619/29726</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25619/29727</urlpdf>
+  <urlplan>https://journals.lib.unb.ca/index.php/mcr/article/view/25619/29726?vue=plan</urlplan>
+  <pagination>
+    <ppage>71</ppage>
+    <dpage>83</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+      
+
+  <surtitre>Articles</surtitre>
+        <titre>Repenser le développement
+          durable </titre>
+      <sstitre>quel rôle pour les savoir-faire et les métiers d’art ?</sstitre>
+     </grtitre>
+    
+
+ <grauteur>
+      
+
+  <auteur id="au1">
+        
+
+   <nompers>
+          
+
+    <prenom>Francesca</prenom>
+          
+
+    <nomfamille>Cominelli</nomfamille>
+        
+
+   </nompers>
+      
+
+  </auteur>
+    
+
+ </grauteur>
+    
+
+ <resume lang="en">
+        <titre>Abstract</titre>
+      <alinea><marquage typemarq="italique">Rethinking sustainable development: Is there a role for
+          know-how and crafts? In an economic environment characterized by extreme competition
+          between companies, the need to open up increasingly distant markets and the difficulties
+          created by the economic and financial crisis, it is necessary to redefine the foundations
+          for the development of contemporary societies. Can intangible cultural heritage (ICH),
+          work of excellence and passion, respect for the environment, and diversity of local
+          practices, permanent innovation, and creativity be the starting points for a new kind of
+          sustainable development? To develop this problem, this paper will focus on a specific
+          element of the ICH: know-how related to traditional practices and, in particular, crafts.
+          In this context, two cases of study are presented: The practice of dry stone construction
+          in the department of Vaucluse, which shows the essential contribution of know-how to
+          spatial planning and more broadly sustainable development; The manufacture of tapestries
+          in Aubusson, emphasizing the need to avoid the weakening of the sectors and the relocation
+          of certain phases of production in order to create local and sustainable economic
+          dynamics. From the presentation of these case studies, this paper will highlight the idea
+          that the safeguarding of ICH should not be conceived of as the simple preservation of
+          know-how or as a vestige of the past. On the contrary, safeguarding must be thought out
+          and implemented in a dynamic way, taking into account the crucial role of
+          know-how.</marquage></alinea>
+    
+
+ </resume>
+    
+
+ <resume lang="fr">
+        <titre>Résumé</titre>
+      <alinea><marquage typemarq="italique">Dans un environnement économique caractérisé par une
+          extrême concurrence entre les entreprises, la nécessité de s’ouvrir à des marchés de plus
+          en plus éloignés et les difficultés engendrées par les crises économiques et financières,
+          redéfinir les fondements du développement des sociétés contemporaines s’impose avec
+          urgence. Le patrimoine culturel immatériel (PCI), le travail d’excellence et de passion,
+          le respect de l’environnement et de la diversité des pratiques locales, l’innovation
+          permanente et la créativité peuvent‐ils constituer les points de départ d’une nouvelle
+          conception du développement qui se veut durable ?</marquage></alinea>
+      <alinea><marquage typemarq="italique">Pour développer cette problématique, le papier se
+          focalisera sur un élément spécifique du PCI : les savoir‐faire liés à l’artisanat
+          traditionnel et en particulier aux métiers d’art. Dans ce cadre, deux cas d’étude seront
+          présentés :</marquage></alinea>
+      <bloccitation>
+        <alinea><marquage typemarq="italique">‐ La pratique de la pierre sèche dans le département
+            de la Vaucluse, qui montre la contribution essentielle des savoir‐faire à l’aménagement
+            du territoire et plus largement au développement durable.</marquage></alinea></bloccitation>
+      <bloccitation>
+        <alinea><marquage typemarq="italique">‐ La fabrication des tapisseries à Aubusson, qui
+            souligner la nécessité d’éviter la fragilisation des filières et la délocalisation des
+            certaines phases de la production, afin de créer des dynamiques économiques locales et
+            durables.</marquage></alinea>
+      </bloccitation>
+      <alinea><marquage typemarq="italique">A partir de la présentation de ces cas d´étude, le
+          papier mettra en évidence l’idée que la sauvegarde du PCI ne devrait pas être conçue dans
+          une logique de conservation des savoir‐faire, comme étant un vestige du passé. Au
+          contraire la sauvegarde pourrait être pensée et mise en oeuvre de manière dynamique en
+          tenant compte du rôle crucial que les savoir-faire, et plus en général le PCI, jouent dans
+          ’avenir des sociétés contemporaines.</marquage></alinea>
+    
+
+ </resume>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83art07" lang="en" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25620/29728</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25620/29729</urlpdf>
+  <urlplan>https://journals.lib.unb.ca/index.php/mcr/article/view/25620/29728?vue=plan</urlplan>
+  <pagination>
+    <ppage>84</ppage>
+    <dpage>96</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Articles</surtitre>
+     <titre>Learning experiences about
+     intangible heritage conservation for sustainability in biosphere reserves</titre>
+   </grtitre>
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>Cládia</prenom>
+     <autreprenom>S.</autreprenom>
+     
+
+    <nomfamille>Karez</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>Federal University of Rio de Janeiro</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+   
+
+  <auteur id="au2">
+    
+
+   <nompers>
+     
+
+    <prenom>Juan</prenom>
+     <autreprenom>M.</autreprenom>
+     
+
+    <nomfamille>Hernández Faccio</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>Universidad de la República</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+   
+
+  <auteur id="au3">
+    
+
+   <nompers>
+     
+
+    <prenom>Elke</prenom>
+     
+
+    <nomfamille>Schüttler</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>Universidad Católica de Chile</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+   
+
+  <auteur id="au4">
+    
+
+   <nompers>
+     
+
+    <prenom>Ricardo</prenom>
+     
+
+    <nomfamille>Rozzi</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>University of North Texas</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+   
+
+  <auteur id="au5">
+    
+
+   <nompers>
+     
+
+    <prenom>Maritza</prenom>
+     
+
+    <nomfamille>Garcia</nomfamille>
+    
+
+   </nompers>
+   
+
+  </auteur>
+   
+
+  <auteur id="au6">
+    
+
+   <nompers>
+     
+
+    <prenom>Ángela</prenom>
+     <autreprenom>Yadira</autreprenom>
+     
+
+    <nomfamille>Meza</nomfamille>
+    
+
+   </nompers>
+   
+
+  </auteur>
+   
+
+  <auteur id="au7">
+    
+
+   <nompers>
+     
+
+    <prenom>Migueal</prenom>
+     
+
+    <nomfamille>Clüsener-Godt</nomfamille>
+    
+
+   </nompers>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+  
+
+ <resume lang="en">
+     <titre>Abstract</titre>
+   <alinea><marquage typemarq="italique">This paper presents case studies on different approaches to sustainable development carried out in the UNESCO MAB (Man and Biosphere) World Biosphere Reserve Network in Latin America and the Caribbean. In 2012, Latin America and the Caribbean had 116 biosphere reserves designated in 21 countries. In this region several biosphere reserves have implemented important management actions towards sustainable development by conserving ecosystem services and biodiversity (UNESCO 2006; 2008). These case studies highlight good practices on the use of traditional knowledge by scientific research and education for cultural and biological diversity conservation to the benefit of local and Indigenous communities. They focus on improving recognition of the unique ecological knowledge of these communities in Cabo de Hornos (Chile) and Bosawas (Nicaragua), and in the Caribbean: Sierra del Rosario and Cuchilla del Toa (Cuba). Moreover, they explore and reinforce the links between biological and cultural diversities in these outstanding sites, through local and Indigenous knowledge for the sustainable management of those sites.</marquage></alinea> 
+
+ </resume>
+  
+
+ <resume lang="fr">
+     <titre>Résumé</titre>
+   <alinea><marquage typemarq="italique">Cet article présente des études de cas de différentes approches du développement durable réalisées sous l’égide du Réseau mondial des réserves de biosphère de la division Homme et biosphère de l’UNESCO en Amérique latine et dans les Caraïbes. En 2012, l’Amérique latine et les Caraïbes possédaient 116 réserves de biosphère désignées dans 21 pays. Dans cette région, plusieurs réserves de biosphère ont mis en œuvre d’importantes actions de gestion visant le développement durable en conservant les services écosystémiques et biodiversité. UNESCO 2006; 2008). Ces études de cas mettent en lumière les bonnes pratiques concernant l’usage qui est fait du savoir traditionnel par la recherche et l’enseignement scientifiques en vue de la conservation de la diversité culturelle et biologique au bénéfice des communautés locales et autochtones. Elles se concentrent sur l’amélioration du savoir écologique unique de ces communautés du cap Horn (Chili) et de la réserve Bosawas (Nicaragua) ainsi que, dans les Caraïbes, de la Sierra del Rosario et de la Cuchillas del Toa (Cuba). En outre, elles explorent et renforcent les liens entre la diversité culturelle et la diversité biologique dans ces sites exceptionnels par le biais du savoir local et autochtone pour la gestion durable de ces sites.</marquage></alinea>
+  
+
+ </resume>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83art08" lang="en" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25621/29730</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25621/29731</urlpdf>
+  <urlplan>https://journals.lib.unb.ca/index.php/mcr/article/view/25621/29730?vue=plan</urlplan>
+  <pagination>
+    <ppage>97</ppage>
+    <dpage>112</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Articles</surtitre>
+     <titre>Exchanges and
+     Hybridities</titre>
+   <sstitre>Red Leggings and Rubbaboos in the Fur Trade, 1600s-1800s</sstitre>
+   </grtitre>
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>Daniel</prenom>
+     <autreprenom>R.</autreprenom>
+     
+
+    <nomfamille>Laxer</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>McGill-Queen's University</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+  
+
+ <resume lang="en">
+     <titre>Abstract</titre>
+  <alinea><marquage typemarq="italique">In the North American fur trade, food and clothing were among the most frequently exchanged material, serving both as necessities of life and expressions of identity. Not only were materials exchanged but new fashions and tastes developed among fur traders and First Nations across North America from the 1600s to the early 1800s. This article examines these two realms of material culture through the link of sensory history, suggesting that they were central to the experiences of the fur trade and indicate patterns of cultural exchange and reciprocity. Dress and diet were key signposts of identity and markers of difference, yet patterns of material exchanges during the expansion of the North American fur trade produced hybrid styles in both clothing and food that were geographically widespread. Examining material culture through a sensory history approach reveals new understandings of the adaptations that shaped the fur trade.</marquage></alinea>
+  
+
+ </resume>
+  
+
+ <resume lang="fr">
+     <titre>Résumé</titre>
+  <alinea><marquage typemarq="italique">À l’époque de la traite des fourrures en Amérique du Nord, les objets matériels les plus fréquemment échangés étaient la nourriture et les vêtements, qui servaient autant aux nécessités de la vie qu’à exprimer une identité. Non seulement ces objets étaient-ils échangés, mais de nouvelles modes et de nouveaux goûts se sont répandus chez les traiteurs de fourrures et les gens des Premières nations à travers l’Amérique du Nord, depuis le XVII<exposant>e</exposant> siècle jusqu’au début du XIX<exposant>e</exposant> siècle. Cet article examine ces deux domaines de la culture matérielle au prisme de l’histoire sensorielle, montrant qu’ils étaient essentiels à l’expérience de la traite des fourrures et indiquant des schémas d’échanges culturels et de réciprocité. La coutume vestimentaire et le régime alimentaire étaient des signaux identitaires et des marqueurs de différence, et cependant les schémas d’échanges matériels au cours de l’expansion de la traite des fourrures nord-américaine ont produit des styles hybrides d’habillement et de nourriture qui ont connu une grande extension géographique. Approcher la culture matérielle au moyen de l’histoire sensorielle permet de révéler de nouvelles compréhensions des adaptations qui ont façonné la traite des fourrures.</marquage></alinea>
+  
+
+ </resume>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83art09" lang="en" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25622/29732</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25622/29733</urlpdf>
+  <urlplan>https://journals.lib.unb.ca/index.php/mcr/article/view/25622/29732?vue=plan</urlplan>
+  <pagination>
+    <ppage>113</ppage>
+    <dpage>130</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Articles</surtitre>
+     <titre>Listening to
+    Noise</titre>
+   <sstitre>An Interactive Soundscape Installation that Transforms Place
+     in the Service of Intangible Cultural Heritage</sstitre>
+   </grtitre>
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>Aaron</prenom>
+     
+
+    <nomfamille>Liu-Rosenbaum</nomfamille>
+    
+
+   </nompers>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+  
+
+ <resume lang="en">
+     <titre>Abstract</titre>
+   <alinea><marquage typemarq="italique">Emerging technologies offer unprecedented opportunities for creating and preserving intangible cultural heritage. At the same time, these technologies pose fresh challenges to both our understanding and preservation of cultural heritage as new practices emerge through the interchange between traditional practices and current technologies. In the field of music, these new practices have blurred an already tenuous distinction between music and noise, which requires a more inclusive definition of intangible cultural heritage with regard to sound. This article will examine the case of an interactive sound installation that engaged the local community with environmental noise in the form of a sound portrait of Quebec as a lens through which to explore the above issues.</marquage></alinea>
+  
+
+ </resume>
+  
+
+ <resume lang="fr">
+     <titre>Résumé</titre>
+   <alinea><marquage typemarq="italique">Les nouvelles technologies offrent des possibilités sans précédent pour la création et la préservation du patrimoine culturel immatériel. L’intégration de ces technologies, cependant, pose à la fois de nouveaux défis à notre connaissance et à la préservation du patrimoine culturel, alors que de nouvelles pratiques surviennent lors de l’échange entre les pratiques traditionnelles et les technologies d’aujourd’hui. Dans le domaine de la musique, ces nouvelles pratiques affaiblissent une distinction déjà fragile entre la musique et le bruit, ce qui exige une définition plus à jour du patrimoine culture immatériel en ce qui concerne le son. Cet article prendra l’exemple d’une installation sonore interactive qui a sensibilisé les visiteurs au bruit environnemental sous la forme d’un portrait sonore de Québec, utilisée comme une lentille à travers laquelle explorer les questions ci-dessus.</marquage></alinea>
+  
+
+ </resume>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83art10" lang="en" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25623/29734</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25623/29735</urlpdf>
+  <urlplan>https://journals.lib.unb.ca/index.php/mcr/article/view/25623/29734?vue=plan</urlplan>
+  <pagination>
+    <ppage>131</ppage>
+    <dpage>142</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Articles</surtitre>
+     <titre>Intangible Cultural Heritage,
+     Folklorists, and TCPs in the Hawaiian Context</titre>
+   </grtitre>
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>Margaret</prenom>
+     
+
+    <nomfamille>Magat</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>University of Pennsylvania</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+  
+
+ <resume lang="en">
+     <titre>Abstract</titre>
+   <alinea><marquage typemarq="italique">In the world of cultural resource management, the work is often done by archaeologists and policy makers. Ethnographic studies or surveys of traditional cultural properties are usually conducted by individuals other than a trained folklorist or ethnographer. Yet in such studies of cultural impact assessment or projects involving federal funding such as Section 106 where consultation with the community is required in order to identify traditional cultural properties, folklorists with their understanding of the intangible as well as the material aspects of culture are particularly poised to answer the challenges in working with cultural properties. The notion of “cultural attachment” which integrate both the tangible and intangible (Maly 1999) often poses a challenge to those used to dealing just with the physical dimensions of material culture. In Hawai‘i, where natural resources such as hills or mountains as well as ocean currents are seen as cultural resources, there is often conflict between the community and those seeking to develop the place. Hawaiian living traditions include the cultural practice of mo‘olelo (stories, knowledge, opinion) surrounding wahi pana (sacred, legendary place), which anchor the intangible living traditions to a physical place or site which can qualify as a traditional cultural property. The conflicts tend to arise when those in cultural resource management fail to understand the critical intertwining of the intangible cultural heritage with the visible environment seen by Hawaiians in a different light. This paper explores the field of cultural resource management and how a folklorist’s understanding of “cultural attachment” and world view can assist in the understanding of traditional cultural properties which are intertwined with the intangible cultural heritage of living Hawaiians. </marquage></alinea>
+  
+
+ </resume>
+  
+
+ <resume lang="fr">
+     <titre>Résumé</titre>
+  <alinea><marquage typemarq="italique">Dans l’univers de la gestion des ressources culturelles, le travail est souvent réalisé par des archéologues et des décideurs politiques. Les études ethnographiques ou les enquêtes portant sur les propriétés culturelles traditionnelles sont en général menées par d’autres personnes que des ethnographes ou ethnologues ayant été formés à cette fin. Et cependant, pour des études telles que les évaluations d’impact culturel ou les projets tels que la Section 106, impliquant un financement du gouvernement fédéral, où il est nécessaire de consulter les communautés afin d’identifier les propriétés culturelles traditionnelles, les ethnologues, avec leur compréhension des aspects tant immatériels que matériels de la culture, sont particulièrement aptes à répondre aux difficultés que pose la propriété culturelle. La notion « d’attachement à la culture », qui prend en compte à la fois le matériel et l’immatériel (Maly 1999), représente souvent un défi pour ceux qui ont l’habitude de ne travailler que sur les dimensions physiques de la culture matérielle. À Hawaï, où les ressources naturelles telles que les collines ou les montagnes, de même que les courants océaniques, sont souvent considérées comme des ressources culturelles, des conflits se déclarent souvent entre les communautés et ceux qui cherchent à développer les lieux. Les traditions de vie hawaïennes comprennent la pratique culturelle du mo‘olelo (histoires, savoirs, opinions) qui entoure les wahi pana (lieux sacrés des légendes), qui ancrent les traditions immatérielles de la vie dans des lieux ou des sites physiques répondant aux critères de la propriété culturelle traditionnelle. Les conflits tendent à apparaître lorsque les personnes en charge de la gestion des ressources culturelles ne parviennent pas à comprendre que le patrimoine culturel immatériel est inextricablement lié à l’environnement que les Hawaïens voient sous un jour différent. Cet article explore le domaine de la gestion des ressources culturelles et la façon dont les ethnologues, avec leur compréhension de « l’attachement à la culture » et des différentes visions du monde, peuvent contribuer à la compréhension des propriétés culturelles traditionnelles qui s’entremêlent au patrimoine culturel immatériel des Hawaïens d’aujourd’hui. </marquage></alinea>
+  
+
+ </resume>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83art11" lang="en" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25624/29736</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25624/29737</urlpdf>
+  <urlplan>https://journals.lib.unb.ca/index.php/mcr/article/view/25624/29736?vue=plan</urlplan>
+  <pagination>
+    <ppage>143</ppage>
+    <dpage>159</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Articles</surtitre>
+     <titre>The Art of Storytelling in Bedouin
+     Society</titre>
+   <sstitre>A 21st-Century Ethnographic Collection of Poems from the
+     United Arab Emirates</sstitre>
+   </grtitre>
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>Elizabeth</prenom>
+     
+
+    <nomfamille>Rainey</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>Higher Colleges of Technology</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+  
+
+ <resume lang="en">
+     <titre>Abstract</titre>
+   <alinea><marquage typemarq="italique">Individuals represent the cultural vehicles through which intangible heritage is transmitted and so this study will examine the role that Emirati oral Bedouin culture plays in this regard. Its vibrant tradition expresses emotions and teaches ethical conduct during social occasions, both a source of communal entertainment and at the same time, a lynchpin of the social hierarchy. Through diverse heritage performances, the Bedouins practise their own version of intangible culture, underscoring folk norms and informing behaviours that enforce family, tribe and country. Themes such as nature, homesickness and patriotism are examined in addition to traditional dance, as forms of patronage culture. Thus folk memory is validated and the Arabic vernacular illustrates a dynamic yet sometimes obsolete version of World Arabic. Thus the fragile nature of these resources in a rapidly developing environment is highlighted and so, too, the politics of preservation. The contributions were voluntary and the result of twenty years of social capital in the community.</marquage></alinea>
+  
+
+ </resume>
+  
+
+ <resume lang="fr">
+     <titre>Résumé</titre>
+  <alinea><marquage typemarq="italique">Les individus représentent les véhicules culturels par lesquels le patrimoine intangible est transmis, aussi cette étude examinera le rôle que la culture orale bédouine émirienne joue à cet égard. Sa tradition dynamique exprime des émotions et enseigne la conduite éthique pendant les occasions sociales, étant à la fois source de divertissement communal et pivot de la hiérarchie sociale. Par les diverses représentations du patrimoine, les Bédouins pratiquent leur propre version de culture intangible, qui souligne les normes folkloriques et façonne des comportements qui s’appliquent à la famille, la tribu et le pays. Les thèmes comme la nature, le mal du pays et le patriotisme sont examinés en plus de la danse traditionnelle, comme des formes de parrainage de la culture. La mémoire folklorique est ainsi validée et l’arabe vernaculaire illustre une version dynamique mais quelquefois obsolète de l’arabe mondial. Ainsi la nature fragile de ces ressources dans un environnement en voie de développement rapide est soulignée avec, aussi, la politique de conservation. Les contributions, volontaires, sont le résultat de vingt années de participation sociale dans la communauté. </marquage></alinea>
+  
+
+ </resume>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83art12" lang="en" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25625/29738</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25625/29739</urlpdf>
+  <urlplan>https://journals.lib.unb.ca/index.php/mcr/article/view/25625/29738?vue=plan</urlplan>
+  <pagination>
+    <ppage>160</ppage>
+    <dpage>178</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Articles</surtitre>
+     <titre>Black Power, Brand
+    Power</titre>
+   <sstitre> Brand-led Interpretations of Indigenous Intangible Cultural
+     Heritage and Propositions for Sustainable Development</sstitre>
+   </grtitre>
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>C. J.</prenom>
+     
+
+    <nomfamille>Tayeh</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>University of Sydney</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+  
+
+ <resume lang="en">
+     <titre>Abstract</titre>
+   <alinea><marquage typemarq="italique">This paper analyzes Indigenous intangible cultural heritage (ICH) through a commercial filter. It makes the point that brand and Indigenous ICH are conceptually aligned, and this alignment then generates a commercial understanding of Indigenous ICH and its strategic importance. Using an Australian case study of Cape York Dreaming Track, this paper argues that brand-led interpretations of Indigenous ICH hold immense promise for sustainable development initiatives. It shows how a sustainable development project can integrate brand into its long-term targets, improving ethical engagement, cultural investment and the quality of access and benefit sharing agreements, defined at international law. </marquage></alinea>
+  
+
+ </resume>
+  
+
+ <resume lang="fr">
+     <titre>Résumé</titre>
+   <alinea><marquage typemarq="italique">La valeur économique de l’authenticité dans le tourisme
+     culturel autochtone </marquage></alinea>
+  <alinea><marquage typemarq="italique">Cet article analyse le patrimoine culturel immatériel autochtone (PCIA) à travers un prisme commercial. Il établit que le concept de marque et le concept de PCI autochtone sont mutuellement compatibles et que cet alignement génère ensuite une conception commerciale du PCI autochtone et de son importance stratégique. À partir d’une étude de cas réalisée en Australie au sujet de la « Piste des rêves » [Dreaming track] de Cape York, cet article soutient que les interprétations du PCI autochtone, lorsqu’elles sont placées sous l’égide d’une marque, sont extrêmement prometteuses pour les initiatives de développement durable. Cette étude de cas montre comment un projet de développement durable peut intégrer une marque dans ses objectifs à long terme, améliorer l’engagement éthique, l’investissement culturel et la qualité de l’accès, en plus de permettre des accords pour le partage des bénéfices tel que le définit la loi internationale. </marquage></alinea>
+  
+
+ </resume>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83rr01" lang="en" qualtraitement="complet" typeart="autre" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25626/29740</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25626/29741</urlpdf>
+  <urlplan>https://journals.lib.unb.ca/index.php/mcr/article/view/25626/29740?vue=plan</urlplan>
+  <pagination>
+    <ppage>179</ppage>
+    <dpage>189</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Research Reports</surtitre>
+     <titre>Beyond
+    Preservation</titre>
+   <sstitre>A Consideration of the Intangible Aspects of
+     Buildings</sstitre>
+   </grtitre>
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>Meghann</prenom>
+     <autreprenom>E.</autreprenom>
+     
+
+    <nomfamille>Jack</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>Memorial University</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83rr02" lang="en" qualtraitement="complet" typeart="autre" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25627/29742</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25627/29743</urlpdf>
+  <urlplan>https://journals.lib.unb.ca/index.php/mcr/article/view/25627/29742?vue=plan</urlplan>
+  <pagination>
+    <ppage>190</ppage>
+    <dpage>206</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Research Reports</surtitre>
+     <titre><marquage typemarq="italique">Canary
+      in the Mine</marquage> and the Concerns of Research Councils, Applied Ethnomusicologists, and
+     Museum Professionals</titre>
+   </grtitre>
+
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>Heather</prenom>
+     
+
+    <nomfamille>Sparling</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>Cape Breton University</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+  
+
+ <resume lang="en">
+     <titre>Abstract</titre>
+   <alinea><marquage typemarq="italique">In this paper, I share the story of an interactive, digital exhibit called </marquage>Canary in the Mine: Nova Scotia Mining Disasters and Song<marquage typemarq="italique"> both to inspire future music-centred exhibits and to offer insights into the experience of a non-museum professional developing an exhibit. I concentrate on the ways in which this exhibit exemplifies a response to pressing concerns of three distinct but similarly invested groups. First, the exhibit is an example of knowledge mobilization, a key concern for research councils and funding agencies that can be approached to fund projects such as </marquage>Canary in the Mine<marquage typemarq="italique">. Second, the exhibit is an example of applied ethnomusicology, an area of growing interest and activity for many ethnomusicologists who seek to solve concrete problems with music and music knowledge. Finally, the exhibit offers museum professionals a model for using digital technologies to incorporate intangible culture into their institutions, a topic of increasingly pressing significance since UNESCO enacted its Convention for Safeguarding Intangible Cultural Heritage in 2003.</marquage></alinea>
+  
+
+ </resume>
+  
+
+ <resume lang="fr">
+     <titre>Résumé</titre>
+  <alinea><marquage typemarq="italique">Dans cet article, je raconte l’histoire d’une exposition numérique interactive intitulée « Le canari dans la mine : les drames des mineurs de Nouvelle-Écosse en chansons » [</marquage>Canary in the Mine : Nova Scotia Mining Disasters and Song<marquage typemarq="italique">], tant pour inspirer d’autres expositions centrées sur la musique que pour proposer un aperçu de l’expérience d’une personne ayant conçu une exposition sans appartenir au corps professionnel des musées. Je me concentre sur la façon dont cette exposition constitue un exemple de réponse aux préoccupations pressantes de trois groupes distincts mais tous aussi concernés. Tout d’abord, cette exposition représente un exemple de mobilisation des connaissances, préoccupation essentielle des conseils de recherche et des organismes subventionnaires auxquels il est possible de s’adresser pour financer des projets tels que « Le canari dans la mine ». Deuxièmement, cette exposition constitue un exemple d’ethnomusicologie appliquée, domaine pour lequel de nombreux ethnomusicologues éprouvent de plus en plus d’intérêt et dans lequel ils sont de plus en plus actifs, car ils cherchent à y résoudre des problèmes concrets relatifs à la musique et au savoir musical. Enfin, l’exposition constitue pour les professionnels des musées un modèle d’utilisation des technologies numériques permettant d’intégrer la culture immatérielle à leurs institutions, domaine qui prend une importance croissante et pressante depuis la promulgation, par l’UNESCO, de la Convention pour la sauvegarde du patrimoine culturel immatériel en 2003.</marquage></alinea>
+  
+
+ </resume>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83rr03" lang="fr" qualtraitement="complet" typeart="autre" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25628/29744</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25628/29745</urlpdf>
+  <urlplan>https://journals.lib.unb.ca/index.php/mcr/article/view/25628/29744?vue=plan</urlplan>
+  <pagination>
+    <ppage>207</ppage>
+    <dpage>216</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Research Reports</surtitre>
+     <titre>Estimation des ressources
+     nécessaires à l’opération d’une pêcherie sédentaire gaspésienne du 17<exposant>e</exposant>
+     siècle </titre>
+   <sstitre>la Compagnie de l’île Percée</sstitre>
+   </grtitre>
+
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>Nicolas</prenom>
+     
+
+    <nomfamille>Landry</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>l’Université de Moncton</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83br01" lang="en" qualtraitement="complet" typeart="compterendu" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25629/29746</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25629/29747</urlpdf>
+  <pagination>
+    <ppage>217</ppage>
+    <dpage>219</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Book Reviews</surtitre>
+       <trefbiblio>
+
+Review<marquage typemarq="italique"> of </marquage>Jamieson, Keith and Michelle A.
+    Hamilton. 2016. <marquage typemarq="italique">Dr. Oronhyatekha – Security, Justice, and
+     Equality. </marquage>Toronto: Dundurn Press. 368 pp. Paperback. B/w photographs throughout.
+    ISBN (pb.) 978-1-45970-663-7; (E-pub) 978-1-45970-665-1. $ 26.99.</trefbiblio>
+   </grtitre>
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>Diane</prenom>
+     
+
+    <nomfamille>Chisholm</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>Cape Breton University</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83br02" lang="en" qualtraitement="complet" typeart="compterendu" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25630/29748</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25630/29749</urlpdf>
+  <pagination>
+    <ppage>219</ppage>
+    <dpage>220</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Book Reviews</surtitre>
+       <trefbiblio>
+
+Review of Laudun, John. 2016. <marquage typemarq="italique">The Amazing Crawfish
+     Boat</marquage>. Jackson: University Press of Mississippi. 240 pp. 35 illustrations, maps and
+    figure. ISBN (hb.) 9781496804204. $ 30.00.</trefbiblio>
+   </grtitre>
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>Timothy</prenom>
+     
+
+    <nomfamille>Rawlings</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>University of Alberta</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83br03" lang="fr" qualtraitement="complet" typeart="compterendu" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25631/29750</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25631/29751</urlpdf>
+  <pagination>
+    <ppage>220</ppage>
+    <dpage>221</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Book Reviews</surtitre>
+       <trefbiblio>
+
+Patin, Valéry. 2012[2005]. <marquage typemarq="italique">Tourisme et
+     patrimoine</marquage>. Nouvelle édition. La Documentation française. 208. pp. ISBN
+    B008BYOTJ0.</trefbiblio>
+   </grtitre>
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>Romain</prenom>
+     
+
+    <nomfamille>Bijeard</nomfamille>
+    
+
+   </nompers>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83br04" lang="en" qualtraitement="complet" typeart="compterendu" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25632/29752</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25632/29753</urlpdf>
+  <pagination>
+    <ppage>222</ppage>
+    <dpage>223</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Book Reviews</surtitre>
+       <trefbiblio>
+
+Brodie, Ian and Paul MacKinnon. 2015. <marquage typemarq="italique">Old Trout
+     Funnies: The Comic Origins of the Cape Breton Liberation Army</marquage>. Sydney, NS: Cape
+    Breton University Press. 232 pp. Illustrations. ISBN (pb.) 978-1-77206-040-9 (E-pub)
+    978-1-77206-042-3. $ 19.95.</trefbiblio>
+   </grtitre>
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>Andrew</prenom>
+     
+
+    <nomfamille>Parnaby</nomfamille>
+    
+
+   </nompers>
+    
+
+  <affiliation>
+     <alinea>Cape Breton University</alinea>
+    
+
+  </affiliation>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83br05" lang="en" qualtraitement="complet" typeart="compterendu" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25633/29754</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25633/29755</urlpdf>
+  <pagination>
+    <ppage>224</ppage>
+    <dpage>225</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Book Reviews</surtitre>
+       <trefbiblio>
+
+Review of Kay, Jon. 2016. <marquage typemarq="italique">Folk Art and Aging -
+     Life-Story Objects and Their Makers</marquage>. Bloomington: Indiana University Press. 131 pp.
+    41 colour photographs. Includes bibliographical references and index. ISBN (hc.) 9780253022066,
+    (E-pub) 9780253022165. $ 60.00.</trefbiblio>
+   </grtitre>
+  
+
+ <grauteur>
+   
+
+  <auteur id="au1">
+    
+
+   <nompers>
+     
+
+    <prenom>David</prenom>
+     <autreprenom>P.</autreprenom>
+     
+
+    <nomfamille>Stephens</nomfamille>
+    
+
+   </nompers>
+   
+
+  </auteur>
+  
+
+ </grauteur>
+
+</liminaire>
+
+</article>
+
+<article idproprio="mcr82_83con01" lang="en" qualtraitement="complet" typeart="autre" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>https://journals.lib.unb.ca/index.php/mcr/article/view/25634/29756</urlhtml>
+  <urlpdf taille="0">https://journals.lib.unb.ca/index.php/mcr/article/view/25634/29757</urlpdf>
+  <pagination>
+    <ppage>226</ppage>
+    <dpage>228</dpage>
+  </pagination>
+<liminaire>
+
+ <grtitre>
+   
+
+  <surtitre>Contributors</surtitre>
+     <titre>Contributors /
+    Auteurs</titre>
+   </grtitre>
+
+</liminaire>
+
+</article>
+
+</sommaire>
