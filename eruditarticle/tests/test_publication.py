@@ -78,6 +78,7 @@ class TestAbbreviatedPublicationVolumeNumbering(object):
     def test_can_format_double_volumes(self, value):
         assert value == "Vol. 82-83, 2015–2016"
 
+
 @with_fixtures('./eruditarticle/tests/fixtures/publication/volume_numbering', EruditPublication)
 class TestPublicationVolumeNumbering(object):
 
@@ -133,7 +134,6 @@ class TestPublicationVolumeNumbering(object):
             'number_type': 'hs',
             'publication_period': '2008',
         }
-
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication/general_notes', EruditPublication)

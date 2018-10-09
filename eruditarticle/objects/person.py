@@ -13,9 +13,17 @@ except ImportError:
 class PersonName(DomObject):
     def format(self, html=False):
         get = self.get_html if html else self.get_text
-        keys_order = ['prenom', 'autreprenom', 'nomfamille', 'suffixe']
+        keys_order = ['prenom', 'autreprenom', 'nomfamille']
         ordered_vals = [get(key) for key in keys_order]
-        return ' '.join(v for v in ordered_vals if v)
+        formatted_name = ' '.join(v for v in ordered_vals if v)
+        suffix = get("suffixe")
+        if suffix:
+            return "{formatted_name}, {suffix}".format(
+                formatted_name=formatted_name,
+                suffix=suffix
+            )
+        else:
+            return formatted_name
 
 
 class Person(DomObject):

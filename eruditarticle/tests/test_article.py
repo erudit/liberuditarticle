@@ -344,7 +344,7 @@ class TestFormatPersonName(object):
         ('only_alias', "Aude"),
         ('only_firstname', "Presseau"),
         ('only_lastname', "Marbic"),
-        ('with_suffix', "Thibault Martin Ph.D."),
+        ('with_suffix', "Thibault Martin, Ph.D."),
         ('with_guest_editor', "Justin K. Bisanswa"),
     ])
     @pytest.mark.parametrize('style', [None, 'invalid'])
