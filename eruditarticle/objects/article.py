@@ -125,6 +125,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             notegen = {}
             alinea_nodes = self.findall("alinea", dom=notegen_node)
             notegen['type'] = notegen_node.get('typenoteg')
+            notegen['scope'] = notegen_node.get('porteenoteg')
             notegen["content"] = [
                 self.convert_marquage_content_to_html(n)
                 for n in alinea_nodes
