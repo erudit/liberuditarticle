@@ -627,3 +627,86 @@ class TestEruditPublication(object):
         elem = pub.find('numero')
         del elem[:]
         assert pub.get_volume_numbering(formatted=True) == ''
+
+    @pytest.mark.parametrize('fixture, language, html, expected_label', [
+        ('images1080663.xml', 'fr', True, 'Tous droits r&#233;serv&#233;s'),
+        ('images1080663.xml', 'en', True, 'All Rights Reserved'),
+        ('images1080663.xml', 'es', True, 'Reservados todos los derechos'),
+        ('images1080663.xml', 'fr', False, 'Tous droits réservés'),
+        ('images1080663.xml', 'en', False, 'All Rights Reserved'),
+        ('images1080663.xml', 'es', False, 'Reservados todos los derechos'),
+        # Unavailable language, defaults to first label.
+        ('images1080663.xml', 'zz', False, 'Tous droits réservés'),
+        # Missing label.
+        ('ae1806445.xml', 'fr', True, ''),
+        ('ae1806445.xml', 'fr', False, ''),
+    ])
+    def test_get_copyrights_label(self, fixture, language, html, expected_label):
+        publication = self.test_objects[fixture]
+        assert publication._get_copyrights_label(publication.find('copyright'), language, html=html) == expected_label
+
+    @pytest.mark.parametrize('fixture, html, expected_names', [
+        ('images1080663.xml', True, ['24 images inc.']),
+        ('images1080663.xml', False, ['24 images inc.']),
+        # Missing names.
+        ('moebius1016931.xml', True, []),
+        ('moebius1016931.xml', False, []),
+        # Multiple names, including physical person with prefix.
+        ('liberte1032075.xml', False, ['Mme E. Bertil', 'Collectif Liberté']),
+        ('liberte1032075.xml', True, ['Mme E. Bertil', 'Collectif Libert&#233;']),
+    ])
+    def test_get_copyrights_names(self, fixture, html, expected_names):
+        publication = self.test_objects[fixture]
+        assert publication._get_copyrights_names(publication.find('copyright'), html=html) == expected_names
+
+    @pytest.mark.parametrize('fixture, html, expected_year', [
+        ('images1080663.xml', True, '1992'),
+        ('images1080663.xml', False, '1992'),
+        # Missing year.
+        ('va1258133.xml', True, ''),
+        ('va1258133.xml', False, ''),
+    ])
+    def test_get_copyrights_year(self, fixture, html, expected_year):
+        publication = self.test_objects[fixture]
+        assert publication._get_copyrights_year(publication.find('copyright'), html=html) == expected_year
+
+    @pytest.mark.parametrize('fixture, language, formatted, html, expected_copyrights', [
+        ('images1080663.xml', 'fr', False, False, {'label': 'Tous droits réservés', 'names': ['24 images inc.'], 'year': '1992'}),
+        ('images1080663.xml', 'en', False, False, {'label': 'All Rights Reserved', 'names': ['24 images inc.'], 'year': '1992'}),
+        ('images1080663.xml', 'es', False, False, {'label': 'Reservados todos los derechos', 'names': ['24 images inc.'], 'year': '1992'}),
+        ('images1080663.xml', 'fr', True, False, 'Tous droits réservés © 24 images inc., 1992'),
+        ('images1080663.xml', 'en', True, False, 'All Rights Reserved © 24 images inc., 1992'),
+        ('images1080663.xml', 'es', True, False, 'Reservados todos los derechos © 24 images inc., 1992'),
+        ('images1080663.xml', 'fr', False, True, 'Tous droits r&#233;serv&#233;s © 24 images inc., 1992'),
+        ('images1080663.xml', 'en', False, True, 'All Rights Reserved © 24 images inc., 1992'),
+        ('images1080663.xml', 'es', False, True, 'Reservados todos los derechos © 24 images inc., 1992'),
+        # Unavailable language, defaults to first label.
+        ('images1080663.xml', 'zz', False, False, {'label': 'Tous droits réservés', 'names': ['24 images inc.'], 'year': '1992'}),
+        # Missing label.
+        ('ae1806445.xml', 'fr', False, False, {'label': '', 'names': ['HEC Montréal'], 'year': '1970'}),
+        ('ae1806445.xml', 'fr', True, False, ' © HEC Montréal, 1970'),
+        ('ae1806445.xml', 'fr', False, True, ' © HEC Montr&#233;al, 1970'),
+        # Missing names.
+        ('moebius1016931.xml', 'fr', False, False, {'label': 'Tous droits réservés', 'names': [], 'year': '1997'}),
+        ('moebius1016931.xml', 'fr', True, False, 'Tous droits réservés © , 1997'),
+        ('moebius1016931.xml', 'fr', False, True, 'Tous droits r&#233;serv&#233;s © , 1997'),
+        # Missing year.
+        ('va1258133.xml', 'fr', False, False, {'label': 'Tous droits réservés', 'names': ['La Société des Arts'], 'year': ''}),
+        ('va1258133.xml', 'fr', True, False, 'Tous droits réservés © La Société des Arts, '),
+        ('va1258133.xml', 'fr', False, True, 'Tous droits r&#233;serv&#233;s © La Soci&#233;t&#233; des Arts, '),
+        # Multiple names, including physical person with prefix.
+        ('liberte1032075.xml', 'fr', False, False, {'label': 'Tous droits réservés', 'names': ['Mme E. Bertil', 'Collectif Liberté'], 'year': '1986'}),
+        ('liberte1032075.xml', 'fr', True, False, 'Tous droits réservés © Mme E. Bertil et Collectif Liberté, 1986'),
+        ('liberte1032075.xml', 'fr', False, True, 'Tous droits r&#233;serv&#233;s © Mme E. Bertil et Collectif Libert&#233;, 1986'),
+    ])
+    def test_get_copyrights(self, fixture, language, formatted, html, expected_copyrights):
+        assert self.test_objects[fixture].get_copyrights(language, formatted=formatted, html=html) == expected_copyrights
+
+    @pytest.mark.parametrize('names, expected_result', [
+        ([], ''),
+        (['Foo'], 'Foo'),
+        (['Foo', 'Bar'], 'Foo et Bar'),
+        (['Foo', 'Bar', 'Baz'], 'Foo, Bar et Baz'),
+    ])
+    def test_format_names(self, names, expected_result):
+        assert self.test_objects['images1080663.xml']._format_names(names) == expected_result

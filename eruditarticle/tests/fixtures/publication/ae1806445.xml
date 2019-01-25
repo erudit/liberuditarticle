@@ -1,0 +1,689 @@
+
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+  <originator application="Tournesol" date="2011-07-04" username="p0861213"></originator>
+  <copyright>
+    <year>1970</year>
+    <contribution>
+      <artificialperson>
+        <name>HEC Montréal</name>
+      </artificialperson>
+      <contributiontype>
+        <code>droit</code>
+        <label lang="fr">Titulaire du droit d&apos;auteur</label>
+        <label lang="en">Copyright Holder</label>
+        <label lang="es">Titular del derecho de autor</label>
+      </contributiontype>
+      <ordering>0</ordering>
+    </contribution>
+  </copyright>
+  <publicationnumberingkeys>
+    <publicationtypecode>reg</publicationtypecode>
+    <years>
+      <year value="1970">
+        <periodcode>octob</periodcode>
+        <periodcode>decem</periodcode>
+      </year>
+    </years>
+  </publicationnumberingkeys>
+  <infosommaire>
+    <url>/revue/erudit/erudit/ae49/ae1806445/1003913ar/</url>
+    <nbarticle>34</nbarticle>
+    <icone>/logo/ae49</icone>
+    <revue id="ae49" lang="fr">
+      <titrerev>L&apos;Actualité économique</titrerev>
+      <titrerevabr>ae</titrerevabr>
+      <idissn>0001-771X</idissn>
+      <idissnnum>1710-3991</idissnnum>
+      <directeur sexe="masculin">
+        <nompers>
+          <prenom>Bernard</prenom>
+          <nomfamille>Bonin</nomfamille>
+        </nompers>
+        <key>directeur</key>
+      </directeur>
+    </revue>
+    <numero id="ae1806445">
+      <volume>46</volume>
+      <nonumero>3</nonumero>
+      <pub>
+        <periode>Octobre</periode>
+        <periode>Décembre</periode>
+        <annee>1970</annee>
+      </pub>
+      <pubnum>
+        <date typedate="publication">2011-06-20</date>
+      </pubnum>
+    </numero>
+    <editeur>
+      <nomorg>HEC Montréal</nomorg>
+      <key>editeur</key>
+    </editeur>
+    <droitsauteur> © <nomorg>HEC Montréal</nomorg>, 1970</droitsauteur>
+  </infosommaire>
+  <article idproprio="1003913ar" lang="fr" ordseq="1" qualtraitement="minimal" typeart="article">
+    <urlpdf taille="5,7" unite="mo">/revue/ae/1970/v46/n3/1003913ar.pdf</urlpdf>
+    <pagination>
+      <ppage>419</ppage>
+      <dpage>434</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Articles</surtitre>
+        <titre>Innovation dans les zones rurales en voie de développement</titre>
+      </grtitre>
+      <grauteur>
+        <auteur id="au1">
+          <nompers>
+            <prenom>Anthony</prenom>
+            <nomfamille>Bottomley</nomfamille>
+          </nompers>
+          <affiliation>
+            <alinea>Professeur à l’Université de Bradford</alinea>
+          </affiliation>
+        </auteur>
+      </grauteur>
+    </liminaire>
+  </article>
+  <article idproprio="1003914ar" lang="fr" ordseq="2" qualtraitement="minimal" typeart="article">
+    <urlpdf taille="10,3" unite="mo">/revue/ae/1970/v46/n3/1003914ar.pdf</urlpdf>
+    <pagination>
+      <ppage>435</ppage>
+      <dpage>465</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Articles</surtitre>
+        <titre>Analyse d’un cercle vicieux microéconomique de la misère</titre>
+      </grtitre>
+      <grauteur>
+        <auteur id="au1">
+          <nompers>
+            <prenom>Paul</prenom>
+            <nomfamille>Gallez</nomfamille>
+          </nompers>
+          <affiliation>
+            <alinea>Professeur à l’Université nationale de Bahia Blanca (Argentine)</alinea>
+          </affiliation>
+        </auteur>
+      </grauteur>
+    </liminaire>
+  </article>
+  <article idproprio="1003915ar" lang="fr" ordseq="3" qualtraitement="minimal" typeart="article">
+    <urlpdf taille="2,1" unite="mo">/revue/ae/1970/v46/n3/1003915ar.pdf</urlpdf>
+    <pagination>
+      <ppage>466</ppage>
+      <dpage>471</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Articles</surtitre>
+        <titre>Banque internationale pour la coopération économique à Moscou</titre>
+      </grtitre>
+      <grauteur>
+        <auteur id="au1">
+          <nompers>
+            <prenom>Slavomir</prenom>
+            <nomfamille>Jiranek</nomfamille>
+          </nompers>
+          <affiliation>
+            <alinea>Genève</alinea>
+          </affiliation>
+        </auteur>
+      </grauteur>
+    </liminaire>
+  </article>
+  <article idproprio="1003916ar" lang="fr" ordseq="4" qualtraitement="minimal" typeart="article">
+    <urlpdf taille="3,4" unite="mo">/revue/ae/1970/v46/n3/1003916ar.pdf</urlpdf>
+    <pagination>
+      <ppage>472</ppage>
+      <dpage>481</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Articles</surtitre>
+        <titre>Les aspects institutionnels d’une amélioration de la structure des échanges commerciaux et des possibilités d’exportation de produits manufacturés par les pays de l’E.C.A.F.E.</titre>
+      </grtitre>
+      <grauteur>
+        <auteur id="au1">
+          <nompers>
+            <prenom>Michel</prenom>
+            <nomfamille>Verhulst</nomfamille>
+          </nompers>
+          <affiliation>
+            <alinea>Maître de recherche, Centre national de la Recherche scientifique (Paris)</alinea>
+          </affiliation>
+        </auteur>
+      </grauteur>
+    </liminaire>
+  </article>
+  <article idproprio="1003917ar" lang="fr" ordseq="5" qualtraitement="minimal" typeart="article">
+    <urlpdf taille="7,1" unite="mo">/revue/ae/1970/v46/n3/1003917ar.pdf</urlpdf>
+    <pagination>
+      <ppage>482</ppage>
+      <dpage>504</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Articles</surtitre>
+        <titre>Cybernétique et structures de direction : étude analogique</titre>
+      </grtitre>
+      <grauteur>
+        <auteur id="au1">
+          <nompers>
+            <prenom>Othmar</prenom>
+            <nomfamille>Kaufmann</nomfamille>
+          </nompers>
+          <affiliation>
+            <alinea>Centre d’Études industrielles (Genève)</alinea>
+          </affiliation>
+        </auteur>
+      </grauteur>
+    </liminaire>
+  </article>
+  <article idproprio="1003918ar" lang="fr" ordseq="6" qualtraitement="minimal" typeart="article">
+    <urlpdf taille="5,5" unite="mo">/revue/ae/1970/v46/n3/1003918ar.pdf</urlpdf>
+    <pagination>
+      <ppage>505</ppage>
+      <dpage>520</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Articles</surtitre>
+        <titre>La frontière entre l’économie et l’éthique</titre>
+      </grtitre>
+      <grauteur>
+        <auteur id="au1">
+          <nompers>
+            <prenom>Jose</prenom>
+            <autreprenom>Maria</autreprenom>
+            <nomfamille>Mendez</nomfamille>
+          </nompers>
+          <affiliation>
+            <alinea>Madrid</alinea>
+          </affiliation>
+        </auteur>
+      </grauteur>
+    </liminaire>
+  </article>
+  <article idproprio="1003919ar" lang="fr" ordseq="7" qualtraitement="minimal" typeart="article">
+    <urlpdf taille="3" unite="mo">/revue/ae/1970/v46/n3/1003919ar.pdf</urlpdf>
+    <pagination>
+      <ppage>521</ppage>
+      <dpage>531</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Articles</surtitre>
+        <titre>Étude comparée des subventions provinciales à l’enseignement supérieur</titre>
+      </grtitre>
+      <grauteur>
+        <auteur id="au1">
+          <nompers>
+            <prenom>Avigdor</prenom>
+            <nomfamille>Farine</nomfamille>
+          </nompers>
+          <affiliation>
+            <alinea>Professeur à la Faculté des Sciences de l’Éducation, Université de Montréal</alinea>
+          </affiliation>
+        </auteur>
+      </grauteur>
+    </liminaire>
+  </article>
+  <article idproprio="1003920ar" lang="fr" ordseq="8" qualtraitement="minimal" typeart="note">
+    <urlpdf taille="3,4" unite="mo">/revue/ae/1970/v46/n3/1003920ar.pdf</urlpdf>
+    <pagination>
+      <ppage>532</ppage>
+      <dpage>541</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Notes</surtitre>
+        <titre>Point de vue d’un autre économiste sur le marché commun Québec-États-Unis</titre>
+      </grtitre>
+      <grauteur>
+        <auteur id="au1">
+          <nompers>
+            <prenom>Jean-Luc</prenom>
+            <nomfamille>Migué</nomfamille>
+          </nompers>
+          <affiliation>
+            <alinea>École nationale d’Administration publique (Québec)</alinea>
+          </affiliation>
+        </auteur>
+      </grauteur>
+    </liminaire>
+  </article>
+  <article idproprio="1003921ar" lang="fr" ordseq="9" qualtraitement="minimal" typeart="article">
+    <urlpdf taille="2,1" unite="mo">/revue/ae/1970/v46/n3/1003921ar.pdf</urlpdf>
+    <pagination>
+      <ppage>542</ppage>
+      <dpage>547</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Commentaires</surtitre>
+        <titre>Quelques aspects de l’économie canadienne</titre>
+      </grtitre>
+      <grauteur>
+        <auteur id="au1">
+          <nompers>
+            <prenom>Denis</prenom>
+            <nomfamille>Germain</nomfamille>
+          </nompers>
+        </auteur>
+      </grauteur>
+    </liminaire>
+  </article>
+  <article idproprio="1003967ar" lang="fr" ordseq="10" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="1012" unite="ko">/revue/ae/1970/v46/n3/1003967ar.pdf</urlpdf>
+    <pagination>
+      <ppage>548</ppage>
+      <dpage>550</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <trefbiblio>
+          <marquage typemarq="italique">Développement urbain et analyse économique</marquage>, EN COLLABORATION. Compte rendu du colloque international tenu à Québec du 8 au 11 septembre 1968. Un vol., 6¼ po. x 8¼, broché, 471 pages. — ÉDITIONS CUJAS, Paris, et LA LIBRAIRIE DES PRESSES DE L’UNIVERSITÉ DE MONTRÉAL, 1969</trefbiblio>
+      </grtitre>
+      <grauteur>
+        <auteur id="au1">
+          <nompers>
+            <prenom>Denis</prenom>
+            <nomfamille>Germain</nomfamille>
+          </nompers>
+        </auteur>
+      </grauteur>
+    </liminaire>
+  </article>
+  <article idproprio="1003968ar" lang="fr" ordseq="11" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="971" unite="ko">/revue/ae/1970/v46/n3/1003968ar.pdf</urlpdf>
+    <pagination>
+      <ppage>550</ppage>
+      <dpage>552</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <trefbiblio>
+          <marquage typemarq="italique">Challenge for Survival. Land, Air and Water for Man in Megalopolis</marquage>, par PIERRE DANSEREAU. Un vol., 6 po. x 9, 235 pages. — COLUMBIA UNIVERSITY PRESS, New York et London, 1970</trefbiblio>
+      </grtitre>
+      <grauteur>
+        <auteur id="au1">
+          <nompers>
+            <prenom>Alban</prenom>
+            <nomfamille>Bogeat</nomfamille>
+          </nompers>
+        </auteur>
+      </grauteur>
+    </liminaire>
+  </article>
+  <article idproprio="1003969ar" lang="fr" ordseq="12" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="656" unite="ko">/revue/ae/1970/v46/n3/1003969ar.pdf</urlpdf>
+    <pagination>
+      <ppage>552</ppage>
+      <dpage>553</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <trefbiblio>
+          <marquage typemarq="italique">The Environmental Crisis. Man&apos;s Struggle to Live with Himself</marquage>, par HAROLD W. HELFRICH. Un vol., 5 po. x 8, 185 pages. — YALE UNIVERSITY PRESS, New Haven et London, 1970</trefbiblio>
+      </grtitre>
+      <grauteur>
+        <auteur id="au1">
+          <nompers>
+            <prenom>Alban</prenom>
+            <nomfamille>Bogeat</nomfamille>
+          </nompers>
+        </auteur>
+      </grauteur>
+    </liminaire>
+  </article>
+  <article idproprio="1003970ar" lang="fr" ordseq="13" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="391" unite="ko">/revue/ae/1970/v46/n3/1003970ar.pdf</urlpdf>
+    <pagination>
+      <ppage>554</ppage>
+      <dpage>554</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <trefbiblio>
+          <marquage typemarq="italique">Le miracle économique japonais, 1950-1970</marquage>, par HUBERT BROCHIER. Un vol., 5¾ po. x 8½, broché, 344 pages. Collection « Perspectives de l’économique ».— CALMANN-LÉVY, Paris, 1970</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1003971ar" lang="fr" ordseq="14" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="346" unite="ko">/revue/ae/1970/v46/n3/1003971ar.pdf</urlpdf>
+    <pagination>
+      <ppage>555</ppage>
+      <dpage>555</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">L’enseignement des sciences économiques au niveau universitaire</marquage>, par J.F.H. ROPER. Un vol., 6¼ po. x 9½, broché, 285 pages. — Collection « L’éducation en Europe ». — LIBRAIRIE ARMAND COLIN-BOURRELIER, 103, boul. St-Michel, Paris, 1969</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1003972ar" lang="fr" ordseq="15" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="346" unite="ko">/revue/ae/1970/v46/n3/1003972ar.pdf</urlpdf>
+    <pagination>
+      <ppage>555</ppage>
+      <dpage>555</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">Perspectives économiques de l’O.C.D.E.,</marquage> Une brochure, 8 po. x 10¾, 96 pages. — ORGANISATION DE COOPÉRATION ET DE DÉVELOPPEMENT ÉCONOMIQUE, 1970</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1003973ar" lang="fr" ordseq="16" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="686" unite="ko">/revue/ae/1970/v46/n3/1003973ar.pdf</urlpdf>
+    <pagination>
+      <ppage>555</ppage>
+      <dpage>556</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">How to Divest in Latin America, and Why</marquage>, par ALBERT O. HIRSCHMAN. Une brochure, 6 po. x 9, 30 pages. — INTERNATIONAL FINANCE SECTION, DEPARTMENT OF ECONOMICS, PRINCETON UNIVERSITY, Princeton, New Jersey, 1969</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1003974ar" lang="fr" ordseq="17" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="346" unite="ko">/revue/ae/1970/v46/n3/1003974ar.pdf</urlpdf>
+    <pagination>
+      <ppage>556</ppage>
+      <dpage>556</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">Exchange-Rate Policy: Experience with Canada&apos;s Floating Rate</marquage>, par A.F. WYNNE PLUMPTRE. Une brochure, 6 po. x 9, 17 pages. — INTERNATIONAL FINANCE SECTION, PRINCETON UNIVERSITY, Princeton, New Jersey, 1970</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1003975ar" lang="fr" ordseq="18" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="346" unite="ko">/revue/ae/1970/v46/n3/1003975ar.pdf</urlpdf>
+    <pagination>
+      <ppage>556</ppage>
+      <dpage>556</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">Exchange-Rate Systems, Interest Rates, and Capital Flows</marquage>, par THOMAS D. WILLETT, et al. Une brochure, 6 po. x 9, 40 pages. — INTERNATIONAL FINANCE SECTION, PRINCETON UNIVERSITY, Princeton, New Jersey, 1970</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1003976ar" lang="fr" ordseq="19" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="346" unite="ko">/revue/ae/1970/v46/n3/1003976ar.pdf</urlpdf>
+    <pagination>
+      <ppage>556</ppage>
+      <dpage>556</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">The Bürgenstock Communiqué: A Critical Examination of the Case for Limited Flexibility of Exchange Rates</marquage>, par STEPHEN MARRIS. Une brochure, 6 po. x 9, 74 pages. — INTERNATIONAL FINANCE SECTION, PRINCETON UNIVERSITY, Princeton, New Jersey, 1970</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1003977ar" lang="fr" ordseq="20" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="657" unite="ko">/revue/ae/1970/v46/n3/1003977ar.pdf</urlpdf>
+    <pagination>
+      <ppage>556</ppage>
+      <dpage>557</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">Some Theoretical Problems Relating to the Euro-Dollar Market</marquage>, par HELMUT W. MAYER. Une brochure, 6 po. x 9, 37 pages. — INTERNATIONAL FINANCE SECTION, DEPARTMENT OF ECONOMICS, Princeton, New Jersey, 1970</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1003978ar" lang="fr" ordseq="21" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="316" unite="ko">/revue/ae/1970/v46/n3/1003978ar.pdf</urlpdf>
+    <pagination>
+      <ppage>557</ppage>
+      <dpage>557</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">The Reform of Sterling</marquage>, par BENJAMIN J. COHEN. Une brochure, 6 po. x 9, 44 pages. — INTERNATIONAL FINANCE SECTION, PRINCETON UNIVERSITY, Princeton, New Jersey, 1969</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1003979ar" lang="fr" ordseq="22" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="316" unite="ko">/revue/ae/1970/v46/n3/1003979ar.pdf</urlpdf>
+    <pagination>
+      <ppage>557</ppage>
+      <dpage>557</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">Methodology in Population Projection</marquage>, par LARS WIDEN. Une brochure, 6½ po. x 8¾, 53 pages. — DEMOGRAPHIC INSTITUTE, UNIVERSITY OF GOTHENBURG, Suède, 1969</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1003980ar" lang="fr" ordseq="23" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="316" unite="ko">/revue/ae/1970/v46/n3/1003980ar.pdf</urlpdf>
+    <pagination>
+      <ppage>557</ppage>
+      <dpage>557</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">Medium-Term Capital Investment</marquage>
+          <marquage typemarq="italique">Survey, 1969</marquage>, par B.A. KEYS et al. Une brochure, 6½ po. x 9¾, 37 pages. — IMPRIMEUR DE LA REINE, Ottawa, 1970</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1003995ar" lang="fr" ordseq="24" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="316" unite="ko">/revue/ae/1970/v46/n3/1003995ar.pdf</urlpdf>
+    <pagination>
+      <ppage>557</ppage>
+      <dpage>557</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">Les investissements étrangers en Yougoslavie</marquage>. Un vol., 6½ po. x 9½, broché, 34 pages. — O.C.D.E., Paris, 1970</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1003996ar" lang="fr" ordseq="25" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="351" unite="ko">/revue/ae/1970/v46/n3/1003996ar.pdf</urlpdf>
+    <pagination>
+      <ppage>558</ppage>
+      <dpage>558</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">Les systèmes contractuels d’épargne ouvrière visant à la formation du capital</marquage>. Un vol., 6 po. x 9½, broché, 178 pages. — O.C.D.E., Paris, 1970</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1003997ar" lang="fr" ordseq="26" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="351" unite="ko">/revue/ae/1970/v46/n3/1003997ar.pdf</urlpdf>
+    <pagination>
+      <ppage>558</ppage>
+      <dpage>558</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">Systèmes de rémunération et l’accroissement de la productivité</marquage>. Un vol., 8 po. x 10¾, broché, 475 pages. — O.C.D.E., Paris, 1970</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1003998ar" lang="fr" ordseq="27" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="351" unite="ko">/revue/ae/1970/v46/n3/1003998ar.pdf</urlpdf>
+    <pagination>
+      <ppage>558</ppage>
+      <dpage>558</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">Ressources pour le Tiers-Monde. Les moyens financiers mis à la disposition des pays moins développés, 1962-1968</marquage>. Un vol., 8 po. x 10¾, broché, 440 pages. — O.C.D.E., Paris, 1970</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1003999ar" lang="fr" ordseq="28" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="351" unite="ko">/revue/ae/1970/v46/n3/1003999ar.pdf</urlpdf>
+    <pagination>
+      <ppage>558</ppage>
+      <dpage>558</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+
+        <trefbiblio>CONFEDERAZIONE GENERALE DELL&apos;INDUSTRIA ITALIANA. 3 vols., 6¾ po. x 9½, brochés. Rome, 1970. <marquage typemarq="italique">Centro-Nord e Mezzogiorno nel Recente Sviluppo Industriale Italiano</marquage>, 143 pages</trefbiblio>
+        <trefbiblio>CONFEDERAZIONE GENERALE DELL&apos;INDUSTRIA ITALIANA. 3 vols., 6¾ po. x 9½, brochés. Rome, 1970. Le Prospettive dell&apos;industria Italiana nel Quadriennio 1970-73, 461 pages</trefbiblio>
+        <trefbiblio>CONFEDERAZIONE GENERALE DELL&apos;INDUSTRIA ITALIANA. 3 vols., 6¾ po. x 9½, brochés. Rome, 1970. La Politica di Sviluppo Economico del Mezzogiorno, 309 pages</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1004000ar" lang="fr" ordseq="29" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="691" unite="ko">/revue/ae/1970/v46/n3/1004000ar.pdf</urlpdf>
+    <pagination>
+      <ppage>558</ppage>
+      <dpage>559</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">21st Annual Report on Exchange</marquage>
+          <marquage typemarq="italique">Restrictions, 1970</marquage>. Un vol., 8¼ po. x 11, broché, 572 pages. — FONDS MONÉTAIRE INTERNATIONAL, Washington, D.C, 1970</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1004001ar" lang="fr" ordseq="30" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="344" unite="ko">/revue/ae/1970/v46/n3/1004001ar.pdf</urlpdf>
+    <pagination>
+      <ppage>559</ppage>
+      <dpage>559</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">Annual Report 1970</marquage>. Un vol., 8½ po. x 11, broché, 215 pages. — F.M.I., Washington, D.C, 1970</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1004002ar" lang="fr" ordseq="31" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="344" unite="ko">/revue/ae/1970/v46/n3/1004002ar.pdf</urlpdf>
+    <pagination>
+      <ppage>559</ppage>
+      <dpage>559</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">The International Monetary Fund, 1945-1965. Twenty Years of International Monetary Cooperation</marquage>, par J. KEITH HORSEFIELD et al. 3 vols., 7¼ po. x 10¾, reliés, 663, 549 et 621 pages. — INTERNATIONAL MONETARY FUND, Washington, D.C, 1969</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1004003ar" lang="fr" ordseq="32" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="344" unite="ko">/revue/ae/1970/v46/n3/1004003ar.pdf</urlpdf>
+    <pagination>
+      <ppage>559</ppage>
+      <dpage>559</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">Le droit économique</marquage>, par ALEX JACQUEMIN et GUY SCHRANS. Un vol., 4½ po. x 7, broché, 128 pages. Collection « Que sais-je? ». — PRESSES UNIVERSITAIRES DE FRANCE, Paris, 1970</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1004004ar" lang="fr" ordseq="33" qualtraitement="minimal" typeart="compterendu">
+    <urlpdf taille="126" unite="ko">/revue/ae/1970/v46/n3/1004004ar.pdf</urlpdf>
+    <pagination>
+      <ppage>560</ppage>
+      <dpage>560</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Les livres</surtitre>
+        <surtitre2>Notes bibliographiques</surtitre2>
+        <trefbiblio>
+          <marquage typemarq="italique">La tutelle aux prestations familiales ou autres allocations sociales</marquage>, par PIERRE VAN DER VORST. Un vol., 6½ po. x 9½, broché, 221 pages. — ÉDITION DE L’INSTITUT DE SOCIOLOGIE DE L’UNIVERSITÉ LIBRE DE BRUXELLES, 1969</trefbiblio>
+      </grtitre>
+    </liminaire>
+  </article>
+  <article idproprio="1004005ar" lang="fr" ordseq="34" qualtraitement="minimal" typeart="autre">
+    <urlpdf taille="14,8" unite="mo">/revue/ae/1970/v46/n3/1004005ar.pdf</urlpdf>
+    <pagination>
+      <ppage>561</ppage>
+      <dpage>606</dpage>
+    </pagination>
+    <liminaire>
+      <grtitre>
+        <surtitre>Pour les chercheurs</surtitre>
+        <titre>Inventaire des documents relatifs à l’histoire économique du Canada français</titre>
+        <sstitre>Série F1 : Fonds des colonies - 9</sstitre>
+      </grtitre>
+      <grauteur>
+        <auteur id="au1">
+          <nompers>
+            <prenom>Cameron</prenom>
+            <nomfamille>Nish</nomfamille>
+          </nompers>
+          <affiliation>
+            <alinea>Professeur à l’Université Sir George Williams</alinea>
+          </affiliation>
+          <affiliation>
+            <alinea>Directeur de recherche, Centre de Recherches en Histoire économique du Canada français</alinea>
+          </affiliation>
+        </auteur>
+      </grauteur>
+    </liminaire>
+  </article>
+</sommaire>

@@ -1,0 +1,483 @@
+
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+          <copyright>
+            <year>1997</year>
+            <contributiondeclaration>
+              <code>tdr</code>
+              <label lang="fr">Tous droits réservés</label>
+              <label lang="en">All Rights Reserved</label>
+              <label lang="es">Reservados todos los derechos</label>
+            </contributiondeclaration>
+          </copyright>
+          <publicationnumberingkeys>
+            <publicationtypecode>reg</publicationtypecode>
+            <years>
+              <year value="1997">
+                <periodcode>print</periodcode>
+              </year>
+            </years>
+          </publicationnumberingkeys>
+          <infosommaire>
+            <url>/culture/erudit/erudit/moebius1006620/moebius1016931/14781ac/</url>
+            <nbarticle>19</nbarticle>
+            <icone>/logosodep/erudit</icone>
+            <revue id="moebius1006620" lang="fr">
+              <titrerev>Moebius</titrerev>
+              <sstitrerev>Écritures / Littérature</sstitrerev>
+              <titrerevabr>moebius</titrerevabr>
+              <idissn>0225-1582</idissn>
+              <idissnnum>1920-9363</idissnnum>
+              <directeur sexe="feminin">
+                <fonction lang="fr">Directrice</fonction>
+                <nompers>
+                  <prenom>Nicole</prenom>
+                  <nomfamille>Décarie</nomfamille>
+                </nompers>
+                <key>directrice</key>
+              </directeur>
+              <directeur sexe="masculin">
+                <nompers>
+                  <prenom>Robert</prenom>
+                  <nomfamille>Giroux</nomfamille>
+                </nompers>
+                <key>directeurs</key>
+              </directeur>
+              <directeur sexe="feminin">
+                <fonction lang="fr">Directrice</fonction>
+                <nompers>
+                  <prenom>Lysanne</prenom>
+                  <nomfamille>Langevin</nomfamille>
+                </nompers>
+                <key>directrice</key>
+              </directeur>
+              <directeur sexe="masculin">
+                <nompers>
+                  <prenom>Raymond</prenom>
+                  <nomfamille>Martin</nomfamille>
+                </nompers>
+                <key>directeurs</key>
+              </directeur>
+              <redacteurchef idrefs="th1" sexe="masculin" typerc="invite">
+                <nompers>
+                  <prenom>Marc</prenom>
+                  <nomfamille>Vaillancourt</nomfamille>
+                </nompers>
+                <key>redacteurchefinvite</key>
+              </redacteurchef>
+            </revue>
+            <numero id="moebius1016931">
+              <nonumero>72</nonumero>
+              <pub>
+                <periode>Printemps</periode>
+                <annee>1997</annee>
+              </pub>
+              <pubnum>
+                <date typedate="publication">2010-01-19</date>
+              </pubnum>
+              <grtheme id="th1">
+                <theme>La critique</theme>
+              </grtheme>
+              <idisbn>2-89031-275-5</idisbn>
+            </numero>
+            <editeur>
+              <nomorg>Éditions Triptyque</nomorg>
+              <key>editeur</key>
+            </editeur>
+            <droitsauteur>Tous droits réservés ©, 1997</droitsauteur>
+          </infosommaire>
+          <article idproprio="14781ac" idref="th1" lang="fr" ordseq="1" qualtraitement="minimal" typeart="autre">
+            <urlpdf taille="874" unite="ko">/culture/erudit/erudit/moebius1006620/moebius1016931/14781ac.pdf</urlpdf>
+            <pagination>
+              <ppage>5</ppage>
+              <dpage>11</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Présentation</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Robert</prenom>
+                    <nomfamille>Giroux</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="14782ac" idref="th1" lang="fr" ordseq="2" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="541" unite="ko">/culture/erudit/erudit/moebius1006620/moebius1016931/14782ac.pdf</urlpdf>
+            <pagination>
+              <ppage>15</ppage>
+              <dpage>19</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>La critique</surtitre>
+                <titre>Les vicaires du préjugé</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>François</prenom>
+                    <nomfamille>Tétreau</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="14783ac" idref="th1" lang="fr" ordseq="3" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="570" unite="ko">/culture/erudit/erudit/moebius1006620/moebius1016931/14783ac.pdf</urlpdf>
+            <pagination>
+              <ppage>20</ppage>
+              <dpage>24</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>La critique</surtitre>
+                <titre>La nécessaire cruauté de l’histoire littéraire</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Bertrand</prenom>
+                    <nomfamille>Laverdure</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="14784ac" idref="th1" lang="fr" ordseq="4" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="467" unite="ko">/culture/erudit/erudit/moebius1006620/moebius1016931/14784ac.pdf</urlpdf>
+            <pagination>
+              <ppage>25</ppage>
+              <dpage>29</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>La critique</surtitre>
+                <titre>Le, la, les critique(s)</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Patrick</prenom>
+                    <nomfamille>Coppens</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="14785ac" idref="th1" lang="fr" ordseq="5" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="1" unite="mo">/culture/erudit/erudit/moebius1006620/moebius1016931/14785ac.pdf</urlpdf>
+            <pagination>
+              <ppage>30</ppage>
+              <dpage>39</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>La critique</surtitre>
+                <titre>L’exercice du coeur au coeur de la pensée</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Philippe</prenom>
+                    <nomfamille>Haeck</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="14786ac" idref="th1" lang="fr" ordseq="6" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="573" unite="ko">/culture/erudit/erudit/moebius1006620/moebius1016931/14786ac.pdf</urlpdf>
+            <pagination>
+              <ppage>40</ppage>
+              <dpage>44</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>La critique</surtitre>
+                <titre>Le regard de l’autre</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Michel</prenom>                    
+<nomfamille>Pleau</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="14787ac" idref="th1" lang="fr" ordseq="7" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="452" unite="ko">/culture/erudit/erudit/moebius1006620/moebius1016931/14787ac.pdf</urlpdf>
+            <pagination>
+              <ppage>45</ppage>
+              <dpage>48</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>La critique</surtitre>
+                <titre>Coup de passion</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Claudine</prenom>
+                    <nomfamille>Bertrand</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="14788ac" idref="th1" lang="fr" ordseq="8" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="319" unite="ko">/culture/erudit/erudit/moebius1006620/moebius1016931/14788ac.pdf</urlpdf>
+            <pagination>
+              <ppage>49</ppage>
+              <dpage>54</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>La critique</surtitre>
+                <titre>L’insurgé</titre>
+                <sstitre>Sur le mode Prévert</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Nadine</prenom>
+                    <nomfamille>Decobert</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="14789ac" idref="th1" lang="fr" ordseq="9" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="1,3" unite="mo">/culture/erudit/erudit/moebius1006620/moebius1016931/14789ac.pdf</urlpdf>
+            <pagination>
+              <ppage>55</ppage>
+              <dpage>64</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>La critique</surtitre>
+                <titre>L’oeuvre confisquée</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Jean-Pierre</prenom>
+                    <nomfamille>Latour</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="14790ac" idref="th1" lang="fr" ordseq="10" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="1,2" unite="mo">/culture/erudit/erudit/moebius1006620/moebius1016931/14790ac.pdf</urlpdf>
+            <pagination>
+              <ppage>65</ppage>
+              <dpage>74</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>La critique</surtitre>
+                <titre>(D)’écrire la danse</titre>
+                <sstitre>ou Errance à deux voix</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Iro</prenom>
+                    <nomfamille>Valaskakis Tembeck</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="14791ac" idref="th1" lang="fr" ordseq="11" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="1,7" unite="mo">/culture/erudit/erudit/moebius1006620/moebius1016931/14791ac.pdf</urlpdf>
+            <pagination>
+              <ppage>75</ppage>
+              <dpage>87</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>La critique</surtitre>
+                <titre>Engagement intellectuel et critique d’art dans le milieu de la musique savante : l’histoire d’un exil </titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Michel</prenom>
+                    <nomfamille>Ratté</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="14792ac" idref="th1" lang="fr" ordseq="12" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="684" unite="ko">/culture/erudit/erudit/moebius1006620/moebius1016931/14792ac.pdf</urlpdf>
+            <pagination>
+              <ppage>88</ppage>
+              <dpage>93</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>La critique</surtitre>
+                <titre>La critique en vidéo de création</titre>
+                <sstitre>Une critique en devenir </sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Monique</prenom>
+                    <nomfamille>Langlois</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="14793ac" idref="th1" lang="fr" ordseq="13" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="455" unite="ko">/culture/erudit/erudit/moebius1006620/moebius1016931/14793ac.pdf</urlpdf>
+            <pagination>
+              <ppage>94</ppage>
+              <dpage>97</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>La critique</surtitre>
+                <titre>Le poème au coeur des jours</titre>
+                <sstitre>Fragments critiques</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Paul</prenom>
+                    <nomfamille>Bélanger</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="14794ac" idref="th1" lang="fr" ordseq="14" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="89" unite="ko">/culture/erudit/erudit/moebius1006620/moebius1016931/14794ac.pdf</urlpdf>
+            <pagination>
+              <ppage>98</ppage>
+              <dpage>99</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>La critique</surtitre>
+                <titre>Critique de pointe</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Madeleine</prenom>
+                    <nomfamille>Dupire</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="14795ac" idref="th1" lang="fr" ordseq="15" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="184" unite="ko">/culture/erudit/erudit/moebius1006620/moebius1016931/14795ac.pdf</urlpdf>
+            <pagination>
+              <ppage>100</ppage>
+              <dpage>102</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>La critique</surtitre>
+                <titre>Poëmons-nous les uns les autres</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Marc</prenom>
+                    <nomfamille>Vaillancourt</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="14796ac" idref="th1" lang="fr" ordseq="16" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="357" unite="ko">/culture/erudit/erudit/moebius1006620/moebius1016931/14796ac.pdf</urlpdf>
+            <pagination>
+              <ppage>103</ppage>
+              <dpage>105</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>La critique</surtitre>
+                <titre>Fève! fève! fève!</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Marc</prenom>
+                    <nomfamille>Vaillancourt</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="14797ac" idref="th1" lang="fr" ordseq="17" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="1,2" unite="mo">/culture/erudit/erudit/moebius1006620/moebius1016931/14797ac.pdf</urlpdf>
+            <pagination>
+              <ppage>106</ppage>
+              <dpage>115</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>La critique</surtitre>
+                <titre>
+                  <marquage typemarq="italique">Les années novembre</marquage> de Jean-Paul Desbiens</titre>
+                <sstitre> ou « Un homme et son passé » du Frère Fossile alias Untel </sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Jean</prenom>
+                    <nomfamille>Forest</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="14798ac" idref="th1" lang="fr" ordseq="18" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="288" unite="ko">/culture/erudit/erudit/moebius1006620/moebius1016931/14798ac.pdf</urlpdf>
+            <pagination>
+              <ppage>116</ppage>
+              <dpage>118</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>La critique</surtitre>
+                <titre>Claudia Schiffer : le trou de l’infini </titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Pierre</prenom>
+                    <nomfamille>Milot</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article horstheme="oui" idproprio="14799ac" lang="fr" ordseq="19" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="1,8" unite="mo">/culture/erudit/erudit/moebius1006620/moebius1016931/14799ac.pdf</urlpdf>
+            <pagination>
+              <ppage>119</ppage>
+              <dpage>135</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Yeux fertiles</titre>
+              </grtitre>
+            </liminaire>
+          </article>
+        </sommaire>

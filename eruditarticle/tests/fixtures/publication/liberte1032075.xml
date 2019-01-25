@@ -1,0 +1,794 @@
+
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+          <copyright>
+            <year>1986</year>
+            <contribution>
+              <physicalperson>
+                <gender>F</gender>
+                <personname>
+                  <physicalpersonid>1032473</physicalpersonid>
+                  <firstname>E.</firstname>
+                  <familyname>Bertil</familyname>
+                  <personnameprefix>
+                    <name>Mme</name>
+                    <personnameid>1032474</personnameid>
+                  </personnameprefix>
+                  <nametype>Usage</nametype>
+                </personname>
+              </physicalperson>
+              <contributiontype>
+                <code>droit</code>
+                <label lang="fr">Titulaire du droit d&apos;auteur</label>
+                <label lang="en">Copyright Holder</label>
+                <label lang="es">Titular del derecho de autor</label>
+              </contributiontype>
+              <ordering>0</ordering>
+            </contribution>
+            <contribution>
+              <artificialperson>
+                <name>Collectif Liberté</name>
+              </artificialperson>
+              <contributiontype>
+                <code>droit</code>
+                <label lang="fr">Titulaire du droit d&apos;auteur</label>
+                <label lang="en">Copyright Holder</label>
+                <label lang="es">Titular del derecho de autor</label>
+              </contributiontype>
+              <ordering>1</ordering>
+            </contribution>
+            <contributiondeclaration>
+              <code>tdr</code>
+              <label lang="fr">Tous droits réservés</label>
+              <label lang="en">All Rights Reserved</label>
+              <label lang="es">Reservados todos los derechos</label>
+            </contributiondeclaration>
+          </copyright>
+          <publicationnumberingkeys>
+            <publicationtypecode>reg</publicationtypecode>
+            <years>
+              <year value="1986">
+                <periodcode>fevri</periodcode>
+              </year>
+            </years>
+          </publicationnumberingkeys>
+          <infosommaire>
+            <url>/culture/erudit/erudit/liberte1026896/liberte1032075/30986ac/</url>
+            <nbarticle>33</nbarticle>
+            <icone>/logosodep/erudit</icone>
+            <revue id="liberte1026896" lang="fr">
+              <titrerev>Liberté</titrerev>
+              <titrerevabr>liberte</titrerevabr>
+              <idissn>0024-2020</idissn>
+              <idissnnum>1923-0915</idissnnum>
+              <directeur sexe="masculin">
+                <nompers>
+                  <prenom>François</prenom>
+                  <nomfamille>Ricard</nomfamille>
+                </nompers>
+                <key>directeur</key>
+              </directeur>
+            </revue>
+            <numero id="liberte1032075">
+              <volume>28</volume>
+              <nonumero>1</nonumero>
+              <anonumero>163</anonumero>
+              <pub>
+                <periode>Février</periode>
+                <annee>1986</annee>
+              </pub>
+              <pubnum>
+                <date typedate="publication">2010-02-08</date>
+              </pubnum>
+              <grtheme id="th1">
+                <theme>Le tour du Québec par deux enfants</theme>
+              </grtheme>
+            </numero>
+            <editeur>
+              <nomorg>Collectif Liberté</nomorg>
+              <key>editeur</key>
+            </editeur>
+            <droitsauteur>Tous droits réservés © <nompers>
+                <prefixe>Mme</prefixe>
+                <prenom>E.</prenom>
+                <nomfamille>Bertil</nomfamille>
+              </nompers> et <nomorg>Collectif Liberté</nomorg>, 1986</droitsauteur>
+          </infosommaire>
+          <article idproprio="30986ac" idref="th1" lang="fr" ordseq="1" qualtraitement="minimal" typeart="autre">
+            <urlpdf taille="135" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/30986ac.pdf</urlpdf>
+            <pagination>
+              <ppage>7</ppage>
+              <dpage>7</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Préface</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="30987ac" idref="th1" lang="fr" ordseq="2" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="634" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/30987ac.pdf</urlpdf>
+            <pagination>
+              <ppage>7</ppage>
+              <dpage>10</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Le départ de Sophie et Julien</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="30988ac" idref="th1" lang="fr" ordseq="3" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="718" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/30988ac.pdf</urlpdf>
+            <pagination>
+              <ppage>11</ppage>
+              <dpage>14</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>La mort de la grand-mère</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="30989ac" idref="th1" lang="fr" ordseq="4" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="548" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/30989ac.pdf</urlpdf>
+            <pagination>
+              <ppage>15</ppage>
+              <dpage>17</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Aux approches du Québec</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="30990ac" idref="th1" lang="fr" ordseq="5" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="743" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/30990ac.pdf</urlpdf>
+            <pagination>
+              <ppage>19</ppage>
+              <dpage>22</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Première épreuve</titre>
+                <sstitre>L’arrivée à Ottawa</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="30991ac" idref="th1" lang="fr" ordseq="6" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="439" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/30991ac.pdf</urlpdf>    
+        <pagination>
+              <ppage>23</ppage>
+              <dpage>25</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>La traversée de la frontière</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="30992ac" idref="th1" lang="fr" ordseq="7" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="489" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/30992ac.pdf</urlpdf>
+            <pagination>
+              <ppage>27</ppage>
+              <dpage>29</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>L’accueil dans la patrie</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="30993ac" idref="th1" lang="fr" ordseq="8" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="561" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/30993ac.pdf</urlpdf>
+            <pagination>
+              <ppage>31</ppage>
+              <dpage>33</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Le chemin qui marche</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="30994ac" idref="th1" lang="fr" ordseq="9" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="641" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/30994ac.pdf</urlpdf>
+            <pagination>
+              <ppage>35</ppage>
+              <dpage>38</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Une leçon d’histoire</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="30995ac" idref="th1" lang="fr" ordseq="10" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="776" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/30995ac.pdf</urlpdf>
+            <pagination>
+              <ppage>39</ppage>
+              <dpage>42</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Seconde épreuve</titre>
+                <sstitre>La Porte du Nord</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="30996ac" idref="th1" lang="fr" ordseq="11" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="774" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/30996ac.pdf</urlpdf>
+            <pagination>
+              <ppage>43</ppage>
+              <dpage>46</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>L’ermitage macrobiotique</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="30997ac" idref="th1" lang="fr" ordseq="12" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="477" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/30997ac.pdf</urlpdf>
+            <pagination>
+              <ppage>47</ppage>
+              <dpage>49</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Le temps perdu</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="30998ac" idref="th1" lang="fr" ordseq="13" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="645" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/30998ac.pdf</urlpdf>
+            <pagination>
+              <ppage>51</ppage>
+              <dpage>54</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Troisième épreuve</titre>
+                <sstitre>L’émeute du Rotary</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="30999ac" idref="th1" lang="fr" ordseq="14" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="618" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/30999ac.pdf</urlpdf>
+            <pagination>
+              <ppage>55</ppage>
+              <dpage>57</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Près du fleuve géant</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31000ac" idref="th1" lang="fr" ordseq="15" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="952" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/31000ac.pdf</urlpdf>
+            <pagination>
+              <ppage>59</ppage>
+              <dpage>63</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>L’éloquence de Sophie, la grandeur d’une cité</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31001ac" idref="th1" lang="fr" ordseq="16" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="704" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/31001ac.pdf</urlpdf>
+            <pagination>
+              <ppage>65</ppage>
+              <dpage>68</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>La beauté des légendes</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31002ac" idref="th1" lang="fr" ordseq="17" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="976" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/31002ac.pdf</urlpdf>
+            <pagination>
+              <ppage>69</ppage>
+              <dpage>73</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Un puits de science</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31003ac" idref="th1" lang="fr" ordseq="18" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="534" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/31003ac.pdf</urlpdf>
+            <pagination>
+              <ppage>79</ppage>
+              <dpage>81</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Quatrième épreuve</titre>
+                <sstitre>L’autobus scolaire</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31004ac" idref="th1" lang="fr" ordseq="19" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="732" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/31004ac.pdf</urlpdf>
+            <pagination>
+              <ppage>75</ppage>
+              <dpage>78</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Les étrangers</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31005ac" idref="th1" lang="fr" ordseq="20" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="438" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/31005ac.pdf</urlpdf>
+            <pagination>
+              <ppage>83</ppage>
+              <dpage>85</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Histoire d’un sou</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31006ac" idref="th1" lang="fr" ordseq="21" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="740" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/31006ac.pdf</urlpdf>
+            <pagination>
+              <ppage>87</ppage>
+              <dpage>90</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Les dangers de la conscientisation excessive</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31007ac" idref="th1" lang="fr" ordseq="22" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="547" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/31007ac.pdf</urlpdf>
+            <pagination>
+              <ppage>91</ppage>
+              <dpage>93</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Un lancement réussi</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31008ac" idref="th1" lang="fr" ordseq="23" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="814" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/31008ac.pdf</urlpdf>
+            <pagination>
+              <ppage>95</ppage>
+              <dpage>99</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Le bon Samaritain</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31009ac" idref="th1" lang="fr" ordseq="24" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="626" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/31009ac.pdf</urlpdf>
+            <pagination>
+              <ppage>101</ppage>
+              <dpage>104</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Dernière épreuve</titre>
+                <sstitre>De justesse, Sophie échappe à l’abîme</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31010ac" idref="th1" lang="fr" ordseq="25" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="380" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/31010ac.pdf</urlpdf>
+            <pagination>
+              <ppage>105</ppage>
+              <dpage>106</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>L’auteure prend la parole</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31011ac" idref="th1" lang="fr" ordseq="26" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="409" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/31011ac.pdf</urlpdf>
+            <pagination>
+              <ppage>107</ppage>
+              <dpage>109</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Un maire inspiré</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31012ac" idref="th1" lang="fr" ordseq="27" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="724" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/31012ac.pdf</urlpdf>
+            <pagination>
+              <ppage>111</ppage>
+              <dpage>114</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>La fin de l’errance</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31013ac" idref="th1" lang="fr" ordseq="28" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="853" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/31013ac.pdf</urlpdf>
+            <pagination>
+              <ppage>115</ppage>
+              <dpage>118</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>La voie triomphale</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31014ac" idref="th1" lang="fr" ordseq="29" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="799" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/31014ac.pdf</urlpdf>
+            <pagination>
+              <ppage>119</ppage>
+              <dpage>122</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>La ville aux mille merveilles</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31015ac" idref="th1" lang="fr" ordseq="30" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="1,1" unite="mo">/culture/erudit/erudit/liberte1026896/liberte1032075/31015ac.pdf</urlpdf>
+            <pagination>
+              <ppage>123</ppage>
+              <dpage>128</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Une cité bénie</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31016ac" idref="th1" lang="fr" ordseq="31" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="89" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/31016ac.pdf</urlpdf>
+            <pagination>
+              <ppage>129</ppage>
+              <dpage>129</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Épilogue</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31017ac" idref="th1" lang="fr" ordseq="32" qualtraitement="minimal" typeart="autre">
+            <urlpdf taille="142" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/31017ac.pdf</urlpdf>
+            <pagination>
+              <ppage>131</ppage>
+              <dpage>131</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Sujets de discussions libres</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="31018ac" idref="th1" lang="fr" ordseq="33" qualtraitement="minimal" typeart="autre">
+            <urlpdf taille="148" unite="ko">/culture/erudit/erudit/liberte1026896/liberte1032075/31018ac.pdf</urlpdf>
+            <pagination>
+              <ppage>133</ppage>
+              <dpage>133</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Ce que dira la critique</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prefixe>Mme</prefixe>
+                    <prenom>E.</prenom>
+                    <nomfamille>Bertil</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+        </sommaire>
