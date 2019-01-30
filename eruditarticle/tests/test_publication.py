@@ -398,6 +398,10 @@ class TestEruditPublication(object):
     def test_can_return_the_first_page_of_the_publication(self, value):
         assert value == "5"
 
+    @with_value("hphi3180.xml", "get_first_page")
+    def test_do_not_crash_when_first_page_in_roman_numerals(self, value):
+        pass
+
     @with_value("ae1375.xml", "get_last_page")
     def test_can_return_the_last_page_of_the_publication(self, value):
         assert value == "316"
