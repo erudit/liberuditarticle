@@ -310,21 +310,26 @@ class EruditPublication(
         else:
             return self._get_formatted_single_title(titles)
 
+    def _get_page(self, xpath=None, first_page=True):
+        articles = self.findall('article')
+        if not len(articles):
+            return
+
+        article = articles[0 if first_page else -1]
+        try:
+            page = article.find(xpath).text
+        except AttributeError:
+            page = None
+
+        return page
+
     def get_first_page(self):
         """ :returns: the first page of the publication object. """
-        ppages = self.findall('article//pagination//ppage')
-        if ppages:
-            return str(min([int(ppage.text) for ppage in ppages]))
-        else:
-            return None
+        return self._get_page(xpath='pagination//ppage', first_page=True)
 
     def get_last_page(self):
         """ :returns: the last page of the publication object. """
-        dpages = self.findall('article//pagination//dpage')
-        if dpages:
-            return str(max([int(dpage.text) for dpage in dpages]))
-        else:
-            return None
+        return self._get_page(xpath='pagination//dpage', first_page=False)
 
     def get_note_edito(self):
         """ :returns: the edito note associated with the publication object if any. """
