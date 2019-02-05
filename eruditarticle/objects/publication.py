@@ -8,6 +8,7 @@ except ImportError:
 import collections
 import re
 import itertools
+import roman
 from datetime import datetime
 
 from .base import EruditBaseObject
@@ -310,26 +311,44 @@ class EruditPublication(
         else:
             return self._get_formatted_single_title(titles)
 
-    def _get_page(self, xpath=None, first_page=True):
-        articles = self.findall('article')
-        if not len(articles):
-            return
-
-        article = articles[0 if first_page else -1]
-        try:
-            page = article.find(xpath).text
-        except AttributeError:
-            page = None
-
-        return page
 
     def get_first_page(self):
         """ :returns: the first page of the publication object. """
-        return self._get_page(xpath='pagination//ppage', first_page=True)
+        roman_pages = []
+        arabic_pages = []
+        for ppage in self.findall('article//pagination//ppage'):
+            try:
+                arabic_pages.append(int(ppage.text))
+            except ValueError:
+                try:
+                    roman_pages.append(roman.fromRoman(ppage.text))
+                except roman.InvalidRomanNumeralError:
+                    pass
+        if len(roman_pages):
+            return roman.toRoman(min(roman_pages))
+        elif len(arabic_pages):
+            return str(min(arabic_pages))
+        else:
+            return None
 
     def get_last_page(self):
         """ :returns: the last page of the publication object. """
-        return self._get_page(xpath='pagination//dpage', first_page=False)
+        roman_pages = []
+        arabic_pages = []
+        for dpage in self.findall('article//pagination//dpage'):
+            try:
+                arabic_pages.append(int(dpage.text))
+            except ValueError:
+                try:
+                    roman_pages.append(roman.fromRoman(dpage.text))
+                except roman.InvalidRomanNumeralError:
+                    pass
+        if len(arabic_pages):
+            return str(max(arabic_pages))
+        elif len(roman_pages):
+            return roman.toRoman(max(roman_pages))
+        else:
+            return None
 
     def get_note_edito(self):
         """ :returns: the edito note associated with the publication object if any. """

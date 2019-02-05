@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+<originator username="p0962873" date="2019-01-22" app="Tournesol 0.5.3"/>
+<copyright>
+	<year>2018</year>
+<contribution>
+<artificialperson>
+	<name>Spirale magazine culturel inc.</name>
+</artificialperson>
+<contributiontype>
+	<code>droit</code>
+	<label lang="en">Copyright Holder</label>
+	<label lang="fr">Titulaire du droit d'auteur</label>
+	<label lang="es">Titular del derecho de autor</label>
+</contributiontype>
+	<ordering>0</ordering>
+</contribution>
+<copyrightdeclaration>
+	<code>tdr</code>
+	<label lang="en">All Rights Reserved</label>
+	<label lang="fr">Tous droits réservés</label>
+	<label lang="es">Todos los derechos reservados</label>
+</copyrightdeclaration>
+</copyright>
+<publicationnumberingkeys>
+	<publicationtypecode>reg</publicationtypecode>
+	<years>
+		<year value="2018">
+			<periodcode>print</periodcode>
+		</year>
+	</years>
+</publicationnumberingkeys><infosommaire>
+  <url>/culture/spirale1048177/spirale04246</url>
+  <nbarticle>29</nbarticle>
+  <revue id="spirale1048177" lang="fr">
+    <titrerev>Spirale</titrerev>
+    <sstitrerev>arts • lettres • sciences humaines</sstitrerev>
+    <titrerevabr>spirale</titrerevabr>
+    <idissn>0225-9044</idissn>
+    <idissnnum>1923-3213</idissnnum>
+    <directeur sexe="masculin">
+      <nompers>
+        <prenom>Sébastien</prenom>
+        <nomfamille>Dulude</nomfamille>
+      </nompers>
+      <key>directeur</key>
+    </directeur>
+    <redacteurchef idrefs="th1" sexe="masculin" typerc="invite">
+      <nompers>
+        <prenom>Martin</prenom>
+        <nomfamille>Hervé</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+  </revue>
+  <numero id="spirale04246">
+    <nonumero>264</nonumero>
+    <pub>
+      <periode>Printemps</periode>
+      <annee>2018</annee>
+    </pub>
+    <pubnum>
+      <date typedate="publication">2019-01-22</date>
+    </pubnum>
+    <grtheme id="th1">
+      <theme>Au diable l’autre. Figures et logiques du diabolique</theme>
+    </grtheme>
+  </numero>
+  <editeur>
+    <nomorg>Spirale magazine culturel inc.</nomorg>
+    <key>editeur</key>
+  </editeur>
+  <droitsauteur>Tous droits réservés © <nomorg>Spirale magazine culturel inc.</nomorg>, 2018</droitsauteur>
+</infosommaire>
+<article horstheme="oui" idproprio="89613ac" lang="fr" ordseq="1" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="293" unite="ko">/culture/spirale1048177/spirale04246/89613ac.pdf</urlpdf>
+  <pagination>
+    <ppage>5</ppage>
+    <dpage>5</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Lettres</surtitre>
+                  <titre><marquage typemarq="italique">Monstera_</marquage></titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Chantal</prenom>
+    <nomfamille>Neveu</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89614ac" lang="fr" ordseq="2" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="371" unite="ko">/culture/spirale1048177/spirale04246/89614ac.pdf</urlpdf>
+  <pagination>
+    <ppage>6</ppage>
+    <dpage>8</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Chronique : Les entretiens</surtitre>
+                  <titre>Kenneth Goldsmith : contre la créativité</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Samuel</prenom>
+    <nomfamille>Mercier</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89615ac" lang="fr" ordseq="3" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="827" unite="ko">/culture/spirale1048177/spirale04246/89615ac.pdf</urlpdf>
+  <pagination>
+    <ppage>9</ppage>
+    <dpage>14</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Arts visuels</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Edmund Alleyn. Biographie</marquage> de Gilles Lapointe</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Isabelle</prenom>
+    <nomfamille>Décarie</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89616ac" lang="fr" ordseq="4" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="156" unite="ko">/culture/spirale1048177/spirale04246/89616ac.pdf</urlpdf>
+  <pagination>
+    <ppage>3</ppage>
+    <dpage>3</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Portfolio</surtitre>
+                  <titre>Louis-Philippe Côté</titre>
+                <sstitre>Présentation du Portfolio</sstitre>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Philippe</prenom>
+    <nomfamille>Chevalier</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89617ac" lang="fr" ordseq="5" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="1,8" unite="mo">/culture/spirale1048177/spirale04246/89617ac.pdf</urlpdf>
+  <pagination>
+    <ppage>15</ppage>
+    <dpage>26</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Portfolio</surtitre>
+                  <titre>Louis-Philippe Côté. Sur le chemin du retour</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Philippe</prenom>
+    <nomfamille>Chevaler </nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89618ac" lang="fr" ordseq="6" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="2,3" unite="mo">/culture/spirale1048177/spirale04246/89618ac.pdf</urlpdf>
+  <pagination>
+    <ppage>58</ppage>
+    <dpage>61</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Chronique : Afterpop</surtitre>
+                  <titre>Labyrinthes du métajeu de combat</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Philippe</prenom>
+    <nomfamille>St-Germain</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89619ac" lang="fr" ordseq="7" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="363" unite="ko">/culture/spirale1048177/spirale04246/89619ac.pdf</urlpdf>
+  <pagination>
+    <ppage>62</ppage>
+    <dpage>64</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Bande dessinée</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Moi aussi je voulais l’emporter</marquage> de Julie Delporte</trefbiblio>    <trefbiblio>
+<marquage typemarq="italique">Vogue la valise – L’intégrale</marquage> de Siris</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Eric</prenom>
+    <nomfamille>Bouchard</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89620ac" lang="fr" ordseq="8" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="167" unite="ko">/culture/spirale1048177/spirale04246/89620ac.pdf</urlpdf>
+  <pagination>
+    <ppage>65</ppage>
+    <dpage>66</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Poésie</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Là où fuit le monde en lumière</marquage> de Rose Eliceiry</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Hugo</prenom>
+    <nomfamille>Beauchemin-Lachapelle</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89621ac" lang="fr" ordseq="9" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="381" unite="ko">/culture/spirale1048177/spirale04246/89621ac.pdf</urlpdf>
+  <pagination>
+    <ppage>67</ppage>
+    <dpage>69</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Poésie</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Chômage monstre</marquage> d’Antoine Mouton</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Pierre</prenom>
+    <nomfamille>Popovic</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89622ac" lang="fr" ordseq="10" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="221" unite="ko">/culture/spirale1048177/spirale04246/89622ac.pdf</urlpdf>
+  <pagination>
+    <ppage>70</ppage>
+    <dpage>72</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Essai</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Défions l’augure</marquage> d’Hélène Cixous</trefbiblio>    <trefbiblio>
+<marquage typemarq="italique">Les Sans Arche d’Adel Abdessemed et autres coups de balai</marquage> d’Hélène Cixous</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Ginette</prenom>
+    <nomfamille>Michaud</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89623ac" lang="fr" ordseq="11" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="229" unite="ko">/culture/spirale1048177/spirale04246/89623ac.pdf</urlpdf>
+  <pagination>
+    <ppage>73</ppage>
+    <dpage>75</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Essai</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">La beauté du monde. La littérature et les arts</marquage> de Jean Starobinski</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Clément</prenom>
+    <nomfamille>Willer</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89624ac" lang="fr" ordseq="12" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="279" unite="ko">/culture/spirale1048177/spirale04246/89624ac.pdf</urlpdf>
+  <pagination>
+    <ppage>76</ppage>
+    <dpage>78</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Essai/récit/cinéma</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Mémoires de l’oubli. William Faulkner, Joseph Roth, Georges Perec et W.G. Sebald</marquage> de Raphaëlle Guidée</trefbiblio>    <trefbiblio>
+<marquage typemarq="italique">Tristesse de la terre. Une histoire de Buffalo Bill Cody</marquage> d’Éric Vuillard</trefbiblio>    <trefbiblio>
+<marquage typemarq="italique">Kaygi (inflame)</marquage> de Ceylan Özgün Özçelik</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Bernabé</prenom>
+    <nomfamille>Wesley</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89625ac" lang="fr" ordseq="13" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="356" unite="ko">/culture/spirale1048177/spirale04246/89625ac.pdf</urlpdf>
+  <pagination>
+    <ppage>79</ppage>
+    <dpage>81</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Roman</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">4321</marquage> de Paul Auster</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Jean-François</prenom>
+    <nomfamille>Chassay</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89626ac" lang="fr" ordseq="14" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="218" unite="ko">/culture/spirale1048177/spirale04246/89626ac.pdf</urlpdf>
+  <pagination>
+    <ppage>82</ppage>
+    <dpage>84</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Roman</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">La Scouine</marquage> d’Albert Laberge</trefbiblio>    <trefbiblio>
+<marquage typemarq="italique">La Scouine</marquage> de Gabriel Marcoux-Chabot</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Caroline</prenom>
+    <nomfamille>Loranger</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89627ac" lang="fr" ordseq="15" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="113" unite="ko">/culture/spirale1048177/spirale04246/89627ac.pdf</urlpdf>
+  <pagination>
+    <ppage>85</ppage>
+    <dpage>86</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Roman</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">L’habitude des bêtes</marquage> de Lise Tremblay</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Daniel</prenom>
+    <nomfamille>Laforest</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89628ac" lang="fr" ordseq="16" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="111" unite="ko">/culture/spirale1048177/spirale04246/89628ac.pdf</urlpdf>
+  <pagination>
+    <ppage>87</ppage>
+    <dpage>88</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Roman</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Le jeu de la musique</marquage> de Stéfanie Clermont</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Jean-Pierre</prenom>
+    <nomfamille>Vidal</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89629ac" lang="fr" ordseq="17" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="320" unite="ko">/culture/spirale1048177/spirale04246/89629ac.pdf</urlpdf>
+  <pagination>
+    <ppage>89</ppage>
+    <dpage>91</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Danse</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Siena</marquage> de Marcos Morau</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Guylaine</prenom>
+    <nomfamille>Massoutre</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89630ac" lang="fr" ordseq="18" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="364" unite="ko">/culture/spirale1048177/spirale04246/89630ac.pdf</urlpdf>
+  <pagination>
+    <ppage>92</ppage>
+    <dpage>94</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Théâtre</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Les enivrés</marquage> Texte d’Ivan Viripaev, mise en scène de Florent Siaud</trefbiblio>    <trefbiblio>
+<marquage typemarq="italique">Dans la solitude des champs de coton</marquage> Texte de Bernard-Marie Koltès, mise en scène de Brigitte Haentjens</trefbiblio>    <trefbiblio>
+<marquage typemarq="italique">Les Marguerite(S)</marquage> Texte de Stéphanie Jasmin, mise en scène de Denis Marleau et Stéphanie Jasmin</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Gilbert</prenom>
+    <nomfamille>David</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89631ac" lang="fr" ordseq="19" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="370" unite="ko">/culture/spirale1048177/spirale04246/89631ac.pdf</urlpdf>
+  <pagination>
+    <ppage>95</ppage>
+    <dpage>97</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Théâtre</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Baby-sitter</marquage> Texte de Catherine Léger, mise en scène de Philippe Lambert</trefbiblio>    <trefbiblio>
+<marquage typemarq="italique">Nyotaimori</marquage> Texte de Sarah Berthiaume, mise en scène de Sarah Berthiaume et Sébastien David</trefbiblio>    <trefbiblio>
+<marquage typemarq="italique">La meute</marquage> Texte de Catherine-Anne Toupin, mise en scène de Marc Beaupré</trefbiblio>    <trefbiblio>
+<marquage typemarq="italique">Filles en liberté</marquage> Texte de Catherine Léger, mise en scène de Patrice Dubois</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Hervé</prenom>
+    <nomfamille>Guay</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89632ac" lang="fr" ordseq="20" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="526" unite="ko">/culture/spirale1048177/spirale04246/89632ac.pdf</urlpdf>
+  <pagination>
+    <ppage>27</ppage>
+    <dpage>28</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier : Au diable l’autre. Figures et logiques du diabolique</surtitre>
+                  <titre>Introduction</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Martin</prenom>
+    <nomfamille>Hervé</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89633ac" lang="fr" ordseq="21" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="457" unite="ko">/culture/spirale1048177/spirale04246/89633ac.pdf</urlpdf>
+  <pagination>
+    <ppage>29</ppage>
+    <dpage>30</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier : Au diable l’autre. Figures et logiques du diabolique</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Ils m’ont haï sans raison. De la chasse aux sorcières à la terreur</marquage> de Jacob Rogozinski</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Alexis</prenom>
+    <nomfamille>Lussier</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89634ac" lang="fr" ordseq="22" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="484" unite="ko">/culture/spirale1048177/spirale04246/89634ac.pdf</urlpdf>
+  <pagination>
+    <ppage>31</ppage>
+    <dpage>33</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier : Au diable l’autre. Figures et logiques du diabolique</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Les sorcières de la République</marquage> de Chloé Delaume</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Evelyne</prenom>
+    <nomfamille>Ledoux-Beaugrand</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89635ac" lang="fr" ordseq="23" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="478" unite="ko">/culture/spirale1048177/spirale04246/89635ac.pdf</urlpdf>
+  <pagination>
+    <ppage>34</ppage>
+    <dpage>36</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier : Au diable l’autre. Figures et logiques du diabolique</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">La petite-fille de la sorcière. Enquête sur la culture magique des campagnes au temps de George Sand</marquage> de Vincent Robert</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Lucie</prenom>
+    <nomfamille>Desjardins</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89636ac" lang="fr" ordseq="24" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="584" unite="ko">/culture/spirale1048177/spirale04246/89636ac.pdf</urlpdf>
+  <pagination>
+    <ppage>37</ppage>
+    <dpage>39</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier : Au diable l’autre. Figures et logiques du diabolique</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Le diable, l’exorciste et le psychanalyste. Conversations sur le mal et la possession</marquage> de Maurice Bellot et Alberto Velasco</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Sarah</prenom>
+    <nomfamille>Chiche</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89637ac" lang="fr" ordseq="25" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="639" unite="ko">/culture/spirale1048177/spirale04246/89637ac.pdf</urlpdf>
+  <pagination>
+    <ppage>41</ppage>
+    <dpage>44</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier : Au diable l’autre. Figures et logiques du diabolique</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Possédées</marquage> de Frédéric Gros</trefbiblio>    <trefbiblio>
+<marquage typemarq="italique">L’évangile du démon. La possession diabolique d’Aix-en-Provence (1610-1611)</marquage> de Jean-Raymond Fanlo</trefbiblio>    <trefbiblio>
+<marquage typemarq="italique">Confession d’une sorcière. L’affaire de Louviers (1642-1647)</marquage> de Stéphane Vautier (éd.)</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Martin</prenom>
+    <nomfamille>Hervé</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89638ac" lang="fr" ordseq="26" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="451" unite="ko">/culture/spirale1048177/spirale04246/89638ac.pdf</urlpdf>
+  <pagination>
+    <ppage>45</ppage>
+    <dpage>47</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier : Au diable l’autre. Figures et logiques du diabolique</surtitre>
+                  <titre>Faites entrer le mal. Petite histoire de la panique satanique en Amérique du Nord</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Ralph</prenom>
+    <nomfamille>Elawani</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89639ac" lang="fr" ordseq="27" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="779" unite="ko">/culture/spirale1048177/spirale04246/89639ac.pdf</urlpdf>
+  <pagination>
+    <ppage>48</ppage>
+    <dpage>50</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier : Au diable l’autre. Figures et logiques du diabolique</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Jean dit</marquage> Texte et mise en scène d’Olivier Choinière</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Martine-Emmanuelle</prenom>
+    <nomfamille>Lapointe</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89640ac" lang="fr" ordseq="28" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="733" unite="ko">/culture/spirale1048177/spirale04246/89640ac.pdf</urlpdf>
+  <pagination>
+    <ppage>51</ppage>
+    <dpage>53</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier : Au diable l’autre. Figures et logiques du diabolique</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">The girls</marquage> d’Emma Cline</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Hélène</prenom>
+    <nomfamille>Hotton</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article horstheme="oui" idproprio="89641ac" lang="fr" ordseq="29" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="1,7" unite="mo">/culture/spirale1048177/spirale04246/89641ac.pdf</urlpdf>
+  <pagination>
+    <ppage>54</ppage>
+    <dpage>57</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier : Au diable l’autre. Figures et logiques du diabolique</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Du diable en politique. Réflexions sur l’antilepénisme ordinaire</marquage> de Pierre-André Taguieff</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Francis</prenom>
+    <nomfamille>Gingras</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+</sommaire>
