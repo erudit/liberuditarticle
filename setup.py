@@ -30,6 +30,8 @@ setup(
     zip_safe=False,
     install_requires=[
         'six',
+        'roman',
+        'lxml',
     ],
     classifiers=[
         'Development Status :: 1 - Planning',

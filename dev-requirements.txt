@@ -1,6 +1,5 @@
 tox
 flake8
-lxml
 pytest
 pytest-sugar
 pytest-cov
@@ -9,4 +8,3 @@ Django>=1.10.0
 ipdb
 sphinx
 sphinx_rtd_theme
-roman
