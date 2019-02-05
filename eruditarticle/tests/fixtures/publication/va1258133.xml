@@ -1,0 +1,313 @@
+
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+          <copyright>
+            <contribution>
+              <artificialperson>
+                <name>La Société des Arts</name>
+              </artificialperson>
+              <contributiontype>
+                <code>droit</code>
+                <label lang="fr">Titulaire du droit d&apos;auteur</label>
+                <label lang="en">Copyright Holder</label>
+                <label lang="es">Titular del derecho de autor</label>
+              </contributiontype>
+              <ordering>0</ordering>
+            </contribution>
+            <copyrightdeclaration>
+              <code>tdr</code>
+              <label lang="fr">Tous droits réservés</label>
+              <label lang="en">All Rights Reserved</label>
+              <label lang="es">Reservados todos los derechos</label>
+            </copyrightdeclaration>
+          </copyright>
+          <publicationnumberingkeys>
+            <publicationtypecode>reg</publicationtypecode>
+            <years>
+              <year value="1958">
+                <periodcode>print</periodcode>
+              </year>
+            </years>
+          </publicationnumberingkeys>
+          <infosommaire>
+            <url>/culture/erudit/erudit/va1081917/va1258133/21803ac/</url>
+            <nbarticle>12</nbarticle>
+            <icone>/logosodep/erudit</icone>
+            <revue id="va1081917" lang="fr">
+              <titrerev>Vie des Arts</titrerev>
+              <titrerevabr>va</titrerevabr>
+              <idissn>0042-5435</idissn>
+              <idissnnum>1923-3183</idissnnum>
+              <directeur sexe="masculin">
+                <nompers>
+                  <prenom>Jacques</prenom>
+                  <nomfamille>Simard</nomfamille>
+                </nompers>
+                <key>directeur</key>
+              </directeur>
+              <directeur sexe="masculin">
+                <fonction lang="fr">Directeur artistique</fonction>
+                <nompers>
+                  <prenom>Claude</prenom>
+                  <nomfamille>Beaulieu</nomfamille>
+                </nompers>
+                <key>directeurartistique</key>
+              </directeur>
+            </revue>
+            <numero id="va1258133">
+              <nonumero>10</nonumero>
+              <pub>
+                <periode>Printemps</periode>
+                <annee>1958</annee>
+              </pub>
+              <pubnum>
+                <date typedate="publication">2010-06-23</date>
+              </pubnum>
+            </numero>
+            <editeur>
+              <nomorg>La Société La Vie des Arts</nomorg>
+              <key>editeur</key>
+            </editeur>
+            <droitsauteur>Tous droits réservés © <nomorg>La Société des Arts</nomorg>, </droitsauteur>
+          </infosommaire>
+          <article idproprio="21803ac" lang="fr" ordseq="1" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="1,1" unite="mo">/culture/erudit/erudit/va1081917/va1258133/21803ac.pdf</urlpdf>
+            <pagination>
+              <ppage>4</ppage>
+              <dpage>9</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>La résidence de l’ambassadeur du Canada à Paris</titre>
+              </grtitre>
+            </liminaire>
+          </article>
+          <article idproprio="21804ac" lang="fr" ordseq="2" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="354" unite="ko">/culture/erudit/erudit/va1081917/va1258133/21804ac.pdf</urlpdf>
+            <pagination>
+              <ppage>10</ppage>
+              <dpage>11</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Présence de la tapisserie</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Andrée</prenom>
+                    <nomfamille>Paradis</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="21805ac" lang="fr" ordseq="3" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="522" unite="ko">/culture/erudit/erudit/va1081917/va1258133/21805ac.pdf</urlpdf>
+            <pagination>
+              <ppage>12</ppage>
+              <dpage>14</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>L’art du tisserand</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Louis</prenom>
+                    <nomfamille>Parent</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="21806ac" lang="fr" ordseq="4" qualtraitement="minimal" typeart="autre">
+            <urlpdf taille="424" unite="ko">/culture/erudit/erudit/va1081917/va1258133/21806ac.pdf</urlpdf>
+            <pagination>
+              <ppage>15</ppage>
+              <dpage>16</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Caron</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Henriette</prenom>
+                    <nomfamille>de Pioger</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="21807ac" lang="fr" ordseq="5" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="1,1" unite="mo">/culture/erudit/erudit/va1081917/va1258133/21807ac.pdf</urlpdf>
+            <pagination>
+              <ppage>19</ppage>
+              <dpage>29</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Trois peintres canadiens au Musée National d’art Moderne de Paris</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Bernard</prenom>
+                    <nomfamille>Dorival</nomfamille>
+                  </nompers>
+                  <affiliation>
+                    <alinea>Conservateur du Musée National d’Art Moderne de Paris</alinea>
+                  </affiliation>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="21808ac" lang="fr" ordseq="6" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="316" unite="ko">/culture/erudit/erudit/va1081917/va1258133/21808ac.pdf</urlpdf>
+            <pagination>
+              <ppage>30</ppage>
+              <dpage>32</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Raoul Bonin, 1904-1949</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Allan</prenom>
+                    <nomfamille>Harrison</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="21809ac" lang="fr" ordseq="7" qualtraitement="minimal" typeart="autre">
+            <urlpdf taille="214" unite="ko">/culture/erudit/erudit/va1081917/va1258133/21809ac.pdf</urlpdf>
+            <pagination>
+              <ppage>33</ppage>
+              <dpage>33</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>Pour un retour aux rythmes de la nature</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <contribution>Propos recueillis par</contribution>
+                  <nompers>
+                    <prenom>Michelle</prenom>
+                    <nomfamille>Lasnier</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="21810ac" lang="fr" ordseq="8" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="578" unite="ko">/culture/erudit/erudit/va1081917/va1258133/21810ac.pdf</urlpdf>
+            <pagination>
+              <ppage>36</ppage>
+              <dpage>39</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <titre>La Collection Zacks</titre>
+                <sstitre>Une tranche de vie</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Rodolphe</prenom>
+                    <nomfamille>de Repentigny</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="21811ac" lang="fr" ordseq="9" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="435" unite="ko">/culture/erudit/erudit/va1081917/va1258133/21811ac.pdf</urlpdf>
+            <pagination>
+              <ppage>32</ppage>
+              <dpage>33</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <titre>Spectacles</titre>
+                <sstitre>Précisions et digressions sur le théâtre</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Paul</prenom>
+                    <nomfamille>Toupin</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="21812ac" lang="fr" ordseq="10" qualtraitement="minimal" typeart="compterendu">
+            <urlpdf taille="239" unite="ko">/culture/erudit/erudit/va1081917/va1258133/21812ac.pdf</urlpdf>
+            <pagination>
+              <ppage>41</ppage>
+              <dpage>41</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <titre>Livres</titre>
+                <sstitre>Poésie récente</sstitre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Wilfrid</prenom>
+                    <nomfamille>Lemoine</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="21813ac" lang="fr" ordseq="11" qualtraitement="minimal" typeart="article">
+            <urlpdf taille="438" unite="ko">/culture/erudit/erudit/va1081917/va1258133/21813ac.pdf</urlpdf>
+            <pagination>
+              <ppage>42</ppage>
+              <dpage>43</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <titre>Expositions</titre>
+              </grtitre>
+              <grauteur>
+                <auteur id="au1">
+                  <nompers>
+                    <prenom>Roland</prenom>
+                    <nomfamille>Giguère</nomfamille>
+                  </nompers>
+                </auteur>
+                <auteur id="au2">
+                  <nompers>
+                    <prenom>Rodolphe</prenom>
+                    <nomfamille>de Repentigny</nomfamille>
+                  </nompers>
+                </auteur>
+              </grauteur>
+            </liminaire>
+          </article>
+          <article idproprio="21814ac" lang="fr" ordseq="12" qualtraitement="minimal" typeart="autre">
+            <urlpdf taille="195" unite="ko">/culture/erudit/erudit/va1081917/va1258133/21814ac.pdf</urlpdf>
+            <pagination>
+              <ppage>44</ppage>
+              <dpage>44</dpage>
+            </pagination>
+            <liminaire>
+              <grtitre>
+                <surtitre>Chroniques</surtitre>
+                <titre>Dans les galeries</titre>
+              </grtitre>
+            </liminaire>
+          </article>
+        </sommaire>

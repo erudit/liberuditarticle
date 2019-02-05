@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-20 11:06-0400\n"
+"POT-Creation-Date: 2019-01-25 10:18-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: objects/mixins.py:156 objects/person.py:129
+msgid "et"
+msgstr "and"
+
+#: objects/person.py:175 objects/person.py:203
+msgid "{} et {}"
+msgstr "{} and {}"
+
+#: objects/person.py:177
+msgid "{}, et al"
+msgstr "{}, et al"
 
 #: objects/publication.py:115 translations.py:6
 msgctxt "numbering"
@@ -32,42 +44,42 @@ msgctxt "numbering"
 msgid "hors-série"
 msgstr "Special"
 
-#: objects/publication.py:431 objects/publication.py:435
+#: objects/publication.py:412 objects/publication.py:416
 msgctxt "numbering"
 msgid "Vol."
 msgstr ""
 
-#: objects/publication.py:432
+#: objects/publication.py:413
 msgctxt "numbering"
 msgid "N<sup>o</sup>"
 msgstr ""
 
-#: objects/publication.py:436
+#: objects/publication.py:417
 msgctxt "numbering"
 msgid "N°"
 msgstr ""
 
-#: objects/publication.py:439
+#: objects/publication.py:420
 msgctxt "numbering"
 msgid "Volume"
 msgstr ""
 
-#: objects/publication.py:440
+#: objects/publication.py:421
 msgctxt "numbering"
 msgid "Numéro"
 msgstr "Number"
 
-#: objects/publication.py:446
+#: objects/publication.py:427
 msgctxt "numbering"
 msgid "{} hors-série"
 msgstr ""
 
-#: objects/publication.py:450
+#: objects/publication.py:431
 msgctxt "numbering"
 msgid "{} {}"
 msgstr ""
 
-#: objects/publication.py:469
+#: objects/publication.py:450
 #, python-brace-format
 msgid ""
 "{volume_str} {volume}, {number_str_lcase} {number}, {number_type_lcase}, "
@@ -76,56 +88,44 @@ msgstr ""
 "{volume_str} {volume}, {number_str} {number}, {number_type}, "
 "{publication_period}"
 
-#: objects/publication.py:471
+#: objects/publication.py:452
 #, python-brace-format
 msgid ""
 "{volume_str} {volume}, {number_str_number_type_lcase}, "
 "{publication_period_lcase}"
 msgstr "{volume_str} {volume}, {number_str_number_type}, {publication_period}"
 
-#: objects/publication.py:473
+#: objects/publication.py:454
 #, python-brace-format
 msgid ""
 "{volume_str} {volume}, {number_str_lcase} {number}, "
 "{publication_period_lcase}"
 msgstr "{volume_str} {volume}, {number_str} {number}, {publication_period}"
 
-#: objects/publication.py:475
+#: objects/publication.py:456
 #, python-brace-format
 msgid "{volume_str} {volume}, {publication_period_lcase}"
 msgstr "{volume_str} {volume}, {publication_period}"
 
-#: objects/publication.py:477
+#: objects/publication.py:458
 #, python-brace-format
 msgid "{number_str} {number}, {number_type_lcase}, {publication_period_lcase}"
 msgstr "{number_str} {number}, {number_type}, {publication_period}"
 
-#: objects/publication.py:479
+#: objects/publication.py:460
 #, python-brace-format
 msgid "Index, {publication_period_lcase}"
 msgstr "Index, {publication_period}"
 
-#: objects/publication.py:481
+#: objects/publication.py:462
 #, python-brace-format
 msgid "{number_str_number_type}, {publication_period_lcase}"
 msgstr "{number_str_number_type}, {publication_period}"
 
-#: objects/publication.py:483
+#: objects/publication.py:464
 #, python-brace-format
 msgid "{number_str} {number}, {publication_period_lcase}"
 msgstr "{number_str} {number}, {publication_period}"
-
-#: objects/person.py:121
-msgid "et"
-msgstr ""
-
-#: objects/person.py:144 objects/person.py:176
-msgid "{} et {}"
-msgstr ""
-
-#: objects/person.py:146
-msgid "{}, et al."
-msgstr ""
 
 #: translations.py:4
 msgctxt "numbering"
