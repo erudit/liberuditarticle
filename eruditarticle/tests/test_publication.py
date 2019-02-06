@@ -418,6 +418,14 @@ class TestEruditPublication(object):
     def test_can_return_the_last_page_of_the_publication_when_articles_not_in_order(self, value):
         assert value == "97"
 
+    @with_value("teoros02917.xml", "get_first_page")
+    def test_can_return_the_first_page_of_the_publication_when_no_pages(self, value):
+        assert value == None
+
+    @with_value("teoros02917.xml", "get_last_page")
+    def test_can_return_the_last_page_of_the_publication_when_no_pages(self, value):
+        assert value == None
+
     def test_number(self):
         assert self.test_objects["ae1375.xml"].get_number() == '1-2'
         assert self.test_objects["crs1517600.xml"].get_number() == ''
