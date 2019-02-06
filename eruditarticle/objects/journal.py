@@ -50,6 +50,31 @@ class EruditJournal(EruditBaseObject):
         pubyears = sorted(pubyears)
         return pubyears
 
+    def get_notes(self, html=False):
+        """ Return the journal's notes.
+
+        The notes are returned as a dictionary of the form:
+
+        {
+            'fr': ['Note 1', 'Note 2'],
+            'en': ['Note 1', 'Note 2'],
+        }
+
+        :param html: (bool, optional): Defaults to False.
+            Whether to convert marquage content to HTML.
+        :returns: The journal's notes as a dictionary. """
+        notes = {}
+        for note in self.findall('note'):
+            lang = note.get('langue')
+            if lang is None or note.text is None:
+                continue
+            if lang not in notes:
+                notes.update({lang: []})
+            notes[lang].append(
+                self.convert_marquage_content_to_html(note) if html else note.text
+            )
+        return notes
+
     first_publication_year = property(get_first_publication_year)
     last_publication_year = property(get_last_publication_year)
     publication_period = property(get_publication_period)

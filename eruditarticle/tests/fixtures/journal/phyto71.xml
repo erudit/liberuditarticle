@@ -1,0 +1,147 @@
+
+<numeros>
+  <originator app="Tournesol 0.4.2" date="2019-01-29" username="p0965012"></originator>
+  <revue>
+    <gratuites>
+      <gratuite pid="erudit:erudit.phyto71" revue="phyto" valeur="false"></gratuite>
+    </gratuites>
+    <notes>
+      <note langue="fr" pid="erudit:erudit.phyto71" revue="phyto">Veuillez prendre note que des articles peuvent s&apos;ajouter au dernier numéro en cours d&apos;année</note>
+    </notes>
+  </revue>
+  <liste>
+    <decennie dannee="2018" pannee="2011">
+      <annee valeur="2018">
+        <numero annee="2018" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto03722" revAbr="phyto" type="reg" url="phyto/2018/v98/n1" volume="98"></numero>
+      </annee>
+      <annee valeur="2017">
+        <numero annee="2017" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto03129" revAbr="phyto" type="reg" url="phyto/2017/v97/n1" volume="97"></numero>
+      </annee>
+      <annee valeur="2016">
+        <numero annee="2016" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto02670" revAbr="phyto" type="reg" url="phyto/2016/v96/n1" volume="96"></numero>
+      </annee>
+      <annee valeur="2015">
+        <numero annee="2015" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto01679" revAbr="phyto" type="reg" url="phyto/2015/v95/n1" volume="95"></numero>
+      </annee>
+      <annee valeur="2014">
+        <numero annee="2014" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto01371" revAbr="phyto" type="reg" url="phyto/2014/v94/n1" volume="94"></numero>
+      </annee>
+      <annee valeur="2013">
+        <numero annee="2013" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto0546" revAbr="phyto" type="reg" url="phyto/2013/v93/n1" volume="93"></numero>
+      </annee>
+      <annee valeur="2012">
+        <numero annee="2012" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto0286" revAbr="phyto" type="reg" url="phyto/2012/v92/n1" volume="92"></numero>
+      </annee>
+    </decennie>
+    <decennie dannee="2010" pannee="2001">
+      <annee valeur="2010">
+        <numero annee="2010-2011" autrenumero="" nonumero="" periode="" pid="erudit:erudit.phyto71.phyto5008447" revAbr="phyto" type="reg" url="phyto/2011/v91/n" volume="91"></numero>
+      </annee>
+      <annee valeur="2009">
+        <numero annee="2009" autrenumero="" nonumero="3" periode="" pid="erudit:erudit.phyto71.phyto4015" revAbr="phyto" type="reg" url="phyto/2009/v90/n3" volume="90"></numero>
+        <numero annee="2009" autrenumero="" nonumero="2" periode="Août" pid="erudit:erudit.phyto71.phyto3877" revAbr="phyto" type="reg" url="phyto/2009/v90/n2" volume="90"></numero>
+        <numero annee="2009" autrenumero="" nonumero="1" periode="Avril" pid="erudit:erudit.phyto71.phyto3595" revAbr="phyto" type="reg" url="phyto/2009/v90/n1" volume="90"></numero>
+      </annee>
+      <annee valeur="2008">
+        <numero annee="2008" autrenumero="" nonumero="2-3" periode="Décembre" pid="erudit:erudit.phyto71.phyto3429" revAbr="phyto" type="reg" url="phyto/2008/v89/n2-3" volume="89"></numero>
+        <numero annee="2008" autrenumero="" nonumero="1" periode="Avril" pid="erudit:erudit.phyto71.phyto2870" revAbr="phyto" type="reg" url="phyto/2008/v89/n1" volume="89"></numero>
+      </annee>
+      <annee valeur="2007">
+        <numero annee="2007" autrenumero="" nonumero="3" periode="" pid="erudit:erudit.phyto71.phyto2414" revAbr="phyto" type="reg" url="phyto/2007/v88/n3" volume="88"></numero>
+        <numero annee="2007" autrenumero="" nonumero="2" periode="Août" pid="erudit:erudit.phyto71.phyto2288" revAbr="phyto" type="reg" url="phyto/2007/v88/n2" volume="88"></numero>
+        <numero annee="2007" autrenumero="" nonumero="1" periode="Avril" pid="erudit:erudit.phyto71.phyto1858" revAbr="phyto" type="reg" url="phyto/2007/v88/n1" volume="88"></numero>
+      </annee>
+      <annee valeur="2006">
+        <numero annee="2006" autrenumero="" nonumero="3" periode="Décembre" pid="erudit:erudit.phyto71.phyto1734" revAbr="phyto" type="reg" url="phyto/2006/v87/n3" volume="87"></numero>
+        <numero annee="2006" autrenumero="" nonumero="2" periode="Août" pid="erudit:erudit.phyto71.phyto1432" revAbr="phyto" type="reg" url="phyto/2006/v87/n2" volume="87"></numero>
+        <numero annee="2006" autrenumero="" nonumero="1" periode="Avril" pid="erudit:erudit.phyto71.phyto1431" revAbr="phyto" type="reg" url="phyto/2006/v87/n1" volume="87"></numero>
+      </annee>
+      <annee valeur="2005">
+        <numero annee="2005" autrenumero="" nonumero="3" periode="Décembre" pid="erudit:erudit.phyto71.phyto1283" revAbr="phyto" type="reg" url="phyto/2005/v86/n3" volume="86"></numero>
+        <numero annee="2005" autrenumero="" nonumero="2" periode="Août" pid="erudit:erudit.phyto71.phyto1055" revAbr="phyto" type="reg" url="phyto/2005/v86/n2" volume="86"></numero>
+        <numero annee="2005" autrenumero="" nonumero="1" periode="Avril" pid="erudit:erudit.phyto71.phyto991" revAbr="phyto" type="reg" url="phyto/2005/v86/n1" volume="86"></numero>
+      </annee>
+      <annee valeur="2004">
+        <numero annee="2004" autrenumero="" nonumero="3" periode="Décembre" pid="erudit:erudit.phyto71.phyto890" revAbr="phyto" type="reg" url="phyto/2004/v85/n3" volume="85"></numero>
+        <numero annee="2004" autrenumero="" nonumero="2" periode="Août" pid="erudit:erudit.phyto71.phyto845" revAbr="phyto" type="reg" url="phyto/2004/v85/n2" volume="85"></numero>
+        <numero annee="2004" autrenumero="" nonumero="1" periode="Avril" pid="erudit:erudit.phyto71.phyto764" revAbr="phyto" type="reg" url="phyto/2004/v85/n1" volume="85"></numero>
+      </annee>
+      <annee valeur="2003">
+        <numero annee="2003" autrenumero="" nonumero="3" periode="Décembre" pid="erudit:erudit.phyto71.phyto746" revAbr="phyto" type="reg" url="phyto/2003/v84/n3" volume="84"></numero>
+        <numero annee="2003" autrenumero="" nonumero="2" periode="Août" pid="erudit:erudit.phyto71.phyto710" revAbr="phyto" type="reg" url="phyto/2003/v84/n2" volume="84"></numero>
+        <numero annee="2003" autrenumero="" nonumero="1" periode="Avril" pid="erudit:erudit.phyto71.phyto613" revAbr="phyto" type="reg" url="phyto/2003/v84/n1" volume="84"></numero>
+      </annee>
+      <annee valeur="2002">
+        <numero annee="2002" autrenumero="" nonumero="3" periode="" pid="erudit:erudit.phyto71.phyto3380" revAbr="phyto" type="reg" url="phyto/2002/v83/n3" volume="83"></numero>
+        <numero annee="2002" autrenumero="" nonumero="2" periode="" pid="erudit:erudit.phyto71.phyto3379" revAbr="phyto" type="reg" url="phyto/2002/v83/n2" volume="83"></numero>
+        <numero annee="2002" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto3378" revAbr="phyto" type="reg" url="phyto/2002/v83/n1" volume="83"></numero>
+      </annee>
+      <annee valeur="2001">
+        <numero annee="2001" autrenumero="" nonumero="3" periode="" pid="erudit:erudit.phyto71.phyto3377" revAbr="phyto" type="reg" url="phyto/2001/v82/n3" volume="82"></numero>
+        <numero annee="2001" autrenumero="" nonumero="2" periode="" pid="erudit:erudit.phyto71.phyto3376" revAbr="phyto" type="reg" url="phyto/2001/v82/n2" volume="82"></numero>
+        <numero annee="2001" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto3375" revAbr="phyto" type="reg" url="phyto/2001/v82/n1" volume="82"></numero>
+      </annee>
+    </decennie>
+    <decennie dannee="2000" pannee="1991">
+      <annee valeur="2000">
+        <numero annee="2000" autrenumero="" nonumero="3" periode="" pid="erudit:erudit.phyto71.phyto3374" revAbr="phyto" type="reg" url="phyto/2000/v81/n3" volume="81"></numero>
+        <numero annee="2000" autrenumero="" nonumero="2" periode="" pid="erudit:erudit.phyto71.phyto3373" revAbr="phyto" type="reg" url="phyto/2000/v81/n2" volume="81"></numero>
+        <numero annee="2000" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto3372" revAbr="phyto" type="reg" url="phyto/2000/v81/n1" volume="81"></numero>
+      </annee>
+      <annee valeur="1999">
+        <numero annee="1999" autrenumero="" nonumero="3" periode="" pid="erudit:erudit.phyto71.phyto3371" revAbr="phyto" type="reg" url="phyto/1999/v80/n3" volume="80"></numero>
+        <numero annee="1999" autrenumero="" nonumero="2" periode="" pid="erudit:erudit.phyto71.phyto3370" revAbr="phyto" type="reg" url="phyto/1999/v80/n2" volume="80"></numero>
+        <numero annee="1999" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto3369" revAbr="phyto" type="reg" url="phyto/1999/v80/n1" volume="80"></numero>
+      </annee>
+      <annee valeur="1998">
+        <numero annee="1998" autrenumero="" nonumero="4" periode="" pid="erudit:erudit.phyto71.phyto3368" revAbr="phyto" type="reg" url="phyto/1998/v79/n4" volume="79"></numero>
+        <numero annee="1998" autrenumero="" nonumero="3" periode="" pid="erudit:erudit.phyto71.phyto3367" revAbr="phyto" type="reg" url="phyto/1998/v79/n3" volume="79"></numero>
+        <numero annee="1998" autrenumero="" nonumero="2" periode="" pid="erudit:erudit.phyto71.phyto3366" revAbr="phyto" type="reg" url="phyto/1998/v79/n2" volume="79"></numero>
+        <numero annee="1998" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto3365" revAbr="phyto" type="reg" url="phyto/1998/v79/n1" volume="79"></numero>
+      </annee>
+      <annee valeur="1997">
+        <numero annee="1997" autrenumero="" nonumero="3" periode="" pid="erudit:erudit.phyto71.phyto3364" revAbr="phyto" type="reg" url="phyto/1997/v78/n3" volume="78"></numero>
+        <numero annee="1997" autrenumero="" nonumero="2" periode="" pid="erudit:erudit.phyto71.phyto3363" revAbr="phyto" type="reg" url="phyto/1997/v78/n2" volume="78"></numero>
+        <numero annee="1997" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto3362" revAbr="phyto" type="reg" url="phyto/1997/v78/n1" volume="78"></numero>
+      </annee>
+      <annee valeur="1996">
+        <numero annee="1996" autrenumero="" nonumero="3" periode="" pid="erudit:erudit.phyto71.phyto3361" revAbr="phyto" type="reg" url="phyto/1996/v77/n3" volume="77"></numero>
+        <numero annee="1996" autrenumero="" nonumero="2" periode="" pid="erudit:erudit.phyto71.phyto3360" revAbr="phyto" type="reg" url="phyto/1996/v77/n2" volume="77"></numero>
+        <numero annee="1996" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto3359" revAbr="phyto" type="reg" url="phyto/1996/v77/n1" volume="77"></numero>
+      </annee>
+      <annee valeur="1995">
+        <numero annee="1995" autrenumero="" nonumero="3" periode="" pid="erudit:erudit.phyto71.phyto3358" revAbr="phyto" type="reg" url="phyto/1995/v76/n3" volume="76"></numero>
+        <numero annee="1995" autrenumero="" nonumero="2" periode="" pid="erudit:erudit.phyto71.phyto3357" revAbr="phyto" type="reg" url="phyto/1995/v76/n2" volume="76"></numero>
+        <numero annee="1995" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto3356" revAbr="phyto" type="reg" url="phyto/1995/v76/n1" volume="76"></numero>
+      </annee>
+      <annee valeur="1994">
+        <numero annee="1994" autrenumero="" nonumero="4" periode="" pid="erudit:erudit.phyto71.phyto3355" revAbr="phyto" type="reg" url="phyto/1994/v75/n4" volume="75"></numero>
+        <numero annee="1994" autrenumero="" nonumero="3" periode="" pid="erudit:erudit.phyto71.phyto3354" revAbr="phyto" type="reg" url="phyto/1994/v75/n3" volume="75"></numero>
+        <numero annee="1994" autrenumero="" nonumero="2" periode="" pid="erudit:erudit.phyto71.phyto3353" revAbr="phyto" type="reg" url="phyto/1994/v75/n2" volume="75"></numero>
+        <numero annee="1994" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto3352" revAbr="phyto" type="reg" url="phyto/1994/v75/n1" volume="75"></numero>
+      </annee>
+      <annee valeur="1993">
+        <numero annee="1993" autrenumero="" nonumero="3" periode="" pid="erudit:erudit.phyto71.phyto3351" revAbr="phyto" type="reg" url="phyto/1993/v74/n3" volume="74"></numero>
+        <numero annee="1993" autrenumero="" nonumero="2" periode="" pid="erudit:erudit.phyto71.phyto3350" revAbr="phyto" type="reg" url="phyto/1993/v74/n2" volume="74"></numero>
+        <numero annee="1993" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto3349" revAbr="phyto" type="reg" url="phyto/1993/v74/n1" volume="74"></numero>
+      </annee>
+      <annee valeur="1992">
+        <numero annee="1992" autrenumero="" nonumero="3" periode="" pid="erudit:erudit.phyto71.phyto3348" revAbr="phyto" type="reg" url="phyto/1992/v73/n3" volume="73"></numero>
+        <numero annee="1992" autrenumero="" nonumero="2" periode="" pid="erudit:erudit.phyto71.phyto3347" revAbr="phyto" type="reg" url="phyto/1992/v73/n2" volume="73"></numero>
+        <numero annee="1992" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto3346" revAbr="phyto" type="reg" url="phyto/1992/v73/n1" volume="73"></numero>
+      </annee>
+      <annee valeur="1991">
+        <numero annee="1991" autrenumero="" nonumero="3" periode="" pid="erudit:erudit.phyto71.phyto3345" revAbr="phyto" type="reg" url="phyto/1991/v72/n3" volume="72"></numero>
+        <numero annee="1991" autrenumero="" nonumero="2" periode="" pid="erudit:erudit.phyto71.phyto3344" revAbr="phyto" type="reg" url="phyto/1991/v72/n2" volume="72"></numero>
+        <numero annee="1991" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto3343" revAbr="phyto" type="reg" url="phyto/1991/v72/n1" volume="72"></numero>
+      </annee>
+    </decennie>
+    <decennie dannee="1990" pannee="1990">
+      <annee valeur="1990">
+        <numero annee="1990" autrenumero="" nonumero="3" periode="" pid="erudit:erudit.phyto71.phyto3342" revAbr="phyto" type="reg" url="phyto/1990/v71/n3" volume="71"></numero>
+        <numero annee="1990" autrenumero="" nonumero="2" periode="" pid="erudit:erudit.phyto71.phyto3341" revAbr="phyto" type="reg" url="phyto/1990/v71/n2" volume="71"></numero>
+        <numero annee="1990" autrenumero="" nonumero="1" periode="" pid="erudit:erudit.phyto71.phyto3340" revAbr="phyto" type="reg" url="phyto/1990/v71/n1" volume="71"></numero>
+      </annee>
+    </decennie>
+  </liste>
+</numeros>
