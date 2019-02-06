@@ -317,6 +317,8 @@ class EruditPublication(
         roman_pages = []
         arabic_pages = []
         for ppage in self.findall('article//pagination//ppage'):
+            if ppage.text is None:
+                continue
             try:
                 arabic_pages.append(int(ppage.text))
             except ValueError:
@@ -336,6 +338,8 @@ class EruditPublication(
         roman_pages = []
         arabic_pages = []
         for dpage in self.findall('article//pagination//dpage'):
+            if dpage.text is None:
+                continue
             try:
                 arabic_pages.append(int(dpage.text))
             except ValueError:
