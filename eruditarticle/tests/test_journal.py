@@ -4,7 +4,7 @@ from eruditarticle.tests.decorators import with_value
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/journal', EruditJournal)
-class TestEruditPublication(object):
+class TestEruditJournal(object):
 
     def test_can_return_first_publication_year(self):
         assert self.test_objects['mi115.xml'].get_first_publication_year() == '2009'
@@ -32,3 +32,10 @@ class TestEruditPublication(object):
 
     def test_can_return_journal_name(self):
         assert self.test_objects['mi115.xml'].get_title() == "Management international / International Management / Gestiòn Internacional"  # noqa
+
+    def test_can_return_journal_notes(self):
+        assert self.test_objects['phyto71.xml'].get_notes() == {
+            'fr': [
+                "Veuillez prendre note que des articles peuvent s'ajouter au dernier numéro en cours d'année",
+            ],
+        }
