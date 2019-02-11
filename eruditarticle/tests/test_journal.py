@@ -39,3 +39,11 @@ class TestEruditJournal(object):
                 "Veuillez prendre note que des articles peuvent s'ajouter au dernier numéro en cours d'année",
             ],
         }
+
+    @with_value("mi115.xml", 'has_published_issues')
+    def test_has_published_issues(self, value):
+        assert value
+
+    @with_value("captures04164.xml", 'has_published_issues')
+    def test_has_no_published_issues(self, value):
+        assert not value

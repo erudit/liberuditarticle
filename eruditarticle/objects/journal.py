@@ -19,6 +19,10 @@ class EruditJournal(EruditBaseObject):
         pubyears = self.get_publication_years()
         return pubyears[-1] if pubyears else None
 
+    def has_published_issues(self):
+        """ :returns: True if the journal has any published issues, False otherwise. """
+        return bool(len(self.findall('numero')))
+
     def get_published_issues_pids(self):
         """ :returns: the list of published issues pids """
         return [
