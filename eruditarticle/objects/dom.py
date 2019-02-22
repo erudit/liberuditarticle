@@ -54,8 +54,15 @@ class DomObject:
         et.strip_tags(self._root, 'marquage')
 
     @staticmethod
-    def convert_marquage_content_to_html(node, strip_elements=None):
+    def convert_marquage_content_to_html(node, strip_elements=['renvoi']):
         """ Converts <marquage> tags to HTML using a specific node.
+
+        :param strip_elements: (list, optional): Defaults to ['renvoi'].
+            A list of XML elements to strip from the node.
+            By default we strip 'renvoi' tags because the XSLT now support the conversion of
+            'renvoi' tags to footnote links. This was required to allow footnotes in abstracts, but
+            we don't want those footnotes elsewhere since they were previously ignored by the XSLT.
+        :returns: the node's text as a string with the converted html.
         """
         if node is None:
             return

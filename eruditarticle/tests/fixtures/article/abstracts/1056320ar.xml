@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://www.erudit.org/xsd/article" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.erudit.org/xsd/article http://www.erudit.org/xsd/article/3.0.0/eruditarticle.xsd" qualtraitement="complet" idproprio="1056320ar" typeart="article" lang="fr" ordseq="6" idref="th1"><admin><infoarticle><idpublic scheme="doi">10.7202/1056320ar</idpublic><pagination>
+            <ppage>65</ppage>
+            <dpage>79</dpage>
+            
+            
+            
+        </pagination></infoarticle><revue id="phro138" lang="fr en"><titrerev>Phronesis</titrerev><titrerevabr>phro</titrerevabr><idissnnum>1925-4873</idissnnum><directeur sexe="masculin"><fonction lang="fr">Directeur</fonction><nompers><prenom>Philippe</prenom><nomfamille>Maubant</nomfamille></nompers></directeur><redacteurchef typerc="invite" idrefs="th1" sexe="feminin"><nompers><prenom>Nancy</prenom><nomfamille>Goyette</nomfamille></nompers></redacteurchef><redacteurchef typerc="invite" idrefs="th1" sexe="masculin"><nompers><prenom>Stéphane</prenom><nomfamille>Martineau</nomfamille></nompers></redacteurchef><redacteurchef typerc="regulier" sexe="masculin"><fonction lang="fr">Rédacteur en chef</fonction><nompers><prenom>Yves</prenom><nomfamille>Couturier</nomfamille></nompers></redacteurchef><redacteurchef typerc="regulier" sexe="masculin"><fonction lang="fr">Rédacteur en chef adjoint</fonction><nompers><prenom>Richard</prenom><nomfamille>Wittorski</nomfamille></nompers></redacteurchef></revue><numero id="phro04319"><volume>7</volume><nonumero>4</nonumero><pub><annee>2018</annee></pub><pubnum><date typedate="publication">2019-02-19</date></pubnum><grtheme id="th1"><theme>Considérations sur le développement professionnel dans les métiers de la formation</theme></grtheme></numero><editeur><nomorg>Université de Sherbrooke</nomorg></editeur><editeur><nomorg>Champ social éditions </nomorg></editeur><prodnum><nomorg>Érudit</nomorg></prodnum><prodnum><nomorg>Réseau-observatoire international sur la professionnalisation</nomorg></prodnum><diffnum><nomorg>Érudit</nomorg></diffnum><schema nom="Erudit Article" version="3.0.0" lang="fr"/><droitsauteur>Tous droits réservés © <nomorg>Université de Sherbrooke</nomorg>, 2019</droitsauteur></admin><liminaire><grtitre>
+                <titre>La dynamique interactionnelle au service du codéveloppement professionnel d’enseignants associés réunis en communauté de pratique</titre>
+                <titreparal lang="en">Interactional dynamics enabling professional co-development of a cooperating teachers community of practice</titreparal>
+        </grtitre><grauteur><auteur id="au1"><nompers><prenom>Liliane</prenom><nomfamille>Portelance</nomfamille></nompers><affiliation><alinea>Université du Québec à Trois-Rivières, Canada</alinea></affiliation><courriel><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:href="mailto:liliane.portelance@uqtr.ca" xlink:type="simple">liliane.portelance@uqtr.ca</liensimple></courriel></auteur><auteur id="au2"><nompers><prenom>Colette</prenom><nomfamille>Gervais</nomfamille></nompers><affiliation><alinea>Université de Montréal, Canada</alinea></affiliation><courriel><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls2" xlink:href="mailto:colette.gervais@umontreal.ca" xlink:type="simple">colette.gervais@umontreal.ca</liensimple></courriel></auteur><auteur id="au3"><nompers><prenom>Geneviève</prenom><nomfamille>Boisvert</nomfamille></nompers><affiliation><alinea>École St-Nicéphore, Drummondville, Canada</alinea></affiliation><courriel><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls3" xlink:href="mailto:genevieve.boisvert1@uqtr.ca" xlink:type="simple">genevieve.boisvert1@uqtr.ca</liensimple></courriel></auteur><auteur id="au4"><nompers><prenom>Mylène</prenom><nomfamille>Quessy</nomfamille></nompers><affiliation><alinea>École Madeleine-de-Verchères, Trois-Rivières, Canada</alinea></affiliation><courriel><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls4" xlink:href="mailto:mylene.quessy@csduroy.qc.ca" xlink:type="simple">mylene.quessy@csduroy.qc.ca</liensimple></courriel></auteur></grauteur><resume typeresume="resume" lang="fr"><alinea><marquage typemarq="italique">Vu son expertise en classe et dans l’école, l’enseignant associé est considéré comme une personne essentielle à la formation initiale en enseignement. Des attentes à son égard sont formulées par les instances ministérielles (gouvernement du Québec, 2002, 2008), mais aussi par les stagiaires (Caron, Portelance &amp; Martineau, 2013). Pour répondre, l’enseignant associé est fortement incité à s’inscrire dans un processus de formation continue, ce qui lui permet d’enrichir ses pratiques de formateur du stagiaire. Dans le but de soutenir le développement des compétences attendues des enseignants associés (Portelance, Gervais, Lessard, Beaulieu et al, 2008), une recherche subventionnée par le ministère de l’Éducation du Québec</marquage><renvoi id="re1no1" idref="no1" typeref="note">1</renvoi><marquage typemarq="italique"> utilise une approche collaborative avec une communauté de pratique composée d’enseignants associés. Les membres sont engagés dans une démarche de réflexion et de coconstruction de sens (Bourassa, Philion &amp; Chevalier, 2007). Les discussions portent sur les pratiques d’encadrement du stagiaire. L’analyse de leurs propos met en évidence les manifestations de la dynamique interactionnelle qui favorise leur codéveloppement professionnel.</marquage></alinea></resume><resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">Given his expertise in the classroom and in school, the cooperating teacher is essential to teacher training. Expectations towards him are coming from ministerial authorities (gouvernement du Québec, 2002, 2008), but also from student teachers (Caron, Portelance and Martineau, 2013). In order to meet these expectations, the cooperating teacher is strongly encouraged to enroll in a continuous training process leading to enhance his training practices. With the intention of support</marquage>ing the development of the expected cooperating teacher’s competencies (Portelance, Gervais, Lessard, Beaulieu et al., 2008), a research funded by the Quebec Ministry of Education [1] uses a collaborative approach with cooperating teachers gathered in a community of practice. The members are engaged in a reflection process and a co-construction of meaning (Bourassa, Philion and Chevalier, 2007). Discussions focus on their training practices. The analysis of their purposes emphasizes the manifestations of interactional dynamics that favor their professional co-development.</alinea></resume><grmotcle lang="fr"><motcle><marquage typemarq="italique">enseignant associé</marquage></motcle><motcle><marquage typemarq="italique">communauté de pratique</marquage></motcle><motcle><marquage typemarq="italique">dynamique interactionnelle</marquage></motcle><motcle><marquage typemarq="italique">codéveloppement professionnel</marquage></motcle><motcle><marquage typemarq="italique">stagiaire en enseignement</marquage></motcle></grmotcle><grmotcle lang="en"><motcle><marquage typemarq="italique">cooperating teacher</marquage></motcle><motcle><marquage typemarq="italique">community of practice</marquage></motcle><motcle><marquage typemarq="italique">interactional dynamics</marquage></motcle><motcle><marquage typemarq="italique">professional development</marquage></motcle><motcle><marquage typemarq="italique">student teacher</marquage></motcle></grmotcle></liminaire><corps><section1 id="s1n1"><no>1</no><titre>Introduction</titre><para id="pa1"><no>1</no>
+        <alinea>Pour mieux préparer les futurs enseignants à l’exercice de la profession
+          enseignante, la formation initiale se déroule alternativement en milieu universitaire et
+          en milieu scolaire. L’alternance des lieux de formation est d’ailleurs largement appréciée
+          des étudiants (L’hostie &amp; Guillemette, 2011). À leur avis, l’apprentissage de
+          l’enseignement ne saurait se passer des situations concrètes et de l’accompagnement d’un
+          enseignant associé, le formateur de terrain. Or, leurs besoins de formation en milieu de
+          pratique ne sont pas nécessairement comblés (Caron, Portelance &amp; Martineau, 2013).
+          Dans ce contexte, les attentes à l’égard du formateur-praticien sont nombreuses
+          (gouvernement du Québec, 2002, 2008 ; Desbiens, Borges &amp; Spallanzani, 2012). Dès lors,
+          des compétences spécifiques sont souhaitables (Altet, Paquay &amp; Perrenoud, 2002 ;
+          Correa Molina, 2005). Elles se distinguent des compétences en enseignement. En effet,
+          l’enseignant expérimenté reconnu compétent n’est pas nécessairement un formateur de
+          stagiaires compétent (Faingold, 2002). Une formation est alors primordiale pour
+          l’enseignant qui veut devenir enseignant associé. La communauté de pratique représente un
+          moyen de formation continue, et plus précisément de coformation et de codéveloppement
+          professionnel. Dans ce texte, il est question d’une recherche qui vise notamment à
+          analyser la réflexion collective d’enseignants associés sur leur rôle et leur identité
+          professionnelle. Le contexte et la problématique de la recherche seront suivis de
+          précisions théoriques sur la dynamique interactionnelle au sein d’une communauté de
+          pratique. Des éléments méthodologiques précéderont l’exposé des résultats et leur
+          interprétation.</alinea>
+      </para></section1><section1 id="s1n2"><no>2</no><titre>Contexte</titre><para id="pa2"><no>2</no>
+        <alinea>Au Québec, les stages de la formation initiale à l’enseignement comportent un
+          minimum de 700 heures, réparties sur les quatre années de la formation, le nombre d’heures
+          augmentant progressivement du premier au quatrième stage. Étant donné la forte valeur que
+          les étudiants accordent à ce volet de leur formation en alternance (Portelance, 2005 ;
+          Desbiens, Borges &amp; Spallanzani, 2009), il importe que les périodes de présence dans le
+          milieu scolaire contribuent de manière significative à l’apprentissage de l’enseignement.
+          Pendant ses stages, l’étudiant a l’avantage de recevoir un encadrement formatif de la part
+          d’un enseignant associé et d’un superviseur universitaire, appelés à agir en
+          complémentarité et en cohérence auprès du stagiaire (Zheng &amp; Webb, 2000 ; gouvernement
+          du Québec, 2008). L’enseignant associé est généralement un enseignant considéré apte à
+          devenir formateur d’un stagiaire. Son influence sur le futur enseignant est marquante, en
+          raison surtout de sa connaissance réelle de l’enseignement. Ses responsabilités à l’égard
+          du stagiaire concernent notamment l’encadrement de la planification de l’enseignement,
+          incluant celle du fonctionnement du groupe-classe, les rencontres de rétroaction au cours
+          desquelles il fait appel aux capacités réflexives du stagiaire, sans négliger le soutien à
+          la construction de liens entre savoirs théoriques et expérientiels. À son expérience et
+          ses compétences en enseignement, il est invité à ajouter des compétences lui permettant
+          d’exercer son rôle auprès des futurs enseignants, et ce, pour mieux répondre aux attentes
+          à son endroit (gouvernement du Québec, 2002, 2008 ; Portelance, Gervais, Lessard, Beaulieu
+          et al, 2008). Répondre à ces attentes renforce la possibilité d’assurer la qualité de la
+          relève enseignante. </alinea>
+      </para><para id="pa3"><no>3</no>
+        <alinea>À la demande du ministère de l’Éducation, les universités québécoises sont
+          responsables de la formation des enseignants associés, et ce, depuis 1994. Des activités
+          de formation sont dès lors offertes à tous les enseignants qui désirent devenir
+          enseignants associés ou qui le sont déjà. Les modalités de formation varient d’un milieu à
+          un autre. La communauté de pratique en fait partie. De manière générale, les compétences
+          attendues de l’enseignant associé se résument ainsi : soutenir la construction de
+          l’identité professionnelle du stagiaire, le guider dans le développement des compétences
+          en enseignement et particulièrement dans l’apprentissage des pratiques d’enseignement,
+          l’encourager à poser un regard critique sur son agir professionnel, interagir avec respect
+          et professionnalisme et travailler de concert avec le superviseur universitaire. La
+          formation des enseignants associés est vue comme une occasion de formation continue
+          imbriquée dans une culture de développement professionnel. </alinea>
+      </para></section1><section1 id="s1n3"><no>3</no><titre>Problématique</titre><para id="pa4"><no>4</no>
+        <alinea>La formation continue fait ordinairement appel à la responsabilisation du formé, à
+          son engagement dans sa formation. Sa responsabilité première est de prendre en charge sa
+          propre formation, d’en être l’acteur principal (Houpert, 2005), ce qui exige une bonne
+          dose de motivation intrinsèque (Devos &amp; Paquay, 2015). Toutefois, il sera incité à un
+          véritable engagement si la formation est ancrée dans ses expériences professionnelles et
+          dans les contextes de son vécu professionnel. Selon L’Hostie, Morency &amp;
+          Nadeau-Tremblay (2013), la formation continue devrait reconnaitre d’emblée les savoirs
+          cachés dans l’agir professionnel. Les savoirs acquis par l’expérience en constitueraient
+          le point de départ à partir duquel des apprentissages diversifiés sont possibles (Wells,
+          1993). L’auteur constate que la formation continue mène à concevoir et adopter de
+          nouvelles pratiques d’enseignement et d’intervention éducative. Elle accroit la capacité
+          de transformation des situations dans lesquelles se déroule l’action.</alinea>
+      </para><para id="pa5"><no>5</no>
+        <alinea>En s’appuyant sur le bagage expérientiel, la formation continue fait habituellement
+          appel au partage des expériences et des raisons d’agir, empruntant ainsi la voie de la
+          socialisation professionnelle (Houpert, 2005). Elle peut même stimuler l’articulation des
+          projets individuels autour d’un projet collectif. Forts d’une culture de partage, les
+          groupes inscrits dans un processus de formation continue poursuivent leur développement
+          professionnel, lequel, selon Wittorski (2007), se réalise principalement dans l’action et
+          la réflexion sur l’action, mais aussi dans les interactions avec les pairs. Dans cet ordre
+          d’idées, il importe de mentionner l’apport de Payette et Champagne (2010) qui cherche à
+          harmoniser la pratique, le développement professionnel et la recherche. Leur approche de
+          la formation continue permet aux professionnels de réfléchir sur leur pratique en vue de
+          l’améliorer, et ce, au contact les uns des autres. Les auteurs affirment que le
+          codéveloppement professionnel, c’est-à-dire le développement des compétences
+          professionnelles et l’apprentissage favorisés par les interactions et la collaboration au
+          sein d’une communauté de pairs, est possible en écoutant et en aidant des collègues à
+          cheminer dans la compréhension et la transformation effective de leur pratique. Dans un
+          contexte de codéveloppement professionnel, la réflexion individuelle est enrichie par une
+          variété d’éclairages qu’il ne serait pas possible d’obtenir autrement.</alinea>
+      </para><para id="pa6"><no>6</no>
+        <alinea>Or, la volonté de s’engager dans un processus de formation continue et de
+          codéveloppement professionnel est dépendante de la culture professionnelle du milieu dans
+          lequel évoluent les individus (Desjardins, 2016). L’auteure ajoute que la transformation
+          de cette culture représente un processus complexe. De surcroit, de nombreuses variables
+          entrent en jeu dans les modifications de la culture professionnelle, notamment des
+          variables situationnelles, individuelles, mais aussi interactionnelles et relationnelles
+          (Charlier, 2001). Ainsi, au sein d’un réseau d’enseignants, l’individu n’est pas le seul
+          acteur clé de sa formation continue. Le groupe l’est tout autant. Étant créée pour
+          partager, discuter et analyser des situations de la pratique (Michaud et Bouchamma, 2013),
+          nous croyons qu’une communauté de pratique se caractérise notamment par la dynamique
+          interactionnelle qui se construit progressivement entre ses membres. </alinea>
+      </para><para id="pa7"><no>7</no>
+        <alinea>Au Québec, les conditions favorables au regroupement d’enseignants associés sont
+          déjà mises en place. La formation offerte dans tous les milieux vise à les appuyer dans
+          l’exercice de leur rôle auprès du stagiaire et, possiblement, à accroitre leur capacité de
+          transformer leurs pratiques. Des communautés de pratique existent déjà et d’autres sont en
+          émergence. Dans le cadre d’une recherche visant le soutien à la formation continue des
+          enseignants associés, nous nous intéressons aux manifestations du codéveloppement
+          professionnel au sein d’une communauté de pratique, particulièrement à la dynamique
+          interactionnelle des échanges.</alinea>
+      </para></section1><section1 id="s1n4"><no>4</no><titre>Cadre conceptuel</titre><para id="pa8"><no>8</no>
+        <alinea>Pour approfondir le sens de l’objectif mentionné, nous présentons les bases
+          théoriques servant d’ancrage à l’examen des données. Après avoir précisé le sens que nous
+          accordons à la communauté de pratique, nous présentons le cadre conceptuel sur lequel
+          s’appuie notre analyse de la dynamique interactionnelle. </alinea>
+      </para><section2 id="s2n1"><no>4.
+				1</no><titre><marquage typemarq="italique">La communauté de pratique</marquage></titre><para id="pa9"><no>9</no>
+        <alinea>Depuis quelques décennies, les différentes formes de regroupement de praticiens,
+          susceptibles de favoriser le développement et le codéveloppement professionnels,
+          intéressent plusieurs chercheurs. Au départ, Wenger (1998) nomme communauté de pratique un
+          rassemblement de personnes d’un même domaine qui veulent échanger, partager et apprendre
+          les uns des autres. Michaud et Bouchamma (2013) en précisent le sens. Ces auteures
+          utilisent le vocable communauté de pratique pour désigner un regroupement dont le premier
+          objectif est le développement professionnel des praticiens. Elles distinguent la
+          communauté de pratique de la communauté d’apprentissage ; elles réservent cette dernière
+          appellation pour la communauté centrée sur la réussite des élèves. Michaud et Bouchamma
+          (2013) affirment toutefois que, dans les deux cas, l’apprentissage et le travail en groupe
+          sont des éléments centraux, expliquant que l’apprentissage assure la pérennité de la
+          communauté. L’apprentissage est considéré « comme une structure sociale émergente qui nait
+          de l’interaction de multiples sources de savoirs tacites ou explicites, de la rencontre de
+          diverses cultures, du foisonnement de diverses narrations » (p. 199). À l’instar de ces
+          auteures, nous croyons qu’une communauté de pratique donne lieu à des apprentissages et
+          qu’elle peut, de ce fait, être considérée comme une communauté d’apprentissage. Dans les
+          paragraphes suivants, nous conservons par ailleurs le vocabulaire utilisé par les auteurs
+          cités. </alinea>
+      </para><para id="pa10"><no>10</no>
+        <alinea>Selon Dionne, Lemyre et Savoie-Zajc (2010), la communauté d’apprentissage permet
+          l’acquisition d’un savoir individuel et collectif, prenant une couleur particulière en
+          fonction des acteurs qui y participent et de la culture professionnelle. L’importance des
+          savoirs expérientiels est soutenue par Michaud et Bouchamma (2013), pour qui ces savoirs
+          représentent une ressource à laquelle peuvent puiser les membres de la communauté. La
+          communauté d’apprentissage devient une occasion de développement professionnel et de
+          production de savoirs, sur la pratique et issus de la pratique (Altet, 1996), quand le
+          partage collectif d’expériences et de savoirs en constitue le moteur (Cochran-Smith &amp;
+          Lytle, 1999). Les membres de la communauté peuvent s’y appuyer pour analyser leur pratique
+          professionnelle, tout en s’inspirant de savoirs théoriques. Lorsqu’ils utilisent des
+          connaissances issues de la recherche avec un esprit critique, les praticiens peuvent en
+          dégager le sens, les mettre en application pour en valider la portée et les partager avec
+          les membres de la communauté (Caron &amp; Portelance, 2017). Or, chez les praticiens, il
+          faut s’attendre à l’utilisation prédominante de savoirs professionnels hétérogènes dans
+          les échanges et les discussions (Vanhulle, 2009).</alinea>
+      </para><para id="pa11"><no>11</no>
+        <alinea>La communauté d’apprentissage est reconnue comme un élément important d’ajustement
+          de pratiques pédagogiques (Dionne et al., 2010) ou de changement en éducation (Michaud
+          &amp; Bouchamma, 2013). Par ailleurs, une communauté qui se limiterait à « faire raconter
+          les expériences antérieures sans proposer de changement ne pourrait être éducative, parce
+          qu’elle ne contribuerait pas au renouvellement du collectif » (p. 209). En effet, la
+          narration d’expériences n’est pas valable en soi. Les auteures mettent en garde contre la
+          narration dans un contexte où la diversité des points de vue n’est pas valorisée. En
+          complément de cette idée, Clerc-Georgy (2017) mentionne que la verbalisation n’est pas
+          nécessairement une modalité autoporteuse de développement professionnel. Toutefois, les
+          conversations entre collègues peuvent, à certaines conditions, représenter une occasion de
+          poser un regard cognitif et métacognitif sur ses pratiques (Martin, 2017). </alinea>
+      </para><para id="pa12"><no>12</no>
+        <alinea>Qui plus est, le changement des pratiques professionnelles serait issu de la
+          négociation entre les expériences antérieures et les expériences vécues dans la formation,
+          entre les compétences antérieures et les compétences à développer, entre la culture
+          antérieure et celle qu’on veut instaurer. En amont de ce changement, le climat des
+          échanges et la dynamique interactionnelle au sein de la communauté de pratique influencent
+          fortement le codéveloppement professionnel et la coconstruction de savoirs.</alinea>
+      </para></section2><section2 id="s2n2"><no>4.
+				2</no><titre><marquage typemarq="italique">La dynamique interactionnelle </marquage></titre><para id="pa13"><no>13</no>
+        <alinea>Pour comprendre la dynamique interactionnelle au sein d’une communauté de pratique
+          engagée dans un processus de formation continue, nous faisons référence aux écrits de
+          Gilly, Fraisse et Roux (1988, 2001). Au sein d’un groupe engagé sur la voie du
+          codéveloppement professionnel, les interactions verbales, le partage d’expériences, les
+          échanges et les discussions provoquent des conflits sociocognitifs pouvant être à la base
+          d’apprentissages. Dans un groupe, les participants apprennent les uns des autres et avec
+          les autres. Gilly, Fraisse et Roux (2001) ont étudié les interactions entre les élèves
+          regroupés en dyades et plus particulièrement la dynamique interactive et la dynamique
+          collaborative à l’occasion de la résolution de problèmes. Ils se sont intéressés aux
+          régulations et à l’ajustement des idées. Il nous a semblé pertinent de nous inspirer du
+          cadre conceptuel issu de leur travail dans un autre contexte de collaboration. L’analyse
+          de pratiques professionnelles par les membres d’une communauté de pratique professionnelle
+          peut représenter l’un d’eux (Portelance &amp; Caron, 2010).</alinea>
+      </para><para id="pa14"><no>14</no>
+        <alinea>Gilly, Fraisse et Roux (2001) ont porté attention à la verbalisation des idées et
+          ils ont rassemblé leurs observations autour des éléments suivants : les échanges d’idées
+          et la déstabilisation cognitive. D’une part, l’une de leurs expérimentations leur permet
+          d’insister sur les échanges d’idées, que celles-ci soient semblables ou fortement
+          distinctes. Les échanges d’idées permettent d’éviter la complaisance et la participation
+          passive. Lorsqu’il y a échange d’idées, la dynamique interactive incite chacun à prendre
+          en compte le point de vue d’autrui, à prendre conscience de la particularité de ses idées
+          et à les remettre en question. Selon les auteurs, les échanges peuvent donner lieu à une
+          coélaboration acquiescente lorsque l’un acquiesce à l’idée de l’autre en élaborant et
+          complétant et même en renforçant son raisonnement. Les échanges d’idées mènent parfois
+          aussi à une coconstruction de savoirs. Cela se produit lorsque les personnes renforcent
+          mutuellement leurs idées respectives dans une apparente harmonie et que les interventions
+          de l’une peuvent amener l’autre à réorienter son action ou son idée. De là peut émerger
+          une idée nouvelle, issue de la part active de chacun des participants. Les observations
+          des interactions verbales ont permis aux chercheurs Gilly, Fraisse et Roux (2001)
+          d’ajouter que les échanges d’idées peuvent également se dérouler dans la confrontation.
+          Ils ont identifié la confrontation contradictoire et la confrontation avec désaccord. Les
+          auteurs utilisent l’expression confrontation contradictoire lorsqu’une personne en
+          désaccord avec l’idée d’une autre tente de dépasser l’opposition en argumentant et en
+          défendant ses propres idées. L’argumentation peut mener à un accord sur les idées
+          initiales de l’un ou de l’autre ou à une nouvelle idée. Cette confrontation d’idées ne
+          porte pas nécessairement sur des idées contradictoires ; elle porte toutefois sur des
+          idées différentes. Dans la confrontation avec désaccord, il n’y a pas d’échange d’idées.
+          La proposition de l’un est rejetée par l’autre sans argumentation et sans proposition
+          d’une nouvelle idée. </alinea>
+      </para><para id="pa15"><no>15</no>
+        <alinea>D’autre part, Gilly, Fraisse et Roux (2001) ont observé, dans la verbalisation des
+          idées, des situations de déstabilisation cognitive, ce qui peut également se produire au
+          sein d’une communauté de pratique. Un déséquilibre interindividuel est apparent lorsque la
+          déstabilisation cognitive est occasionnée par les idées de l’autre alors qu’un
+          déséquilibre intra-individuel signifie que la déstabilisation cognitive de l’individu
+          émane de ses propres idées. La déstabilisation cognitive peut donner lieu à un changement
+          de représentation, à la poursuite de la discussion et à l’atteinte d’un équilibre. La
+          déstabilisation cognitive peut se manifester dans les interactions verbales des membres
+          d’un groupe professionnel.</alinea>
+      </para><para id="pa16"><no>16</no>
+        <alinea>Dans une étude des interactions entre enseignant associé et stagiaire, Portelance et
+          Caron (2010) ont constaté que, devant une situation déstabilisante, le déséquilibre
+          cognitif peut susciter un questionnement partagé et une réflexion partagée. Un
+          questionnement partagé signifie que les personnes sont portées à verbaliser les mêmes
+          interrogations lorsqu’elles tentent de clarifier une situation ou d’en comprendre le sens.
+          La réflexion partagée indique que, dans l’analyse conjointe d’une situation, un
+          déséquilibre cognitif peut porter les personnes à aller au-delà d’un simple échange
+          d’idées. Elles s’engagent sur la voie de la réflexion conjointe pour mieux comprendre la
+          situation et identifier des pistes d’amélioration. Dans les interactions verbales, la
+          réflexion et le questionnement partagés se chevauchent. Le questionnement peut donner lieu
+          à une réflexion et la réflexion elle-même peut faire naitre de nouveaux
+          questionnements.</alinea>
+      </para><para id="pa17"><no>17</no>
+        <alinea>Avec une adaptation des résultats de Gilly, Fraisse et Roux (2001), il est possible
+          de mettre en évidence les différentes manifestations de la dynamique interactionnelle au
+          sein d’une communauté de pratique d’enseignants associés. Une dynamique interactionnelle
+          susceptible d’illustrer une collaboration active, la prise en compte du point de vue
+          d’autrui, la confrontation cognitive et le dépassement des différences et des
+          contradictions est pour nous d’un intérêt particulier. Nous avons voulu répondre à la
+          question suivante : lors de discussions sur les pratiques de formation de stagiaires,
+          quelles sont les manifestations de la dynamique interactionnelle au sein d’une communauté
+          de pratique formée d’enseignants associés ? </alinea>
+      </para></section2></section1><section1 id="s1n5"><no>5</no><titre>Éléments méthodologiques</titre><para id="pa18"><no>18</no>
+        <alinea>Le présent texte expose une partie des résultats d’une recherche qui visait à
+          soutenir la formation continue des enseignants associés en actualisant le Cadre de
+          référence de la formation des formateurs de stagiaires au Québec (Portelance, Gervais,
+          Lessard, Beaulieu et al, 2008). Cette recherche est soutenue financièrement par le
+          ministère de l’Éducation depuis 2010. Elle a nécessité l’établissement d’un partenariat
+          entre milieux universitaire et scolaire. L’équipe de recherche comporte autant de
+          praticiens, que de personnes du milieu universitaire. Parmi les praticiens, trois sont
+          enseignantes et enseignantes associées et l’une est conseillère pédagogique. Les quatre
+          sont formatrices d’enseignants associés. Du côté des universitaires, trois sont
+          professeures et la quatrième est doctorante. Elles sont toutes chercheures en sciences de
+          l’éducation. Les membres sont engagés dans une démarche de réflexion et de coconstruction
+          de sens (Bourassa, Philion &amp; Chevalier, 2007). Sous le signe de la collaboration entre
+          les participants des deux milieux, trois objectifs principaux ont été visés. Les deux
+          premiers, produire des dispositifs de formation et analyser les effets perçus de ces
+          dispositifs sur le développement professionnel des enseignants associés, ont été atteints.
+          À ce sujet, des résultats ont été diffusés. Le troisième objectif, décrire comment les
+          enseignants associés analysent collectivement des pratiques de formation du stagiaire afin
+          de dégager des éléments pouvant soutenir la création de groupes de codéveloppement
+          professionnel et de favoriser une culture de formation continue, a donné lieu à de
+          nombreux résultats. Ceux qui sont exposés dans ce texte illustrent la dynamique
+          interactionnelle au sein d’une communauté de pratique.</alinea>
+      </para><para id="pa19"><no>19</no>
+        <alinea>Pour atteindre ce dernier objectif, une approche qualitative a été utilisée. Les
+          chercheurs ont ainsi pu faire de la recherche conjointement avec les participants et se
+          rapprocher de leur monde intérieur, de leurs représentations et de leurs intentions
+          (Karsenti &amp; Savoie-Zajc, 2000). Insistant sur la dimension interactive, la recherche
+          qualitative permet de comprendre la culture professionnelle des participants.
+          S’intéressant aux interactions, elle peut mettre au jour la coconstruction de savoirs
+          (Legendre, 2008). Avec une stratégie descriptive et compréhensive, il est possible de
+          générer et traiter des données en provenance du discours (Taylor &amp; Bogdan, 1984) et
+          d’analyser ce que les participants pensent et disent (Dumez, 2011). </alinea>
+      </para><para id="pa20"><no>20</no>
+        <alinea>Pour obtenir des données sur l’analyse, par des enseignants associés, de pratiques
+          de formation des stagiaires, l’outil d’investigation est essentiellement constitué d’un
+          canevas d’animation d’une discussion déclenchée par une situation concrète d’encadrement
+          d’un stagiaire. La situation présentée avant d’être analysée par le groupe met en présence
+          un stagiaire et un enseignant associé. Elle est réelle, non scénarisée. Il s’agit de la
+          narration écrite ou orale d’une situation déjà vécue ou d’une vidéo présentant une
+          rencontre de rétroaction entre un enseignant et son stagiaire, filmée au naturel pendant
+          un stage. Le canevas porte essentiellement sur la situation qui déclenche la discussion.
+          Ainsi, les participants du groupe de discussion sont invités à exprimer leurs commentaires
+          sur les interventions de l’enseignant associé tout en faisant des liens avec les
+          compétences attendues à son endroit (Portelance et al., 2008). La discussion, d’une durée
+          moyenne de 45 minutes, est enregistrée sur bande sonore. Il s’agit de l’enregistrement
+          anonyme de toutes les interactions entre les membres du groupe. Il n’est pas possible
+          d’attribuer les propos au participant qui les a prononcés.</alinea>
+      </para><para id="pa21"><no>21</no>
+        <alinea>Une communauté de pratique a été constituée en 2016 par des conseillères
+          pédagogiques responsables du dossier des stages dans une commission scolaire de la grande
+          région montréalaise. Le groupe comporte huit enseignants associés. Hétérogène, il est
+          formé d’enseignants du primaire, du secondaire et de l’adaptation scolaire et sociale. La
+          discussion est animée par une conseillère pédagogique, formatrice d’enseignants associés.
+          L’animatrice est une personne qui a développé des compétences en matière d’animation de
+          groupe. Comme le mentionnent Payette et Champagne (1997), elle sait susciter la
+          participation tout en gérant le droit de parole, maintenir un climat collaboratif,
+          relancer la discussion à partir des propos d’un participant, résumer et reformuler,
+          s’assurer que le groupe reste centré sur l’objet de la discussion<renvoi id="re1no2" idref="no2" typeref="note">2</renvoi>. </alinea>
+      </para><para id="pa22"><no>22</no>
+        <alinea>La communauté de pratique s’est réunie à cinq reprises, environ une fois par mois.
+          L’élément déclencheur de la discussion a varié d’une réunion à l’autre : énonciation
+          écrite qui met en scène une stagiaire manquant de professionnalisme et une enseignante
+          associée dont les actions ont pour but de redresser la situation (lors de la première
+          réunion) ; vidéos présentant chacune une dyade formée d’un stagiaire et de son enseignante
+          associée, filmés au naturel pendant une rencontre de rétroaction (lors des réunions 2, 4
+          et 5) ; narration orale d’une situation problématique par un membre de la communauté (lors
+          de la troisième réunion).</alinea>
+      </para><para id="pa23"><no>23</no>
+        <alinea>L’analyse des données présentée dans ce texte provient d’une collecte réalisée
+          auprès d’une unique communauté de pratique. Elle porte essentiellement sur la dynamique
+          interactionnelle au sein de la communauté. En se centrant sur une seule communauté, il est
+          possible de dégager des constats sur les changements progressifs, s’il y a lieu,
+          concernant les interactions entre les membres d’un groupe de codéveloppement professionnel
+          dans un contexte de formation continue.</alinea>
+      </para><para id="pa24"><no>24</no>
+        <alinea>Pour compléter le processus d’analyse des propos des membres de la communauté de
+          pratique, l’équipe de recherche s’est inspirée des étapes proposées par L’Écuyer (1990).
+          En premier lieu, les discussions de la communauté de pratique ont été intégralement
+          transcrites. Ensuite, une lecture flottante des propos des participants a permis de
+          repérer les unités de sens. Après ce repérage, une grille de codage a été construite à
+          partir de catégories préétablies, découlant des observations de Gilly, Fraisse et Roux
+          (2001) et des constats de Portelance et Caron (2010) et déjà mentionnés dans ce texte.
+          Ainsi la dynamique interactionnelle a été subdivisée en deux catégories : échanges d’idées
+          et déstabilisation cognitive ou déséquilibre cognitif. Quatre sous-catégories ont précisé
+          les échanges d’idées : coélaboration acquiescente, coconstruction de savoirs,
+          confrontation contradictoire et confrontation avec désaccord. Deux sous-catégories se
+          rapportent à la déstabilisation cognitive : le questionnement partagé et la réflexion
+          partagée. Le tableau suivant (Tableau 1) rappelle la catégorisation des données analysées.
+          Le codage interjuge, exécuté par les membres de l’équipe de recherche, s’est révélé
+          nécessaire à l’approfondissement du sens des propos des participants. Il a nécessité de
+          fréquentes rencontres pour parfaire l’analyse de chacun des passages codés. Pour chaque
+          sous-catégorie, des synthèses ont été rédigées. L’analyse minutieuse et rigoureuse des
+          données a mené à la description scientifique des résultats.</alinea>
+      </para><tableau id="ta1">
+        <no>Tableau 1</no>
+        <legende lang="fr">
+          <titre>Manifestations de la dynamique interactionnelle au sein de la communauté de
+            pratique</titre>
+          <sstitre>Catégories d’analyse</sstitre>
+        </legende>
+        <objetmedia flot="bloc">
+          <image xmlns:xlink="http://www.w3.org/1999/xlink" id="im1" typeimage="tableau" xlink:type="simple"></image>
+          <texte>Échanges d’idéesDéstabilisation cognitive (déséquilibre cognitif)Coélaboration
+            acquiescenteCoconstruction de savoirsConfrontation contradictoireConfrontation avec
+            désaccordQuestionnement partagéRéflexion partagée</texte>
+        </objetmedia>
+      </tableau></section1><section1 id="s1n6"><no>6</no><titre>Présentation de résultats</titre><para id="pa25"><no>25</no>
+        <alinea>La présentation des résultats est centrée sur l’atteinte du troisième objectif de la
+          recherche : analyser des pratiques de formation des stagiaires par les enseignants
+          associés. Nous exposons les éléments relatifs à la dynamique interactionnelle au sein de
+          la communauté de pratique. Nous nous sommes inspirées des catégories élaborées par Gilly,
+          Fraisse et Roux (2001), revues par Portelance et Caron (2010). Avant de décrire les
+          manifestations de la dynamique interactionnelle, nous présentons brièvement les objets
+          d’échanges lors des rencontres, et ce, afin de contextualiser les propos analysés. Pour
+          illustrer nos constats, nous avons retenu quelques propos représentatifs des échanges au
+          sein de la communauté de pratique. </alinea>
+      </para><section2 id="s2n3"><no>6.
+				1</no><titre><marquage typemarq="italique">Contextualisation des échanges </marquage></titre><para id="pa26"><no>26</no>
+        <alinea>Ce qui prédomine de manière importante dans les échanges est constitué des
+          compétences des enseignants associés (Portelance, Gervais, Lessard, Beaulieu &amp;
+          collaborateurs, 2008). Leur évocation importante dans le feu des discussions indique une
+          réelle appropriation de ces compétences pour définir et comprendre le rôle de l’enseignant
+          associé. Un exemple tiré de la rencontre 5 se rapporte à la compétence visant à susciter
+          la pratique réflexive du stagiaire. Après la projection d’une vidéo, une participante
+          déclare : « Moi, j’ai trouvé que l’enseignante associée faisait un très bon travail. La
+          stagiaire a dit que sa maître associée lui posait beaucoup de questions pour réfléchir sur
+          sa propre pratique… » (R5, 5-7).<renvoi id="re1no3" idref="no3" typeref="note">3</renvoi> </alinea>
+      </para><para id="pa27"><no>27</no>
+        <alinea>Le second objet en importance dans les échanges se rapporte aux compétences que les
+          stagiaires sont appelés à développer (gouvernement du Québec, 2001). Pour approfondir leur
+          analyse des situations présentées, les participants font un retour pertinent sur les
+          comportements ou les attitudes des stagiaires en se reportant aux compétences en
+          enseignement. Un participant à la rencontre 1 établit ainsi un lien entre le comportement
+          problématique d’une stagiaire et la compétence éthique attendue d’un enseignant : « Je
+          trouve qu’arriver une heure et demie en retard à son premier jour de stage, c’est quelque
+          chose. […] C’est en lien avec une compétence, en rapport avec l’éthique professionnelle,
+          entre autres » (R1, 12-18). </alinea>
+      </para><para id="pa28"><no>28</no>
+        <alinea>Deux autres objets ont fait partie des échanges, quoique dans une faible mesure :
+          les expériences antérieures des participants en formation de stagiaire et les savoirs
+          théoriques. Les expériences antérieures représentent très peu d’unités de sens, ce qui
+          surprend, les communautés de pratique étant fondées sur l’idée que la réunion de
+          praticiens discutant de leurs expériences constitue une forme puissante de formation
+          continue. En ce qui concerne le recours à des savoirs théoriques ou issus de la recherche,
+          seules deux unités de sens ont été repérées, et ce, sous une forme assez générale, sans
+          élaboration ni explicitation des idées. </alinea>
+      </para></section2><section2 id="s2n4"><no>6.
+				2</no><titre><marquage typemarq="italique">Manifestations de la dynamique
+        interactionnelle</marquage></titre><para id="pa29"><no>29</no>
+        <alinea>Nous révélons les manifestations de la dynamique interactionnelle en fonction des
+          catégories de l’analyse des données : les échanges d’idées et la déstabilisation
+          cognitive. Nous précisons les résultats en nous attardant aux sous-catégories. </alinea>
+      </para></section2><section2 id="s2n5"><no>6.
+				3</no><titre><marquage typemarq="italique">Échanges d’idées</marquage></titre><para id="pa30"><no>30</no>
+        <alinea>Parmi les manifestations de la dynamique interactionnelle que nous avons rassemblées
+          dans la catégorie des échanges d’idées, la coélaboration acquiescente prédomine. Elle se
+          produit lorsqu’un membre de la communauté acquiesce à l’idée d’un autre en l’élaborant et
+          la complétant et même en renforçant son raisonnement. Malgré sa prédominance, nous ne
+          présentons que trois exemples d’illustration de ce résultat.</alinea>
+      </para></section2><section2 id="s2n6"><no>6.
+				4</no><titre><marquage typemarq="italique">Coélaboration acquiescente</marquage></titre><para id="pa31"><no>31</no>
+        <alinea>Le premier exemple montre qu’un participant appuie ou développe le point de vue d’un
+          autre. L’extrait suivant est tiré de la rencontre 1 (R1, 27-34) à propos de l’identité
+          (professionnelle) projetée par la stagiaire : </alinea>
+        <listenonord signe="disque">
+          <elemliste>
+            <alinea>Il y a comme une immaturité aussi, je trouve, pour Laurie. Il y a comme des
+              choses de base que tu dois avoir. Quand elle parlait avec les élèves, elle était trop
+              familière. </alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>J’ai justement remarqué ça, moi aussi. On n’est pas les amis. Il ne faut pas
+              être l’ami des élèves. Tu veux devenir une enseignante ? Bien, il faut que tu agisses
+              pour devenir une enseignante. </alinea>
+          </elemliste>
+        </listenonord>
+      </para><para id="pa32"><no>32</no>
+        <alinea>Pendant la rencontre 4 (R4, 4-9), les participants réagissent devant la rétroaction
+          que l’enseignante associée offre à sa stagiaire :</alinea>
+        <listenonord signe="disque">
+          <elemliste>
+            <alinea>Je trouve que les deux parlent beaucoup, mais en même temps, elles échangent
+              peu, on dirait. L’enseignante dit plein de choses, mais pose peu de questions [pour
+              savoir] ce que la stagiaire pense de… ou pour valider la réflexion de la stagiaire.
+            </alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>Pour appuyer Pascal, dans le fond, c’est que l’enseignante associée donne
+              beaucoup de détails, d’informations, c’est lourd. Elle aurait avantage à faire
+              réfléchir sa stagiaire. </alinea>
+          </elemliste>
+        </listenonord>
+      </para><para id="pa33"><no>33</no>
+        <alinea>Cet autre exemple de co-élaboration acquiescente est tiré de la rencontre 2 (R2,
+          46-51) au cours de laquelle des participants précisent l’idée, proposée par un premier
+          participant, d’un problème de communication entre l’enseignant associé et le stagiaire : </alinea>
+        <listenonord signe="disque">
+          <elemliste>
+            <alinea>[L’animatrice : quelle est la situation problématique ?] </alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>Leur communication.</alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>Moi, je n’ai pas trouvé qu’il y avait une relation de confiance qui avait été
+              construite entre les deux.</alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>Ni d’échange.</alinea>
+          </elemliste>
+        </listenonord>
+      </para></section2><section2 id="s2n7"><no>6.
+				5</no><titre><marquage typemarq="italique">Coconstruction de savoirs</marquage></titre><para id="pa34"><no>34</no>
+        <alinea>Relativement aux échanges d’idées, nous avons aussi pu constater des manifestations
+          de la coconstruction de savoirs. Elle correspond à l’émergence d’idées nouvelles issues de
+          la participation active des personnes qui interagissent et surtout à la consolidation
+          collective du sens accordé à différentes compétences. Les discussions peuvent
+          effectivement conduire à une co-construction de savoirs, l’objectif même de la communauté
+          de pratique en formation continue. La co-construction de savoirs observée dans les
+          échanges analysés porte, d’une part, sur les compétences du stagiaire. Il s’agit alors
+          pour le groupe de bien cerner la situation présentée, comme l’illustre l’échange suivant
+          tiré de la première rencontre (R1, 73-75), impliquant trois participants qui discutent de
+          la stagiaire dont il est question dans le cas écrit : </alinea>
+        <listenonord signe="disque">
+          <elemliste>
+            <alinea>Donc elle ne verrait pas ses difficultés. </alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>Elle ne se questionne pas. </alinea>
+          </elemliste>
+          <elemliste>
+            <alinea> Elle ne fait pas de démarche réflexive. </alinea>
+          </elemliste>
+        </listenonord>
+      </para><para id="pa35"><no>35</no>
+        <alinea>Les trois participants arrivent à coconstruire, à partir d’observations, le sens
+          d’une compétence attendue d’une stagiaire, qui consiste à s’engager dans une démarche de
+          développement professionnel. Par ailleurs, d’autres échanges, comme dans l’exemple qui
+          suit (R3, 217-229), mènent plutôt à de la co-construction de savoirs sur diverses
+          compétences attendues d’une stagiaire de troisième année :</alinea>
+        <listenonord signe="disque">
+          <elemliste>
+            <alinea> [Un participant] Je clarifierais ça : « Qu’est-ce que tu attends de moi ? Parce
+              que j’essaie de te donner mon opinion pour te faire avancer, mais on dirait que tu
+              n’es pas ouverte et tu es sur la défensive ». </alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>[Un participant] Ouais.</alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>[Un participant] Moi, je pense aussi qu’il va falloir faire référence au guide
+              de stage au niveau de l’organisation, la planification. Qu’est-ce que l’université te
+              demande de faire ? </alinea>
+          </elemliste>
+          <elemliste>
+            <alinea> [La narratrice] Dans le fond, elle m’a laissé la place et j’ai embarqué dans sa
+              « game ». C’est ça que je me rends compte, tu sais. « OK, qu’est-ce qu’on fait cette
+              semaine ? », mais dans le fond ce ne serait plus à moi [de le faire]. Et la semaine
+              prochaine, ça va être go, tu le fais toute seule et tu me diras ce qui en est.
+            </alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>[Un participant] Planifier, piloter...</alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>[La narratrice] Oui ! C’est ça. Puis réaliser, puis exécuter, tout ça.</alinea>
+          </elemliste>
+        </listenonord>
+      </para><para id="pa36"><no>36</no>
+        <alinea>La compréhension construite de la compétence peut devenir une co-construction du
+          groupe. Cet extrait des échanges lors de la rencontre 2 (R2, 244-251) montre que trois
+          participants construisent ensemble le type d’intervention susceptible de guider le
+          stagiaire dans le développement de ses compétences :</alinea>
+        <listenonord signe="disque">
+          <elemliste>
+            <alinea>Clarifier les attentes.</alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>Moi, je pense aller plus vers une observation beaucoup plus rigoureuse, et non
+              arriver avec des sentiments, des émotions, mais avec des faits. Et poser des questions
+              pour travailler la réflexion du stagiaire, une pratique réflexive.</alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>Faire confiance au stagiaire. Moi, je l’ai senti, ça. C’est un feeling. Ah oui,
+              je n’ai pas senti qu’elle l’accueillait et qu’elle voulait lui laisser le plancher, et
+              qu’elle lui faisait confiance dans ce qu’il avait envie d’essayer. </alinea>
+          </elemliste>
+        </listenonord>
+      </para><para id="pa37"><no>37</no>
+        <alinea>La coconstruction de savoirs peut également concerner les compétences de
+          l’enseignant associé. Par exemple, la discussion sur des pratiques de formation peut
+          conduire les participants à préciser ce qui est attendu d’un enseignant associé et à en
+          approfondir le sens dans une situation concrète d’encadrement d’un stagiaire. Cet extrait
+          (R3, 206-213) illustre une telle séquence d’échanges entre trois participants lors de la
+          rencontre 3 : </alinea>
+        <listenonord signe="disque">
+          <elemliste>
+            <alinea> Peut-être [que l’enseignant associé devrait], la mettre dans des positions
+              réflexives pour qu’elle se dise : « Oups. C’est vrai. Attends une minute. Je ne peux
+              pas faire ça ». Lui permettre de voir l’impact, les conséquences, la portée du geste,
+              avec tout l’encadrement et la sécurité des élèves. </alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>Et l’amener à faire sa propre démarche réflexive.</alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>Il y a quelque part ton mandat à toi, une compétence attendue de l’enseignant
+              associé, qui est d’agir à aider le stagiaire à poser un regard critique sur sa
+              pratique. </alinea>
+          </elemliste>
+        </listenonord>
+      </para></section2><section2 id="s2n8"><no>6.
+				6</no><titre><marquage typemarq="italique">Confrontation contradictoire</marquage></titre><para id="pa38"><no>38</no>
+        <alinea>D’autres extraits de discours mettent en évidence une confrontation contradictoire,
+          c’est-à-dire une discussion à partir d’idées différentes. Moins souvent manifestée dans la
+          communauté de pratique, la confrontation contradictoire permet de faire avancer la
+          discussion dans un groupe. Voici un exemple d’échanges, tiré de la rencontre 5 (R5,
+          43-51), montrant les points de vue différents de deux participants au sujet de la
+          stagiaire et l’argumentation que le deuxième met de l’avant : </alinea>
+        <listenonord signe="disque">
+          <elemliste>
+            <alinea>Elle était vraiment excellente dans ses… </alinea>
+          </elemliste>
+          <elemliste>
+            <alinea> Moi, je mettrais un petit bémol. Et la raison pourquoi je mets un bémol, c’est
+              qu’un moment donné, la stagiaire dit : « C’est facile de faire mes rétroactions le
+              soir. Je faisais juste me rappeler de tout ce que la maitre associée me disait ». Et
+              c’est une des choses que j’ai travaillées avec mon stagiaire cette année, je me
+              disais : « Je l’encadre trop, je l’aide trop ». Puis, ça n’aide pas pour la
+              compétence 4 [de l’enseignant associé] qui est d’aider la stagiaire à poser un regard
+              critique sur sa pratique. </alinea>
+          </elemliste>
+        </listenonord>
+      </para><para id="pa39"><no>39</no>
+        <alinea>Une autre illustration de confrontation contradictoire, tirée cette fois de la
+          rencontre 1 (R1, 90-93), montre qu’un participant propose une nouvelle interprétation à
+          celle proposée initialement par un collègue :</alinea>
+        <listenonord signe="disque">
+          <elemliste>
+            <alinea>Il y a peut-être de l’insécurité aussi à travers tout ça.</alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>Elle a peut-être réagi parce qu’elle ne varie pas, elle garde toujours les mêmes
+              patterns de leçon… Donc [elle n’est] pas juste insécure, elle manque de
+              sérieux.</alinea>
+          </elemliste>
+        </listenonord>
+      </para><para id="pa40"><no>40</no>
+        <alinea>L’extrait qui suit illustre une confrontation d’idées au cours de la rencontre 3
+          (R3, 241-244), où la narratrice d’une situation problématique soumise à la discussion est
+          interpelée par une question d’un participant :</alinea>
+        <listenonord signe="disque">
+          <elemliste>
+            <alinea> (La narratrice) J’avais peut-être commencé, je ne sais pas si je fais bien, par
+              « Comment tu trouves ton stage ? Comment tu te sens ? » </alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>[Un participant), mais si elle te dit que son stage, ça va très bien, qu’est-ce
+              que tu vas lui répondre ? </alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>(La narratrice) Bien, je vais lui dire que je ne vois pas ça comme ça de mon
+              côté.</alinea>
+          </elemliste>
+        </listenonord>
+      </para><para id="pa41"><no>41</no>
+        <alinea>Pour compléter la présentation des résultats relativement aux échanges d’idées, nous
+          signalons l’absence de la contradiction avec désaccord, qui représente le rejet d’une
+          proposition sans argumentation et sans proposition d’une idée nouvelle. En effet, aucune
+          manifestation de cette confrontation n’a été retracée dans les propos des participants
+          tout au long des rencontres. </alinea>
+      </para></section2><section2 id="s2n9"><no>6.
+				7</no><titre><marquage typemarq="italique">Déstabilisation cognitive</marquage></titre><para id="pa42"><no>42</no>
+        <alinea>Selon le cadre choisi pour l’analyse des données, la déstabilisation cognitive se
+          révèle dans le questionnement et la réflexion partagés. Nous croyons que plusieurs
+          exemples d’échanges d’idées, déjà mentionnés, auraient pu servir à illustrer la
+          déstabilisation sous l’un ou l’autre de ces deux angles. En effet, la verbalisation des
+          idées est souvent le fruit du partage des pensées, des croyances, des valeurs. Dans les
+          paragraphes suivants, nous mentionnons des extraits de la discussion qui mettent en
+          évidence les questions et les réflexions que les membres de la communauté de pratique
+          mettent sur la table dans leur analyse des pratiques de formation des stagiaires.
+        </alinea>
+      </para></section2><section2 id="s2n10"><no>6.
+				8</no><titre><marquage typemarq="italique">Réflexion partagée</marquage></titre><para id="pa43"><no>43</no>
+        <alinea>Un mode d’interaction fréquemment utilisé est la réflexion partagée selon laquelle
+          les participants tentent, par une analyse conjointe, de mieux comprendre la situation
+          étudiée, d’en arriver à des pistes de solution s’il y a un problème perceptible. Dans les
+          exemples qui suivent, il est possible d’observer que les participants vont au-delà de
+          l’acquiescement à une idée émise ; ils apportent un point de vue complémentaire qui
+          soutient la réflexion partagée et en enrichit la portée sur les membres de la communauté
+          de pratique. L’exemple qui suit, tiré de la rencontre 1 (R1, 88-93), porte sur les
+          relations apparentes entre la stagiaire et l’enseignante associée. :</alinea>
+        <listenonord signe="disque">
+          <elemliste>
+            <alinea>Bien, je pense qu’il manque vraiment un espace de dialogue et de réflexion.
+              Souvent, on voit que l’enseignante associée explique, démontre, mais il n’y a pas de
+              réflexion.</alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>Il n’y a pas de questionnement.</alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>[Il faut] l’amener à une réflexion.</alinea>
+          </elemliste>
+        </listenonord>
+      </para><para id="pa44"><no>44</no>
+        <alinea>Une autre situation qui met en lumière la réflexion partagée provient de la
+          rencontre 2 (R2, 147-161), illustrant cette fois des échanges entre trois participants au
+          sujet des propos de l’enseignante associée et de son encadrement du stagiaire qu’ils
+          jugent inadéquats :</alinea>
+        <listenonord signe="disque">
+          <elemliste>
+            <alinea> Se faire un genre d’horaire pour avoir une évaluation continue, pas juste une
+              observation, mais de dire : « Dans les prochaines semaines, on va faire telle, telle,
+              telle observation ». Puis travailler avec le superviseur et le guide de stage pourrait
+              aider aussi. </alinea>
+          </elemliste>
+          <elemliste>
+            <alinea> L’importance de traces écrites, parce qu’il avait beaucoup de points, selon
+              elle, à améliorer, mais il faut que le stagiaire ait quelque chose de concret pour
+              pouvoir justement s’améliorer. J’aurais bien aimé qu’elle demande : « quels sont tes
+              objectifs à toi, qu’est-ce que tu veux travailler lors de ton stage ? ». Il aurait
+              répondu probablement la gestion de classe parce qu’il en a parlé dans la vidéo. Donc
+              il ne faut pas oublier que c’est pour eux qu’on est là, aussi, et leur poser la
+              question pour répondre à leurs besoins. </alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>Puis en plus, pour la gestion de classe, elle a dit au début de la rétroaction
+              que ça s’était bien passé, qu’il avait une belle relation avec les élèves, que les
+              élèves prenaient des notes ; donc, ça s’est bien passé, mais au lieu de parler de ça,
+              elle est allée juste sur les points négatifs.</alinea>
+          </elemliste>
+        </listenonord>
+      </para><para id="pa45"><no>45</no>
+        <alinea>Lors de la rencontre 3, consacrée au traitement d’une situation vécue et narrée
+          oralement par l’une des enseignantes associées de la communauté, les échanges entre les
+          participants ont principalement pris la forme de réflexions partagées. Cet exemple
+          d’échanges réflexifs (R3, 126-135) traite du rythme d’enseignement de la stagiaire, jugé
+          trop lent :</alinea>
+        <listenonord signe="disque">
+          <elemliste>
+            <alinea>[La narratrice] Pourtant, il y a deux semaines, je lui ai dit qu’en français,
+              dans les prochaines semaines, j’ai été comme très claire : il faut voir ça, ça, ça. En
+              mathématiques, il faut voir ça et ça. Mais je pense que des fois, elle voit tellement
+              qu’il y en a qui ont de la difficulté qu’elle s’attarde aux trois plus faibles.
+            </alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>[Un participant] Dans le fond, elle génère du retard dans le contenu ? </alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>[La narratrice] Oui, c’est ça ! </alinea>
+          </elemliste>
+        </listenonord>
+      </para><para id="pa46"><no>46</no>
+        <alinea>Un autre exemple de déstabilisation cognitive a été identifié lors de la troisième
+          rencontre de la communauté (R3, 394-399). C’est la narratrice qui l’exprime au sujet d’un
+          comportement inapproprié de sa stagiaire :</alinea>
+        <listenonord signe="disque">
+          <elemliste>
+            <alinea>[Un participant] On dirait qu’elle ne se remet pas en question.</alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>[La narratrice] Non, c’est rendu que c’est moi qui me remets en question. C’est
+              la première fois que ça m’arrive, une histoire comme ça. </alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>[Un participant] Tu te remets en question, mais pas elle.</alinea>
+          </elemliste>
+          <elemliste>
+            <alinea>[La narratrice] C’est ça !</alinea>
+          </elemliste>
+        </listenonord>
+      </para><para id="pa47"><no>47</no>
+        <alinea>En somme, au sein de la communauté de pratique qui a analysé des pratiques de
+          formation du stagiaire, les échanges d’idées entre enseignants associés se présentent
+          surtout sous la forme de la coélaboration acquiescente. À cette manifestation de la
+          dynamique interactionnelle s’ajoutent la coconstruction de savoirs et la confrontation
+          contradictoire. Quant à la déstabilisation cognitive, elle prend essentiellement la forme
+          de réflexion partagée. </alinea>
+      </para></section2></section1><section1 id="s1n7"><no>7</no><titre>Interprétation compréhensive</titre><para id="pa48"><no>48</no>
+        <alinea>Cette étude à laquelle un groupe d’enseignants associés a participé visait à
+          préciser les manifestations de la dynamique interactionnelle au sein de la communauté de
+          pratique. D’une part, les résultats permettent de dégager des caractéristiques de la
+          dynamique interactionnelle qui s’est installée entre les participants. D’autre part, les
+          résultats laissent entrevoir que les modalités de formation continue proposées dans le
+          cadre de la communauté semblent avoir des incidences sur la cette dynamique
+          interactionnelle. </alinea>
+      </para><section2 id="s2n11"><no>7.
+				1</no><titre><marquage typemarq="italique">Les manifestations observées de la dynamique
+        interactionnelle</marquage></titre><para id="pa49"><no>49</no>
+        <alinea>Des diverses manifestations de dynamique interactionnelle prévues selon les
+          catégories élaborées par Gilly, Fraisse et Roux (2001) et adaptées par Portelance et Caron
+          (2010) au contexte de stage, nous avons plus particulièrement noté des réflexions
+          partagées entre les participants, menant soit à la co-élaboration acquiescente d’idées,
+          soit à la co-construction de savoirs relatifs à ce qui est attendu de l’enseignant
+          associé. Les échanges ont porté largement sur les compétences attendues d’un enseignant
+          associé et celles édictées pour les stagiaires dans le référentiel de compétences en
+          enseignement (gouvernement du Québec, 2001). Il y a lieu de signaler à cet égard le
+          travail très ciblé de cette communauté.</alinea>
+      </para><para id="pa50"><no>50</no>
+        <alinea>Une caractéristique qui peut se dégager de ces résultats est la cohésion dont font
+          preuve les participants de la communauté. Partageant une même formation de base à propos
+          de l’encadrement de stagiaires, s’étant engagés dans la poursuite de cette formation au
+          sein d’une communauté de pratique, ils partagent un vocabulaire spécialisé (compétences
+          attendues des stagiaires et celles attendues d’un enseignant associé) et une démarche de
+          type réflexif pour discuter des situations qui leur sont présentées. Cela est
+          particulièrement visible lorsque plusieurs participants développent l’idée d’un collègue,
+          l’élaborent, la complètent, renforcent son raisonnement, ce qui conduit à une
+          coélaboration acquiescente des points de vue exprimés ou encore à une coconstruction de
+          savoirs. Ces constats permettent d’affirmer qu’un développement professionnel a eu lieu
+          dans cette communauté, c’est-à-dire que les membres du groupe ont cheminé ensemble dans la
+          compréhension de leur pratique professionnelle et ont appris les uns des autres (Michaud
+          &amp; Bouchamma, 2013), ce qui peut être considéré comme du codéveloppement professionnel.
+        </alinea>
+      </para><para id="pa51"><no>51</no>
+        <alinea>Par ailleurs, certaines manifestations d’une dynamique interactionnelle sont peu
+          présentes dans les échanges. D’une part, il n’y a pas de manifestations de la
+          confrontation avec désaccord et, d’autre part, la déstabilisation cognitive ne s’est pas
+          manifestée sous forme de questionnement partagé. La cohésion du groupe ou plutôt le désir
+          de cohésion explique peut-être l’absence de la confrontation avec désaccord, qui
+          correspond au rejet d’une idée sans argumentation et sans proposition d’une idée nouvelle.
+          Les participants se sont peut-être sentis plus à l’aise d’acquiescer à une idée émise et,
+          quelques fois, de la confronter en argumentant et en justifiant leur point de vue plutôt
+          que de la rejeter d’emblée sans expliquer les raisons de l’exclusion. Aussi, ils ont pu
+          hésiter à remettre en question l’idée exprimée par un collègue. Quant au questionnement
+          partagé, son absence n’est peut-être qu’apparente. N’étant pas formulée explicitement, il
+          se peut qu’elle soit logée implicitement dans la réflexion partagée, considérant que le
+          questionnement peut donner lieu à une réflexion et que la réflexion elle-même peut faire
+          naitre de nouveaux questionnements (Gilly, Fraisse &amp; Roux, 2001). </alinea>
+      </para><para id="pa52"><no>52</no>
+        <alinea>Nous avons noté de plus qu’il n’y avait pas d’évolution apparente dans la
+          répartition des divers types de manifestations tout au long des rencontres. En effet, la
+          coélaboration acquiescente, possiblement fortifiée par la réflexion partagée sous-jacente,
+          a dominé la dynamique interactionnelle de la première à la cinquième rencontre de la
+          communauté de pratique, quoiqu’en nombre variable de l’une à l’autre. Peut-être faut-il
+          plus de temps pour que des comportements plus engageants, notamment la confrontation des
+          idées, soient manifestés ? Cela irait dans le sens de Charlier (2001) pour qui la
+          dynamique complexe des échanges, construite progressivement entre les membres, serait
+          influencée par des variables individuelles, situationnelles et interactionnelles. Devant
+          l’absence de certaines manifestations de la dynamique interactionnelle au sein de la
+          communauté de pratique étudiée, à savoir la confrontation avec désaccord et le
+          questionnement partagé, nous nous interrogeons sur les conditions optimales du
+          codéveloppement professionnel. Est-ce qu’un manque de confiance mutuelle et de
+          transparence aurait pu l’entraver ? À cet égard, le point de vue des participants pourrait
+          être révélateur.</alinea>
+      </para><para id="pa53"><no>53</no>
+        <alinea>Nous pouvons faire l’hypothèse que la faible part des expériences antérieures
+          évoquées durant les rencontres laisse entrevoir une certaine « timidité » chez les
+          participants, une retenue quant au faire-valoir de ce qu’ils savent déjà. Dans un contexte
+          de formation continue qui repose sur les savoirs déjà construits par les praticiens
+          (L’Hostie et al., 2013 ; Wells, 1993), ce défaut de recours à l’expérience professionnelle
+          révèle-t-il une conception de la formation continue qui ne serait pas ancrée
+          dans l’action ? De la même manière, la quasi-absence de savoirs théoriques ou issus de la
+          recherche lors des échanges peut faire l’objet d’hypothèses. Alors que les résultats ont
+          montré clairement une bonne maîtrise de deux cadres exploités pendant leur formation de
+          base, le référentiel de compétences à l’enseignement et celui des compétences de
+          l’enseignant associé, les participants semblent n’avoir aucune autre référence précise
+          pour appuyer théoriquement leurs dires lors des échanges. Du point de vue de Vanhulle
+          (2009), ce constat n’est pas étonnant. À ce sujet, il serait pertinent de se demander si
+          la communauté de pratique a été incitée à en tenir compte.</alinea>
+      </para></section2><section2 id="s2n12"><no>7.
+				2</no><titre><marquage typemarq="italique">Les incidences des modalités de travail sur la dynamique
+        interactionnelle</marquage></titre><para id="pa54"><no>54</no>
+        <alinea>Les situations choisies pour déclencher la discussion entre les participants,
+          décrites brièvement plus haut, offraient des caractéristiques qui semblent avoir influencé
+          la nature des échanges. Les situations discutées lors des rencontres 1 et 2 présentaient
+          des aspects problématiques alors que celles exposées dans les rencontres 4 et 5, au
+          contraire, mettaient en évidence des entretiens harmonieux entre l’enseignant associé et
+          son stagiaire. La rencontre 3 portait pour sa part sur la narration d’une situation
+          problématique vécue par un participant. </alinea>
+      </para><para id="pa55"><no>55</no>
+        <alinea>À l’opposé de ce qu’on a observé lors des autres rencontres, ce sont les compétences
+          des stagiaires, et non celles des enseignants associés, qui dominent dans les propos des
+          participants lors de la rencontre 3, portant sur un cas vécu narré par une participante,
+          au cours de laquelle les participants tentent de bien cerner ce qui pose problème chez la
+          stagiaire. Les compétences attendues de l’enseignante associée (présente à la rencontre)
+          sont alors moins discutées. Il semble que les membres de la communauté soient plus à
+          l’aise de s’exprimer sur les pratiques et les manifestations des compétences d’un
+          enseignant non présent à la rencontre. </alinea>
+      </para><para id="pa56"><no>56</no>
+        <alinea>Ces trois types de situations ont contribué à fournir des résultats différents : la
+          grande majorité des manifestations de la dynamique interactionnelle proviennent des
+          rencontres où des problèmes étaient soulevés. À titre d’exemple, une comparaison des
+          échanges lors des rencontres 1, 2 et 3 à ceux des rencontres 4 et 5 indique que les
+          premières ont fourni un plus grand nombre de manifestations de coconstruction de savoirs.
+          Les résultats vont dans le même sens, mais sont un peu moins prononcés, dans le cas des
+          manifestations de coélaboration acquiescente. Il semblerait donc que les situations
+          faisant état de difficultés créent davantage une dynamique d’échanges et de
+          codéveloppement professionnel entre les participants. </alinea>
+      </para><para id="pa57"><no>57</no>
+        <alinea>L’une des modalités utilisées pour déclencher la discussion a été la narration, par
+          l’un des participants, d’un cas vécu avec un stagiaire. Cette modalité est présentée par
+          Michaud et Bouchamma (2013) comme la situation idéale pour faire avancer une communauté de
+          pratique, les échanges se concentrant essentiellement sur une pratique réelle, narrée par
+          un participant. Or, la verbalisation d’une expérience n’est pas nécessairement
+          autoporteuse de développement professionnel (Clerc-Georgy, 2017). Dans notre étude, cette
+          modalité de formation, utilisée lors de la rencontre 3, semble avoir suscité des échanges
+          portant davantage sur le stagiaire que sur l’enseignant associé. Ainsi, à l’inverse de ce
+          qu’on a pu observer dans les autres rencontres, les participants ont davantage évoqué les
+          compétences des stagiaires que celles des enseignants associés. Nous pouvons avancer
+          l’hypothèse que la discussion sur les compétences du stagiaire, en présence de
+          l’enseignant associé qui a vécu la situation, est moins compromettante que la critique,
+          même constructive, des compétences manifestées par l’enseignant associé dans sa narration.
+          Or, pour être formatrice, la narration doit valoriser les échanges de points de vue
+          (Michaud &amp; Bouchamma, 2013). </alinea>
+      </para><para id="pa58"><no>58</no>
+        <alinea>La difficulté à exprimer son point de vue peut nécessiter la mise en place de
+          conditions facilitantes, ce qui exige du temps, comme le montrent les résultats de l’étude
+          d’une communauté par Michaud et Bouchamma (2013, p. 207) : « Un autre changement proposé
+          [par les participants de leur étude] était celui de développer une culture différente par
+          rapport au temps : se donner le temps de s’interroger, de construire ensemble,
+          d’expérimenter, s’imposer de ralentir. » Au fil des rencontres, le potentiel formateur
+          d’une narration par l’un des membres du groupe prendrait son sens. L’impact serait plus
+          ancré dans la pratique, plus porteur de changement éventuel, à la condition que son
+          utilisation soit encadrée de manière à assurer un minimum d’aisance et de confiance et
+          qu’elle représente une occasion de poser un regard cognitif et métacognitif sur ses
+          pratiques (Martin, 2017). </alinea>
+      </para></section2></section1><section1 id="s1n8"><no>8</no><titre>Conclusion</titre><para id="pa59"><no>59</no>
+        <alinea>Nous avons analysé la dynamique interactionnelle dans un contexte susceptible de
+          favoriser le codéveloppement professionnel d’enseignants associés rassemblés dans une
+          communauté de pratique. Il a été possible d’identifier les manifestations de la dynamique
+          interactionnelle au cours des cinq rencontres de leur communauté de pratique. L’analyse de
+          leurs propos indique que les discussions touchent surtout les attentes à leur endroit et à
+          l’égard des stagiaires, en l’occurrence les compétences du formateur de terrain et celles
+          du futur enseignant. Elle révèle également que la dynamique interactionnelle au sein de la
+          communauté est dominée par la coélaboration des idées et la coconstruction de savoirs sur
+          les pratiques d’encadrement du stagiaire, soutenues par la réflexion partagée. À cet
+          égard, l’utilisation du cadre conceptuel de Gilly, Fraisse et Roux (2001) s’est avéré un
+          choix judicieux. </alinea>
+      </para><para id="pa60"><no>60</no>
+        <alinea>Le climat de partage, de reconnaissance mutuelle et d’interdépendance a laissé libre
+          cours à l’expression de points de vue distincts et, quelques fois, à l’argumentation, mais
+          n’a pas mis en évidence l’expression de questionnements partagés. Or, une communauté de
+          pratique est normalement un lieu de questionnements ouverts. Le processus méthodologique
+          ne permet pas d’expliquer ce constat. Seules des hypothèses peuvent être émises. Par
+          exemple, les membres de la communauté se connaissent peu, ils se sont rencontrés pour la
+          première fois à l’occasion de la première collecte de données. Un plus grand nombre de
+          rencontres aurait peut-être fourni l’occasion d’entendre des propos qui témoignent de
+          déstabilisation cognitive causée par des désaccords. </alinea>
+      </para><para id="pa61"><no>61</no>
+        <alinea>Une communauté de pratique vise généralement l’amélioration des pratiques chez ses
+          membres. Il aurait été intéressant et important d’identifier les effets concrets des
+          échanges sur les pratiques des enseignants associés. D’autres dispositifs de recherche
+          permettraient de mieux comprendre la dynamique interactionnelle au sein d’une communauté
+          de pratique et de s’attarder aux retombées des échanges sur les pratiques. Également, il
+          serait pertinent de connaître les effets des communautés de pratique sur le développement
+          professionnel de ceux qui y participent. </alinea>
+      </para></section1></corps><partiesann lang="fr"><grbiblio><biblio><refbiblio id="rb1">Altet, M. (1996). Les compétences de l’enseignant-professionnel : entre savoirs, schèmes d’action et adaptation, le savoir analyser. Dans L. Paquay, M. Altet, É. Charlier et P. Perrenoud (dir.), <marquage typemarq="italique">Former des enseignants professionnels.</marquage> Bruxelles, Belgique : De Boeck. </refbiblio>
+<refbiblio id="rb2">Altet, M., Paquay, L. &amp; Perrenoud, P. (2002). La professionnalisation des formateurs d’enseignants : réalité émergente ou fantasme ? Dans M. Altet, L. Paquay &amp; P. Perrenoud (dir.), <marquage typemarq="italique">Formateurs d’enseignants : quelle professionnalisation ? </marquage>(p. 261-274). Bruxelles, Belgique : De Boeck. </refbiblio>
+<refbiblio id="rb3">Bourassa, M., Philion, R. &amp; Chevalier, J. (2007). L’analyse de construits : une co-construction de groupe. <marquage typemarq="italique">Éducation et francophonie</marquage><marquage typemarq="italique">,</marquage><marquage typemarq="italique"> </marquage><marquage typemarq="italique">35</marquage>(2), 78-116.</refbiblio>
+<refbiblio id="rb4">Caron, J. &amp; Portelance, L. (2017). La collaboration entre chercheuse et praticiens dans un groupe de codéveloppement professionnel. <marquage typemarq="italique">Éducation et socialisation</marquage>, 45. <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls5" xlink:href="http://edso.revues.org/2555" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://edso.revues.org/2555</liensimple>.</refbiblio>
+<refbiblio id="rb5">Caron, J., Portelance, L. &amp; Martineau, S. (2013). <marquage typemarq="italique">Comment les enseignants associés et les superviseurs aident-ils les stagiaires à établir des liens entre théorie et pratique ?</marquage> Communication présentée au Symposium Articulation théorie-pratique HEP Vaud-UQTR, Lausanne, Suisse. </refbiblio>
+<refbiblio id="rb6">Charlier, B. (2001). Le réseau d’enseignants, lieu d’apprentissage et d’innovation. Dans L. Lafortune, C. Deaudelin, P.-A. Doudin &amp; D. Martin (dir.), <marquage typemarq="italique">La formation continue : de la réflexion à l’action</marquage> (p. 119-136). Québec, QC : Presses de l’Université du Québec.</refbiblio>
+<refbiblio id="rb7">Clerc-Georgy, A. (2017). Verbalisons, mais de quoi parle-t-on ? <marquage typemarq="italique">Revue des HEP et institutions assimilées de Suisse normande et du Tessin</marquage>, HS2, 47-53.</refbiblio>
+<refbiblio id="rb8">Cochran-Smith, M. &amp; Lytle, S. L. (1999a). Relationships of knowledge and practice : teacher learning in communities.<marquage typemarq="italique"> Review of research in education, 24</marquage>(1), 249-305. </refbiblio>
+<refbiblio id="rb9">Correamolina, E. (2005). Les savoirs du superviseur lors de l’entretien postobservation. Dans C. Gervais &amp; L. Portelance (dir.), <marquage typemarq="italique">Des savoirs au coeur de la profession enseignante : contextes de construction et modalités de partage</marquage> (p. 289-304). Sherbrooke, QC : Éditions du CRP.</refbiblio>
+<refbiblio id="rb10">Desbiens, J.-F., Borges, C. &amp; Spallanzani, C. (2012). <marquage typemarq="italique">J’ai mal à mon stage ! Comment s’expriment les difficultés rencontrées par des stagiaires en enseignement et comment y répondent ceux qui les accompagnent</marquage>. Québec, QC : Presses de l’Université du Québec.</refbiblio>
+<refbiblio id="rb11">Desbiens, J.-F., Borges, C. &amp; Spallanzani, C. (2009). Investir dans la formation des personnes enseignantes associées pour faire du stage en enseignement un instrument de développement professionnel. <marquage typemarq="italique">Éducation et francophonie, 37</marquage>(1), 6-25. Repéré à <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls6" xlink:href="http://www.erudit.org/revue/ef/2009/v37/n1/037650ar.pdf" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://www.erudit.org/revue/ef/2009/v37/n1/037650ar.pdf</liensimple></refbiblio>
+<refbiblio id="rb12">Desjardins, J. (2015). Stimuler l’épanouissement d’une culture de la formation continue au Québec : visée réaliste ou fantasmatique ? Dans O. Maulini, J. Desjardins, R. Étienne, P. Guibert &amp; L. Paquay, (dir.), <marquage typemarq="italique">À qui profite la formation continue des enseignants ?</marquage> Bruxelles, Belgique : De Boeck.</refbiblio>
+<refbiblio id="rb13">Devos, C. &amp; Paquay, L. (2015). Les déterminants de l’engagement des enseignants en formation continue. Dans O. Maulini, J. Desjardins, R. Étienne, P. Guibert &amp; L. Paquay, (dir.), <marquage typemarq="italique">À qui profite la formation continue des enseignants ?</marquage> Bruxelles, Belgique : De Boeck.</refbiblio>
+<refbiblio id="rb14">Dionne, L., Lemyre, F. &amp; Savoie-Zajc, L. (2010). Vers une vision englobante de la communauté d’apprentissage (CA) comme dispositif de développement professionnel. <marquage typemarq="italique">Revue des sciences de l’éducation, 36(</marquage>1), 25-43.</refbiblio>
+<refbiblio id="rb15">Dumez, H. (2011). Qu’est-ce que la recherche qualitative ? L<marquage typemarq="italique">e Libellio AEGIS, 7</marquage>(4), 47–58. </refbiblio>
+<refbiblio id="rb16">Faingold, N. (2002). Formateurs-tuteurs : quelles pratiques, quelle identité professionnelle ? Dans M. Altet, L. Paquay &amp; P. Perrenoud (dir.), <marquage typemarq="italique">Formateurs d’enseignants : quelle professionnalisation ?</marquage> Bruxelles, Belgique : De Boeck Université.</refbiblio>
+<refbiblio id="rb17">Gilly, M., Fraisse, J.C. &amp; Rioux, J.-P. (1988). Résolution de problèmes en dyades et progrès cognitifs chez des enfants de 11 à 13 ans : dynamiques interactives et mécanismes sociocognitifs. Dans A.-N. Perret-Clermont &amp; M. Nicolet (dir.), <marquage typemarq="italique">Interagir et connaître : enjeux et régulations sociales dans le développement cognitif</marquage> (p. 73-92). Fribourg, Suisse : Del Val.</refbiblio>
+<refbiblio id="rb18">Gilly, M., Fraisse, J. &amp; Roux, J.-P. (2001). Résolution de problèmes en dyades et progrès cognitifs chez des enfants de 11 à 13 ans : dynamiques interactives et mécanismes sociocognitifs. Dans A.-N. Perret-Clermont &amp; M. Nicolet (dir.), I<marquage typemarq="italique">nteragir et connaître : enjeux et régulations sociales dans le développement cognitif</marquage> (p. 79-101). Paris, France : L’Harmattan.</refbiblio>
+<refbiblio id="rb19">Gouvernement du Québec. (2001). <marquage typemarq="italique">La formation à l’enseignement. Les orientations, les compétences professionnelles.</marquage> Québec, QC : ministère de l’Éducation. </refbiblio>
+<refbiblio id="rb20">Gouvernement du Québec. (2002). <marquage typemarq="italique">Encadrement des stagiaires de la formation à l’enseignement.</marquage> Rapport d’évaluation de programme. Québec, QC : ministère de l’Éducation.</refbiblio>
+<refbiblio id="rb21">Gouvernement du Québec (2008). <marquage typemarq="italique">La formation à l’enseignement. Les orientations relatives à la formation en milieu de pratique</marquage>. Québec, QC : ministère de l’Éducation, du Loisir et du Sport.</refbiblio>
+<refbiblio id="rb22">Houpert, D. (2005). En quoi la formation continue des enseignants contribue-t-elle au développement des compétences professionnelles?. Cahiers pédagogiques, (435). Repéré à <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls7" xlink:href="http://www.cahiers-pedagogiques.com/En-quoi-la-formation-continue-des-enseignants-contribue-t-elle-au-developpement-des-competences-professionnelles" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://www.cahiers-pedagogiques.com/En-quoi-la-formation-continue-des-enseignants-contribue-t-elle-au-developpement-des-competences-professionnelles</liensimple></refbiblio>
+<refbiblio id="rb23">Karsenti, T. &amp; Savoie-Zajc, L. (2000). Introduction : vers une formation globale à la recherche. Dans T. Karsenti &amp; L. Savoie-Zajc (dir.), Introduction à la recherche en éducation (p. 7-14). Sherbrooke, QC : CRP. </refbiblio>
+<refbiblio id="rb24">Legendre, M.-F. (2008). Un regard socioconstructiviste sur la participation des savoirs à la construction du lien social. <marquage typemarq="italique">Éducation et Francophonie, 36</marquage>(2), 63– 79. </refbiblio>
+<refbiblio id="rb25">L’Écuyer, R. (1990). Méthodologie de l’analyse développementale des contenus. Méthode GPS et concept de soi. Québec, Canada : Presses de l’Université du Québec.</refbiblio>
+<refbiblio id="rb26">L’Hostie, M. &amp; Guillemette, F. (2011). Introduction. Du tâtonnement à l’acte professionnel. Dans M. L’Hostie &amp; F. Guillemette (dir.), <marquage typemarq="italique">Favoriser la progression des stagiaires en enseignement</marquage> (p. 1–4). Québec, QC : Presses de l’Université du Québec. </refbiblio>
+<refbiblio id="rb27">L’Hostie, M., Monney, N. &amp; Nadeau-Tremblay, S. (2013). Une recherche-action- formation en communauté de pratique. Un projet novateur pour la formation continue des enseignants associés. Dans C. Landry &amp; C. Garant. <marquage typemarq="italique">Formation continue, recherche et partenariat </marquage>(p. 63–91). Québec, QC : Presses de l’Université du Québec. </refbiblio>
+<refbiblio id="rb28">Martin, D. (2017). Converser pour former et se former. <marquage typemarq="italique">Revue des HEP et institutions assimilées de Suisse romande et du Tessin</marquage>, HS2, 54-60.</refbiblio>
+<refbiblio id="rb29">Michaud, C. &amp; Bouchamma, Y. (2013). Processus de construction d’une communauté de pratique : l’expérience d’une formation continue en milieu scolaire. <marquage typemarq="italique">Éducation et francophonie, 41</marquage>(2), 196-211.</refbiblio>
+<refbiblio id="rb30">Payette, A. &amp; Champagne, C. (2010). <marquage typemarq="italique">Le groupe de codéveloppement professionnel</marquage>. Québec, QC : Presses de l’Université du Québec. </refbiblio>
+<refbiblio id="rb31">Portelance, L. (2005). Savoirs et besoins de formation d’enseignants associés en période de mise en oeuvre d’une réforme du curriculum. Dans C. Gervais et L. Portelance (dir.), <marquage typemarq="italique">Des savoirs au coeur de la profession enseignante. Contextes de construction et modalités de partage</marquage> (p. 105-128). Sherbrooke, QC : CRP. </refbiblio>
+<refbiblio id="rb32">Portelance, L. &amp; Caron, J. (2010). Les manifestations de l’apprentissage de la concertation pédagogique en stage. Dans L. -M. Bélair, C. Lebel, N. Sorin &amp; A. Roy (dir.), <marquage typemarq="italique">Évaluation et régulation des compétences professionnelles : entre référentiels et pratiques </marquage>(p. 81-98). Ottawa, ON : Presses de l’Université d’Ottawa.</refbiblio>
+<refbiblio id="rb33">Portelance, L., Gervais, C., Lessard, M., Beaulieu, P. et collaborateurs (2008). <marquage typemarq="italique">La formation des enseignants associés et des superviseurs universitaires. </marquage>Rapport de recherche. Cadre de référence. Déposé et approuvé. Table ministère de l’Éducation, du Loisir et du Sport – Universités (MÉLS-Universités). Québec.</refbiblio>
+<refbiblio id="rb34">Taylor, S. J., &amp; Bogdan, R. (1984). <marquage typemarq="italique">Introduction to qualitative research methods: The search for meanings (2e édition)</marquage>. New York, NY : Wiley.</refbiblio>
+<refbiblio id="rb35">Vanhulle, S. (2009). Quand la reconnaissance donne forme aux savoirs professionnels. Dans A. Jorro (dir.), La reconnaissance professionnelle en éducation. <marquage typemarq="italique">Évaluer, valoriser, légitimer</marquage> (p. 61-76). Ottawa, ON : Presses de l’Université d’Ottawa.</refbiblio>
+<refbiblio id="rb36">Wells, G. (1993). Working with a teacher in the zone of proximal development: action research on the learning and teaching of science. <marquage typemarq="italique">Journal of the society for accelerative learning and teaching, 18</marquage>(1/2), 127-222. </refbiblio>
+<refbiblio id="rb37">Wenger, E. (1998). <marquage typemarq="italique">Communities of practice : Learning, meaning and identity</marquage>. Cambridge, MA : Cambridge University Press.</refbiblio>
+<refbiblio id="rb38">Wittorski (2007). <marquage typemarq="italique">Professionnalisation et développement professionnel.</marquage> Paris, France : L’Harmattan. </refbiblio>
+<refbiblio id="rb39">Zheng, B. &amp; Webb, L. (2000). <marquage typemarq="italique">A New Model of Student Teacher Supervision : Perceptions of Supervising Teacher.</marquage> Texte présenté à Kennesaw State University Mid-South educational Research Association, Québec, QC.</refbiblio></biblio></grbiblio><grnote>
+      <note id="no1">
+        <no>1</no>
+        <alinea><marquage typemarq="italique"> La subvention a été accordée en 2010-2012, 2012-2014
+          et 2015-2017.</marquage></alinea>
+      </note>
+      <note id="no2">
+        <no>2</no>
+        <alinea><marquage typemarq="italique"> Un certificat d’éthique de la recherche portant le
+          numéro CER-10-165-06.05 a été émis par l’Université du Québec à Trois-Rivières.</marquage>
+        </alinea>
+      </note>
+      <note id="no3">
+        <no>3</no>
+        <alinea><marquage typemarq="italique"> Les codes précisent l’ordre chronologique des
+          rencontres (R5 représente la 5e rencontre de la communauté de pratique) suivi des
+          indications (5-7) correspondant à la numérotation des lignes de la transcription des
+          propos.</marquage></alinea>
+      </note>
+    </grnote></partiesann></article>
