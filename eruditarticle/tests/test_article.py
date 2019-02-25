@@ -452,6 +452,23 @@ class TestArticleCulturelMinimal(object):
             'reviewed_works': ["Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"]  # noqa
         }
 
+        assert self.test_objects['89930ac.xml'].get_titles(strip_markup=True) == {
+            'main': Title(
+                title='With Open Eyes: Affective Translation in Contemporary Art',
+                subtitle=None,
+                lang='en',
+            ),
+            'paral': [
+                Title(
+                    title='Les yeux grands ouverts : la traduction affective dans l’art contemporain',  # noqa
+                    subtitle=None,
+                    lang='fr',
+                ),
+            ],
+            'equivalent': [],
+            'reviewed_works': [],
+        }
+
     @with_value('67660ac.xml', 'get_titles')
     def test_untitled_article_can_return_its_title(self, value):
         from eruditarticle.objects.base import Title
