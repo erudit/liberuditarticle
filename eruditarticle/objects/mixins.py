@@ -90,7 +90,7 @@ class ISSNMixin(object):
 
 
 class CopyrightMixin(object):
-    def get_droitsauteur(self):
+    def get_droitsauteur(self, links_only=False):
         """ Return the list of all copyright notices of this object.
 
         The copyrights are returned as a list of the form:
@@ -100,7 +100,9 @@ class CopyrightMixin(object):
                 {'href': 'link-url', 'img': 'img-url', },
             ]
 
-        """
+        :param links_only: (bool, optional): Defaults to False.
+            Whether to return all copyright notices or only the links (licenses).
+        :returns: The copyright notices as a list of dicts. """
         da_list = []
         da_nodes = self.findall('droitsauteur')
 
@@ -108,7 +110,7 @@ class CopyrightMixin(object):
             link_node = self.find('liensimple', da)
             if link_node is not None:
                 da_list.append(self.parse_simple_link(link_node))
-            else:
+            elif not links_only:
                 da_list.append({'text': ''.join(da.itertext())})
 
         return da_list

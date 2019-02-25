@@ -539,6 +539,12 @@ class TestEruditPublication(object):
             'href': 'http://creativecommons.org/licenses/by-nc-sa/3.0/deed.fr_CA',
             'img': 'http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png',
         }
+        # Links only.
+        assert self.test_objects['approchesind04155.xml'].get_droitsauteur(links_only=True) == [{
+            'href': 'http://creativecommons.org/licenses/by-sa/3.0/',
+            'img': 'http://i.creativecommons.org/l/by-sa/3.0/88x31.png',
+        }]
+        assert self.test_objects['images1080663.xml'].get_droitsauteur(links_only=True) == []
 
     def test_droitsauteurorg(self):
         assert self.test_objects['images1102374.xml'].get_droitsauteurorg() == "24 images"
