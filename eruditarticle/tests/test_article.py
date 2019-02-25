@@ -374,6 +374,7 @@ class TestFormatPersonName(object):
         ('only_lastname', "Marbic"),
         ('with_suffix', "Martin, T."),
         ('with_guest_editor', "Bisanswa, J. K."),
+        ('white_space_before_firstname', "Connor, J. J."),
     ])
     def test_get_formatted_authors_apa(self, objectname, expected):
         obj = self.test_objects[objectname + '.xml']
