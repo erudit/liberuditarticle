@@ -269,7 +269,7 @@ class TestArticleSavantComplet(object):
         }
 
     def test_can_return_formatted_titles(self):
-        EXPECTED = "Esth&#233;tique et s&#233;miotique :\xa0Pr&#233;sentation / Aesthetics and Semiotics : Presentation"  # noqa
+        EXPECTED = "Esth&#233;tique et s&#233;miotique\xa0: Pr&#233;sentation / Aesthetics and Semiotics: Presentation"  # noqa
         assert self.test_objects['1005860ar.xml'].get_formatted_html_title() == EXPECTED
         assert self.test_objects['1005860ar.xml'].get_title(formatted=True, html=True) == EXPECTED
 
