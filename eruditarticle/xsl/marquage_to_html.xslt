@@ -213,6 +213,21 @@
 </xsl:template>
 
 <xsl:template match="renvoi">
+    <xsl:text>&#160;</xsl:text>
+    <xsl:element name="a">
+        <xsl:attribute name="href">
+            <xsl:text>#</xsl:text><xsl:value-of select="@idref"/>
+        </xsl:attribute>
+        <xsl:attribute name="id">
+            <xsl:value-of select="@id"/>
+        </xsl:attribute>
+        <xsl:attribute name="class">
+            <xsl:text>norenvoi</xsl:text>
+        </xsl:attribute>
+        <xsl:text>[</xsl:text>
+        <xsl:value-of select="normalize-space()"/>
+        <xsl:text>]</xsl:text>
+    </xsl:element>
 </xsl:template>
 
 <xsl:template match="exposant">
