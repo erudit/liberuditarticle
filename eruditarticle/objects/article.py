@@ -49,7 +49,9 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
                 abstract['title'] = title_dom.text
 
             if html:
-                abstract['content'] = self.convert_marquage_content_to_html(abstract_dom, strip_elements=[])
+                abstract['content'] = self.convert_marquage_content_to_html(
+                    abstract_dom, strip_elements=[]
+                )
             else:
                 abstract["content"] = "".join(
                     self.stringify_children(n) or ''
