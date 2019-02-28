@@ -311,7 +311,6 @@ class EruditPublication(
         else:
             return self._get_formatted_single_title(titles)
 
-
     def get_first_page(self):
         """ :returns: the first page of the publication object. """
         roman_pages = []
