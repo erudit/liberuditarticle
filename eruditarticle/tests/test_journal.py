@@ -36,7 +36,7 @@ class TestEruditJournal(object):
     def test_can_return_journal_notes(self):
         assert self.test_objects['phyto71.xml'].get_notes() == {
             'fr': [
-                "Veuillez prendre note que des articles peuvent s'ajouter au dernier numéro en cours d'année",
+                "Veuillez prendre note que des articles peuvent s'ajouter au dernier numéro en cours d'année",  # noqa
             ],
         }
 

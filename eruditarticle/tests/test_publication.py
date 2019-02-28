@@ -403,11 +403,11 @@ class TestEruditPublication(object):
         assert value == "316"
 
     @with_value("hphi3180.xml", "get_first_page")
-    def test_can_return_the_first_page_of_the_publication_when_first_page_in_roman_numerals(self, value):
+    def test_can_return_the_first_page_of_the_publication_when_first_page_in_roman_numerals(self, value):  # noqa
         assert value == "III"
 
     @with_value("hphi3180.xml", "get_last_page")
-    def test_can_return_the_last_page_of_the_publication_when_first_page_in_roman_numerals(self, value):
+    def test_can_return_the_last_page_of_the_publication_when_first_page_in_roman_numerals(self, value):  # noqa
         assert value == "149"
 
     @with_value("spirale04246.xml", "get_first_page")
@@ -420,11 +420,11 @@ class TestEruditPublication(object):
 
     @with_value("teoros02917.xml", "get_first_page")
     def test_can_return_the_first_page_of_the_publication_when_no_pages(self, value):
-        assert value == None
+        assert value is None
 
     @with_value("teoros02917.xml", "get_last_page")
     def test_can_return_the_last_page_of_the_publication_when_no_pages(self, value):
-        assert value == None
+        assert value is None
 
     def test_number(self):
         assert self.test_objects["ae1375.xml"].get_number() == '1-2'
@@ -673,7 +673,7 @@ class TestEruditPublication(object):
     ])
     def test_get_copyrights_label(self, fixture, language, html, expected_label):
         publication = self.test_objects[fixture]
-        assert publication._get_copyrights_label(publication.find('copyright'), language, html=html) == expected_label
+        assert publication._get_copyrights_label(publication.find('copyright'), language, html=html) == expected_label  # noqa
 
     @pytest.mark.parametrize('fixture, html, expected_names', [
         ('images1080663.xml', True, ['24 images inc.']),
@@ -687,7 +687,7 @@ class TestEruditPublication(object):
     ])
     def test_get_copyrights_names(self, fixture, html, expected_names):
         publication = self.test_objects[fixture]
-        assert publication._get_copyrights_names(publication.find('copyright'), html=html) == expected_names
+        assert publication._get_copyrights_names(publication.find('copyright'), html=html) == expected_names  # noqa
 
     @pytest.mark.parametrize('fixture, html, expected_year', [
         ('images1080663.xml', True, '1992'),
@@ -698,39 +698,39 @@ class TestEruditPublication(object):
     ])
     def test_get_copyrights_year(self, fixture, html, expected_year):
         publication = self.test_objects[fixture]
-        assert publication._get_copyrights_year(publication.find('copyright'), html=html) == expected_year
+        assert publication._get_copyrights_year(publication.find('copyright'), html=html) == expected_year  # noqa
 
     @pytest.mark.parametrize('fixture, language, formatted, html, expected_copyrights', [
-        ('images1080663.xml', 'fr', False, False, {'label': 'Tous droits réservés', 'names': ['24 images inc.'], 'year': '1992'}),
-        ('images1080663.xml', 'en', False, False, {'label': 'All Rights Reserved', 'names': ['24 images inc.'], 'year': '1992'}),
-        ('images1080663.xml', 'es', False, False, {'label': 'Reservados todos los derechos', 'names': ['24 images inc.'], 'year': '1992'}),
+        ('images1080663.xml', 'fr', False, False, {'label': 'Tous droits réservés', 'names': ['24 images inc.'], 'year': '1992'}),  # noqa
+        ('images1080663.xml', 'en', False, False, {'label': 'All Rights Reserved', 'names': ['24 images inc.'], 'year': '1992'}),  # noqa
+        ('images1080663.xml', 'es', False, False, {'label': 'Reservados todos los derechos', 'names': ['24 images inc.'], 'year': '1992'}),  # noqa
         ('images1080663.xml', 'fr', True, False, 'Tous droits réservés © 24 images inc., 1992'),
         ('images1080663.xml', 'en', True, False, 'All Rights Reserved © 24 images inc., 1992'),
-        ('images1080663.xml', 'es', True, False, 'Reservados todos los derechos © 24 images inc., 1992'),
-        ('images1080663.xml', 'fr', False, True, 'Tous droits r&#233;serv&#233;s © 24 images inc., 1992'),
+        ('images1080663.xml', 'es', True, False, 'Reservados todos los derechos © 24 images inc., 1992'),  # noqa
+        ('images1080663.xml', 'fr', False, True, 'Tous droits r&#233;serv&#233;s © 24 images inc., 1992'),  # noqa
         ('images1080663.xml', 'en', False, True, 'All Rights Reserved © 24 images inc., 1992'),
-        ('images1080663.xml', 'es', False, True, 'Reservados todos los derechos © 24 images inc., 1992'),
+        ('images1080663.xml', 'es', False, True, 'Reservados todos los derechos © 24 images inc., 1992'),  # noqa
         # Unavailable language, defaults to first label.
-        ('images1080663.xml', 'zz', False, False, {'label': 'Tous droits réservés', 'names': ['24 images inc.'], 'year': '1992'}),
+        ('images1080663.xml', 'zz', False, False, {'label': 'Tous droits réservés', 'names': ['24 images inc.'], 'year': '1992'}),  # noqa
         # Missing label.
-        ('ae1806445.xml', 'fr', False, False, {'label': '', 'names': ['HEC Montréal'], 'year': '1970'}),
+        ('ae1806445.xml', 'fr', False, False, {'label': '', 'names': ['HEC Montréal'], 'year': '1970'}),  # noqa
         ('ae1806445.xml', 'fr', True, False, ' © HEC Montréal, 1970'),
         ('ae1806445.xml', 'fr', False, True, ' © HEC Montr&#233;al, 1970'),
         # Missing names.
-        ('moebius1016931.xml', 'fr', False, False, {'label': 'Tous droits réservés', 'names': [], 'year': '1997'}),
+        ('moebius1016931.xml', 'fr', False, False, {'label': 'Tous droits réservés', 'names': [], 'year': '1997'}),  # noqa
         ('moebius1016931.xml', 'fr', True, False, 'Tous droits réservés © , 1997'),
         ('moebius1016931.xml', 'fr', False, True, 'Tous droits r&#233;serv&#233;s © , 1997'),
         # Missing year.
-        ('va1258133.xml', 'fr', False, False, {'label': 'Tous droits réservés', 'names': ['La Société des Arts'], 'year': ''}),
+        ('va1258133.xml', 'fr', False, False, {'label': 'Tous droits réservés', 'names': ['La Société des Arts'], 'year': ''}),  # noqa
         ('va1258133.xml', 'fr', True, False, 'Tous droits réservés © La Société des Arts, '),
-        ('va1258133.xml', 'fr', False, True, 'Tous droits r&#233;serv&#233;s © La Soci&#233;t&#233; des Arts, '),
+        ('va1258133.xml', 'fr', False, True, 'Tous droits r&#233;serv&#233;s © La Soci&#233;t&#233; des Arts, '),  # noqa
         # Multiple names, including physical person with prefix.
-        ('liberte1032075.xml', 'fr', False, False, {'label': 'Tous droits réservés', 'names': ['Mme E. Bertil', 'Collectif Liberté'], 'year': '1986'}),
-        ('liberte1032075.xml', 'fr', True, False, 'Tous droits réservés © Mme E. Bertil et Collectif Liberté, 1986'),
-        ('liberte1032075.xml', 'fr', False, True, 'Tous droits r&#233;serv&#233;s © Mme E. Bertil et Collectif Libert&#233;, 1986'),
+        ('liberte1032075.xml', 'fr', False, False, {'label': 'Tous droits réservés', 'names': ['Mme E. Bertil', 'Collectif Liberté'], 'year': '1986'}),  # noqa
+        ('liberte1032075.xml', 'fr', True, False, 'Tous droits réservés © Mme E. Bertil et Collectif Liberté, 1986'),  # noqa
+        ('liberte1032075.xml', 'fr', False, True, 'Tous droits r&#233;serv&#233;s © Mme E. Bertil et Collectif Libert&#233;, 1986'),  # noqa
     ])
     def test_get_copyrights(self, fixture, language, formatted, html, expected_copyrights):
-        assert self.test_objects[fixture].get_copyrights(language, formatted=formatted, html=html) == expected_copyrights
+        assert self.test_objects[fixture].get_copyrights(language, formatted=formatted, html=html) == expected_copyrights  # noqa
 
     @pytest.mark.parametrize('names, expected_result', [
         ([], ''),
