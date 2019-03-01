@@ -84,7 +84,7 @@ class EruditBaseObject(DomObject):
     def _get_titles(
         self, root_elem_name=None, title_elem_name=None, subtitle_elem_name=None,
         paral_title_elem_name=None, paral_subtitle_elem_name=None, languages=['fr'],
-        strict_language_check=True, strip_markup=False
+        strict_language_check=True, html=True
     ):
         """ Helper method to extract titles relative to a root element
 
@@ -119,13 +119,13 @@ class EruditBaseObject(DomObject):
         paral_titles = self.find_paral(
             root_elem,
             paral_title_elem_name,
-            strip_markup=strip_markup
+            html=html,
         )
 
         paral_subtitles = self.find_paral(
             root_elem,
             paral_subtitle_elem_name,
-            strip_markup=strip_markup
+            html=html,
         )
 
         # Process the paral and equivalent titles first since they have a 'lang' attribute and the
@@ -151,10 +151,10 @@ class EruditBaseObject(DomObject):
         if title_elem is None or (not title_elem.text and len(title_elem) == 0):
             title_elem = None
 
-        if strip_markup:
-            parser_method = self.stringify_children
-        else:
+        if html:
             parser_method = self.convert_marquage_content_to_html
+        else:
+            parser_method = self.stringify_children
 
         strip_elements = ['liensimple', 'renvoi']
 
@@ -215,14 +215,12 @@ class EruditBaseObject(DomObject):
         if node.text is not None:
             return re.sub(' +', ' ', node.text)
 
-    def find_paral(self, tag, paral_tag_name, strip_markup=False):
+    def find_paral(self, tag, paral_tag_name, html=True):
         """ Find the parallel values for the given tag using the given tag name. """
         pn = collections.OrderedDict()
         for title_paral in tag.findall(paral_tag_name):
-            if strip_markup:
-                pn[title_paral.get('lang')] = self.stringify_children(title_paral)
+            if html:
+                pn[title_paral.get('lang')] = self.convert_marquage_content_to_html(title_paral)
             else:
-                pn[title_paral.get('lang')] = self.convert_marquage_content_to_html(
-                    title_paral
-                )
+                pn[title_paral.get('lang')] = self.stringify_children(title_paral)
         return pn

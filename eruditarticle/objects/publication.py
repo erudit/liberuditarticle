@@ -25,7 +25,7 @@ class EruditPublication(
     """
     Expects the ``SUMMARY`` datastream of a Fedora ``Publication`` object
     """
-    def get_titles(self, strip_markup=False):
+    def get_titles(self, html=True):
         """
         .. warning::
            Will be removed or modified 0.3.0
@@ -48,7 +48,7 @@ class EruditPublication(
             paral_title_elem_name="titrerevparal",
             paral_subtitle_elem_name="sstitrerevparal",
             languages=languages,
-            strip_markup=strip_markup
+            html=html,
         )
 
     def get_article_count(self):
@@ -303,7 +303,7 @@ class EruditPublication(
             paral_title_elem_name='titrerevparal',
             paral_subtitle_elem_name='sstitrerevparal',
             strict_language_check=False,
-            strip_markup=not html
+            html=html
         )
 
         if not formatted:
