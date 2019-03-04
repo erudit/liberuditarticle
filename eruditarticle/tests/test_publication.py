@@ -759,3 +759,9 @@ class TestEruditPublication(object):
     ])
     def test_format_names(self, names, expected_result):
         assert self.test_objects['images1080663.xml']._format_names(names) == expected_result
+
+    def test_get_languages(self):
+        # Languages are specified on the <revue> element, we should get them as a list.
+        assert self.test_objects['esse02315.xml'].get_languages() == ['fr', 'en']
+        # No languages are specified on the <revue> element, defaults to ['fr'].
+        assert self.test_objects['hphi3180.xml'].get_languages() == ['fr']
