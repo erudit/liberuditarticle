@@ -143,14 +143,14 @@ class TestEditorialNotes(object):
     def test_can_return_multilingual_note_html(self, value):
         assert value == [
             {
-                "lang": "de",
-                "type": "edito",
-                "content": '<p class="alinea">Hergestellt mit Unterst&#252;tzung durch den DAAD aus Mitteln, die das Ausw&#228;rtige Amt bereitstellt.</p>',  # noqa
-                "authors": "",
-            }, {
                 "lang": "fr",
                 "type": "edito",
                 "content": '<p class="alinea">Ce num&#233;ro d&#8217;Eurostudia est publi&#233; avec l&#8217;aide de l&#8217;Office allemand d&#8217;&#233;changes universitaires (DAAD) gr&#226;ce au soutien financier du minist&#232;re des Affaires &#233;trang&#232;res de la R&#233;publique f&#233;d&#233;rale d&#8217;Allemagne.</p>',  # noqa
+                "authors": "",
+            }, {
+                "lang": "de",
+                "type": "edito",
+                "content": '<p class="alinea">Hergestellt mit Unterst&#252;tzung durch den DAAD aus Mitteln, die das Ausw&#228;rtige Amt bereitstellt.</p>',  # noqa
                 "authors": "",
             }, {
                 "lang": "en",
@@ -164,14 +164,14 @@ class TestEditorialNotes(object):
     def test_can_return_multilingual_note(self, value):
         assert value == [
             {
-                "lang": "de",
-                "type": "edito",
-                "content": "Hergestellt mit Unterstützung durch den DAAD aus Mitteln, die das Auswärtige Amt bereitstellt.",  # noqa
-                "authors": "",
-            }, {
                 "lang": "fr",
                 "type": "edito",
                 "content": "Ce numéro d’Eurostudia est publié avec l’aide de l’Office allemand d’échanges universitaires (DAAD) grâce au soutien financier du ministère des Affaires étrangères de la République fédérale d’Allemagne.",  # noqa
+                "authors": "",
+            }, {
+                "lang": "de",
+                "type": "edito",
+                "content": "Hergestellt mit Unterstützung durch den DAAD aus Mitteln, die das Auswärtige Amt bereitstellt.",  # noqa
                 "authors": "",
             }, {
                 "lang": "en",
@@ -179,6 +179,23 @@ class TestEditorialNotes(object):
                 "content": "This issue of Eurostudia is published with the support of the German Academic Exchange Service (DAAD) thanks to financial assistance from the Foreign Office of the Federal Republic of Germany.",  # noqa
                 "authors": "",
             }
+        ]
+
+    @with_value('rssi03944.xml', 'get_notegens_edito')
+    def test_can_return_multilingual_note_in_journal_languages_order(self, value):
+        assert value == [
+            {
+                'lang': 'fr',
+                'type': 'edito',
+                'content': 'Cette livraison de RS/SI couvre exceptionnellement deux volumes (vol. 35 nos. 2-3 et vol. 36 nos. 1-2). En vertu de notre entente avec la plateforme Erudit elle est présentée ici en deux tomes (Sémiotique du son au théâtre I et II) dont l’ensemble correspond à l’intégralité de la version imprimée.',  # noqa
+                'authors': '',
+            },
+            {
+                'lang': 'en',
+                'type': 'edito',
+                'content': 'In Memoriam, Eli Rozik This publication of RS/SI exceptionally covers two volumes (vol. 35, nos. 2-3 and vol. 36 nos. 1-2). According to the terms of our agreement with the Erudit platform it is presented here in two tomes (Semiotics of Sound in Theatre I and II) which, together, correspond to the integrality of the printed version.',  # noqa
+                'authors': '',
+            },
         ]
 
     @with_value('edito_with_link.xml', 'get_notegens_edito', html=True)

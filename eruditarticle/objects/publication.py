@@ -101,6 +101,14 @@ class EruditPublication(
                 "authors": format_authors(authors, html=html) if authors else "",
             }
             notes.append(note)
+
+        # Sort the notes according to the journal languages' order.
+        languages = self.get_languages()
+        notes = sorted(
+            notes,
+            key=lambda note: languages.index(note['lang']) if note['lang'] in languages else 1
+        )
+
         return notes
 
     def get_publication_type(self, formatted=False):
