@@ -136,9 +136,9 @@ def _format_author_reverse(author, full_firstname=False):
     author.strip_markup()
     if author.organization:
         return author.organization
-    lastname = author.lastname
-    firstname = author.firstname
-    othername = author.othername
+    lastname = author.lastname.strip() if author.lastname else None
+    firstname = author.firstname.strip() if author.firstname else None
+    othername = author.othername.strip() if author.othername else None
     if not lastname and not firstname:
         return ""
     if not lastname:
@@ -160,7 +160,7 @@ def format_authors_mla(authors):
 
     def single2(author):
         author.strip_markup()
-        othername = author.othername
+        othername = author.othername.strip() if author.othername else None
         if othername:
             return "{} {}. {}".format(author.firstname, othername[:1], author.lastname)
         else:
