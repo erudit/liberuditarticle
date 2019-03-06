@@ -8,8 +8,6 @@
    and all ``get_`` methods will support ``formatted`` and ``html`` keyword arguments where
    applicable.
 
-   All ``strip_markup`` keyword arguments will be removed in favour of ``html=False``.
-
    For example:
 
    * ``get_formatted_title`` will become ``get_title(formatted=True)``.

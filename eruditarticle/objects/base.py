@@ -83,8 +83,8 @@ class EruditBaseObject(DomObject):
 
     def _get_titles(
         self, root_elem_name=None, title_elem_name=None, subtitle_elem_name=None,
-        paral_title_elem_name=None, paral_subtitle_elem_name=None, languages=None,
-        strict_language_check=True, strip_markup=False
+        paral_title_elem_name=None, paral_subtitle_elem_name=None, languages=['fr'],
+        strict_language_check=True, html=True
     ):
         """ Helper method to extract titles relative to a root element
 
@@ -110,38 +110,8 @@ class EruditBaseObject(DomObject):
         if root_elem is None:
             raise ValueError
 
-        if not languages:
-            languages = ['fr']
-
-        title_elem = self.find(title_elem_name, dom=root_elem)
-
-        # Set title_elem to None if it has no text and no child
-        if title_elem is None or (not title_elem.text and len(title_elem) == 0):
-            title_elem = None
-
-        subtitle_elem = self.find(subtitle_elem_name, dom=root_elem)
-        if strip_markup:
-            for elem in [title_elem, subtitle_elem]:
-                if elem is not None:
-                    et.strip_elements(elem, 'liensimple', 'renvoi', with_tail=False)
-            title = Title(
-                title=self.stringify_children(title_elem) if title_elem is not None else None,
-                subtitle=self.stringify_children(subtitle_elem),
-                lang=languages.pop(0)
-            )
-        else:
-            title = Title(
-                title=self.convert_marquage_content_to_html(
-                    title_elem if title_elem is not None else None,
-                ),
-                subtitle=self.convert_marquage_content_to_html(
-                    subtitle_elem,
-                ),
-                lang=languages.pop(0)
-            )
-
         titles = {
-            'main': title,
+            'main': None,
             'paral': [],
             'equivalent': [],
         }
@@ -149,15 +119,17 @@ class EruditBaseObject(DomObject):
         paral_titles = self.find_paral(
             root_elem,
             paral_title_elem_name,
-            strip_markup=strip_markup
+            html=html,
         )
 
         paral_subtitles = self.find_paral(
             root_elem,
             paral_subtitle_elem_name,
-            strip_markup=strip_markup
+            html=html,
         )
 
+        # Process the paral and equivalent titles first since they have a 'lang' attribute and the
+        # main title does not.
         for lang, title in paral_titles.items():
             paral_title = Title(
                 title=title,
@@ -167,8 +139,30 @@ class EruditBaseObject(DomObject):
 
             if not strict_language_check or lang in languages:
                 titles['paral'].append(paral_title)
+                if lang in languages:
+                    languages.remove(lang)
             else:
                 titles['equivalent'].append(paral_title)
+
+        title_elem = self.find(title_elem_name, dom=root_elem)
+        subtitle_elem = self.find(subtitle_elem_name, dom=root_elem)
+
+        # Set title_elem to None if it has no text and no child
+        if title_elem is None or (not title_elem.text and len(title_elem) == 0):
+            title_elem = None
+
+        if html:
+            parser_method = self.convert_marquage_content_to_html
+        else:
+            parser_method = self.stringify_children
+
+        strip_elements = ['liensimple', 'renvoi']
+
+        titles['main'] = Title(
+            title=parser_method(title_elem, strip_elements),
+            subtitle=parser_method(subtitle_elem, strip_elements),
+            lang=languages.pop(0) if languages else 'fr'
+        )
         return titles
 
     def parse_simple_link(self, simplelink_node):
@@ -221,14 +215,12 @@ class EruditBaseObject(DomObject):
         if node.text is not None:
             return re.sub(' +', ' ', node.text)
 
-    def find_paral(self, tag, paral_tag_name, strip_markup=False):
+    def find_paral(self, tag, paral_tag_name, html=True):
         """ Find the parallel values for the given tag using the given tag name. """
         pn = collections.OrderedDict()
         for title_paral in tag.findall(paral_tag_name):
-            if strip_markup:
-                pn[title_paral.get('lang')] = self.stringify_children(title_paral)
+            if html:
+                pn[title_paral.get('lang')] = self.convert_marquage_content_to_html(title_paral)
             else:
-                pn[title_paral.get('lang')] = self.convert_marquage_content_to_html(
-                    title_paral
-                )
+                pn[title_paral.get('lang')] = self.stringify_children(title_paral)
         return pn

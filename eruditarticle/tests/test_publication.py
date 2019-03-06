@@ -442,19 +442,19 @@ class TestEruditPublication(object):
         assert self.test_objects["esse02315.xml"].get_number() == '86'
 
     def test_can_return_its_title(self):
-        assert self.test_objects["ae1375.xml"].get_titles(strip_markup=True) == {
+        assert self.test_objects["ae1375.xml"].get_titles(html=False) == {
             'main': Title(title="L'Actualité économique", subtitle=None, lang="fr"),
             'paral': [],
             'equivalent': [],
         }
 
-        assert self.test_objects["crs1517600.xml"].get_titles(strip_markup=True) == {
+        assert self.test_objects["crs1517600.xml"].get_titles(html=False) == {
             'main': Title(title="Cahiers de recherche sociologique", subtitle=None, lang="fr"),
             'paral': [],
             'equivalent': [],
         }
 
-        assert self.test_objects["mje02648.xml"].get_titles(strip_markup=True) == {
+        assert self.test_objects["mje02648.xml"].get_titles(html=False) == {
             'main': Title(title="McGill Journal of Education", subtitle=None, lang="en"),
             'paral': [Title(title="Revue des sciences de l'éducation de McGill", subtitle=None, lang="fr")],  # noqa
             'equivalent': [],

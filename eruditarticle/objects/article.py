@@ -114,25 +114,22 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """
         return self.get_authors(formatted=True)
 
-    def get_notegens(self):
+    def get_notegens(self, html=True):
         """
-        .. warning::
-           Will be modified in 0.3.0. An ``html=True`` param will be added to let the user
-           specify if the note should be converted to html or not.
 
-        :returns: the HTML notes of the article object. """
+        :returns: the notes of the article object. """
         notegen_nodes = self.findall('notegen')
         notegens = []
+        if html:
+            parser_method = self.convert_marquage_content_to_html
+        else:
+            parser_method = self.stringify_children
         for notegen_node in notegen_nodes:
             notegen = {}
             alinea_nodes = self.findall("alinea", dom=notegen_node)
             notegen['type'] = notegen_node.get('typenoteg')
             notegen['scope'] = notegen_node.get('porteenoteg')
-            notegen["content"] = [
-                self.convert_marquage_content_to_html(n)
-                for n in alinea_nodes
-            ]
-
+            notegen["content"] = [parser_method(n) for n in alinea_nodes]
             notegens.append(notegen)
         return notegens
 
@@ -236,7 +233,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         if level not in (1, 2, 3):
             raise ValueError("Level should be 1, 2 or 3")
 
-        section_title = self._get_section_title(level=level)
+        section_title = self._get_section_title(level=level, html=html)
 
         surtitre_elem = 'surtitreparal{}'.format(
             "" if level == 1 else level
@@ -247,27 +244,27 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             'paral': self.find_paral(self.find('liminaire//grtitre'), surtitre_elem),
         } if section_title else None
 
-    def _get_section_title(self, level=1):
+    def _get_section_title(self, level=1, html=True):
         """ :returns: the section title of the article object. """
         element = 'liminaire//grtitre//surtitre{}'.format(
             "" if level == 1 else level
         )
-
-        return self.convert_marquage_content_to_html(
-            self.find(element),
-        )
+        if html:
+            return self.convert_marquage_content_to_html(self.find(element))
+        else:
+            return self.stringify_children(self.find(element))
 
     def get_subtitle(self):
         """ :returns: the subtitle of the article object. """
         return self.stringify_children(self.find('sstitre'))
 
-    def _get_reviewed_or_referenced_works(self, tag, strip_markup=False):
+    def _get_reviewed_or_referenced_works(self, tag, html=True):
         """
         .. warning::
            Will be removed or modified 0.3.0
            For more information please refer to :py:mod:`eruditarticle.objects`
         """
-        if not strip_markup:
+        if html:
             references = [
                 self.convert_marquage_content_to_html(ref).strip()
                 for ref in self.findall(tag)
@@ -279,11 +276,11 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             ]
         return references
 
-    def get_reviewed_works(self, strip_markup=False):
+    def get_reviewed_works(self, html=True):
         """ :returns: the works reviewed by this article """
-        return self._get_reviewed_or_referenced_works('trefbiblio', strip_markup=strip_markup)
+        return self._get_reviewed_or_referenced_works('trefbiblio', html=html)
 
-    def get_references(self, strip_markup=False):
+    def get_references(self, html=True):
         """
         .. warning::
            Will be removed or modified 0.3.0
@@ -291,8 +288,6 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
 
          :returns: the works referenced by this article. returns a dictionary
              that contains possibly two keys: doi and title
-
-         :param strip_markup: strip all xml markup
         """
         references = []
         xml_references = self.findall('refbiblio')
@@ -300,12 +295,12 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             doi = reference.find('idpublic[@scheme="doi"]')
             if doi is not None:
                 doi = doi.text
-            if strip_markup:
-                title = self.stringify_children(reference, strip_elements=('idpublic',))
-            else:
+            if html:
                 title = self.convert_marquage_content_to_html(
                     reference, strip_elements=('idpublic',)
                 )
+            else:
+                title = self.stringify_children(reference, strip_elements=('idpublic',))
             references.append({'doi': doi, 'title': title})
         return references
 
@@ -316,7 +311,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         :param html: (bool, optional): Defaults to False.
         """
         if formatted:
-            return self._get_formatted_title(strip_markup=not html)
+            return self._get_formatted_title(html=html)
         else:
             return self.stringify_children(
                 self.find('titre', dom=self.find('grtitre')),
@@ -338,15 +333,12 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             languages=languages,
         )
 
-    def get_titles(self, strip_markup=False):
+    def get_titles(self, html=True):
         """ Retrieve the titles of an article
 
         .. warning::
            The interface of this method will be modified in 0.3.0
            For more information please refer to :py:mod:`eruditarticle.objects`
-
-        :param strip_markup: if set to True, strip all XML / HTML markup and return only
-            a string.
 
         :returns: a dict containing all the titles and subtitles of the object.
 
@@ -405,10 +397,10 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             paral_title_elem_name='titreparal',
             paral_subtitle_elem_name='sstitreparal',
             languages=self.get_languages(),
-            strip_markup=strip_markup
+            html=html,
         )
 
-        titles['reviewed_works'] = self.get_reviewed_works(strip_markup=strip_markup)
+        titles['reviewed_works'] = self.get_reviewed_works(html=html)
         return titles
 
     def get_formatted_journal_title(self):
@@ -426,7 +418,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         titles = self.get_journal_titles()
         return self._get_formatted_single_title(titles, use_equivalent=True)
 
-    def _get_formatted_title(self, strip_markup=False):
+    def _get_formatted_title(self, html=True):
         """ Format the article titles
 
         .. warning::
@@ -444,7 +436,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         If an article title is in French, a non-breaking space is inserted after the colon
         separating it from its subtitle.
         """
-        titles = self.get_titles(strip_markup=strip_markup)
+        titles = self.get_titles(html=html)
         formatted_title = self._get_formatted_single_title(titles)
 
         if titles['reviewed_works']:
@@ -467,7 +459,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
            Will be removed or modified 0.3.0
            For more information please refer to :py:mod:`eruditarticle.objects`
         """
-        return self._get_formatted_title(strip_markup=True)
+        return self._get_formatted_title(html=False)
 
     def get_formatted_html_title(self):
         """
@@ -475,7 +467,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
            Will be removed or modified 0.3.0
            For more information please refer to :py:mod:`eruditarticle.objects`
         """
-        return self._get_formatted_title(strip_markup=False)
+        return self._get_formatted_title(html=True)
 
     @property
     def is_of_type_roc(self):

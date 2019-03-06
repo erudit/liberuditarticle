@@ -306,11 +306,11 @@ class TestArticleSavantComplet(object):
         assert self.test_objects['1005860ar.xml'].get_languages() == ['fr', 'en']
 
     def test_can_return_references(self):
-        references = self.test_objects['009255ar.xml'].get_references(strip_markup=True)
+        references = self.test_objects['009255ar.xml'].get_references(html=False)
         assert references[0] == {'title': "Akenside, Mark. Poems. London: J. Dodsley, 1772.", 'doi': None}  # noqa
         assert len(references) == 53
 
-        references = self.test_objects['1003507ar.xml'].get_references(strip_markup=True)
+        references = self.test_objects['1003507ar.xml'].get_references(html=False)
         assert references[3] == {'title': "Cheung, Martha P. Y. (2005): ‘To translate’ means ‘to exchange’? A new interpretation of the earliest Chinese attempts to define translation (‘fanyi’). Target. 17(1):27-48.", 'doi': '10.1075/target.17.1.03che'}  # noqa
 
     def test_can_return_references_with_markup(self):
@@ -328,7 +328,7 @@ class TestArticleSavantMinimal(object):
 
     def test_can_return_titles_and_subtitles(self):
         from eruditarticle.objects.base import Title
-        assert self.test_objects['602354ar.xml'].get_titles(strip_markup=True) == {
+        assert self.test_objects['602354ar.xml'].get_titles(html=False) == {
             'main': Title(title='Immigration, langues et performance économique : le Québec et l’Ontario entre 1970 et 1995', lang="fr", subtitle=None),  # noqa
             'equivalent': [
                 Title(title='Immigration, Languages and Economic Performance: Quebec and Ontario between 1970 and 1995', lang='en', subtitle=None)  # noqa
@@ -441,7 +441,7 @@ class TestArticleCulturelMinimal(object):
 
     def test_can_return_its_title(self):
         from eruditarticle.objects.base import Title
-        assert self.test_objects['49222ac.xml'].get_titles(strip_markup=True) == {
+        assert self.test_objects['49222ac.xml'].get_titles(html=False) == {
             'main': Title(
                 title='Love and death on long island',
                 subtitle='Premier délice',
@@ -450,6 +450,23 @@ class TestArticleCulturelMinimal(object):
             'paral': [],
             'equivalent': [],
             'reviewed_works': ["Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"]  # noqa
+        }
+
+        assert self.test_objects['89930ac.xml'].get_titles(html=False) == {
+            'main': Title(
+                title='With Open Eyes: Affective Translation in Contemporary Art',
+                subtitle=None,
+                lang='en',
+            ),
+            'paral': [
+                Title(
+                    title='Les yeux grands ouverts : la traduction affective dans l’art contemporain',  # noqa
+                    subtitle=None,
+                    lang='fr',
+                ),
+            ],
+            'equivalent': [],
+            'reviewed_works': [],
         }
 
     @with_value('67660ac.xml', 'get_titles')
@@ -485,7 +502,7 @@ class TestArticleCulturelMinimal(object):
             'Février–Mars–Avril–Mai 2012'
 
     def test_can_extract_reviewed_works(self):
-        assert self.test_objects['49222ac.xml'].get_reviewed_works(strip_markup=True) == ["Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"]  # noqa
+        assert self.test_objects['49222ac.xml'].get_reviewed_works(html=False) == ["Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"]  # noqa
 
 
 def get_article(fixturename):
