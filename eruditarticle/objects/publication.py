@@ -16,7 +16,7 @@ from .mixins import CopyrightMixin
 from .mixins import ISBNMixin
 from .mixins import ISSNMixin
 from .mixins import PublicationPeriodMixin
-from .person import Redacteur
+from .person import Redacteur, Person, format_authors
 
 
 class EruditPublication(
@@ -91,13 +91,17 @@ class EruditPublication(
             else:
                 parser_method = self.stringify_children
 
-            alineas_content = parser_method(note_elem)
-            alineas_content = re.sub('^ | $', '', re.sub(' +', ' ', re.sub('\n', '', alineas_content)))  # noqa
+            alineas_content = parser_method(note_elem, strip_elements=['auteur'])
+            # '\s+' will match all consecutive white spaces, even line breaks.
+            alineas_content = re.sub('\\s+', ' ', alineas_content)
+
+            authors = [Person(author) for author in note_elem.findall('auteur')]
 
             note = {
                 "lang": note_elem.get("lang"),
                 "type": note_elem.get("typenoteg"),
-                "content": alineas_content
+                "content": alineas_content.strip(),
+                "authors": format_authors(authors, html=html) if authors else "",
             }
             notes.append(note)
         return notes
