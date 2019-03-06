@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+<originator username="robichac" date="2018-10-01" app="Tournesol 0.4.2"/>
+<copyright>
+	<year>2018</year>
+<contribution>
+<artificialperson>
+	<name>Association canadienne de sémiotique / Canadian Semiotic Association</name>
+</artificialperson>
+<contributiontype>
+	<code>droit</code>
+	<label lang="en">Copyright Holder</label>
+	<label lang="fr">Titulaire du droit d'auteur</label>
+	<label lang="es">Titular del derecho de autor</label>
+</contributiontype>
+	<ordering>0</ordering>
+</contribution>
+<copyrightdeclaration>
+	<code>tdr</code>
+	<label lang="en">All Rights Reserved</label>
+	<label lang="fr">Tous droits réservés</label>
+	<label lang="es">Todos los derechos reservados</label>
+</copyrightdeclaration>
+</copyright>
+<publicationnumberingkeys>
+	<publicationtypecode>reg</publicationtypecode>
+	<years>
+		<year value="2015">
+		</year>
+	</years>
+</publicationnumberingkeys><infosommaire>
+  <url>/revue/rssi/2015/v35/n2-3</url>
+  <nbarticle>9</nbarticle>
+  <revue id="rssi136" lang="fr en">
+    <titrerev>Recherches sémiotiques</titrerev>
+    <titrerevparal lang="en">Semiotic Inquiry</titrerevparal>
+    <titrerevabr>rssi</titrerevabr>
+    <idissn>0229-8651</idissn>
+    <idissnnum>1923-9920</idissnnum>
+    <redacteurchef sexe="masculin" typerc="regulier">
+      <nompers>
+        <prenom>Martin</prenom>
+        <nomfamille>Lefebvre</nomfamille>
+      </nompers>
+      <key>redacteurchef</key>
+    </redacteurchef>
+    <redacteurchef sexe="masculin" typerc="regulier">
+      <fonction lang="fr">Rédacteur adjoint</fonction>
+      <nompers>
+        <prenom>Bertrand</prenom>
+        <nomfamille>Gervais</nomfamille>
+      </nompers>
+      <key>redacteuradjoint</key>
+    </redacteurchef>
+    <redacteurchef sexe="masculin" typerc="regulier">
+      <fonction lang="fr">Rédacteur adjoint</fonction>
+      <nompers>
+        <prenom>Will</prenom>
+        <nomfamille>Straw</nomfamille>
+      </nompers>
+      <key>redacteuradjoint</key>
+    </redacteurchef>
+    <redacteurchef sexe="masculin" typerc="regulier">
+      <fonction lang="fr">Rédacteur adjoint</fonction>
+      <nompers>
+        <prenom>Daniel</prenom>
+        <nomfamille>Vaillancourt</nomfamille>
+      </nompers>
+      <key>redacteuradjoint</key>
+    </redacteurchef>
+  </revue>
+  <numero id="rssi03944">
+    <volume>35</volume>
+    <nonumero>2</nonumero>
+    <nonumero>3</nonumero>
+    <pub>
+      <annee>2015</annee>
+    </pub>
+    <pubnum>
+      <date typedate="publication">2018-08-31</date>
+    </pubnum>
+    <grtheme id="th1">
+      <theme>La sémiotique du son : vers une architecture de l’acoustique et de l’auralité dans le théâtre post-dramatique. Tome I</theme>
+      <themeparal lang="en">Semiotics of Sound: Toward an Architecture of Acoustics and Aurality in Postdramatic Theatre. Tome I</themeparal>
+    </grtheme>
+    <notegen lang="en" porteenoteg="numero" typenoteg="edito">
+      <alinea>
+        <marquage
+          typemarq="italique">In Memoriam</marquage>, Eli Rozik
+This publication of <marquage
+          typemarq="italique">RS/SI</marquage> exceptionally covers two volumes (vol. 35, nos. 2-3 and vol. 36 nos. 1-2). According to the terms of our agreement with the Erudit platform it is presented here in two tomes (<marquage
+          typemarq="italique">Semiotics of Sound in Theatre I</marquage> and <marquage typemarq="italique">II</marquage>) which, together, correspond to the integrality of the printed version.</alinea>
+    </notegen>
+    <notegen lang="fr" porteenoteg="numero" typenoteg="edito">
+      <alinea>Cette livraison de <marquage
+          typemarq="italique">RS/SI</marquage> couvre exceptionnellement deux volumes (vol. 35 nos. 2-3 et vol. 36 nos. 1-2). En vertu de notre entente avec la plateforme Erudit elle est présentée ici en deux tomes (<marquage typemarq="italique">Sémiotique du son au théâtre</marquage>
+        <marquage typemarq="italique">I</marquage> et <marquage typemarq="italique">II</marquage>) dont l’ensemble correspond à l’intégralité de la version imprimée.</alinea>
+    </notegen>
+  </numero>
+  <editeur>
+    <nomorg>Association canadienne de sémiotique / Canadian Semiotic Association</nomorg>
+    <key>editeur</key>
+  </editeur>
+  <droitsauteur>Tous droits réservés © <nomorg>Association canadienne de sémiotique / Canadian Semiotic Association</nomorg>, 2018</droitsauteur>
+</infosommaire>
+<article doi="10.7202/1051066ar" idproprio="1051066ar" idref="th1"
+  lang="fr en" ordseq="1" qualtraitement="complet" typeart="autre">
+  <urlhtml>/revue/rssi/2015/v35/n2-3/1051066ar.html</urlhtml>
+  <urlpdf taille="1,9" unite="mo">/revue/rssi/2015/v35/n2-3/1051066ar.pdf</urlpdf>
+  <pagination>
+    <ppage>3</ppage>
+    <dpage>28</dpage>
+  </pagination>
+  <notegen lang="en" porteenoteg="numero" typenoteg="edito">
+    <alinea>
+      <marquage
+        typemarq="italique">In Memoriam</marquage>, Eli Rozik
+This publication of <marquage
+        typemarq="italique">RS/SI</marquage> exceptionally covers two volumes (vol. 35, nos. 2-3 and vol. 36 nos. 1-2). According to the terms of our agreement with the Erudit platform it is presented here in two tomes (<marquage
+        typemarq="italique">Semiotics of Sound in Theatre I</marquage> and <marquage typemarq="italique">II</marquage>) which, together, correspond to the integrality of the printed version.</alinea>
+  </notegen>
+  <notegen lang="fr" porteenoteg="numero" typenoteg="edito">
+    <alinea>Cette livraison de <marquage
+        typemarq="italique">RS/SI</marquage> couvre exceptionnellement deux volumes (vol. 35 nos. 2-3 et vol. 36 nos. 1-2). En vertu de notre entente avec la plateforme Erudit elle est présentée ici en deux tomes (<marquage typemarq="italique">Sémiotique du son au théâtre</marquage>
+      <marquage typemarq="italique">I</marquage> et <marquage typemarq="italique">II</marquage>) dont l’ensemble correspond à l’intégralité de la version imprimée.</alinea>
+  </notegen>
+<liminaire>
+ <grtitre>
+                  <titre>La sémiotique du son : vers une architecture de l’acoustique et de l’auralité dans le théâtre postdramatique</titre>
+                <sstitre>Présentation</sstitre>  <titreparal lang="en">Semiotic of Sound: Toward the Architecture of Acoustics and Aurality in Postdramatic Theatre</titreparal><sstitreparal lang="en">Presentation</sstitreparal>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Yana</prenom>
+    <nomfamille>Meerzon</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université d’Ottawa</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051067ar" idproprio="1051067ar" idref="th1"
+  lang="en" ordseq="2" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/rssi/2015/v35/n2-3/1051067ar.html</urlhtml>
+  <urlpdf taille="1" unite="mo">/revue/rssi/2015/v35/n2-3/1051067ar.pdf</urlpdf>
+  <urlplan>/revue/rssi/2015/v35/n2-3/1051067ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>29</ppage>
+    <dpage>44</dpage>
+  </pagination>
+  <notegen lang="en" porteenoteg="numero" typenoteg="edito">
+    <alinea>
+      <marquage
+        typemarq="italique">In Memoriam</marquage>, Eli Rozik
+This publication of <marquage
+        typemarq="italique">RS/SI</marquage> exceptionally covers two volumes (vol. 35, nos. 2-3 and vol. 36 nos. 1-2). According to the terms of our agreement with the Erudit platform it is presented here in two tomes (<marquage
+        typemarq="italique">Semiotics of Sound in Theatre I</marquage> and <marquage typemarq="italique">II</marquage>) which, together, correspond to the integrality of the printed version.</alinea>
+  </notegen>
+  <notegen lang="fr" porteenoteg="numero" typenoteg="edito">
+    <alinea>Cette livraison de <marquage
+        typemarq="italique">RS/SI</marquage> couvre exceptionnellement deux volumes (vol. 35 nos. 2-3 et vol. 36 nos. 1-2). En vertu de notre entente avec la plateforme Erudit elle est présentée ici en deux tomes (<marquage typemarq="italique">Sémiotique du son au théâtre</marquage>
+      <marquage typemarq="italique">I</marquage> et <marquage typemarq="italique">II</marquage>) dont l’ensemble correspond à l’intégralité de la version imprimée.</alinea>
+  </notegen>
+<liminaire>
+ <grtitre>
+                  <titre>Voice in The “Long 20th Century”: From Mechanical to Electrical Aurality<renvoi id="re1no1" idref="no1" typeref="note">1</renvoi></titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Jean-Marc</prenom>
+    <nomfamille>Larrue</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université de Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="en"><alinea>The use of microphones in theatre today is so common that it is hard to believe how recent this practice is and, more importantly, that it has provoked such long standing and fierce resistance. The fact is that the theatre, which very quickly integrated the electric lamp (at the end of the 19th century) into its technical arsenal, waited more than a century before resorting to microphones to relay the voices of the actors. Technological imperfections alone are not sufficient to explain this deferment since, between the emergence of the first sound reproduction technologies in the late 1870s (microphone, phonograph, telephone) and the 21st century, four distinct media have enjoyed considerable success on account of these technologies : records, radio, cinema and television. This article argues is that such delay was due to an ideological positioning by which the theatre tried to affirm its ontological superiority over the other media practices by establishing itself as the ultimate refuge of “authenticity” by virtue of the simultaneous – and non-technologically mediated – presence of the actor and the spectator in a single space. In this context, the human voice of theatre took on a highly symbolic value, that of unadulterated authenticity, a value which seemed perverted everywhere else.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="fr"><alinea>L’usage des micros sur la scène théâtrale contemporaine est aujourd’hui si courante qu’on a peine à penser qu’il s’agit d’une pratique très récente et, plus encore, que cette utilisation ait pu susciter de longues et féroces résistances. On peut d’ailleurs s’étonner que le théâtre, qui a très rapidement intégré à son arsenal technique la lampe électrique (dès la fin du XIXe siècle), ait attendu plus d’un siècle avant de recourir aux micros pour relayer la voix des acteurs. La question des insuffisances technologiques ne suffit pas à expliquer ce délai puisque, entre l’apparition des premières technologies de reproduction du son à la fin des années 1870 (micro, phonographe, téléphone) et le XXIe siècle (alors que les voix des acteurs sont fréquemment diffusées par haut-parleurs), quatre médias ont connu un succès considérable grâce à ces technologies : le disque, la radio, le cinéma parlant, la télévision. L’hypothèse que défend cet article est que la cause de ce retard est dû à un positionnement idéologique par lequel le théâtre a tenté d’affirmer sa supériorité ontologique sur les autres pratiques médiatiques en s’érigeant comme l’ultime refuge de l’authenticité grâce à la présence simultanée et non technologiquement médiatisée de l’acteur et du spectateur dans un même espace. La voix humaine a pris, dans ce contexte, une valeur symbolique forte, celle de la marque d’une authenticité inaltérée qui partout ailleurs, était pervertie.</alinea>
+ </resume><grmotcle lang="en"><motcle>Aurality</motcle><motcle>Sound</motcle><motcle>Intermediality</motcle><motcle>Theatre</motcle></grmotcle><grmotcle lang="fr"><motcle>Auralité</motcle><motcle>son</motcle><motcle>intermédialité</motcle><motcle>théâtre</motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1051068ar" idproprio="1051068ar" idref="th1"
+  lang="fr" ordseq="3" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/rssi/2015/v35/n2-3/1051068ar.html</urlhtml>
+  <urlpdf taille="1,4" unite="mo">/revue/rssi/2015/v35/n2-3/1051068ar.pdf</urlpdf>
+  <urlplan>/revue/rssi/2015/v35/n2-3/1051068ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>45</ppage>
+    <dpage>76</dpage>
+  </pagination>
+  <notegen lang="en" porteenoteg="numero" typenoteg="edito">
+    <alinea>
+      <marquage
+        typemarq="italique">In Memoriam</marquage>, Eli Rozik
+This publication of <marquage
+        typemarq="italique">RS/SI</marquage> exceptionally covers two volumes (vol. 35, nos. 2-3 and vol. 36 nos. 1-2). According to the terms of our agreement with the Erudit platform it is presented here in two tomes (<marquage
+        typemarq="italique">Semiotics of Sound in Theatre I</marquage> and <marquage typemarq="italique">II</marquage>) which, together, correspond to the integrality of the printed version.</alinea>
+  </notegen>
+  <notegen lang="fr" porteenoteg="numero" typenoteg="edito">
+    <alinea>Cette livraison de <marquage
+        typemarq="italique">RS/SI</marquage> couvre exceptionnellement deux volumes (vol. 35 nos. 2-3 et vol. 36 nos. 1-2). En vertu de notre entente avec la plateforme Erudit elle est présentée ici en deux tomes (<marquage typemarq="italique">Sémiotique du son au théâtre</marquage>
+      <marquage typemarq="italique">I</marquage> et <marquage typemarq="italique">II</marquage>) dont l’ensemble correspond à l’intégralité de la version imprimée.</alinea>
+  </notegen>
+<liminaire>
+ <grtitre>
+                  <titre>De la mise en scène de l’écoute aveugle : “<marquage typemarq="italique">Coraggi ! Ricominciamo la lettura!</marquage>” <renvoi id="re1no1" idref="no1" typeref="note">1</renvoi></titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Giusy</prenom>
+    <nomfamille>Pisano</nomfamille>
+   </nompers>
+  <affiliation><alinea>ENS Louis Lumière</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Le Théâtrophone, le téléphone, le phonographe et le gramophone, reposaient sur le principe de l’<marquage typemarq="italique">écoute aveugle</marquage> dont les effets dramaturgiques ont été particulièrement exploités par la radio et le théâtre, mais aussi le cinéma. Ici, loin des yeux, loin des corps, les sons et les voix reproduits et transmis à travers des haut-parleurs sont <marquage typemarq="italique">désincarnés</marquage>. Le <marquage typemarq="italique">fantôme</marquage> de cette écoute persiste et ressurgit dans les mises en scène contemporaines où, notamment, la voix est séparée du corps et les bruits n’ont pas de décor. Elle est au travail dans les pièces de Maurice Maeterlinck (<marquage typemarq="italique">Les Aveugles</marquage>, <marquage typemarq="italique">L'Intruse</marquage>, <marquage typemarq="italique">Intérieur</marquage>, <marquage typemarq="italique">La mort de Tintagiles</marquage>), de Samuel Beckett (<marquage typemarq="italique">La dernière bande</marquage>, <marquage typemarq="italique">Dis Joe</marquage>, <marquage typemarq="italique">Pas moi</marquage>, <marquage typemarq="italique">Berceuse</marquage>, <marquage typemarq="italique">Cendres</marquage>), de Carlo Emilio Gadda (<marquage typemarq="italique">Eros et Priape</marquage>, <marquage typemarq="italique">Saint Georges chez les Brocch</marquage>i), Ibsen (<marquage typemarq="italique">Un ennemi du peuple</marquage>, <marquage typemarq="italique">Les Revenants</marquage>, <marquage typemarq="italique">Solness le constructeur</marquage>, <marquage typemarq="italique">Quand nous nous réveillons d’entre les morts</marquage>), de Jean Tardieu (<marquage typemarq="italique">Une voix sans personne</marquage>), de Marguerite Duras (<marquage typemarq="italique">L’Amante anglaise</marquage>, <marquage typemarq="italique">India Song</marquage>, <marquage typemarq="italique">Savannah Bay</marquage>) et sans doute dans bien d’autres qui mériteraient d’être analysées sous cet angle. Ce texte présente quelques pistes pour une archéologie de la mise en scène de cette écoute particulière à travers quelques dispositifs de la fin du XIX° siècle, période cruciale, car elle recèle bon nombre d’inventions techniques.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>The Theatrephone, the telephone, the phonograph and the gramophone, all of them technologies based on the principle of <marquage typemarq="italique">blind listening</marquage>, have each been used variously by radio, theatre, as well as cinema. Such amplified sounds are <marquage typemarq="italique">disincarnate</marquage>, <marquage typemarq="italique">spectral</marquage> presences. This form of listening is still found in contemporary plays when voices get severed from bodies and noises unhinged from objects. One finds it in the plays of Maurice Maeterlinck (<marquage typemarq="italique">The Blind</marquage>, <marquage typemarq="italique">Intruder</marquage>, <marquage typemarq="italique">Interior</marquage>, <marquage typemarq="italique">The Death of the Tintagiles</marquage>), Samuel Beckett (<marquage typemarq="italique">The Last Tape</marquage>, <marquage typemarq="italique">Eh Joe</marquage>, <marquage typemarq="italique">Not I</marquage>, <marquage typemarq="italique">Rockaby</marquage>, <marquage typemarq="italique">Embers</marquage>), Carlo Emilio Gadda (<marquage typemarq="italique">Eros e Priapo</marquage>, S<marquage typemarq="italique">an Giorgio in Casa Brocchi</marquage>), Ibsen (<marquage typemarq="italique">En Folkefiende, Gengangere</marquage>, <marquage typemarq="italique">Bygmester Solness</marquage>, <marquage typemarq="italique">Når vi døde vågner</marquage>), Jean Tardieu (<marquage typemarq="italique">Une voix sans personne</marquage>), Marguerite Duras (<marquage typemarq="italique">L’Amante anglaise</marquage>, <marquage typemarq="italique">India Song</marquage>, <marquage typemarq="italique">Savannah Bay</marquage>) and several others. This article offers suggestions for developing an archaeology of mise-en-scene regarding this form of listening by examining a few devices in use at the end of the 19th century, a period rich in technological innovations.</alinea>
+ </resume><grmotcle lang="fr"><motcle>écoute aveugle</motcle><motcle>théâtre</motcle><motcle>cinéma</motcle><motcle>radio</motcle><motcle>disque</motcle><motcle>bande magnétique</motcle><motcle>archives théâtre</motcle><motcle>Maurice Materlinck</motcle></grmotcle><grmotcle lang="en"><motcle>Blind Listening</motcle><motcle>Sound</motcle><motcle>Theater</motcle><motcle>Cinema</motcle><motcle>Radio</motcle><motcle>Maurice Materlinck</motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1051069ar" idproprio="1051069ar" idref="th1"
+  lang="en" ordseq="4" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/rssi/2015/v35/n2-3/1051069ar.html</urlhtml>
+  <urlpdf taille="966" unite="ko">/revue/rssi/2015/v35/n2-3/1051069ar.pdf</urlpdf>
+  <urlplan>/revue/rssi/2015/v35/n2-3/1051069ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>77</ppage>
+    <dpage>96</dpage>
+  </pagination>
+  <notegen lang="en" porteenoteg="numero" typenoteg="edito">
+    <alinea>
+      <marquage
+        typemarq="italique">In Memoriam</marquage>, Eli Rozik
+This publication of <marquage
+        typemarq="italique">RS/SI</marquage> exceptionally covers two volumes (vol. 35, nos. 2-3 and vol. 36 nos. 1-2). According to the terms of our agreement with the Erudit platform it is presented here in two tomes (<marquage
+        typemarq="italique">Semiotics of Sound in Theatre I</marquage> and <marquage typemarq="italique">II</marquage>) which, together, correspond to the integrality of the printed version.</alinea>
+  </notegen>
+  <notegen lang="fr" porteenoteg="numero" typenoteg="edito">
+    <alinea>Cette livraison de <marquage
+        typemarq="italique">RS/SI</marquage> couvre exceptionnellement deux volumes (vol. 35 nos. 2-3 et vol. 36 nos. 1-2). En vertu de notre entente avec la plateforme Erudit elle est présentée ici en deux tomes (<marquage typemarq="italique">Sémiotique du son au théâtre</marquage>
+      <marquage typemarq="italique">I</marquage> et <marquage typemarq="italique">II</marquage>) dont l’ensemble correspond à l’intégralité de la version imprimée.</alinea>
+  </notegen>
+<liminaire>
+ <grtitre>
+                  <titre>Visual Aurality in Russian Modernist Experiments: Explorations in Synesthesia and Auditory Imagination</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Julia</prenom>
+    <nomfamille>Listengarten</nomfamille>
+   </nompers>
+  <affiliation><alinea>University of Central Florida</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="en"><alinea>Russian modernist experiments in sensory communication include the interplay of sound and light in Alexander Scriabin’s symphonic mysteries as well as colored sounds in Wassily Kandinsky’s stage compositions. Inspired by various philosophical principles and creative methodologies, these artists explored the dialogue between the aural and the visual and its potential to influence the creative process and impact audience perception. This article seeks to assess the role of music and sound in synesthetic experiments of Scriabin and Kandinsky and place their theory and practice within the larger philosophical, artistic, and scientific contexts of their period and beyond.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="fr"><alinea>L’avant-garde russe s’est beaucoup intéressée à la communication par les sens. Cette expérimentation se manifeste, entre autres, dans les mystères symphoniques d’Alexandre Scriabin qui jouent sur l’entrelacement des sons et de la lumière et dans les compositions scéniques de Wassily Kandinsky qui font appel à des “sons colorés”. Trouvant leur inspiration chez divers philosophes et faisant appel des méthodes de création différentes, ces artistes explorent les voies d’un dialogue synesthésique s’adressant à l’oreille et à l’oeil, et ce, tant du point de vue de la création artistique que de celui de la perception d’une oeuvre par son auditoire. Cet article vise à réévaluer les démarches et les théories synesthésiques de Scriabin et de Kandinsky en les situant dans les contextes philosophiques, artistiques et scientifiques de l’époque, puis au-delà.</alinea>
+ </resume><grmotcle lang="en"><motcle>Russian Modernism</motcle><motcle>Synesthesia</motcle><motcle>Auditory Imagination</motcle><motcle>Sensory Communication</motcle></grmotcle><grmotcle lang="fr"><motcle>Modernisme Russe</motcle><motcle>synesthésie</motcle><motcle>imagination auditive</motcle><motcle>communication sensorielle</motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1051070ar" idproprio="1051070ar" idref="th1"
+  lang="en" ordseq="5" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/rssi/2015/v35/n2-3/1051070ar.html</urlhtml>
+  <urlpdf taille="1001" unite="ko">/revue/rssi/2015/v35/n2-3/1051070ar.pdf</urlpdf>
+  <urlplan>/revue/rssi/2015/v35/n2-3/1051070ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>97</ppage>
+    <dpage>113</dpage>
+  </pagination>
+  <notegen lang="en" porteenoteg="numero" typenoteg="edito">
+    <alinea>
+      <marquage
+        typemarq="italique">In Memoriam</marquage>, Eli Rozik
+This publication of <marquage
+        typemarq="italique">RS/SI</marquage> exceptionally covers two volumes (vol. 35, nos. 2-3 and vol. 36 nos. 1-2). According to the terms of our agreement with the Erudit platform it is presented here in two tomes (<marquage
+        typemarq="italique">Semiotics of Sound in Theatre I</marquage> and <marquage typemarq="italique">II</marquage>) which, together, correspond to the integrality of the printed version.</alinea>
+  </notegen>
+  <notegen lang="fr" porteenoteg="numero" typenoteg="edito">
+    <alinea>Cette livraison de <marquage
+        typemarq="italique">RS/SI</marquage> couvre exceptionnellement deux volumes (vol. 35 nos. 2-3 et vol. 36 nos. 1-2). En vertu de notre entente avec la plateforme Erudit elle est présentée ici en deux tomes (<marquage typemarq="italique">Sémiotique du son au théâtre</marquage>
+      <marquage typemarq="italique">I</marquage> et <marquage typemarq="italique">II</marquage>) dont l’ensemble correspond à l’intégralité de la version imprimée.</alinea>
+  </notegen>
+<liminaire>
+ <grtitre>
+                  <titre>Artaud’s Hyeroglyphic Sign and Böhme’s Aesthetics of Atmosphere: The Semiotic Legacy of the Avant-Garde’s Recognition of the Materiality of Sound</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Mladen</prenom>
+    <nomfamille>Ovadija</nomfamille>
+   </nompers>
+  <affiliation><alinea>Independent scholar</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="en"><alinea>Materiality of the sign/sound in theatre appears when various sensory materials remain on the side of the signifier, not trying to reach the signified but energetically pulsating from the stage instead. The semiotics of sound would benefit from exploring the process where the theatrical sign or sound is caught naked in its flight between deliverance and reception, not yet clothed in its signifying dress. Such a semiotics follows oral/aural signs becoming other signs in the area where the senses signify. I suggest that voice and stage sound/noise figure as catalysts of an intermedial flux between sensual, visual, kinetic, and architectural elements of performance, marking a legacy of the avant-garde recognition of the materiality of sound. I demonstrate this using Artaud’s concept of a hieroglyphic idiom as the “expression in space [in which] objects themselves begin to speak through the collusion of objects, silences, shouts and rhythms,” and through Boehme's aesthetics of atmospheres as the art of the set that creates a poetics/<marquage typemarq="italique">technè</marquage> of postdramatic theatre focused on orality/aurality.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="fr"><alinea>Au théâtre, la matérialité du signe et du son émerge lorsque divers matériaux sensoriels demeurent du côté du signifiant, ne visent pas à atteindre un signifié, et s’offrent comme une pulsation émanant de la scène. Une sémiotique du son gagnerait à explorer le processus par lequel le signe ou le son est capturé à nu dans son passage entre émission et réception, pas encore recouvert par les effets du sens. Une telle sémiotique suit les signes auditifs dans leur devenir autres, là où les sens acquièrent une signification. Je suggère que la voix, de même des les sons de la scène, servent de catalyseurs au sein d’un flux intermédial qui regroupe les éléments sensuels, visuels, cinétiques et architecturaux propres à la performance. Il s’agit ici d’un héritage laissé par l’avant-garde et sa reconnaissance du rôle joué par la matérialité du son qui fait appel à Artaud et à son concept de langage hiéroglyphique, véritable "langage dans l’espace, langage de sons, de cris, de lumières, d’onomatopées [que] le théâtre [...] doit [...] organiser en faisant avec les personnages et les objets de véritables hiéroglyphes, et en se servant de leur symbolisme et de leurs correspondances par rapport à tous les organes et sur tous les plans” (<marquage typemarq="italique">Le théâtre et son double</marquage> [146]); et à l’esthétique atmosphérique de Boehme comme art de la scène capable de créer une poétique/technè propre au théâtre post-dramatique ciblé sur la dimension sonore.</alinea>
+ </resume><grmotcle lang="en"><motcle>Signifying Materiality</motcle><motcle>Avant-Garde</motcle><motcle>Theatre</motcle><motcle>Voice and Sounds</motcle></grmotcle><grmotcle lang="fr"><motcle>matérialité du signe</motcle><motcle>avant-garde</motcle><motcle>théâtre</motcle><motcle>voix et sons</motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1051071ar" idproprio="1051071ar" idref="th1"
+  lang="en" ordseq="6" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/rssi/2015/v35/n2-3/1051071ar.html</urlhtml>
+  <urlpdf taille="795" unite="ko">/revue/rssi/2015/v35/n2-3/1051071ar.pdf</urlpdf>
+  <urlplan>/revue/rssi/2015/v35/n2-3/1051071ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>115</ppage>
+    <dpage>129</dpage>
+  </pagination>
+  <notegen lang="en" porteenoteg="numero" typenoteg="edito">
+    <alinea>
+      <marquage
+        typemarq="italique">In Memoriam</marquage>, Eli Rozik
+This publication of <marquage
+        typemarq="italique">RS/SI</marquage> exceptionally covers two volumes (vol. 35, nos. 2-3 and vol. 36 nos. 1-2). According to the terms of our agreement with the Erudit platform it is presented here in two tomes (<marquage
+        typemarq="italique">Semiotics of Sound in Theatre I</marquage> and <marquage typemarq="italique">II</marquage>) which, together, correspond to the integrality of the printed version.</alinea>
+  </notegen>
+  <notegen lang="fr" porteenoteg="numero" typenoteg="edito">
+    <alinea>Cette livraison de <marquage
+        typemarq="italique">RS/SI</marquage> couvre exceptionnellement deux volumes (vol. 35 nos. 2-3 et vol. 36 nos. 1-2). En vertu de notre entente avec la plateforme Erudit elle est présentée ici en deux tomes (<marquage typemarq="italique">Sémiotique du son au théâtre</marquage>
+      <marquage typemarq="italique">I</marquage> et <marquage typemarq="italique">II</marquage>) dont l’ensemble correspond à l’intégralité de la version imprimée.</alinea>
+  </notegen>
+<liminaire>
+ <grtitre>
+                  <titre>Twice Have the Trumpets Sounded</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Marvin</prenom>
+    <nomfamille>Carlson</nomfamille>
+   </nompers>
+  <affiliation><alinea>New York University</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="en"><alinea>Probably no single aspect of the semiotics of performance is more critical than the conventionalized signals that inform the audience that they are entering or leaving the liminal world of performance, and that the signs they will receive between these two signals are to be interpreted not necessarily as they would be in everyday life, but according to the codes of the performance situation. A clear example of one familiar modern sign for the ending of the performance is, of course, the curtain call. Throughout the history of theatre, the ending of the performance has most commonly been signaled by visual means – the curtain call, the bringing up of the house lights, the lowering of the house curtain, the general dance of the performers. When we consider the various means by which the beginning of a performance is indicated, however, we find that a significant number of them are in fact not visual but sonic – the first, second and third music in Restoration theatre, the trumpet fanfares at Stratford (Ontario) the “trois coups” of the traditional French theatre, the traditional playing of “God Save the Queen” in British theatres, and Ellen Stewart’s ringing of the hand bell for years at La Mama. In certain cases, the semiotics of sound have been prioritized over those of sight for the sake of summoning audiences, but most often they are already assembled and so other dynamics are at work. This essay will consider some of the most important uses of sound in this particular semiotic function, that is, as a signal for the audience to experience various theatrical works with a performance-oriented consciousness.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="fr"><alinea>Il n’y a sans doute aucun signe aussi déterminant pour la sémiotique du théâtre que le signal conventionnel qui informe le public qu’il s’apprête à entrer ou à quitter le monde liminal d’une performance. Le même signal sert également à indiquer que les signes qui se présentent entre ces deux moments doivent être entendus non pas comme faisant pleinement partie de la réalité quotidienne, mais qu’ils appartiennent aux codes de la performance théâtrale. Par exemple, dans le contexte moderne, un signe familier de la fin d’une performance théâtrale est le salut des acteurs sur la scène. Dans l’histoire du théâtre, les principaux signaux utilisés pour marquer la fin d’un spectacle ont été visuels : salut, fermeture du rideau, éclairage de la salle, etc. Toutefois lorsqu’on considère les principales marques utilisées pour indiquer le début d’une pièce on trouve de nombreux signaux sonores : la première, deuxième et troisième musique du théâtre de la Restauration anglaise; la trompette et les fanfares du Festival de Strattford (Ontario); les “<marquage typemarq="italique">trois coups</marquage>” du théâtre français; le “God Save the Queen” du théâtre britannique; ou encore, comme chez Ellen Stewart du théâtre La Mama de New York, l’usage d’une simple cloche. Dans certains cas la sémiose sonore est préférée à son pendant visuel pour convoquer le public, mais il arrive parfois que le public est déjà présent de sorte que le signal sonore prend un autre sens. Cet article examine certains des usages les plus importants que de tels signaux sonores ont acquis au théâtre afin de s’adresser au public.</alinea>
+ </resume><grmotcle lang="en"><motcle>Semiotics</motcle><motcle>Audiences</motcle><motcle>Fanfares</motcle><motcle>les trois coups</motcle></grmotcle><grmotcle lang="fr"><motcle>sémiotique</motcle><motcle>auditoires</motcle><motcle>fanfares</motcle><motcle>les trois coups</motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1051072ar" idproprio="1051072ar" idref="th1"
+  lang="en" ordseq="7" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/rssi/2015/v35/n2-3/1051072ar.html</urlhtml>
+  <urlpdf taille="992" unite="ko">/revue/rssi/2015/v35/n2-3/1051072ar.pdf</urlpdf>
+  <urlplan>/revue/rssi/2015/v35/n2-3/1051072ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>131</ppage>
+    <dpage>144</dpage>
+  </pagination>
+  <notegen lang="en" porteenoteg="numero" typenoteg="edito">
+    <alinea>
+      <marquage
+        typemarq="italique">In Memoriam</marquage>, Eli Rozik
+This publication of <marquage
+        typemarq="italique">RS/SI</marquage> exceptionally covers two volumes (vol. 35, nos. 2-3 and vol. 36 nos. 1-2). According to the terms of our agreement with the Erudit platform it is presented here in two tomes (<marquage
+        typemarq="italique">Semiotics of Sound in Theatre I</marquage> and <marquage typemarq="italique">II</marquage>) which, together, correspond to the integrality of the printed version.</alinea>
+  </notegen>
+  <notegen lang="fr" porteenoteg="numero" typenoteg="edito">
+    <alinea>Cette livraison de <marquage
+        typemarq="italique">RS/SI</marquage> couvre exceptionnellement deux volumes (vol. 35 nos. 2-3 et vol. 36 nos. 1-2). En vertu de notre entente avec la plateforme Erudit elle est présentée ici en deux tomes (<marquage typemarq="italique">Sémiotique du son au théâtre</marquage>
+      <marquage typemarq="italique">I</marquage> et <marquage typemarq="italique">II</marquage>) dont l’ensemble correspond à l’intégralité de la version imprimée.</alinea>
+  </notegen>
+<liminaire>
+ <grtitre>
+                  <titre>Metaphor of Sound - Lee Breuer’s <marquage typemarq="italique">Gospel at Colonus</marquage></titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Eli</prenom>
+    <nomfamille>Rozik</nomfamille>
+   </nompers>
+  <affiliation><alinea>Tel Aviv University</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="en"><alinea>Lee Breuer’s <marquage typemarq="italique">Gospel at Colonus</marquage> is an attempt to achieve a synthesis between an ancient Greek tragedy and the black Pentecostal church service, in addition to offering a mixed marriage between white and black cultural idioms. Regarding this experiment, the question is not, I believe, reducible to Breuer’s intention so much as the actual result of the work itself. Indeed, in experimenting with culturally established styles of expression, results depend on the nature of their unprecedented interaction. Therefore, hermeneutic inquiry is rather problematic and perhaps only a learned intuition is possible as a starting point. Nonetheless, I conjecture that rendering the narrative of Sophocles’ <marquage typemarq="italique">Oedipus at Colonus</marquage> through the prism of Gospel music bestows an additional metaphoric dimension on the basic metaphor embodied in the original play-script. This study aims at elucidating the nature of these metaphoric dimensions, specifically on the level of sound.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="fr"><alinea>L’adaptation faite par Lee Breuer de l’<marquage typemarq="italique">Oedipe à Colone</marquage> de Sophocle, intitulée <marquage typemarq="italique">Gospel at Colonus</marquage> (<marquage typemarq="italique">Évangile à Colone</marquage>), est à la fois une tentative de synthèse entre la tragédie grecque antique et le service religieux pentecôtiste, et un mariage d’expressions culturelles propres à l’Europe de race blanche et à l’Amérique afro-américaine. Face à cette expérimentation, il ne s’agit pas de s’interroger sur les intentions de Breuer, mais plutôt d’étudier ce qui en résulte. Or, en manipulant des styles d’expression déjà reconnus, ce résultat tient à la nature inédite de la fusion proposée. Rejetant une approche herméneutique qui, dans les circonstances, nous paraît problématique, nous prendrons pour point de départ une sorte d’intuitionnisme informé. Notre hypothèse est que le traitement de la tragédie de Sophocle par le biais de la musique “gospel” lui accorde une dimension métaphorique supplémentaire qui s’additionne à la métaphore du texte d’origine. Notre étude vise à élucider le jeu de ces métaphores en considérant la dimension sonore introduite par l’adaptation de Breuer.</alinea>
+ </resume><grmotcle lang="en"><motcle>Metaphor</motcle><motcle>Sophocle</motcle><motcle>Lee Breuer</motcle><motcle>Gospel Music</motcle></grmotcle><grmotcle lang="fr"><motcle>Métaphore</motcle><motcle>Sophocle</motcle><motcle>Lee Breuer</motcle><motcle>musique gospel</motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1051073ar" idproprio="1051073ar" idref="th1"
+  lang="en" ordseq="8" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/rssi/2015/v35/n2-3/1051073ar.html</urlhtml>
+  <urlpdf taille="1,1" unite="mo">/revue/rssi/2015/v35/n2-3/1051073ar.pdf</urlpdf>
+  <pagination>
+    <ppage>145</ppage>
+    <dpage>162</dpage>
+  </pagination>
+  <notegen lang="en" porteenoteg="numero" typenoteg="edito">
+    <alinea>
+      <marquage
+        typemarq="italique">In Memoriam</marquage>, Eli Rozik
+This publication of <marquage
+        typemarq="italique">RS/SI</marquage> exceptionally covers two volumes (vol. 35, nos. 2-3 and vol. 36 nos. 1-2). According to the terms of our agreement with the Erudit platform it is presented here in two tomes (<marquage
+        typemarq="italique">Semiotics of Sound in Theatre I</marquage> and <marquage typemarq="italique">II</marquage>) which, together, correspond to the integrality of the printed version.</alinea>
+  </notegen>
+  <notegen lang="fr" porteenoteg="numero" typenoteg="edito">
+    <alinea>Cette livraison de <marquage
+        typemarq="italique">RS/SI</marquage> couvre exceptionnellement deux volumes (vol. 35 nos. 2-3 et vol. 36 nos. 1-2). En vertu de notre entente avec la plateforme Erudit elle est présentée ici en deux tomes (<marquage typemarq="italique">Sémiotique du son au théâtre</marquage>
+      <marquage typemarq="italique">I</marquage> et <marquage typemarq="italique">II</marquage>) dont l’ensemble correspond à l’intégralité de la version imprimée.</alinea>
+  </notegen>
+<liminaire>
+ <grtitre>
+                  <titre>Harmonic Reveries: The Intercultural <marquage typemarq="italique">Signifiance</marquage> of <marquage typemarq="italique">Lear Dreaming</marquage></titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Marcus</prenom>
+    <nomfamille>Tan</nomfamille>
+   </nompers>
+  <affiliation><alinea>National Institute of Education, Nanyang Technological University Singapore</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">Lear Dreaming</marquage> (2012) is an offspring of, and sequel to, the (in)famous multi-cultural pan-Asian collage<marquage typemarq="italique"> Lear </marquage>(1997), in which director and creator Ong Keng Sen employed a diversity of Asian performance traditions to reimagine and reconceive Shakespeare’s tragedy. The soundscape of<marquage typemarq="italique"> Lear Dreaming</marquage> reverberates with the (dis)harmonies and dissonance of electronic synth sounds, gamelan music, pipa songs and Korean <marquage typemarq="italique">jeongak</marquage>; it places modernity, tradition, contemporaneity and custom in auditory confrontation. With only one actor surrounded by eight musicians, this acoustic interplay is further interjected with the oral patterns of Noh speech, the musicality of Mandarin Chinese and sonorities of <marquage typemarq="italique">Bahasa Indonesia</marquage>. As a piece of postdramatic “music theatre”, I demonstrate how<marquage typemarq="italique"> Lear Dreaming</marquage> advances intercultural theatrical practice as a sonic performative. In its interplay of Asian performance cultures in/as sonic space, the production posits an alternative performative mode where the intercultural is the acoustic. This paper critically examines the acoustic strategy employed by Ong and analyses the soundscape of<marquage typemarq="italique"> Lear Dreaming</marquage> – the harmonies, harmonics, distortions and discordance – to consider issues of signification, representation, <marquage typemarq="italique">signifiance</marquage> and the sublime in the performance of Asian inter-culturalisms.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="fr"><alinea><marquage typemarq="italique">Lear Dreaming</marquage> (2012) est à la fois un retour et une suite de<marquage typemarq="italique"> Lear </marquage>(1997), oeuvre notoire du dramaturge Ong Keng Sen. Il s’agit d’une pièce employant une diversité de styles et de performances qui tiennent lieu de la diversité asiatique tout en réinventant la célèbre tragédie de Shakespeare. L’espace sonore de<marquage typemarq="italique"> Lear Dreaming</marquage> résonne avec des (dis)harmonies et des dissonances de toutes sortes: synthétiseurs électroniques, gamelan, pièces pour pipa, et musique <marquage typemarq="italique">jeongak</marquage>. À travers la matière sonore, traditions et coutumes anciennes, modernité et contemporanéité sont confrontées l’une à l’autre. Alors qu’un seul acteur est accompagné de <marquage typemarq="italique">hui</marquage>t musiciens le jeu avec la dimension sonore se manifeste aussi par le langage et la voix: structures de l’énonciation propres au théâtre Nô, musicalité de la langue mandarin, sonorités du bahasa, la langue indonésienne. Oeuvre postdramatique et théâtre musical à la fois,<marquage typemarq="italique"> Lear Dreaming</marquage> défend une conception interculturelle du théâtre comme performance sonore. Cet article analyse la pièce de Ong Keng Sen afin de montrer comment le dramaturge utilise la dimension sonore pour représenter l’Asie de manière interculturelle. Nous offrons un examen critique de l’ensemble de l’espace sonore <marquage typemarq="italique">–</marquage> avec ses harmonies, ses harmoniques, sa distorsion, ses dissonances <marquage typemarq="italique">–</marquage> dans le but de mettre au jour le jeu de la signification, de la représentation, de la <marquage typemarq="italique">signifiance</marquage>, et du sublime dans cette performance interculturelle de l’Asie.</alinea>
+ </resume><grmotcle lang="en"><motcle>Signifiance</motcle><motcle>Interculturalism</motcle><motcle>Asian Shakespeare</motcle><motcle>Mondialisation</motcle><motcle>Ong Keng Sen</motcle></grmotcle><grmotcle lang="fr"><motcle>Signifiance</motcle><motcle>interculturalisme</motcle><motcle>Shakespeare asiatique</motcle><motcle>mondialisation</motcle><motcle>Ong Keng Sen</motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1051074ar" idproprio="1051074ar" idref="th1"
+  lang="en" ordseq="9" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/rssi/2015/v35/n2-3/1051074ar.html</urlhtml>
+  <urlpdf taille="1,1" unite="mo">/revue/rssi/2015/v35/n2-3/1051074ar.pdf</urlpdf>
+  <urlplan>/revue/rssi/2015/v35/n2-3/1051074ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>163</ppage>
+    <dpage>180</dpage>
+  </pagination>
+  <notegen lang="en" porteenoteg="numero" typenoteg="edito">
+    <alinea>
+      <marquage
+        typemarq="italique">In Memoriam</marquage>, Eli Rozik
+This publication of <marquage
+        typemarq="italique">RS/SI</marquage> exceptionally covers two volumes (vol. 35, nos. 2-3 and vol. 36 nos. 1-2). According to the terms of our agreement with the Erudit platform it is presented here in two tomes (<marquage
+        typemarq="italique">Semiotics of Sound in Theatre I</marquage> and <marquage typemarq="italique">II</marquage>) which, together, correspond to the integrality of the printed version.</alinea>
+  </notegen>
+  <notegen lang="fr" porteenoteg="numero" typenoteg="edito">
+    <alinea>Cette livraison de <marquage
+        typemarq="italique">RS/SI</marquage> couvre exceptionnellement deux volumes (vol. 35 nos. 2-3 et vol. 36 nos. 1-2). En vertu de notre entente avec la plateforme Erudit elle est présentée ici en deux tomes (<marquage typemarq="italique">Sémiotique du son au théâtre</marquage>
+      <marquage typemarq="italique">I</marquage> et <marquage typemarq="italique">II</marquage>) dont l’ensemble correspond à l’intégralité de la version imprimée.</alinea>
+  </notegen>
+<liminaire>
+ <grtitre>
+                  <titre>Comic Sounds in Contemporary Theatre Performances: Marthaler, Pollesch, Fritsch and Gotscheff</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Katharina</prenom>
+    <nomfamille>Rost</nomfamille>
+   </nompers>
+  <affiliation><alinea>University of Bayreuth</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="en"><alinea>At the Volksbühne am Rosa-Luxemburg-Platz in central Berlin, directors René Pollesch, Christoph Marthaler, Herbert Fritsch, and Dimiter Gotscheff employ comical elements of slapstick, irony, black humour, exaggeration, bluntness, vulgarity, and absurdity. Sound often proves to be significant to the comical effect of the performances as the use of music, sound effects and a specific way of speaking are characteristic for each of their individual directing styles. Even though their styles are comparable in that they all use of a vast array of acoustic elements, they nevertheless differ greatly from each other. The aim of my article is to categorize their use of comical sounds by considering <marquage typemarq="italique">how</marquage> and <marquage typemarq="italique">to what</marquage> effect they are employed. The comical aspect of sounds, situations or actions is not necessarily universal or trans-historical, but rather always depends on the specific cultural and historical context that also coins the specific contemporary theatre practice. The article focusses on these connections and on the shifts of attention that are mainly caused by the comical effects of sound and can cause further comical effects.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="fr"><alinea>Au théâtre Volksbühne am Rosa-Luxemburg-Platz de Berlin les spectacles montés par les metteurs en scène René Pollesch, Christoph Marthaler, Herbert Fritsch, et Dimiter Gotscheff usent d’effets comiques propres au <marquage typemarq="italique">slapstick</marquage>, à l’ironie, à l’humour noir, à l’exagération, à la vulgarité et à l’absurde. Le son est une dimension importante de l’effet recherché, que ce soit par la musique, les effets sonores, ou encore à cause de l’élocution des personnages, et chaque metteur en scène intègre ces éléments dans un style qui lui est propre. Cet article vise à examiner ce qui à la fois unit et différencie l’usage du son chez ces metteurs en scène et à étudier les effets comiques qu’il produit. Le comique d’un son n’est pas un trait universel ou transhistorique, mais repose sur une contextualisation historique et culturelle dans laquelle s’inscrit le présent d’une oeuvre théâtrale. Nous mettons l’emphase sur ce lien contextuel et sur la façon dont l’usage comique du son permet des déplacements d’attention lesquels peuvent être la cause d’autres effets comiques.</alinea>
+ </resume><grmotcle lang="en"><motcle>Sound Design</motcle><motcle>Listening</motcle><motcle>Sonic Humour</motcle></grmotcle><grmotcle lang="fr"><motcle>design sonore</motcle><motcle>écoute</motcle><motcle>humour sonore</motcle></grmotcle>
+</liminaire>
+</article>
+</sommaire>

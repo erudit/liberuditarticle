@@ -32,24 +32,21 @@ class EruditPublication(
            For more information please refer to :py:mod:`eruditarticle.objects`
 
         :returns: the titles of the publication
-
-        If the publication does not specify a principal language, it is assumed
-        to be French.
         """
-        languages = self.find("revue").get('lang')
-        if languages:
-            languages = languages.split()
-        else:
-            languages = ["fr"]
         return self._get_titles(
             root_elem_name="revue",
             title_elem_name="titrerev",
             subtitle_elem_name="sstitrerev",
             paral_title_elem_name="titrerevparal",
             paral_subtitle_elem_name="sstitrerevparal",
-            languages=languages,
+            languages=self.get_languages(),
             html=html,
         )
+
+    def get_languages(self):
+        """ :returns: a list of the journal's principal languages, defaults to ['fr']. """
+        languages = self.find("revue").get('lang')
+        return languages.split() if languages else ['fr']
 
     def get_article_count(self):
         """ :returns: the number of articles of the publication object. """
@@ -104,6 +101,14 @@ class EruditPublication(
                 "authors": format_authors(authors, html=html) if authors else "",
             }
             notes.append(note)
+
+        # Sort the notes according to the journal languages' order.
+        languages = self.get_languages()
+        notes = sorted(
+            notes,
+            key=lambda note: languages.index(note['lang']) if note['lang'] in languages else 1
+        )
+
         return notes
 
     def get_publication_type(self, formatted=False):
@@ -512,3 +517,4 @@ class EruditPublication(
     themes = property(get_themes)
     volume = property(get_volume)
     publishers = property(get_publishers)
+    langauges = property(get_languages)
