@@ -1,6 +1,5 @@
 import collections
 from copy import copy
-import re
 
 import lxml.etree as et
 import six
@@ -213,7 +212,7 @@ class EruditBaseObject(DomObject):
             et.strip_elements(node, *strip_elements, with_tail=False)
         et.strip_tags(node, "*")
         if node.text is not None:
-            return normalize_whitespace(re.sub(' +', ' ', node.text))
+            return normalize_whitespace(node.text)
 
     def find_paral(self, tag, paral_tag_name, html=True):
         """ Find the parallel values for the given tag using the given tag name. """

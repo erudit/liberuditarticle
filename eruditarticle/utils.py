@@ -45,4 +45,4 @@ def normalize_whitespace(s):
     """
     if not s:
         return s
-    return re.sub(r'[ \n\t]+', ' ', s.strip())
+    return re.sub(r'[ \n\r\t]+', ' ', s.strip())
