@@ -55,6 +55,9 @@ COMMON_EDGE_CASES = [
     (
         [(None, None)], ""
     ),
+    (
+        [(None, None, None)], ""
+    ),
 ]
 
 
@@ -76,8 +79,12 @@ COMMON_EDGE_CASES = [
         "Last1, First1 O. et First2 O. Last2."
     ),
     (
-        [(None, None)],
-        ""
+        [("First1", "Last1"), ("First2", "Last2"), ("First3", "Last3")],
+        "Last1, First1, et al."
+    ),
+    (
+        [("First1", "Last1", "Other1"), ("First2", "Last2", "Other2"), ("First3", "Last3", "Other3")],  # noqa
+        "Last1, First1 O., et al."
     ),
     (
         [("Firstname", None)],
@@ -115,6 +122,18 @@ def test_format_authors_mla(authors, expected):
         [("First1", "Last1"), ("First2", "Last2"), ("First3", "Last3")],
         "Last1, F., Last2, F. & Last3, F."
     ),
+    (
+        [("First1", "Last1", "Other1"), ("First2", "Last2", "Other2"), ("First3", "Last3", "Other3")],  # noqa
+        "Last1, F. O., Last2, F. O. & Last3, F. O."
+    ),
+    (
+        [("Firstname", None)],
+        "Firstname"
+    ),
+    (
+        [(None, "Lastname")],
+        "Lastname"
+    ),
 ])
 def test_format_authors_apa(authors, expected):
     authors = [FakePerson(*args) for args in authors]
@@ -142,6 +161,18 @@ def test_format_authors_apa(authors, expected):
     (
         [("First1", "Last1"), ("First2", "Last2"), ("First3", "Last3")],
         "Last1, First1, Last2, First2 et Last3, First3"
+    ),
+    (
+        [("First1", "Last1", "Other1"), ("First2", "Last2", "Other2"), ("First3", "Last3", "Other3")],  # noqa
+        "Last1, First1 O., Last2, First2 O. et Last3, First3 O."
+    ),
+    (
+        [("Firstname", None)],
+        "Firstname"
+    ),
+    (
+        [(None, "Lastname")],
+        "Lastname"
     ),
 ])
 def test_format_authors_chicago(authors, expected):

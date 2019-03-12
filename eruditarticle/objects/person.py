@@ -139,11 +139,13 @@ def _format_author_reverse(author, full_firstname=False):
     lastname = author.lastname.strip() if author.lastname else None
     firstname = author.firstname.strip() if author.firstname else None
     othername = author.othername.strip() if author.othername else None
+    # Special edge case: we don't have a lastname or a firstname, let's just return an empty string.
     if not lastname and not firstname:
         return ""
-    if not lastname:
-        # special edge case. we don't have a name. let's just the firstname
-        return firstname or ''
+    # Special edge case: we don't have a lastname, let's just return the firstname.
+    elif not lastname:
+        return firstname
+    # Special edge case: we don't have a firstname, let's just return the lastname.
     elif not firstname:
         return lastname
     if not full_firstname:
