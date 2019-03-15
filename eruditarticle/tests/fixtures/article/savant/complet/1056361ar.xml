@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://www.erudit.org/xsd/article" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.erudit.org/xsd/article http://www.erudit.org/xsd/article/3.0.0/eruditarticle.xsd" qualtraitement="complet" idproprio="1056361ar" typeart="article" lang="fr" ordseq="3" idref="th1"><admin><infoarticle><idpublic scheme="doi">10.7202/1056361ar</idpublic><idpublic scheme="isbnepub">978-2-924587-23-2</idpublic><pagination> <ppage>27</ppage> <dpage>38</dpage>  
+       </pagination></infoarticle><revue id="vi39" lang="fr"><titrerev>Voix et Images</titrerev><titrerevabr>vi</titrerevabr><idissn>0318-9201</idissn><idissnnum>1705-933X</idissnnum><directeur sexe="masculin"><nompers><prenom>Luc</prenom><nomfamille>Bonenfant</nomfamille></nompers></directeur><redacteurchef typerc="invite" idrefs="th1" sexe="feminin"><nompers><prenom>Mylène</prenom><nomfamille>Bédard</nomfamille></nompers></redacteurchef><redacteurchef typerc="invite" idrefs="th1" sexe="feminin"><nompers><prenom>Virginie</prenom><nomfamille>Fournier</nomfamille></nompers></redacteurchef><redacteurchef typerc="invite" idrefs="th1" sexe="feminin"><nompers><prenom>Ariane</prenom><nomfamille>Gibeau</nomfamille></nompers></redacteurchef><redacteurchef typerc="invite" idrefs="th1" sexe="masculin"><nompers><prenom>Adrien</prenom><nomfamille>Rannaud</nomfamille></nompers></redacteurchef></revue><numero id="vi04327"><volume>44</volume><nonumero>1</nonumero><anonumero>130</anonumero><pub><periode>Automne</periode><annee>2018</annee></pub><pubnum><date typedate="publication">2019-02-22</date></pubnum><grtheme id="th1"><theme>Contemporanéités d’<marquage typemarq="italique">Angéline de Montbrun</marquage> et de Laure Conan</theme></grtheme><idisbn13>978-2-924587-21-8</idisbn13><idisbnnum13>978-2-924587-22-5</idisbnnum13></numero><editeur><nomorg>Université du Québec à Montréal</nomorg></editeur><prodnum><nomorg>Érudit</nomorg></prodnum><diffnum><nomorg>Érudit</nomorg></diffnum><schema nom="Erudit Article" version="3.0.0" lang="fr"/><droitsauteur>Tous droits réservés © <nomorg>Université du Québec à Montréal</nomorg>, 2018</droitsauteur></admin><liminaire><grtitre><surtitre>Dossier</surtitre>
+      <titre>UN ROMAN « NÉ DANS SA PROPRE NÉGATION »</titre>
+      <sstitre>L’articulation du littéraire et du religieux dans <marquage typemarq="italique">Angéline de Montbrun</marquage> de Laure Conan</sstitre>
+      <titreparal lang="en">A NOVEL “BORN IN ITS OWN NEGATION”</titreparal>
+      <sstitreparal lang="en">THE ARTICULATION OF THE LITERARY AND THE RELIGIOUS IN LAURE CONAN’S        <marquage typemarq="italique">ANGÉLINE DE MONTBRUN</marquage></sstitreparal>
+      <titreparal lang="es">UNA NOVELA “NACIDA EN SU PROPIA NEGACIÓN”</titreparal>
+      
+      <sstitreparal lang="es">LA ARTICULACIÓN DE LO LITERARIO Y LO RELIGIOSO EN <marquage typemarq="italique">ANGÉLINE DE        MONTBRUN</marquage>, DE LAURE CONAN</sstitreparal>
+    </grtitre><grauteur><auteur id="au1"><nompers>
+        <prenom>LILIANA</prenom>
+        
+        <nomfamille>RIZZUTO</nomfamille>
+        </nompers><affiliation>
+        <alinea>Université Laval</alinea>
+        </affiliation></auteur></grauteur><resume typeresume="resume" lang="fr">
+      <alinea>Cet article examine le maillage des considérations religieuses et littéraires dans        le roman <marquage typemarq="italique">Angéline de Montbrun </marquage>de Laure Conan. Privilégiant une lecture proche du        texte, il s’intéresse spécifiquement à la manière dont le roman sert le discours religieux,        l’encadre, le motive, lui donne force d’exemple, et, inversement, à la façon dont le        religieux sert le roman. L’auteure décrit ainsi comment la perte des illusions qui succède à        l’éveil spirituel du personnage central d’Angéline devient, paradoxalement, le déclencheur        de sa quête romanesque.</alinea>
+    </resume><resume typeresume="resume" lang="en">
+      <alinea>This article examines how religious and literary considerations are intertwined in        Laure Conan’s novel <marquage typemarq="italique">Angéline de Montbrun</marquage>. Emphasizing a close reading of the text,        it is specifically interested in the way the novel serves the religious discourse, frames        it, motivates it, and set it up as an example, and, conversely, how the novel is served by        the religious element. The novelist describes how the loss of illusions that follows the        spiritual awakening of the central character, Angéline, is paradoxically what triggers her        novelistic quest.</alinea>
+    </resume><resume typeresume="resume" lang="es">
+      <alinea>En este artículo, se analiza el entramado de las consideraciones religiosas y        literarias en la novela <marquage typemarq="italique">Angéline de Montbrun</marquage>, de Laure Conan. Al privilegiar una        lectura próxima al texto, se interesa específicamente por la manera en que la novela sirve        el discurso religioso, lo enmarca, lo motiva, le da fuerza de ejemplo y, a la inversa, por        la forma en que lo religioso sirve a la novela. Así pues, la autora describe cómo la pérdida        de las ilusiones que sucede al despertar espiritual del personaje central de Angéline llega,        paradójicamente, a desencadenar su búsqueda de lo novelesco.</alinea>
+    </resume></liminaire><corps><section1 id="s1n1"><no>1</no><epigraphe>
+        <alinea>Né dans sa propre négation, le roman canadien-français se continue dans l’équivoque.
+          Romancière, c’est-à-dire créatrice de personnages imprévisibles, complexes, troublants,
+          Laure Conan l’est en quelque sorte malgré elle<renvoi id="re1no1" idref="no1" typeref="note">1</renvoi>.</alinea>
+      </epigraphe><para id="pa1"><no>1</no><alinea>Le roman <marquage typemarq="italique">Angéline</marquage> <marquage typemarq="italique">de</marquage> <marquage typemarq="italique">Montbrun</marquage> (1884) de Laure Conan est un objet complexe, hybride, plein de contradictions. Il est déjà le produit d’une femme dévote, pudique, signant toutes ses oeuvres d’un pseudonyme devenu permanent, mais aussi de l’une des premières écrivaines professionnelles du pays, auteure de l’un des rares <marquage typemarq="italique">best-sellers</marquage> du <marquage typemarq="petitecap">xix</marquage><exposant>e</exposant> siècle et, ce n’est pas peu dire, l’un des classiques québécois<renvoi id="re1no2" idref="no2" typeref="note">2</renvoi> les plus étudiés à ce jour. Il s’agit au surplus d’un roman, genre repoussoir de l’époque, abonné de l’Index, et reconnu pour son influence indue sur les moeurs <renvoi id="re1no3" idref="no3" typeref="note">3</renvoi> ; un roman, pourtant, qui s’impose au Canada français grâce à l’appui du clergé, accueilli comme un modèle de vertu et d’édification, « un livre dont on sort comme d’une église<renvoi id="re1no4" idref="no4" typeref="note">4</renvoi> ». Le paradoxe n’est d’ailleurs pas qu’un effet de réception puisque le dualisme, thématisé par l’oeuvre, paraît affiché dès l’épigraphe : « L’avez-vous cru que cette vie fut la vie ? » L’opposition s’avère structurante, et le récit prend ainsi la forme d’une démonstration en deux temps : le bonheur idyllique, l’existence « sans histoire » de l’héroïne éponyme, qui fait place à une prise de conscience douloureuse, sans issue, sinon celle d’écrire les dédales du conflit intérieur, un drame à la fois religieux et littéraire.</alinea></para><para id="pa2"><no>2</no><alinea>La réconciliation de ces deux qualités donne un ouvrage dans lequel l’enchaînement des événements découvre une causalité défaillante, l’accumulation d’« actes de Dieu » aussi imprévisibles qu’incongrus : chute du père, suivie de son décès ; accident de la fille, qui entraîne sa défiguration ; refroidissement du promis et rupture des fiançailles. Il existe en fait divers endroits dans le texte où les choix de l’auteure et sa volonté supposée d’adhérer à une morale prédéterminée font défaut à la vraisemblance du récit et au développement de son personnel romanesque. Charles ab der Halden en souligne les longueurs et la « gaucherie de composition<renvoi id="re1no5" idref="no5" typeref="note">5</renvoi> », Louis Fréchette, le « manque de précision<renvoi id="re1no6" idref="no6" typeref="note">6</renvoi> » dans l’exposition du sujet, et Madeleine Gagnon, l’homogénéité d’un récit sans intrigue, dont les personnages « parlent tous le même langage<renvoi id="re1no7" idref="no7" typeref="note">7</renvoi> ».</alinea></para><para id="pa3"><no>3</no><alinea>Malgré ces lacunes, force est de constater que l’amalgame des considérations chrétiennes et littéraires participe aussi très distinctement de la réussite de l’ouvrage. Précédant le livre, dont il facilite et oriente la publication, ce maillage se manifeste dans la posture auctoriale de Conan, dans la corrélation forte suggérée par Jean-Noël Dion entre « argent et écriture, argent et religion<renvoi id="re1no8" idref="no8" typeref="note">8</renvoi> », qui rappelle les motivations financières de l’écrivaine et la primauté de sa mission apostolique sur ses ambitions personnelles<renvoi id="re1no9" idref="no9" typeref="note">9</renvoi>. La complicité du religieux et de la poétique se ressent encore dans la nature intertextuelle de son premier ouvrage qui, comme le soulignent Nicole Bourbonnais<renvoi id="re1no10" idref="no10" typeref="note">10</renvoi> puis Mathilde Kang<renvoi id="re1no11" idref="no11" typeref="note">11</renvoi>, se construit autour d’une réécriture du <marquage typemarq="italique">Journal</marquage> (1862) d’Eugénie de Guérin, grand modèle de piété féminine de son époque, et dont les écrits furent également publiés, selon ses éditeurs du moins, à des fins d’édification. Par-delà ce génotexte, Daniel Vaillancourt<renvoi id="re1no12" idref="no12" typeref="note">12</renvoi> et Marie-Andrée Beaudet<renvoi id="re1no13" idref="no13" typeref="note">13</renvoi> montrent enfin tout ce que l’oeuvre canadienne doit à la sensibilité doloriste des livres de piété, en particulier <marquage typemarq="italique">L’imitation de Jésus-Christ</marquage>, de même qu’aux motifs de la tradition mystique.</alinea></para><para id="pa4"><no>4</no><alinea>Dans la foulée de ces études récentes, il ne fait aucun doute que le livre de Laure Conan se situe, pour citer Beaudet, « à la croisée des champs littéraire et religieux<renvoi id="re1no14" idref="no14" typeref="note">14</renvoi> ». Le présent article veut montrer que la religion représente cependant plus qu’une trace lisible dans le tissu intertextuel, plus qu’une influence ou un moyen pour l’auteure de rendre acceptable la « maternité » de sa publication. Sur un autre plan, elle opère également comme un élément constitutif de l’ouvrage, une force agissante, indissociable non seulement de son succès d’estime, à l’époque, mais de sa littérarité et de son intérêt continu comme roman psychologique, l’un des premiers du genre au Canada français. Privilégiant une lecture proche du texte, nous nous intéresserons à la manière dont le roman sert le discours religieux, l’encadre, le motive, lui donne force d’exemple, et inversement, à la façon dont le religieux sert le roman, pour montrer comment la perte des illusions qui succède à l’éveil spirituel du personnage d’Angéline devient le déclencheur de sa quête romanesque, ce voeu « démonique<renvoi id="re1no15" idref="no15" typeref="note">15</renvoi> », selon l’expression de Lukács, d’un être aux prises avec une crise de valeurs, confronté à l’écart irréparable entre ses désirs et la réalité.</alinea></para></section1><section1 id="s1n2"><no>2</no><titre>LA LITTÉRATURE ET LE RELIGIEUX</titre><para id="pa5"><no>5</no><alinea>À l’instar de Bertrand Daunay, certains diront que la religiosité d’une oeuvre, comme sa littérarité, dépend entièrement de l’interprétation qu’en font les autorités en place à chaque époque, dans chaque communauté<renvoi id="re1no16" idref="no16" typeref="note">16</renvoi>. Dans un roman comme <marquage typemarq="italique">Angéline de Montbrun</marquage>, le monument semble en effet perdre quelque peu de sa solidité dès lors qu’on le coupe de son contexte, de cette société et de ses valeurs chrétiennes dans lesquelles l’oeuvre s’inscrit si fortement, ne serait-ce déjà que par sa pratique citationnelle. Difficile en outre de considérer l’ouvrage sans tenir compte de son auteure et de la <marquage typemarq="italique">persona</marquage> pieuse, modeste et même privée de cette dernière, protégée par un pseudonyme, selon les usages du temps<renvoi id="re1no17" idref="no17" typeref="note">17</renvoi>, et effacée jusque dans la narration grâce au vieux subterfuge des lettres éditées par un tiers<renvoi id="re1no18" idref="no18" typeref="note">18</renvoi>. Que penser encore de ce roman construit autour d’une héroïne apparemment décidée à vivre seule, dans le renoncement de tout, même de son fiancé, et qui fait donc le choix controversé du célibat, tout comme l’avait fait Conan plus jeune, ainsi que l’a bien souligné Le Moine<renvoi id="re1no19" idref="no19" typeref="note">19</renvoi>. Certainement, les études psychanalytiques et féministes ont trouvé leurs propres explications à cette histoire, devenue subversive sous leur lunette grossissante. Pourtant, malgré leurs points de vue critiques, la notion de péché paraît incontournable, que l’on parle de désir d’inceste, de narcissisme, voire de masochisme moral<renvoi id="re1no20" idref="no20" typeref="note">20</renvoi>.</alinea></para><para id="pa6"><no>6</no><alinea><marquage typemarq="italique">Angéline de Montbrun </marquage>et la quête de son héroïne ne peuvent se comprendre sans le conflit engendré par la faute, ou les fautes, indépendamment de questions telles que : qui les a commises, pourquoi, et ont-elles seulement eu lieu, ou ne sont-elles qu’imaginaires, voire subconscientes ? Même si l’on fait abstraction de son contexte historique, le texte invite à une lecture « religieuse », ou plutôt, il incite à considérer partout le poids de la foi chrétienne et de son biais sur les différentes consciences qui s’expriment dans les pages du livre, et spécialement sur celle d’Angéline dans les « feuilles détachées » de la troisième partie. Il n’y aurait pas de roman si cette dernière n’essayait pas de suivre, malgré sa douleur, l’enseignement de la religion, si elle n’était pas consternée par son désespoir et par sa propension à regarder en elle-même, dans ses propres profondeurs, plutôt que de porter son regard vers le haut, comme on le lui recommande explicitement : « Le curé de Valriant me dit alors : “Ma fille, regardez le ciel”. Ma fille… ce mot, que mon père ne dirait plus jamais, me fut cruel à entendre. Et me tournant vers la terre je pleurai<renvoi id="re1no21" idref="no21" typeref="note">21</renvoi>. » Pécheresse de son propre aveu, et dont le corps même se rebelle<renvoi id="re1no22" idref="no22" typeref="note">22</renvoi>, la jeune femme n’est plus en mesure d’entendre la parole du clerc, dont elle déforme et personnalise le sens afin d’accentuer son sentiment de culpabilité. Ce faisant, cependant, elle exerce aussi une qualité essentielle du chrétien, comme du personnage romanesque : le libre arbitre. Mais nous y reviendrons.</alinea></para><para id="pa7"><no>7</no><alinea>Les études conaniennes récentes se sont intéressées à l’origine de l’abattement d’Angéline, et à établir notamment si la faute initiale avait été commise par la fille ou par le père<renvoi id="re1no23" idref="no23" typeref="note">23</renvoi>. Le roman offre pourtant ses propres éclaircissements à ce sujet. Le problème est, pour en revenir aux remarques d’ab der Halden, qu’ils n’apparaissent guère convaincants d’un point de vue narratif. Concrètement, le récit central fournit peu d’informations factuelles et, surtout, n’insiste pas sur les incidents traumatiques qui mènent à l’écriture du journal. L’ouvrage dans son ensemble paraît de même peu concerné par l’établissement d’une succession d’événements clairs et plausibles, l’exposition de leurs causes, de leurs conséquences. L’écoulement du temps et la progression de l’histoire se traduisent plutôt par une enfilade d’anecdotes, certaines récentes, d’autres pas, qui mènent le plus souvent à des citations littéraires, généralement à connotation religieuse. « Oeuvre palimpseste<renvoi id="re1no24" idref="no24" typeref="note">24</renvoi> », pour reprendre le mot de Bourbonnais, le roman brouille constamment la ligne entre le présent et le passé, le réel et le symbolique, les souvenirs personnels et une conception beaucoup plus souple de l’histoire, grande et petite, locale et internationale, dont les annales s’enchaînent comme autant de prétextes pour parler de souffrance morale. Ainsi, il est tantôt question du « cousin » d’Angéline, la figure historique bien connue de Chevalier de Lévis, puis de sa mère, M<exposant>me</exposant> de Montbrun, et encore d’Octave Crémazie, grand poète national — tous trois mentionnés dans la même entrée du 25 septembre, ce que nous avons étudié ailleurs<renvoi id="re1no25" idref="no25" typeref="note">25</renvoi> —, sans oublier non plus les noms de Silvio Pellico et d’Eugénie de Guérin, qui côtoient organiquement ceux des habitants de Valriant. Chaque personnage et leurs aventures malheureuses sont rappelés à la mémoire grâce à leurs lettres ou à leurs paroles rapportées, grâce à leurs mots à eux donc, qui se substituent à ceux d’Angéline pour souligner l’universalité de l’expérience humaine. Ces figures, toutes décédées ou qui trépassent avant la fin du roman, peuplent l’imaginaire de l’orpheline comme autant de miroirs déformants de sa propre vie, des jalons qui permettent de mesurer, mais aussi de dramatiser sa douleur. M<exposant>lle</exposant> Désileux est un bon exemple de ce procédé, elle qui est également une personne à charge de Charles de Montbrun, solitaire, vieille fille et défigurée. Comme pour Angéline, les détails de son parcours restent flous, cependant la dernière lettre qu’elle écrit inspire à sa jeune amie un rêve qui convoque ses propres appréhensions concernant la mort :</alinea>
+        <bloccitation>
+          <verbatim typeverb="forme">
+            <bloc>
+              <ligne>La nuit dernière, j’ai fait un rêve qui m’a laissé une étrange
+                impression.</ligne>
+              <ligne>Il me semble que j’étais dans un cimetière. L’herbe croissait librement entre
+                les croix, dont plusieurs tombaient en ruines. Je marchais au hasard, songeant aux
+                pauvres morts, quand une tombe nouvelle attira mon attention.</ligne>
+              <ligne>[…] Je la regardais [Véronique], invinciblement attirée par le calme de la
+                tombe, par le repos de la mort, et je l’interrogeais, je lui demandais si elle
+                regrettait d’avoir souffert, de n’avoir jamais inspiré que de la pitié<renvoi id="re1no26" idref="no26" typeref="note">26</renvoi>.</ligne>
+            </bloc>
+          </verbatim>
+          <source><marquage typemarq="italique">AM</marquage>, 225</source>
+        </bloccitation>
+        <alinea>Les détails de l’histoire, de chacune des histoires, importent assez peu en
+          définitive et, indépendamment de ce qui devrait normalement composer le squelette d’un
+          ouvrage narratif, celui-ci se soumet aux impératifs d’une quête spirituelle, exprimée à
+          travers les accents pathétiques de la littérature. Les méditations et rêveries que
+          provoquent les écrits des gens qui souffrent et « qui appren[nent] à souffrir » (<marquage typemarq="italique">AM</marquage>, 259) composent la chair du livre et, sans doute,
+          représentent une somme plus conséquente, plus riche aussi, que les événements proprement
+          racontés, qu’il s’agisse de la mort de Charles de Montbrun, de l’entrée au couvent de
+          Mina, de la rupture des fiançailles entre Angéline et Maurice, ou encore, comme dans
+          l’extrait suivant, de cette simple visite pour remercier des voisins. Le passage paraît
+          représentatif de ces nombreuses entrées du journal dans lesquelles « l’action » se révèle
+          secondaire, et dont le récit s’arrête avant sa conclusion, laissant place à une énième
+          contemplation sur le fardeau de l’âme chrétienne :</alinea>
+        <bloccitation>
+          <verbatim typeverb="forme">
+            <bloc>
+              <ligne>Ce soir, il m’a pris fantaisie d’aller les remercier [les deux voisins]. Je les
+                ai trouvés assis sur le seuil de leur petite maison. Marie, jolie et fraîche à faire
+                honte aux roses, enfilait des graines d’actée pour s’en faire des colliers, et Paul
+                la regardait faire.</ligne>
+              <ligne>En la voyant si charmante, je me rappelai ce que j’étais, alors que Maurice
+                m’appelait « <marquage typemarq="italique">La fleur des champs</marquage> », et une
+                tristesse amère me saisit au coeur.</ligne>
+              <ligne>[…] Pauvres petits ! que deviendra celui des deux qui survivra à l’autre ? Une
+                grande affection, c’est le bonheur de la vie, mais aux grandes joies les grandes
+                douleurs. Pourtant, même après la séparation sans retour, quel est celui qui, pour
+                moins souffrir, consentirait à avoir moins aimé ?</ligne>
+              <ligne>Mon père aimait ces vers de Byron : « Rendez-moi la joie avec la douleur : je
+                veux aimer comme j’ai aimé, souffrir comme j’ai souffert. »</ligne>
+            </bloc>
+          </verbatim>
+          <source><marquage typemarq="italique">AM</marquage>, 214<renvoi id="re1no27" idref="no27" typeref="note">27</renvoi></source>
+        </bloccitation>
+        <alinea>Et encore, sur la même page, cet extrait à propos d’une visite au jardin où un
+          serviteur, ce « brave Désir », lui révèle un rosier desséché :</alinea>
+        <bloccitation>
+          <verbatim typeverb="forme">
+            <bloc>
+              <ligne>Puis il m’a donné beaucoup d’explications que je n’ai guère entendues. Je
+                regardais le pauvre arbuste, qui n’a plus, à bien dire, que ses épines, et je
+                pensais au jour où Maurice me l’apporta si vert, si couvert de fleurs.</ligne>
+              <ligne>Que reste-t-il de ces roses entrouvertes ? Que reste-t-il de ces
+                parfums ?</ligne>
+              <ligne>Fanées les illusions de la vie, fanées les fleurs de l’amour ? Pourquoi
+                pleurer ? Ni les larmes ni le sang ne les feront revivre.</ligne>
+            </bloc>
+          </verbatim>
+          <source><marquage typemarq="italique">AM</marquage>, 214</source>
+        </bloccitation>
+        <alinea>Dans de telles instances, les excursions ou « péripéties » d’Angéline, dans le
+          jardin, au champ, sur la grève, ou près du frêne où Maurice avait gravé leurs initiales
+          (<marquage typemarq="italique">AM</marquage>, 261), paraissent accessoires, une façon
+          d’assurer la continuité du récit, muté en un simple support pour accueillir les réflexions
+          de la jeune femme. Les promenades des uns et des autres, les lettres reçues et envoyées
+          remplissent principalement une fonction de monstration du réel, en accord avec le format
+          diaristique, lequel sert d’ancrage spatiotemporel aux diverses citations et souvenirs, en
+          plus de les motiver bien sûr, et même de leur donner valeur d’image, d’<marquage typemarq="italique">exemplum</marquage>. Ces passages servent encore de contrepoids à ces
+          autres endroits dans le texte où l’écriture se passe de contexte et ne se rattache à un
+          aucun événement, aucune lettre ou lecture. C’est le cas de cette entrée du 6 juillet où,
+          sous le titre « Oublier ! est-ce un bien ? Puis-je le désirer ? », cinq paragraphes de
+          plus en plus longs s’enchaînent, des propositions débutant toutes par « Oublier » et dont
+          la conclusion prononce un jugement brutal : « Non, la consolation n’est pas là ! »
+          (<marquage typemarq="italique">AM</marquage>, 234) Ailleurs, à côté de ces digressions
+          plus « littéraires », certaines pages touchent spécifiquement aux textes de la liturgie,
+          sortes d’homélies qui expliquent la parole de Dieu en montrant son application concrète
+          dans la vie d’Angéline. On peut rappeler par exemple les divers échos à <marquage typemarq="italique">L’imitation de Jésus-Christ</marquage> et à sa leçon sur
+          l’impossibilité du bonheur, « cette plante d’ailleurs qui ne s’acclimate jamais sur
+          terre » (<marquage typemarq="italique">AM</marquage>, 203), étudiés entre autres par
+          Beaudet<renvoi id="re1no28" idref="no28" typeref="note">28</renvoi>. Nous mentionnerons également cette méditation
+          sur l’histoire de Jésus et de la Samaritaine, évoquée dans l’entrée du
+          1<exposant>er</exposant> octobre. Repensant à la Samaritaine, l’orpheline songe à combien
+          elle aurait elle-même besoin de boire de cette eau vive qui étanche la soif :</alinea>
+        <bloccitation>
+          <verbatim typeverb="forme">
+            <bloc>
+              <ligne>« Seigneur, disait la pauvre Samaritaine, donnez-moi de cette eau, afin que je
+                n’aie plus soif. »</ligne>
+              <ligne>Profonde parole ! mes larmes ont coulé chaudes et abondantes sur le livre
+                sacré. Quelle soif de naufragé peut se comparer à mon besoin d’aimer ?</ligne>
+              <ligne>[…] Et, mon Dieu, ce besoin d’aimer qui s’accroît de tous nos mécomptes, de
+                toutes nos tristesses, de toutes nos douleurs, est-il si difficile de comprendre
+                qu’il n’aura jamais satisfaction sur la terre ?</ligne>
+            </bloc>
+          </verbatim>
+          <source><marquage typemarq="italique">AM</marquage>, 274</source>
+        </bloccitation>
+        <alinea>Cette dernière phrase, comme plusieurs autres présentes ici et là dans le roman,
+          résume l’oeuvre entière. Il n’y a pas qu’une seule clé de lecture, mais des dizaines, à
+          commencer par le mot de Lacordaire : « L’avez-vous cru que cette vie fut la vraie vie ? »
+          Sortes de mises en abyme, ces phrases, citations et récits enchâssés mettent en relief à
+          la fois la structure bipartite de l’oeuvre et le rapport paradoxal de cette dernière à la
+          fiction, à l’importance du faux pour valoriser le vrai. À cet égard, l’épigraphe se révèle
+          d’ailleurs significative puisqu’elle tient lieu de préface, dans la tradition amorcée par
+          les premiers romanciers canadiens<renvoi id="re1no29" idref="no29" typeref="note">29</renvoi>, et ne représente pas
+          uniquement une mise à distance du roman, mais une invitation à considérer le pouvoir de la
+          littérature et sa capacité à pousser plus loin le discours théologique. Par conséquent, la
+          religion pose une question et <marquage typemarq="italique">Angéline de
+          Montbrun</marquage> l’illustre, encore et encore, par diverses historiettes disséminées et
+          par des interrogations nombreuses, toutes rhétoriques puisque la réponse est connue
+          d’avance, mais menant à un constat si difficile à accepter, pourtant, qu’il est
+          constamment rejeté au profit de nouvelles questions.</alinea></para><para id="pa8"><no>8</no><alinea>Le roman, tel que pratiqué par Laure Conan dans ce premier opus, se met clairement au
+          service de la religion. Dans son article sur la « signification de la multiplicité
+          formelle de <marquage typemarq="italique">Angéline de Montbrun</marquage><renvoi id="re1no30" idref="no30" typeref="note">30</renvoi> », Alexandre Amprimoz met en lumière cet aspect du livre en
+          soulignant l’importance de la parabole, qu’il attribue au récit central, et qui transforme
+          selon lui « le roman psychologique en roman religieux<renvoi id="re1no31" idref="no31" typeref="note">31</renvoi> ».
+          Nous parlerons à notre tour de l’écriture allégorique de Conan, qui donne vie aux idées et
+          concepts abstraits de la morale, à la fois dans l’oeuvre prise comme un ensemble et dans
+          la construction même du roman, dans tous ses recoins et replis. Du point de vue du schéma
+          narratif, on peut ainsi dire que l’oeuvre souffre de ces constants retours à l’allégorèse.
+          Sur le plan du développement psychologique de l’héroïne, cependant, on peut voir qu’elle y
+          gagne beaucoup.</alinea></para></section1><section1 id="s1n3"><no>3</no><titre>LA RELIGION ET LE LITTÉRAIRE</titre><para id="pa9"><no>9</no><alinea>Si le roman sert le religieux, en montrant comment les leçons de la morale s’illustrent dans la vie des personnages, la religion sert à son tour le roman. En effet, <marquage typemarq="italique">Angéline de Montbrun</marquage> n’est pas un livre édifiant à l’image de tant d’autres ouvrages du <marquage typemarq="petitecap">xix</marquage><exposant>e</exposant> siècle, dans lesquels les protagonistes se marient, entrent au couvent ou meurent dans l’abnégation, autrement dit, dans le plein accomplissement de la volonté divine. Cet ouvrage se présente plutôt comme l’accomplissement d’une destinée malheureuse, celle d’une jeune femme désolée, belle et comblée jadis, défigurée maintenant, qui a fait le choix de vivre seule dans l’ancienne demeure familiale, là où tout lui rappelle le « souvenir sacré » (<marquage typemarq="italique">AM</marquage>, 213) d’un père décédé et l’affection passée d’un ami. Il s’agit encore de l’aventure d’une passionnée des lettres qui, au contraire de ce que lui conseillent ses proches et la société, décide de renoncer et au mariage et à l’habit pour s’user dans le désespoir, contempler sa propre souffrance en lisant des histoires semblables à la sienne. Mais plutôt que d’y trouver des réponses, nous l’avons vu, elle n’y voit que des raisons de s’inquiéter et de remettre en question la validité de l’enseignement divin.</alinea></para><para id="pa10"><no>10</no><alinea>Certes, les ouvrages cités dans son journal sont pour la plupart des textes de piété, et Angéline demande constamment le pardon de Dieu, se rend à l’église, se montre charitable, prie. Toutefois, on retrouve dans ses entrées diaristiques de nombreux extraits de la poésie de Lamartine, d’Hugo et de Crémazie, de même que plusieurs renvois à l’oeuvre romanesque de Chateaubriand, des écrits lyriques et mélancoliques qui redoublent plus qu’ils n’allègent son fardeau, et révèlent au passage un tempérament finalement plus réceptif aux désolations des écrivains qu’aux déclamations des apologistes. L’héroïne se réfère ainsi fréquemment à Eugénie de Guérin, une figure pieuse de la littérature morale contemporaine, mais également une simple femme, dépitée comme elle et qui, plutôt que de l’encourager sur la voie de la guérison, l’incite plutôt à amplifier sa douleur, par comparaison :</alinea>
+        <bloccitation>
+          <alinea>Comme disait Eugénie de Guérin, les grandes douleurs vont en creusant comme la
+            mer. Et le savait-elle comme moi! Elle ne pouvait aimer son frère comme j’aimais mon
+            père. Elle ne tenait pas tout de lui. Puis rien ne m’avait préparée à mon malheur. Il
+            avait toute la vigueur, toute l’élasticité, tout le charme de la jeunesse. […] Sans ce
+            fatal accident !</alinea>
+          <source><marquage typemarq="italique">AM</marquage>, 231</source>
+        </bloccitation>
+        <alinea>Le fait que la mort de son frère ait été causée par la phtisie, alors qu’il était à
+          l’étranger et récemment marié, change tout aux yeux d’Angéline. Les deuils des deux femmes
+          ne sont pas égaux, et certainement la Canadienne peut se plaindre plus légitimement de son
+          sort cruel. Eugénie ne représente plus un modèle, mais un étalon de mesure, un exemple
+          contre lequel jauger l’intensité de son désespoir et, même, le justifier.</alinea></para><para id="pa11"><no>11</no><alinea>Au demeurant, l’épistolière française paraît bien entourée dans le roman, accompagnée par une variété de figures maudites ou malheureuses qui servent aussi de baromètres émotionnels, de la « jeune fille <marquage typemarq="italique">livrée au cancer</marquage> dont parle de Maistre » (<marquage typemarq="italique">AM</marquage>, 208 ; souligné dans le texte) « à saint Augustin, ce coeur profond, qui pleura si tendrement sa mère et son ami », « ce fils de tant de larmes » (<marquage typemarq="italique">AM</marquage>, 237), en passant par Atala, l’héroïne de Chateaubriand, à qui l’on conseille de ne pas « tant regretter son amour » (<marquage typemarq="italique">AM</marquage>, 260). Il y a encore tous les personnages du roman même, dont les lettres à leur amie ne réussissent guère à la sortir de ce cercle vicieux de la comparaison. En fait, sous bien des aspects, Angéline de Montbrun n’est pas dissemblable des héros romanesques que l’on dit problématiques, voire de certains « antihéros » comme Don Quichotte, Emma Bovary ou Charles Armand, protagoniste de <marquage typemarq="italique">L’influence d’un livre</marquage> (1837), proclamé premier roman canadien<renvoi id="re1no32" idref="no32" typeref="note">32</renvoi>. À leur instar, la protagoniste de Laure Conan perd contact avec la réalité tant elle se laisse entraîner par des histoires fictives, ou du moins romancées, qui parlent de destinées extraordinaires, de personnages admirés et admirables auxquels elle se compare et, consciemment ou non, qu’elle imite. La littérature morale, qui se voulait un secours, un moyen d’apprendre et de tendre vers le mieux — et qui remplissait effectivement ce rôle dans la première partie, lorsqu’elle lisait avec son père —, devient progressivement une béquille, un handicap. Maintenant qu’elle se retrouve seule, une plume à la main, elle repense à tous ces gens affligés et, plutôt que de les plaindre, se plaint avec eux. À propos de <marquage typemarq="italique">Mie Prigioni</marquage> (1832) de Silvio Pellico, ce « [l]ivre admirable qui apprend à souffrir », Angéline ne peut faire autrement que de s’extasier : « Pauvre Silvio ! qui n’a pleuré sur lui ? Son livre si simple et si vrai laisse une de ces impressions que rien n’efface, car le plus irrésistible des sentiments, c’est l’admiration jointe à la piété. » (<marquage typemarq="italique">AM</marquage>, 259)</alinea></para><para id="pa12"><no>12</no><alinea>Il n’y a pas de morale victorieuse dans cette dernière partie du livre, mais la religion n’en demeure pas moins omniprésente et devient même un moteur de l’action, de l’écriture. Elle agit notamment comme un rappel des manquements de l’héroïne, de sa vanité, de son incapacité à simplement accepter la mort de son père et à accorder son pardon à Maurice. Ainsi, alors qu’un prêtre entre chez elle, en proclamant comme à l’habitude « paix à cette maison et à tous ceux qui l’habitent », Angéline, elle, ne demande qu’à pleurer encore :</alinea>
+        <bloccitation>
+          <alinea>Oh ! laissez-moi l’aimer dans les larmes, dans la douleur. Ne commandez pas
+            l’impossible sacrifice, ou plutôt Seigneur tout-puissant, […] ce sentiment où j’avais
+            tout mis, sanctifiez-le, qu’il s’élève en haut comme la flamme, et n’y laissez rien qui
+            soit <marquage typemarq="italique">du domaine de la mort</marquage>.</alinea>
+          <source><marquage typemarq="italique">AM</marquage>, 264 ; souligné dans le texte</source>
+        </bloccitation>
+        <alinea>Cette référence au « domaine de la mort », l’endroit où, selon Bossuet, vont
+          « toutes nos pensées qui n’ont pas Dieu pour objet<renvoi id="re1no33" idref="no33" typeref="note">33</renvoi> »,
+          révèle la conscience trouble de l’orpheline, qui assimile de cette façon sa posture aux
+          pêcheurs qui se considèrent sages et qui, « se refermant dans l’enceinte des choses
+          mortelles, s’enseveli[ssent] avec elles dans le néant<renvoi id="re1no34" idref="no34" typeref="note">34</renvoi> ».
+          On le sait, Angéline connaît la leçon, mais dans sa douleur, elle ose pécher par orgueil.
+          Or, ici, le prêtre était bien présent pour accompagner le serviteur Marc dans la mort, et
+          lui donner les derniers sacrements. Cependant Angéline, complètement absorbée par sa
+          propre douleur, comme une véritable héroïne de roman, ne peut faire autrement que de
+          déformer et de personnaliser à nouveau le propos du prêtre, figuration concrète de
+          l’Église.</alinea></para><para id="pa13"><no>13</no><alinea>Alors que la première partie du roman montrait des personnages heureux, trouvant dans le monde et ses conventions un environnement propice à l’accomplissement de leurs aspirations, la dernière partie voit s’effondrer la fragile architecture de leurs vies. Angéline regrette de ne pas avoir tenu de journal alors que son père vivait, mais le résultat de cette écriture, même pleine d’intrigues et de rebondissements, n’aurait pas donné un roman, pas le roman qui fut tant apprécié de la critique canadienne-française. Pour citer l’« Étude sur <marquage typemarq="italique">Angéline de Montbrun</marquage> » de l’abbé Casgrain, qui sert de préface à la première édition du livre :</alinea>
+        <bloccitation>
+          <alinea>[Laure Conan] a deviné le genre du roman moderne qui en fait la supériorité :
+            l’étude plus achevée des caractères et des situations, l’analyse d’une âme, la
+            perfection de la forme se déployant au milieu des événements les plus simples, et tout
+            cela sans rien du fracas et des grandes intrigues qui caractérisent l’ancienne
+            manière<renvoi id="re1no35" idref="no35" typeref="note">35</renvoi>.</alinea>
+        </bloccitation>
+        <alinea>Non, le roman, tel qu’il est compris et reçu à l’époque, n’est pas qu’une suite
+          d’événements plus ou moins vraisemblables, mais une quête humaine, morale, l’aventure d’un
+          être amené à se construire, ou à se déconstruire, dans le temps, et au contact des autres.
+          Lukács, qui étudie lui aussi le « roman moderne » à l’aube du <marquage typemarq="petitecap">xx</marquage><exposant>e</exposant> siècle, définit plus précisément
+          le genre comme « l’épopée d’un monde sans dieux<renvoi id="re1no36" idref="no36" typeref="note">36</renvoi> » où le
+          protagoniste paraît livré à son propre libre arbitre, confronté à l’absence de cette
+          « voix qui, sans équivoque, lui montrerait le chemin à suivre<renvoi id="re1no37" idref="no37" typeref="note">37</renvoi> ». L’ouvrage de Laure Conan possède cette dualité qui fait sentir la « voix »
+          de la religion et rappelle le droit chemin, pour toutefois s’en éloigner promptement. Ou
+          plutôt, Angéline, elle, s’en éloigne. Elle sait ce qu’elle devrait faire, mais,
+          orgueilleuse, elle y renonce, et à chaque nouvelle entrée de ses « feuilles détachées »
+          choisit de persister. Le roman n’est toutefois pas le récit d’une défaite, mais d’une
+          épreuve, et pour le dire avec Pierre-Joseph-Olivier Chauveau :</alinea>
+        <bloccitation>
+          <alinea>Job, que notre auteur cite quelquefois, n’est pas toujours tendre ; il se permet
+            des imprécations qui, isolées de son oeuvre sublime, ne seraient pas jugées très
+            édifiantes. Angéline de Montbrun ne va pas si loin ; mais elle a d’amères paroles,
+            d’injustes reproches, qui sont dans la nature de l’âme humaine, qui donnent un cachet de
+            vérité ou du moins de vraisemblance à ce qu’elle écrit. L’idée religieuse n’en a que
+            plus de mérite à triompher dans ces conditions<renvoi id="re1no38" idref="no38" typeref="note">38</renvoi>.</alinea>
+        </bloccitation></para></section1><section1 id="s1n4"><no>4</no><titre traitementparticulier="oui">+</titre><para id="pa14"><no>14</no><alinea>Le premier livre de Laure Conan n’est pas un roman à thèse, montrant le triomphe de la religion par le récit de personnages et l’émergence d’une héroïne qui se soumettent finalement aux leçons de la loi chrétienne. Ici, l’histoire suit le parcours inverse. Elle fait voir l’ubiquité du Tout-Puissant, alors que tous les proches de Charles de Montbrun — Angéline, Mina, Maurice et même Véronique Désileux, Marc et les autres — « vi[vaient] en lui un peu comme les saints vivent en Dieu » (<marquage typemarq="italique">AM</marquage>, 142), pour ensuite montrer un monde sans lui, sans la présence tangible de ce père, du Père. Dans ce roman, le conflit moral prend le pas sur l’action. Conséquemment, la trame diégétique paraît étouffée par de nombreux rappels à la religion, aux sentiments moraux, et à un mode de lecture symbolique inspiré de l’allégorèse. Parallèlement, l’abandon de la thèse et d’un schéma narratif plus traditionnel permet à la thématique religieuse de révéler l’émergence d’une héroïne complexe, problématique, chrétienne certes, mais une chrétienne en situation de crise. Selon Gilles Marcotte, Angéline de Montbrun est le premier personnage de roman féminin du Canada français<renvoi id="re1no39" idref="no39" typeref="note">39</renvoi>. Mais si le roman est double, « né dans sa propre négation<renvoi id="re1no40" idref="no40" typeref="note">40</renvoi> », son héroïne l’est également. Elle s’élève à la fois au rang de modèle de piété féminine, à l’instar des nombreuses figures littéraires auxquelles l’orpheline se compare, et du même coup réalise le type même du héros moderne, cet antihéros qui se distingue par ses égarements, sa faiblesse, son inaction. Angéline, malgré sa foi, son éducation, sa société, fait montre de libre arbitre par rapport aux diktats de la religion et se questionne sur ses croyances, sur la manière de les appliquer à sa propre vie ; elle remplit le rôle de confesseur aussi bien que de confessée. Cette auto-exploration est rendue possible grâce au soutien de la littérature, et de la littérature d’inspiration religieuse tout spécialement. Ainsi, celle qui n’a « jamais lu de roman » (<marquage typemarq="italique">AM</marquage>, 144), et qui « ne s’inquiète [donc] pas des larmes » versées en écrivant ses propres doutes, réalise un roman qui en fera pleurer d’autres ; un roman malsain selon certains, édifiant selon d’autres, mais un roman néanmoins, littéraire et religieux.</alinea></para></section1></corps><partiesann lang="fr">
+    <grnotebio>
+      <notebio id="nb1" idrefs="au1" lang="fr">
+        <alinea><marquage typemarq="gras">LILIANA RIZZUTO</marquage><marquage typemarq="gras">,</marquage> doctorante de l’Université          Laval et membre du Centre de recherche interuniversitaire sur la littérature et la culture          québécoises (CRILCQ), travaille comme coordonnatrice de recherche pour l’équipe La vie          littéraire au Québec. Ses travaux portent sur l’histoire rhétorique de la littérature au          Canada et sur l’avènement des premières femmes de lettres canadiennes-françaises au          tournant du <marquage typemarq="petitecap">xx</marquage><exposant>e</exposant> siècle. Elle signe des articles          notamment dans <marquage typemarq="italique">Mémoires du livre,</marquage> et bientôt dans <marquage typemarq="italique">Mens </marquage>et le          <marquage typemarq="italique">Dictionnaire des gens du livre au Québec.</marquage></alinea>
+      </notebio>
+    </grnotebio>
+  <grnote>
+      <note id="no1">
+        <no>1</no>
+        <alinea>Gilles Marcotte, <marquage typemarq="italique">Une littérature qui se fait. Essais
+          critiques sur la littérature canadienne-française</marquage>, Montréal, Éditions HMH,
+          coll. « Constantes », 1962, p. 12.</alinea>
+      </note>
+      <note id="no2">
+        <no>2</no>
+        <alinea>N’en témoigne que sa réédition dans les collections « Nénuphar » (1950) et
+          « Bibliothèque canadienne-française » (1967) de Fides, et « Bibliothèque du Nouveau
+          Monde » (2007) aux Presses de l’Université de Montréal.</alinea>
+      </note>
+      <note id="no3">
+        <no>3</no>
+        <alinea>Voir notamment Reynouard, <marquage typemarq="italique">De l’influence des romans
+          sur les moeurs</marquage>, Avignon/Paris, Seguin aîné/Grabit, 1818, 36 p., et
+          Auguste-Charles-Henri Menche de Loisne, <marquage typemarq="italique">Influence de la
+          littérature française de 1830 à 1850 sur l’esprit public et les moeurs. Ouvrage couronné
+          par l’Académie de Châlons-sur-Marne dans sa séance solennelle du 25 septembre 1851, par
+          Charles Menche de Loisne, secrétaire général de la police à Lyon, membre de plusieurs
+          sociétés savantes</marquage>, Paris, Dentu, 1852, 420 p., cités par José-Luis Diaz,
+          « Sociologies du roman (1830-1860) », <marquage typemarq="italique">Romantisme. Revue du
+          dix-neuvième siècle</marquage>, vol. II, n<exposant>o</exposant> 160, 2013,
+          p. 79-92.</alinea>
+      </note>
+      <note id="no4">
+        <no>4</no>
+        <alinea>Henri-Raymond Casgrain, « Étude sur <marquage typemarq="italique">Angéline de
+          Montbrun</marquage> »,<marquage typemarq="italique"> Oeuvres complètes de
+          l’abbé</marquage> <marquage typemarq="italique">H.R.</marquage> <marquage typemarq="italique">Casgrain</marquage>, t. I : <marquage typemarq="italique">Légendes
+          canadiennes et variétés</marquage>, Montréal, Beauchemin &amp; Valois, 1884,
+          p. 413.</alinea>
+      </note>
+      <note id="no5">
+        <no>5</no>
+        <alinea>Charles ab der Halden, « Laure Conan », <marquage typemarq="italique">Nouvelles
+          études de littérature canadienne-française</marquage>, Paris/Montréal, F.R. de
+          Rudeval/Librairie Beauchemin, coll. « Bibliothèque canadienne », 1907, p. 198.</alinea>
+      </note>
+      <note id="no6">
+        <no>6</no>
+        <alinea>Louis Fréchette, « Petit courrier littéraire : <marquage typemarq="italique">Angéline de Montbrun</marquage> par Laure Conan », <marquage typemarq="italique">Le
+          Journal de Françoise</marquage>, vol. V, n<exposant>o</exposant> 1, 7 avril 1906,
+          p. 4.</alinea>
+      </note>
+      <note id="no7">
+        <no>7</no>
+        <alinea>Madeleine Gagnon, « <marquage typemarq="italique">Angéline de
+          Montbrun</marquage><marquage typemarq="italique"> :</marquage> le mensonge historique et
+          la subversion de la métaphore blanche », <marquage typemarq="italique">Voix et images du
+          pays</marquage>, vol. V, n<exposant>o</exposant> 1, 1972, p. 62.</alinea>
+      </note>
+      <note id="no8">
+        <no>8</no>
+        <alinea>Voir Laure Conan,<marquage typemarq="italique"> J’ai tant de sujets de désespoir.
+          Correspondance, 1878-1924</marquage>, correspondance recueillie et annotée par Jean-Noël
+          Dion, préface de Manon Brunet, Montréal, Éditions Varia, coll. « Documents et
+          biographies », 2002, p. 21.</alinea>
+      </note>
+      <note id="no9">
+        <no>9</no>
+        <alinea>La correspondance de Conan est éclairante à ce sujet, elle qui parle explicitement
+          des fonds nécessaires pour réaliser ses rêves apostoliques, comme la fondation d’une
+          communauté des Soeurs adoratrices du Précieux-Sang à Chicoutimi (<marquage typemarq="italique">ibid</marquage>., p. 78). Voir également sa lettre à soeur
+          Catherine-Aurélie-du-Précieux-Sang en date du 21 février 1879 : « Je voudrais me mettre à
+          écrire. Mon premier essai [“Un amour vrai”, 1878-1879] a été remarqué. Si c’est possible,
+          je voudrais me servir de cette aptitude pour gagner ma vie. D’ailleurs ces sortes d’écrits
+          peuvent avoir aussi leur utilité. […] Quelque chose qui puisse faire du bien et avec la
+          bénédiction d’en haut, faire aimer Dieu quand ce ne serait que d’une seule âme. »
+          <marquage typemarq="italique">Ibid</marquage>., p. 85-86.</alinea>
+      </note>
+      <note id="no10">
+        <no>10</no>
+        <alinea>Voir en particulier Nicole Bourbonnais, « <marquage typemarq="italique">Angéline de
+          Montbrun</marquage>, de Laure Conan : oeuvre palimpseste », <marquage typemarq="italique">Voix et Images</marquage>, vol. XXII, n<exposant>o</exposant> 1, automne 1996,
+          p. 80-94.</alinea>
+      </note>
+      <note id="no11">
+        <no>11</no>
+        <alinea>Mathilde Kang, <marquage typemarq="italique">Le parcours transatlantique du
+          </marquage>Journal<marquage typemarq="italique"> d’Eugénie de Guérin. Un cas de transfert
+          c</marquage><marquage typemarq="italique">ulturel (1850-1950)</marquage>, Oxford, Peter
+          Lang, coll. « French studies of the eighteenth and nineteenth centuries », 2009, 203
+          p.</alinea>
+      </note>
+      <note id="no12">
+        <no>12</no>
+        <alinea>Daniel Vaillancourt, « De Laure à Marie : généalogie d’une figure », E. D. Blodgett
+          et Claudine Potvin (dir.), <marquage typemarq="italique">Relire</marquage> Angéline de
+          Montbrun<marquage typemarq="italique"> au tournant du siècle</marquage>, Québec, Nota
+          bene, coll. « Convergences », 2006, p. 391-411.</alinea>
+      </note>
+      <note id="no13">
+        <no>13</no>
+        <alinea>Marie-Andrée Beaudet, « Laure Conan à l’épreuve du livre de piété. Hétéronomie et
+          individuation dans la littérature québécoise du dix-neuvième siècle », <marquage typemarq="italique">Voix et Images</marquage>, vol. XXXII, n<exposant>o</exposant> 3,
+          printemps 2007, p. 59-71.</alinea>
+      </note>
+      <note id="no14">
+        <no>14</no>
+        <alinea><marquage typemarq="italique">Ibid.</marquage>, p. 60.</alinea>
+      </note>
+      <note id="no15">
+        <no>15</no>
+        <alinea>Voir Georg Lukács, <marquage typemarq="italique">La théorie du roman</marquage>,
+          traduit de l’allemand par Jean Clairvoye, Genève, Gonthier, coll. « Bibliothèque
+          médiations », 1963 [1920], p. 82.</alinea>
+      </note>
+      <note id="no16">
+        <no>16</no>
+        <alinea>Bertrand Daunay, <marquage typemarq="italique">Éloge de la paraphrase</marquage>,
+          Saint-Denis, Presses universitaires de Vincennes, coll. « Essais et savoirs », 2002,
+          p. 45.</alinea>
+      </note>
+      <note id="no17">
+        <no>17</no>
+        <alinea>Voir notamment Chantal Savoie, « Persister et signer. Les signatures féminines et
+          l’évolution de la reconnaissance sociale de l’écrivaine (1893-1929) », <marquage typemarq="italique">Voix et Images</marquage>, vol. XXX, n<exposant>o</exposant> 1,
+          automne 2004, p. 67-79.</alinea>
+      </note>
+      <note id="no18">
+        <no>18</no>
+        <alinea>On peut considérer cette scénographie comme une variante du <marquage typemarq="italique">topos</marquage> du manuscrit trouvé, qui présente lui aussi une
+          mystérieuse figure éditoriale faisant office de médiateur entre l’auteur et le public.
+          Voir entre autres Christian Angelet, « Le topique du manuscrit trouvé », <marquage typemarq="italique">Cahiers de l’Association internationale des études
+          françaises</marquage>, n<exposant>o</exposant> 42, 1990, p. 165-176.</alinea>
+      </note>
+      <note id="no19">
+        <no>19</no>
+        <alinea>Voir Roger Le Moine, « Laure Conan et Pierre-Alexis Tremblay », <marquage typemarq="italique">Revue de l’Université d’Ottawa</marquage>, vol. XXXVI,
+          n<exposant>os</exposant> 2-3, 1966, p. 258-271 et p. 500-528, et « De Félicité Angers à
+          Laure Conan », Laure Conan, <marquage typemarq="italique">Oeuvres romanesques</marquage>,
+          t. 1 : <marquage typemarq="italique">Un amour vrai ; Angéline de Montbrun</marquage>,
+          édition préparée et présentée par Roger Le Moine, Montréal, Fides, coll. « Nénuphar »,
+          1974, p. 9-21.</alinea>
+      </note>
+      <note id="no20">
+        <no>20</no>
+        <alinea>Voir notamment François Gallays, « <marquage typemarq="italique">Angéline de
+          Montbrun</marquage> : reflets et redoublements. L’infra-textuel », <marquage typemarq="italique">Incidences</marquage>, vol. IV, n<exposant>o</exposant> 1,
+          janvier-avril 1980, p. 51-66, repris dans E. D. Blodgett et Claudine Potvin (dir.),
+          <marquage typemarq="italique">Relire</marquage> Angéline de Montbrun<marquage typemarq="italique"> au tournant du siècle</marquage>, p. 93-116 ; Valerie Raoul, « Les
+          journaux fictifs de Laure Conan : femmes phalliques et narcissisme moral », <marquage typemarq="italique">Distinctly Narcissistic. Diary Fiction in Quebec</marquage>, Toronto,
+          University of Toronto Press, coll. « Theory/culture », 1993, repris dans E. D. Blodgett et
+          Claudine Potvin (dir.), <marquage typemarq="italique">Relire</marquage> Angéline de
+          Montbrun<marquage typemarq="italique"> au tournant du siècle</marquage>, p. 117-158 ; et
+          E. D. Blodgett, « La séduction du père : l’exemple d’<marquage typemarq="italique">Angéline de Montbrun </marquage>de Laure Conan », Shirley Neuman et Smaro Kamboureli
+          (dir.), <marquage typemarq="italique">A Mazing Space. Writing Canadian, Women
+          Writing</marquage>, Edmonton, Longspoon/NeWest, 1988, p. 17-30, repris dans E. D. Blodgett
+          et Claudine Potvin (dir.), <marquage typemarq="italique">Relire </marquage>Angéline de
+          Montbrun<marquage typemarq="italique"> au tournant du siècle</marquage>,
+          p. 159-186.</alinea>
+      </note>
+      <note id="no21">
+        <no>21</no>
+        <alinea>Laure Conan, <marquage typemarq="italique">Angéline de Montbrun </marquage>[1884],
+          édition critique établie par Nicole Bourbonnais, Montréal, Presses de l’Université de
+          Montréal, coll. « Bibliothèque du Nouveau Monde », 2007, p. 213. Désormais, les références
+          à cet ouvrage seront indiquées par le sigle <marquage typemarq="italique">AM</marquage>
+          suivi du folio, et placées entre parenthèses dans le texte.</alinea>
+      </note>
+      <note id="no22">
+        <no>22</no>
+        <alinea>Sur le corps souffrant, voir entre autres Ariane Gibeau, « L’amour, le deuil et le
+          fracas. D’<marquage typemarq="italique">Angéline de Montbrun </marquage>de Laure Conan à
+          <marquage typemarq="italique">Désespoir de vieille fille </marquage>de Thérèse Tardif »,
+          Lori Saint-Martin et Ariane Gibeau<marquage typemarq="italique"> </marquage>(dir.),
+          <marquage typemarq="italique">Filiations du féminin</marquage>, Montréal, Institut de
+          recherches et d’études féministes/Université du Québec à Montréal, coll. « Les cahiers de
+          l’IREF/Agora », 2014, p. 29-40.</alinea>
+      </note>
+      <note id="no23">
+        <no>23</no>
+        <alinea>Rosmarin Heidenreich, « Narrative Strategies in Laure Conan’s <marquage typemarq="italique">Angéline de Montbrun</marquage> », <marquage typemarq="italique">Canadian Literature</marquage>, n<exposant>o</exposant> 81, été 1979, p. 44, et Patricia
+          Smart, « <marquage typemarq="italique">Angéline de Montbrun </marquage>or the Fall into
+          Writing », <marquage typemarq="italique">Writing in the Father’s House. The Emergence of
+          the Feminine in the Quebec Literary Tradition</marquage>, Toronto, University of Toronto
+          Press, 1991, p. 48.</alinea>
+      </note>
+      <note id="no24">
+        <no>24</no>
+        <alinea>Nicole Bourbonnais, « <marquage typemarq="italique">Angéline de Montbrun</marquage>,
+          de Laure Conan : oeuvre palimpseste ».</alinea>
+      </note>
+      <note id="no25">
+        <no>25</no>
+        <alinea>Voir Liliana Rizzuto, <marquage typemarq="italique">La rhétorique de l’éloge chez
+          les premières femmes auteurs canadiennes-françaises</marquage>, mémoire de maîtrise,
+          Montréal, Université McGill, 2012, 110 f.</alinea>
+      </note>
+      <note id="no26">
+        <no>26</no>
+        <alinea>Voir également l’analyse de Nicole Bourbonnais sur ce passage maintes fois
+          retravaillé par l’auteure (<marquage typemarq="italique">AM</marquage>, 59-60).</alinea>
+      </note>
+      <note id="no27">
+        <no>27</no>
+        <alinea>Notons au passage qu’il y a encore ici le soupçon d’un certain désir incestueux
+          entre le frère et sa soeur, lequel est comparé à l’amour entre Maurice et Angéline.
+          Inversement, on peut aussi considérer qu’Angéline n’a jamais éprouvé qu’un amour
+          strictement fraternel et platonique envers celui qui sera, pour un court moment seulement,
+          son fiancé.</alinea>
+      </note>
+      <note id="no28">
+        <no>28</no>
+        <alinea>Voir Marie-Andrée Beaudet, « Laure Conan à l’épreuve du livre de piété »,
+          p. 70-72.</alinea>
+      </note>
+      <note id="no29">
+        <no>29</no>
+        <alinea>En effet, au Canada français, le roman inspire et plaît autant qu’il effraie. Les
+          préfaces, avant-propos et autres textes liminaires se multiplient sous la plume des
+          premiers romanciers et deviennent bientôt le lieu de toutes les préventions, détrompant
+          les critiques sur le respect attendu des règles du genre, et les amateurs de feuilletons à
+          la mode sur le caractère rocambolesque du récit à suivre. Certains s’approprient
+          l’intitulé de roman de manière à le défier, comme Jules-Paul Tardivel et <marquage typemarq="italique">Pour la patrie. Roman du </marquage><marquage typemarq="italique"><marquage typemarq="petitecap">xx</marquage></marquage><exposant><marquage typemarq="italique">e</marquage></exposant> siècle (1895), qu’il désigne paradoxalement
+          comme un « roman chrétien de combat ». D’autres préfèrent remplacer l’appellation connue
+          par des sous-titres moins précis et plus évocateurs, comme le fameux « Récit de la vie
+          réelle » de <marquage typemarq="italique">Jean Rivard, le défricheur</marquage> (1874)
+          d’Antoine Gérin-Lajoie, ou les « Scènes de la vie canadienne au <marquage typemarq="petitecap">xvii</marquage><exposant>e</exposant> siècle » de <marquage typemarq="italique">François de Bienville</marquage> (1870) de Joseph Marmette.</alinea>
+      </note>
+      <note id="no30">
+        <no>30</no>
+        <alinea>Alexandre L. Amprimoz, « Signification de la multiplicité formelle de <marquage typemarq="italique">Angéline de Montbrun</marquage> de Laure Conan », <marquage typemarq="italique">Studies in Canadian Literature/Études en littérature
+          canadienne</marquage>, vol. IX, n<exposant>o</exposant> 2, juin 1984, p. 144-157.</alinea>
+      </note>
+      <note id="no31">
+        <no>31</no>
+        <alinea><marquage typemarq="italique">Ibid.</marquage>, p. 150.</alinea>
+      </note>
+      <note id="no32">
+        <no>32</no>
+        <alinea>Il est à noter que le livre<marquage typemarq="italique"> Les révélations du
+          crime</marquage> de François-Réal Angers paraît également en 1837.</alinea>
+      </note>
+      <note id="no33">
+        <no>33</no>
+        <alinea>Jacques Bénigne Bossuet, « Oraison funèbre de la duchesse d’Orléans », <marquage typemarq="italique">Oraisons funèbres</marquage>, Paris, Treuttel et Würtz, 1836, p. 61.
+          Il est à noter que Nicole Bourbonnais cite plutôt, à tort, l’oraison d’Henriette-Anne
+          Angleterre (<marquage typemarq="italique">AM, </marquage>306, note 222).</alinea>
+      </note>
+      <note id="no34">
+        <no>34</no>
+        <alinea><marquage typemarq="italique">Ibid.</marquage>, p. 62.</alinea>
+      </note>
+      <note id="no35">
+        <no>35</no>
+        <alinea>Henri-Raymond Casgrain, « Étude sur <marquage typemarq="italique">Angéline de
+          Montbrun</marquage> », p. 418.</alinea>
+      </note>
+      <note id="no36">
+        <no>36</no>
+        <alinea>Georg Lukács, <marquage typemarq="italique">La théorie du roman</marquage>,
+          p. 84.</alinea>
+      </note>
+      <note id="no37">
+        <no>37</no>
+        <alinea><marquage typemarq="italique">Ibid.</marquage>, p. 82.</alinea>
+      </note>
+      <note id="no38">
+        <no>38</no>
+        <alinea>Pierre-Joseph-Olivier Chauveau, « Une femme auteur au Canada », <marquage typemarq="italique">Nouvelles soirées canadiennes. Recueil de littérature
+          nationale</marquage>, vol. IV, n<exposant>o</exposant> 2, février 1885, p. 63.</alinea>
+      </note>
+      <note id="no39">
+        <no>39</no>
+        <alinea>Gilles Marcotte, <marquage typemarq="italique">Une littérature qui se
+          fait</marquage>, p. 16.</alinea>
+      </note>
+      <note id="no40">
+        <no>40</no>
+        <alinea><marquage typemarq="italique">Ibid.</marquage>, p. 12.</alinea>
+      </note>
+    </grnote></partiesann></article>
