@@ -268,6 +268,28 @@ class TestArticleSavantComplet(object):
             ],
         }
 
+        assert self.test_objects['1056361ar.xml'].get_titles() == {
+            'main': Title(
+                title='UN ROMAN &#171;&#160;N&#201; DANS SA PROPRE N&#201;GATION&#160;&#187;',
+                subtitle='L&#8217;articulation du litt&#233;raire et du religieux dans&#160;<em>Ang&#233;line</em> <em>de</em> <em>Montbrun</em> de Laure Conan',  # noqa
+                lang='fr',
+            ),
+            'paral': [],
+            'equivalent': [
+                Title(
+                    title='A NOVEL &#8220;BORN IN ITS OWN NEGATION&#8221;',
+                    subtitle='THE ARTICULATION OF THE LITERARY AND THE RELIGIOUS IN LAURE CONAN&#8217;S <em>ANG&#201;LINE DE MONTBRUN</em>',  # noqa
+                    lang='en',
+                ),
+                Title(
+                    title='UNA NOVELA &#8220;NACIDA EN SU PROPIA NEGACI&#211;N&#8221;',
+                    subtitle='LA ARTICULACI&#211;N DE LO LITERARIO Y LO RELIGIOSO EN <em>ANG&#201;LINE DE MONTBRUN</em>, DE LAURE CONAN',  # noqa
+                    lang='es',
+                ),
+            ],
+            'reviewed_works': [],
+        }
+
     def test_can_return_formatted_titles(self):
         EXPECTED = "Esth&#233;tique et s&#233;miotique\xa0: pr&#233;sentation / Aesthetics and Semiotics: presentation"  # noqa
         assert self.test_objects['1005860ar.xml'].get_formatted_html_title() == EXPECTED
