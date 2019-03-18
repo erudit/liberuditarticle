@@ -236,6 +236,12 @@
     </sup>
 </xsl:template>
 
+<xsl:template match="indice">
+    <sub>
+        <xsl:apply-templates/>
+    </sub>
+</xsl:template>
+
 <xsl:template match="*">
     <xsl:copy>
         <xsl:apply-templates/>

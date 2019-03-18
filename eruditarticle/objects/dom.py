@@ -73,10 +73,14 @@ class DomObject:
         _node = xslt.marquage_to_html(node)
         # Strip all other tags but keep text
         et.strip_tags(
-            _node,
-            *[
-                node.tag, 'caracunicode', 'citation', 'equationligne', 'exposant', 'indice',
-                'liensimple', 'marquepage', 'objetmedia', 'renvoi'
+            _node, *[
+                node.tag,
+                'caracunicode',
+                'citation',
+                'equationligne',
+                'liensimple',
+                'marquepage',
+                'objetmedia',
             ])
         _html = et.tostring(_node.getroot(), method='html')
         output = _html.split(b'>', 1)[1].rsplit(b'<', 1)[0]
