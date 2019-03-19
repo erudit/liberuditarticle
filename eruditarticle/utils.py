@@ -2,6 +2,7 @@
 
 from __future__ import unicode_literals
 import io
+import re
 
 import lxml.etree as et
 
@@ -35,3 +36,13 @@ def remove_xml_namespaces(treedom):
     xslt_doc = et.parse(io.StringIO(drop_namespace_xslt))
     transform = et.XSLT(xslt_doc)
     return transform(treedom)
+
+
+def normalize_whitespace(s):
+    """ Returns `s` with all whitespaces deduplicated and normalized
+
+    That is, newlines and tabs converted to space.
+    """
+    if not s:
+        return s
+    return re.sub(r'[ \n\r\t]+', ' ', s.strip())

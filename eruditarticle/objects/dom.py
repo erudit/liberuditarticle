@@ -3,6 +3,7 @@ from copy import copy
 import lxml.etree as et
 
 from .. import xslt
+from ..utils import normalize_whitespace
 
 
 class DomObject:
@@ -80,4 +81,4 @@ class DomObject:
             ])
         _html = et.tostring(_node.getroot(), method='html')
         output = _html.split(b'>', 1)[1].rsplit(b'<', 1)[0]
-        return output.decode('utf-8')
+        return normalize_whitespace(output.decode('utf-8'))

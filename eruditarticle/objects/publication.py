@@ -6,7 +6,6 @@ except ImportError:
     _ = lambda x: x  # noqa
 
 import collections
-import re
 import itertools
 import roman
 from datetime import datetime
@@ -89,8 +88,6 @@ class EruditPublication(
                 parser_method = self.stringify_children
 
             alineas_content = parser_method(note_elem, strip_elements=['auteur'])
-            # '\s+' will match all consecutive white spaces, even line breaks.
-            alineas_content = re.sub('\\s+', ' ', alineas_content)
 
             authors = [Person(author) for author in note_elem.findall('auteur')]
 
