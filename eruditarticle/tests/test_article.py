@@ -81,6 +81,10 @@ class TestGetAbstracts:
     def test_can_convert_renvoi_to_footnote_links_in_title(self, value):
         assert value[0]['title'] == 'R&#233;sum&#233;&#160;<a href="#no1" id="re1no1" class="norenvoi">[1]</a>'  # noqa
 
+    @with_value('1056946ar.xml', 'get_abstracts', html=True)
+    def test_can_convert_indice_tag_to_sub_tag(self, value):
+        assert value[0]['content'] == """<p class="alinea">Apr&#232;s avoir rappel&#233; les contextes th&#233;orique et &#233;conomique dans lequel s&#8217;inscrit cet article, nous pr&#233;sentons un premier mod&#232;le &#233;conom&#233;trique existant d&#8217;&#233;lasticit&#233;-prix. Puis, nous introduisons un mod&#232;le micro-&#233;conomique dynamique en partant de l&#8217;exemple concret d&#8217;une compagnie d&#8217;assurance non-vie qui souhaite changer de strat&#233;gie de renouvellement. Nous &#233;tudions les effets de son choix de prix (primes) sur son portefeuille et son chiffre d&#8217;affaires, dans un contexte de concurrence. La variation du nombre de contrats en portefeuille et du chiffre d&#8217;affaires de la compagnie entre deux instants t<sub>0</sub> et t<sub>1</sub> est d&#233;termin&#233;e. Une application num&#233;rique sur trois branches d&#8217;assurance d&#8217;entreprises pr&#233;c&#232;de la conclusion.</p>"""  # noqa
+
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/keywords', EruditArticle)
 class TestGetKeywords:

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://www.erudit.org/xsd/article" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.erudit.org/xsd/article http://www.erudit.org/xsd/article/3.0.0/eruditarticle.xsd" qualtraitement="minimal" idproprio="1056946ar" typeart="article" lang="fr" ordseq="3"><admin><infoarticle><idpublic scheme="doi">10.7202/1056946ar</idpublic><pagination>
+            <ppage>209</ppage>
+            <dpage>223</dpage>
+            
+            
+            
+        </pagination></infoarticle><revue id="agr02665" lang="fr en"><titrerev>Assurances et gestion des risques</titrerev><titrerevparal lang="en">Insurance and Risk Management</titrerevparal><titrerevabr>agr</titrerevabr><idissn>1705-7299</idissn><idissnnum>2371-4913</idissnnum><directeur sexe="masculin"><fonction lang="fr">Directeur</fonction><nompers><prenom>Philippe</prenom><nomfamille>Grégoire</nomfamille></nompers></directeur></revue><numero id="agr04372"><volume>85</volume><nonumero>3</nonumero><nonumero>4</nonumero><pub><periode>Décembre</periode><annee>2018</annee></pub><pubnum><date typedate="publication">2019-03-05</date></pubnum></numero><editeur><nomorg>Faculté des sciences de l'administration, Université Laval</nomorg></editeur><prodnum><nomorg>Érudit</nomorg></prodnum><diffnum><nomorg>Érudit</nomorg></diffnum><schema nom="Erudit Article" version="3.0.0" lang="fr"/><droitsauteur>Tous droits réservés © <nomorg>Faculté des sciences de l'administration, Université Laval</nomorg>, 2019</droitsauteur></admin><liminaire><grtitre>
+                <titre>Stratégie de prix d’une société d’assurance non-vie</titre>
+                
+        </grtitre><grauteur><auteur id="au1"><nompers><prenom>Frédéric</prenom><nomfamille>Eichel</nomfamille></nompers></auteur></grauteur><resume typeresume="resume" lang="fr"><alinea>Après avoir rappelé les contextes théorique et économique dans lequel s’inscrit cet article, nous présentons un premier modèle économétrique existant d’élasticité-prix. Puis, nous introduisons un modèle micro-économique dynamique en partant de l’exemple concret d’une compagnie d’assurance non-vie qui souhaite changer de stratégie de renouvellement. Nous étudions les effets de son choix de prix (primes) sur son portefeuille et son chiffre d’affaires, dans un contexte de concurrence. La variation du nombre de contrats en portefeuille et du chiffre d’affaires de la compagnie entre deux instants t<indice>0</indice> et t<indice>1</indice> est déterminée. Une application numérique sur trois branches d’assurance d’entreprises précède la conclusion.</alinea></resume><resume typeresume="resume" lang="en"><alinea>After recalling the theoretical and economic contexts which surround this paper, we present a first existing econometric model dealing with price-elasticity. Then we introduce a dynamic microeconomic model based on the concrete example of a non-life insurance company which wants to change its renewal strategy. We study the consequences of its price (premium) strategy on its portfolio and turnover, in a competitive market. The evolution of the company’s portfolio and turnover is determined. Three numerical examples for commercial lines of business follow, before concluding.</alinea></resume><grmotcle lang="fr"><motcle>assurance non-vie ou IARD</motcle><motcle>microéconomie</motcle><motcle>économétrie</motcle><motcle>stratégie</motcle><motcle>renouvellement</motcle><motcle>concurrence</motcle></grmotcle><grmotcle lang="en"><motcle>non-life insurance</motcle><motcle>microeconomics</motcle><motcle>econometrics</motcle><motcle>strategy</motcle><motcle>renewal</motcle><motcle>competition</motcle></grmotcle></liminaire><corps lang="fr"><texte typetexte="libre">Stratégie de prix d’une société d’assurance non-vie
+
+Frédéric Eichel1
+
+Résumé
+
+Après avoir rappelé les contextes théorique et économique dans lequel s’inscrit cet article, nous présentons un premier modèle économétrique existant d’élasticité-prix. Puis, nous introduisons un modèle micro-économique dynamique en partant de l’exemple concret d’une compagnie d’assurance non-vie qui souhaite changer de stratégie de renouvellement. Nous étudions les effets de son choix de prix (primes) sur son portefeuille et son chiffre d’affaires, dans un contexte de concurrence. La variation du nombre de contrats en portefeuille et du chiffre d’affaires de la compagnie entre deux instants t0 et t1 est déterminée. Une application numérique sur trois branches d’assurance d’entreprises précède la conclusion.
+
+Mots clés : assurance non-vie ou IARD, microéconomie, économétrie, stratégie, renouvellement, concurrence
+
+Abstract
+
+After recalling the theoretical and economic contexts which surround this paper, we present a first existing econometric model dealing with price-elasticity. Then we introduce a dynamic microeconomic model based on the concrete example of a non-life insurance company which wants to change its renewal strategy. We study the consequences of its price (premium) strategy on its portfolio and turnover, in a competitive market. The evolution of the company’s portfolio and turnover is determined. Three numerical examples for commercial lines of business follow, before concluding.
+
+Keywords: non-life insurance, microeconomics, econometrics, strategy, renewal, competition
+
+INTRODUCTION
+
+Cet article s’inscrit dans la branche de la théorie microéconomique qui vise à rationaliser les choix des agents économiques en situations risquées, soit la « Théorie de la décision en environnement incertain ».
+
+Dès 1738, le paradoxe de Saint-Pétersbourg révèle l’insuffisance du critère de l’espérance mathématique (ou de valeur actuelle probable) pour évaluer le coût associé à un ensemble de versements futurs aléatoires. Pour lever ce paradoxe, Daniel Bernoulli introduit à cette époque le principe qui porte son nom. Selon ce principe, un agent économique confronté à des décisions risquées choisirait celle qui maximise l’espérance mathématique de la fonction d’utilité de son revenu ou de sa richesse nette, ce revenu dépendant de la décision prise.
+
+Beaucoup plus tard, dans les années 30, John von Neumann (le mathématicien) et Oskar Morgenstern (l’économiste) axiomatisent ce principe et introduisent la notion d’aversion au risque. On parle depuis lors de fonction d’utilité de VNM. Leur livre « Theory of Games and Economic Behavior », dont la première édition date de 1944, est le point de départ de la théorie des jeux (à somme nulle), que poursuit John Nash dans les années 50 avec sa notion d’équilibre.
+
+Cet article s’inscrit également dans le cadre de la « Théorie microéconomique de l’assurance ». Celle-ci est née dans les années 60 de la rencontre entre un actuaire norvégien, Karl Borch, et un économiste américain, Kenneth Arrow, Prix Nobel en 1972, alors qu’actuariat et théorie économique avaient auparavant connu des développements complètement indépendants. Borch voulait fournir un fondement théorique satisfaisant à certaines pratiques tarifaires, notamment en réassurance. Arrow cherchait un champ d’application à cette toute jeune discipline qu’était l’Économie de l’incertain, qu’il avait contribué à faire naître. À noter aussi, l’article fondateur de George Arthur Akerlof (1970), Prix Nobel en 2001.
+
+La théorie de la décision en environnement incertain fournit un fondement solide à l’étude des comportements des ménages en matière d’assurance non-vie et d’assurance vie-capitalisation, et aussi à celle des comportements des entreprises en termes de stratégie de prix et de produits en fonction de leurs coûts, de leur environnement concurrentiel, de leur taille et des caractéristiques de la demande.
+
+L’une des principales contributions d’Arrow à l’Économie de l’incertain a été d’étendre à un contexte aléatoire le modèle d’Équilibre Général qu’il avait développé par ailleurs avec Gérard Debreu, Prix Nobel en 1983, dans les années 50. Ils définissent la notion de bien contingent comme étant un bien dont la livraison est conditionnelle à la réalisation d’un événement aléatoire. Le meilleur exemple concret de bien contingent est sans doute celui d’un contrat d’assurance. Les recherches de l’économiste français Maurice Allais, Prix Nobel en 1988, dont Gérard Debreu était l’élève à la fin des années 40, sont aussi remarquables.
+
+Les travaux d’Arrow ont été poursuivis en France par Edmond Malinvaud, qui a pu clarifier la distinction entre risque diversifiable (qui est donc assurable) et risque non-diversifiable (qui est éventuellement réassurable). Borch, quant à lui, a montré que l’application du Modèle d’Équilibre Général aux marchés de la réassurance pouvait fournir un fondement théorique solide aux pratiques tarifaires dans cette branche.
+
+À la fin des années 60 s’est développée une réflexion sur les asymétries d’information entre agents économiques pouvant exister sur les marchés d’assurance non-vie, en particulier par Rothschild et Stiglitz, Prix Nobel en 2001. Les notions d’anti-sélection et d’aléa moral (ou risque moral) apparaissent à cette époque.
+
+Dans les années 80 a émergé une nouvelle branche de la microéconomie moderne, à savoir la « Nouvelle économie industrielle », en particulier en France grâce aux travaux de Jean-Jacques Laffont, Dominique Henriet, Jean-Charles Rochet, Patrick Rey et Jean Tirole, Prix Nobel en 2014, suivis dans les années 90 et 2000 par ceux de Pierre-André Chiappori et Bernard Salanié. Apparaissent alors les notions de contraintes verticales par l’approche principal-agent, les systèmes de bonus-malus et l’approfondissement des notions de concurrence par les prix et d’équilibre de marché. Cette nouvelle branche peut apporter un éclairage intéressant sur les questions, toujours actuelles, de la distribution de l’assurance : le rôle des intermédiaires dans la personnalisation des produits, la concurrence entre sociétés selon leur forme juridique et leur mode de distribution et les incitations à donner aux agents généraux d’assurance. Cf. aussi Eichel (1986). De son côté, Georges Dionne, au Canada, s’intéresse aussi à l’assurance, en particulier à la notion d’anti-sélection.
+
+L’absence d’équilibre au sens de Rothschild et Stiglitz dans un certain cas a beaucoup intrigué les économistes et plusieurs solutions ont été proposées afin de rétablir l’existence d’un équilibre. En 1977, Wilson propose la définition d’un équilibre dit « anticipatif ». Plus récemment, en 2000 et 2014, Picard a proposé une solution impliquant non pas un changement du concept d’équilibre, mais plus de liberté dans la construction des contrats d’assurance. Il a notamment montré qu’en acceptant que les contrats soient participatifs, le problème d’existence disparaissait.
+
+Dans le même ordre d’idée, en 2010 et 2015, Mimra et Wambach ont montré qu’un équilibre au sens de Rothschild et Stiglitz existait quelle que soit la configuration, lorsque les assurés prennent en compte la possibilité pour un assureur de faire faillite (sans changer la définition de l’équilibre).
+
+Depuis les années 2000 jusqu’à aujourd’hui, Béatrice Rey-Fournier et quelques autres chercheurs se sont intéressé à la question théorique de la répartition et du partage des risques, ainsi qu’à l’aversion au risque, avec des applications possibles en assurance.
+
+Nous commençons par décrire le contexte économique de la société d’assurance considérée (1). Puis, nous présentons un premier modèle économétrique d’élasticité-prix qui a fait ses preuves (2), mais qui ne raisonne qu’avec des variables internes à la compagnie d’assurance et à ses clients, sans tenir compte directement du contexte concurrentiel. Nous introduisons alors notre modèle microéconomique (3), qui permet de calculer théoriquement l’évolution du portefeuille et du chiffre d’affaires de la société d’assurance considérée entre deux instants t0 et t1, en fonction de sa stratégie de prix, pour une branche ou un segment donné. Les questions de concurrence et d’information imparfaite sont discutées. Une application numérique suit (4), avant la conclusion (5) et la bibliographie (6).
+
+1. Contexte économique
+
+Dans ce travail, nous étudions les conséquences du changement de stratégie de renouvellement au terme d’une compagnie d’assurance non-vie. Celle-ci décide de mettre fin à la pratique de taux de majoration élevés, afin de poursuivre la croissance de son chiffre d’affaires grâce à l’effet volume plus que grâce à l’effet prix, qui atteint ses limites. Le principe opérationnel de ce changement de stratégie est que la baisse des taux de majoration peut libérer du temps dans les équipes de production : au lieu d’en passer à travailler la qualité du portefeuille ou à défendre les contrats en cours, elles pourront souscrire des affaires nouvelles avec les intermédiaires et les résiliations suite à la majoration seront moins nombreuses. Elle mandate alors le(la) responsable de son actuariat afin de construire un nouveau modèle statistico-économique de renouvellement permettant de faire le lien entre un effet de prix divisé par deux et un objectif de croissance des affaires nouvelles de 20 % et de baisse des résiliations de 17 %.
+
+2. Modèle économétrique
+
+La notion d’élasticité-prix est centrale dans ce type de modèle. Une approche intéressante a été développée par Hamel (2007), qui étudie le modèle suivant :
+
+où :
+
+    * P est la probabilité que l’assuré résilie son contrat
+    * qi, ∀i = 1 à n sont les variables qualitatives du modèle
+    * nivprim est le niveau de prime
+    * diff_an est le rapport entre la prime et le tarif affaire nouvelle
+    * αi, ∀i = 1 à n ; βi, ∀i = 1 à n* ; δdiff_an ; μnivprim sont les paramètres estimés du modèle.
+
+n est le nombre de variables qualitatives et n* est le nombre de variables qualitatives qui seront croisées avec le niveau de prime.
+
+Elle définit l’élasticité ε de l’acte de résiliation au prix p comme le rapport entre le taux de croissance de la probabilité de résilier et le taux de croissance de la prime :
+
+Ce modèle étudie l’influence des variables caractéristiques de l’assuré et du niveau de prime sur l’acte de résiliation du client.
+
+C’est un bon modèle explicatif, qui a fait ses preuves, d’abord en Auto du particulier puis en Auto entreprise, mais il ne tient pas compte directement de la concurrence par les prix entre compagnies, car c’est un modèle économétrique.
+
+3. Un modèle microéconomique
+
+Nous proposons une alternative, avec un modèle microéconomique dans lequel la concurrence entre sociétés d’assurance est directement prise en compte à travers les prix (primes) qu’elles pratiquent.
+
+Nos entretiens avec des souscripteurs en responsabilité civile et en risque industriel font apparaître que la concurrence sur ces marchés se fait directement par le niveau des prix et non par leur variation, même si une variation comme l’est une majoration au terme peut entraîner une mise en concurrence du teneur de l’affaire.
+
+Les souscripteurs doivent s’aligner sur le prix le plus bas du marché pour conclure l’affaire nouvelle ou pour ne pas la perdre au renouvellement, la qualité de la prestation (gestion des sinistres, etc.) étant considérée comme acquise par le prospect ou le client.
+
+Cependant, une part des assurés est sensible aux prix et va faire jouer la concurrence entre assureurs et une part opposée y est moins sensible ou ne les connaît pas et gardera son assureur actuel.
+
+Nous présentons un modèle dynamique, dans lequel nous étudions l’évolution du portefeuille et du chiffre d’affaires de la société d’assurance entre deux instants t0 et t1, en fonction de sa stratégie de prix, pour une branche ou un segment donné.
+
+Notations
+
+À l’instant t0, la branche considérée est constituée de N0 contrats de prime moyenne p0.
+
+La prime portefeuille (ou le chiffre d’affaires) est alors égale à CA0 = p0 * N0.
+
+Soit τ le pourcentage de majoration appliqué au portefeuille de cette branche à t0.
+
+Soit AN (resp. Résiliations) le nombre d’affaires nouvelles (resp. des résiliations) faites dans la période [t0 ; t1].
+
+Soit pAN la prime moyenne des affaires nouvelles de la branche.
+
+Les résiliations sont supposées sortir à la prime moyenne du portefeuille de départ, soit p0.
+
+À l’instant t1, on a alors :
+
+N1 = N0 + AN - Résil
+
+CA1 = CA0 * (1 + τ) + pAN * AN - p0 * Résil
+
+p1 = CA1  ⁄  N1 .
+
+Les affaires nouvelles représentent les affaires prises à la concurrence.
+
+Les résiliations représentent les affaires gagnées par la concurrence.
+
+Dans le contexte des risques d’entreprises que nous privilégions ici, la loi Hamon ne s’applique pas et les résiliations par les clients ne peuvent s’effectuer qu’à l’échéance du contrat, avec un préavis qui est généralement de 2 mois. Les résiliations peuvent être consécutives à la réception de l’avis d’échéance par le client, qui constate la majoration du tarif de son contrat de τ % et décide de comparer les prix et de partir ou bien résulter de « l’attaque » de l’affaire par un concurrent, sur un marché dominé par le courtage.
+
+Nous notons α la part des assurés sensibles au prix. α correspond aux mouvements de la branche (ou du segment) entre t0 et t1.
+
+Si τ augmente, α2 augmente, car le client va résilier son contrat plus facilement.
+
+Stratégie de prix
+
+Nous appelons pB le prix le plus bas du marché à l’instant t0 pour la branche ou le segment considéré :
+
+    * Si p0 &gt; pB, une part α2 de la branche va quitter la compagnie
+    * Si pAN ≤ pB, une part α1 de la branche va être souscrite par la compagnie
+    * Si p0 ≤ pB, il n’y aura pas de résiliations
+    * Si pAN &gt; pB, il n’y aura pas d’affaires nouvelles.
+
+Le prix moyen p0 subit l’inertie et l’histoire de la branche : il est donc peu ajustable par la société d’assurance.
+
+En revanche, le tarif des affaires nouvelles pAN est plus discrétionnaire et peut être l’objet de la stratégie de la société.
+
+Nous nous plaçons au départ dans une hypothèse de concurrence pure et parfaite sur le marché considéré, ce qui fait que dès que p0 &gt; pB, une part α2 de la branche va quitter la compagnie.
+
+Mais notre modèle s’applique aussi dans l’hypothèse d’une information incomplète, avec par exemple une certaine proportion des clients qui ne connaîtrait pas les prix de la concurrence par défaut d’information ou manque de volonté de s’informer, car il suffit d’appliquer à α2 un facteur multiplicatif.
+
+La notion de « sensibilité au prix » permet de synthétiser ces deux effets. De plus, en calculant α2 à partir d’un nombre de résiliations réel, nous prenons en compte les deux effets ci-dessus.
+
+La variation de portefeuille entre l’instant t0 et l’instant t1 peut alors être résumée ainsi :
+
+pAN \ p0
+
+&gt; pB
+
+≤ pB
+
+&gt; pB
+
+-α2 (1)
+
+0 (2)
+
+≤ pB
+
+α1 - α2 (3)
+
+α1 (4)
+
+Le nouveau chiffre d’affaires à l’instant t1 s’écrit alors, selon les quatre cas de figure ci-dessus :
+
+1) CA1 = CA0 * (1 + τ) – α2p0N0 = N0 * p0 * (1 + τ - α2 )
+
+2) CA1 = CA0 * (1 + τ) = N0 * p0 * (1 + τ)
+
+3) CA1 = CA0 * (1 + τ) – α2 p0N0 + α1pANN0 = N0 * [p0 * (1 + τ - α2 ) + α1 * pAN ]
+
+4) CA1 = CA0 * (1 + τ) + α1pANN0 = N0 * [p0 * (1 + τ) + α1 * pAN]
+
+La variation de chiffre d’affaires entre l’instant t0 et l’instant t1 peut alors être résumée ainsi :
+
+pAN \ p0
+
+&gt; pB
+
+≤ pB
+
+&gt; pB
+
+τ - α2 (1)
+
+τ (2)
+
+≤ pB
+
+τ - α2 + α1 * (pAN/p0 ) (3)
+
+τ + α1 * (pAN/p0 ) (4)
+
+Dans la pratique, t1 et t0 sont souvent distants d’un an, par exemple lorsqu’on envisage le renouvellement d’une branche au 1er janvier N puis au 1er janvier N + 1.
+
+À l’instant t1, les paramètres du modèle auront évolué, soit du fait de la compagnie seule (pAN et p0 ), soit du fait de la compagnie et de ses concurrentes (pB ), et la stratégie peut se poursuivre (ou changer).
+
+4. Application numérique
+
+Les données sont extraites d’un portefeuille réel mais ont été modifiées par souci de confidentialité. Les ordres de grandeur ont cependant été conservés.
+
+Risque industriel
+
+Responsabilité civile
+
+Flottes auto dénommées
+
+Ptf à fin décembre N
+
+41.267
+
+95.300
+
+33.349
+
+Prime moyenne du ptf (p0)
+
+10.522 €
+
+4.113 €
+
+10.838 €
+
+Nb d’AN année N
+
+5.536
+
+11.271
+
+3.636
+
+Nb d’AN année N-1
+
+5.801
+
+11.471
+
+3.737
+
+Nb d’AN année N-2
+
+5.989
+
+10.756
+
+4.245
+
+Taux moyen d’AN (α1)
+
+14,0 %
+
+11,7 %
+
+11,6 %
+
+Prime moyenne des AN (pAN)
+
+6.900 €
+
+3.453 €
+
+6.737 €
+
+Nb de résiliations année N
+
+4.862
+
+10.048
+
+3.682
+
+Nb de résiliations année N-1
+
+5.134
+
+11.382
+
+3.555
+
+Nb de résiliations année N-2
+
+4.841
+
+10.862
+
+3.192
+
+Taux moyen de résiliation (α2)
+
+12,0 %
+
+11,3 %
+
+10,4 %
+
+Taux moyen de majoration (τ) N+1
+
+ 2,7 %
+
+ 2,3 %
+
+ 5,0 %
+
+Risque industriel
+
+    * Évolution du portefeuille
+
+pAN \ p1
+
+&gt; pB
+
+≤ pB
+
+&gt; pB
+
+-12 %
+
+0 %
+
+≤ pB
+
+2 %
+
+14 %
+
+    * Évolution du chiffre d’affaires
+
+pAN \ p1
+
+&gt; pB
+
+≤ pB
+
+&gt; pB
+
+-9,3 %
+
+2,7 %
+
+≤ pB
+
+-0,12 %
+
+11,9 %
+
+Responsabilité civile
+
+    * Évolution du portefeuille
+
+pAN \ p1
+
+&gt; pB
+
+≤ pB
+
+&gt; pB
+
+-11,3 %
+
+0
+
+≤ pB
+
+0,4 %
+
+11,7 %
+
+    * Évolution du chiffre d’affaires
+
+pAN \ p1
+
+&gt; pB
+
+≤ pB
+
+&gt; pB
+
+-9,0 %
+
+2,3 %
+
+≤ pB
+
+0,82 %
+
+12,1 %
+
+Flottes automobiles dénommées
+
+    * Évolution du portefeuille
+
+pAN \ p1
+
+&gt; pB
+
+≤ pB
+
+&gt; pB
+
+-10,4 %
+
+0 %
+
+≤ pB
+
+1,2 %
+
+11,6 %
+
+    * Évolution du chiffre d’affaires
+
+pAN \ p1
+
+&gt; pB
+
+≤ pB
+
+&gt; pB
+
+-5,4 %
+
+5 %
+
+≤ pB
+
+1,8 %
+
+12,2 %
+
+5. Conclusion
+
+Après avoir décrit le contexte économique du renouvellement de cette compagnie d’assurance, plutôt spécialisée dans les risques d’entreprises, nous avons présenté un premier modèle économétrique, qui cherche à expliquer l’acte de résiliation d’un client par le niveau de sa prime et ses caractéristiques internes ou externes. C’est un bon modèle qui a fait ses preuves, mais il ne prend pas en compte directement la concurrence entre les prix des sociétés d’assurance.
+
+Nous proposons une alternative avec un modèle microéconomique dynamique.
+
+Les hypothèses, les notations et la stratégie de prix de la compagnie sont décrites.
+
+Nous discutons des questions de concurrence et d’information avant de calculer théoriquement l’évolution du portefeuille et du chiffre d’affaires de cette société d’assurance entre deux instants t0 et t1. Ce schéma peut alors se prolonger à des périodes futures.
+
+Dans une application numérique réaliste, nous démontrons que les affaires nouvelles et les résiliations ont pratiquement le même effet sur les évolutions à la fois du portefeuille et du chiffre d’affaires : presque neutre lorsqu’elles s’opposent et diamétralement opposé lorsqu’elles vont dans le même sens.
+
+Les résultats chiffrés obtenus sur les grandes branches considérées peuvent alors être affinés selon le segment de risque auquel on s’intéresse, à l’intérieur de ces grandes branches.
+
+Aujourd’hui, des techniques informatiques plus sophistiquées permettent d’aller plus loin que notre modèle. Celui-ci permet cependant d’obtenir des ordres de grandeur réalistes avec une simple calculatrice, libre aux compagnies d’investir en temps et en ressources humaines ou dans un logiciel adapté si elles souhaitent avoir des résultats plus précis.
+
+6. Bibliographie
+
+   1. Akerlof, G. A., 1970, « The market for “lemons” : quality uncertainty and the market mechanism ». Quarterly Journal of Economics 74, 488-500.
+   2. Allais, M., 1953, « Le comportement de l’homme rationnel devant le risque, critique des postulats et axiomes de l’école américaine ». Econometrica 21, 503-546.
+   3. Ania, A., T. Tröger and A. Wambach, 2002, « An evolutionary analysis of insurance markets with adverse selection ». Games and Economic Behavior 40, 153-184.
+   4. Arnott, R. and J. E. Stiglitz, 1988, « Randomization with asymmetric information ». RAND Journal of Economics 19, 344-362.
+   5. Arnott, R. and J. E. Stiglitz, 1988, « The basic analytics of moral hazard ». Scandinavian Journal of Economics 90, 383-413.
+   6. Arrow, K. J., 1963, « Uncertainty and the welfare economics of medical care ». American Economic Review 53, 941-969.
+   7. Arrow, K. J., 1974, « Optimal insurance and generalized deductibles ». Scandinavian Actuarial Journal 1, 1-42.
+   8. Arrow, K. J., 1974, « Essays in the Theory of Risk-Bearing ». Amsterdam and Oxford. North-Holland.
+   9. Borch, K., 1962, « Equilibrium in a reinsurance market ». Econometrica 30, 424-444.
+  10. Borch, K., 1968, « The Economics of Uncertainty ». Princeton University Press.
+  11. Borch, K., 1974, « The Mathematical Theory of Insurance ». Lexington books (Mass).
+  12. Borch, K., 1981, « Is regulation of insurance companies necessary ? » In : H. Göppl and R. Henn, eds. : Geld, Banken und Versicherungen, Vol. 2. Königstein, pp. 717-731.
+  13. Champsaur, P. and J.-C. Rochet, 1989, « Multiproduct duopolists ». Econometrica 57, 533-557.
+  14. Chiappori, P. A., I. Macho, P. Rey and B. Salanié, 1994, « Repeated moral hazard : the role of memory, commitment and the access to credit markets ». European Economic Review 38, 1527-1553.
+  15. Chiappori, P. A. and B. Salanié, 2000, « Testing for asymmetric information in insurance markets ». Journal of Political Economy 108, 56-78.
+  16. Chiappori, P. A., B. Jullien, B. Salanié and F. Salanié, 2006, « Asymmetric information in insurance : general testable implications ». RAND Journal of Economics 37(4), 783-798.
+  17. Chiu, H., L. Eeckhoudt and B. Rey-Fournier, 2012, « On relative and partial risk attitudes : theory and implications ». Economic Theory, 50, 151-167.
+  18. Courbage C. and B. Rey-Fournier, 2012, « Optimal prevention and other risks in a two-period model ». Mathematical Social Sciences 63, 213-217.
+  19. Courbage C. and B. Rey-Fournier, 2016, « On ambiguity apportionment ». Journal of Economics 18(3), 265-275.
+  20. Debreu, G., 1959, « Theory of Value : An axiomatic analysis of general equilibrium ». Yale University Press, New Haven.
+  21. Denuit, M. and B. Rey-Fournier, 2013, « Another look at risk apportionment ». Journal of Mathematical Economics 49, 335-343.
+  22. Denuit M. and B. Rey-Fournier, 2014, « Benchmark values for higher order coefficients of relative risk aversion ». Theory and Decision 76, 81-94.
+  23. Diamond, P. and M. Rothschild, 1978, « Uncertainty in Economics, readings and exercises ». Academic Press.
+  24. Dionne, G., 1983, « Adverse selection and repeated insurance contracts ». Les Cahiers de Genève 8, 316-332.
+  25. Dionne, G. and P. Lasserre, 1985, « Adverse selection, repeated insurance contracts and announcement strategy ». Review of Economic Studies 70, 719-723.
+  26. Dionne, G. and N. A. Doherty, 1994, « Adverse selection, commitment, and renegotiation : Extension to and evidence from insurance markets ». Journal of Political Economy 102, 209-235.
+  27. Dionne, G., 2000, Handbook of Insurance. Kluwer.
+  28. Eichel, F., Gibart P. and E. Michel, 1986, « Forme juridique et distribution des assurances ». Groupe de travail et mémoire d’actuariat. ENSAE, Palaiseau.
+  29. Fudenberg, D. and J. Tirole, 1990, « Moral hazard and renegotiation in agency contracts ». Econometrica 58, 1279-1319.
+  30. Hamel, S., 2007, « Prédiction de l’acte de résiliation de l’assuré et optimisation de la performance en assurance automobile particulier ». Mémoire d’actuariat. ENSAE, Palaiseau.
+  31. Helpman, E. and J.-J. Laffont, 1975, « On moral hazard in general equilibrium theory ». Journal of Economic Theory 10, 8-23.
+  32. Henriet, D. and J.-C. Rochet, 1987, « Some reflections on insurance pricing ». European Economic Review 31, 863-885.
+  33. Henriet, D. and J.-C. Rochet, 1988, « Equilibres et optima sur les marchés d’assurance : une illustration des phénomènes d’anti-sélection – Mélanges économiques en l’honneur d’Edmond Malinvaud », Economica-EHESS, Paris.
+  34. Henriet, D. and J.-C. Rochet, 1991, Microéconomie de l’assurance. Economica, Paris.
+  35. Laffont, J.-J., 1983, Cours de théorie microéconomique. Vol. 1 : Fondements de l’économie publique. Vol. 2 : Economie de l’incertain et de l’information. Economica, Paris.
+  36. Laffont, J.-J. and alii, 1986, Numéro spécial sur l’économie industrielle. Annales d’économie et de statistique, janvier-mars 1986.
+  37. Laffont, J.-J., 1987, Le risque moral dans la relation de mandat. Revue économique.
+  38. Malinvaud, E., 1972, « The allocation of individual risks in large markets ». Journal of Economic Theory 5, 312-328.
+  39. Malinvaud, E., 1973, « Markets for an exchange economy with individual risks ». Econometrica 41, 393-410.
+  40. Mimra, W. and A. Wambach, 2015, « Endogenous capital in the Rothschild-Stiglitz model ». Mimeo.
+  41. Nash J., 1950, « Equilibrium points in n-person games ». PNAS 36 n°1.
+  42. Nash J., 1950, « The Bargaining Problem ». Econometrica 18, 155-162.
+  43. Nash J., 1951, « Non-cooperative games ». Annals of Mathematics 54, 286-295.
+  44. Picard, P., 2000, « Economic analysis of insurance fraud ». In : G. Dionne, ed. : Handbook of Insurance Economics. Boston, pp. 315-362.
+  45. Picard, P., 2014, « Participating insurance contracts and the Rothschild-Stiglitz equilibrium puzzle ». Geneva Risk and Insurance Review 39, 153-175.
+  46. Rey P. and J. Tirole, 1986, « The logic of vertical restraints ». Document de travail INSEE.
+  47. Rothschild, M. and J. Stiglitz, 1970, « Increasing risk 1 : a definition ». Journal of Economic Theory 2, 225-243.
+  48. Rothschild, M. and J. Stiglitz, 1971, « Increasing risk 2 : its economic consequences ». Journal of Economic Theory 3, 66-84.
+  49. Rothschild, M. and J. Stiglitz, 1976, « Equilibrium in competitive insurance markets ». Quarterly Journal of Economics 11, 629-649.
+  50. Stiglitz, J., 1977, « Monopoly, non-linear pricing and imperfect information : the insurance market ». Review of Economic Studies 44, 407-430.
+  51. Strohmenger, R. and A. Wambach, 2000, « Adverse selection and categorical discrimination in the health insurance markets : The effects of genetic tests ». Journal of Health Economics 19(2), 197-218.
+  52. Sülzle, K. and A. Wambach, 2005, « Insurance in a market for credence goods ». Journal of Risk and Insurance 72, 159-176.
+  53. Tirole, J., 1985, Concurrence imparfaite. Economica, Paris.
+  54. Tirole, J., 1986, « Hierarchies and bureaucracies : on the role of collusion in organizations ». Journal of Law, Economics and Organization 2, 181-214.
+  55. Von Neumann, J. and O. Morgenstern, 1944, 1947, 1953, Theory of Games and Economic Behavior. Harvard University Press.
+  56. Wambach, A., 2000, « Introducing heterogeneity in the Rothschild– Stiglitz model ». Journal of Risk and Insurance 67, 579-591.
+  57. Wilson, C., 1977, « A model of insurance markets with incomplete information ». Journal of Economic Theory 16, 176-207.
+
+Note
+
+1. Actuaire, consultant indépendant, AFE Conseil, contact@actuaire-iard.fr
+</texte></corps><partiesann lang="fr"><grbiblio><biblio><refbiblio id="rb1"><no>[1]</no>Akerlof, G. A., 1970, « The market for “lemons” : quality uncertainty and the market mechanism ». Quarterly Journal of Economics 74, 488-500. </refbiblio>
+      <refbiblio id="rb2"><no>[2]</no>Allais, M., 1953, « Le comportement de l’homme rationnel devant le risque, critique des postulats et axiomes de l’école américaine ». Econometrica 21, 503-546. </refbiblio>
+      <refbiblio id="rb3"><no>[3]</no>Ania, A., T. Tröger and A. Wambach, 2002, « An evolutionary analysis of insurance markets with adverse selection ». Games and Economic Behavior 40, 153-184. </refbiblio>
+      <refbiblio id="rb4"><no>[4]</no>Arnott, R. and J. E. Stiglitz, 1988, « Randomization with asymmetric information ». RAND Journal of Economics 19, 344-362. </refbiblio>
+      <refbiblio id="rb5"><no>[5]</no>Arnott, R. and J. E. Stiglitz, 1988, « The basic analytics of moral hazard ». Scandinavian Journal of Economics 90, 383-413. </refbiblio>
+      <refbiblio id="rb6"><no>[6]</no>Arrow, K. J., 1963, « Uncertainty and the welfare economics of medical care ». American Economic Review 53, 941-969. </refbiblio>
+      <refbiblio id="rb7"><no>[7]</no>Arrow, K. J., 1974, « Optimal insurance and generalized deductibles ». Scandinavian Actuarial Journal 1, 1-42. </refbiblio>
+      <refbiblio id="rb8"><no>[8]</no>Arrow, K. J., 1974, « Essays in the Theory of Risk-Bearing ». Amsterdam and Oxford. North-Holland. </refbiblio>
+      <refbiblio id="rb9"><no>[9]</no>Borch, K., 1962, « Equilibrium in a reinsurance market ». Econometrica 30, 424-444. </refbiblio>
+      <refbiblio id="rb10"><no>[10]</no>Borch, K., 1968, « The Economics of Uncertainty ». Princeton University Press. </refbiblio>
+      <refbiblio id="rb11"><no>[11]</no>Borch, K., 1974, « The Mathematical Theory of Insurance ». Lexington books (Mass). </refbiblio>
+      <refbiblio id="rb12"><no>[12]</no>Borch, K., 1981, « Is regulation of insurance companies necessary ? » In : H. Göppl and R. Henn, eds. : Geld, Banken und Versicherungen, Vol. 2. Königstein, pp. 717-731. </refbiblio>
+      <refbiblio id="rb13"><no>[13]</no>Champsaur, P. and J.-C. Rochet, 1989, « Multiproduct duopolists ». Econometrica 57, 533-557. </refbiblio>
+      <refbiblio id="rb14"><no>[14]</no>Chiappori, P. A., I. Macho, P. Rey and B. Salanié, 1994, « Repeated moral hazard : the role of memory, commitment and the access to credit markets ». European Economic Review 38, 1527-1553. </refbiblio>
+      <refbiblio id="rb15"><no>[15]</no>Chiappori, P. A. and B. Salanié, 2000, « Testing for asymmetric information in insurance markets ». Journal of Political Economy 108, 56-78. </refbiblio>
+      <refbiblio id="rb16"><no>[16]</no>Chiappori, P. A., B. Jullien, B. Salanié and F. Salanié, 2006, « Asymmetric information in insurance : general testable implications ». RAND Journal of Economics 37(4), 783-798. </refbiblio>
+      <refbiblio id="rb17"><no>[17]</no>Chiu, H., L. Eeckhoudt and B. Rey-Fournier, 2012, « On relative and partial risk attitudes : theory and implications ». Economic Theory, 50, 151-167. </refbiblio>
+      <refbiblio id="rb18"><no>[18]</no>Courbage C. and B. Rey-Fournier, 2012, « Optimal prevention and other risks in a two-period model ». Mathematical Social Sciences 63, 213-217. </refbiblio>
+      <refbiblio id="rb19"><no>[19]</no>Courbage C. and B. Rey-Fournier, 2016, « On ambiguity apportionment ». Journal of Economics 18(3), 265-275. </refbiblio>
+      <refbiblio id="rb20"><no>[20]</no>Debreu, G., 1959, « Theory of Value : An axiomatic analysis of general equilibrium ». Yale University Press, New Haven. </refbiblio>
+      <refbiblio id="rb21"><no>[21]</no>Denuit, M. and B. Rey-Fournier, 2013, « Another look at risk apportionment ». Journal of Mathematical Economics 49, 335-343. </refbiblio>
+      <refbiblio id="rb22"><no>[22]</no>Denuit M. and B. Rey-Fournier, 2014, « Benchmark values for higher order coefficients of relative risk aversion ». Theory and Decision 76, 81-94. </refbiblio>
+      <refbiblio id="rb23"><no>[23]</no>Diamond, P. and M. Rothschild, 1978, « Uncertainty in Economics, readings and exercises ». Academic Press. </refbiblio>
+      <refbiblio id="rb24"><no>[24]</no>Dionne, G., 1983, « Adverse selection and repeated insurance contracts ». Les Cahiers de Genève 8, 316-332. </refbiblio>
+      <refbiblio id="rb25"><no>[25]</no>Dionne, G. and P. Lasserre, 1985, « Adverse selection, repeated insurance contracts and announcement strategy ». Review of Economic Studies 70, 719-723. </refbiblio>
+      <refbiblio id="rb26"><no>[26]</no>Dionne, G. and N. A. Doherty, 1994, « Adverse selection, commitment, and renegotiation : Extension to and evidence from insurance markets ». Journal of Political Economy 102, 209-235. </refbiblio>
+      <refbiblio id="rb27"><no>[27</no>Dionne, G., 2000, Handbook of Insurance. Kluwer. </refbiblio>
+      <refbiblio id="rb28"><no>[28]</no>Eichel, F., Gibart P. and E. Michel, 1986, « Forme juridique et distribution des assurances ». Groupe de travail et mémoire d’actuariat. ENSAE, Palaiseau. </refbiblio>
+      <refbiblio id="rb29"><no>[29]</no>Fudenberg, D. and J. Tirole, 1990, « Moral hazard and renegotiation in agency contracts ». Econometrica 58, 1279-1319. </refbiblio>
+      <refbiblio id="rb30"><no>[30]</no>Hamel, S., 2007, « Prédiction de l’acte de résiliation de l’assuré et optimisation de la performance en assurance automobile particulier ». Mémoire d’actuariat. ENSAE, Palaiseau. </refbiblio>
+      <refbiblio id="rb31"><no>[31]</no>Helpman, E. and J.-J. Laffont, 1975, « On moral hazard in general equilibrium theory ». Journal of Economic Theory 10, 8-23. </refbiblio>
+      <refbiblio id="rb32"><no>[32]</no>Henriet, D. and J.-C. Rochet, 1987, « Some reflections on insurance pricing ». European Economic Review 31, 863-885. </refbiblio>
+      <refbiblio id="rb33"><no>[33]</no>Henriet, D. and J.-C. Rochet, 1988, « Equilibres et optima sur les marchés d’assurance : une illustration des phénomènes d’anti-sélection – Mélanges économiques en l’honneur d’Edmond Malinvaud », Economica-EHESS, Paris. </refbiblio>
+      <refbiblio id="rb34"><no>[34]</no>Henriet, D. and J.-C. Rochet, 1991, Microéconomie de l’assurance. Economica, Paris. </refbiblio>
+      <refbiblio id="rb35"><no>[35]</no>Laffont, J.-J., 1983, Cours de théorie microéconomique. Vol. 1 : Fondements de l’économie publique. Vol. 2 : Economie de l’incertain et de l’information. Economica, Paris. </refbiblio>
+      <refbiblio id="rb36"><no>[36]</no>Laffont, J.-J. and alii, 1986, Numéro spécial sur l’économie industrielle. Annales d’économie et de statistique, janvier-mars 1986. </refbiblio>
+      <refbiblio id="rb37"><no>[37]</no>Laffont, J.-J., 1987, Le risque moral dans la relation de mandat. Revue économique. </refbiblio>
+      <refbiblio id="rb38"><no>[38]</no>Malinvaud, E., 1972, « The allocation of individual risks in large markets ». Journal of Economic Theory 5, 312-328. </refbiblio>
+      <refbiblio id="rb39"><no>[39]</no>Malinvaud, E., 1973, « Markets for an exchange economy with individual risks ». Econometrica 41, 393-410. </refbiblio>
+      <refbiblio id="rb40"><no>[40]</no>Mimra, W. and A. Wambach, 2015, « Endogenous capital in the Rothschild-Stiglitz model ». Mimeo. </refbiblio>
+      <refbiblio id="rb41"><no>[41]</no>Nash J., 1950, « Equilibrium points in n-person games ». PNAS 36 n°1. </refbiblio>
+      <refbiblio id="rb42"><no>[42]</no>Nash J., 1950, « The Bargaining Problem ». Econometrica 18, 155-162. </refbiblio>
+      <refbiblio id="rb43"><no>[43]</no>Nash J., 1951, « Non-cooperative games ». Annals of Mathematics 54, 286-295. </refbiblio>
+      <refbiblio id="rb44"><no>[44]</no>Picard, P., 2000, « Economic analysis of insurance fraud ». In : G. Dionne, ed. : Handbook of Insurance Economics. Boston, pp. 315-362. </refbiblio>
+      <refbiblio id="rb45"><no>[45]</no>Picard, P., 2014, « Participating insurance contracts and the Rothschild-Stiglitz equilibrium puzzle ». Geneva Risk and Insurance Review 39, 153-175. </refbiblio>
+      <refbiblio id="rb46"><no>[46]</no>Rey P. and J. Tirole, 1986, « The logic of vertical restraints ». Document de travail INSEE. </refbiblio>
+      <refbiblio id="rb47"><no>[47]</no>Rothschild, M. and J. Stiglitz, 1970, « Increasing risk 1 : a definition ». Journal of Economic Theory 2, 225-243. </refbiblio>
+      <refbiblio id="rb48"><no>[48]</no>Rothschild, M. and J. Stiglitz, 1971, « Increasing risk 2 : its economic consequences ». Journal of Economic Theory 3, 66-84. </refbiblio>
+      <refbiblio id="rb49"><no>[49]</no>Rothschild, M. and J. Stiglitz, 1976, « Equilibrium in competitive insurance markets ». Quarterly Journal of Economics 11, 629-649. </refbiblio>
+      <refbiblio id="rb50"><no>[50]</no>Stiglitz, J., 1977, « Monopoly, non-linear pricing and imperfect information : the insurance market ». Review of Economic Studies 44, 407-430. </refbiblio>
+      <refbiblio id="rb51"><no>[51]</no>Strohmenger, R. and A. Wambach, 2000, « Adverse selection and categorical discrimination in the health insurance markets : The effects of genetic tests ». Journal of Health Economics 19(2), 197-218. </refbiblio>
+      <refbiblio id="rb52"><no>[52]</no>Sülzle, K. and A. Wambach, 2005, « Insurance in a market for credence goods ». Journal of Risk and Insurance 72, 159-176. </refbiblio>
+      <refbiblio id="rb53"><no>[53]</no>Tirole, J., 1985, Concurrence imparfaite. Economica, Paris. </refbiblio>
+      <refbiblio id="rb54"><no>[54]</no>Tirole, J., 1986, « Hierarchies and bureaucracies : on the role of collusion in organizations ». Journal of Law, Economics and Organization 2, 181-214. </refbiblio>
+      <refbiblio id="rb55"><no>[55]</no>Von Neumann, J. and O. Morgenstern, 1944, 1947, 1953, Theory of Games and Economic Behavior. Harvard University Press. </refbiblio>
+      <refbiblio id="rb56"><no>[56]</no>Wambach, A., 2000, « Introducing heterogeneity in the Rothschild– Stiglitz model ». Journal of Risk and Insurance 67, 579-591. </refbiblio>
+      <refbiblio id="rb57"><no>[57]</no>Wilson, C., 1977, « A model of insurance markets with incomplete information ». Journal of Economic Theory 16, 176-207. </refbiblio></biblio></grbiblio></partiesann></article>
