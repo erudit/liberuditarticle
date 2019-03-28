@@ -37,26 +37,18 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """
         abstracts = []
         languages = self.get_languages()
+        if html:
+            parser_method = self.convert_marquage_content_to_html
+        else:
+            parser_method = self.stringify_children
         for abstract_dom in self.findall('resume'):
 
             abstract = {
                 'lang': abstract_dom.get('lang'),
-                'typeresume': abstract_dom.get('typeresume')
+                'typeresume': abstract_dom.get('typeresume'),
+                'title': parser_method(abstract_dom.find('titre'), strip_elements=[]),
+                'content': parser_method(abstract_dom, strip_elements=['titre']),
             }
-
-            title_dom = abstract_dom.find('titre')
-            if title_dom is not None:
-                abstract['title'] = title_dom.text
-
-            if html:
-                abstract['content'] = self.convert_marquage_content_to_html(
-                    abstract_dom, strip_elements=[]
-                )
-            else:
-                abstract["content"] = "".join(
-                    self.stringify_children(n) or ''
-                    for n in self.findall("alinea", dom=abstract_dom)
-                )
 
             try:
                 if languages.index(abstract["lang"]) == 0:
