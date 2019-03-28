@@ -37,15 +37,19 @@ class EruditBaseObject(DomObject):
 
     def _format_single_title(self, title):
         """ format a Title namedtuple """
-        if title.lang == "fr":
-            separator = "\xa0: "
+        if title.title[-1] in '.!?':
+            separator = ' '
         else:
-            separator = ": "
+            if title.lang == "fr":
+                separator = "\xa0: "
+            else:
+                separator = ": "
         if title.title and title.subtitle:
             return "{title}{separator}{subtitle}".format(
                 title=title.title,
                 separator=separator,
-                subtitle=title.subtitle
+                subtitle=title.subtitle[:1].lower() + title.subtitle[1:]
+                if ':' in separator else title.subtitle,
             )
         return "{title}".format(
             title=title.title

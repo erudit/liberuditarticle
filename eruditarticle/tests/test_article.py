@@ -268,8 +268,30 @@ class TestArticleSavantComplet(object):
             ],
         }
 
+        assert self.test_objects['1056361ar.xml'].get_titles() == {
+            'main': Title(
+                title='UN ROMAN &#171;&#160;N&#201; DANS SA PROPRE N&#201;GATION&#160;&#187;',
+                subtitle='L&#8217;articulation du litt&#233;raire et du religieux dans&#160;<em>Ang&#233;line</em> <em>de</em> <em>Montbrun</em> de Laure Conan',  # noqa
+                lang='fr',
+            ),
+            'paral': [],
+            'equivalent': [
+                Title(
+                    title='A NOVEL &#8220;BORN IN ITS OWN NEGATION&#8221;',
+                    subtitle='THE ARTICULATION OF THE LITERARY AND THE RELIGIOUS IN LAURE CONAN&#8217;S <em>ANG&#201;LINE DE MONTBRUN</em>',  # noqa
+                    lang='en',
+                ),
+                Title(
+                    title='UNA NOVELA &#8220;NACIDA EN SU PROPIA NEGACI&#211;N&#8221;',
+                    subtitle='LA ARTICULACI&#211;N DE LO LITERARIO Y LO RELIGIOSO EN <em>ANG&#201;LINE DE MONTBRUN</em>, DE LAURE CONAN',  # noqa
+                    lang='es',
+                ),
+            ],
+            'reviewed_works': [],
+        }
+
     def test_can_return_formatted_titles(self):
-        EXPECTED = "Esth&#233;tique et s&#233;miotique\xa0: Pr&#233;sentation / Aesthetics and Semiotics: Presentation"  # noqa
+        EXPECTED = "Esth&#233;tique et s&#233;miotique\xa0: pr&#233;sentation / Aesthetics and Semiotics: presentation"  # noqa
         assert self.test_objects['1005860ar.xml'].get_formatted_html_title() == EXPECTED
         assert self.test_objects['1005860ar.xml'].get_title(formatted=True, html=True) == EXPECTED
 
@@ -322,6 +344,10 @@ class TestArticleSavantComplet(object):
         html = self.test_objects['1001948ar.xml'].get_html_body()
         assert 'Ferreira' in html
 
+    def test_get_formatted_title(self):
+        # There should not be a capital letter after a colon.
+        assert self.test_objects['1056361ar.xml'].get_formatted_title() == 'UN ROMAN « NÉ DANS SA PROPRE NÉGATION » : l’articulation du littéraire et du religieux dans Angéline de Montbrun de Laure Conan'  # noqa
+
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/savant/minimal', EruditArticle)
 class TestArticleSavantMinimal(object):
@@ -339,6 +365,10 @@ class TestArticleSavantMinimal(object):
 
     def test_can_return_titles_with_malformed_grtitre(self):
         assert self.test_objects['001296ar.xml'].get_formatted_title() is not None
+
+    def test_get_formatted_title(self):
+        # There should not be a colon after a punctuation.
+        assert self.test_objects['1054095ar.xml'].get_formatted_title() == 'Un français de référence acadien en émergence ? Étude sur les représentations métalexicographiques contemporaines de particularismes acadiens'  # noqa
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/format_person_name/', EruditArticle)

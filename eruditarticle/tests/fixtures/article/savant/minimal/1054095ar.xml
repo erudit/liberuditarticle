@@ -1,0 +1,3540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://www.erudit.org/xsd/article" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.erudit.org/xsd/article http://www.erudit.org/xsd/article/3.0.0/eruditarticle.xsd" qualtraitement="minimal" idproprio="1054095ar" typeart="article" lang="fr" ordseq="2" idref="th1"><admin><infoarticle><idpublic scheme="doi">10.7202/1054095ar</idpublic><pagination>
+            <ppage>23</ppage>
+            <dpage>53</dpage>
+            
+            
+            
+        </pagination></infoarticle><revue id="minling048" lang="fr en"><titrerev>Minorités linguistiques et société</titrerev><titrerevparal lang="en">Linguistic Minorities and Society</titrerevparal><titrerevabr>minling</titrerevabr><idissnnum>1927-8632</idissnnum><directeur sexe="masculin"><nompers><prenom>Réal</prenom><nomfamille>Allard</nomfamille></nompers></directeur><redacteurchef typerc="invite" idrefs="th1" sexe="masculin"><nompers><prenom>Martin</prenom><nomfamille>Normand</nomfamille></nompers></redacteurchef><redacteurchef typerc="invite" idrefs="th1" sexe="masculin"><nompers><prenom>Clint</prenom><nomfamille>Bruce</nomfamille></nompers></redacteurchef><redacteurchef typerc="invite" idrefs="th1" sexe="feminin"><nompers><prenom>Mariève</prenom><nomfamille>Forest</nomfamille></nompers></redacteurchef></revue><numero id="minling04132"><nonumero>10</nonumero><pub><annee>2018</annee></pub><pubnum><date typedate="publication">2018-11-28</date></pubnum><grtheme id="th1"><theme>Revisiter la question du pouvoir en francophonie canadienne</theme><themeparal lang="en">Revisiting the Issue of Power in the Canadian Francophonie</themeparal></grtheme></numero><editeur><nomorg>Institut canadien de recherche sur les minorités linguistiques / Canadian Institute for Research on Linguistic Minorities</nomorg></editeur><prodnum><nomorg>Érudit</nomorg></prodnum><diffnum><nomorg>Érudit</nomorg></diffnum><schema nom="Erudit Article" version="3.0.0" lang="fr"/><droitsauteur>Tous droits réservés © <nomorg>Institut canadien de recherche sur les minorités linguistiques / Canadian Institute for Research on Linguistic Minorities</nomorg>, 2018</droitsauteur></admin><liminaire><grtitre><surtitre>Articles</surtitre>
+                <titre>Un français de référence acadien en émergence ?</titre>
+                <sstitre>Étude sur les représentations métalexicographiques contemporaines de particularismes acadiens</sstitre>
+        </grtitre><grauteur><auteur id="au1"><nompers><prenom>Hélène</prenom><nomfamille>Labelle</nomfamille></nompers><affiliation><alinea><marquage typemarq="italique">Université d’Ottawa</marquage></alinea></affiliation><courriel><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:href="mailto:helene.labelle.ling@gmail.com" xlink:type="simple">helene.labelle.ling@gmail.com</liensimple></courriel></auteur></grauteur><resume typeresume="resume" lang="fr"><alinea>Cet article a pour objectif d’analyser le traitement métalexicographique de particularismes acadiens au sein de quatre dictionnaires contemporains d’approche générale de langue française, dans le but de dégager leurs métadiscours respectifs portant sur la légitimité de la variété acadienne et de son lexique. Pour y arriver, nous avons d’abord analysé les textes liminaires des quatre ouvrages lexicographiques. Puis, pour sonder leur nomenclature, nous avons étudié le traitement métalexicographique d’une liste préétablie d’emplois acadiens de la <marquage typemarq="italique">Base de données lexicographiques panfrancophone</marquage> (Dubois et Chevalier, 2006). Nos résultats montrent que les dictionnaires traitent d’une manière inégale les variétés de français en usage au Canada. En détaillant l’acceptabilité de certains usages acadiens encadrés de normes linguistiques contraignantes et les relations entretenues entre la variété acadienne et la variété laurentienne (souvent nommée québécoise) dans ces ouvrages, nous concluons qu’un français de référence acadien est en émergence dans une partie de la lexicographie canadienne.</alinea></resume><resume typeresume="resume" lang="en"><alinea>This article analyzes the metalexicographic treatment of Acadian particularisms in four contemporary French language dictionaries of the 21<exposant>st</exposant> century, to identify their respective metadiscourses on the legitimacy of the Acadian variety and its lexicon. First, we analyzed the introductory texts of the four dictionaries. We then studied their nomenclatures using a pre-established list of the Acadian French lexicon, from a panfrancophone lexicographic database: <marquage typemarq="italique">Base de données lexicographiques panfrancophone</marquage> (Dubois &amp; Chevalier, 2006). Our results demonstrate that the dictionaries treat different varieties of French unevenly and point to the presence of an emerging standard Acadian French, characterized by legitimate words, different registers and sociolinguistic interactions with other French varieties.</alinea></resume><grmotcle lang="fr"><motcle>Acadie</motcle><motcle>lexicographie</motcle><motcle>dictionnaire</motcle><motcle>norme</motcle><motcle>métadiscours</motcle></grmotcle><grmotcle lang="en"><motcle>Acadie</motcle><motcle>lexicography</motcle><motcle>dictionary</motcle><motcle>standard</motcle><motcle>metadiscourse</motcle></grmotcle></liminaire><corps lang="fr"><texte typetexte="libre">Un français de référence acadien en émergence ? Étude sur les représentations métalexicographiques contemporaines de particularismes acadiens
+
+Hélène Labelle
+
+Université d’Ottawa
+
+Résumé
+
+Cet article a pour objectif d’analyser le traitement métalexicographique de particularismes acadiens au sein de quatre dictionnaires contemporains d’approche générale de langue française, dans le but de dégager leurs métadiscours respectifs portant sur la légitimité de la variété acadienne et de son lexique. Pour y arriver, nous avons d’abord analysé les textes liminaires des quatre ouvrages lexicographiques. Puis, pour sonder leur nomenclature, nous avons étudié le traitement métalexicographique d’une liste préétablie d’emplois acadiens de la Base de données lexicographiques panfrancophone (Dubois et Chevalier, 2006). Nos résultats montrent que les dictionnaires traitent d’une manière inégale les variétés de français en usage au Canada. En détaillant l’acceptabilité de certains usages acadiens encadrés de normes linguistiques contraignantes et les relations entretenues entre la variété acadienne et la variété laurentienne (souvent nommée québécoise) dans ces ouvrages, nous concluons qu’un français de référence acadien est en émergence dans une partie de la lexicographie canadienne.
+
+Abstract
+
+This article analyzes the metalexicographic treatment of Acadian particularisms in four contemporary French language dictionaries of the 21st century, to identify their respective metadiscourses on the legitimacy of the Acadian variety and its lexicon. First, we analyzed the introductory texts of the four dictionaries. We then studied their nomenclatures using a pre-established list of the Acadian French lexicon, from a panfrancophone lexicographic database: Base de données lexicographiques panfrancophone (Dubois &amp; Chevalier, 2006). Our results demonstrate that the dictionaries treat different varieties of French unevenly and point to the presence of an emerging standard Acadian French, characterized by legitimate words, different registers and sociolinguistic interactions with other French varieties.
+
+Les questions du pouvoir des communautés francophones au Canada se transportent au sein même des outils métalinguistiques à la disposition des locuteurs en situation minoritaire ; les ouvrages de référence linguistiques portent en eux les luttes idéologiques sur la légitimité des variétés de langue1, voire contribuent à leur existence (Vargas, 1993 : 38 ; Calvet, 1999 : 28 ; Gadet, 2007 : 22). Traversés de discours métalinguistiques qui nous renseignent sur la vitalité de différents usages, les ouvrages de référence peuvent être étudiés afin de jeter un regard analytique sur l’état actuel des normes linguistiques encouragées et présentes dans le discours social et, au contraire, de celles qui sont restreintes et absentes. Parmi ces ouvrages, les dictionnaires de langue sont souvent perçus comme les gardiens du bon usage ; ils sont reconnus comme dépositaires de la norme linguistique à enseigner et à privilégier dans les situations formelles de société, orales comme écrites. Aux yeux de nombre de locuteurs, les dictionnaires sont représentatifs d’une autorité qu’on ne peut réfuter ; ils détiennent en ce sens un pouvoir institutionnel auprès des usagers, qui s’en servent pour alors légitimer ou exclure des vocables de leur vocabulaire ou de celui des autres.
+
+Or, comme toute norme sociale, celle présente dans un dictionnaire de langue reste une construction qui suit un courant idéologique sociolinguistique. De plus, bien qu’il ait un service langagier à remplir auprès de ses usagers, un dictionnaire est un indicateur du prestige d’une variété de langue en lui accordant une forme de légitimité (Bourdieu, 2001 : 74) ; quand un dictionnaire intègre un vocable à sa nomenclature ou utilise un marquage de registre (ex. : Familier) ou encore géographique (ex. : Canada), un métadiscours à la fois descriptif et normatif se met en place. Le marquage diatopique, aussi nommé géolinguistique, participe à la reconnaissance de répertoires lexicaux distincts des diverses aires de la francophonie ; la variation géolinguistique décrite dans les dictionnaires généraux de langue participe de ce fait à la légitimation des variétés de français. L’analyse comparative des métadiscours lexicographiques permet alors de révéler l’évolution de divers enjeux, entre autres reliés aux perceptions et aux représentations sociolinguistiques de différentes variétés (Poisson, 2002 : 103).
+
+L’étude des métadiscours lexicographiques au Canada est d’autant plus intéressante que l’on observe sur ce territoire la circulation de dictionnaires dont l’horizon et l’approche sont variés, et ce, pour concilier simultanément plusieurs idéologies linguistiques concurrentes portant sur ce à quoi le français de référence du pays devrait correspondre2. Les dictionnaires d’approche générale, c’est-à-dire ceux qui décrivent le français dans sa globalité, et les dictionnaires d’approche différentielle, ceux qui recensent uniquement les particularités d’une variété donnée, occupent un même espace, et ce, tout en étant d’origines diverses : acadienne, française, laurentienne… La majorité des ressources lexicographiques canadiennes sont conçues au Québec (Farina, 2001) ; c’est la seule province à avoir d’ailleurs émis des dictionnaires d’approche générale de la langue française de variété laurentienne, et ce, depuis 1988 : le Dictionnaire du français plus : à l’usage des francophones d’Amérique (Poirier, 1988), le Dictionnaire québécois d’aujourd’hui (Boulanger et Rey, 1992) et Usito (Cajolet-Laganière, Martel et Masson, 2014), anciennement appelé Franqus, ce dernier étant uniquement disponible en ligne ; leur contenu métalinguistique reste néanmoins mal connu, particulièrement en lien avec le traitement de vocables des francophonies canadiennes minoritaires, dont ceux appartenant au lexique acadien.
+
+La variété acadienne dans la lexicographie canadienne et française
+
+La dernière étude se penchant sur la place de l’Acadie dans les dictionnaires canadiens d’approche générale remonte à 1996 ; Gabrielle Saint-Yves avait alors étudié les préfaces et la nomenclature du Dictionnaire du français plus : à l’usage des francophones d’Amérique (Poirier, 1988) et du Dictionnaire québécois d’aujourd’hui (Boulanger et Rey, 1993[1992]), ainsi que de quelques dictionnaires réalisés en France (Le Nouveau Petit Robert, 1993 ; le Dictionnaire Hachette encyclopédique, 1994 ; le Petit Larousse, 1993). Ses résultats montraient que « l’Acadie occup[ait] une place marginale » (1996 : 177) dans les dictionnaires français. Concernant le contenu des dictionnaires canadiens, Saint-Yves recensait une courte liste de 14 « mots spécifiquement acadiens […] ou employés surtout en Acadie » (1996 : 183) dans le Dictionnaire du français plus : à l’usage des francophones d’Amérique3 et indiquait que l’on « rencontr[ait] dans le Dictionnaire québécois d’aujourd’hui quelques emplois lexicaux qui [étaient] spécifiques à l’Acadie », en énumérant ensuite aboiteau, chiac et poutine (1996 : 186). L’auteure remarquait aussi que leurs préfaces signalaient toutes deux l’Acadie comme détenant une place importante dans la francophonie canadienne et mondiale, mais elle concluait que « le français acadien et les références à l’Acadie, implicites ou explicites, demeur[aient] complémentaires à la description d’une autre réalité linguistique et culturelle, à savoir celle du Québec » (1996 : 187).
+
+Depuis, en lien avec le développement de travaux sur les particularités lexicales de la variété acadienne, les métadiscours d’ouvrages différentiels ont été examinés par différentes études métalexicographiques (Péronnet, 1995, 1993 ; Gauvin, 2014 ; Arrighi, 2014 ; Arrighi et Gauvin, 2014), mais non pas d’approche générale. Au sujet des ouvrages différentiels sur la variété acadienne, il a été énoncé qu’ils perpétuent généralement des usages patrimoniaux, parfois obsolètes, qui « mêlent défense de la langue et défense de la culture » et qui ne tendent qu’à « valoriser le peuple acadien et à documenter une partie de ses usages (essentiellement passés), [présentant] néanmoins l’inconvénient de nier tout changement ou du moins de ne pas l’illustrer » (Arrighi et Gauvin, 2014 : 352-353). En plus de réclamer un vocabulaire plus contemporain et moins monolithique dans les ouvrages lexicographiques, Gauvin appelle à la production de dictionnaires qui « devront aborder les divers problèmes liés à l’explication des registres de langue » (2014 : 75).
+
+De quelle manière les dictionnaires d’approche générale de langue française d’aujourd’hui répondent-ils à ce souhait ? Dans quelle perspective les particularismes acadiens sont-ils dépeints dans ces réalisations dictionnairiques contemporaines ? Nous proposons dans cet article d’éclaircir ces points en étudiant le traitement métalexicographique de particularismes acadiens dans trois dictionnaires canadiens et un dictionnaire français d’approche générale de langue française du XXIe siècle : le Multidictionnaire de la langue française (2003) (désormais le Multi), le dictionnaire de langue française intégré d’Antidote 8.5 avec l’option linguistique Québec/Canada (Druide informatique, 2015) (désormais Antidote), le dictionnaire en ligne Usito (Cajolet-Laganière et coll., 2014) et la version numérique 4.2 du dictionnaire Le Petit Robert de la langue française (Rey, 2016) (désormais Petit Robert)4. Quels usages lexicaux identifiés comme acadiens y sont présentés ; quelles normes linguistiques sont reliées à ces derniers ; enfin, de manière plus générale, comment sont présentées les variétés laurentienne et acadienne au sein des discours métalexicographiques ?
+
+De tels objectifs soulèvent un certain nombre de problèmes d’ordre méthodologique : pour les réaliser, devait-on faire l’inventaire de tous les vocables notés « acadianisme » ou « Acadie », ou encore relever les références implicites ou explicites à l’Acadie dans la nomenclature de ces ouvrages lexicographiques à l’instar de Saint-Yves ? De plus, puisqu’il est souligné que le lexique acadien retenu par l’activité lexicographique moderne est généralement désuet, pouvait-on seulement mesurer la place réelle des pratiques lexicales acadiennes au sein d’outils linguistiques contemporains ? Or, même vieilli, il reste que le lexique acadien retenu par les ouvrages différentiels est mis de l’avant comme portion légitime du vocabulaire acadien. Par conséquent, les caractéristiques linguistiques acadiennes présentes dans les ouvrages lexicographiques d’approche générale seront le plus souvent celles qui ont été dégagées par les travaux acadiens précédents et qui circulent dans divers discours.
+
+Suivant ce postulat, nous avons décidé de rechercher une liste préétablie d’emplois dits « représentatifs du français de l’Acadie » dans notre corpus dictionnairique ; nous avons sélectionné les 250 premiers emplois acadiens de la Base de données lexicographiques panfrancophone (section Acadie) (désormais BDLP-Acadie) (Dubois et Chevalier, 20065) pour en étudier le traitement métalexicographique dans notre corpus. Rappelons que la BDLP-Acadie « s’appuie sur les données des répertoires portant sur le français acadien, sur celles du fichier du Centre d’études acadiennes et sur celles du fichier du Trésor de la langue française au Québec (Université Laval) » (Dubois et Chevalier, 2006). Elle est composée de 520 fiches qui s’apparentent à des articles de dictionnaire ; on y retrouve le particularisme acadien, suivi de l’indication de la catégorie grammaticale, de la transcription phonétique et d’une définition. Les fiches ont été bâties à la suite de la consultation de glossaires et de travaux sur la variété acadienne6. On peut retrouver la liste des 250 acceptions retenues7 en première colonne de l’annexe8. Dans cette même annexe, nous avons également placé la liste des attestations de chacune des acceptions avec leurs marques d’usage respectives.
+
+Dans le but de répondre à nos objectifs de recherche, nous procéderons en deux étapes. Nous présenterons d’abord les dictionnaires de notre corpus en précisant la place qu’ils offrent aux particularismes acadiens, tout en dégageant le français de référence qui est indiqué comme privilégié. Puis, nous étudierons le traitement métalexicographique des particularismes acadiens à l’étude dans la nomenclature des dictionnaires de notre corpus9. Cela nous permettra de mettre en lumière les représentations sociolinguistiques contemporaines de ces vocables, pour finalement montrer qu’il existe un français de référence acadien en voie de légitimation au sein d’un des dictionnaires de notre corpus, Antidote. Cela nous permettra en dernière instance de penser au pouvoir symbolique qu’occupent les différentes variétés de français au Canada.
+
+Présentation des dictionnaires étudiés
+
+Les textes liminaires qui précèdent le contenu lexicographique d’un dictionnaire permettent de mieux saisir son orientation générale, notamment normative, ainsi que les arguments qui président au choix de sa nomenclature ; les articulations du discours métalexicographique d’un dictionnaire ne peuvent être dégagées qu’en lien avec le projet lexicographique de ce dernier.
+
+D’abord, le Multi n’est pas à proprement un dictionnaire de langue française, mais un dictionnaire dit « pragmatique » ; Jean-Claude Corbeil écrit en préface que l’ouvrage a « comme angle d’analyse la situation réelle d’une personne au moment d’utiliser la langue, comme point de départ la langue de celle-ci et qui a pour objectif de fournir rapidement des réponses claires et sûres aux questions, doutes ou problèmes » (2003 : XI). On retrouve dans la préface le souhait de présenter dans la nomenclature les mots d’origine canadienne qui n’ont pas d’équivalent en français de France. Or, en plus de décrire « le français standard, tel qu’il est explicité par les grammaires et les grands dictionnaires » (Corbeil, 2003 : XII), le Multi inclut « les termes et significations conformes au bon usage québécois […], qu’ils soient de niveau neutre, familier ou, plus rarement, littéraire » (de Villers, 2003 : XV). Dans la nomenclature, les « québécismes » sont « [i]ndiqués à l’aide de l’icône de la fleur de lis, [ces derniers] sont principalement des créations servant à nommer des réalités québécoises, canadiennes ou nord-américaines » (de Villers, 2003 : XIII). La variété acadienne n’est pas relevée dans la préface ; ce sont les mots et expressions québécois qui sont visés par le projet lexicographique du Multi. Quant à la norme qui y est mise de l’avant, diverses études précédentes ont généralement montré que le discours normatif du Multi est « nettement orienté vers un français de référence, qui est celui de France » (Schafroth, 2008 ; Poirier, 2004), ce que nous confirmons dans notre propre étude.
+
+Ensuite, Usito est un dictionnaire général de langue française commercialisé depuis 2013 et entièrement conçu au Québec. Uniquement disponible en ligne, il vise à « décrire le français standard en usage au Québec, tout en faisant le pont avec le reste de la francophonie » (Cajolet-Laganière et coll., 2014 : « Les avantages d’Usito ») en s’adressant « à tous les francophones et francophiles intéressés par une description ouverte du français » (« Pour qui ? »). Ses concepteurs entendent « combl[er] les lacunes des dictionnaires français (conçus par et pour des Européens) en présentant une description du monde à laquelle les Québécois et les autres francophones de l’Amérique du Nord peuvent s’identifier » (« Les avantages d’Usito »). Sa présentation indique qu’il contient « plus de 10 000 québécismes et mots caractéristiques des contextes canadien et nord-américain » (« Les avantages d’Usito »). Il est précisé dans la préface que l’Acadie fait partie des collaborations actuelles d’Usito (« Pourquoi choisir Usito ? »). On note aussi qu’une liste d’acadianismes est présente dans le dictionnaire ; il s’agit en fait d’un « Lexique d’acadianismes », préparé par Louise Péronnet, qui correspond à « un échantillon significatif de la variante acadienne du français au Canada » qui « représente le parler actuel » en Acadie. Nous avons choisi de ne pas utiliser cette liste de particularismes acadiens dans l’étude de la nomenclature d’Usito, parce qu’elle se situe en marge de son contenu principal ; en d’autres mots, un usager qui consulte les articles du dictionnaire en ligne ne trouvera pas les informations du « Lexique d’acadianismes » dans les articles de la nomenclature centrale. De plus, la sélection des particularismes acadiens dans cette liste n’a pas été faite en suivant le même projet lexicographique qu’Usito10. À des fins d’observations, nous en avons néanmoins relevé les vocables à l’étude, identifiés à l’aide de la lettre A dans notre annexe. Il n’en demeure pas moins que le dictionnaire Usito se présente comme foncièrement québécois, puis canadien et nord-américain, dans une visée englobante de la francophonie.
+
+Antidote (Druide informatique, s.d.) est quant à lui une aide logicielle à la rédaction à l’ordinateur gérée par l’entreprise québécoise Druide ; cette plateforme comprend un correcteur avec filtres personnalisés, guides linguistiques et divers dictionnaires (synonymes, antonymes…). Plusieurs ressources sont ainsi disponibles dans cette aide logicielle ; pour cette recherche, nous avons spécifiquement étudié « le dictionnaire des définitions et des locutions », qui « se présente comme un dictionnaire usuel, avec une description en langue commune pour chacun des mots » (Druide informatique, 2012 : 16) ; en d’autres mots, il s’agit d’un dictionnaire original de langue française, propre à Antidote. Il contient des données lexicographiques de l’ordre de « 125 000 mots » et de « 46 000 locutions et proverbes » (Druide informatique, 2012 : 65).
+
+Sur le choix des vocables qui ont leur place dans ce dictionnaire de langue, il est indiqué que l’on « s’adresse à l’ensemble de la francophonie […] », dont les Acadiens, en présentant « les mots du français commun, mais également les particularités lexicales et syntaxiques de leur groupe » (Druide informatique, 2012 : 13). La marque « Acadie », présente dans les entrées des acceptions, indique au locuteur que l’emploi est restreint à cette région de la francophonie (Druide informatique, 2012 : 16). Les usages encouragés par Antidote sont ceux des « plus grands ouvrages de référence du français » (Druide informatique, 2012 : 13), sans que d’autres précisions ne soient données. Notons enfin qu’il est possible de personnaliser la révision linguistique d’Antidote en sélectionnant la région linguistique appropriée au contexte de rédaction ; pour cet article, nous avons sélectionné l’option « Québec/Canada » ; les autres choix étaient : Belgique, France, Suisse, Afrique/Antilles/Louisiane, Autres.
+
+Enfin, il est possible de retrouver les objectifs du Petit Robert dans la section « Aide » du site Internet, sous « Préfaces et annexes ». Aucune préface originale n’a été rédigée pour la version en ligne, seules les préfaces des éditions précédentes en version papier y sont énumérées, aux côtés d’autres documents lexicographiques ou métalinguistiques. La préface la plus contemporaine répertoriée correspond à la « Préface du Nouveau Petit Robert » de 1993, rédigée par Alain Rey et Josette Rey-Debove. On peut y lire que le Petit Robert a pour objectif principal « la description d’un français général, d’un français commun à l’ensemble de la francophonie, coloré par des usages particuliers, et seulement lorsque ces usages présentent un intérêt pour tout le monde » (Rey-Debove et Rey, 1993 : XIII). Les particularismes lexicaux sont présentés de la manière suivante, dans laquelle l’Acadie apparaît dans une énumération de régions francophones de langue maternelle :
+
+Témoins de la variété dans l’espace, les régionalismes de France et d’ailleurs sont mentionnés comme RÉGION., ou précisés par la mention de leur domaine géographique d’usage. Ce dernier est souvent indispensable lorsqu’il s’agit de refléter certains emplois du français hors de France, soit en tant que langue maternelle (Belgique, Suisse, Québec et Acadie) […]. Pour les mots et usages propres à ces pays et territoires, on précise la zone d’emploi (« Québec », « français d’Afrique », etc.). Les termes institutionnels, pour leur part, sont distingués lorsqu’ils n’ont cours qu’en français de France, ou en français de Suisse ou de Belgique, ou du Canada francophone, par une mention : Au Québec, En Suisse, etc. (Rey-Debove et Rey, 1993 : XIII)
+
+Enfin, sur le français de référence mis de l’avant, les auteurs visent à « décri[re] fondamentalement une norme du français de France » en incluant certains régionalismes, de France et d’ailleurs, pour souligner en dernière instance qu’il existe plusieurs « bons usages » (Rey-Debove et Rey, 1993 : XIV).
+
+Contenu des nomenclatures
+
+Nous proposons dans cette section une analyse métalexicographique liant des perspectives à la fois quantitative et qualitative quant aux particularismes acadiens de notre corpus de 250 acceptions de la BDLP-Acadie. Cette démarche de comparaison est essentielle lorsque l’on sait qu’il existe parfois un écart entre ce que le dictionnaire peut annoncer dans son projet lexicographique et ce qu’il met réellement de l’avant dans son contenu (voir par ex. Arrighi et Gauvin, 2014).
+
+Nous avons fait le décompte du nombre d’attestations de particularismes acadiens dans les quatre dictionnaires à l’étude. Comme il est possible de l’observer dans le tableau 1, « Attestations des particularismes acadiens dans le corpus dictionnairique », c’est le dictionnaire intégré de langue française d’Antidote qui relève le plus grand nombre de vocables acadiens avec 84 attestations, suivi d’Usito avec 71 acceptions. Le Petit Robert en ligne recense 52 emplois, tandis que le Multi, seul dictionnaire papier de notre corpus, en atteste 40.
+
+Tableau 1
+
+Attestations des particularismes acadiens dans le corpus dictionnairique
+
+Particularisme acadien
+
+MLT
+
+Usito
+
+Antidote
+
+NPR
+
+Attestation totale (/250)
+
+40
+
+71
+
+84
+
+52
+
+Attestation totale (%)
+
+16
+
+28,4
+
+33,6
+
+20,8
+
+Ces attestations sont néanmoins majoritairement accompagnées de diverses indications d’usage qui encadrent l’emploi des particularismes acadiens ; mentionnons que ces derniers se révèlent parfois être également en usage dans une autre région linguistique canadienne. L’on sait que les indications lexicographiques ont « pour objet d’expliciter des écarts par rapport à un usage contemporain neutre qui ne peut être que théorique et qui suppose donc la construction d’un modèle normatif » (Girardin, 1987 : 92) ; leur analyse permet ainsi de détailler le discours métalexicographique des dictionnaires à l’étude. Le tableau 2, « Attestations des marques d’usage dans le corpus dictionnairique », montre la proportion d’utilisation des marques d’usage ; notons ici que l’absence d’indication signifie que le dictionnaire permet l’usage des acceptions sans restriction d’emploi.
+
+Tableau 2
+
+Attestations des marques d’usage dans le corpus dictionnairique
+
+Particularisme acadien
+
+MLT
+
+Usito
+
+Antidote
+
+NPR
+
+Attestations avec indication(s) d’usage
+
+27
+
+48
+
+70
+
+41
+
+Attestations avec indication(s) d’usage (%)
+
+67,5
+
+67,6
+
+83,3
+
+78,8
+
+On peut observer qu’Antidote est le dictionnaire qui use le plus généreusement de marques d’usage (83,3 %), suivi du Petit Robert (78,8 %), d’Usito (67,6 %) et du Multi (67,5 %). On retrouve dans notre corpus cinq types de marques qu’il est possible de classer selon la terminologie de Hausmann (1989) : diaphasiques (la situation et le style), diastratiques (le groupe social), dianormatives (l’acceptabilité de l’usage), diachroniques (le caractère temporel), diatopiques (la variation géographique). Le tableau 3, « Les marques d’usage relevées dans le corpus dictionnairique », montre la distribution des marques au sein des quatre dictionnaires analysés.
+
+Tableau 3
+
+Les marques d’usage relevées dans le corpus dictionnairique
+
+MLT
+
+Usito
+
+Antidote
+
+NPR
+
+Marques diaphasiques
+
+Littéraire
+
+Familier
+
+Absolument
+
+Littéraire
+
+Familier
+
+Familier
+
+Soutenu
+
+Littéraire
+
+Familier
+
+Pêche
+
+Plaisant
+
+Marques diastratiques
+
+––––
+
+Dans le langage enfantin
+
+––––
+
+––––
+
+Marques diachroniques
+
+Vieux
+
+Vieilli
+
+Vieux
+
+Vieilli
+
+Anciennement
+
+Vieux
+
+Vieilli
+
+Vieux
+
+Vieilli
+
+Anciennement
+
+Marques dianormatives
+
+Recommandation officielle OLF Anglicisme
+
+Anglicisme
+
+Anglicisme
+
+Critiqué au Canada
+
+Marques diatopiques
+
+(Fleur de lis)
+
+En Acadie
+
+Q/C
+
+Surtout en Acadie
+
+Québec
+
+Acadie
+
+Belgique
+
+Régional
+
+Régional
+
+Canada
+
+Ouest
+
+Louisiane
+
+Normandie
+
+Bretagne, Vendée
+
+Acadie
+
+Saint-Pierre- et-Miquelon Antilles
+
+Réunion
+
+Gabon
+
+France
+
+Haïti
+
+On note que les marques diaphasiques « Familier » et « Littéraire » apparaissent dans les quatre dictionnaires, tout comme les marques « Vieux » et « Vieilli ». Tous les ouvrages contiennent également des remarques à caractère normatif, qui informent le locuteur sur l’acceptabilité du mot dans l’usage ; l’étiquette « Anglicisme » et le vocable « Critiqué » en restreignent l’emploi. Enfin, nous avons vu dans les sections liminaires des dictionnaires que chaque ouvrage a une perspective distincte vis-à-vis des particularismes régionaux ; les choix des désignations de division géographique a une incidence sur les types de marques d’usage envisagés par chacun.
+
+Ainsi, concernant les marques diatopiques, chaque dictionnaire conçoit différemment les variétés de français au Canada : le Multi use du symbole de la fleur de lis et de la marque « En Acadie » dans son marquage géolinguistique, Usito utilise la marque Q/C et « Surtout en Acadie », Antidote distingue la région du « Québec » de l’« Acadie » ; quant au Petit Robert, il est possible d’observer qu’il différencie les régions du « Canada » et de l’« Acadie » ; la marque « Québec » n’apparaît pas dans les marques diatopiques relevées dans notre étude.
+
+Chacune des marques diatopiques détient une signification spécifique dans chaque dictionnaire ; l’explication de ces marques nous renseigne davantage sur les représentations que les dictionnaires à l’étude véhiculent au sujet de chacune des variétés.
+
+Le Multi use du symbole de la fleur de lis pour indiquer ce que l’auteure nomme « québécismes » : « Le Multidictionnaire marque clairement les québécismes qui sont en usage seulement au Québec : les mots, expressions ou sens propres au français québécois sont signalés par l’icône de la fleur de lis » (de Villers, 2003 : XV). Cet ouvrage utilise de manière complémentaire la marque « En Acadie » dans certaines entrées ; il met en opposition le français en usage au Québec à celui ayant cours dans la région de l’Acadie, occultant également les usages du français laurentien hors Québec.
+
+Usito use de la marque Q/C pour indiquer un particularisme « de l’usage québécois et canadien ».
+
+Cet emploi est caractéristique de la variété de français qui a cours au Québec et qui est largement répandue au Canada, ce qui signifie qu’il peut contribuer à distinguer cette variété nord-américaine de français de celle qui a cours en France et dans la francophonie européenne. Cela n’implique pas que cet emploi soit exclusif à l’usage nord-américain du français, ni qu’il soit bien implanté dans la variété acadienne (qui se démarque du français québécois sur un certain nombre de points). (Cajolet-Laganière et coll., 2014 : « Marques de répartition géographique »)
+
+Le choix d’une marque comme Q/C est plutôt ingénieux ; les Québécois, principal public visé par le dictionnaire Usito, se trouvent interpellés par le marquage, mais la notion de « Canada » permet également une visée inclusive des francophonies canadiennes hors Québec. Néanmoins, la variété principale au Québec reste celle laurentienne, et non acadienne ; les concepteurs d’Usito se gardent une certaine réserve sur la représentativité de sa nomenclature pour la variété acadienne dans l’explication de la marque Q/C, ce qui explique qu’il complète son marquage par « Surtout en Acadie » et par des commentaires de nature diatopique à la fin des articles ; certains commentaires géolinguistiques ou normatifs complètent en effet parfois les entrées des acceptions étudiées dans Usito et le Multi. Dans le cas d’Usito, de nombreux commentaires à caractère géolinguistique sont présents ; concernant la région de l’Acadie, on peut trouver, indiqué en fin d’article : « Ce mot est également en usage en Acadie » ; « Ce mot est également en usage dans certaines régions de France et dans d’autres aires de la francophonie, notamment en Acadie » ; « Cet emploi est régional : il est généralement associé au français acadien » ; « Voir l’article thématique “Lexique d’acadianismes” ». Ainsi, la marque d’usage « Surtout en Acadie » se voit complétée par une diversité de commentaires géolinguistiques qui montre une ouverture progressive au français acadien au sein de la nomenclature d’Usito ; sachant que ce dernier est « un dictionnaire vivant qui s’enrichit chaque jour […] des collaborations actuelles (Acadie […]) » (Cajolet-Laganière et coll., 2014 : « Pourquoi choisir Usito »), il est possible de supposer que la variété acadienne gagnera en importance dans le futur développement de ce dictionnaire en ligne. Dans notre corpus, ce sont cinq acceptions (abrier, s’abrier, astheure (1), barrer, coque) qui voient leurs définitions être complétées par une des mentions à l’Acadie retranscrites plus haut.
+
+Antidote différencie les régions canadiennes du Québec et de l’Acadie à l’aide des marques « Acadie » et « Québec », correspondant à « la région de la francophonie à laquelle se restreint l’emploi » du mot (Druide informatique, 2012 : 16). Son double marquage Québec/Acadie encourage des représentations métalinguistiques égalitaires entre ces deux types de français, alors perçus comme aussi importants l’un que l’autre ; un tel marquage vient par contre éliminer du même coup la représentation des autres francophonies de variété laurentienne hors Québec, par exemple celles de l’Ontario et de l’Ouest.
+
+Enfin, le Petit Robert présente généralement le français canadien comme un tout englobant ; il use ainsi de la marque générale « Canada », bien que l’on puisse aussi retrouver la marque « Régional ». La signification de « Régional » nous est donnée lorsqu’un curseur est posé sur cette marque dans le dictionnaire en ligne : « Régional : mot ou emploi du français parlé propre à une ou plusieurs régions (France, pays francophones), mais qui n’est pas d’usage général ou qui est senti comme propre à une région » (Rey, 2016 : par ex. dans l’entrée aboiteau). Dans notre corpus, nous avons rencontré à une seule occurrence la marque diatopique « Acadie », ce qui peut laisser entendre que le discours métalinguistique du Petit Robert distingue possiblement le Canada en deux aires correspondant aux deux variétés en usage ; si la marque « Canada » englobait l’Acadie, le doublon n’existerait probablement pas dans ses marques lexicologiques.
+
+Des attestations lexicographiques, oui, mais à usage restreint
+
+Les marques et commentaires diatopiques dont nous venons de détailler la signification peuvent être liés avec d’autres marques d’usage.
+
+Dans le Multi, où 27 des 40 acceptions attestées portent une marque d’usage, une seule acception porte « En Acadie » (aboiteau (1)), tandis que 14 sont accompagnées du signe de la fleur de lis, dont 5 sont notées « Familier » ; 5 autres voient leur usage découragé par une remarque normative ; par exemple, pour le vocable careauté, ée, il est indiqué « Impropriété pour à carreaux ». Ce sont d’autres marques diaphasiques et diachroniques qui accompagnent les acceptions restantes : agrès (Vieilli), bailler et besson, onne (Vieux), brailler (Familier). La présence de l’Acadie passe avant tout par l’attestation des vocables au Québec, ce qui correspond après tout à son projet lexicographique d’être un dictionnaire avant tout pour les Québécois.
+
+Dans Usito, 36 acceptions, sur les 71 relevées, étaient accompagnées d’une marque et/ou d’un commentaire diatopique : 35 contenant minimalement Q/C, deux « Surtout en Acadie » et une portait la mention « Généralement associé au français acadien ». Parmi les 35 particularismes « d’usage québécois et canadien », 25 étaient liés à une marque d’usage restrictive, dont 21 notés « Familier », c’est-à-dire « moins valorisé socialement qu’un emploi standard ou neutre ; la marque “familier” peut parfois correspondre, en raison du contexte d’emploi, à une certaine valeur stylistique, expressive » (Cajolet-Laganière et coll., 2014 : « Tableau des termes, signes et abréviations du dictionnaire ») ; diverses marques sont liées au reste des acceptions : Vieilli, Vieux, Littéraire, Anciennement. L’anglicisme appointement est quant à lui critiqué, et l’emploi de « barrer, courant dans la langue familière et parfois critiqué au Québec comme synonyme non standard de fermer à clé, verrouiller » (Cajolet-Laganière et coll., 2014 : entrée barrer), est limité par cette remarque. Il en va de même pour l’emploi de calotte, indiqué « parfois critiqué comme synonyme non standard de casquette » (Cajolet-Laganière et coll., 2014 : entrée calotte), et celui de carreauté, ée, « parfois critiqué comme synonyme standard de à carreaux » (Cajolet-Laganière et coll., 2014 : entrée carreauté, ée).
+
+Les entrées d’Usito liées à la variété acadienne, c’est-à-dire aboiteau (1), aboiteau (2), abrier, s’abrier, astheure (1), barrer et coque, ne reçoivent pas d’indications supplémentaires quant à leur usage, à moins qu’ils ne soient aussi en emploi au Québec/Canada ; les deux acceptions notées uniquement « Surtout en Acadie », c’est-à-dire aboiteau (1) et (2), et coque « mye », pour laquelle on indique « Associé au français acadien » sans que la marque Q/C n’apparaisse, ne sont donc pas accompagnées de marques diaphasiques, diachroniques ou dianormatives. En d’autres mots, la variété acadienne, bien que présente de manière partielle dans la nomenclature d’Usito, ne reçoit qu’un traitement lexicographique limité ; le français mis de l’avant, conformément à son projet lexicographique, est un français de variété laurentienne du Québec ; néanmoins, la multiplicité de l’information géolinguistique, liée aux remarques normatives et à la marque « Familier », montre bien que cette variété de français ne doit être utilisée qu’avec prudence dans un cadre informel québécois/canadien, et ne doit pas être utilisé dans un contexte international.
+
+Dans Antidote, la marque « Familier » est également très présente, en lien avec les marques diatopiques canadiennes. Rappelons qu’Antidote a le plus grand nombre (84) d’attestations de notre corpus, dont 70 portent une marque d’usage quelconque. Parmi ces dernières, cinq portent la marque « Québec » (abattis (1), blé d’Inde (1), bleuet, brunante et carreauté, ée), une la marque « Acadie » (aboiteau (1)) et une du « Québec et Acadie » (banc de neige (1)). On recense 19 acceptions supplémentaires de registre familier en usage au Québec, 14 aussi de registre familier en Acadie et 16 acceptions notées « Familier » au « Québec et Acadie ». En d’autres mots, sur les 84 acceptions de notre corpus, 49 portent la marque restrictive « Familier » ; cela correspond à 58,3 % de vocables « familiers » pour Antidote contre 29,6 % de vocables « familiers » pour Usito. Trois de plus, considérés comme des anglicismes, sont critiqués dans Antidote (all right, anyway, appointement) et un (besson, onne) est marqué « Régional ou vieux ». Tandis que les entrées abominer, aiguail et aisé sont notées « Soutenu », accordailles, appareiller et bluette sont marquées « Vieux », aviser « Vieux ou soutenu » et avaricieux « Vieilli ».
+
+Le dictionnaire de langue française d’Antidote est ainsi le seul à offrir un important marquage pour nuancer le français en usage au Québec et en Acadie ; il montre à la fois les relations lexicales et sémantiques qui lient ces deux aires géolinguistiques, en les traitant sur un pied d’égalité quant à son marquage : marquage restrictif, soit, mais qui révèle tout de même qu’une réflexion sur la légitimité de ces particularismes d’Acadie a été effectuée. Nous savons que « le dictionnaire constitue assurément le lieu privilégié de l’interprétation de la norme » (Pruvost, 2002 : 168) ; or, comme tout dictionnaire, la nomenclature qu’il représente et les marques qu’il propose doivent provenir d’un corpus de textes et/ou d’ouvrages acadiens. Néanmoins, l’origine de la nomenclature d’Antidote n’est pas dévoilée à l’usager11. Dans la section « FAQ » de son site Internet, à la question « Quelle est la source de vos nombreux dictionnaires », il est écrit :
+
+Druide possède sa propre équipe permanente de linguistes et lexicographes qui, servis par de puissants outils informatisés et appuyés par un réseau d’experts et de sources terminologiques de grande qualité, a établi la nomenclature de 127 000 mots français ainsi que 94 000 mots anglais qui forme la base de nombreux dictionnaires d’Antidote. (Druide informatique, s.d. : « FAQ »)
+
+Ainsi, par leurs sources, quelles qu’elles soient, et par la mise en place d’un traitement normatif, Antidote a donc su classer certains usages acadiens qui se différenciaient de la variété laurentienne. Par la présence de remarques normatives et de marques de registre, Antidote construit au sein de son dictionnaire une norme acadienne : la multiplication des marques d’usage a pour conséquence de montrer à l’usager que le français en usage en Acadie détient plusieurs registres de langue, applicables à un large spectre de situations formelles et informelles. Antidote participe en ce sens à la légitimation de la norme linguistique acadienne en montrant qu’il existe un français de référence acadien. Il multiplie néanmoins la marque « Familier » pour les particularismes du Québec et de l’Acadie, ce qui peut aussi décourager un locuteur de les utiliser en situation formelle. Tout comme dans le cas d’Usito, le « bon usage » doit se faire en rapport à une norme plus internationale que régionale.
+
+Pour terminer, le Petit Robert, dont 41 des 52 acceptions étaient marquées d’une indication d’usage, mentionne « Régional ; Canada » ou simplement « Canada » pour 24 acceptions ; le verbe amarrer est le seul de notre corpus noté « Acadie », au côté de nombreuses autres aires de la francophonie12. La marque « Familier » est utilisée avec plus de modération que dans les dictionnaires canadiens ; on la retrouve adossée aux entrées adonner ou s’adonner, bébelle, boucane ; l’adjectif carreauté, ée est quant à lui noté « Critiqué au Canada » ; cet usage limité de marques diaphasiques est possiblement explicable par le fait que ces mots sont d’ores et déjà indiqués comme « régionalismes », et leurs restrictions d’usage ne sont pas la visée principale d’un dictionnaire français. Une autre hypothèse serait que les dictionnaires canadiens de notre corpus présentent une norme plus rigide que la franco-française, en outillant davantage par le fait même l’usager pour le guider à travers les registres des particularismes nord-américains qui sont parties intégrantes de son vocabulaire.
+
+Bilan, ou portrait d’ensemble des textes liminaires et nomenclatures
+
+Le nombre limité d’acceptions de notre corpus dans ces quatre dictionnaires ne nous permet pas de faire ressortir des statistiques représentatives de l’ensemble de leur nomenclature. Néanmoins, plusieurs conclusions partielles restent possibles par une analyse plus qualitative de leurs contenus. D’abord, bien que le dictionnaire de langue française d’Antidote soit celui qui recense le plus de particularismes acadiens de la BDLP-Acadie de notre étude, c’est son marquage diatopique distinguant l’Acadie du Québec qui lui permet d’offrir un discours métalexicographique plus nuancé sur les usages canadiens que les autres dictionnaires à l’étude. La nomenclature d’Antidote restreint par contre l’usage de ces particularismes en multipliant les marques restrictives comme « Familier » pour les acceptions à spécificités canadiennes, qu’elles soient marquées « Acadie », « Québec » ou les deux. Il reste qu’il informe davantage le locuteur acadien en lui fournissant de plus amples renseignements sur ses vocables que les autres dictionnaires à l’étude. Le dictionnaire Usito, visant un public avant tout québécois, répond à son projet lexicographique en valorisant à travers les articulations de son discours l’usage laurentien du Québec et du Canada. Dans une étude précédente sur la place de particularismes nord-américains dans la nomenclature d’Usito (Labelle, 2018 : 145), nous avions conclu que ce dernier « véhicul[ait] des représentations lexicographiques qui limit[aient] les pratiques linguistiques québécoises et nord-américaines dans des situations formelles » par ses nombreuses remarques normatives et son généreux usage de la marque « Familier ». Or, il semblerait qu’en comparaison avec Antidote et pour répondre aux besoins des locuteurs québécois/canadiens, il se révèle moins sévère dans son utilisation de marquages ; les emplois canadiens y sembleraient plus valorisés. Cette présente étude permet néanmoins d’observer que la variété acadienne est encore peu mise de l’avant dans sa nomenclature, puisque son choix d’acceptions semble miser avant tout sur les emplois communs des variétés laurentienne et acadienne ; la représentation de l’Acadie passe ainsi par l’usage québécois. Le Multi et le Petit Robert sont des outils moins intéressants pour la variété acadienne de français, leurs discours métalexicographiques ne laissant pas de place à des représentations explicites du fait acadien. Le Multi offre ainsi un nombre d’attestations plutôt limité de notre corpus. En annexe, il est possible de constater que la majorité de ses attestations se retrouvent également dans le Petit Robert, sa norme linguistique s’inspirant grandement de l’hexagonale. Enfin, le Petit Robert offre une portée limitée à l’Acadie, dont la place ne semble pas avoir évolué depuis l’étude de Saint-Yves en 1996 ; la présence de lexique acadien se fait par défaut, à travers le vocabulaire que les variétés laurentienne et acadienne partagent.
+
+Conclusion
+
+Les discours métalexicographiques et le contenu de la nomenclature des dictionnaires de notre étude traitent les variétés de français en usage au Canada d’une manière inégale ; la comparaison de quatre dictionnaires à visée différente permet néanmoins de faire ressortir différents discours de légitimation ou de rejet concernant les variétés de langue. Antidote se démarque par son accueil et sa description du lexique acadien. Usito poursuit l’objectif de légitimer la variété laurentienne du Québec en priorité, en établissant une norme linguistique propre à ses locuteurs québécois ; la place de l’Acadie reste complémentaire à son projet, tant dans ses textes liminaires que dans sa nomenclature. Le Multi limite l’usage du français en usage au Québec, et du même coup l’emploi de vocables aussi utilisés en Acadie, en promouvant un discours normatif hexagonal. Le Petit Robert n’offre pas de discours métalexicographique analysable et satisfaisant sur la région précise de l’Acadie, l’englobant plutôt dans l’usage canadien.
+
+Un fait observable perdure néanmoins à travers les quatre dictionnaires à l’étude : ce sont trois variétés de français qui sont représentées comme occupant le sol canadien : la variété laurentienne québécoise (souvent portée à l’échelle canadienne), la variété acadienne, mais aussi une variété de français de référence plus « internationale », qu’on peut percevoir par l’existence même de marques géolinguistiques et remarques normatives ; cette dernière variété est celle dont on peut faire l’usage sans limitation, nommée parfois « français standard », c’est-à-dire qui « échappe à toute variation » (Francard, 2001 : 225). Ces trois variétés n’ont toutefois pas le même poids au sein des ouvrages lexicographiques à l’étude. Si l’on a recours au modèle Centre/Périphérie de Pascal Singy (1995-1996) pour conceptualiser leurs articulations de pouvoir linguistique, il est possible d’envisager une distribution symboliquement hiérarchisée. Dans ce modèle, l’espace géographique d’une variété de langue la plus élevée se nomme l’« aire-foyer » et constitue la concentration de pouvoirs linguistiques ; une périphérie dominée par cette aire-foyer complète son modèle (Singy, 1995-1996 : 218). Plusieurs aires-foyers peuvent cependant coexister pour une seule langue ; on observe par exemple un pluricentrisme dans les pays de langue portugaise ou encore ceux de langue anglaise (Pöll, 2005). Les études précédentes attestent généralement que « le Québec occupe une position périphérique par rapport à la France mais tend à former le centre sociolinguistique dominant en Amérique du Nord » (Violette, 2009 : 199) ; en d’autres mots, le Québec représente une aire-foyer au Canada. Or, si une même communauté « dispose de plusieurs centres normatifs, il est rare qu’ils aient tous le même poids. Les situations de pluricentrisme sont caractérisées […] par une asymétrie flagrante » (Pöll, 2005 : 20). Il est certain que depuis les années 1970 au Québec, et la création de l’Office de la langue française, plusieurs mesures ont été mises en place pour doter la variété laurentienne du Québec de ressources linguistiques et renforcer son acceptabilité dans les pratiques de communication formelle : les discours métalexicographiques d’Usito et du Multi dégagés lors de notre étude reflètent cette réalité. Leurs discours métalexicographiques semblent par contre montrer que les variétés de français en usage au Canada sont distribuées selon un pluricentrisme asymétrique ; une hiérarchie de légitimité instaure le français non marqué comme le plus acceptable et accepté, puisque non restreint par des indications géolinguistiques ou d’usage, suivi du français laurentien en usage au Québec, puis la variété acadienne se retrouve toujours en complément de la description canadienne du français.
+
+L’arrivée d’Antidote semble remanier, du moins en partie, ces relations symboliques de pouvoir linguistique ; en plaçant les variétés dites du « Québec » et de « l’Acadie » sur un pied d’égalité dans son discours et son traitement métalexicographique, Antidote postule qu’une autre variété de langue que celle québécoise, qui comporte aussi un lexique propre, une stratification de registres et des liens avec d’autres variétés de français, occupe le territoire canadien : la variété acadienne. Sachant que Pöll pose comme hypothèse que la formation d’aires-foyers découle de l’avènement d’une norme prescriptive d’un français de référence porté par des dictionnaires d’usage (2005 : 20), nous soulignons qu’Antidote représente la première plateforme qui offre des pouvoirs linguistiques symboliques à l’Acadie ; suivant le modèle de Singy, il contribue à asseoir la légitimité de la variété acadienne comme aire-foyer en devenir. Une multiplication des ouvrages métalinguistiques, avec des discours métalexicographiques portant sur la variété acadienne et contenant entre autres la description du lexique contemporain en usage en Acadie, reste donc à venir pour renforcer ses rapports de force avec les autres variétés en Amérique du Nord.
+
+Remerciements
+
+Cette recherche a reçu l’appui financier du Conseil de recherche en sciences humaines (bourse de doctorat Joseph-Armand-Bombardier).
+
+Références
+
+Arrighi, Laurence (2014). « Le français parlé en Acadie : description et construction d’une “variété” », Minorités linguistiques et société = Linguistic Minorities and Society, no 4, p. 100-125.
+
+Arrighi, Laurence, et Karine Gauvin (2014). « Discours réflexifs de lexicographes acadiens : entre description et justification de l’oeuvre », dans Laurence Arrighi et Matthieu LeBlanc (dir.), La francophonie en Acadie : dynamiques sociales et langagières. Textes en hommage à Louise Péronnet, Sudbury, Prise de Parole, p. 372-393.
+
+Boudreau, Annette (1996). « Les mots des jeunes Acadiens et Acadiennes du Nouveau-Brunswick », dans Lise Dubois et Annette Boudreau (dir.), Les Acadiens et leur(s) langue(s) : quand le français est minoritaire, actes du colloque organisé par le Centre de recherche en linguistique appliquée de l’Université de Moncton et tenu du 19 au 21 août 1994, Moncton, Éditions d’Acadie, p. 137-150.
+
+Boulanger, Jean-Claude, et Alain Rey (1993 [1992]). Dictionnaire québécois d’aujourd’hui : langue française, histoire, géographie, culture générale, Montréal, Dicorobert.
+
+Bourdieu, Pierre (2001). Langage et pouvoir symbolique, Paris, Fayard.
+
+Cajolet-Laganière, Hélène, et Pierre Martel (2008). « Le système de marques d’usage et de marques normatives dans le dictionnaire du français de l’Équipe FRANQUS », dans Monique C. Cormier et Jean-Claude Boulanger (dir.), Les dictionnaires de la langue française au Québec : de la Nouvelle-France à aujourd’hui, Montréal, Presses de l’Université de Montréal, p. 387-411, coll. « Paramètres ».
+
+Cajolet-Laganière, Hélène, Pierre Martel et Chantal-Édith Masson (2014). Dictionnaire Usito : Parce que le français ne s’arrête jamais, réalisé dans le cadre du projet Franqus, Sherbrooke, Delisme. En ligne : www.usito.com/ (consulté le 1er octobre 2016).
+
+Calvet, Louis-Jean (1999). Pour une écologie des langues du monde, Paris, Plon.
+
+Corbeil, Jean-Claude (2003 [1998]). « Préface », dans Marie-Éva de Villers, Multidictionnaire de la langue française, 4e éd., Montréal, Québec Amérique.
+
+de Villers, Marie-Éva (2003 [1988]). Multidictionnaire de la langue française, 4e éd., Montréal, Québec Amérique.
+
+Druide informatique (s.d.). Antidote, Montréal, Druide informatique. En ligne : https://www.antidote.info/fr/ (consulté le 1er juin 2016).
+
+Druide informatique (2015). Antidote, version 8.5, Montréal, Druide informatique.
+
+Druide informatique (2012). Posologie, Montréal, Druide informatique. En ligne : https://www.druide.com/telecharger/doc/posologie.pdf (consulté le 1er octobre 2016).
+
+Dubois, Lise, et Gisèle Chevalier (dir.) (2006). Base de données lexicographiques panfrancophone (section Acadie), Agence universitaire francophone (AUF) et Trésor de la langue française au Québec (TLFQ). En ligne : http://www.bdlp.org/accueil.asp?base=AC (consulté le 1er octobre 2016).
+
+Farina, Annick (2001). Dictionnaires de langue française du Canada : lexicographie et société au Québec, Paris, Honoré Champion, coll. « Lexica, Mots et dictionnaires », vol. 6.
+
+Francard, Michel (2001). « Le français de référence : formes, normes et identités », dans Michel Francard (dir.), Le français de référence : constructions et appropriations d’un concept, Cahiers de l’Institut de linguistique de Louvain, avec la collaboration de Geneviève Geron et Régine Wilmet, vol. 27, tome 2, p. 223-240.
+
+Gadet, Françoise (2007). La variation sociale en français, Paris, Orphys.
+
+Gauvin, Karine (2014). « L’activité lexicographique en Acadie des Maritimes : bilan et perspectives », Minorités linguistiques et société = Linguistic Minorities and Society, no 4, p. 42-81.
+
+Girardin, Chantal (1987). « Système des marqueurs et connotations sociales dans quelques dictionnaires culturels français », Lexicographica, vol. 3, p. 76-102.
+
+Hausmann, Franz Joseph (1989). « Die Markierung im allgemeinen einsprachigen Wörterbuch : eine Übersicht », dans Franz Josef Hausmann, Oskar Reichmann, Herbert Ernst Wiegand, Ladislav Zgusta (dir.), Wörterbücher. Dictionaries. Dictionnaires : Ein internationales Handbuch zur Lexikographie, vol. 1, Berlin-New York, Walter de Gruyter, p. 649-657.
+
+Juneau, Marcel, Micheline Massicotte et Claude Poirier (1977). « Notes et éclaircissements à propos du Trésor de la langue française au Québec », dans Marcel Juneau (dir.), Problèmes de lexicologie québécoise, Québec, Presses de l’Université Laval, p. 1-14.
+
+Labelle, Hélène (2015). Le traitement lexicographique du français canadien dans Usito, dictionnaire québécois informatisé, thèse de maîtrise, Ottawa, Université d’Ottawa.
+
+Labelle, Hélène (2018). « Le traitement lexicographique des variétés nord-américaines de langue française dans Usito, dictionnaire québécois en ligne », dans Laurence Arrighi et Karine Gauvin (dir.), Regards croisés sur les français d’ici, Québec, Les Presses de l’Université Laval, p. 131-147, coll. « Les Voies du français ».
+
+Martineau, France (2014). « L’Acadie et le Québec : convergences et divergences », Minorités linguistiques et société = Linguistic Minorities and Society, no 4, p. 16-41.
+
+Péronnet, Louise (1993). « La situation du français en Acadie : l’éclairage de la linguistique », dans Jean Daigle (dir.), L’Acadie des Maritimes : études thématiques des débuts à nos jours, Moncton, Chaire d’études acadiennes, Université de Moncton, p. 467-503.
+
+Péronnet, Louise (1995). « Le français acadien », dans Pierre Gauthier et Thomas Lavoie (dir.), Français de France et français du Canada : les parlers de l’Ouest de la France, du Québec et de l’Acadie, Lyon, Centre d’études linguistiques Jacques Goudet, p. 399-439.
+
+Poirier, Claude (1988). Dictionnaire du français plus : à l’usage des francophones d’Amérique, Montréal, Centre éducatif et culturel.
+
+Poirier, Claude (2004). « Le Multi, un dictionnaire ambigu », Québec français, no 132, p. 26-27.
+
+Poisson, Esther (2002). « Français en usage au Québec et dictionnaires », dans Claude Verreault, Louis Mercier et Thomas Lavoie (dir.), Le français, une langue à apprivoiser, Québec, Presses de l’Université Laval, p. 93-111.
+
+Pöll, Bernhard (2005). Le français langue pluricentrique ? Études sur la variation diatopique d’une langue standard, Francfort, Peter Lang.
+
+Pruvost, Jean (2002). « À la recherche de la norme : sa représentation lexicographique et dictionnairique chez Larousse et Robert et la triple investigation », dans Pierre Bouchard et Monique C. Cormier (dir.), La représentation de la norme dans les pratiques terminologiques et lexicographiques, Québec, Office de la langue française, p. 139-170, coll. « Langues et sociétés », no 39.
+
+Rey, Alain (2016). Le Petit Robert de la langue française, version numérique 4.2, millésime 2016, Paris, Dictionnaires Le Robert. En ligne : http://www.lerobert.com/ (consulté le 1er octobre 2016)
+
+Rey-Debove, Josette, et Alain Rey (1993) [1967]. Le Nouveau Petit Robert : dictionnaire alphabétique et analogique de la langue française, Paris, Dictionnaires Le Robert.
+
+Saint-Yves, Gabrielle (1996). « La prise en compte de l’Acadie dans les nouveaux dictionnaires québécois », dans Lise Dubois et Annette Boudreau (dir.), Les Acadiens et leur(s) langue(s) : quand le français est minoritaire, actes du colloque, Moncton, Éditions d’Acadie, p. 175-188. En ligne : http://homes.chass.utoronto.ca/~wulfric/articles/saint-yves/ (consulté le 20 octobre 2016).
+
+Schafroth, Elmar (2008). « Aspects de la normativité dans les dictionnaires du français québécois », dans Monique C. Cormier et Jean-Claude Boulanger (dir.), Les dictionnaires de la langue française au Québec : de la Nouvelle-France à aujourd’hui, Montréal, Presses de l’Université de Montréal, p. 199-238, coll. « Paramètres ».
+
+Singy, Pascal (1995-1996). « Les francophones de périphérie face à leur langue : étude de cas en Suisse romande », Cahiers Ferdinand de Saussure, no 49, p. 213-235.
+
+Vargas, Claude (1993). « Norme(s) de la nomenclature », dans Daniel Baggioni (dir.), Encyclopédies et dictionnaires français (Problèmes de norme(s) et de nomenclature), Aix-en-Provence, Publications de l’Université de Provence, actes de la 2e Table ronde de l’APRODELF (Association pour la promotion des études linguistiques francophones) tenue les 12-13 juin 1992 à Venelles, en France, p. 37-48.
+
+Violette, Isabelle (2009). « Les représentations sociolinguistiques de locuteurs français à l’égard du “français québécois” : étude de cas à partir du concept de risibilité », dans France Martineau, Raymond Mougeon, Terry Nadasdi et Mireille Tremblay (dir.), Le français d’ici : études linguistiques et sociolinguistiques sur la variation du français au Québec et en Ontario, Toronto, Éditions du Gref, p. 185-206.
+
+Violette, Isabelle (2014). « L’immigration francophone en Acadie : langue, nation et minorité », Minorités linguistiques et société = Linguistic Minorities and Society, no 4, p. 126-153.
+
+Mots clés
+
+Acadie, lexicographie, dictionnaire, norme, métadiscours
+
+Keywords
+
+Acadie, lexicography, dictionary, standard, metadiscourse
+
+Correspondance
+
+helene.labelle.ling@gmail.com
+
+1. Sur le concept de « variété », nous savons que « [l]es parlers débordent les frontières sociales et géographiques et se diversifient à la fois par la distance et les nouvelles conditions sociopolitiques ». Les variétés « ne sont pas des nominations qui reposent sur des contours précis mais sont plutôt des commodités pour pouvoir désigner un objet linguistique qui est, par essence, fluide » (Martineau, 2014 : 36). Dans cette étude, nous traitons surtout des variétés laurentienne et acadienne, que nous définissons ainsi : « Les variétés acadienne et laurentienne sont généralement nommées en lien avec le territoire principal occupé par les locuteurs francophones de la variété, partant du présupposé qu’il existe des communautés définies à partir de la langue. Ainsi, la variété laurentienne, c’est d’abord celle de la vallée du Saint-Laurent ou du Québec et la diaspora de cette variété en Ontario, dans l’Ouest canadien et en Nouvelle-Angleterre. Quant à la variété acadienne, c’est d’abord celle des provinces Atlantiques (Nouveau-Brunswick, Nouvelle-Écosse, Île-du-Prince-Édouard, Terre-Neuve), auxquelles se greffent d’autres zones » (Martineau, 2014 : 35-36).
+
+2. Le terme « français de référence » fait son apparition en 1977 ; « cette appellation est d’origine québécoise » (Francard, 2001 : 228). Dans notre recherche, elle revêt sa signification originale : « La variété française [est] constituée par l’ensemble des emplois répertoriés dans les grands dictionnaires du français […] et dans les dictionnaires usuels […] ; font également partie du corpus du français de référence les grammaires qui font autorité, par exemple Le bon usage » (Juneau, Massicotte et Poirier, 1977 : 3). Comme le souligne Francard, ce concept a émergé de la « visée de description différentielle du lexique québécois » (2001 : 228).
+
+3. Il s’agit des vocables : aboiteau, bouscueil, coquemar, s.v. croquignole, fayot, mitan, nonante, paire, poulamon, s.v. poutine râpée, prusse, remeuil, septante, verne.
+
+4. Les versions numériques d’Antidote et du Petit Robert ont été consultées en 2016 ; depuis, une version 9 d’Antidote a remplacé la version 8.5. Quant au Petit Robert, plusieurs mises à jour annuelles ont été faites entre la rédaction de cet article et sa parution ; la version 4.2 n’est donc plus consultable.
+
+5. « La Base de données lexicographiques de l’Acadie s’inscrit dans le cadre d’un projet d’envergure internationale visant à constituer et à regrouper des bases représentatives du français de chacun des pays et de chacune des régions de la francophonie » (Dubois et Chevalier, 2006). La BDLP-Acadie a été dirigée par Lise Dubois et Gisèle Chevalier, réalisée par Karine Gauvin avec l’aide à la saisie d’Isabelle LeBlanc et d’Annie LeBouthillier. Sa dernière mise à jour fut en date du 1er juin 2006 (Dubois et Chevalier, 2006).
+
+6. Les principaux ouvrages utilisés ont été : le Dictionnaire du français acadien, d’Yves Cormier (1999), Les parlers français d’Acadie : enquête linguistique, de Geneviève Massignon (1962), le Dictionnaire des régionalismes du français parlé des îles de la Madeleine, de Chantal Naud (1999), Le glossaire acadien, de Pascal Poirier (édition critique par Pierre M. Gérin, 1993), Le Dictionnaire historique du français québécois, de Claude Poirier (1998).
+
+7. Dans cette liste, un même vocable correspondait parfois à plusieurs acceptions. Nous avons différencié ces acceptions à l’aide de chiffres entre parenthèses dans notre annexe, qui renvoient généralement au même classement généré par la BDLP-Acadie. Néanmoins, nous avons regroupé sous une même entrée principale les acceptions notées « Par extension », « Figuré » et « Par spécialisation » lorsqu’elles nous paraissaient avoir des relations sémantiques trop étroites pour les distinguer en plusieurs entrées distinctes. Ainsi, nous avons intégré les extensions d’arrimer, attiner, aveindre, berda (2), berlicoco (1), beude, bois franc, bois mou, borgoter (1) et boucane à l’acception dont elles étaient dérivées, tout comme nous l’avons fait pour les sens figurés de assaper, borgo (2), caler (2) et cobi, ie, et ceux « par spécialisation » de badgeuler et bagouler.
+
+8. Vous pouvez consulter les définitions complètes de ces entrées sur le site de la BDLP-Acadie.
+
+9. Ce processus a été réalisé en 2016 ; il est donc possible que certaines données relevées ou certains points soulevés dans ce travail ne soit plus d’actualité au moment où un lecteur consultera cet article.
+
+10. À titre d’exemple, si un usager recherche couverte, noté « Q/C Familier » dans la nomenclature principale d’Usito, il obtiendra aussi comme résultat un hyperlien vers le « Lexique d’acadianismes », où la lexie couverte n’est pas marquée « Familier ». Dans Usito, couverte pour « couverture » est définie comme « Couverture », suivi de l’exemple « S’abrier avec une couverture » et de deux citations. Le syntagme « Sous la couverte » est également relevé ; enfin, on retrouve en remarques : « L’emploi de couverte est également en usage dans d’autres aires de la francophonie, notamment en Acadie. Il est sorti de l’usage en France. Au Québec, l’emploi de couverte est parfois critiqué comme synonyme non standard de couverture. » Dans le « Lexique d’acadianismes », on retrouve, marqué UA pour « usage acadien », la définition « Couverture », suivie d’une seule citation, sans autre marque d’usage. Or, à cause du manque d’informations en présentation de ces listes, l’usager ne sait pas si ces listes sont de facto des lexies de registre standard, ou s’il existe une norme linguistique différente ayant régi leur sélection. L’usager ignore aussi si couverte est particulier à l’Acadie, puisque le renvoi au « Lexique d’acadianismes » le laisse entendre. Pour d’autres informations, voir Labelle (2015).
+
+11. En comparaison, Usito a fait preuve de plus de transparence en indiquant aux usagers l’origine de sa base de données : En date du 1er septembre 2014, Usito comptait « quelque 60 000 mots traités ». Pour arriver à cette nomenclature, l’équipe Franqus a « élaboré une vaste banque de données textuelles représentatives du français en usage au Québec (plus de 52 millions de mots […] [et] plus de 15 000 textes) ». En outre, d’autres ouvrages, principalement québécois, ont été utilisés afin de compléter cette base : « BiblioBranchée Québec et Europe (Eureka) ; le Réseau des corpus lexicaux québécois ; Frantext, le Grand Dictionnaire terminologique de l’OQLF et autres banques linguistiques et textuelles, sans oublier les ouvrages dictionnairiques disponibles » (Cajolet-Laganière et Martel, 2008 : 391). D’autres contributeurs ont aussi fourni de la documentation : l’ATILF, l’OQLF, le TLFQ, le Conseil supérieur de la langue française, le ministère québécois de l’Éducation, du Loisir et du Sport, l’Union des écrivaines et écrivains québécois, ainsi que les universités d’Ottawa, de Moncton, Sorbonne-Paris IV et l’Université catholique de Louvain (Cajolet-Laganière et coll., 2014 : « L’équipe de chercheurs »).
+
+12. On retrouve l’énumération des aires géographiques suivantes : Régional ; Normandie, Bretagne, Vendée ; Acadie, Saint-Pierre-et-Miquelon, Louisiane, Antilles, Réunion, Gabon (Rey, 2016 : entrée amarrer).
+
+Minorités linguistiques et société
+
+Numéro 10
+
+Linguistic Minorities and Society
+
+Number 10
+
+2018
+
+« La langue française est au centre des débats sociaux et des revendications politiques en Acadie. De fait, les discours sur la langue sont à inscrire dans des luttes qui renseignent plus largement sur les conceptions dominantes entretenues à l’égard de la communauté, de la culture, de la nation et du territoire, et plus précisément sur ce qui compte comme légitime, authentique et désirable dans ces cadres. »
+
+– Isabelle Violette, Minorités linguistiques et société, no 4, p. 127.
+
+Annexe 1
+
+Dépouillement des acceptions et marques d’usage relevées dans les quatre dictionnaires analysés1
+
+Particularisme acadien
+
+MLT
+
+Usito
+
+Antidote
+
+NPR
+
+1
+
+Abat (d’eau)
+
+x
+
+x
+
+x
+
+x
+
+2
+
+Abattant, ante (pluie_)
+
+x
+
+x
+
+x
+
+x
+
+3
+
+Abattis (1)
+
+&amp; (Fleur de lis)
+
+&amp; (Q/C)
+
+&amp; (Québec)
+
+&amp; (Régional ; Canada)
+
+4
+
+Abattis (2)
+
+&amp;
+
+&amp;
+
+&amp;
+
+&amp;
+
+5
+
+Abattis (3)
+
+x
+
+x
+
+x
+
+x
+
+6
+
+Aboiteau (1)
+
+&amp; (En Acadie)
+
+&amp; (Surtout en Acadie)
+
+&amp; (Acadie)
+
+&amp; (Régional : Canada)
+
+7
+
+Aboiteau (2)
+
+&amp; (Recommandation officielle OLF)
+
+&amp; (Surtout en Acadie)
+
+x
+
+&amp; (Régional : Canada)
+
+8
+
+Abominer
+
+&amp; (Littéraire)
+
+&amp; (Littéraire)
+
+&amp; (Soutenu)
+
+&amp; (Littéraire)
+
+9
+
+Abouette
+
+x
+
+A
+
+x
+
+&amp; (Pêche)
+
+10
+
+Abouetter ou bouetter
+
+x
+
+x
+
+x
+
+x
+
+11
+
+Âbre ou âbe
+
+x
+
+x
+
+x
+
+x
+
+12
+
+Abrier
+
+&amp; (Fleur de lis ; Familier
+
+L’emploi de ce verbe est courant au Québec dans la langue familière, mais il est vieilli dans le reste de la francophonie
+
+&amp; (Q/C ; Familier)
+
+Ce mot est également en usage en Acadie. Il est sorti de l’usage en France
+
+A
+
+&amp; (Québec, Acadie, Familier)
+
+&amp; (Régional : Ouest; Canada; Louisiane)
+
+13
+
+Abrier (s’)
+
+&amp; (Fleur de lis; Familier)
+
+L’emploi de ce verbe est courant au Québec dans la langue familière, mais il est vieilli dans le reste de la francophonie
+
+&amp; (Q/C; Familier)
+
+Ce mot est également en usage en Acadie. Il est sorti de l’usage en France
+
+A
+
+&amp; (Québec, Acadie, Familier)
+
+&amp; (Régional : Ouest; Canada; Louisiane)
+
+14
+
+Abrique
+
+x
+
+x
+
+x
+
+x
+
+15
+
+Abriquer
+
+x
+
+x
+
+x
+
+x
+
+16
+
+Abriquer (s’)
+
+x
+
+x
+
+x
+
+x
+
+17
+
+Abroque
+
+x
+
+x
+
+x
+
+x
+
+18
+
+Accordailles
+
+x
+
+&amp; (Vieux)
+
+&amp; (Vieux)
+
+&amp; (Vieux)
+
+19
+
+Accoster
+
+x
+
+x
+
+x
+
+x
+
+20
+
+Accourcie
+
+x
+
+x
+
+x
+
+x
+
+21
+
+Accoutumance
+
+&amp;
+
+&amp;
+
+&amp; (Québec, Acadie, Familier)
+
+&amp;
+
+22
+
+Accoutume (d’)
+
+x
+
+x
+
+x
+
+x
+
+23
+
+Accoutume (Avoir _ de)
+
+x
+
+x
+
+x
+
+x
+
+24
+
+Accrécher
+
+x
+
+x
+
+x
+
+x
+
+25
+
+Accrocheter
+
+x
+
+x
+
+x
+
+x
+
+26
+
+Accroires (faire des)
+
+x
+
+x
+
+&amp; (Québec, Familier)
+
+x
+
+27
+
+Accroupiller (s’)
+
+x
+
+x
+
+x
+
+x
+
+28
+
+Acter
+
+x
+
+x
+
+x
+
+x
+
+29
+
+Adjermé (cousin)
+
+x
+
+x
+
+x
+
+x
+
+30
+
+Adon (1)
+
+x
+
+&amp; (Q/C ; Familier)
+
+&amp; (Québec, Familier)
+
+x
+
+31
+
+Adon (2)
+
+x
+
+x
+
+x
+
+x
+
+32
+
+Adonnance (1)
+
+x
+
+x
+
+x
+
+x
+
+33
+
+Adonnance (coup d’) (2)
+
+x
+
+x
+
+x
+
+x
+
+34
+
+Adonnance (3)
+
+x
+
+x
+
+x
+
+x
+
+35
+
+Adonner à
+
+&amp; v. intrans. (Fleur de lis ; Familier)
+
+&amp; v. intr. (Q/C ; Familier)
+
+&amp; (Québec, Acadie, Familier)
+
+x
+
+36
+
+Adonner (s’)
+
+x
+
+&amp; (Q/C ; Familier)
+
+&amp; (Québec, Acadie, Familier)
+
+x
+
+37
+
+Adonne (ça s’_ que)
+
+x
+
+&amp; (Q/C ; Familier)
+
+x
+
+x
+
+38
+
+Adonne (ça s’_)
+
+x
+
+x
+
+x
+
+x
+
+39
+
+Adonner ou s’adonner
+
+&amp; v. intrans. ; (Fleur de lis; Familier)
+
+L’emploi de ce verbe est courant au Québec dans la langue familière, mais il est vieilli dans le reste de la francophonie
+
+&amp; (Q/C ; Familier)
+
+&amp; (Québec, Acadie, Familier)
+
+&amp; (Canada ; Familier)
+
+40
+
+Adoucir
+
+x
+
+x
+
+x
+
+x
+
+41
+
+Affaire (une petite)
+
+x
+
+x
+
+x
+
+x
+
+42
+
+Agrès
+
+&amp; (Vieilli)
+
+&amp; (Q/C ; Vieilli)
+
+&amp; (Québec, Familier)
+
+x
+
+43
+
+Ahonter
+
+x
+
+x
+
+x
+
+x
+
+44
+
+Aigrette (1)
+
+x
+
+&amp;
+
+x
+
+x
+
+45
+
+Aigrette (2)
+
+x
+
+x
+
+x
+
+x
+
+46
+
+Aiguail
+
+x
+
+x
+
+&amp; (Soutenu)
+
+&amp; (Régional)
+
+47
+
+Aigue
+
+x
+
+x
+
+x
+
+x
+
+48
+
+Aiguille (1)
+
+x
+
+x
+
+x
+
+x
+
+49
+
+Aiguille (2)
+
+x
+
+x
+
+x
+
+x
+
+50
+
+Ain
+
+x
+
+x
+
+x
+
+x
+
+51
+
+Air (du temps)
+
+x
+
+x
+
+x
+
+&amp;
+
+52
+
+Aire
+
+x
+
+&amp; (Vieilli)
+
+x
+
+&amp; (Anciennement)
+
+53
+
+Aisé
+
+&amp;
+
+&amp;
+
+&amp; (Soutenu)
+
+&amp; (Littéraire)
+
+54
+
+Ajeuve
+
+x
+
+x
+
+x
+
+x
+
+55
+
+Alingue
+
+x
+
+x
+
+x
+
+x
+
+56
+
+All right
+
+x
+
+x
+
+&amp;&amp;
+
+x
+
+57
+
+Allégir
+
+x
+
+x
+
+&amp;
+
+x
+
+58
+
+Allure (avoir de l’) (1)
+
+&amp;
+
+&amp;
+
+&amp;
+
+&amp; (Canada)
+
+59
+
+Allure (avoir de l’) (2)
+
+x
+
+&amp;
+
+&amp; (Québec, Belgique, Familier)
+
+&amp; (Canada)
+
+60
+
+Alouette (1)
+
+&amp;
+
+&amp;
+
+&amp;
+
+&amp;
+
+61
+
+Alouette (2)
+
+x
+
+x
+
+x
+
+x
+
+62
+
+Alouette (3)
+
+x
+
+&amp;
+
+x
+
+x
+
+63
+
+Amanché
+
+x
+
+&amp; (Q/C ; Familier)
+
+&amp; (Québec, Acadie, Familier)
+
+x
+
+64
+
+Amancher
+
+x
+
+&amp; (Q/C ; Familier)
+
+&amp; (Québec, Acadie, Familier)
+
+x
+
+65
+
+Amanchure
+
+x
+
+&amp; (Q/C ; Familier)
+
+&amp; (Québec, Familier)
+
+x
+
+66
+
+Amarre
+
+&amp;&amp;
+
+x
+
+x
+
+x
+
+67
+
+Amarré, ée
+
+x
+
+x
+
+x
+
+X
+
+68
+
+Amarrer
+
+x
+
+&amp;
+
+&amp; (Acadie, Familier)
+
+&amp;
+
+(Régional ;
+
+Normandie,
+
+Bretagne,
+
+Vendée ;
+
+Acadie,
+
+Saint-Pierre-
+
+et-Miquelon,
+
+Louisiane,
+
+Antilles,
+
+Réunion,
+
+Gabon)
+
+69
+
+Ambitionner
+
+&amp; (Fleur de lis ; Absol.)
+
+&amp; (Q/C ; Familier)
+
+&amp; (Québec, Familier)
+
+&amp; (Canada)
+
+70
+
+Amblet (1)
+
+x
+
+x
+
+x
+
+x
+
+71
+
+Amblet (2)
+
+x
+
+x
+
+x
+
+x
+
+72
+
+Amener (1)
+
+x
+
+x
+
+x
+
+x
+
+73
+
+Amener (2)
+
+x
+
+x
+
+x
+
+x
+
+74
+
+Amets
+
+x
+
+x
+
+x
+
+x
+
+75
+
+Ameuiller
+
+x
+
+x
+
+&amp;
+
+x
+
+76
+
+Amiauler
+
+x
+
+x
+
+x
+
+x
+
+77
+
+Amodurer (1)
+
+x
+
+x
+
+x
+
+x
+
+78
+
+Amodurer (2)
+
+x
+
+x
+
+x
+
+x
+
+79
+
+Amortir
+
+x
+
+x
+
+x
+
+&amp; (Finance)
+
+80
+
+Amounêter
+
+x
+
+x
+
+x
+
+x
+
+81
+
+Amoureux
+
+x
+
+A
+
+x
+
+x
+
+82
+
+Anchet
+
+x
+
+x
+
+&amp; (Québec, Familier, Vieilli)
+
+x
+
+83
+
+Andouille
+
+x
+
+x
+
+x
+
+x
+
+84
+
+Animal, aux
+
+&amp;
+
+&amp;
+
+&amp;
+
+&amp;
+
+85
+
+Animau
+
+x
+
+x
+
+x
+
+x
+
+86
+
+Anisette (1)
+
+x
+
+x
+
+x
+
+x
+
+87
+
+Anisette (2)
+
+x
+
+x
+
+x
+
+x
+
+88
+
+Année (tuer la vieille)
+
+x
+
+x
+
+x
+
+x
+
+89
+
+Anyway
+
+x
+
+x
+
+&amp;&amp;
+
+x
+
+90
+
+Apercevance
+
+x
+
+x
+
+x
+
+x
+
+91
+
+Apiloter
+
+x
+
+x
+
+x
+
+x
+
+92
+
+Apiloter (s’)
+
+x
+
+x
+
+x
+
+x
+
+93
+
+Apilotis
+
+x
+
+x
+
+x
+
+x
+
+94
+
+Apiquer (s’)
+
+x
+
+x
+
+x
+
+x
+
+95
+
+Aplangir
+
+x
+
+x
+
+x
+
+x
+
+96
+
+Appareiller
+
+x
+
+&amp; (Vieux)
+
+&amp; (Vieux)
+
+&amp; (Vieux)
+
+97
+
+Appareiller (s’)
+
+x
+
+x
+
+x
+
+x
+
+98
+
+Apparence que
+
+x
+
+x
+
+&amp; (Québec, Familier)
+
+x
+
+99
+
+Appointement
+
+&amp;&amp;
+
+&amp;&amp; (Q/C)
+
+&amp;&amp;
+
+x
+
+100
+
+Appointi, ie
+
+x
+
+x
+
+x
+
+x
+
+101
+
+Appointir
+
+x
+
+x
+
+&amp;
+
+x
+
+102
+
+Apprimer
+
+x
+
+x
+
+x
+
+x
+
+103
+
+Arçon (1)
+
+x
+
+x
+
+x
+
+x
+
+104
+
+Arçon (2)
+
+x
+
+x
+
+x
+
+x
+
+105
+
+Argalades
+
+x
+
+x
+
+x
+
+x
+
+106
+
+Arrache
+
+x
+
+x
+
+x
+
+x
+
+107
+
+Arracher
+
+x
+
+&amp;
+
+x
+
+&amp;
+
+108
+
+Arracherie
+
+x
+
+x
+
+x
+
+x
+
+109
+
+Arrachon
+
+x
+
+x
+
+x
+
+x
+
+110
+
+Arrime (1)
+
+x
+
+x
+
+x
+
+x
+
+111
+
+Arrime (2)
+
+x
+
+x
+
+x
+
+x
+
+112
+
+Arrimer
+
+&amp;
+
+&amp;
+
+&amp;
+
+&amp;
+
+113
+
+Arrimer (s’)
+
+x
+
+x
+
+x
+
+x
+
+114
+
+Assaper
+
+x
+
+x
+
+x
+
+x
+
+115
+
+Assaper (s’)
+
+x
+
+x
+
+x
+
+x
+
+116
+
+Assaye
+
+x
+
+x
+
+x
+
+X
+
+117
+
+Astheure (1)
+
+&amp; (Fleur de lis ; Vieux)
+
+&amp; (Q/C ; Familier)
+
+Cet emploi est surtout fréquent dans le discours familier à l’oral. On écrit aussi asteure, astheur ou à c’t’heure. L’emploi de astheure, sorti de l’usage en France, est également en usage dans d’autres aires de la francophonie, notamment en Acadie
+
+A
+
+&amp; (Québec, Acadie, Familier)
+
+&amp; (Vieilli ou régional)
+
+118
+
+Astheure (2)
+
+x
+
+A
+
+x
+
+x
+
+119
+
+Attiner
+
+x
+
+x
+
+x
+
+x
+
+120
+
+Attisée
+
+x
+
+x
+
+x
+
+x
+
+121
+
+Attoqué, ée (1)
+
+x
+
+x
+
+x
+
+x
+
+122
+
+Attoqué, ée (2)
+
+x
+
+x
+
+x
+
+x
+
+123
+
+Attoquer (s’)
+
+x
+
+x
+
+x
+
+x
+
+124
+
+Attoquer (1)
+
+x
+
+x
+
+x
+
+x
+
+125
+
+Attoquer (2)
+
+x
+
+x
+
+x
+
+x
+
+126
+
+Attrape
+
+x
+
+&amp; (Vieux)
+
+x
+
+&amp; (Vieux)
+
+127
+
+Auras ou aras
+
+x
+
+x
+
+x
+
+x
+
+128
+
+Auripiaux
+
+x
+
+x
+
+&amp; (Québec, Acadie, Familier)
+
+x
+
+129
+
+Avantage (avoir de l’_)
+
+x
+
+x
+
+x
+
+x
+
+130
+
+Avaricieux
+
+x
+
+&amp;
+
+&amp; (Vieilli)
+
+&amp; (Vieux ou plaisant)
+
+131
+
+Avarie
+
+&amp;
+
+&amp;
+
+x
+
+x
+
+132
+
+Aveindre
+
+x
+
+x
+
+&amp; (Québec, Familier, Vieilli)
+
+x
+
+133
+
+Aveindre (s’)
+
+x
+
+x
+
+x
+
+x
+
+134
+
+Aviser
+
+&amp; (Littéraire)
+
+&amp; (Vieilli ou littéraire)
+
+&amp; (Vieux ou soutenu)
+
+&amp; (Vieux ou littéraire)
+
+135
+
+Avisse
+
+x
+
+x
+
+&amp; (Québec, Familier, Vieilli)
+
+x
+
+136
+
+Bacaillère
+
+x
+
+x
+
+x
+
+x
+
+137
+
+Badgeulage
+
+x
+
+x
+
+x
+
+x
+
+138
+
+Badgeuler
+
+x
+
+x
+
+&amp; (Acadie, Familier)
+
+x
+
+139
+
+Badgeuleux, euse (1)
+
+x
+
+x
+
+x
+
+x
+
+140
+
+Badgeuleux, euse (2)
+
+x
+
+x
+
+x
+
+x
+
+141
+
+Bâdrer
+
+x
+
+x
+
+&amp; (Québec, Acadie, Familier)
+
+x
+
+142
+
+Bâdrer (se)
+
+x
+
+x
+
+x
+
+x
+
+143
+
+Bagouler
+
+x
+
+x
+
+x
+
+x
+
+144
+
+Bagouleux, euse
+
+x
+
+x
+
+x
+
+x
+
+145
+
+Baillarge
+
+x
+
+x
+
+x
+
+x
+
+146
+
+Baille (1)
+
+x
+
+A
+
+&amp; (Acadie, Familier)
+
+x
+
+147
+
+Baille à laver (2)
+
+x
+
+A
+
+x
+
+x
+
+148
+
+Baille (3)
+
+x
+
+x
+
+x
+
+x
+
+149
+
+Baillée
+
+x
+
+x
+
+&amp; (Acadie, Familier)
+
+x
+
+150
+
+Bailler
+
+&amp; (Vieux)
+
+&amp; (Vieux) A
+
+&amp; (Vieux ou Acadie, Familier)
+
+&amp; (Vieux)
+
+151
+
+Baliage
+
+x
+
+x
+
+x
+
+x
+
+152
+
+Balise
+
+x
+
+x
+
+x
+
+x
+
+153
+
+Baliser
+
+x
+
+x
+
+x
+
+x
+
+154
+
+Ballant (1)
+
+x
+
+&amp; (Q/C) A
+
+x
+
+&amp; (Canada)
+
+155
+
+Ballant (2)
+
+x
+
+x
+
+x
+
+x
+
+156
+
+Ballant (être en _)
+
+x
+
+x
+
+x
+
+x
+
+157
+
+Banc de sciaux
+
+x
+
+x
+
+x
+
+x
+
+158
+
+Banc de neige
+
+(Fleur de lis)
+
+&amp; (Q/C)
+
+&amp; (Québec, Belgique, Acadie)
+
+&amp; (Régional : Canada)
+
+159
+
+Barachois
+
+x
+
+&amp;
+
+&amp; (Québec)
+
+x
+
+160
+
+Baraque
+
+&amp;
+
+&amp;
+
+&amp;
+
+&amp;
+
+161
+
+Barbeau ou barbot
+
+&amp;
+
+&amp;
+
+&amp;
+
+&amp;
+
+162
+
+Bardasser
+
+x
+
+x
+
+x
+
+x
+
+163
+
+Bardasseries
+
+x
+
+x
+
+x
+
+x
+
+164
+
+Bardasseux, euse
+
+x
+
+x
+
+x
+
+x
+
+165
+
+Bardassier, ière
+
+x
+
+x
+
+x
+
+x
+
+166
+
+Barrer
+
+&amp;&amp;
+
+On ferme une porte à clé ou on la verrouille. L’emploi du verbe barrer est courant au Québec dans la langue familière, mais il est vieilli en ce sens dans le reste de la francophonie
+
+&amp; (Q/C; Familier)
+
+L’emploi de barrer, courant dans la langue familière et parfois critiqué au Québec comme synonyme non standard de fermer à clé, verrouiller, est également en usage dans certaines régions de France et dans d’autres aires de la francophonie, notamment en Acadie
+
+&amp; (Québec, Acadie, Familier)
+
+&amp; (Régional : Nord ; Ouest ; Canada)
+
+167
+
+Basané, ée
+
+x
+
+x
+
+x
+
+x
+
+168
+
+Bascule (jouer à la _)
+
+x
+
+x
+
+x
+
+x
+
+169
+
+Bâsi, ie
+
+x
+
+x
+
+x
+
+x
+
+170
+
+Bâsir (1)
+
+x
+
+x
+
+&amp; v. trans. (Acadie, Familier)
+
+x
+
+171
+
+Bâsir (2)
+
+x
+
+x
+
+x
+
+x
+
+172
+
+Bâtiment
+
+x
+
+&amp;
+
+x
+
+x
+
+173
+
+Bebelle
+
+x
+
+&amp; (Q/C ; Familier; Dans le langage enfantin)
+
+&amp; (Québec, Familier)
+
+&amp; (Canada; Louisiane ; Familier)
+
+174
+
+Bedou, ouse
+
+x
+
+A
+
+x
+
+x
+
+175
+
+Béler
+
+x
+
+x
+
+x
+
+x
+
+176
+
+Belle (avoir en _)
+
+x
+
+x
+
+x
+
+x
+
+177
+
+Beluette
+
+x
+
+Bluette : &amp; (Vieux) A
+
+Bluette : &amp; (Vieux)
+
+&amp; (Vieux)
+
+178
+
+Beluetter (1)
+
+x
+
+x
+
+x
+
+x
+
+179
+
+Beluetter (2)
+
+x
+
+x
+
+x
+
+x
+
+180
+
+Bènaise
+
+x
+
+x
+
+x
+
+x
+
+181
+
+Berda (1)
+
+Barda : &amp; (Fleur de lis ; Vieux)
+
+Barda : &amp; (Q/C ; Vieilli, Familier)
+
+Barda : &amp; (Québec, Familier)
+
+x
+
+182
+
+Berda (2)
+
+x
+
+Barda : &amp; (Q/C Vieilli, Familier)
+
+Barda : &amp; (Québec, Familier)
+
+x
+
+183
+
+Berlicoco (1)
+
+x
+
+A
+
+x
+
+x
+
+184
+
+Berlicoco (3)
+
+x
+
+A
+
+x
+
+x
+
+185
+
+Besson, onne
+
+&amp; (Vieux)
+
+&amp; (Q/C; Vieilli)
+
+L’emploi de ce mot est sorti de l’usage en France
+
+&amp; (Régional ou vieux)
+
+&amp; (Vieux ou régional)
+
+186
+
+Beude
+
+x
+
+x
+
+x
+
+x
+
+187
+
+Bidou
+
+x
+
+x
+
+x
+
+x
+
+188
+
+Prusse (bière de)
+
+x
+
+x
+
+x
+
+x
+
+189
+
+Binder (1)
+
+x
+
+x
+
+x
+
+x
+
+190
+
+Binder (2)
+
+x
+
+x
+
+x
+
+x
+
+191
+
+Blé d’Inde (1)
+
+&amp; (Fleur de lis)
+
+&amp; (Q/C)
+
+Ce mot est sorti de l’usage en France
+
+&amp; (Québec)
+
+&amp; (Régional : Canada)
+
+192
+
+Blé d’Inde (enragé comme un _)
+
+x
+
+x
+
+x
+
+x
+
+193
+
+Bleuet
+
+&amp; (Fleur de lis)
+
+&amp; (Q/C)
+
+&amp; (Québec)
+
+&amp; (Régional : Canada)
+
+194
+
+Bocouite
+
+x
+
+A
+
+&amp; (Acadie, Familier)
+
+x
+
+195
+
+Bois de gautreau (1)
+
+x
+
+x
+
+x
+
+x
+
+196
+
+Bois de gautreau (2)
+
+x
+
+x
+
+x
+
+x
+
+197
+
+Bois franc
+
+&amp;
+
+&amp;
+
+&amp;
+
+&amp; (Canada)
+
+198
+
+Bois mou
+
+x
+
+&amp;
+
+&amp;
+
+&amp; (Canada)
+
+199
+
+Boloxer
+
+x
+
+x
+
+x
+
+x
+
+200
+
+Bonhomme couèche
+
+x
+
+x
+
+x
+
+x
+
+201
+
+Bootleggeux
+
+x
+
+x
+
+x
+
+x
+
+202
+
+Borgo (1)
+
+x
+
+x
+
+x
+
+x
+
+203
+
+Borgo (2)
+
+x
+
+x
+
+x
+
+x
+
+204
+
+Borgoter (1)
+
+x
+
+x
+
+x
+
+x
+
+205
+
+Borgoter (2)
+
+x
+
+x
+
+x
+
+x
+
+206
+
+Bosse de fièvre
+
+x
+
+x
+
+x
+
+x
+
+207
+
+Botte sauvage
+
+x
+
+&amp; (Anciennement)
+
+x
+
+x
+
+208
+
+Botter
+
+x
+
+x
+
+(Québec, Familier, Vieilli)
+
+x
+
+209
+
+Boucane
+
+&amp; (Fleur de lis ; Familier)
+
+&amp; (Q/C ; Familier) A
+
+&amp; (Québec, Familier)
+
+&amp; (Régional : Canada ; Louisiane ; Familier)
+
+210
+
+Boucanerie
+
+x
+
+&amp; (Anciennement)
+
+x
+
+x
+
+211
+
+Boucanière
+
+x
+
+&amp; (Anciennement)
+
+x
+
+x
+
+212
+
+Bouchure
+
+x
+
+x
+
+&amp; (Acadie, Familier)
+
+x
+
+213
+
+Bougre, bougresse
+
+x
+
+x
+
+x
+
+x
+
+214
+
+Brailler
+
+&amp; (Familier)
+
+Dans le reste de la franco-phonie, ce verbe s’emploie surtout en parlant d’un enfant; au Québec, il est utilisé également en parlant d’une personne adulte
+
+&amp; (Q/C; Familier)
+
+En France, ce sens s’applique surtout aux enfants qui pleurent bruyamment
+
+&amp; (Québec, Acadie, Familier)
+
+&amp; v. transitif (Régional : Bretagne ; Canada)
+
+215
+
+Brailloux, ouse
+
+x
+
+x
+
+x
+
+x
+
+216
+
+Broche (1)
+
+x
+
+&amp; (Q/C)
+
+Cet emploi est vieux ou régional en France
+
+A
+
+&amp; (Québec, Familier)
+
+x
+
+217
+
+Broche (2)
+
+x
+
+A
+
+&amp; (Québec, Familier)
+
+&amp; (Régional : Canada)
+
+218
+
+Brocher
+
+x
+
+A
+
+&amp; (Acadie, Familier)
+
+x
+
+219
+
+Brochure
+
+x
+
+A
+
+&amp; (Acadie, Familier)
+
+x
+
+220
+
+Brosse
+
+x
+
+&amp; (Q/C; Familier)
+
+&amp; (Québec, Familier)
+
+x
+
+221
+
+Brosser
+
+x
+
+x
+
+x
+
+x
+
+222
+
+Brunante
+
+&amp; (Fleur de lis)
+
+&amp; (Q/C)
+
+&amp; (Québec)
+
+&amp; (Régional : Canada; Louisiane)
+
+223
+
+Brunette (à la)
+
+x
+
+x
+
+x
+
+x
+
+224
+
+Cache-ma-balle
+
+x
+
+x
+
+x
+
+x
+
+225
+
+Cachette-à-bouchette
+
+x
+
+x
+
+x
+
+x
+
+226
+
+Cagouette
+
+x
+
+x
+
+&amp; (Acadie, Familier)
+
+x
+
+227
+
+Cagouette creux
+
+x
+
+x
+
+x
+
+x
+
+228
+
+Cale-vite
+
+x
+
+x
+
+x
+
+x
+
+229
+
+Caler (1)
+
+x
+
+&amp; (Q/C)
+
+&amp; (Québec, Acadie, Familier)
+
+&amp; (Canada)
+
+230
+
+Caler (2)
+
+x
+
+&amp; (Q/C ; Familier)
+
+&amp; (Québec, Familier)
+
+x
+
+231
+
+Calotte
+
+&amp;
+
+&amp;
+
+L’emploi de calotte est parfois critiqué comme synonyme non standard de casquette
+
+&amp; (Québec, Familier)
+
+&amp;
+
+232
+
+Calouetter
+
+x
+
+x
+
+x
+
+x
+
+233
+
+Capot (1)
+
+x
+
+&amp; (Q/C; Vieilli)
+
+Cet emploi est sorti de l’usage en France
+
+&amp; (Québec, Acadie, Familier)
+
+x
+
+234
+
+Capot (2)
+
+x
+
+x
+
+x
+
+x
+
+235
+
+Carreauté, ée
+
+&amp;&amp; (Impropriété pour à carreaux)
+
+&amp; (Q/C)
+
+L’emploi de carreauté est parfois critiqué comme synonyme non standard de à carreaux
+
+&amp; (Québec)
+
+&amp; (Régional :
+
+Normandie ; Canada ; Haïti ; Critiqué au Canada)
+
+236
+
+Casseau
+
+&amp; (Fleur de lis)
+
+&amp; (Q/C)
+
+x
+
+&amp; (Régional : Canada)
+
+237
+
+Chalin (1)
+
+x
+
+A
+
+x
+
+x
+
+238
+
+Chalin (2)
+
+x
+
+x
+
+x
+
+x
+
+239
+
+Chaliner
+
+x
+
+x
+
+x
+
+x
+
+240
+
+Chancre
+
+x
+
+x
+
+x
+
+x
+
+241
+
+Châssis
+
+&amp;&amp;
+
+(Ne pas confondre avec le nom fenêtre, ouverture dans un mur)
+
+&amp; (Q/C; Vieilli ou familier)
+
+&amp; (Québec, Acadie, Familier)
+
+&amp;
+
+(Régional : Nord ; Canada ; Louisiane)
+
+242
+
+Chaviré, ée
+
+x
+
+x
+
+x
+
+x
+
+243
+
+Chavirer
+
+&amp;
+
+&amp;
+
+&amp;
+
+x
+
+244
+
+Cobi, ie
+
+x
+
+x
+
+&amp; (Acadie, Familier)
+
+x
+
+245
+
+Cobie (avoir la tête _)
+
+x
+
+x
+
+x
+
+x
+
+246
+
+Cobir (1)
+
+x
+
+x
+
+&amp; (Acadie, Familier)
+
+x
+
+247
+
+Cobir (2)
+
+x
+
+x
+
+x
+
+x
+
+248
+
+Coque
+
+x
+
+&amp;
+
+Cet emploi est régional ; il est généralement associé au français acadien
+
+&amp;
+
+x
+
+249
+
+Coquemar
+
+x
+
+x
+
+&amp; (Acadie, Familier ou vieux)
+
+&amp;
+
+250
+
+Coquiner
+
+x
+
+x
+
+x
+
+x
+
+Total
+
+40
+
+71
+
+84
+
+52
+
+1. Le signe &amp; indique la présence du particularisme acadien, le signe x son absence ; le signe &amp;&amp; signifie que le particularisme est présent, mais qu’il est critiqué ; enfin, la marque A que l’on retrouve dans la colonne d’Usito veut dire que l’on retrouve le vocable dans le « Lexique d’acadianismes » de Louise Péronnet, soit à l’extérieur de la nomenclature principale d’Usito. Concernant la colonne « Particularisme acadien », le féminin des adjectifs n’est présent que lorsqu’il est également affiché dans la BDLP-Acadie (Dubois et Chevalier, 2006).
+</texte></corps><partiesann lang="fr"><merci><alinea>Cette recherche a reçu l’appui financier du Conseil de recherche en sciences humaines (bourse de doctorat Joseph-Armand-Bombardier).</alinea></merci><grbiblio><biblio><refbiblio id="rb1"><marquage typemarq="petitecap">Arrighi</marquage>, Laurence (2014). « Le français parlé en Acadie : description et construction d’une “variété” », <marquage typemarq="italique">Minorités linguistiques et société = Linguistic Minorities and Society</marquage>, n<exposant>o</exposant> 4, p. 100-125.</refbiblio><refbiblio id="rb2"><marquage typemarq="petitecap">Arrighi</marquage>, Laurence, et Karine <marquage typemarq="petitecap">Gauvin (2014)</marquage>. « Discours réflexifs de lexicographes acadiens : entre description et justification de l’oeuvre », dans Laurence Arrighi et Matthieu LeBlanc (dir.), <marquage typemarq="italique">La francophonie en Acadie : dynamiques sociales et langagières. Textes en hommage à Louise Péronnet</marquage>, Sudbury, Prise de Parole, p. 372-393.</refbiblio><refbiblio id="rb3"><marquage typemarq="petitecap">Boudreau</marquage>, Annette (1996). « Les mots des jeunes Acadiens et Acadiennes du Nouveau-Brunswick », dans Lise Dubois et Annette Boudreau (dir.), <marquage typemarq="italique">Les Acadiens et leur(s) langue(s) : quand le français est minoritaire</marquage>, actes du colloque organisé par le Centre de recherche en linguistique appliquée de l’Université de Moncton et tenu du 19 au 21 août 1994, Moncton, Éditions d’Acadie, p. 137-150.</refbiblio><refbiblio id="rb4"><marquage typemarq="petitecap">Boulanger</marquage>, Jean-Claude, et Alain <marquage typemarq="petitecap">Rey (</marquage>1993 [1992]). <marquage typemarq="italique">Dictionnaire québécois d’aujourd’hui : langue française, histoire, géographie, culture générale</marquage>, Montréal, Dicorobert.</refbiblio><refbiblio id="rb5"><marquage typemarq="petitecap">Bourdieu</marquage>, Pierre (2001). <marquage typemarq="italique">Langage et pouvoir symbolique</marquage>, Paris, Fayard.</refbiblio><refbiblio id="rb6"><marquage typemarq="petitecap">Cajolet-Laganière</marquage>, Hélène, et Pierre<marquage typemarq="petitecap"> Martel (2008)</marquage>. « Le système de marques d’usage et de marques normatives dans le dictionnaire du français de l’Équipe FRANQUS », dans Monique C. Cormier et Jean-Claude Boulanger (dir.), <marquage typemarq="italique">Les dictionnaires de la langue française au Québec : de la Nouvelle-France à aujourd’hui</marquage>, Montréal, Presses de l’Université de Montréal, p. 387-411, coll. « Paramètres ».</refbiblio><refbiblio id="rb7"><marquage typemarq="petitecap">Cajolet-Laganière</marquage>, Hélène, Pierre <marquage typemarq="petitecap">Martel</marquage> et Chantal-Édith <marquage typemarq="petitecap">Masson</marquage> (2014). <marquage typemarq="italique">Dictionnaire Usito : Parce que le français ne s’arrête jamais</marquage>, réalisé dans le cadre du projet Franqus, Sherbrooke, Delisme. En ligne : <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls2" xlink:href="http://www.usito.com/" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">www.usito.com/</liensimple> (consulté le 1<exposant>er</exposant> octobre 2016).</refbiblio><refbiblio id="rb8"><marquage typemarq="petitecap">Calvet</marquage>, Louis-Jean (1999). <marquage typemarq="italique">Pour une écologie des langues du monde</marquage>, Paris, Plon.</refbiblio><refbiblio id="rb9"><marquage typemarq="petitecap">Corbeil, J</marquage>ean-Claude (2003 [1998]). « Préface », dans Marie-Éva de Villers, <marquage typemarq="italique">Multidictionnaire de la langue française</marquage>, 4<exposant>e</exposant> éd., Montréal, Québec Amérique.</refbiblio><refbiblio id="rb10"><marquage typemarq="petitecap">de Villers</marquage>, Marie-Éva (2003 [1988]). <marquage typemarq="italique">Multidictionnaire de la langue française</marquage>, 4<exposant>e</exposant> éd., Montréal, Québec Amérique.</refbiblio><refbiblio id="rb11"><marquage typemarq="petitecap">Druide informatique</marquage> (s.d.). Antidote, Montréal, Druide informatique. En ligne : <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls3" xlink:href="https://www.antidote.info/fr/" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://www.antidote.info/fr/</liensimple> (consulté le 1<exposant>er</exposant> juin 2016).</refbiblio><refbiblio id="rb12"><marquage typemarq="petitecap">Druide informatique</marquage> (2015). <marquage typemarq="italique">Antidote</marquage>, version 8.5, Montréal, Druide informatique.</refbiblio><refbiblio id="rb13"><marquage typemarq="petitecap">Druide informatique</marquage> (2012). <marquage typemarq="italique">Posologie</marquage>, Montréal, Druide informatique. En ligne : <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls4" xlink:href="https://www.druide.com/telecharger/doc/posologie.pdf" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://www.druide.com/telecharger/doc/posologie.pdf</liensimple> (consulté le 1<exposant>er</exposant> octobre 2016).</refbiblio><refbiblio id="rb14"><marquage typemarq="petitecap">Dubois</marquage>, Lise, et Gisèle <marquage typemarq="petitecap">Chevalier</marquage> (dir.) (2006). <marquage typemarq="italique">Base de données lexicographiques panfrancophone (section Acadie)</marquage>, Agence universitaire francophone (AUF) et Trésor de la langue française au Québec (TLFQ). En ligne : <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls5" xlink:href="http://www.bdlp.org/accueil.asp?base=AC" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://www.bdlp.org/accueil.asp?base=AC</liensimple> (consulté le 1<exposant>er</exposant> octobre 2016).</refbiblio><refbiblio id="rb15"><marquage typemarq="petitecap">Farina</marquage>, Annick (2001). <marquage typemarq="italique">Dictionnaires de langue française du Canada : lexicographie et société au Québec</marquage>, Paris, Honoré Champion, coll. « Lexica, Mots et dictionnaires », vol. 6.</refbiblio><refbiblio id="rb16"><marquage typemarq="petitecap">Francard</marquage>, Michel (2001). « Le français de référence : formes, normes et identités », dans Michel Francard (dir.), <marquage typemarq="italique">Le français de référence : constructions et appropriations d’un concept</marquage>, <marquage typemarq="italique">Cahiers de l’Institut de linguistique de Louvain</marquage>, avec la collaboration de Geneviève Geron et Régine Wilmet, vol. 27, tome 2, p. 223-240.</refbiblio><refbiblio id="rb17"><marquage typemarq="petitecap">Gadet</marquage>, Françoise (2007). <marquage typemarq="italique">La variation sociale en français</marquage>, Paris, Orphys.</refbiblio><refbiblio id="rb18"><marquage typemarq="petitecap">Gauvin</marquage>, Karine (2014). « L’activité lexicographique en Acadie des Maritimes : bilan et perspectives », <marquage typemarq="italique">Minorités linguistiques et société = Linguistic Minorities and Society</marquage>, n<exposant>o</exposant> 4, p. 42-81.</refbiblio><refbiblio id="rb19"><marquage typemarq="petitecap">Girardin</marquage>, Chantal (1987). « Système des marqueurs et connotations sociales dans quelques dictionnaires culturels français », <marquage typemarq="italique">Lexicographica</marquage>, vol. 3, p. 76-102.</refbiblio><refbiblio id="rb20"><marquage typemarq="petitecap">Hausmann</marquage>, Franz Joseph (1989). « Die Markierung im allgemeinen einsprachigen Wörterbuch : eine Übersicht », dans Franz Josef Hausmann, Oskar Reichmann, Herbert Ernst Wiegand, Ladislav Zgusta (dir.), <marquage typemarq="italique">Wörterbücher. Dictionaries. Dictionnaires : Ein internationales Handbuch zur Lexikographie</marquage>, vol. 1, Berlin-New York, Walter de Gruyter, p. 649-657.</refbiblio><refbiblio id="rb21"><marquage typemarq="petitecap">Juneau</marquage>, Marcel, Micheline <marquage typemarq="petitecap">Massicotte</marquage> et Claude <marquage typemarq="petitecap">Poirier (1977)</marquage>. « Notes et éclaircissements à propos du <marquage typemarq="italique">Trésor de la langue française au Québec </marquage>», dans Marcel Juneau (dir.), <marquage typemarq="italique">Problèmes de lexicologie québécoise</marquage>, Québec, Presses de l’Université Laval, p. 1-14.</refbiblio><refbiblio id="rb22"><marquage typemarq="petitecap">Labelle</marquage>, Hélène (2015). <marquage typemarq="italique">Le traitement lexicographique du français canadien dans</marquage> Usito, <marquage typemarq="italique">dictionnaire québécois informatisé</marquage>, thèse de maîtrise, Ottawa, Université d’Ottawa.</refbiblio><refbiblio id="rb23"><marquage typemarq="petitecap">Labelle</marquage>, Hélène (2018). « Le traitement lexicographique des variétés nord-américaines de langue française dans <marquage typemarq="italique">Usito</marquage>, dictionnaire québécois en ligne », dans Laurence Arrighi et Karine Gauvin (dir.), <marquage typemarq="italique">Regards croisés sur les français d’ici</marquage>, Québec, Les Presses de l’Université Laval, p. 131-147, coll. « Les Voies du français ».</refbiblio><refbiblio id="rb24"><marquage typemarq="petitecap">Martineau</marquage>, France (2014). « L’Acadie et le Québec : convergences et divergences », <marquage typemarq="italique">Minorités linguistiques et société = Linguistic Minorities and Society</marquage>, n<exposant>o</exposant> 4, p. 16-41.</refbiblio><refbiblio id="rb25"><marquage typemarq="petitecap">Péronnet</marquage>, Louise (1993). « La situation du français en Acadie : l’éclairage de la linguistique », dans Jean Daigle (dir.), <marquage typemarq="italique">L’Acadie des Maritimes : études thématiques des débuts à nos jours</marquage>, Moncton, Chaire d’études acadiennes, Université de Moncton, p. 467-503.</refbiblio><refbiblio id="rb26"><marquage typemarq="petitecap">Péronnet</marquage>, Louise (1995). « Le français acadien », dans Pierre Gauthier et Thomas Lavoie (dir.), <marquage typemarq="italique">Français de France et français du Canada : les parlers de l’Ouest de la France, du Québec et de l’Acadie</marquage>, Lyon, Centre d’études linguistiques Jacques Goudet, p. 399-439.</refbiblio><refbiblio id="rb27"><marquage typemarq="petitecap">Poirier</marquage>, Claude (1988). <marquage typemarq="italique">Dictionnaire du français plus</marquage> :<marquage typemarq="italique"> à l’usage des francophones d’Amérique</marquage>, Montréal, Centre éducatif et culturel.</refbiblio><refbiblio id="rb28"><marquage typemarq="petitecap">Poirier</marquage>, Claude (2004). « Le Multi, un dictionnaire ambigu », <marquage typemarq="italique">Québec français</marquage>, n<exposant>o</exposant> 132, p. 26-27.</refbiblio><refbiblio id="rb29"><marquage typemarq="petitecap">Poisson</marquage>, Esther (2002). « Français en usage au Québec et dictionnaires », dans Claude Verreault, Louis Mercier et Thomas Lavoie (dir.)<marquage typemarq="italique">,</marquage> <marquage typemarq="italique">Le français, une langue à apprivoiser</marquage>, Québec, Presses de l’Université Laval, p. 93-111.</refbiblio><refbiblio id="rb30"><marquage typemarq="petitecap">Pöll</marquage>, Bernhard (2005). <marquage typemarq="italique">Le français langue pluricentrique ? Études sur la variation diatopique d’une langue standard</marquage>, Francfort, Peter Lang.</refbiblio><refbiblio id="rb31"><marquage typemarq="petitecap">Pruvost</marquage>, Jean (2002). « À la recherche de la norme : sa représentation lexicographique et dictionnairique chez Larousse et Robert et la triple investigation », dans Pierre Bouchard et Monique C. Cormier (dir.), <marquage typemarq="italique">La représentation de la norme dans les pratiques terminologiques et lexicographiques</marquage>, Québec, Office de la langue française, p. 139-170, coll. « Langues et sociétés », n<exposant>o</exposant> 39.</refbiblio><refbiblio id="rb32"><marquage typemarq="petitecap">Rey</marquage>, Alain (2016). <marquage typemarq="italique">Le Petit Robert de la langue française</marquage>, version numérique 4.2, millésime 2016, Paris, Dictionnaires Le Robert. En ligne : <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls6" xlink:href="http://www.lerobert.com/" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://www.lerobert.com/</liensimple> (consulté le 1<exposant>er</exposant> octobre 2016)</refbiblio><refbiblio id="rb33"><marquage typemarq="petitecap">Rey-Debove, </marquage>Josette, et Alain<marquage typemarq="petitecap"> Rey (</marquage>1993) [1967]. <marquage typemarq="italique">Le Nouveau Petit Robert : dictionnaire alphabétique et analogique de la langue française</marquage>, Paris, Dictionnaires Le Robert.</refbiblio><refbiblio id="rb34"><marquage typemarq="petitecap">Saint-Yves</marquage>, Gabrielle (1996). « La prise en compte de l’Acadie dans les nouveaux dictionnaires québécois », dans Lise Dubois et Annette Boudreau (dir.), <marquage typemarq="italique">Les Acadiens et leur(s) langue(s) : quand le français est minoritaire</marquage>, actes du colloque, Moncton, Éditions d’Acadie, p. 175-188. En ligne : <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls7" xlink:href="http://homes.chass.utoronto.ca/~wulfric/articles/saint-yves/" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://homes.chass.utoronto.ca/~wulfric/articles/saint-yves/</liensimple> (consulté le 20 octobre 2016).</refbiblio><refbiblio id="rb35"><marquage typemarq="petitecap">Schafroth</marquage>, Elmar (2008). « Aspects de la normativité dans les dictionnaires du français québécois », dans Monique C. Cormier et Jean-Claude Boulanger (dir.), <marquage typemarq="italique">Les dictionnaires de la langue française au Québec : de la Nouvelle-France à aujourd’hui</marquage>, Montréal, Presses de l’Université de Montréal, p. 199-238, coll. « Paramètres ».</refbiblio><refbiblio id="rb36"><marquage typemarq="petitecap">Singy</marquage>, Pascal (1995-1996). « Les francophones de périphérie face à leur langue : étude de cas en Suisse romande », <marquage typemarq="italique">Cahiers Ferdinand de Saussure</marquage>, n<exposant>o</exposant> 49, p. 213-235.</refbiblio><refbiblio id="rb37"><marquage typemarq="petitecap">Vargas</marquage>, Claude (1993). « Norme(s) de la nomenclature », dans Daniel Baggioni (dir.), <marquage typemarq="italique">Encyclopédies et dictionnaires français </marquage><marquage typemarq="italique">(</marquage><marquage typemarq="italique">Problèmes de norme(s) et de nomenclatur</marquage><marquage typemarq="italique">e</marquage>), Aix-en-Provence, Publications de l’Université de Provence, actes de la 2<exposant>e</exposant> Table ronde de l’APRODELF (Association pour la promotion des études linguistiques francophones) tenue les 12-13 juin 1992 à Venelles, en France, p. 37-48.</refbiblio><refbiblio id="rb38"><marquage typemarq="petitecap">Violette</marquage>, Isabelle (2009). « Les représentations sociolinguistiques de locuteurs français à l’égard du “français québécois” : étude de cas à partir du concept de <marquage typemarq="italique">risibilité</marquage> », dans France Martineau, Raymond Mougeon, Terry Nadasdi et Mireille Tremblay (dir.), <marquage typemarq="italique">Le français d’ici : </marquage>é<marquage typemarq="italique">tudes linguistiques et sociolinguistiques sur la variation du français au Québec et en Ontario</marquage>, Toronto, Éditions du Gref, p. 185-206.</refbiblio><refbiblio id="rb39"><marquage typemarq="petitecap">Violette</marquage>, Isabelle (2014). « L’immigration francophone en Acadie : langue, nation et minorité », <marquage typemarq="italique">Minorités linguistiques et société = Linguistic Minorities and Society</marquage>, n<exposant>o</exposant> 4, p. 126-153.</refbiblio></biblio></grbiblio></partiesann></article>
