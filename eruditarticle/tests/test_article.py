@@ -377,6 +377,7 @@ class TestArticleSavantMinimal(object):
     def test_get_formatted_title(self):
         # There should not be a colon after a punctuation.
         assert self.test_objects['1054095ar.xml'].get_formatted_title() == 'Un français de référence acadien en émergence ? Étude sur les représentations métalexicographiques contemporaines de particularismes acadiens'  # noqa
+        assert self.test_objects['004812ar.xml'].get_formatted_title() == 'The Tardy, Tasty and Chilly Thermophiles of the Champlain Sea'  # noqa
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/format_person_name/', EruditArticle)

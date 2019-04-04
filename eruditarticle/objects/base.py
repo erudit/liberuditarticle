@@ -37,7 +37,7 @@ class EruditBaseObject(DomObject):
 
     def _format_single_title(self, title):
         """ format a Title namedtuple """
-        if title.title[-1] in '.!?':
+        if title.title and title.title[-1] in '.!?':
             separator = ' '
         else:
             if title.lang == "fr":
@@ -134,6 +134,8 @@ class EruditBaseObject(DomObject):
         # Process the paral and equivalent titles first since they have a 'lang' attribute and the
         # main title does not.
         for lang, title in paral_titles.items():
+            if title is None:
+                continue
             paral_title = Title(
                 title=title,
                 lang=lang,
