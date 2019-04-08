@@ -134,7 +134,7 @@ class EruditBaseObject(DomObject):
         # Process the paral and equivalent titles first since they have a 'lang' attribute and the
         # main title does not.
         for lang, title in paral_titles.items():
-            if title is None:
+            if not title:
                 continue
             paral_title = Title(
                 title=title,
