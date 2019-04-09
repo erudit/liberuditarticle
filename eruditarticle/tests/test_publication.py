@@ -457,7 +457,6 @@ class TestEruditPublication(object):
         assert self.test_objects["ae1375.xml"].get_number() == '1-2'
         assert self.test_objects["crs1517600.xml"].get_number() == ''
         assert self.test_objects["esse02315.xml"].get_number() == '86'
-        assert self.test_objects["vi04327.xml"].get_number() == '1 (130)'
 
     def test_can_return_its_title(self):
         assert self.test_objects["ae1375.xml"].get_titles(html=False) == {

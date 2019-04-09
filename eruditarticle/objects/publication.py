@@ -364,6 +364,11 @@ class EruditPublication(
         note = self.stringify_children(self.find('notegen[@typenoteg="edito"]'))
         return note.strip() if note is not None else note
 
+    def get_number(self):
+        """ :returns: the number of the publication object. """
+        nonumero_nodes = self.findall('nonumero')
+        return '-'.join([n.text for n in nonumero_nodes])
+
     def get_production_date(self):
         """ :returns: the production date of the publication object. """
         originator_node = self.find('originator')
@@ -399,16 +404,8 @@ class EruditPublication(
 
     def get_volume(self):
         """ :returns: the volume of the publication object. """
-        return '-'.join([v.text for v in self.findall('numero/volume') if v is not None])
-
-    def get_number(self):
-        """ :returns: the number of the publication object. """
-        nonumero = '-'.join([n.text for n in self.findall('numero/nonumero') if n is not None])
-        anonumero = '-'.join([a.text for a in self.findall('numero/anonumero') if a is not None])
-        if anonumero:
-            return '{} ({})'.format(nonumero, anonumero)
-        else:
-            return nonumero
+        volume_nodes = self.findall('numero/volume')
+        return "-".join([n.text for n in volume_nodes])
 
     def get_volume_numbering(self, html=False, abbreviated=False, formatted=False):
         """ Return the volume title of this publication
