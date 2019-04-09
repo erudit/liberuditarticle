@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+<originator username="robichma" date="2019-03-11" app="Tournesol 0.5.3"/>
+<copyright>
+	<year>2018</year>
+<contribution>
+<artificialperson>
+	<name>Université du Québec à Montréal</name>
+</artificialperson>
+<contributiontype>
+	<code>droit</code>
+	<label lang="en">Copyright Holder</label>
+	<label lang="fr">Titulaire du droit d'auteur</label>
+	<label lang="es">Titular del derecho de autor</label>
+</contributiontype>
+	<ordering>0</ordering>
+</contribution>
+<copyrightdeclaration>
+	<code>tdr</code>
+	<label lang="en">All Rights Reserved</label>
+	<label lang="fr">Tous droits réservés</label>
+	<label lang="es">Todos los derechos reservados</label>
+</copyrightdeclaration>
+</copyright>
+<publicationnumberingkeys>
+	<publicationtypecode>reg</publicationtypecode>
+	<years>
+		<year value="2018">
+			<periodcode>autom</periodcode>
+		</year>
+	</years>
+</publicationnumberingkeys><infosommaire>
+  <url>/revue/vi/2018/v44/n1</url>
+  <nbarticle>15</nbarticle>
+  <revue id="vi39" lang="fr">
+    <titrerev>Voix et Images</titrerev>
+    <titrerevabr>vi</titrerevabr>
+    <idissn>0318-9201</idissn>
+    <idissnnum>1705-933X</idissnnum>
+    <directeur sexe="masculin">
+      <nompers>
+        <prenom>Luc</prenom>
+        <nomfamille>Bonenfant</nomfamille>
+      </nompers>
+      <key>directeur</key>
+    </directeur>
+    <redacteurchef idrefs="th1" sexe="feminin" typerc="invite">
+      <nompers>
+        <prenom>Mylène</prenom>
+        <nomfamille>Bédard</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+    <redacteurchef idrefs="th1" sexe="feminin" typerc="invite">
+      <nompers>
+        <prenom>Virginie</prenom>
+        <nomfamille>Fournier</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+    <redacteurchef idrefs="th1" sexe="feminin" typerc="invite">
+      <nompers>
+        <prenom>Ariane</prenom>
+        <nomfamille>Gibeau</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+    <redacteurchef idrefs="th1" sexe="masculin" typerc="invite">
+      <nompers>
+        <prenom>Adrien</prenom>
+        <nomfamille>Rannaud</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+  </revue>
+  <numero id="vi04327">
+    <volume>44</volume>
+    <nonumero>1</nonumero>
+    <anonumero>130</anonumero>
+    <pub>
+      <periode>Automne</periode>
+      <annee>2018</annee>
+    </pub>
+    <pubnum>
+      <date typedate="publication">2019-02-22</date>
+    </pubnum>
+    <grtheme id="th1">
+      <theme>Contemporanéités d’<marquage typemarq="italique">Angéline de Montbrun</marquage> et de Laure Conan</theme>
+    </grtheme>
+    <idisbn13>978-2-924587-21-8</idisbn13>
+    <idisbnnum13>978-2-924587-22-5</idisbnnum13>
+    <idisbnepub>978-2-924587-23-2</idisbnepub>
+  </numero>
+  <editeur>
+    <nomorg>Université du Québec à Montréal</nomorg>
+    <key>editeur</key>
+  </editeur>
+  <droitsauteur>Tous droits réservés © <nomorg>Université du Québec à Montréal</nomorg>, 2018</droitsauteur>
+</infosommaire>
+<article doi="10.7202/1056359ar" idproprio="1056359ar" idref="th1"
+  lang="fr" ordseq="1" qualtraitement="complet" typeart="autre">
+  <urlhtml>/revue/vi/2018/v44/n1/1056359ar.html</urlhtml>
+  <urlpdf taille="82" unite="ko">/revue/vi/2018/v44/n1/1056359ar.pdf</urlpdf>
+  <pagination>
+    <ppage>7</ppage>
+    <dpage>12</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre>« IL Y A EN MOI UNE FORCE ÉTRANGE »</titre>
+                <sstitre>Contemporanéités d’<marquage typemarq="italique">Angéline de Montbrun</marquage> et de Laure Conan</sstitre>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>MYLÈNE</prenom>
+    <nomfamille>BÉDARD</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université Laval/Centre de recherche interuniversitaire sur la littérature et la culture québécoises (CRILCQ)</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>VIRGINIE</prenom>
+    <nomfamille>FOURNIER</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université du Québec à Montréal/Centre de recherche interuniversitaire sur la littérature et la culture québécoises (CRILCQ)</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au3">
+   <nompers>
+    <prenom>ARIANE</prenom>
+    <nomfamille>GIBEAU</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université d’Ottawa</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au4">
+   <nompers>
+    <prenom>ADRIEN</prenom>
+    <nomfamille>RANNAUD</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université du Québec à Montréal/Centre de recherche interuniversitaire sur la littérature et la culture québécoises (CRILCQ)</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1056360ar" idproprio="1056360ar" idref="th1"
+  lang="fr" ordseq="2" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/vi/2018/v44/n1/1056360ar.html</urlhtml>
+  <urlpdf taille="147" unite="ko">/revue/vi/2018/v44/n1/1056360ar.pdf</urlpdf>
+  <urlplan>/revue/vi/2018/v44/n1/1056360ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>13</ppage>
+    <dpage>26</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+        <titre>À L’AUNE D’<marquage typemarq="italique">ANGÉLINE</marquage></titre>
+      <sstitre>La vie romancée de Laure Conan</sstitre>
+        <titreparal lang="en">IN RELATION TO <marquage typemarq="italique">ANGÉLINE</marquage></titreparal>
+      <sstitreparal lang="en">LAURE CONAN’S FICTIONALIZED LIFE</sstitreparal>
+        <titreparal lang="es">EN EL RASERO DE <marquage typemarq="italique">ANGÉLINE</marquage></titreparal>
+      
+      <sstitreparal lang="es">LA VIDA NOVELADA DE LAURE CONAN</sstitreparal>
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+        
+    <prenom>PIERRE-OLIVIER</prenom>
+        
+        
+    <nomfamille>BOUCHARD</nomfamille>
+        
+   </nompers>
+  <affiliation>
+        <alinea>Université du Québec à Montréal</alinea>
+        
+  </affiliation>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+        
+    <prenom>MARIE-FRÉDÉRIQUE</prenom>
+        
+        
+    <nomfamille>DESBIENS</nomfamille>
+        
+   </nompers>
+  <affiliation>
+        <alinea>Fonds de recherche du Québec — Société et culture (FRQSC)</alinea>
+        
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr">
+      <alinea>Bien que Laure Conan occupe une place majeure dans l’histoire littéraire du <marquage typemarq="petitecap">xix</marquage><exposant>e</exposant> siècle québécois, il existe un décalage entre la        mémoire de cette écrivaine et sa vie réelle. C’est cet écart que l’article mesure, en        proposant également quelques hypothèses sur ses fondements et ses causes. Les auteurs        s’intéressent d’abord aux représentations fictives de Conan dans la littérature de manière à        cerner l’imaginaire entourant l’écrivaine. Ce portrait est ensuite confronté aux données        factuelles concernant la trajectoire et la production de l’écrivaine, ce qui met en lumière        une tout autre image de Conan, qui est loin de se réduire à celle largement répandue de        pionnière sacrifiée. Ce parcours montre également l’importance d’un pan occulté de sa        production littéraire, celui du roman historique, auquel seuls quelques commentateurs se        sont intéressés.</alinea>
+    
+ </resume>
+ <resume typeresume="resume" lang="en">
+      <alinea>Although Laure Conan holds a major place in Québec’s nineteenth-century literary        history, there is a discrepancy between this writer’s real life and how it is remembered.        The article explores this gap, putting forward hypotheses about its roots and causes. The        authors begin by examining fictional representations of Conan in literature in order to        define the imaginary system constructed around her. This portrait is then compared with        factual information about the writer’s evolution and production that provides another image        of Conan—one that is very different from the widespread view of her as a sacrificed pioneer.        The authors also show the importance of a long-neglected aspect of her literary production:        her historical novels, which only a few commentators have found interesting.</alinea>
+    
+ </resume>
+ <resume typeresume="resume" lang="es">
+      <alinea>Pese a que Laure Conan ocupa un lugar muy importante en la historia literaria del        siglo XIX quebequense, existe un desfase entre la memoria de esta escritora y su vida real.        Dicho desfase es el que mide este artículo, proponiendo asimismo algunas hipótesis sobre sus        fundamentos y sus causas. Los autores se interesan, en primer lugar, por las        representaciones ficticias de Conan en la literatura, de forma que se delimite lo imaginario        que rodea a la escritora. Se confronta luego este retrato con los datos factuales en lo que        concierne a la trayectoria y a la producción de la escritora, lo cual pone de relieve una        imagen totalmente diferente de Conan, que dista mucho de reducirse a la que se difunde        ampliamente, esto es, de pionera sacrificada. Este recorrido muestra también la importancia        de una faceta oculta de su producción literaria, la de la novela histórica, por la cual sólo        se han interesado unos pocos comentaristas.</alinea>
+    
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1056361ar" idproprio="1056361ar" idref="th1"
+  lang="fr" ordseq="3" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/vi/2018/v44/n1/1056361ar.html</urlhtml>
+  <urlpdf taille="129" unite="ko">/revue/vi/2018/v44/n1/1056361ar.pdf</urlpdf>
+  <urlplan>/revue/vi/2018/v44/n1/1056361ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>27</ppage>
+    <dpage>38</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+        <titre>UN ROMAN « NÉ DANS SA PROPRE NÉGATION »</titre>
+      <sstitre>L’articulation du littéraire et du religieux dans <marquage typemarq="italique">Angéline</marquage> <marquage typemarq="italique">de</marquage> <marquage typemarq="italique">Montbrun</marquage> de Laure Conan</sstitre>
+        <titreparal lang="en">A NOVEL “BORN IN ITS OWN NEGATION”</titreparal>
+      <sstitreparal lang="en">THE ARTICULATION OF THE LITERARY AND THE RELIGIOUS IN LAURE CONAN’S        <marquage typemarq="italique">ANGÉLINE DE MONTBRUN</marquage></sstitreparal>
+        <titreparal lang="es">UNA NOVELA “NACIDA EN SU PROPIA NEGACIÓN”</titreparal>
+      
+      <sstitreparal lang="es">LA ARTICULACIÓN DE LO LITERARIO Y LO RELIGIOSO EN <marquage typemarq="italique">ANGÉLINE DE        MONTBRUN</marquage>, DE LAURE CONAN</sstitreparal>
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+        
+    <prenom>LILIANA</prenom>
+        
+        
+    <nomfamille>RIZZUTO</nomfamille>
+        
+   </nompers>
+  <affiliation>
+        <alinea>Université Laval</alinea>
+        
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr">
+      <alinea>Cet article examine le maillage des considérations religieuses et littéraires dans        le roman <marquage typemarq="italique">Angéline de Montbrun </marquage>de Laure Conan. Privilégiant une lecture proche du        texte, il s’intéresse spécifiquement à la manière dont le roman sert le discours religieux,        l’encadre, le motive, lui donne force d’exemple, et, inversement, à la façon dont le        religieux sert le roman. L’auteure décrit ainsi comment la perte des illusions qui succède à        l’éveil spirituel du personnage central d’Angéline devient, paradoxalement, le déclencheur        de sa quête romanesque.</alinea>
+    
+ </resume>
+ <resume typeresume="resume" lang="en">
+      <alinea>This article examines how religious and literary considerations are intertwined in        Laure Conan’s novel <marquage typemarq="italique">Angéline de Montbrun</marquage>. Emphasizing a close reading of the text,        it is specifically interested in the way the novel serves the religious discourse, frames        it, motivates it, and set it up as an example, and, conversely, how the novel is served by        the religious element. The novelist describes how the loss of illusions that follows the        spiritual awakening of the central character, Angéline, is paradoxically what triggers her        novelistic quest.</alinea>
+    
+ </resume>
+ <resume typeresume="resume" lang="es">
+      <alinea>En este artículo, se analiza el entramado de las consideraciones religiosas y        literarias en la novela <marquage typemarq="italique">Angéline de Montbrun</marquage>, de Laure Conan. Al privilegiar una        lectura próxima al texto, se interesa específicamente por la manera en que la novela sirve        el discurso religioso, lo enmarca, lo motiva, le da fuerza de ejemplo y, a la inversa, por        la forma en que lo religioso sirve a la novela. Así pues, la autora describe cómo la pérdida        de las ilusiones que sucede al despertar espiritual del personaje central de Angéline llega,        paradójicamente, a desencadenar su búsqueda de lo novelesco.</alinea>
+    
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1056362ar" idproprio="1056362ar" idref="th1"
+  lang="fr" ordseq="4" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/vi/2018/v44/n1/1056362ar.html</urlhtml>
+  <urlpdf taille="132" unite="ko">/revue/vi/2018/v44/n1/1056362ar.pdf</urlpdf>
+  <urlplan>/revue/vi/2018/v44/n1/1056362ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>39</ppage>
+    <dpage>50</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+        <titre>DE LA CONVERSATION ET DE LA DANGEROSITÉ DES COQUETTES</titre>
+      <sstitre>La mondanité dans <marquage typemarq="italique">Angéline de Montbrun</marquage></sstitre>
+        <titreparal lang="en">ON CONVERSATION AND THE DANGEROUSNESS OF COQUETTES</titreparal>
+      <sstitreparal lang="en">SOCIETY LIFE IN <marquage typemarq="italique">ANGÉLINE DE MONTBRUN</marquage></sstitreparal>
+        <titreparal lang="es">DE LA CONVERSACIÓN Y PELIGROSIDAD DE LAS COQUETAS</titreparal>
+      
+      <sstitreparal lang="es">LA MUNDANIDAD EN <marquage typemarq="italique">ANGÉLINE DE MONTBRUN</marquage></sstitreparal>
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+        
+    <prenom>ADRIEN</prenom>
+        
+        
+    <nomfamille>RANNAUD</nomfamille>
+        
+   </nompers>
+  <affiliation>
+        <alinea>Université du Québec à Montréal/Centre de recherche interuniversitaire sur la          littérature et la culture québécoises (CRILCQ)</alinea>
+        
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr">
+      <alinea>Ce texte aborde les manifestations figuratives et discursives de la mondanité dans le roman <marquage typemarq="italique">Angéline de Montbrun</marquage> de Laure Conan. Délaissant le journal intime d’Angéline, très souvent commenté par la critique universitaire, il étudie exclusivement la première partie et l’échange de lettres, afin de traquer les façons de montrer et de raconter les sociabilités mondaines canadiennes-françaises du <marquage typemarq="petitecap">xix</marquage><exposant>e</exposant> siècle. Deux constats orientent cette analyse. D’une part, loin de s’en tenir aux personnages principaux (Angéline, Charles, Maurice et Mina), le système épistolaire de la première partie fait intervenir une série de voix, de présences et de liens sociaux qui dépassent le cadre spatial principal de la maison de Valriant. Les veillées, les soupers et les visites de notables ou de paysans, entre autres, sont les marqueurs d’une inscription des personnages dans un réseau de sociabilité plus vaste et diversifié qu’il n’y paraît. D’autre part, la première partie est largement dominée par la forme de la conversation où le plaisir de parler n’a d’égal que le vide de la lettre que chacun tente de remplir. Il appert cependant que la conversation, notamment celle de Mina, favorise la construction et la consolidation des liens sociaux.</alinea>
+    
+ </resume>
+ <resume typeresume="resume" lang="en">
+      <alinea>This text deals with the figurative and discursive manifestations of society life        in Laure Conan’s novel <marquage typemarq="italique">Angéline de Montbrun</marquage>. Leaving aside Angéline’s diary, which        has often been scrutinized by academic criticism, it focuses exclusively on the first part        and the exchange of letters, in order to identify ways of showing and telling the story of        French-Canadian society life in the nineteenth century. Two observations shape the analysis.        On the one hand, far from being restricted to the main characters (Angéline, Charles,        Maurice and Mina), the epistolary system in the first part presents a series of voices,        presences, and social ties that go beyond the main spatial framework of the Valriant house.        Evening gatherings, suppers, visits from local worthies or peasants, among others, are        markers inscribing the characters in a network of sociability that is wider and more diverse        than it might seem. On the other hand, the first part is dominated by the conversational        form, in which the pleasure of talking is equalled only by the emptiness of the letter that        each attempts to fill. It appears that conversation, and particularly Mina’s, supports the        construction and consolidation of social bonds.</alinea>
+    
+ </resume>
+ <resume typeresume="resume" lang="es">
+      <alinea>Este texto aborda las manifestaciones figurativas y discursivas de lo mundano en la        novela <marquage typemarq="italique">Angéline de Montbrun</marquage>, de Laure Conan. Desentendiéndose del diario íntimo de        Angéline, comentado con mucha frecuencia por la crítica universitaria, estudia        exclusivamente la primera parte del intercambio de cartas, a fin de cercar las formas de        mostrar y narrar las sociabilidades mundanas francocanadienses del siglo XIX. Hay dos        comprobaciones que orientan este análisis. Por un lado, lejos de atenerse a los personajes        principales (Angéline, Charles, Maurice y Mina), el sistema epistolar de la primera parte        hace que intervengan una serie de voces, presencias y vínculos sociales que desbordan el        principal marco espacial de la casa de Valriant. Las veladas, cenas y visitas de notables o        campesinos, entre otros, son los marcadores de une inscripción de los personajes en una red        de sociabilidad más amplia y diversificada de lo que parece. Por otro lado, la primera parte        está ampliamente dominada por la forma de la conversación en la cual el gusto por hablar tan        sólo se puede equiparar con el vacío de la carta que cada uno trata de llenar. No obstante,        resulta que la conversación, en particular la de Mina, favorece la construcción y        consolidación de los lazos sociales.</alinea>
+    
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1056363ar" idproprio="1056363ar" idref="th1"
+  lang="fr" ordseq="5" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/vi/2018/v44/n1/1056363ar.html</urlhtml>
+  <urlpdf taille="127" unite="ko">/revue/vi/2018/v44/n1/1056363ar.pdf</urlpdf>
+  <urlplan>/revue/vi/2018/v44/n1/1056363ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>51</ppage>
+    <dpage>61</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre><marquage typemarq="italique">ANGÉLINE DE MONTBRUN</marquage> OU LA DISSOLUTION DE L’UTOPIE ULTRAMONTAINE</titre>
+                  <titreparal lang="en"><marquage typemarq="italique">ANGÉLINE DE MONTBRUN</marquage> OR THE DISSOLUTION OF THE ULTRAMONTANE UTOPIA</titreparal>  <titreparal lang="es">ANGÉLINE DE MONTBRUN O LA DISOLUCIÓN DE LA UTOPÍA ULTRAMONTANA</titreparal>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>LUCIE</prenom>
+    <nomfamille>ROBERT</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université du Québec à Montréal/Centre de recherche interuniversitaire sur la littérature et la culture québécoises (CRILCQ)</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Dans <marquage typemarq="italique">Formation de l’imaginaire littéraire au Québec, 1764-1867</marquage>, Maurice Lemire notait que « les structures de redoublement de miniaturisation » dominent le monde du roman au <marquage typemarq="petitecap">xix</marquage><exposant>e</exposant> siècle. Cette miniaturisation se lit dans la création d’une société en miniature (précisément), isolée du reste du monde, un « enclos » (le mot est de Lemire) où le monde est réduit à la parenté et au voisinage et à l’intérieur duquel « tout est euphémisé » (<marquage typemarq="italique">ibid</marquage>). Nous croyons que ces miniatures correspondent à des utopies. Nous suggérons donc de relire le roman de Laure Conan comme présentant à travers la création de Valriant une de ces miniatures et de mettre en valeur l’utopie que le roman propose, qui se révélera une utopie ultramontaine. À la différence des utopies libérales que sont celles sur lesquelles se terminent par exemple <marquage typemarq="italique">Charles Guérin</marquage> de Chauveau et <marquage typemarq="italique">Jean Rivard</marquage> d’Antoine Gérin-Lajoie, et qui sont aussi une projection dans un avenir imaginaire, les utopies ultramontaines (que l’on retrouvera dans la finale de <marquage typemarq="italique">Pour la patrie</marquage> de Tardivel) sont des univers sans avenir possible, destinés à disparaître avec la/le protagoniste. Reste la question de savoir ce qu’est une utopie ultramontaine au féminin et on observera comment Valriant se construit <marquage typemarq="italique">contre</marquage> l’image du cloître, qui sera pourtant celle qui survivra au <marquage typemarq="petitecap">xx</marquage><exposant>e</exposant> siècle.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>In <marquage typemarq="italique">Formation de l’imaginaire littéraire au Québec, 1764-1867</marquage>, Maurice Lemire noted that “structures of intensified miniaturization” dominate the world of the novel in the nineteenth century. This miniaturization is found, precisely, in the creation of a miniature society, isolated from the rest of the world, an “enclosure” (Lemire’s word) in which the world is reduced to kinship and neighbourhood and in which “everything is euphemized” (<marquage typemarq="italique">ibid</marquage>). We believe that these miniatures are utopias. We suggest a rereading of Laure Conan’s novel as a presentation of one of these miniatures through the creation of Valriant, and we propose to emphasize the novel’s utopia, which, as it turns out, is an ultramontane one. Unlike the liberal utopias embodied in the endings, for instance, of Chauveau’s <marquage typemarq="italique">Charles Guérin</marquage> or Antoine Gérin-Lajoie’s <marquage typemarq="italique">Jean Rivard</marquage>, that are also a projection into an imaginary future, ultramontane utopias (to be found in the finale of Tardivel’s <marquage typemarq="italique">Pour la patrie</marquage>) are worlds without any possible future, destined to disappear along with the protagonist. The question remains: what is an ultramontane utopia in the female voice? We will see that Valriant is constructed <marquage typemarq="italique">against </marquage>the image of the convent, even though this is the image that survived into the twentieth century.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="es"><alinea>En <marquage typemarq="italique">Formation de l’imaginaire littéraire au Québec, 1764-1867</marquage> (<marquage typemarq="italique">Formación de lo imaginario literario en Quebec, 1764-1867</marquage>), Maurice Lemire notaba que “las estructuras de repetición de miniaturización” dominan el mundo de la novela en el siglo XIX. Dicha miniaturización se observa en la creación de una sociedad en miniatura (precisamente), aislada del reste del mundo, un “cercado” (el término es de Lemire) en el cual el mundo se reduce al parentesco y al vecindario, dentro del cual “todo es eufemismo” (<marquage typemarq="italique">ibid</marquage>). Creemos que estas miniaturas corresponden a utopías. Por lo tanto, sugerimos que se vuelva a leer la novela de Laure Conan como si presentara, a través de la creación de Valriant, una de dichas miniaturas, y se hiciera hincapié en la utopía que presenta la novela, que se revelará como una utopía ultramontana. A diferencia de las utopías liberales, que son aquéllas sobre las cuales finalizan, por ejemplo, <marquage typemarq="italique">Charles Guérin</marquage>, de Chauveau, y <marquage typemarq="italique">Jean Rivard</marquage>, de Antoine Gérin-Lajoie, y que son también una proyección hacia un futuro imaginario, las utopías ultramontanas (que se encontrarán en la final de <marquage typemarq="italique">Pour la patrie </marquage>– <marquage typemarq="italique">Por la Patria</marquage> –, de Tardivel) son universos sin futuro posible, destinados a desaparecer con la/el protagonista. Queda la cuestión de saber lo que es una utopía ultramontana en femenino y se observará cómo Valriant se construye <marquage typemarq="italique">contra</marquage> la imagen del claustro que, no obstante, será la que sobreviva en el siglo XX.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1056364ar" idproprio="1056364ar" idref="th1"
+  lang="fr" ordseq="6" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/vi/2018/v44/n1/1056364ar.html</urlhtml>
+  <urlpdf taille="130" unite="ko">/revue/vi/2018/v44/n1/1056364ar.pdf</urlpdf>
+  <urlplan>/revue/vi/2018/v44/n1/1056364ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>63</ppage>
+    <dpage>75</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+        <titre>LA DÉFIGURATION COMME RECONQUÊTE DE SOI</titre>
+      <sstitre>Le portrait d’Angéline de Montbrun</sstitre>
+        <titreparal lang="en">DISFIGUREMENT AS A WAY OF RECONQUERING ONESELF</titreparal>
+      <sstitreparal lang="en">ANGÉLINE DE MONTBRUN’S PORTRAIT</sstitreparal>
+        <titreparal lang="es">LA DESFIGURACIÓN COMO RECONQUISTA DE UNA MISMA</titreparal>
+      
+      <sstitreparal lang="es">EL RETRATO DE ANGÉLINE DE MONTBRUN</sstitreparal>
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+        
+    <prenom>MYRIAM</prenom>
+        
+        
+    <nomfamille>VIEN</nomfamille>
+        
+   </nompers>
+  <affiliation>
+        <alinea>Université McGill</alinea>
+        
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr">
+      <alinea>Cet article se propose de mettre à l’épreuve l’hypothèse selon laquelle la
+        défiguration d’Angéline de Montbrun, élément central du récit qui la dirige sur la voie de
+        l’écriture, constitue par là un geste éminemment libérateur, vecteur de renouveau jusque
+        dans la forme même du roman. En plus d’affranchir l’héroïne de la loi du Père et de lui
+        permettre de se construire une image bien à elle, la transformation physique de l’héroïne
+        offre à l’oeuvre même une voie de sortie du roman. En effet, remaniant les canevas consacrés
+        de la littérature du terroir, l’auteure y introduit une écriture de l’intime qui déroute les
+        conventions romanesques en faisant de la fragmentation sa nouvelle poétique.</alinea>
+    
+ </resume>
+ <resume typeresume="resume" lang="en">
+      <alinea>This article is intended to test the hypothesis that the disfigurement of Angéline
+        de Montbrun, a central element of the story that directs her toward writing as a path, is in
+        that sense a profoundly liberating gesture, a vector of renewal even of the novel’s form. In
+        addition to releasing the heroine from the law of the Father and enabling her to construct
+        an image that truly belongs to her, the heroine’s physical transformation also provides the
+        novel itself with a way out. Reshaping the established structures of <marquage typemarq="italique">terroir</marquage>
+        literature, Conan introduces an intimate writing that unsettles novelistic conventions,
+        making her new poetics out of fragmentation.</alinea>
+    
+ </resume>
+ <resume typeresume="resume" lang="es">
+      <alinea>Este artículo propone que se ponga a prueba la hipótesis según la cual la
+        desfiguración de Angéline de Montbrun, elemento central del relato que la dirige hacia el
+        mundo de la escritura, constituye así un gesto eminentemente liberador, vector de renovación
+        hasta en la forma misma de la novela. Además de liberar a la heroína de la ley del Padre y
+        permitirle que se construya una imagen muy suya, la transformación física de la heroína
+        ofrece también a la obra misma una vía de salida de la novela. En efecto, al remodelar los
+        esquemas consagrados de la literatura rural, la autora introduce en la misma una escritura
+        de lo íntimo que desconcierta las convenciones novelescas al transformar la fragmentación en
+        su nuevo concepto de la poesía.</alinea>
+    
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1056365ar" idproprio="1056365ar" idref="th1"
+  lang="fr" ordseq="7" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/vi/2018/v44/n1/1056365ar.html</urlhtml>
+  <urlpdf taille="153" unite="ko">/revue/vi/2018/v44/n1/1056365ar.pdf</urlpdf>
+  <urlplan>/revue/vi/2018/v44/n1/1056365ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>77</ppage>
+    <dpage>91</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+        <titre>NOS DÉSIRS SANS LIMITES</titre>
+      <sstitre>La mise en récit de désirs féminins interdits dans <marquage typemarq="italique">Angéline</marquage> <marquage typemarq="italique">de</marquage>
+        <marquage typemarq="italique">Montbrun </marquage>à la lumière de <marquage typemarq="italique">Jane</marquage> <marquage typemarq="italique">Eyre</marquage></sstitre>
+        <titreparal lang="en">OUR BOUNDLESS DESIRES</titreparal>
+      <sstitreparal lang="en">HOW FORBIDDEN FEMALE DESIRES BECOME NARRATIVE IN <marquage typemarq="italique">ANGÉLINE DE
+        MONTBRUN, </marquage>VIEWED IN RELATION TO <marquage typemarq="italique">JANE EYRE</marquage></sstitreparal>
+        <titreparal lang="es">NUESTROS DESEOS SIN LÍMITE</titreparal>
+     
+      <sstitreparal lang="es">EL RELATO DE DESEOS FEMENINOS PROHIBIDOS EN <marquage typemarq="italique">ANGÉLINE DE MONTBRUN
+        </marquage>A LA LUZ DE<marquage typemarq="italique"> JANE EYRE</marquage></sstitreparal>
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+        
+    <prenom>VIRGINIE</prenom>
+        
+        
+    <nomfamille>FOURNIER</nomfamille>
+        
+   </nompers>
+  <affiliation>
+        <alinea>Université du Québec à Montréal</alinea>
+        
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr">
+      <alinea>Une parole féminine originale et innovatrice émerge des mises en récit de désirs
+        féminins, de ces interdits transgressés par les protagonistes des romans <marquage typemarq="italique">Jane Eyre</marquage>
+        et <marquage typemarq="italique">Angéline de Montbrun</marquage> (l’adultère chez Charlotte Brontë et le fantasme incestueux
+        chez Laure Conan). Souvent symbolisé par les reflets des flammes des foyers sur les corps
+        des héros, le regard des femmes s’est posé sur les patriarches. Compris dans le cadre d’une
+        focalisation féminine, les hommes en position d’autorité sont objectivés, intégrés dans des
+        représentations qui s’enchâssent dans une mise en abyme de l’acte d’écriture. Par l’étude
+        des enjeux de la mise en récit des désirs féminins interdits, l’oeuvre de Conan est intégrée
+        à une histoire littéraire des femmes plus vaste, plus ancienne et qui recoupe des domaines
+        qui sont encore à penser, pour contrer l’effet discriminant des frontières géographiques et
+        des identités nationales, et ainsi parvenir à mieux scruter la cohérence d’un imaginaire
+        littéraire au féminin.</alinea>
+    
+ </resume>
+ <resume typeresume="resume" lang="en">
+      <alinea>An original and innovative female speech emerges from the narrative shaping of
+        female desires, and the taboos broken by the protagonists, in <marquage typemarq="italique">Jane Eyre </marquage>and
+        <marquage typemarq="italique">Angéline de Montbrun</marquage>: adultery in Charlotte Brontë’s novel and incestuous fantasy
+        in Laure Conan’s. Often symbolized by the flames of a hearth fire reflected on the hero’s
+        body, the woman’s gaze rests on the patriarchs. Men in positions of authority, located in
+        the framework of a female focalization, are objectified, integrated into representations
+        that are set in a mise en abyme of the act of writing. Through a study of the issues
+        involved in the narrative shaping of forbidden female desires, Conan’s work is incorporated
+        into a wider, older women’s literary history, one that includes areas yet to be defined by
+        thought. The purpose is to counteract the discriminatory effect of geographical boundaries
+        and national identities so that we can better understand the coherence of the female
+        literary imagination.</alinea>
+    
+ </resume>
+ <resume typeresume="resume" lang="es">
+      <alinea>Un habla femenina original e innovadora emerge del relato de deseos femeninos, de
+        estas prohibiciones transgredidas por las protagonistas de las novelas <marquage typemarq="italique">Jane Eyre</marquage> y
+        <marquage typemarq="italique">Angéline de Montbrun</marquage> (el adulterio en Charlotte Brontë y el fantasma incestuoso en
+        Laure Conan). Simbolizada con frecuencia por los reflejos de las llamas de los hogares sobre
+        los cuerpos de los héroes, la mirada de las mujeres se ha fijado en los patriarcas.
+        Incluidos en el marco de una focalización femenina, los hombres que ocupan una posición de
+        autoridad son objetivos y están integrados en representaciones que se insertan en un abismo
+        del acto de escritura. Mediante el estudio de los retos de la narrativa de los deseos
+        femeninos prohibidos, la obra de Conan está integrada en una historia literaria de las
+        mujeres más amplia, más antigua, que coincide con áreas que aún quedan por pensar, a fin de
+        contrarrestar el efecto discriminatorio de las fronteras geográficas y las identidades
+        nacionales y, de esta forma, lograr escrutar mejor la coherencia de un imaginario literario
+        en femenino.</alinea>
+    
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1056366ar" idproprio="1056366ar" idref="th1"
+  lang="fr" ordseq="8" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/vi/2018/v44/n1/1056366ar.html</urlhtml>
+  <urlpdf taille="126" unite="ko">/revue/vi/2018/v44/n1/1056366ar.pdf</urlpdf>
+  <pagination>
+    <ppage>93</ppage>
+    <dpage>103</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+        <titre>ANGÉLINE DE MONTBRUN ET LÉVI-STRAUSS</titre>
+      <sstitre>L’inceste comme structure élémentaire</sstitre>
+        <titreparal lang="en">ANGÉLINE DE MONTBRUN AND LÉVI-STRAUSS</titreparal>
+      <sstitreparal lang="en">INCEST AS AN ELEMENTARY STRUCTURE</sstitreparal>
+        <titreparal lang="es">ANGÉLINE DE MONTBRUN Y LÉVI-STRAUSS</titreparal>
+      
+      <sstitreparal lang="es">EL INCESTO COMO ESTRUCTURA ELEMENTAL</sstitreparal>
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+        
+    <prenom>MICHEL</prenom>
+        
+        
+    <nomfamille>LACROIX</nomfamille>
+        
+   </nompers>
+  <affiliation>
+        <alinea>Université du Québec à Montréal</alinea>
+        
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr">
+      <alinea>Plusieurs travaux ont montré que les rapports troubles et violents entre pères et
+        filles structurent une part importante de l’oeuvre de Conan. Depuis, bien des analyses de la
+        dynamique incestueuse ont été proposées. Cet article s’attaque à son tour à ce noeud
+        symbolique en l’éclairant à partir de la théorisation par Lévi-Strauss de la tension
+        fondatrice entre nature et culture. Ceci permettra de montrer comment le spectre de
+        l’inceste est une des figures par lesquelles le refus de l’échange, du changement et de
+        l’historicité structure <marquage typemarq="italique">Angéline de Montbrun</marquage>.</alinea>
+    
+ </resume>
+ <resume typeresume="resume" lang="en">
+      <alinea>A number of critics have shown that troubled and violent relationships between
+        fathers and daughters shape a significant part of Conan’s work. Since then, many analyses of
+        the incestuous dynamic have been put forward. Addressing the same symbolic knot, this
+        article uses Lévi-Strauss’s theorization of the founding tension between nature and culture
+        to show that the spectre of incest is one of the figures through which a refusal of
+        exchange, change, and historicity structures <marquage typemarq="italique">Angéline de Montbrun</marquage>.</alinea>
+    
+ </resume>
+ <resume typeresume="resume" lang="es">
+      <alinea>Son varios los trabajos en haber mostrado que las relaciones turbias y violentas
+        entre un padre y su hija estructuran una parte importante de la obra de Conan. Desde
+        entonces, se han propuesto diversos análisis de la dinámica incestuosa. El presente articulo
+        acomete, a su vez, este nudo simbólico, explicándolo a partir de la teorización por
+        Lévi-Strauss de la tensión fundadora entre naturaleza y cultura. Esto permitirá mostrar cómo
+        el espectro del incesto es una de las figuras por las cuales el rechazo al intercambio, al
+        cambio y a la historicidad estructura <marquage typemarq="italique">Angéline de Montbrun</marquage>.</alinea>
+    
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1056367ar" idproprio="1056367ar" idref="th1"
+  lang="fr" ordseq="9" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/vi/2018/v44/n1/1056367ar.html</urlhtml>
+  <urlpdf taille="130" unite="ko">/revue/vi/2018/v44/n1/1056367ar.pdf</urlpdf>
+  <urlplan>/revue/vi/2018/v44/n1/1056367ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>105</ppage>
+    <dpage>116</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+        <titre><marquage typemarq="italique">MINA DARVILLE</marquage></titre>
+      <sstitre>Roman inédit</sstitre>
+        <titreparal lang="en"><marquage typemarq="italique">MINA DARVILLE</marquage></titreparal>
+      
+      <sstitreparal lang="en">AN UNPUBLISHED NOVEL</sstitreparal>
+        <titreparal lang="es"><marquage typemarq="italique">MINA DARVILLE</marquage></titreparal>
+      <sstitreparal lang="es">NOVELA INÉDITA</sstitreparal>
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+        
+    <prenom>LORI</prenom>
+        
+        
+    <nomfamille>SAINT-MARTIN</nomfamille>
+        
+   </nompers>
+  <affiliation>
+        <alinea>Université du Québec à Montréal</alinea>
+        
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr">
+      <alinea><marquage typemarq="italique">Angéline de Montbrun</marquage> est le roman de l’amitié, mais aussi de la rivalité,
+        entre femmes. Cet article adopte résolument le point de vue de Mina, mal-aimée du roman et
+        des critiques, en inventant là où les indices manquent. Apparaît alors un autre roman,
+        empreint d’ardeur et d’envie, centré sur de multiples triangles incestueux et mettant en
+        scène un univers polyamoureux, presque païen, chaste mais radical et donc condamné à
+        disparaître. Entre Angéline et Mina, entre le blanc cygne et le vilain petit canard,
+        s’engage une lutte pour l’amour des hommes, pour l’espace textuel, pour le dernier mot, qui
+        ne prend fin qu’avec le roman lui-même. <marquage typemarq="italique">Mina Darville</marquage>, ou encore <marquage typemarq="italique">Mina et
+        Angéline </marquage>: telle est la fiction spéculative de l’auteure.</alinea>
+    
+ </resume>
+ <resume typeresume="resume" lang="en">
+      <alinea><marquage typemarq="italique">Angéline de Montbrun</marquage> is a novel of friendship, but also rivalry, between
+        women. This article resolutely adopts the point of view of Mina, unpopular in the novel and
+        among critics, and is willing to invent when material is sparse. Another novel appears:
+        filled with ardent feeling and envy, centred on multiple incestuous triangles, presenting a
+        polyamorous, almost pagan universe that is chaste yet radical, and therefore doomed to
+        disappear. Angéline and Mina, the white swan and the ugly duckling, join in a struggle for
+        the love of men, for textual space, for the last word, that lasts throughout the novel.
+        <marquage typemarq="italique">Mina Darville</marquage>, or <marquage typemarq="italique">Mina and Angéline</marquage>: this is the author’s speculative
+        fiction.</alinea>
+    
+ </resume>
+ <resume typeresume="resume" lang="es">
+      <alinea><marquage typemarq="italique">Angéline de Montbrun</marquage> es la novela de la amistad, pero también de la
+        rivalidad, entre mujeres. En este artículo, se adopta decididamente el punto de vista de
+        Mina, la rechazada de la novela y de las críticas, al inventar allí donde faltan los
+        indicios. Y entonces aparece otra novela, impregnada de ardor y envidia, centrada en
+        múltiples triángulos incestuosos y que escenifica un universo poliamoroso, casi pagano,
+        casto pero radical y, por lo tanto, condenado a desaparecer. Entre Angéline y Mina, entre el
+        cisne blanco y el patito malo, se inicia una lucha por el amor de los hombres, por el
+        espacio textual, por tener la última palabra, que no termina sino con la novela
+        misma. <marquage typemarq="italique">Mina Darville</marquage>, o también <marquage typemarq="italique">Mina y Angéline</marquage>: ésta es la ficción
+        especulativa de la autora.</alinea>
+    
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1056368ar" horstheme="oui" idproprio="1056368ar"
+  lang="fr" ordseq="10" qualtraitement="complet" typeart="autre">
+  <urlhtml>/revue/vi/2018/v44/n1/1056368ar.html</urlhtml>
+  <urlpdf taille="46" unite="ko">/revue/vi/2018/v44/n1/1056368ar.pdf</urlpdf>
+  <pagination>
+    <ppage>119</ppage>
+    <dpage>120</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Étude</surtitre>
+                  <titre>PRÉSENTATION</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>NICOLE</prenom>
+    <nomfamille>BOURBONNAIS</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université d’Ottawa</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1056369ar" horstheme="oui" idproprio="1056369ar"
+  lang="fr" ordseq="11" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/vi/2018/v44/n1/1056369ar.html</urlhtml>
+  <urlpdf taille="149" unite="ko">/revue/vi/2018/v44/n1/1056369ar.pdf</urlpdf>
+  <urlplan>/revue/vi/2018/v44/n1/1056369ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>121</ppage>
+    <dpage>134</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Étude</surtitre>
+        <titre>FERRON, LE DOCTEUR SUBTIL</titre>
+      <sstitre>L’historiette, une forme d’art littéraire</sstitre>
+        <titreparal lang="en">FERRON, THE SUBTLE DOCTOR</titreparal>
+      
+      <sstitreparal lang="en">LITTLE STORIES AS A FORM OF LITERARY ART</sstitreparal>
+        <titreparal lang="es">FERRON, EL DOCTOR SUTIL</titreparal>
+      <sstitreparal lang="es">LA HISTORIETA, UNA FORMA DE ARTE LITERARIO</sstitreparal>
+     </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+        
+    <prenom>ROBERT</prenom>
+        
+        
+    <nomfamille>VIGNEAULT</nomfamille>
+        <suffixe typesuff="generation">†</suffixe>
+        
+   </nompers>
+  <affiliation>
+        <alinea>Université d’Ottawa</alinea>
+        
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr">
+      <alinea>Pendant près d’un demi-siècle, l’écrivain Jacques Ferron a publié régulièrement des
+        articles sous la rubrique « Historiettes » dans deux périodiques bimensuels,<marquage typemarq="italique">
+        L’Information médicale et paramédicale </marquage>et <marquage typemarq="italique">Le Courrier médical</marquage>. Une centaine de
+        ces historiettes parues entre 1960 et 1961 sont demeurées inédites, c’est-à-dire non
+        publiées en recueil. La présente étude se propose de dégager de ce corpus réduit, mais
+        représentatif, une certaine unité thématique, idéologique et littéraire. L’approche critique
+        vise avant tout à éclairer le travail d’écriture de Ferron, en prenant en compte les modèles
+        littéraires dont l’écrivain se réclame, l’hybridité générique des historiettes et surtout le
+        recours constant à ces procédés rhétoriques que sont la satire, l’ironie, l’humour. À la
+        différence de l’Histoire, qui se veut le discours objectif de la réalité, les
+        <marquage typemarq="italique">Historiettes</marquage> sont le fruit d’une subjectivité qui, grâce au langage littéraire,
+        propose une vision personnelle, une stylisation et une poétisation de l’historique, du
+        politique, du social et de l’individuel.</alinea>
+    
+ </resume>
+ <resume typeresume="resume" lang="en">
+      <alinea>For close to half a century, the writer Jacques Ferron regularly published articles
+        under the heading “Historiettes”—“little stories”—in two bimonthly periodicals,
+        <marquage typemarq="italique">L’Information médicale et paramédicale </marquage>and <marquage typemarq="italique">Le Courrier médical</marquage>. About a
+        hundred of these little stories published between 1960 and 1961 have never been compiled in
+        a book. This study finds a certain thematic, ideological, and literary unity in this small,
+        but representative corpus. The critical approach intends above all to shed light on Ferron’s
+        writing process, taking into consideration the literary models on which he draws, the
+        generic hybridity of the little stories, and especially the constant recourse to rhetorical
+        processes such as satire, irony, and humour. Unlike History, which presents itself as an
+        objective discourse on reality, the <marquage typemarq="italique">Historiettes</marquage> are the fruit of the subjectivity
+        which, thanks to literary language, proposes a personal vision, a stylization, and a
+        poeticizing of all that is historical, political, social, and individual.</alinea>
+    
+ </resume>
+ <resume typeresume="resume" lang="es">
+      <alinea>Durante cerca de medio siglo, el escritor Jacques Ferron publicó con regularidad
+        artículos bajo la rúbrica “Historietas” en dos publicaciones bimensuales, <marquage typemarq="italique">L’Information
+        médicale et paramédicale</marquage> (<marquage typemarq="italique">Información médica y paramédica</marquage>) y <marquage typemarq="italique">Le Courrier
+        médical </marquage>(<marquage typemarq="italique">Correo médico</marquage>). Hay un centenar de dichas historietas, publicadas
+        entre 1960 y 1961, que permanecen inéditas, esto es, no se han publicado en formato de
+        libro. El presente estudio se propone extraer de este corpus reducido, pero representativo,
+        cierta unidad temática, ideológica y literaria. El enfoque crítico apunta, ante todo, a
+        ilustrar la labor de escritura de Ferron, teniendo en cuenta los modelos literarios que el
+        escritor invoca, la hibridez genérica de las historietas y, sobre todo, el recurso constante
+        a estos procedimientos retóricos que son la sátira, la ironía, el humor. A diferencia de la
+        Historia, que pretende ser el discurso objetivo de la realidad, <marquage typemarq="italique">Historietas</marquage> es el
+        fruto de una subjetividad que, gracias al lenguaje literario, propone una visión personal,
+        una estilización y una poetización de lo histórico, lo político, lo social y lo
+        individual.</alinea>
+    
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1056370ar" horstheme="oui" idproprio="1056370ar"
+  lang="fr" ordseq="12" qualtraitement="complet" typeart="compterendu">
+  <urlhtml>/revue/vi/2018/v44/n1/1056370ar.html</urlhtml>
+  <urlpdf taille="121" unite="ko">/revue/vi/2018/v44/n1/1056370ar.pdf</urlpdf>
+  <urlplan>/revue/vi/2018/v44/n1/1056370ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>137</ppage>
+    <dpage>149</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Chroniques</surtitre>
+    <surtitre2>
+Roman</surtitre2>
+                  <titre>Partir, c’est mourir un peu… et parfois revivre</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>DOMINIQUE</prenom>
+    <nomfamille>GARAND</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université du Québec à Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1056371ar" horstheme="oui" idproprio="1056371ar"
+  lang="fr" ordseq="13" qualtraitement="complet" typeart="compterendu">
+  <urlhtml>/revue/vi/2018/v44/n1/1056371ar.html</urlhtml>
+  <urlpdf taille="88" unite="ko">/revue/vi/2018/v44/n1/1056371ar.pdf</urlpdf>
+  <pagination>
+    <ppage>151</ppage>
+    <dpage>158</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Chroniques</surtitre>
+    <surtitre2>
+Poésie</surtitre2>
+                  <titre>Essayer d’être là</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>DENISE</prenom>
+    <nomfamille>BRASSARD</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université du Québec à Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1056372ar" horstheme="oui" idproprio="1056372ar"
+  lang="fr" ordseq="14" qualtraitement="complet" typeart="autre">
+  <urlhtml>/revue/vi/2018/v44/n1/1056372ar.html</urlhtml>
+  <urlpdf taille="42" unite="ko">/revue/vi/2018/v44/n1/1056372ar.pdf</urlpdf>
+  <urlplan>/revue/vi/2018/v44/n1/1056372ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>161</ppage>
+    <dpage>162</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>LIVRES REÇUS</titre>
+                
+         </grtitre>
+</liminaire>
+</article>
+<article doi="10.7202/1056373ar" horstheme="oui" idproprio="1056373ar"
+  lang="fr" ordseq="15" qualtraitement="complet" typeart="autre">
+  <urlhtml>/revue/vi/2018/v44/n1/1056373ar.html</urlhtml>
+  <urlpdf taille="46" unite="ko">/revue/vi/2018/v44/n1/1056373ar.pdf</urlpdf>
+  <pagination>
+    <ppage>179</ppage>
+    <dpage>180</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>INDEX DU VOLUME XLIII</titre>
+                
+         </grtitre>
+</liminaire>
+</article>
+</sommaire>

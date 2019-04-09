@@ -131,6 +131,7 @@ class TestPublicationVolumeNumbering(object):
         assert value == {
             'volume': '32',
             'number': '',
+            'alt_number': '',
             'number_type': 'hs',
             'publication_period': '2008',
         }
@@ -685,6 +686,28 @@ class TestEruditPublication(object):
         elem = pub.find('numero/pub')
         del elem[:]
         assert pub.get_publication_period() == ''
+
+    def test_get_volume_numbering_with_alternative_number(self):
+        assert self.test_objects["vi04327.xml"].get_volume_numbering() == {
+            'volume': '44',
+            'number': '1',
+            'alt_number': '130',
+            'number_type': 'reg',
+            'publication_period': 'Automne 2018',
+        }
+        assert self.test_objects["vi04327.xml"].get_volume_numbering(formatted=True) == 'Volume 44, numéro 1 (130), automne 2018'  # noqa
+        assert self.test_objects["vi04327.xml"].get_volume_numbering(abbreviated=True, formatted=True) == 'Vol. 44, n° 1 (130), automne 2018'  # noqa
+
+    def test_get_volume_numbering_with_alternative_number_and_no_number(self):
+        assert self.test_objects["scientia3124.xml"].get_volume_numbering() == {
+            'volume': '24',
+            'number': '',
+            'alt_number': '52',
+            'number_type': None,
+            'publication_period': '2000',
+        }
+        assert self.test_objects["scientia3124.xml"].get_volume_numbering(formatted=True) == 'Volume 24, numéro 52, 2000'  # noqa
+        assert self.test_objects["scientia3124.xml"].get_volume_numbering(abbreviated=True, formatted=True) == 'Vol. 24, n° 52, 2000'  # noqa
 
     def test_volume_numbering_doesnt_crash(self):
         # Don't crash when get_volume_numbering() is missing all info it needs to return something
