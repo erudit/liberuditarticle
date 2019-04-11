@@ -379,6 +379,9 @@ class TestArticleSavantMinimal(object):
         assert self.test_objects['1054095ar.xml'].get_formatted_title() == 'Un français de référence acadien en émergence ? Étude sur les représentations métalexicographiques contemporaines de particularismes acadiens'  # noqa
         assert self.test_objects['004812ar.xml'].get_formatted_title() == 'The Tardy, Tasty and Chilly Thermophiles of the Champlain Sea'  # noqa
 
+    def test_get_title(self):
+        assert self.test_objects['1055849ar.xml'].get_title(formatted=True, html=True) == 'The Resonance of Debussy for United States Post-Modernists'  # noqa
+
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/format_person_name/', EruditArticle)
 class TestFormatPersonName(object):
