@@ -364,11 +364,6 @@ class EruditPublication(
         note = self.stringify_children(self.find('notegen[@typenoteg="edito"]'))
         return note.strip() if note is not None else note
 
-    def get_number(self):
-        """ :returns: the number of the publication object. """
-        nonumero_nodes = self.findall('nonumero')
-        return '-'.join([n.text for n in nonumero_nodes])
-
     def get_production_date(self):
         """ :returns: the production date of the publication object. """
         originator_node = self.find('originator')
@@ -404,8 +399,15 @@ class EruditPublication(
 
     def get_volume(self):
         """ :returns: the volume of the publication object. """
-        volume_nodes = self.findall('numero/volume')
-        return "-".join([n.text for n in volume_nodes])
+        return '-'.join([v.text for v in self.findall('numero/volume') if v is not None])
+
+    def get_number(self):
+        """ :returns: the number of the publication object. """
+        return '-'.join([n.text for n in self.findall('numero/nonumero') if n is not None])
+
+    def get_alt_number(self):
+        """ :returns: the alternative number of the publication object. """
+        return '-'.join([a.text for a in self.findall('numero/anonumero') if a is not None])
 
     def get_volume_numbering(self, html=False, abbreviated=False, formatted=False):
         """ Return the volume title of this publication
@@ -425,6 +427,7 @@ class EruditPublication(
 
         volume = self.get_volume()
         number = self.get_number()
+        alt_number = self.get_alt_number()
         number_type = self.get_publication_type()
         publication_period = self.get_publication_period()
 
@@ -432,6 +435,7 @@ class EruditPublication(
             return {
                 'volume': volume,
                 'number': number,
+                'alt_number': alt_number,
                 'number_type': number_type,
                 'publication_period': publication_period
             }
@@ -459,6 +463,11 @@ class EruditPublication(
             number_str_number_type = pgettext("numbering", "{} {}".format(
                 untranslated_number_str, number_type
             ))
+
+        if number and alt_number:
+            number = '{} ({})'.format(number, alt_number)
+        elif alt_number:
+            number = alt_number
 
         args = dict(
             volume=volume,
@@ -505,7 +514,6 @@ class EruditPublication(
     journal_title = property(get_journal_title)
     last_page = property(get_last_page)
     note_edito = property(get_note_edito)
-    number = property(get_number)
     production_date = property(get_production_date)
     publication_date = property(get_publication_date)
     publication_year = property(get_publication_year)
@@ -513,5 +521,7 @@ class EruditPublication(
     theme = property(get_theme)
     themes = property(get_themes)
     volume = property(get_volume)
+    number = property(get_number)
+    alt_number = property(get_alt_number)
     publishers = property(get_publishers)
     langauges = property(get_languages)
