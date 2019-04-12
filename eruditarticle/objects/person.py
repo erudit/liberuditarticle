@@ -16,11 +16,15 @@ class PersonName(DomObject):
         keys_order = ['prenom', 'autreprenom', 'nomfamille']
         ordered_vals = [get(key) for key in keys_order]
         formatted_name = ' '.join(v for v in ordered_vals if v)
-        suffix = get("suffixe")
-        if suffix:
-            return "{formatted_name}, {suffix}".format(
+        suffixes = []
+        for suffixe in self.findall('suffixe'):
+            suffixes.append(
+                self.convert_marquage_content_to_html(suffixe) if html else suffixe.text,
+            )
+        if suffixes:
+            return "{formatted_name}, {suffixes}".format(
                 formatted_name=formatted_name,
-                suffix=suffix
+                suffixes=', '.join(suffixes)
             )
         else:
             return formatted_name

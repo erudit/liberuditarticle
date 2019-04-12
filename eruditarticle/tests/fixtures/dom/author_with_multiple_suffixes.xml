@@ -1,0 +1,10 @@
+<auteur>
+    <nompers>
+        <prenom>Julien</prenom>
+        <autreprenom>D.</autreprenom>
+        <nomfamille>Payne</nomfamille>
+        <suffixe typesuff="grade">LL.D.</suffixe>
+        <suffixe typesuff="professionnel">Q.C.</suffixe>
+        <suffixe typesuff="professionnel">F.R.S.C.</suffixe>
+    </nompers>
+</auteur>
