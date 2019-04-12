@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+<originator username="robichac" date="2017-10-31" app="Tournesol 0.4.2"/>
+<copyright>
+	<year>2017</year>
+<contribution>
+<artificialperson>
+	<name>TTR</name>
+</artificialperson>
+<contributiontype>
+	<code>droit</code>
+	<label lang="en">Copyright Holder</label>
+	<label lang="fr">Titulaire du droit d'auteur</label>
+	<label lang="es">Titular del derecho de autor</label>
+</contributiontype>
+	<ordering>0</ordering>
+</contribution>
+<copyrightdeclaration>
+	<code>tdr</code>
+	<label lang="en">All Rights Reserved</label>
+	<label lang="fr">Tous droits réservés</label>
+	<label lang="es">Todos los derechos reservados</label>
+</copyrightdeclaration>
+</copyright>
+<publicationnumberingkeys>
+	<publicationtypecode>reg</publicationtypecode>
+	<years>
+		<year value="2015">
+			<periodcode>rDdyZ</periodcode>
+			<periodcode>fN7u8</periodcode>
+		</year>
+	</years>
+</publicationnumberingkeys><infosommaire>
+  <url>/revue/ttr/2015/v28/n1-2</url>
+  <nbarticle>16</nbarticle>
+  <revue id="ttr32" lang="fr en">
+    <titrerev>TTR</titrerev>
+    <sstitrerev>Traduction, terminologie, rédaction</sstitrerev>
+    <titrerevabr>ttr</titrerevabr>
+    <idissn>0835-8443</idissn>
+    <idissnnum>1708-2188</idissnnum>
+    <directeur sexe="feminin">
+      <fonction lang="fr">Directrice</fonction>
+      <nompers>
+        <prenom>Aline</prenom>
+        <nomfamille>Francoeur</nomfamille>
+      </nompers>
+      <key>directrice</key>
+    </directeur>
+    <redacteurchef idrefs="th1" sexe="masculin" typerc="invite">
+      <nompers>
+        <prenom>Álvaro</prenom>
+        <nomfamille>Echeverri</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+    <redacteurchef idrefs="th1" sexe="masculin" typerc="invite">
+      <nompers>
+        <prenom>Georges</prenom>
+        <autreprenom>L.</autreprenom>
+        <nomfamille>Bastin</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+    <redacteurchef idrefs="th2" sexe="feminin" typerc="invite">
+      <nompers>
+        <prenom>Nicole</prenom>
+        <nomfamille>Côté</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+    <redacteurchef idrefs="th2" sexe="feminin" typerc="invite">
+      <nompers>
+        <prenom>Danièle</prenom>
+        <nomfamille>Marcoux</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+    <redacteurchef idrefs="th2" sexe="feminin" typerc="invite">
+      <nompers>
+        <prenom>Madeleine</prenom>
+        <nomfamille>Stratford</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+  </revue>
+  <numero id="ttr03236">
+    <volume>28</volume>
+    <nonumero>1</nonumero>
+    <nonumero>2</nonumero>
+    <pub>
+      <periode>1er semestre</periode>
+      <periode>2e semestre</periode>
+      <annee>2015</annee>
+    </pub>
+    <pubnum>
+      <date typedate="publication">2017-10-23</date>
+    </pubnum>
+    <grtheme id="th1">
+      <theme>Territoires, histoires, mémoires</theme>
+      <themeparal lang="en">Territories, histories, memories</themeparal>
+    </grtheme>
+    <grtheme id="th2">
+      <theme>La traduction littéraire <marquage typemarq="italique">et</marquage> le Canada</theme>
+      <themeparal lang="en">Literary translation <marquage typemarq="italique">and</marquage> Canada</themeparal>
+    </grtheme>
+    <idisbn13>978-2-922532-34-0</idisbn13>
+  </numero>
+  <editeur>
+    <nomorg>Association canadienne de traductologie</nomorg>
+    <key>editeur</key>
+  </editeur>
+  <droitsauteur>Tous droits réservés © <nompers>
+      <prenom>Álvaro</prenom>
+      <nomfamille>Echeverri</nomfamille>
+    </nompers> et <nompers>
+      <prenom>Georges</prenom>
+      <autreprenom>L.</autreprenom>
+      <nomfamille>Bastin</nomfamille>
+    </nompers>, 2017</droitsauteur>
+</infosommaire>
+<article doi="10.7202/1041647ar" idproprio="1041647ar" idref="th1"
+  lang="fr" ordseq="1" qualtraitement="complet" typeart="autre">
+  <urlhtml>/revue/ttr/2015/v28/n1-2/1041647ar.html</urlhtml>
+  <urlpdf taille="105" unite="ko">/revue/ttr/2015/v28/n1-2/1041647ar.pdf</urlpdf>
+  <pagination>
+    <ppage>9</ppage>
+    <dpage>12</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Territoires, histoires, mémoires</surtitre>
+  <surtitreparal lang="en">Territories, histories, memories</surtitreparal>
+                  <titre>Territoires, histoires, mémoires : présentation</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Álvaro</prenom>
+    <nomfamille>Echeverri</nomfamille>
+   </nompers>
+  <affiliation><alinea><marquage typemarq="italique">Université de Montréal</marquage></alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>Georges</prenom><autreprenom>L.</autreprenom>
+    <nomfamille>Bastin</nomfamille>
+   </nompers>
+  <affiliation><alinea><marquage typemarq="italique">Université de Montréal</marquage></alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1041648ar" idproprio="1041648ar" idref="th1"
+  lang="fr" ordseq="2" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/ttr/2015/v28/n1-2/1041648ar.html</urlhtml>
+  <urlpdf taille="212" unite="ko">/revue/ttr/2015/v28/n1-2/1041648ar.pdf</urlpdf>
+  <urlplan>/revue/ttr/2015/v28/n1-2/1041648ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>13</ppage>
+    <dpage>38</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Territoires, histoires, mémoires</surtitre>
+  <surtitreparal lang="en">Territories, histories, memories</surtitreparal>
+                  <titre>La poésie québécoise vue depuis le Mexique : l’anthologie <marquage typemarq="italique">Poesía México-Quebec</marquage></titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Madeleine</prenom>
+    <nomfamille>Stratford</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université du Québec en Outaouais, Département d’études langagières, 283, boul. Alexandre-Taché, bureau F-1052, Gatineau (Québec) J8X 3X7, CANADA</alinea>
+  </affiliation>
+  <courriel>
+ <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:href="mailto:madeleine.stratford@uqo.ca" xlink:type="simple">madeleine.stratford@uqo.ca</liensimple>
+  </courriel>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>Myriam</prenom>
+    <nomfamille>Legault-Beauregard</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université du Québec en Outaouais, Département d’études langagières, 283, boul. Alexandre-Taché, bureau F-1052, Gatineau (Québec) J8X 3X7, CANADA</alinea>
+  </affiliation>
+  <courriel>
+ <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls2" xlink:href="mailto:legm27@uqo.ca" xlink:type="simple">legm27@uqo.ca</liensimple>
+  </courriel>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Le présent article se penche sur la traduction comme espace de médiation culturelle et vise à cerner l’image du Québec transmise au public mexicain au moyen de <marquage typemarq="italique">Poesía México-Quebec</marquage>, anthologie bilingue coéditée en 2008 par les Écrits des Forges et la Universidad Nacional Autónoma de México. À notre connaissance, il s’agit de la seule publication des Forges qui réunit des poètes québécois et mexicains et qui est traduite par plus de deux personnes. Elle semble le fruit d’un travail collaboratif plus poussé avec le Mexique que les autres copublications. Dans le but d’observer comment l’ouvrage présente la poésie et la culture québécoises aux Mexicains, nous analysons d’abord le contenu des poèmes originaux, ciblant les marques thématiques de l’espace québécois. Ensuite, nous étudions les versions espagnoles de la sélection en nous penchant principalement sur la façon dont les marques distinctives du français québécois ont été traitées, dans le but d’évaluer comment les traductions se situent par rapport au contenu original.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>This study views translation as a mode of cultural mediation, and aims to define the image of Quebec presented to Mexican readers in <marquage typemarq="italique">Poesía México-Quebec</marquage>, a bilingual poetry anthology coedited in 2008 by Écrits des Forges and the Universidad Nacional Autónoma de México. To our knowledge, it is the first bilingual anthology coedited by this publishing house including both Quebec and Mexican poets and translated by more than two people. It seems to be the result of a tighter collaboration with Mexico than their other joint publications. In order to observe how the anthology presents Quebec poetry and culture to the Mexican public, we first analyse the content of the original poems to identify the cultural markers pertaining to Quebec. Then, an analysis of the Spanish focuses on the translators’ treatment of some characteristic features of Quebec French in order to assess how their choices relate to the original content.</alinea>
+ </resume><grmotcle lang="fr"><motcle>poésie québécoise</motcle><motcle>Mexique</motcle><motcle>traduction</motcle><motcle>médiation culturelle</motcle><motcle>diffusion</motcle></grmotcle><grmotcle lang="en"><motcle>Quebec poetry</motcle><motcle>Mexico</motcle><motcle>translation</motcle><motcle>cultural mediation</motcle><motcle>circulation</motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1041649ar" idproprio="1041649ar" idref="th1"
+  lang="en" ordseq="3" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/ttr/2015/v28/n1-2/1041649ar.html</urlhtml>
+  <urlpdf taille="202" unite="ko">/revue/ttr/2015/v28/n1-2/1041649ar.pdf</urlpdf>
+  <urlplan>/revue/ttr/2015/v28/n1-2/1041649ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>39</ppage>
+    <dpage>64</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Territoires, histoires, mémoires</surtitre>
+  <surtitreparal lang="en">Territories, histories, memories</surtitreparal>
+                  <titre>Rewrapping Indianness for Spain: The Peritextual Representation of Native North American Identity in Literary Translations<renvoi id="re1no1" idref="no1" typeref="note">1</renvoi></titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Isis</prenom>
+    <nomfamille>Herrero López</nomfamille>
+   </nompers>
+  <affiliation><alinea>Independent scholar</alinea>
+  </affiliation>
+  <courriel>
+ <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:href="mailto:herreroisis@hotmail.com" xlink:type="simple">herreroisis@hotmail.com</liensimple>
+  </courriel>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="en"><alinea>When literature gets translated and published in the target market, the peritextual elements of the books get modified and updated because of commercial and aesthetic issues. If the translation involves identities very different from that of the target culture, then the peritexts offer a great amount of information about the ethnic representations that are accepted, welcome and customary as for the identities of the source culture and its members. This paper analyzes such a situation in relation to the Spanish translations of Native American written literature. By means of examining the peritexts of the available renditions in Spain, it is possible to establish if the publishing houses share a common image of Indianness, how it and its alternatives are used linguistically and visually, and what are the consequences of those cultural representations. This paper also includes a revision of the convergence of Translation Studies, Native American Studies and Imagology Studies in researching these renditions, and it stresses the importance of using this multidisciplinary point of view on the research materials.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="fr"><alinea>Quand la littérature est traduite et publiée dans un nouveau marché cible, les éléments péritextuels des livres sont souvent modifiés et actualisés pour des raisons commerciales et esthétiques. Si la traduction implique des identités très différentes decelle de la culture cible, les péritextes offrent une grande quantité d’information sur les représentations ethniques qui sont acceptées et habituelles relativement aux identités de la culture source et de ses membres. Notre article analyse cette situation au regard des traductions espagnoles des littératures écrites amérindiennes. L’examen des péritextes des traductions disponibles en Espagne permet d’établir si les maisons d’édition partagent une image commune des Amérindiens, de déterminer comment cette image s’utilise d’un point de vue linguistique et visuel, et d’évaluer les conséquences de cette représentation culturelle. L’article comprend une discussion sur la convergence de la traductologie, des études amérindiennes et de l’imagologie pour étudier ces traductions et souligne l’importance d’utiliser une perspective multidisciplinaire.</alinea>
+ </resume><grmotcle lang="en"><motcle>Native American literatures</motcle><motcle>ethnic representations</motcle><motcle>peritexts</motcle><motcle>literary translation</motcle></grmotcle><grmotcle lang="fr"><motcle>littératures amérindiennes</motcle><motcle>representations ethniques</motcle><motcle>péritextes</motcle><motcle>traduction littéraire</motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1041650ar" idproprio="1041650ar" idref="th1"
+  lang="en" ordseq="4" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/ttr/2015/v28/n1-2/1041650ar.html</urlhtml>
+  <urlpdf taille="237" unite="ko">/revue/ttr/2015/v28/n1-2/1041650ar.pdf</urlpdf>
+  <urlplan>/revue/ttr/2015/v28/n1-2/1041650ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>65</ppage>
+    <dpage>89</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Territoires, histoires, mémoires</surtitre>
+  <surtitreparal lang="en">Territories, histories, memories</surtitreparal>
+                  <titre>Whose America? Decolonial Translation by Frederick Douglass and Caetano Veloso</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Joshua</prenom><autreprenom>M.</autreprenom>
+    <nomfamille>Price</nomfamille>
+   </nompers>
+  <affiliation><alinea>Department of Sociology, Binghamton University, Binghamton, NY 13902, <marquage typemarq="majuscule">United States</marquage></alinea>
+  </affiliation>
+  <courriel>
+ <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:href="mailto:jmprice@binghamton.edu" xlink:type="simple">jmprice@binghamton.edu</liensimple>
+  </courriel>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="en"><alinea>Colonial domination entails a struggle over interpretation. The colonizers establish whose version of reality will be codified and become the dominant one. Breaking with that dominant, authorized account implies a struggle against hegemony. Translators have always played key roles in colonization as agents of the colonizer. Subaltern translators and interpreters have often served in this role. But they often contest dominant meanings. They subvert dominant meanings as they transform them across the colonial divide. Theorizing translation practices from that point of colonial conjunction or contact, this essay adduces two examples to see how a decolonial methodology to study translation and power can shed light on how, in the hands of an astute translator, a translation can offer a counter-narrative that deconstructs colonial systems of meaning. The two examples: Frederick Douglass’ intralingual translation of the meaning of the Fourth of July (1852) and singer Caetano Veloso’s recording of Augusto de Campos’ translation (1979) of John Donne’s “Elegy 19: To His Mistress Going To Bed” (1654). Three interconnected characteristics make the translations decolonial. (1) They are abusive (Lewis, 2000; Venuti, 2013). (2) The target language or culture is an imagined world, better and more just than the world we live in now (Santos, 2014). (3) They are performatives insofar as they begin to bring that imagined world into existence through performing the translation (Austin, 1975). As a deconstructive embrace, this kind of translation draws attention to the colonial legacy and to the colonial context, and also to itself—that is, to its own selective appropriation (Spivak, 1995, p. 31).</alinea>
+ </resume>
+ <resume typeresume="resume" lang="fr"><alinea>La domination coloniale implique une lutte d’interprétations. Les colonisateurs établissent quelle version de la réalité sera codifiée et deviendra dominante. Rompre avec ce récit dominant et officialisé comporte une lutte contre l’hégémonie. Traducteurs et interprètes subalternes ont souvent servi d’agents des colonisateurs. Cependant, ils contestent souvent les significations dominantes. Ils renversent les significations dominantes, car ils les transforment à travers la division coloniale. Théorisant les pratiques de la traduction de ce point de conjonction ou de contact colonial, cet article s’appuie sur deux exemples pour montrer l’utilité d’une méthodologie décoloniale pour éclairer la façon dont, entre les mains d’un traducteur astucieux, la traduction peut offrir un contre-discours qui déconstruit les systèmes coloniaux de sens. Les deux exemples sont la traduction intralinguale de Frederick Douglass de la signification de « the Fourth of July » (1852) et l’enregistrement par le chanteur Caetano Veloso de la traduction de Augusto de Campos de l’oeuvre de John Donne « Elegy 19: To His Mistress Going To Bed » (1654). Trois caractéristiques interreliées rendent une traduction décoloniale : 1) la traduction est abusive (Lewis, 2000; Venuti, 2013); 2) la langue ou la culture cible est un monde imaginaire, meilleur et plus juste que le monde dans lequel nous vivons (Santos, 2014); 3) la traduction est performative, dans la mesure où elle commence à donner vie à ce monde imaginaire par la performance de la traduction (Austin, 1975). Comme une étreinte déconstructive, ce genre de traduction met en lumière l’héritage colonial et le contexte colonial, voire le genre lui-même, c’est-à-dire son appropriation sélective (Spivak, 1995, p. 31).</alinea>
+ </resume><grmotcle lang="en"><motcle>translation</motcle><motcle>colonialism</motcle><motcle>slave narratives</motcle><motcle>subaltern studies</motcle><motcle>decolonial</motcle></grmotcle><grmotcle lang="fr"><motcle>traduction</motcle><motcle>colonialisme</motcle><motcle>discours d’esclavage</motcle><motcle>études subalternes</motcle><motcle>décolonial</motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1041651ar" idproprio="1041651ar" idref="th1"
+  lang="en" ordseq="5" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/ttr/2015/v28/n1-2/1041651ar.html</urlhtml>
+  <urlpdf taille="176" unite="ko">/revue/ttr/2015/v28/n1-2/1041651ar.pdf</urlpdf>
+  <urlplan>/revue/ttr/2015/v28/n1-2/1041651ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>91</ppage>
+    <dpage>108</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Territoires, histoires, mémoires</surtitre>
+  <surtitreparal lang="en">Territories, histories, memories</surtitreparal>
+                  <titre>Vectors of Exchange: Translation Praxis in <marquage typemarq="italique">Cuadernos de Marcha</marquage> and <marquage typemarq="italique">Revista Casa de las América</marquage>s</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>María</prenom><autreprenom>Constanza</autreprenom>
+    <nomfamille>Guzmán</nomfamille>
+   </nompers>
+  <affiliation><alinea>School of Translation - Department of Hispanic Studies, Glendon College, York University, 2275 Bayview Ave., Toronto (Ontario) M4N 3M6, CANADA</alinea>
+  </affiliation>
+  <courriel>
+ <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:href="mailto:mguzman@glendon.yorku.ca" xlink:type="simple">mguzman@glendon.yorku.ca</liensimple>
+  </courriel>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="en"><alinea>Historically, translation has been at the core of intellectual projects in Latin America and the Caribbean. This article investigates the translation praxis of two influential twentieth-century Latin American and Caribbean cultural journals whose influence reached beyond their own national borders: the Uruguayan <marquage typemarq="italique">Cuadernos de Marcha</marquage> and the Cuban <marquage typemarq="italique">Revista Casa de las Américas</marquage>. This paper examines the translation practices of these periodicals focusing on the material selected for translation. Looking at the discursive compositions that are constructed through translation, it discusses the vectors of intellectual exchange as they can be traced via translation, the way in which these periodicals create images of the Americas as a territory, and the extent to which these images either conform to or challenge the historical discursive practices that contribute to shaping existing regional imaginaries.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="fr"><alinea>La traduction est depuis toujours au centre des projets intellectuels en Amérique latine et aux Caraïbes. Dans cet article, nous étudions les pratiques de traduction dans deux revues culturelles du XX<exposant>e</exposant> siècle de grande influence régionale et internationale : la revue uruguayenne <marquage typemarq="italique">Cuadernos de Marcha</marquage> et la revue cubaine <marquage typemarq="italique">Revista Casa de las Américas</marquage>. Cette étude s’intéresse aux pratiques de traduction de ces revues, et spécialement à la sélection des textes. Une analyse des compositions discursives qui résultent des pratiques de traduction nous permettra de déceler les vecteurs de l’échange intellectuel tels qu’ils se dévoilent dans les traductions. Nous analysons également les images que ces vecteurs créent des Amériques en tant que territoire tout en essayant de déterminer si ces images sont compatibles avec les pratiques des discours historiques qui contribuent à façonner les imaginaires régionaux existants ou, si au contraire, elles défient ces pratiques discursives.</alinea>
+ </resume><grmotcle lang="en"><motcle>Latin America and the Caribbean</motcle><motcle>translation</motcle><motcle><marquage typemarq="italique">Cuadernos de Marcha</marquage></motcle><motcle><marquage typemarq="italique">Revista Casa de las Américas</marquage></motcle><motcle>translation praxis</motcle></grmotcle><grmotcle lang="fr"><motcle>Amérique latine et les Caraïbes</motcle><motcle>traduction</motcle><motcle><marquage typemarq="italique">Cuadernos de Marcha</marquage></motcle><motcle><marquage typemarq="italique">Revista Casa de las Américas</marquage></motcle><motcle>pratiques de traduction</motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1041652ar" idproprio="1041652ar" idref="th1"
+  lang="en" ordseq="6" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/ttr/2015/v28/n1-2/1041652ar.html</urlhtml>
+  <urlpdf taille="308" unite="ko">/revue/ttr/2015/v28/n1-2/1041652ar.pdf</urlpdf>
+  <urlplan>/revue/ttr/2015/v28/n1-2/1041652ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>109</ppage>
+    <dpage>131</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Territoires, histoires, mémoires</surtitre>
+  <surtitreparal lang="en">Territories, histories, memories</surtitreparal>
+                  <titre>Fulani Oral Literature and (Un)translatability: The Case of Northern Cameroon <marquage typemarq="italique">Mbooku</marquage> Poems</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Oumarou</prenom>
+    <nomfamille>Mal Mazou</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université de Liège</alinea>
+  </affiliation>
+  <affiliation><alinea>Rue Alfred Defuisseaux, 37 4040 Hestal, <marquage typemarq="majuscule">Belgique</marquage></alinea>
+  </affiliation>
+  <courriel>
+ <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:href="mailto:rmazou@doct.ulg.ac.be" xlink:type="simple">rmazou@doct.ulg.ac.be</liensimple>
+  </courriel>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="en"><alinea>This paper sets out to examine the translatability of Fulani oral poetry from Northern Cameroon, especially the <marquage typemarq="italique">mbooku</marquage> genre, in a literary perspective. The corpus is gathered from selected oral poems that were transcribed and translated into German, English and French by different translators. The study reveals that it is possible to translate Fulani poems into European languages so that the target texts perform the same literary functions as the source texts, in spite of linguistic and cultural difficulties that occur during the transfer process. Thus, the author proposes a retranslation in which the content meets the form, taking into account some patterns of European modern poetry. He therefore advocates for retranslations of these poems from a purely literary perspective and would like to see translation studies focus more on the primary source of African orality.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="fr"><alinea>Le présent article a pour objectif d’examiner la traduisibilité de la poésie orale peule du Nord Cameroun, notamment le <marquage typemarq="italique">mbooku,</marquage> dans une perspective littéraire. Il s’appuie sur un corpus tiré de recueils de poèmes oraux transcrits et traduits en allemand, en anglais et en français par différents traducteurs. De l’analyse, il ressort que malgré les difficultés linguistiques et culturelles observées dans le processus de transfert chez les uns et les autres, il est possible de traduire les poèmes peuls en langues européennes pour que les textes d’arrivée assument la même fonction littéraire que les textes de départ. Ainsi, l’auteur propose une retraduction qui allie fond et forme, en respectant les canons de la poésie européenne moderne. Il appelle par conséquent à des retraductions de ces poèmes dans une perspective purement littéraire et souhaite que les études traductologiques s’intéressent davantage aux sources primaires de l’oralité.</alinea>
+ </resume><grmotcle lang="en"><motcle>Fulani poems</motcle><motcle>retranslation</motcle><motcle><marquage typemarq="italique">mbooku</marquage></motcle><motcle>oral literature</motcle><motcle>untranslatability</motcle></grmotcle><grmotcle lang="fr"><motcle>poésie peule</motcle><motcle>retraduction</motcle><motcle><marquage typemarq="italique">mbooku</marquage></motcle><motcle>littérature orale</motcle><motcle>intraduisibilité</motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1041653ar" idproprio="1041653ar" idref="th2"
+  lang="fr" ordseq="7" qualtraitement="complet" typeart="autre">
+  <urlhtml>/revue/ttr/2015/v28/n1-2/1041653ar.html</urlhtml>
+  <urlpdf taille="121" unite="ko">/revue/ttr/2015/v28/n1-2/1041653ar.pdf</urlpdf>
+  <pagination>
+    <ppage>133</ppage>
+    <dpage>138</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>La traduction littéraire <marquage typemarq="italique">et</marquage> le Canada</surtitre>
+  <surtitreparal lang="en">Literary translation <marquage typemarq="italique">and</marquage> Canada</surtitreparal>
+                  <titre>La traduction littéraire <marquage typemarq="italique">et</marquage> le Canada : présentation</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Nicole</prenom>
+    <nomfamille>Côté</nomfamille>
+   </nompers>
+  <affiliation><alinea><marquage typemarq="italique">Université de Sherbrooke</marquage></alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>Danièle</prenom>
+    <nomfamille>Marcoux</nomfamille>
+   </nompers>
+  <affiliation><alinea><marquage typemarq="italique">Université Concordia</marquage></alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au3">
+   <nompers>
+    <prenom>Madeleine</prenom>
+    <nomfamille>Stratford</nomfamille>
+   </nompers>
+  <affiliation><alinea><marquage typemarq="italique">Université du Québec en Outaouais</marquage></alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1041654ar" idproprio="1041654ar" idref="th2"
+  lang="fr" ordseq="8" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/ttr/2015/v28/n1-2/1041654ar.html</urlhtml>
+  <urlpdf taille="144" unite="ko">/revue/ttr/2015/v28/n1-2/1041654ar.pdf</urlpdf>
+  <urlplan>/revue/ttr/2015/v28/n1-2/1041654ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>139</ppage>
+    <dpage>151</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>La traduction littéraire <marquage typemarq="italique">et</marquage> le Canada</surtitre>
+  <surtitreparal lang="en">Literary translation <marquage typemarq="italique">and</marquage> Canada</surtitreparal>
+                  <titre>De Bellefeuille sous la plume de D. G. Jones</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Patricia</prenom>
+    <nomfamille>Godbout</nomfamille>
+   </nompers>
+  <affiliation><alinea>Département des lettres et communications, Faculté des lettres et sciences humaines, Université de Sherbrooke, Sherbrooke (Québec) J1K 2R1, CANADA</alinea>
+  </affiliation>
+  <courriel>
+ <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:href="mailto:patricia.godbout@usherbrooke.ca" xlink:type="simple">patricia.godbout@usherbrooke.ca</liensimple>
+  </courriel>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>La traduction, par D. G. Jones, du recueil de poèmes <marquage typemarq="italique">Catégoriques un deux et trois</marquage> (1986) de Normand de Bellefeuille est examinée ici à la lumière des réflexions que livre notamment Arno Renken sur le rejet traditionnel de la traduction au nom de sa non-identité avec le texte original. Plusieurs choix de traduction faits par D. G. Jones dans <marquage typemarq="italique">Categorics one two &amp; three </marquage>(1992) sont étudiés afin de voir les effets combinés que ces diverses transpositions produisent sur la lecture du recueil en langue anglaise.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>The English translation, by D. G. Jones, of <marquage typemarq="italique">Catégoriques un deux et trois</marquage> (1986), a book of poems by Normand de Bellefeuille, is examined through the reflections proposed by Arno Renken, among others, on the question of the common rejection of a translation on the grounds of its non-identity with the original. Many translation choices made by Jones in <marquage typemarq="italique">Categorics one two &amp; three </marquage>(1992) are analyzed in order to bring into light the combined effects these various transpositions produce on the reader of the English version.</alinea>
+ </resume><grmotcle lang="fr"><motcle>D. G. Jones</motcle><motcle>poésie</motcle><motcle>Normand de Bellefeuille</motcle><motcle>transposition</motcle><motcle>lecture</motcle></grmotcle><grmotcle lang="en"><motcle>D. G. Jones</motcle><motcle>poetry</motcle><motcle>Normand de Bellefeuille</motcle><motcle>transposition</motcle><motcle>reading</motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1041655ar" idproprio="1041655ar" idref="th2"
+  lang="fr" ordseq="9" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/ttr/2015/v28/n1-2/1041655ar.html</urlhtml>
+  <urlpdf taille="197" unite="ko">/revue/ttr/2015/v28/n1-2/1041655ar.pdf</urlpdf>
+  <urlplan>/revue/ttr/2015/v28/n1-2/1041655ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>153</ppage>
+    <dpage>179</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>La traduction littéraire <marquage typemarq="italique">et</marquage> le Canada</surtitre>
+  <surtitreparal lang="en">Literary translation <marquage typemarq="italique">and</marquage> Canada</surtitreparal>
+                  <titre>Saint-Denys Garneau dans le prisme de ses traducteurs hispano-américains</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Madeleine</prenom>
+    <nomfamille>Stratford</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université du Québec en Outaouais, Département d’études langagières, 283, boul. Alexandre-Taché, bur. F-1052, Gatineau (Québec) J8X 3X7, CANADA</alinea>
+  </affiliation>
+  <courriel>
+ <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:href="mailto:madeleine.stratford@uqo.ca" xlink:type="simple">madeleine.stratford@uqo.ca</liensimple>
+  </courriel>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Des quatre « grands aînés » de sa génération (les autres étant Alain Grandbois, Anne Hébert, et Rina Lasnier), le poète québécois Hector de Saint-Denys Garneau est de loin le plus traduit en espagnol. Les premières versions circulent en Amérique latine dès les années 1990. Au cours des années 2000, deux recueils bilingues consacrés à son oeuvre paraissent, traduits par Luis Vicente de Aguinaga. De tous les poèmes traduits, deux l’ont été à quatre reprises : « Accompagnement » et « Cage d’oiseau ». Nous nous intéressons ici à la façon dont le vers libre du poète a été reproduit. Nous déterminerons sous quel angle les traducteurs ont abordé la forme des poèmes pour évaluer, s’il y a lieu, la fréquence des combinaisons traductives. Notre analyse permettra de constater comment le vers libre de Saint-Denys Garneau est donné à lire au public hispano-américain et à quel point son style correspond aux originaux.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>Out of the four so-called “elders” of his generation (the others being Alain Grandbois, Anne Hébert and Rina Lasnier), Quebec poet Hector de Saint-Denys Garneau is by far the most translated into Spanish. The first versions come out in Latin America as early as in the 1990s. In the 2000s, two bilingual poetry books are published, both of them translated by Luis Vicente de Aguinaga. Among all those Spanish versions, two poems were translated four times: “Accompagnement” and “Cage d’oiseau”. We are interested in the way the author’s free verse was reproduced. We study how the translators treated those poems’ form in order to establish, if need be, the frequency of certain combinations of translation strategies. This analysis will show in what way Saint-Denys Garneau’s free verse was presented to the Hispanic American readership, and to what extent these versions correspond to the poet’s style in the original French.</alinea>
+ </resume><grmotcle lang="fr"><motcle>Hector de Saint-Denys Garneau</motcle><motcle>poésie québécoise</motcle><motcle>vers libre</motcle><motcle>traduction poétique</motcle><motcle>Amérique latine</motcle></grmotcle><grmotcle lang="en"><motcle>Hector de Saint-Denys Garneau</motcle><motcle>Quebec poetry</motcle><motcle>free verse</motcle><motcle>poetry translation</motcle><motcle>Latin America</motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1041656ar" idproprio="1041656ar" idref="th2"
+  lang="fr" ordseq="10" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/ttr/2015/v28/n1-2/1041656ar.html</urlhtml>
+  <urlpdf taille="238" unite="ko">/revue/ttr/2015/v28/n1-2/1041656ar.pdf</urlpdf>
+  <urlplan>/revue/ttr/2015/v28/n1-2/1041656ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>181</ppage>
+    <dpage>205</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>La traduction littéraire <marquage typemarq="italique">et</marquage> le Canada</surtitre>
+  <surtitreparal lang="en">Literary translation <marquage typemarq="italique">and</marquage> Canada</surtitreparal>
+                  <titre>Traduire au Québec la poésie étrangère : départager le rêve de la réalité</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Mélanie</prenom>
+    <nomfamille>Rivet</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université du Québec en Outaouais</alinea>
+  </affiliation>
+  <affiliation><alinea>646-B, boul. des Hautes-Plaines, Gatineau (Québec) J8Z 2W1, CANADA</alinea>
+  </affiliation>
+  <courriel>
+ <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:href="mailto:artatoi@gmail.com" xlink:type="simple">artatoi@gmail.com</liensimple>
+  </courriel>
+  <courriel>
+ <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls2" xlink:href="mailto:rivm17@uqo.ca" xlink:type="simple">rivm17@uqo.ca</liensimple>
+  </courriel>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Le milieu de l’édition de poésie au Québec est intrinsèquement lié au contexte canadien et à son système de subventions publiques, à son bilinguisme français-anglais et à son bassin de lecteurs de poésie plutôt réduit. Dans ce contexte, les maisons d’édition sont susceptibles d’entretenir un rapport fragile avec la publication de poètes étrangers en traduction, et ce, même si cette activité a le potentiel d’enrichir le patrimoine culturel canadien. La présente recherche s’inscrit dans une réflexion pancanadienne sur la portée de la traduction littéraire dans l’éclosion, le maintien et la redéfinition de l’identité de la nation. Nous dressons ici un premier constat de la présence des poètes étrangers traduits en français et publiés au Québec entre janvier 2000 et octobre 2014. Nous avons cherché à répondre aux questions suivantes : 1) Quels poètes étrangers traduit-on? 2) Quelles sont les tendances qui se dessinent en matière de langue et de lieu d’origine? 3) Quelles maisons d’édition sont les plus engagées? 4) Qui traduit les poètes étrangers? 5) Quelles sont les sources de financement associées aux publications du corpus? Cette étude exploratoire pourra servir de base à d’autres études sur la traduction et l’édition de poésie étrangère au Québec.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>Poetry publishing in the province of Quebec is intrinsically linked to the Canadian context and its system of government subsidies, its French-English bilingualism and its rather small pool of poetry readers. In this context, the publishers are likely to maintain a cautious relationship with the publication of foreign poets in translation, even if that activity has the potential to enrich Canada’s cultural heritage. This research is part of a Canada-wide reflection on the role of literary translation in the birth, the preservation and the redefinition of a nation’s identity. In this article, we share a preliminary observation of the presence of foreign poets translated into French and published in Quebec between January 2000 and October 2014. We sought to answer the following questions: 1) Which foreign poets are translated? 2) What trends are emerging in the field of language and place of origin? 3) What publishers are most involved? 4) Who translate foreign poets? 5) What are the funding sources behind the published corpus? This exploratory study could serve as a basis for further studies on translation and published foreign poetry in the province of Quebec.</alinea>
+ </resume><grmotcle lang="fr"><motcle>traduction littéraire</motcle><motcle>poésie étrangère</motcle><motcle>milieu de l’édition</motcle><motcle>Québec</motcle></grmotcle><grmotcle lang="en"><motcle>literary translation</motcle><motcle>foreign poetry</motcle><motcle>publishing industry</motcle><motcle>Quebec</motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1041657ar" idproprio="1041657ar" idref="th2"
+  lang="fr" ordseq="11" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/ttr/2015/v28/n1-2/1041657ar.html</urlhtml>
+  <urlpdf taille="308" unite="ko">/revue/ttr/2015/v28/n1-2/1041657ar.pdf</urlpdf>
+  <urlplan>/revue/ttr/2015/v28/n1-2/1041657ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>207</ppage>
+    <dpage>237</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>La traduction littéraire <marquage typemarq="italique">et</marquage> le Canada</surtitre>
+  <surtitreparal lang="en">Literary translation <marquage typemarq="italique">and</marquage> Canada</surtitreparal>
+                  <titre>« These foreign c*nts’ve goat trouble wi the Queen’s f*ckin English, ken », ou ré-énoncer la voix scots de <marquage typemarq="italique">Trainspotting</marquage> au moyen du Québec et de la (socio-)linguistique<renvoi id="re1no1" idref="no1" typeref="note">1</renvoi></titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Alex</prenom>
+    <nomfamille>Gauthier</nomfamille>
+   </nompers>
+  <affiliation><alinea><marquage typemarq="italique">Université Concordia</marquage></alinea>
+  </affiliation>
+  <courriel>
+ <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:href="mailto:alexgauthier.trad@gmail.com" xlink:type="simple">alexgauthier.trad@gmail.com</liensimple>
+  </courriel>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>En 1993, au lendemain du règne thatchérien, Irvine Welsh, auteur écossais alors inconnu, était propulsé au firmament des vedettes littéraires grâce à <marquage typemarq="italique">Trainspotting, </marquage>un texte coup de poing mettant en scène de jeunes héroïnomanes écossais qui s’opposent au système de la seule manière qu’ils le peuvent : à coup d’injections. En les faisant s’exprimer dans une version extrêmement codée du scots, Welsh déployait un système discursif unique et volontairement difficile à déchiffrer, véritable doigt d’honneur à l’élite littéraire anglophone et aux conventions de l’écriture. Dans cet article, j’aborde premièrement l’importance du sociolecte scots dans l’oeuvre de Welsh, au moyen d’une analyse du contexte sociohistorique de l’oeuvre et de sa réception. Deuxièmement et à contresens des traducteurs français (Lindor Fall en 1996, Étienne en 2011), qui livrent des versions qui répriment l’insubordination de l’original aux normes de la langue, je présente une « systématique de la déformation » basée sur des études sociolinguistiques du français québécois, qui permet de ré-énoncer, pour le lecteur francophone, la puissance expressive et la portée politique de la voix de ce texte culte. Par l’utilisation d’une variante du français québécois vernaculaire comme outil de traduction, j’espère ménager dans l’espace littéraire francophone une ouverture qui permette d’éviter la notion d’intraduisible lorsque l’on parle des sociolectes.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>In 1993, in the aftermath of the Thatcherian era, Irvine Welsh, then an unknown Scottish writer, was propelled in the high spheres of the literary scene, thanks to <marquage typemarq="italique">Trainspotting</marquage>, a hard-hitting novel featuring drug-addled Scottish twenty-somethings that oppose the system the only way they can: through injections of heroin. By making them talk in an extremely cryptic version of Scots, Welsh put forth a unique discursive system that mocks both the English-speaking literary elites and the writing conventions of English. In this article, I examine the significance of the Scots sociolect in Welsh’s novel through an analysis of its socio-historical context and reception, and show how the novel’s French translators (Lindor Fall in 1996 and Étienne in 2011) produced versions that suppress the insubordination of the source text’s language. I then present a “system of textual deformation” anchored in Québécois sociolinguistic studies, that reproduces, for the French-speaking reader, the political significance and expressive strength of this cult novel’s Meschonnician voice. By using a variation of Quebec’s vernacular French as a translation tool, I strive to create a space, in the francophone literary landscape, where sociolects are no longer considered untranslatable.</alinea>
+ </resume><grmotcle lang="fr"><motcle>Henri Meschonnic</motcle><motcle>sociolecte</motcle><motcle>sociolinguistique</motcle><motcle>Irvine Welsh</motcle><motcle><marquage typemarq="italique">Trainspotting</marquage></motcle></grmotcle><grmotcle lang="en"><motcle>Henri Meschonnic</motcle><motcle>sociolects</motcle><motcle>sociolinguistics</motcle><motcle>Irvine Welsh</motcle><motcle><marquage typemarq="italique">Trainspotting</marquage></motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1041658ar" idproprio="1041658ar" idref="th2"
+  lang="fr" ordseq="12" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/ttr/2015/v28/n1-2/1041658ar.html</urlhtml>
+  <urlpdf taille="180" unite="ko">/revue/ttr/2015/v28/n1-2/1041658ar.pdf</urlpdf>
+  <urlplan>/revue/ttr/2015/v28/n1-2/1041658ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>239</ppage>
+    <dpage>257</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>La traduction littéraire <marquage typemarq="italique">et</marquage> le Canada</surtitre>
+  <surtitreparal lang="en">Literary translation <marquage typemarq="italique">and</marquage> Canada</surtitreparal>
+                  <titre>De l’emploi des surtitres anglais dans les théâtres franco-canadiens : bénéfice et préjudice</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Louise</prenom>
+    <nomfamille>Ladouceur</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université de l’Alberta, 8406 - 91 Street, Edmonton (Alberta) T6C 4G9, CANADA</alinea>
+  </affiliation>
+  <courriel>
+ <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:href="mailto:louise.ladouceur@ualberta.ca" xlink:type="simple">louise.ladouceur@ualberta.ca</liensimple>
+  </courriel>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Cet article propose une étude du surtitrage dans les théâtres francophones de l’Ouest canadien afin de mettre en relief ce qui distingue ce mode de traduction dans le champ de la traduction audiovisuelle. Le théâtre étant un art vivant, les surtitres doivent composer avec la nature instable du texte source livré sur scène et les différents profils linguistiques des destinataires auxquels ils sont transmis pendant le spectacle. Mis en pratique depuis plusieurs années dans les théâtres franco-canadiens, le surtitrage offre plusieurs avantages aux compagnies théâtrales fonctionnant dans une langue française minorisée puisqu’il permet à l’oeuvre de rejoindre un public élargi tout en conservant sa spécificité linguistique et esthétique. Toutefois, parce qu’il oblige les langues source et cible à cohabiter dans un espace traditionnellement consacré à des productions culturelles d’expression française, ce mode de traduction remet en cause la vocation des théâtres francophones en contexte minoritaire. Enfin, devenue pratique courante dans les théâtres franco-canadiens, le surtitrage demeure absent des scènes anglophones, ce qui met en relief l’asymétrie des langues officielles du Canada.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>This article focuses on surtitling in francophone theatres of Western Canada in order to illustrate how this translation modality distinguishes itself in the field of audio-visual translation. Theatre being a living art, surtitles must adapt to the instable nature of the source text delivered on stage and take into account the various linguistic profiles of the audience. Adopted by Franco-Canadian theatres, surtitling offers many advantages to companies working in a minority language as it renders the production accessible to a larger audience while retaining its linguistic and aesthetic specificity. However, since it imposes a cohabitation of the source and target languages in a space traditionally dedicated to promote and defend francophone cultural products, this translation mode can be prejudicial to the vocation of francophone theatre companies in a minority context. Now firmly established in Franco-Canadian theatres, surtitles remain absent in anglophone theatres thus underlining the asymmetry between the official languages of Canada.</alinea>
+ </resume><grmotcle lang="fr"><motcle>surtitres</motcle><motcle>traduction audiovisuelle</motcle><motcle>théâtre franco-canadien</motcle></grmotcle><grmotcle lang="en"><motcle>surtitles</motcle><motcle>audiovisual translation</motcle><motcle>Franco-Canadian theatre</motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1041659ar" horstheme="oui" idproprio="1041659ar"
+  lang="fr" ordseq="13" qualtraitement="complet" typeart="compterendu">
+  <urlhtml>/revue/ttr/2015/v28/n1-2/1041659ar.html</urlhtml>
+  <urlpdf taille="114" unite="ko">/revue/ttr/2015/v28/n1-2/1041659ar.pdf</urlpdf>
+  <pagination>
+    <ppage>259</ppage>
+    <dpage>262</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+Sherry Simon. <marquage typemarq="italique">Villes en traduction : Calcutta, Trieste, Barcelone et Montréal</marquage>. Trad. Pierrot Lambert. Montréal, Presses de l’Université de Montréal, 2013, 269 p.</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Marie</prenom>
+    <nomfamille>Leconte</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université de Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1041660ar" horstheme="oui" idproprio="1041660ar"
+  lang="en" ordseq="14" qualtraitement="complet" typeart="compterendu">
+  <urlhtml>/revue/ttr/2015/v28/n1-2/1041660ar.html</urlhtml>
+  <urlpdf taille="120" unite="ko">/revue/ttr/2015/v28/n1-2/1041660ar.pdf</urlpdf>
+  <pagination>
+    <ppage>262</ppage>
+    <dpage>266</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+Sergey Tyulenev. <marquage typemarq="italique">Translation and Society</marquage>. London and New York, Routledge, 2014, 218 p.</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Esmaeil</prenom>
+    <nomfamille>Kalantari</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université de Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1041661ar" horstheme="oui" idproprio="1041661ar"
+  lang="fr" ordseq="15" qualtraitement="complet" typeart="compterendu">
+  <urlhtml>/revue/ttr/2015/v28/n1-2/1041661ar.html</urlhtml>
+  <urlpdf taille="903" unite="ko">/revue/ttr/2015/v28/n1-2/1041661ar.pdf</urlpdf>
+  <pagination>
+    <ppage>267</ppage>
+    <dpage>273</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+Jeanne Dancette. <marquage typemarq="italique">Dictionnaire analytique de la mondialisation et du travail/Analytical Dictionary of Globalization and Labour/Diccionario analítico de la mundialización y del trabajo.</marquage> Montréal, Université de Montréal, 2004 à présent. [
+ <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:href="http://zedamt.herokuapp.com/" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://zedamt.herokuapp.com/</liensimple>]</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Michèle</prenom>
+    <nomfamille>Laliberté</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université du Québec en Outaouais</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1041662ar" horstheme="oui" idproprio="1041662ar"
+  lang="fr" ordseq="16" qualtraitement="complet" typeart="compterendu">
+  <urlhtml>/revue/ttr/2015/v28/n1-2/1041662ar.html</urlhtml>
+  <urlpdf taille="112" unite="ko">/revue/ttr/2015/v28/n1-2/1041662ar.pdf</urlpdf>
+  <pagination>
+    <ppage>274</ppage>
+    <dpage>277</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+Patrick Cattrysse. <marquage typemarq="italique">Descriptive Adaptation Studies. Epistemological and Methodological Issues</marquage>. Antwerp et Apeldoorn, Garant Publishers, 2014, 363 p.</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Marie-France</prenom>
+    <nomfamille>Guénette</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université de Montréal</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+</sommaire>

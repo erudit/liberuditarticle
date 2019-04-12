@@ -137,14 +137,16 @@ class EruditPublication(
                 rc.append(redacteurchef)
         return rc
 
-    def _find_themeparal(self, theme_tag):
+    def _find_themeparal(self, theme_tag, html=False):
         """ Find the parallel names of the theme """
+        method = self.get_html if html else self.get_text
         pn = collections.OrderedDict()
         for theme_paral in theme_tag.findall('themeparal'):
             lang = theme_paral.get('lang')
             pn[lang] = {
-                'name': theme_paral.text,
-                'subname': self.get_text("ssthemeparal[@lang='{}']".format(lang), dom=theme_tag),
+                'name': method("themeparal[@lang='{}']".format(lang), dom=theme_tag),
+                'lang': lang,
+                'subname': method("ssthemeparal[@lang='{}']".format(lang), dom=theme_tag),
                 'html_name': self.convert_marquage_content_to_html(
                     theme_paral,
                 ),
@@ -157,11 +159,7 @@ class EruditPublication(
     # TODO fixup the get_theme, get_themes, get_html_themes, get_theme_guest_editors mess
     def parse_theme(self, theme_tag, html=False):
         """ Parse a theme tag """
-
-        method = self.get_text
-        if html:
-            method = self.get_html
-
+        method = self.get_html if html else self.get_text
         theme = {
             'name': method('theme', dom=theme_tag),
             'lang': self.find('theme').get('lang') or "fr",
@@ -176,7 +174,7 @@ class EruditPublication(
         theme_id = theme_tag.get('id')
         # theme redacteurs en chef
         theme['redacteurchef'] = self._find_redacteurchef(theme_id, html=html)
-        theme['paral'] = self._find_themeparal(theme_tag)
+        theme['paral'] = self._find_themeparal(theme_tag, html=html)
 
         return theme_id, theme
 
