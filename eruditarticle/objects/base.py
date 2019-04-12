@@ -161,7 +161,7 @@ class EruditBaseObject(DomObject):
         else:
             parser_method = self.stringify_children
 
-        strip_elements = ['liensimple', 'renvoi']
+        strip_elements = ['renvoi']
 
         titles['main'] = Title(
             title=parser_method(title_elem, strip_elements),
