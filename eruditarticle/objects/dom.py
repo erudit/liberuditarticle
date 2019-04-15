@@ -79,7 +79,6 @@ class DomObject:
                 'caracunicode',
                 'citation',
                 'equationligne',
-                'liensimple',
                 'marquepage',
                 'objetmedia',
             ])

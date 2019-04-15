@@ -224,6 +224,9 @@ class TestArticleSavantComplet(object):
     def test_html_title(self):
         assert self.test_objects['1001948ar.xml'].get_html_title() == 'La pr&#233;cision des analystes financiers en Europe&#160;: l&#8217;effet pays et l&#8217;effet secteur revisit&#233;s'  # noqa
         assert self.test_objects['1001948ar_alt.xml'].get_html_title() == 'La pr&#233;cision des analystes financiers en Europe&#160;: l&#8217;effet pays et l&#8217;effet secteur <strong>test</strong> test 2 revisit&#233;s'   # noqa
+        # Check that <liensimple> tags are not stripped or displayed as links. They should be
+        # displayed as text.
+        assert self.test_objects['007801ar.xml'].get_html_title() == 'Sites Internet des Archives nationales du Canada et des Archives nationales du Qu&#233;bec &lt;http://www.archives.ca&gt; et &lt;http://www.anq.gouv.qc.ca&gt;. Sites &#233;valu&#233;s &#224; la fin mars 2003.'  # noqa
 
     def test_publication_period(self):
         assert self.test_objects['1001948ar.xml'].get_publication_period() == 'Juin 2010'

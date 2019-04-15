@@ -182,7 +182,16 @@
 </xsl:template>
 
 <xsl:template match="liensimple">
-    <a href="{@href}"><xsl:apply-templates/></a>
+    <xsl:choose>
+        <!-- Only convert <liensimple> to <a> if parent node is not <titre>. -->
+        <xsl:when test="name(parent::node()) != 'titre'">
+            <a href="{@href}"><xsl:apply-templates/></a>
+        </xsl:when>
+        <!-- Otherwise, only display <liensimple> text. -->
+        <xsl:otherwise>
+            <xsl:apply-templates/>
+        </xsl:otherwise>
+    </xsl:choose>
 </xsl:template>
 
 <xsl:template match="marquage">
