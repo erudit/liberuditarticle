@@ -371,6 +371,32 @@ class TestPublicationFormattedThemes(object):
             }
         ]
 
+    @with_value('ttr03236.xml', 'get_themes', html=True, formatted=True)
+    def test_can_display_paral_themes_with_marquage(self, value):
+        assert value == [
+            {
+                'editors': [
+                    '&#193;lvaro Echeverri',
+                    'Georges L. Bastin',
+                ],
+                'names': [
+                    'Territoires, histoires, m&#233;moires',
+                    'Territories, histories, memories',
+                ],
+            },
+            {
+                'editors': [
+                    'Nicole C&#244;t&#233;',
+                    'Dani&#232;le Marcoux',
+                    'Madeleine Stratford',
+                ],
+                'names': [
+                    'La traduction litt&#233;raire <em>et</em> le Canada',
+                    'Literary translation <em>and</em> Canada',
+                ],
+            },
+        ]
+
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication/redacteurchef', EruditPublication)
 class TestRedacteurChef(object):
@@ -532,7 +558,7 @@ class TestEruditPublication(object):
         assert len(themes.keys()) == 1
         assert themes['th1']['name'] == 'Géopolitique'
         assert themes['th1']['paral']['en'] == {
-            'name': 'Geopolitics', 'subname': None, 'html_name': 'Geopolitics',
+            'name': 'Geopolitics', 'lang': 'en', 'subname': None, 'html_name': 'Geopolitics',
             'html_subname': None, }
 
     def test_sstheme(self):
