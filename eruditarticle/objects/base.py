@@ -37,19 +37,25 @@ class EruditBaseObject(DomObject):
 
     def _format_single_title(self, title):
         """ format a Title namedtuple """
+        # Should not add colon after punctuation.
         if title.title and title.title[-1] in '.!?':
             separator = ' '
         else:
+            # Add non-breaking space before colon for French titles.
             if title.lang == "fr":
                 separator = "\xa0: "
             else:
                 separator = ": "
+        # Lowercase French subtitles if following a colon.
+        if title.subtitle and title.lang == "fr" and ':' in separator:
+            subtitle = title.subtitle[:1].lower() + title.subtitle[1:]
+        else:
+            subtitle = title.subtitle
         if title.title and title.subtitle:
             return "{title}{separator}{subtitle}".format(
                 title=title.title,
                 separator=separator,
-                subtitle=title.subtitle[:1].lower() + title.subtitle[1:]
-                if ':' in separator else title.subtitle,
+                subtitle=subtitle,
             )
         return "{title}".format(
             title=title.title
