@@ -76,6 +76,10 @@ COMMON_EDGE_CASES = [
         "Lastname, Firstname O."
     ),
     (
+        [("Firstname", "Lastname", "Other1 Other2")],
+        "Lastname, Firstname O. O."
+    ),
+    (
         [("First1", "Last1"), ("First2", "Last2")],
         "Last1, First1 et First2 Last2."
     ),
@@ -116,6 +120,10 @@ def test_format_authors_mla(authors, expected):
         "Lastname, F. O."
     ),
     (
+        [("Firstname", "Lastname", "Other1 Other2")],
+        "Lastname, F. O. O."
+    ),
+    (
         [("First1", "Last1"), ("First2", "Last2")],
         "Last1, F. & Last2, F."
     ),
@@ -154,6 +162,10 @@ def test_format_authors_apa(authors, expected):
     (
         [("Firstname", "Lastname", "Othername")],
         "Lastname, Firstname O."
+    ),
+    (
+        [("Firstname", "Lastname", "Other1 Other2")],
+        "Lastname, Firstname O. O."
     ),
     (
         [("First1", "Last1"), ("First2", "Last2")],

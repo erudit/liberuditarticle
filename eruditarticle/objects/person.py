@@ -156,7 +156,8 @@ def _format_author_reverse(author, full_firstname=False):
         firstname = "{}.".format(firstname[:1])
     result = "{}, {}".format(lastname, firstname)
     if othername:
-        result = "{} {}.".format(result, othername[:1])
+        othernames = " ".join("{}.".format(name[:1]) for name in othername.split())
+        result = "{} {}".format(result, othernames)
     return result
 
 
