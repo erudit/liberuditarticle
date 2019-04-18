@@ -53,6 +53,11 @@ def test_author_with_multiple_suffixes():
     assert person.format_name() == 'Julien D. Payne, LL.D., Q.C., F.R.S.C.'
 
 
+def test_author_with_empty_suffix():
+    person = Person(get_dom('author_with_empty_suffix.xml'))
+    assert person.format_name() == 'Pamela A. Foelsch'
+
+
 COMMON_EDGE_CASES = [
     (
         [], ""
