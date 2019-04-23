@@ -18,6 +18,8 @@ class PersonName(DomObject):
         formatted_name = ' '.join(v for v in ordered_vals if v)
         suffixes = []
         for suffixe in self.findall('suffixe'):
+            if suffixe.text is None:
+                continue
             suffixes.append(
                 self.convert_marquage_content_to_html(suffixe) if html else suffixe.text,
             )
