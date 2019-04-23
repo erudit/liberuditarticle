@@ -2,5 +2,5 @@
 from __future__ import unicode_literals
 import locale
 
-__version__ = '0.2.41'
+__version__ = '0.2.42'
 locale.setlocale(locale.LC_TIME, "")
