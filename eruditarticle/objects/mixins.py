@@ -1,4 +1,5 @@
-# -*- coding: utf-8 -*-
+from ..utils import normalize_whitespace
+
 
 try:
     from django.utils.translation import pgettext
@@ -111,7 +112,13 @@ class CopyrightMixin(object):
             if link_node is not None:
                 da_list.append(self.parse_simple_link(link_node))
             elif not links_only:
-                da_list.append({'text': ''.join(da.itertext())})
+                # Join each node by a space to avoid words glued together.
+                text = ' '.join(da.itertext())
+                # Remove duplicated spaces.
+                text = normalize_whitespace(text)
+                # Remove spaces before commas.
+                text = text.replace(' ,', ',')
+                da_list.append({'text': text})
 
         return da_list
 

@@ -385,6 +385,16 @@ class TestArticleSavantMinimal(object):
     def test_get_title(self):
         assert self.test_objects['1055849ar.xml'].get_title(formatted=True, html=True) == 'The Resonance of Debussy for United States Post-Modernists'  # noqa
 
+    def test_droitsauteur(self):
+        assert self.test_objects['1039242ar.xml'].get_droitsauteur() == [
+            {
+                'text': "Droits d'auteur © Claire Peltier, 2017",
+            }, {
+                'href': 'http://creativecommons.org/licences/by/4.0/deed.fr',
+                'img': 'http://licensebuttons.net/l/by/4.0/88x31.png',
+            },
+        ]
+
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/format_person_name/', EruditArticle)
 class TestFormatPersonName(object):

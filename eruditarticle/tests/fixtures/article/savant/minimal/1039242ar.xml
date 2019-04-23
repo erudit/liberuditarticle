@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://www.erudit.org/xsd/article" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.erudit.org/xsd/article http://www.erudit.org/xsd/article/3.0.0/eruditarticle.xsd" qualtraitement="minimal" idproprio="1039242ar" typeart="article" lang="fr" ordseq="2" idref="th1"><admin><infoarticle><pagination> <ppage>17</ppage> <dpage>35</dpage>  
+       </pagination></infoarticle><revue id="ritpu112" lang="fr en"><titrerev>Revue internationale des technologies en pédagogie universitaire</titrerev><titrerevparal lang="en">International Journal of Technologies in Higher Education</titrerevparal><titrerevabr>ritpu</titrerevabr><idissnnum>1708-7570</idissnnum><redacteurchef typerc="invite" idrefs="th1" sexe="masculin"><fonction lang="fr">Rédacteur invité</fonction><nompers><prenom>Bruno</prenom><nomfamille>Poellhuber</nomfamille></nompers></redacteurchef><redacteurchef typerc="invite" idrefs="th1" sexe="masculin"><fonction lang="fr">Rédacteur invité</fonction><nompers><prenom>Daniel</prenom><nomfamille>Peraya</nomfamille></nompers></redacteurchef><redacteurchef typerc="regulier" sexe="masculin"><nompers><prenom>Thierry</prenom><nomfamille>Karsenti</nomfamille></nompers></redacteurchef></revue><numero id="ritpu02997"><volume>13</volume><nonumero>2</nonumero><nonumero>3</nonumero><pub><annee>2016</annee></pub><pubnum><date typedate="publication">2017-03-22</date></pubnum><grtheme id="th1"><theme>L’apprentissage médiatisé des dispositifs de type podcast aux dispositifs de type MOOC : du micro au macro au méso</theme></grtheme></numero><editeur><nomorg>CRIFPE</nomorg></editeur><prodnum><nomorg>CRIFPE</nomorg></prodnum><prodnum><nomorg>Érudit</nomorg></prodnum><diffnum><nomorg>Érudit</nomorg></diffnum><schema nom="Erudit Article" version="3.0.0" lang="fr"/><droitsauteur>Droits d'auteur © <nompers><prenom>Claire</prenom><nomfamille>Peltier</nomfamille></nompers>, 2017</droitsauteur><droitsauteur><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:href="http://creativecommons.org/licences/by/4.0/deed.fr" xlink:actuate="onRequest" xlink:show="replace" xlink:type="simple"><objetmedia flot="ligne"><image typeimage="forme" xlink:href="http://licensebuttons.net/l/by/4.0/88x31.png" xlink:actuate="onLoad" xlink:show="embed" xlink:type="simple"/></objetmedia></liensimple></droitsauteur></admin><liminaire><grtitre>
+      <titre>Usage des podcasts en milieu universitaire : une revue de la littérature</titre>
+      
+    </grtitre><grauteur><auteur id="au1"><nompers>
+        <prenom>Claire</prenom>
+        
+        <nomfamille>Peltier</nomfamille>
+        </nompers><affiliation>
+        <alinea>TECFA Université de Genève, SUISSE</alinea>
+        </affiliation><courriel><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls2" xlink:href="mailto:claire.peltier@unige.ch" xlink:type="simple">claire.peltier@unige.ch</liensimple></courriel></auteur></grauteur><resume typeresume="resume" lang="fr">
+      <alinea>Ce texte constitue la version longue de la revue de la littérature proposée dans        l’article de Peltier, Peraya, Grenon et Larose (2016), intitulé <marquage typemarq="italique">Usages et effets perçus        des podcasts de type cours enregistrés : une étude exploratoire menée à l’Université de        Genève auprès d’étudiants et d’enseignants</marquage>. Il établit un état des lieux de l’usage des        podcasts en milieu universitaire selon des recherches récentes, menées entre 2006 et 2016.        Cette revue sélective de la littérature aborde la problématique des podcasts sous différents        aspects : leur définition, leur description, leurs différents usages en milieu académique,        leur impact sur les apprentissages, enfin l’orientation des recherches actuelles. Le texte        met également en perspective ces questionnements récents avec ceux qui prévalaient dans les        années 1970 déjà au sujet de la production et de l’usage de films vidéo à vocation        pédagogique.</alinea>
+    </resume><resume typeresume="resume" lang="en">
+      <alinea>This paper is the extended version of the literature review we proposed in another        article (Peltier, Peraya, Grenon, &amp; Larose, 2016). The article establishes an inventory        of the use of podcasts in academia according to recent research, conducted between 2006 and        2016. This review of the literature selectively addresses the issue of podcasts in different        aspects: their definition, their description, their different uses in academia, their impact        on learning, and finally the direction of current research. The text also puts into        perspective actual and former questions raised in the 1960–1970’s about the production and        use of videos for educational purposes.</alinea>
+    </resume><grmotcle lang="fr">
+      
+      <motcle>Podcast</motcle>
+      <motcle>vidéo à vocation pédagogique</motcle>
+      <motcle>enseignement supérieur</motcle>
+      <motcle>usage</motcle>
+      <motcle>appropriation</motcle>
+      <motcle>revue de la littérature</motcle>
+    </grmotcle><grmotcle lang="en">
+      
+      <motcle>Podcast</motcle>
+      <motcle>educational purpose video</motcle>
+      <motcle>higher education</motcle>
+      <motcle>usage</motcle>
+      <motcle>appropriation</motcle>
+      <motcle>literature review</motcle>
+    </grmotcle></liminaire><corps lang="fr"><texte typetexte="libre">Usage des podcasts en milieu universitaire : une revue de la
+    littérature Résumé Ce texte constitue la version longue de la revue de la littérature proposée
+    dans l’article de Peltier, Peraya, Grenon et Larose (2016), intitulé Usages et effets perçus des
+    podcasts de type cours enregistrés : une étude exploratoire menée à l’Université de Genève
+    auprès d’étudiants et d’enseignants. Il établit un état des lieux de l’usage des podcasts en
+    milieu universitaire selon des recherches récentes, menées entre 2006 et 2016. Cette revue
+    sélective de la littérature aborde la problématique des podcasts sous différents aspects : leur
+    définition, leur description, leurs différents usages en milieu académique, leur impact sur les
+    apprentissages, enfin l’orientation des recherches actuelles. Le texte met également en
+    perspective ces questionnements récents avec ceux qui prévalaient dans les années 1970 déjà au
+    sujet de la production et de l’usage de films vidéo à vocation pédagogique. Mots-clés Podcast,
+    vidéo à vocation pédagogique, enseignement supérieur, usage, appropriation, revue de la
+    littérature Abstract This paper is the extended version of the literature review we proposed in
+    another article (Peltier, Peraya, Grenon, &amp; Larose, 2016). The article establishes an
+    inventory of the use of podcasts in academia according to recent research, conducted between
+    2006 and 2016. This review of the literature selectively addresses the issue of podcasts in
+    different aspects: their definition, their description, their different uses in academia, their
+    impact on learning, and finally the direction of current research. The text also puts into
+    perspective actual and former questions raised in the 1960–1970’s about the production and use
+    of videos for educational purposes. Keywords Podcast, educational purpose video, higher
+    education, usage, appropriation, literature review Introduction Ce texte constitue la version
+    longue de la revue de la littérature proposée dans l’article de Peltier, Peraya, Grenon et
+    Larose (2016), publié dans ce même numéro. Il établit un état des lieux de l’usage des podcasts
+    en milieu universitaire selon des recherches récentes, menées entre 2006 et 2016. Certains
+    passages sont donc susceptibles de se retrouver dans l’un ou l’autre texte. Il s’agissait avant
+    tout de déterminer les questionnements actuels autour de l’usage académique des podcasts afin de
+    dégager les dimensions pertinentes à examiner dans le cadre de cette étude. Celle-ci s’est
+    intéressée aux usages et aux non-usages des cours enregistrés à l’Université de Genève; plus
+    spécifiquement aux raisons d’usage et de non-usage, aux modalités d’appropriation, ainsi qu’aux
+    formes de médiation attendues et/ou constatées sur différents comportements de deux groupes
+    distincts d’étudiants1. La sélection des articles — principalement des textes de synthèse comme
+    celui de Kay (2012) par exemple — a été effectuée à partir des résultats de requêtes exécutées
+    dans le moteur de recherche Google Scholar. L’objectif n’était pas d’établir une liste
+    exhaustive des articles de recherches menées autour des usages des podcasts en milieu
+    universitaire, mais de reprendre quelques-uns des grands questionnements posés dans la
+    littérature récente en vue de l’élaboration des questionnaires relatifs aux usages des podcasts
+    de cours enregistrés utilisés dans le cadre de l’étude de Peltier et al. (2016). Le présent
+    article reprend donc en grande partie la synthèse sélective de la littérature que nous avions
+    élaborée pour cette étude. Il apporte également des éléments de réflexion autour de la
+    conception et de l’analyse de ressources filmées à vocation pédagogique, à l’heure où les cours
+    en ligne ouverts et massifs (CLOM ou MOOC) se déploient de plus en plus dans les universités et
+    où les travaux de recherche plus anciens (notamment ceux de Geneviève Jacquinot) relatifs à
+    l’usage de ressources audiovisuelles dans l’éducation semblent avoir été oubliés. Après avoir
+    introduit la problématique générale qui a guidé notre démarche, nous nous attacherons à définir
+    les podcasts et à en retracer l’origine. Nous évoquerons ensuite, à partir des articles
+    sélectionnés, les différentes dimensions retenues par leurs auteurs pour décrire les podcasts.
+    Différentes questions relatives aux usages des podcasts (profils d’étudiants, modalités
+    d’appropriation, attitudes des enseignants, effets constatés), ainsi qu’aux axes de recherche
+    actuels seront également abordées sous l’angle de la littérature analysée. Dans la partie
+    discussion, nous nous intéresserons plus spécifiquement à la démarche sémiologique et
+    pragmatique proposée par Geneviève Jacquinot dans les années 1970 pour concevoir et analyser des
+    films à vocation pédagogique. Nous tenterons de souligner l’intérêt de s’appuyer sur des cadres
+    communicationnels et d’envisager les podcasts comme des dispositifs médiatiques. Enfin, dans
+    notre conclusion, nous reviendrons sur la nécessité du questionnement pédagogique qui semble
+    être le parent pauvre de la plupart des MOOC réalisés aujourd’hui par les universités et sur
+    l’intérêt de penser les podcasts dans une double perspective de production et d’usage.
+    Problématique Depuis de nombreuses années, l’utilisation de ressources vidéo à vocation
+    pédagogique constitue une composante importante de la formation entièrement ou partiellement à
+    distance. Plus généralement, la question de leur intérêt pour l’enseignement et l’apprentissage
+    ainsi que de leurs effets constitue une problématique récurrente depuis l’avènement des
+    dispositifs de projection analogiques. Dans son ouvrage Mémoires de l’ombre et du son : une
+    archéologie de l’audio-visuel, Perriault (1981, p. 104-105) évoque l’existence, dès la fin du
+    XIXe siècle, de débats animés entre défendeurs et pourfendeurs de la lanterne magique2 à des
+    fins éducatives. L’engouement récent pour les MOOC a remis en lumière cet ancien questionnement.
+    En effet, la plupart des plateformes MOOC proposent des ressources au format vidéo, poussant
+    ainsi les universités qui veulent se lancer dans la course à produire ce type de ressources
+    (Giannakos, Jaccheri et Krogstie, 2014) et à s’intéresser à leur efficacité sur différentes
+    dimensions de l’apprentissage, notamment sur la motivation des apprenants3. Or la difficulté
+    constatée de longue date par plusieurs chercheurs4 (citons Peraya, 2010, et plus récemment,
+    Depover, 2014; Peltier, 2014) porte sur la nature du questionnement des effets des technologies
+    sur l’apprentissage. En effet, la plupart des recherches menées dans une perspective comparative
+    avec ou sans technologies ont mené au constat qu’aucune différence significative ne pouvait être
+    établie sur le plan des apprentissages. Pour reprendre les propos de Jacquinot (1977/2012, p.
+    xi-xii), une approche plus heuristique, s’intéressant au processus d’apprentissage plus qu’au
+    produit de celui-ci, s’avère plus féconde pour mettre en lumière le rôle joué par les
+    technologies dans l’activité d’apprentissage. Certaines des études que nous mentionnerons
+    cherchent à mettre en lumière la diversité des usages des podcasts et la perception que les
+    étudiants et les enseignants en ont. Leurs résultats montrent que les attitudes des étudiants à
+    l’égard des podcasts sont plutôt positives : ceux-ci les trouvent agréables à regarder,
+    stimulants et utiles pour soutenir leur apprentissage (Kay, 2012). Si ces résultats amènent sans
+    aucun doute des éléments susceptibles de nourrir le questionnement, ceux-ci relèvent, comme la
+    plupart des études d’usage menées autour des dispositifs de formation médiatisée (Deschryver et
+    Charlier, 2012, p. 6), de la satisfaction des apprenants et ne permettent pas de comprendre ce
+    qui se joue dans les processus que nous évoquions précédemment. Définir les podcasts L’intérêt
+    pour ce que l’on appelle aujourd’hui les podcasts, c’est-à-dire des capsules vidéo à vocation
+    pédagogique, est toutefois antérieur à l’apparition des MOOC. Il a émergé dans les années 2000 —
+    on parlait alors plutôt d’« audiographes », de « streaming vidéo » ou encore de « webcasting »
+    (Kay, 2012). Cette terminologie mouvante appelle un nécessaire travail définitoire afin de
+    circonscrire l’objet de notre étude. Dans la littérature, le terme « podcast » est le plus
+    souvent utilisé de façon générique pour désigner un ensemble d’objets technologiques qui,
+    pourtant, recouvrent des réalités matérielles et communicationnelles différentes5. Le Grand
+    dictionnaire termin logique de l’Office québécois de la langue française6 définit un podcast (ou
+    un « balado » selon la terminologie retenue) comme un « fichier au contenu radiophonique, audio
+    ou vidéo qui, par l’entremise d’un abonnement au fil RSS, ou équivalent, auquel il est rattaché,
+    est téléchargé automatiquement à l’aide d’un logiciel agrégateur et destiné à être transféré sur
+    un baladeur numérique pour une écoute ou un visionnement ultérieurs ». Le podcast est donc
+    généralement défini en priorité par ses caractéristiques techniques et ses modalités d’accès. En
+    anglais, le terme podcast est un composite entre le mot « iPod » (le baladeur numérique
+    commercialisé par Apple) et « broadcast », qui signifie « émission », « diffusion », et les
+    diverses définitions proposées dans la littérature anglophone recouvrent également le même
+    caractère de généralité que les définitions francophones. Pris dans son sens premier, le
+    podcasting renvoie donc avant tout à la diffusion de fichiers audio par l’intermédiaire de flux
+    d’informations automatiques (les flux RSS) auxquels chacun peut s’abonner grâce à un logiciel
+    agrégateur de flux (feedly ou Netvibes par exemple). À l’origine, il s’agissait surtout de
+    versions audio de billets de blogues (Galeron, 2007) destinés à diffuser des contenus de
+    divertissement et d’information. L’apparition des podcasts au début des années 20007 est liée à
+    l’émergence du Web 2.0 et, plus particulièrement, au développement des standards Web XML et RSS.
+    Aujourd’hui, différentes déclinaisons comme « vodcast » (fichier vidéo), webcast, ou encore «
+    screencast » (écran filmé) coexistent dans la littérature. Quelle que soit la terminologie
+    adoptée, le podcast est le terme générique choisi pour désigner un même objet dont la définition
+    pourrait être représentée de la façon suivante : Figure 1 : Représentation de la définition
+    générique du podcasting d’après Cebeci et Tekdal, 2006, p. 2 Les podcasts en contexte éducatif
+    Des prémices analogiques aux premiers enregistrements numériques Les universités n’ont pas
+    attendu l’avènement du podcasting pour produire et diffuser des enregistrements de conférences
+    et de cours magistraux. Dès les années 1970 en effet, des universités ont entrepris de capturer
+    sur cassettes audio analogiques leurs cours les plus emblématiques. Ces initiatives visaient
+    plusieurs objectifs : d’une part, ouvrir ou faciliter l’accès de l’université à un public «
+    empêché8 » (Henri et Kaye, 1985) et, d’autre part, répondre à une préoccupation d’archivage et
+    de mise en valeur du patrimoine intellectuel oral des universités (Calas, 1978; Cordereix,
+    2005). À titre d’exemple, nous pouvons citer, dans le premier cas, la Faculté des lettres de
+    l’Université de Genève qui, au début des années 1970, reconnaissant que « le recoupement des
+    horaires des cours dispensés à la Faculté des lettres ne permettait pas à certains étudiants de
+    suivre l’ensemble des enseignements de leur plan d’études9 », a entrepris d’enregistrer les
+    principaux cours afin de pallier cette difficulté. Dans le second cas, l’un des exemples les
+    plus fameux est sans doute l’enregistrement des cours donnés par le philosophe Gilles Deleuze à
+    l’Université de Paris 8 entre 1979 et 1987 et mis à disposition depuis au format numérique sur
+    le site de l’Université10 (Astier, 2010). Citons encore les cours donnés à la Sorbonne qui ont
+    été diffusés dès 1947 dans le cadre d’émissions radiophoniques émises par Radio Sorbonne.
+    Toujours en France, entre 1997 et 2002, le projet « Encyclopédie sonore : j’écoute les
+    universités », développé par plusieurs universités françaises et étrangères, a permis la mise en
+    ligne de près de 7 000 enregistrements de conférences et de cours regroupant 347 disciplines11.
+    En 2005, l’Université de Genève a mis en place son propre système d’enregistrement automatique
+    des cours et de diffusion sur la plateforme Mediaserver (Burdet, Bontron et Burgi, 2007), qui
+    compte aujourd’hui près de 3 000 conférences et cours enregistrés. De son côté, l’Université
+    libre de Bruxelles a mis en place en 2010 un dispositif intéressant de captation, de diffusion
+    et d’accompagnement des enseignants qui souhaitent s’engager dans un projet d’innovation
+    technopédagogique12. La diffusion ouverte de cours enregistrés donne également aux institutions
+    qui en font le choix une visibilité sans précédent. C’est le cas par exemple du Conservatoire
+    national des arts et métiers (CNAM), en France, qui, dès 1963, retransmet plusieurs de ses cours
+    en direct à la télévision. Le succès est immédiat : près de 10 000 personnes suivent à distance
+    un cours d’informatique pour lequel plus de 5 000 polycopiés sont expédiés (chiffres CNAM13).
+    Les MOOC avant l’heure… L’essor des technologies mobiles numériques et la naissance des podcasts
+    C’est au milieu des années 2000 que l’adoption à large échelle des technologies mobiles14 ouvre
+    de nouvelles perspectives pour l’enseignement et l’apprentissage. La première université à avoir
+    adopté le podcasting est l’université américaine Duke en Caroline du Nord. Durant l’année
+    académique 2004, cette institution a équipé, grâce au concours de la société Apple, 1 600
+    étudiants primo-arrivants de baladeurs numériques iPod, afin d’étudier l’intérêt et l’efficacité
+    de l’usage du podcasting pour les étudiants et les enseignants. D’autres lui ont ensuite emboîté
+    le pas, comme l’Université Purdue aux États-Unis en 2005, puis celles du Michigan et de Stanford
+    (Meredith, 2012). En Europe, le projet IMPALA (Informal Mobile Podcasting and Learning
+    Adaptation) a regroupé, entre 2006 et 2007, plusieurs établissements universitaires britanniques
+    dans la perspective de comprendre l’impact des podcasts sur l’apprentissage des étudiants (sa
+    réussite, sa flexibilité, etc.) et leur motivation à apprendre, mais également sur leur capacité
+    de passer, avec un même dispositif de lecture, d’un usage récréatif à un usage académique. Le
+    projet avait également pour objectif de déterminer les barrières psychologiques, sociales et
+    institutionnelles dressées devant une forme d’apprentissage plus informel15. Qualifiés par
+    Farkas (2013) de « teacher in your pocket », les podcasts à vocation pédagogique se présentent,
+    de par leur caractère « mobile » comme étant une technologie susceptible d’offrir un
+    enseignement plus contextualisé et plus individualisé. En effet, d’après McLoughlin et Lee
+    (2008, cités par Farkas, 2013), l’apprentissage en mobilité accroîtrait l’autonomie des
+    apprenants, amenés à devenir plus responsables de leur propre progression. Farkas se montre plus
+    mesurée en soulignant avant tout le potentiel offert par les technologies mobiles, notamment la
+    possibilité de fournir aux apprenants des expériences et des contenus d’apprentissage multiples,
+    ainsi qu’une variété de formats susceptibles de rencontrer des besoins et des styles
+    d’apprentissage différents. Toujours selon Farkas, les technologies mobiles (e-book, QR codes,
+    etc.) favoriseraient également une forme d’apprentissage hypertextuelle en intégrant des
+    fonctionnalités augmentées par rapport aux technologies analogiques classiques. Pourtant, malgré
+    l’enthousiasme à l’égard de ce type d’usage, peu d’études mettent en avant l’appropriation de
+    ces ressources en mobilité. Il semblerait, au contraire, que les usages mobiles ne fassent pas
+    partie des usages dominants pour toutes sortes de raisons. Dans sa recherche menée en 2013
+    auprès d’étudiants16 de l’Université libre de Bruxelles, Roland (2013a) évoque des questions
+    ergonomiques (p. 24) — par exemple la nécessité de disposer d’un écran suffisamment grand — et
+    de confort (p. 26) — les transports publics ne sont pas propices à la concentration — pour
+    expliquer ce non-usage des podcasts en situation de mobilité. Décrire les podcasts et leurs
+    usages prescrits La distinction classique la plus souvent opérée pour décrire les podcasts
+    pédagogiques consiste à les appréhender comme : 1) des traces des cours magistraux et 2) des
+    compléments des cours magistraux (Dennen et Myers, 2010, p. 44). O’Bannon, Lubke, Beard et Britt
+    (2011, p. 1) proposent de tenir compte d’une troisième catégorie possible : la préparation des
+    cours magistraux par la prise de connaissance anticipée des contenus qui seront abordés. Cette
+    approche rappelle l’idée fondatrice de la classe inversée (« flipped classroom »). Ce terme est
+    apparu aux alentours de 2007, sous la plume de deux enseignants américains (Lebrun, 2012). Il
+    s’agit, pour les enseignants, d’encourager les apprenants à s’informer des contenus de cours
+    (ceux-ci peuvent être proposés sous forme textuelle ou multimédia) en dehors des moments de
+    regroupements présentiels et de réserver le temps du cours présentiel à des activités
+    collectives (débats, études de cas, etc.). Loin d’être légitimé par la recherche, le concept de
+    classe inversée sonne avant tout comme un slogan nourrissant une attitude fréquemment observée
+    selon laquelle « la technologie est la solution aux problèmes pédagogiques » (Peraya, 2015). La
+    pratique de la classe inversée en particulier implique un changement de posture de la part des
+    enseignants — d’une posture « centrée enseignement » vers une posture « centrée apprentissage »
+    (Lameul, 2008) — et ceux-ci n’y sont pas nécessairement préparés (Mangenot, 2014). Pour en
+    revenir à la description des podcasts, diverses grilles descriptives ont été proposées et
+    décrites dans la littérature. Nous mentionnerons notamment celle de Carvalho, Aguiar et Maciel
+    (2009), élaborée à partir des six dimensions suivantes : La première de ces dimensions, le type
+    de podcast, distingue quatre types : 1) les podcasts informatifs; 2) les podcasts délivrant des
+    feedbacks et des commentaires; 3) les podcasts proposant des consignes et des marches à suivre;
+    enfin 4) les podcasts fondés sur du matériel authentique (c’est-à-dire des ressources dites «
+    primaires17 » comme des interviews, des émissions de radio ou de télévision, etc.). La deuxième
+    dimension concerne ce que les auteurs appellent « le medium » mais que nous qualifions plutôt de
+    registre sémiotique : il s’agit soit du registre strictement audio (audiocast) ou du registre
+    audio + vidéo (vodcast, screencast). La troisième dimension établie par Carvalho et al. (2009)
+    concerne la durée des podcasts. Celle-ci peut être courte (entre 1 et 5 minutes), moyenne (6 à
+    15 minutes), ou longue (plus de 15 minutes). Plusieurs auteurs, dont Cebeci et Tekdal (2006,
+    cités par Carvalho et al., 2009, p. 134), déconseillent la production de podcasts de plus de 15
+    minutes car, selon eux, au-delà d’une certaine durée, l’attention diminue, entravant par
+    conséquent la compréhension. La quatrième dimension concerne l’auteur du podcast. Il peut s’agir
+    de l’enseignant, d’un ou de plusieurs étudiants ou de toute autre personne. Il peut aussi s’agir
+    d’une création ad hoc ou de la reprise de matériel existant. La cinquième dimension est relative
+    au style; celui-ci peut être formel — c’est-à-dire que les propos peuvent être formulés sur un
+    ton plutôt solennel — ou informel — caractérisé par un ton décontracté, voire amical à l’adresse
+    des étudiants (Edirisinghe et al., 2008, cités par Carvalho et al., 2009) — et comporter des
+    éléments tels que des expériences personnelles ou des opinions. Quel que soit le choix initial,
+    l’objectif est surtout de maintenir l’intérêt de l’apprenant. Enfin, la sixième dimension traite
+    de l’objectif recherché par l’enseignant et est déclinée sous la forme de verbes d’action :
+    informer, analyser, développer, motiver, inciter à la métaréflexion, etc. Cette façon d’énoncer
+    les objectifs se rapproche de celle proposée dans les modèles taxonomiques, notamment celui de
+    Bloom (1956), souvent repris dans le cadre des MOOC18. Si de nombreux éléments de cette grille
+    nous semblent intéressants à retenir en vue de la description d’un corpus de podcasts, la
+    plupart se présentent comme étant bien peu opérationnels dans une perspective de recherche.
+    S’agissant, par exemple, du style ou encore des objectifs, aucun indicateur permettant
+    d’exploiter ces dimensions n’est proposé. Une grille opérationnalisée de ces différentes
+    dimensions reste à élaborer. Plus récemment, une autre grille descriptive a été proposée par Kay
+    (2012). Ce dernier suggère de décrire les podcasts en fonction : 1) de leur objet (purpose), 2)
+    de leur segmentation, 3) de leur « stratégie » pédagogique, et 4) de leur visée académique. Dans
+    la première catégorie, celle de l’objet, quatre types de podcasts sont distingués : a) «
+    lecture-based » : il s’agit de l’enregistrement brut d’un cours présentiel qui peut être
+    visionné après ou à la place du cours présentiel (Kay parle d’usage de substitution); b) «
+    enhanced », c’est-à-dire « augmenté » (diaporama enrichi de commentaires audio); c) «
+    supplementary » concerne les podcasts qui viennent compléter le dispositif de formation par des
+    démonstrations, des résumés, du support administratif, etc.; d) « worked examples » est relatif
+    aux podcasts qui apportent aux étudiants des explications spécifiques liées à la résolution de
+    problèmes (notamment en mathématiques). Dans la deuxième catégorie, celle de la segmentation,
+    Kay (2012) distingue les podcasts segmentés (en petites séquences thématiques par exemple) des
+    podcasts non segmentés (cours entiers). Dans la troisième catégorie, celle de la stratégie
+    pédagogique sous-jacente, trois approches d’enseignement sont distinguées : a) « receptive
+    viewing » (le podcast est conçu dans une perspective transmissive de l’information et de
+    l’apprentissage. L’apprenant y est particulièrement passif et les contenus ne sont balisés par
+    aucune indexation préalable. Kay (2012) relève qu’il s’agit de la majorité des exemples
+    mentionnés dans les articles examinés; b) « problem-solving » (le podcast est conçu dans un but
+    explicatif et est principalement destiné à soutenir les apprenants dans la résolution de
+    problèmes); c) « created video podcasts » (dans ce cas, le podcast est produit par l’étudiant
+    lui-même et implique la mise en oeuvre de compétences spécifiques comme le questionnement, la
+    recherche d’informations, la collaboration, etc.). Enfin, dans la quatrième catégorie, la visée
+    académique, Kay (2012) distingue la visée pratique (dans ce cas de figure, le développement de
+    connaissances et de compétences spécifiques est central et implique donc la production de
+    podcasts courts et/ou clairement segmentés) de la visée conceptuelle (ici, il s’agit de
+    développer des connaissances plus conceptuelles et complexes; les podcasts produits sont en
+    général de durée plus longue mais peuvent également être segmentés). Harris et Park (2008)
+    proposent de distinguer les podcasts selon les caractéristiques d’usage suivantes recensées dans
+    les universités britanniques : « teaching driven » (orienté vers une communication
+    unidirectionnelle, de l’enseignant vers ses étudiants, en fournissant des informations, du
+    matériel d’apprentissage, etc.); « service driven » (fondé sur la transmission d’informations
+    institutionnelles liées, par exemple, à la bibliothèque universitaire); « marketing driven »
+    (dans l’objectif institutionnel d’attirer de nouveaux étudiants) et « technology driven »
+    (consistant, par exemple, pour les enseignants à échanger des pratiques d’enseignement avec des
+    technologies comme les podcasts). Kemp, Mellor, Kotter et Oosthoek (2012) soulignent qu’il
+    serait opportun d’y ajouter une catégorie : « learner-driven », sans toutefois préciser quelle
+    définition lui attribuer. Le tableau récapitulatif ci-dessous reprend les différentes grilles
+    descriptives évoquées. Tableau 1 : Grilles descriptives des podcasts selon plusieurs auteurs
+    Auteurs Carvalho, Aguiar et Maciel (2009) Kay (2012) Harris et Park (2008) Dimensions Type de
+    podcasts • Informatifs • Feedbacks et commentaires • Consignes et marches à suivre • Ressources
+    primaires Objet • Enregistrement brut • Diaporama enrichi de commentaires audio • Compléments au
+    cours présentiel • Exemples et explications spécifiques Caractéristiques d’usages • Orientés
+    vers l’enseignant (communication pour/avec les étudiants) • Orientés vers l’institution
+    (information institutionnelle) • Orientés marketing (recrutement de nouveaux étudiants) •
+    Orientés technologies (support à l’usage des technologies) Compte tenu de leur facilité de
+    conception, les cours enregistrés figurent parmi les podcasts les plus fréquemment produits19
+    dans l’objectif de permettre aux étudiants de réviser leurs cours (Laing et al., 2006, cités par
+    Copley, 2007). Copley considère cette pratique comme une extension de la diffusion des
+    diaporamas de cours communément mis à disposition des étudiants sur les plateformes numériques
+    institutionnelles. En 2009, Carvalho et al. ont mené une étude à l’Université de Minho
+    (Portugal) couvrant 20 cours, 6 enseignants et 118 podcasts. Les podcasts dits « informatifs »
+    (présentant des concepts, des analyses, des synthèses, des descriptions ou des lectures de
+    textes) ont été les plus nombreux parmi l’ensemble des podcasts recensés. La plupart étaient des
+    fichiers audio, la majorité de style informel et courts. Les objectifs annoncés étaient
+    principalement : donner des consignes et transmettre des informations, mais aussi motiver les
+    étudiants. Les enseignants ont été identifiés comme les principaux auteurs des podcasts
+    (présentant une synthèse d’un sujet, d’un cours ou d’une autre vidéo). Le deuxième type de
+    podcast relevé le plus fréquemment dans le cadre de cette étude était celui des podcasts
+    destinés à donner des feedbacks généraux aux étudiants (commenter les consignes de travail par
+    exemple). La plupart étaient produits par des enseignants, mais certains l’étaient par des
+    étudiants et destinés à leurs pairs. Raisons d’usage Selon Kay (2012), trois raisons
+    d’utilisation des podcasts sont généralement avancées par les étudiants dans les enquêtes
+    recensées : a) pour améliorer leur apprentissage (plus spécifiquement pour réviser avant les
+    examens, pour préparer un cours, ou encore pour enrichir les notes de cours. Certains
+    considèrent les podcasts comme un moyen d’inverser le modèle pédagogique traditionnel en prenant
+    connaissance des contenus avant le cours et de réserver celui-ci aux questions et aux
+    applications pratiques); b) pour contrôler leur environnement d’apprentissage20; c) pour
+    rattraper un cours manqué. L’étude menée par Peltier et al. (2016) et publiée dans ce numéro
+    ainsi que celle de Roland (2013a) conduite à l’Université libre de Bruxelles ont montré des
+    résultats similaires21. Des usages marginaux : l’annotation et la production Des usages plus
+    marginaux sont parfois mentionnés dans la littérature. Il s’agit : 1) de l’annotation directe et
+    2) de la production de podcasts par des étudiants, que nous avons déjà évoquée plus haut (cf.
+    Types et usages des podcasts). L’annotation directe des podcasts constitue le premier de ces
+    usages, que nous qualifions d’« augmenté ». Aubert, Prié et Canellas (2014) distinguent quatre
+    différentes formes de scénarios d’usage des fonctionnalités d’annotation de ces ressources, par
+    les apprenants et/ou par les enseignants. Le premier de ces scénarios, la lecture active avec
+    annotations directes sur la vidéo, consiste, pour l’apprenant, à s’approprier les contenus
+    proposés en effectuant des lectures itératives, en prenant des notes, individuellement ou de
+    façon collective. De la même façon, les enseignants peuvent évaluer les vidéos produites par les
+    apprenants, en indiquant leurs commentaires directement sur la vidéo. L’annotation en direct
+    permet aux apprenants de poser, en direct, des jalons écrits sur les enregistrements de cours
+    (notes, commentaires, etc.) et de les réutiliser ensuite comme un index leur permettant de
+    naviguer dans l’enregistrement. Les enseignants peuvent également reprendre les questions
+    consignées par les apprenants au fil du cours et y répondre à l’issue de leur intervention. Les
+    auteurs de cette étude évoquent également la possibilité, pour les apprenants et les
+    enseignants, d’entrer en dialogue en se référant à ces traces. L’annotation de la performance
+    consiste à revenir sur une activité d’apprentissage enregistrée dans une perspective réflexive.
+    Cette forme d’auto-confrontation, selon la terminologie proposée notamment par Clot, Faïta,
+    Fernandez et Scheller (2000), Faïta et Vieira (2003) ou encore Mollo et Falzon (2004), peut
+    s’appliquer tout aussi bien aux apprenants22 qu’aux enseignants23. Enfin, dans le dernier cas
+    présenté, l’annotation peut en elle-même devenir une production d’étudiants évaluée par les
+    enseignants sur des aspects d’analyse portant sur le contenu ou sur d’autres aspects de la
+    vidéo. Les auteurs indiquent que, de manière générale, ces usages avancés sont peu observés au
+    sein des MOOC. Ce constat ne nous étonne guère dans la mesure où la majorité des MOOC actuels ne
+    constituent souvent qu’une transposition des cours magistraux qui dominent dans les universités.
+    Certaines fonctionnalités techniques de base, telles que la régulation de la vitesse de lecture,
+    l’annotation, l’intégration de questions posées par les enseignants, etc., semblent aujourd’hui
+    être généralisées dans le cadre des MOOC (Aubert et al., 2014), mais de nombreuses
+    fonctionnalités additionnelles intéressantes sont également accessibles, comme des lignes de
+    temps interactives24, l’export et le partage d’annotations, etc. (Aubert et al., p. 4). Les
+    auteurs ont recensé les différentes fonctionnalités d’annotation présentes sur les principales
+    plateformes MOOC actuelles (cf. tableau, p. 6, du texte d’Aubert et al.)25. Un autre type
+    d’usage relativement rare est mentionné par Kemp et al. (2012), lesquels prennent pour exemple
+    un cours de géomorphologie dans le cadre duquel des étudiants produisent des podcasts dans
+    l’objectif de soutenir leur engagement et leur motivation et de développer leurs compétences
+    technologiques, leur créativité et leur capacité à communiquer des informations scientifiques.
+    Modalités d’appropriation des podcasts par les étudiants Dans sa revue de la littérature, Kay
+    (2012) rend compte d’un certain nombre d’invariants dans l’appropriation des podcasts : tout
+    d’abord, les étudiants privilégient le visionnement des podcasts en dehors des heures de cours;
+    ensuite, la période la plus propice au visionnement des podcasts se situe juste avant les
+    examens; enfin, les étudiants utilisent plus les dispositifs fixes que mobiles pour visionner
+    les podcasts, notamment pour des raisons ergonomiques de taille d’écran. Les résultats des
+    études menées par Peltier et al. (2016) ainsi que par Roland (2013a) et déjà évoquées plus haut,
+    rejoignent ces constatations. Kay (2012) évoque également ce qu’il appelle des « styles de
+    visionnement » en distinguant le visionnement intégral ou partiel, continu ou discontinu (usage
+    du bouton « pause »). L’une des études citées par Kay propose une déclinaison intéressante des
+    comportements des apprenants dans le visionnement des podcasts. De Boer, Kommers et de Brock
+    (2011) proposent en effet de considérer cinq styles différents26 : 1) linéaire (l’étudiant
+    regarde une seule fois le podcast dans son intégralité); 2) élaboratif (l’étudiant regarde deux
+    fois le podcast dans son intégralité); 3) répétitif (l’étudiant regarde plusieurs fois une
+    partie du podcast); 4) butineur (l’étudiant parcourt le podcast et en regarde de brefs
+    segments). En synthèse, Kay relève que les styles de visionnement dépendent d’un certain nombre
+    de facteurs, notamment de la durée des podcasts, de leur segmentation, des besoins cognitifs des
+    apprenants, ainsi que de leurs habiletés cognitives. La modification de l’un ou l’autre de ces
+    facteurs est d’ailleurs susceptible de modifier le style de visionnement qui n’est pas figé. Ce
+    type d’informations s’avère précieux dans une perspective de développement d’un dispositif de
+    lecture « intelligent » tel que celui qui est proposé à l’Université libre de Bruxelles. Les
+    usagers des podcasts Profils d’étudiants, attitudes et raisons d’usage Dolnicar (2005, cité par
+    Kay, 2012, p. 823) propose de distinguer deux profils d’étudiants : les idéalistes et les
+    pragmatiques. Tandis que les premiers apprécient le fait d’appréhender les cours dans leur
+    globalité, les seconds cherchent uniquement à s’approprier l’information nécessaire à leur
+    réussite. Ces derniers apprécient également la liberté qu’octroient les podcasts, à savoir le
+    choix du lieu, du moment et des modalités d’écoute. Kazlauskas et Robinson (2012) soulignent que
+    les podcasts ne conviennent pas à tous les apprenants et que certains d’entre eux, malgré la
+    flexibilité d’accès aux ressources que permettent les podcasts et leur potentiel pour
+    l’apprentissage, préfèrent les cours présentiels et la lecture de ressources textuelles. Les
+    raisons des non-usages porteraient donc plus sur des questions de préférences personnelles que
+    sur des questions matérielles comme l’accès à Internet par exemple. Dans leur conclusion,
+    Peltier et al. (2016) insistent notamment sur la nécessité d’un travail de scénarisation des
+    usages, en plus de celui qui prévaut pour la production, afin d’exploiter le mieux possible le
+    potentiel pédagogique de ces ressources. Les étudiants interrogés dans le cadre de l’étude menée
+    par Carvalho et al. (2009) ont dit préférer les podcasts fournissant des résumés, des consignes
+    et des informations. Les podcasts de courte (1 à 5 minutes) et de moyenne (6 à 15 minutes) durée
+    ont également remporté leur préférence. Les quelques étudiants producteurs de podcasts ont dit
+    avoir apprécié l’expérience27. Les enseignants et les podcasts Du côté des enseignants, ceux qui
+    ont été interrogés par Carvalho et al. (2009) ont considéré que la tâche de production était
+    difficile et chronophage. Le rapport coût/bénéfice n’est pas considéré comme étant satisfaisant,
+    non seulement parce que le temps d’appropriation de la technologie (recherche d’un logiciel
+    d’enregistrement, apprentissage de ses fonctionnalités, etc.) est considéré comme trop
+    important, mais aussi parce que les enseignants estiment que ce travail n’est pas reconnu à sa
+    juste valeur28. S’agissant de l’impact perçu sur l’apprentissage, l’évaluation des bénéfices par
+    les enseignants s’appuie sur des dimensions particulièrement floues : « le podcasting peut
+    constituer une stratégie très utile et puissante pour améliorer l’enseignement et motiver les
+    étudiants » (Carvalho et al., 2009 [notre traduction]). À la recherche des bénéfices des
+    podcasts pour l’apprentissage Dans sa revue de la littérature, Kay (2012) distingue plusieurs
+    catégories de variables destinées à appréhender les bénéfices des podcasts pour les apprenants,
+    dont : 1) les raisons d’usage, 2) les attitudes envers les podcasts (affectives et cognitives),
+    enfin 3) les comportements d’étudiants (fréquence de visionnement, assiduité aux cours
+    présentiels). L’auteur relève, dans les études examinées, plusieurs effets bénéfiques de l’usage
+    des podcasts sur les apprenants, dont l’accroissement de l’intérêt pour l’utilisation de telles
+    ressources, la régularité dans le suivi des cours — alors qu’il s’agit d’une crainte récurrente
+    chez les enseignants de voir leurs cours désertés — (notamment Brittain et al., 2006 ou encore
+    Copley, 2007, cités par Kay, 2012), enfin l’amélioration des habitudes d’apprentissage
+    (autonomie, réflexivité). S’agissant des performances d’apprentissage, les résultats de
+    plusieurs types de recherches ont été rapportés par Kay : tout d’abord, les recherches qui
+    mettent en évidence des différences significatives relatives à la réussite aux tests de
+    connaissances, entre des étudiants qui utilisent des podcasts dans le cadre de leurs
+    apprentissages et des étudiants en situation d’apprentissage plus traditionnelle sans podcasts.
+    Ensuite, des études qui examinent des rapports personnels d’étudiants et qui font état d’une
+    perception d’amélioration de leurs compétences technologiques et collaboratives. Plus
+    spécifiquement, des étudiants futurs enseignants rapportent avoir amélioré leurs connaissances
+    en matière d’enseignement, la conception de dispositifs de formation, l’usage des ressources, la
+    gestion de classe, etc. (So, Pow et Hung, 2009, cités par Kay, 2012, p. 824). Toutefois, Kay
+    relativise ces résultats en soulignant que ces études ne tiennent pas compte de l’ensemble du
+    processus de changement. Il s’agit d’une difficulté récurrente dans ce genre d’études qui ne
+    tiennent pas forcément compte d’autres facteurs tels que la motivation initiale à utiliser ce
+    type de ressources par exemple. Tableau 2 : Bénéfices de l’usage des podcasts : synthèse adaptée
+    de Kay (2012) Bénéfice Nombre d’études Détails des dimensions examinées Raisons d’usage
+    Apprentissage 23 Buts poursuivis (réviser pour l’examen, préparer une séance de cours, etc.)
+    Contrôle 9 Lieu, temporalité et rythme d’apprentissage Cours manqué 9 Type d’usage : rattraper
+    un cours manqué Attitudes Affective 14 Appréciation de l’usage des podcasts (agréable, motivant,
+    intéressant, stimulant, etc.) Cognitive 15 Appréciation de l’utilité, de la facilité
+    d’utilisation, etc. Comportements Fréquence 7 Nombre de téléchargements, vues par semaine, %
+    d’étudiants ayant visionné les podcasts, % de podcasts visionnés Présence 4 Impact de l’usage
+    des podcasts sur la présence aux cours Habitudes d’apprentissage 6 Interrogation de
+    l’indépendance de l’apprenant, du développement de réflexivité, du sentiment d’efficacité dans
+    la préparation des examens, etc. Performance d’apprentissage Scores aux tests 7 Comparaison de
+    réussite aux tests avec ou sans usage des podcasts Auto-évaluation 2 Compétences instrumentales,
+    compétences d’enseignement Tâches pratiques 2 Techniques de terrain Autonomie dans
+    l’apprentissage O’Bannon et al. (2011) rapportent que l’intégration pionnière des podcasts à
+    l’Université Duke a permis de mener des études montrant une meilleure autonomie des étudiants
+    lors des séances de travaux pratiques, ainsi qu’en bibliothèque, mais aussi une motivation plus
+    importante dans la participation aux débats proposés en classe, les étudiants semblant plus
+    réceptifs à des contenus présentés sous forme de podcast qu’à des contenus sous forme textuelle
+    (Evans, 2008, cité par O’Bannon et al., 2011, p. 2). Fill et Ottewill (2006) relèvent dans la
+    littérature plusieurs des avantages apportés par l’usage de vidéos en contexte d’apprentissage,
+    notamment, un contrôle accru pour l’apprenant. En effet, grâce aux fonctionnalités offertes par
+    les dispositifs de lecture de fichiers vidéo, l’apprenant peut réguler lui-même le déroulement
+    de la vidéo (lecture, pause, répétition, etc.). Les recherches menées par Rebetez et Bétrancourt
+    (2007, 2009) sur l’usage des animations ont d’ailleurs mis en évidence le rôle favorable de la
+    manipulation — de l’interactivité, selon la terminologie adoptée par les auteurs — de celles-ci
+    sur l’apprentissage. Sollicitation multisensorielle Un autre avantage pédagogique souligné par
+    Cebeci et Tekdal (2006) est relatif aux modalités perceptives plus particulièrement sollicitées
+    par les podcasts, à savoir la modalité auditive qui, selon ces auteurs, serait plus attractive
+    pour les étudiants que la lecture. Considérée par Clark et Walsh (2004, cités par Chan et Lee,
+    2006) comme un canal sensoriel puissant, la modalité auditive constituerait une voie
+    d’apprentissage privilégiée car, selon ces auteurs, l’écoute serait instinctive tandis que la
+    lecture et l’écriture ne le seraient pas. Soutenir un changement de paradigme? D’autres
+    bénéfices cités par O’Bannon et al. (2011) sont : la simplicité, la facilité et la flexibilité
+    d’utilisation grâce aux dispositifs mobiles qui permettent, selon les auteurs, de faire gagner
+    du temps aux apprenants, mais également aux enseignants, ces derniers étant ainsi en mesure de
+    consacrer les temps présentiels au tutorat et à la mise en activité des apprenants. Une fois
+    encore, la littérature a montré (notamment Perriault, 1989) que l’introduction d’une technologie
+    nouvelle n’induisait en rien la mise en oeuvre de pratiques nouvelles et pourrait même parfois
+    favoriser une certaine régression pédagogique29. Podcasts et motivation La question de la
+    motivation est toujours assez délicate à traiter dans le contexte des technologies pour
+    l’apprentissage, dans la mesure où il s’agit d’un terme polysémique dont la définition diffère
+    selon les domaines30. Dennen et Myers (2010) s’interrogent au sujet des caractéristiques des
+    podcasts susceptibles de maintenir l’engagement dans l’activité de visionnement et proposent le
+    modèle ARCS (Attention, Relevance, Confidence, and Satisfaction) de Keller (2010, notamment,
+    cité par Dennen et Myers, 2010) comme grille de lecture et d’analyse de cette question. Ce
+    modèle propose des pistes et des stratégies afin d’accroître la motivation des apprenants.
+    L’attention consiste à susciter l’intérêt de l’apprenant en lui posant des questions, en
+    utilisant des exemples de la vie de tous les jours, etc. La pertinence consiste à aider
+    l’apprenant à comprendre en quoi le contenu d’apprentissage proposé est pertinent pour lui.
+    Concrètement, cela se traduit en exemples liés à l’expérience d’apprentissage de l’apprenant, à
+    ce qu’il vit, etc. La confiance est relative au sentiment d’efficacité personnelle que
+    l’apprenant peut avoir dans sa propre capacité à réussir. Dennen et Myers (2010) soulignent que
+    le sentiment de contrôler son apprentissage est l’un des éléments clés pour acquérir de la
+    confiance en soi. Enfin, la satisfaction émane de la certitude de l’apprenant de pouvoir
+    réutiliser ce qu’il a appris dans d’autres situations. C’est pour cette raison que Keller (2010,
+    à l’origine du modèle ARCS et cité par Dennen et Myers, 2010) insiste sur l’importance de
+    proposer aux apprenants des situations-problèmes authentiques. De leur côté, Dobozy et Gross
+    (2010) rendent compte d’une étude pilote menée dans une université australienne et visant à
+    évaluer l’impact de l’intégration de podcasts auprès d’étudiants de première année d’université,
+    afin de développer leurs compétences informationnelles et, plus largement, de faciliter leur
+    intégration à l’université et l’appropriation du métier d’étudiant (Coulon, 1997; Sternglass,
+    1997, cité par Dobozy et Gross, 2010, p. 91). De nombreuses universités ont adopté le podcasting
+    comme moyen de former les étudiants aux compétences informationnelles31 (Ralph et Olsen, 2007;
+    Jowitt, 2008, cités par Dobozy et Gross, 2010). Dans le cas de cette expérience pilote, les
+    podcasts produits ont été intégrés dans un environnement de travail en ligne et leur cheminement
+    était guidé par une séquence LAMS32. Tout au long de l’expérience, les commentaires des
+    étudiants ont été récoltés par l’intermédiaire d’un forum. Le résultat de cette expérience n’a
+    pas été considéré comme satisfaisant, dans la mesure où l’engagement des étudiants dans le suivi
+    de ces modules « podcastés » a été relativement limité. Toutefois, la collaboration
+    intra-institutionnelle a été considérée comme satisfaisante et ouvrant de nombreuses
+    possibilités futures. Les travaux de recherche Dans leur revue de la littérature fondée sur 166
+    articles publiés dans des revues scientifiques, Giannakos et al. (2014) ont défini cinq axes de
+    recherche sur lesquels portent les articles analysés : 1) la portabilité, c’est-à-dire le
+    dispositif — fixe ou mobile — privilégié pour faire usage des podcasts; 2) le type d’interaction
+    — synchrone ou asynchrone — entre enseignants et apprenants (dans les nouveaux dispositifs tels
+    que les MOOC, l’asynchronie des interactions semble privilégiée); 3) l’interactivité avec le
+    système (dans leur métarecherche, Giannakos et al., 2014, relèvent une tendance générale à la
+    non-interactivité entendue au sens fonctionnel33); 4) le type d’usage (les études sont scindées
+    en deux groupes : celles qui considèrent les vidéos comme des ressources principales et celles
+    qui les considèrent comme des ressources complémentaires); 5) le contexte d’usage (les études
+    sont envisagées selon les contextes informels et formels; ces derniers étant les plus souvent
+    étudiés). Kay (2012, p. 826) relève que les contenus des podcasts dont il est question dans les
+    recherches sont rarement décrits de façon méticuleuse. L’auteur suggère donc que les futures
+    recherches soient menées avec la préoccupation de décrire clairement le contenu des podcasts,
+    leur type, leur durée, etc. L’auteur relève également des lacunes dans les recherches actuelles
+    menées autour des podcasts, notamment en ce qui concerne les caractéristiques pédagogiques
+    (scénarios d’usage, intégration au scénario de cours, etc.) et structurelles (durée, type
+    d’explications données, ton de la voix du narrateur, représentations visuelles utilisées, etc.)
+    des podcasts, mais aussi dans la prise en compte du point de vue des enseignants. Évaluation des
+    podcasts et recommandations Si la question de l’évaluation des podcasts est souvent posée sur le
+    plan des usages, l’évaluation du design pédagogique des podcasts est plus rarement examinée
+    (Dennen et Myers, 2010). Dans cette perspective, ces auteurs soulignent que la distinction la
+    plus fréquente opérée dans la littérature porte sur le producteur du podcast (« teacher-designed
+    » versus « student designed »), tout en insistant sur le fait que les objectifs inhérents à ces
+    deux types de productions sont fondamentalement différents avec, d’un côté, la préoccupation de
+    diffuser de l’information et, de l’autre, celle d’évaluer la créativité des apprenants. Le
+    facteur motivationnel, souvent mis en avant pour valoriser la production et l’usage des
+    podcasts, concerne en réalité le fait même d’écouter un podcast (Bolliger, Supanakorn et Boggs,
+    2010, cités par Dennen et Myers, 2010, p. 44) plus que les contenus et leur organisation.
+    Quelques études ont porté sur l’élaboration de recommandations destinées aux producteurs de
+    podcasts, mais Dennen et Myers relèvent qu’il s’agit plus de recommandations liées à la
+    structure des podcasts (durée, intégration de contenus dits « authentiques ») qu’à l’élaboration
+    du message. Les recommandations en la matière suggèrent qu’une adresse informelle (sur le ton de
+    la conversation et intégrant l’usage de la première personne et de la deuxième personne — « I »,
+    « You ») profiterait plus à l’apprentissage (Mayer, 2009, cité par Dennen et Myers, 2010) qu’un
+    discours plus formel, à l’image de celui qui est prodigué en salle de cours. Il semblerait de
+    plus, selon Linek, Gerjets et Scheiter (2010, cités par Dennen et Myers, 2010), que les voix
+    féminines auraient plus d’impact sur l’apprentissage et la motivation des apprenants que les
+    voix masculines, notamment parce que les femmes semblent s’adresser aux apprenants de manière
+    plus informelle et de façon plus directe en utilisant les pronoms personnels « je » et « vous ».
+    Les défis des podcasts en contexte éducatif Kay (2012) rapporte que les défis relatifs aux
+    podcasts se déclinent en quatre catégories : 1) le non-usage des podcasts (ce qui ressort des
+    études retenues par Kay concerne principalement les questions techniques, la prédominance du
+    modèle du cours présentiel, la méconnaissance de l’existence de telles ressources et la question
+    du temps à leur consacrer; 2) les attitudes négatives vis-à-vis des podcasts (notamment la
+    revendication de la nécessité du face-à-face, tant chez les étudiants que chez les enseignants);
+    3) la fréquentation des cours présentiels par les étudiants; 4) l’évaluation de l’impact sur les
+    performances d’apprentissage. Discussion « La place des images animées à l’école et de façon
+    générale l’audiovisuel, c’est comme les marées sur l’océan. Il y a des marées hautes et des
+    marées basses et les coefficients de marée sont variables. Si le jusant, le flot qui se retire,
+    laisse la trace de la marée précédente, le flux efface souvent souvenirs et empreintes de ce qui
+    a précédé » (Wallet, 1997, p. 66). Les recherches récentes entreprises autour des podcasts et de
+    leurs usages n’échappent pas à ce constat. C’est pourquoi il nous a semblé important tout au
+    long de cette revue de la littérature de remettre en perspective les questions actuelles à
+    l’aune de questionnements antérieurs. À cet égard, les travaux menés par Geneviève Jacquinot
+    dans les années 197034 méritaient d’être rappelés, ce que nous avons fait à plusieurs reprises
+    dans ce texte. La sémiologie, étude de l’ensemble des systèmes de signification, y est mobilisée
+    comme instrument d’analyse pour comprendre les spécificités langagières des films à vocation
+    pédagogique. Le degré d’écriture filmique y est considéré dans son rapport à la performativité,
+    c’est-à-dire, dans ce cas précis, à la nature et à l’intensité des processus cognitifs mis en
+    oeuvre par les apprenants. Le film à vocation pédagogique est envisagé comme un instrument au
+    service de la pensée, un outil cognitif, et non comme un simple moyen de diffusion
+    d’informations. Ce qui, entre autres choses, est intéressant dans la démarche proposée par
+    Geneviève Jacquinot, c’est qu’elle met en lumière le fait qu’un média35 n’est pas neutre et que,
+    compte tenu de ses spécificités matérielles, sémiotiques et relationnelles — au sens de la
+    linguistique pragmatique —, celui-ci peut engendrer, soutenir des processus cognitifs
+    différenciés. Cette vision des médias que nous avons qualifiée de « dispositive » (Peltier,
+    201636) est loin d’être reconnue et partagée par les acteurs du monde éducatif en raison,
+    notamment, d’une certaine méconnaissance des cadres communicationnels (notamment sémiologique et
+    linguistique). Le constat opéré par Geneviève Jacquinot en 1977 au sujet des films à vocation
+    pédagogique ne semble pas si éloigné de celui que nous pourrions faire aujourd’hui à propos des
+    podcasts : « la plupart des documents audio-visuels pédagogiques se bornent à “traduire en
+    images” […] un contenu pédagogique réifié : c’est la pédagogie du “message à faire passer” que
+    nous qualifions de pédagogie du transport » (p. 16). L’auteure désigne d’ailleurs les cours
+    enregistrés comme relevant du « “degré zéro” de l’écriture filmique didactique » (p. 131) en ce
+    qu’ils n’exploitent aucune des caractéristiques du langage cinématographique. Quel que soit
+    l’angle de conception et d’analyse adopté (l’angle sémiologique et pragmatique proposé par
+    Geneviève Jacquinot en est un parmi d’autres), il convient avant tout, selon nous, de considérer
+    les podcasts autrement que comme des moyens de diffusion et d’information. Car informer, ce
+    n’est pas faire apprendre. Dans la mouvance actuelle des MOOC qui pousse de nombreuses
+    universités à produire rapidement et en quantité des cours standardisés sur la base de modèles
+    pédagogiques transmissifs et béhavioristes, il nous paraît plus que jamais nécessaire de
+    rappeler, à la suite de Geneviève Jacquinot, que « la fascination pour les “dernières
+    technologies” peut masquer une certaine régression des conceptions pédagogiques » (p. xv).
+    Conclusion Les questions que posent aujourd’hui la production et l’usage des podcasts à vocation
+    pédagogique ne sont pas nouvelles. Le présent texte visait notamment à le rappeler et à
+    souligner le risque d’une « perte de densité du questionnement théorique et critique avec
+    l’oubli des travaux antérieurs » (Jacquinot, 1977/2012, p. xxiii). Nous avons donc rappelé que,
+    depuis plusieurs décennies, institutions scolaires et pédagogues s’interrogent sur l’intérêt
+    d’intégrer les nouveaux médias de l’époque au processus d’enseignement et d’apprentissage
+    (Peraya, 1993) et que plusieurs chercheurs ont proposé des réponses à ces questions. On ne peut
+    toutefois s’empêcher de penser, en observant l’engouement actuel pour les podcasts et pour les
+    MOOC, aux cycles d’engouement et de désillusion décrits par Cuban (1986). Si la préoccupation
+    actuelle des institutions d’enseignement supérieur en matière de production des podcasts nous
+    paraît légitime (coûts, scénario, prise de vue, postproduction, etc.), il nous semble plus que
+    jamais fondamental, comme le soulignent d’ailleurs Charlier et Henri (2016) dans ce même numéro,
+    de se réinterroger sur la finalité de ces ressources en termes de scénario d’usage ou
+    d’apprentissage. Leur étude, ainsi que celle de Peltier et al. (2016), rappelle la nécessité
+    d’une double approche qui prenne en compte à la fois les modes de production et de réception
+    pour faire de ces podcasts de véritables ressources d’apprentissage. Références Astier, F.
+    (2010). Les cours enregistrés de Gilles Deleuze à l’université de Paris 8, 1979-1987. Appareil,
+    (4). https://doi.org/10.4000/appareil.896 Aubert, O., Prié, Y. et Canellas, C. (2014, avril).
+    Leveraging video annotations in video-based e-learning. Communication présentée à la 7th
+    International Conference on Computer Supported Education (CSEDU), Barcelone, Espagne. Récupéré
+    de http://arxiv.org Bloom, B. S. (1956). Taxonomy of educational objectives: the classification
+    of educational goals. New York, NY : D. McKay. Burdet, B., Bontron, C. et Burgi, P.-Y. (2007).
+    Lecture capture: What can be automated? Educause Quarterly, (2), 40-48. Récupéré
+    dehttp://net.educause.edu Calas, M.-F. (1978). Les débuts des archives sonores et visuelles.
+    Ethnologie française, 8(4), 331-336. Carvalho, A. A., Aguiar, C. et Maciel, R. (2009). A
+    taxonomy of podcasts and its application to higher education. Dans H. Damis et L. Creanor
+    (dir.), ALT-C 2009: In dreams begins responsibility—Choice, evidence and change: Proceedings of
+    the International Conference for the Association for Learning Technology (p. 132-140). Récupéré
+    dehttp://repository.alt.ac.uk Cebeci, Z. et Tekdal, M. (2006). Using podcasts as audio learning
+    objects. Interdisciplinary Journal of Knowledge and Learning Objects, 2, 47-57. Récupéré de
+    http://ijello.org Chan, A. et Lee, M. J. (2005). An MP3 a day keeps the worries away: Exploring
+    the use of podcasting to address preconceptions and alleviate pre-class anxiety amongst
+    undergraduate information technology students. Dans D.H.R. Spennemann et L. Burr (dir.), Good
+    Practice in Practice: Proceedings of the Student Experience Conference (p. 58-70). Récupéré de
+    la plateforme Unix de Charles Sturt University : http://csusap.csu.edu.au Charlier, B et Henri,
+    F. (2016). Rechercher, comprendre et concevoir l’apprentissage avec la vidéo dans les xMOOC.
+    Revue internationale des technologies en pédagogie universitaire, 13 (2-3), 36-45. Clot, Y.,
+    Faïta, D., Fernandez, G. et Scheller, L. (2000). Entretiens en autoconfrontation croisée : une
+    méthode en clinique de l’activité. Perspectives interdisciplinaires sur le travail et la santé
+    (PISTES), 2(1).https://doi.org/10.4000/pistes.3833 Copley, J. (2007). Audio and video podcasts
+    of lectures for campus-based students: Production and evaluation of student use. Innovation in
+    Education and Teaching International, 44(4), 387-399. https://doi.org/10.1080/14703290701602805
+    Cordereix, P. (2005). Les fonds sonores du département de l’Audiovisuel de la Bibliothèque
+    nationale de France. Le Temps des médias, 2(5), 253-264. https://doi.org/10.3917/tdm.005.0253
+    Coulon, A. (1997). Le métier d’étudiant : l’entrée dans la vie universitaire. Paris : Presses
+    universitaires de France. Cuban, L. (1986). Teachers and machines: The classroom use of
+    technology since 1920. New York, NY : Teachers College Press. De Boer, J., Kommers, P. A. M. et
+    de Brock, B. (2011). Using learning styles and viewing styles in streaming video. Computers
+    &amp; Education, 56(3), 727-735. https://doi.org/10.1016/j.compedu.2010.10.015 Dennen, V. et
+    Myers, J. (2010). Podcast pedagogy: Message design, motivation, and learning. Dans J. Sanchez et
+    K. Zhang (dir.), World Conference on E-Learning in Corporate, Government, Healthcare, and Higher
+    Education (vol. 1, p. 43-49). Chesapeake, VA : Association for the Advancement of Computing in
+    Education. Depover, C. (2014). Pour revenir sur la question de l’efficacité des médias. Dans C.
+    Peltier (dir.), La médiatisation de la formation et de l’apprentissage. Mélanges offerts à
+    Daniel Peraya (p. 121-134). Bruxelles, Belgique : De Boeck. Deschryver, N. et Charlier, B.
+    (dir.). (2012). Dispositifs hybrides, nouvelle perspective pour une pédagogie renouvelée de
+    l’enseignement supérieur. Rapport final. Récupéré dehttp://archive-ouverte.unige.ch Dobozy, E.
+    et Gross, J. (2010). Pushing library information to first-year students: An exploratory study of
+    faculty/library collaboration. Australian Academic &amp; Research Libraries, 41(2),
+    90-99.https://doi.org/10.1080/00048623.2010.10721447 Faïta, D. et Vieira, M. (2003). Réflexions
+    méthodologiques sur l’autoconfrontation croisée. DELTA, 19(1), 123-154.
+    https://doi.org/10.1590/s0102-44502003000100005 Farkas, M. G. (2013). Mobile learning: The
+    teacher in your pocket. Dans T. A. Peters et L. Bell (dir.), The handheld library: Mobile
+    technology and the librarian (p. 31-45). Récupéré dehttp://pdxscholar.library.pdx.edu Fill, K.
+    et Ottewill, R. (2006). Sink or swim: taking advantage of developments in video streaming.
+    Innovations in Education and Teaching International, 43(4), 397-408.
+    https://doi.org/10.1080/14703290600974008 Galeron, G. (2007). Le podcasting : les enjeux de la «
+    radio à la demande » (rapport de recherche). Récupéré du site de l’Institut de recherche et
+    d’études en droit de l’information et de la communication :http://junon.u-3mrs.fr/u3ired01/
+    Giannakos, M. N., Jaccheri, L. et Krogstie, J. (2014). Looking at MOOCs rapid growth through the
+    lens of video-based learning research. iJET, 9(1), 35-38. https://doi.org/10.3991/ijet.v9i1.3349
+    Harris, H. et Park, S. (2008). Educational usages of podcasting. British Journal of Educational
+    Technology, 39(3), 548-551. https://doi.org/10.1111/j.1467-8535.2007.00788.x Henri, F. et Kaye,
+    A. (1985). Le savoir à domicile : pédagogie et problématique de la formation à distance. Québec,
+    Canada : Presses universitaires du Québec. Jacquinot, G. (1977/2012). Image et pédagogie :
+    analyse sémiologique du film à intention didactique. Paris, France : Éditions des Archives
+    contemporaines. Kay, R. H. (2012). Exploring the use of video podcasts in education: A
+    comprehensive review of the literature. Computers in Human Behavior, 28(3), 820-831.
+    https://doi.org/10.1016/j.chb.2012.01.011 Kazlauskas, A. et Robinson, K. (2012). Podcasts are
+    not for everyone. British Journal of Educational Technology, 43(2), 321-330.
+    https://doi.org/10.1111/j.1467-8535.2010.01164.x Kemp, J., Mellor, A., Kotter, R. et Oosthoek,
+    J. W. (2012). Student-produced podcasts as an assessment tool: An example from geomorphology.
+    Journal of Geography in Higher Education, 36(1), 117-130.
+    https://doi.org/10.1080/03098265.2011.576754 Lameul, G. (2008). Les effets de l’usage des
+    technologies d’information et de communication en formation d’enseignants sur la construction
+    des postures professionnelles. Savoirs, (17), 71-94. https://doi.org/10.3917/savo.017.0071
+    Lebrun, M. (2012). Classes inversées, flipped classrooms… Ça flippe quoi au juste? [billet de
+    blogue]. Récupéré du blogue de l’auteur : http://lebrunremy.be/WordPress Mangenot, F. (2014).
+    MOOC : hypothèses sur l’engouement pour un objet mal identifié. Distances et médiations des
+    savoirs, (7).Récupéré de http://dms.revues.org Meredith, J. R. (2012). The impact of podcasting
+    on perceived learning, classroom community, and preferred context for podcast consumption (thèse
+    de doctorat non publiée). Regent University, Londres, Grande-Bretagne. Mollo, V. et Falzon, P.
+    (2004). Auto- and allo-confrontation as tools for reflective activities. Applied Ergonomics,
+    35(6), 531-540. https://doi.org/10.1016/j.apergo.2004.06.003 O’Bannon, B., Lubke, J. K., Beard,
+    J. L. et Britt, V. G. (2011). Using podcasts to replace lecture: Effects on student achievement.
+    Computers &amp; Education, 57(3), 1885-1892. https://doi.org/10.1016/j.compedu.2011.04.001
+    Paladino-Christin, M. (2015). Podcasting et autoformation : préférences d’usage et aspects
+    motivationnels. Le cas des professionnels des technologies de l’information et de la
+    communication (TIC) (mémoire de maîtrise, Université de Genève, Suisse). Récupéré de
+    http://archive-ouverte.unige.ch Peltier, C. (2014). Entre nomadisme et interdisciplinarité :
+    l’exploration sans frontières des dispositifs de communication et de formation médiatisées.
+    Rencontre avec Daniel Peraya. Dans C. Peltier (dir.), La médiatisation de la formation et de
+    l’apprentissage. Mélanges offerts à Daniel Peraya (p. 31-53). Bruxelles, Belgique : De Boeck.
+    Peltier, C. (2016). Représentation des médias et appropriation des dispositifs médiatiques chez
+    des enseignants du supérieur (thèse de doctorat, Université de Genève, Suisse). Récupéré de
+    http://archive-ouverte.unige.ch Peltier, C., Peraya, D., Grenon, V. et Larose, F. (2016). Usages
+    et effets perçus des podcasts de type cours enregistrés : une étude exploratoire menée à
+    l’Université de Genève auprès d’étudiants et d’enseignants. Revue internationale des
+    technologies en pédagogie universitaire, 13 (2-3), 60-80. Peraya, D. (1993). L’audiovisuel à
+    l’école : voyage à travers les usages. Français 2000 — Bulletin de la Société belge des
+    professeurs de français, (138-139), 16-28. Récupéré dehttp://archive-ouverte.unige.ch Peraya, D.
+    (1999). Médiation et médiatisation : le campus virtuel. Hermès, (25),
+    153-167.https://doi.org/10.4267/2042/14983 Peraya, D. (2010). Médiatisation et médiation. Des
+    médias éducatifs aux ENT. Dans V. Liquète (dir.), Médiations (p. 33-48). Paris, France : CNRS.
+    Peraya, D. (2015). La classe inversée peut-elle changer l’école? Résonances. Mensuel de l’école
+    valaisanne, (6), 8-9. Récupéré dehttp://archive-ouverte.unige.ch Perriault, J. (1981). Mémoires
+    de l’ombre et du son : une archéologie de l’audio-visuel. Paris, France : Flammarion. Perriault,
+    J. (1989). La logique de l’usage : essai sur les machines à communiquer. Paris, France :
+    Flammarion. Rebetez, C. et Bétrancourt, M. (2007). Control and interactivity when learning
+    collaboratively from animation. Dans Proceedings of the 12th EARLI Biennal Conference. Budapest,
+    Hongrie. Rebetez, C. et Bétrancourt, M. (2009). Simultaneous static or animated graphics in the
+    construction of a dynamic mental model. Dans Proceedings of the 13th EARLI Biennal Conference.
+    Amsterdam, Pays-Bas. Roland, N. (2013a). Baladodiffusion et apprentissage mobile : approche
+    compréhensive des usages étudiants de l’Université libre de Bruxelles. Sticef, 20. Récupéré
+    dehttp://sticef.univ-lemans.fr Roland, N. (2013b). La recherche scientifique au service de
+    l’expérience utilisateur. Retour sur le processus de conception d’EZplayer. Compléments à
+    l’intervention du 17 septembre 2013, campus européen d’été de l’Université de Poitiers. Récupéré
+    de http://www.adjectif.net Tosh, D., Werdmuller, B., Chen, H. L., Light, T. P. et Haywood, J.
+    (2006). The learning landscape: A conceptual framework for ePortfolios. Dans A. Jafari and C.
+    Kaufman (dir.), Handbook of research on ePortfolios (p. 24-32). Hershey, PA : Idea Group
+    Reference. https://doi.org/10.4018/978-1-59140-890-1.ch003 Wallet, J. (1997). De quelques
+    invariants autour de la place des images animées à l’école. Recherche et formation, 26(1),
+    65-78. https://doi.org/10.3406/refor.1997.1450 1. Pour plus de détails, voir Peltier et al. dans
+    ce même numéro. 2 . Il s’agit de l’un des premiers appareils de projection d’images inventés au
+    XVIIe siècle (voir Perriault, 1981, chapitre 1). 3. Cet intérêt n’est d’ailleurs pas nouveau.
+    Dans l’entretien qui ouvre la réédition de son ouvrage initialement publié en 1977, Geneviève
+    Jacquinot, évoquant sa participation à un concours organisé par la radio-télévision scolaire au
+    début des années 1960, souligne : « j’avais remarqué qu’on insistait beaucoup sur l’aspect
+    motivationnel : l’audiovisuel c’était bien “pour motiver les élèves”. Mais comme enseignante, je
+    m’étais rendu compte que s’il est important de développer le désir d’apprendre, cela ne suffit
+    pas : pour faire apprendre, et développer des processus cognitifs, il faut créer des situations
+    d’apprentissage » (Jacquinot, 1977/2012, p. iii). 4. L’usage du générique masculin n’a d’autre
+    objectif que celui d’alléger le texte et ne constitue en rien une discrimination. 5. Dans leur
+    texte, Peltier et al. (2016) en proposent une définition articulant les dimensions
+    communicationnelles et éducatives : « un dispositif médiatique particulier qui, par ses
+    caractéristiques communicationnelles et sa position d’intermédiation dans une activité
+    d’apprentissage médiatisé, peut produire différents effets. Ces effets peuvent porter sur la
+    production des connaissances, la perception du processus d’apprentissage ou du développement
+    professionnel, les intentions d’usages et l’attitude, enfin, les pratiques d’apprentissage ou
+    d’enseignement ». 6. Accessible à l’adresse : http://gdt.oqlf.gouv.qc.ca/index.aspx 7. On
+    considère que la naissance du podcasting date de 2003, dans la continuité de la première «
+    BloggerCon » qui s’est tenue à Harvard durant l’été de cette même année et qui a rassemblé de
+    nombreux développeurs — dont Dave Winer, considéré comme le « père » du podcasting —,
+    journalistes et blogueurs (plus de détails sur :
+    http://www.econtentmag.com/Articles/Column/I-Column-Like-I-CM/The-First-Podcast-13515.htm). 8.
+    On désigne ainsi toute personne qui, pour des raisons personnelles, professionnelles ou autre,
+    se trouve dans l’impossibilité de suivre une formation universitaire classique, présentielle. 9.
+    Mossiere, A. (2005). Les médiathèques, un plus pour l’enseignement. Récupéré le 27 décembre 2014
+    du site du Service de la communication de l’Université de Genève : http://www.unige.ch 10.
+    http://www2.univ-paris8.fr/deleuze 11. Pour en savoir plus : http://e-sonore.u-paris10.fr/ 12.
+    http://podcast.ulb.ac.be/site/ 13.
+    http://fod.cnam.fr/actualites-de-la-foad/50-ans-de-cours-telediffuses-au-cnam-738234.kjsp 14.
+    Une étude menée par la société d’investissement américaine Morgan Stanley estime d’ailleurs que
+    l’usage mobile d’Internet dépassera l’usage fixe d’ici 2015 (voir :
+    http://www.businessinsider.com/mobile-will-eclipse-desktop-by-2014-2012-6). 15. Pour en savoir
+    plus : http://www.impala.ac.uk/index.html 16. L’étude porte sur l’analyse de 5 399
+    questionnaires et une cinquantaine d’entretiens. 17. En archivistique et en histoire, on
+    distingue les sources primaires des sources secondaires. Les premières sont constituées de
+    documents originaux rendant compte d’un événement ou d’une période particulière par les témoins
+    directs de cet événement ou de cette période. On y recense les journaux intimes, la
+    correspondance, la presse écrite et/ou audiovisuelle, etc. Les sources secondaires reviennent
+    sur cet événement ou sur cette période et en donnent une vision particulière (opinion, analyse,
+    etc.). Dans cette catégorie, on trouve les manuels, les biographies, les études, etc. Il est à
+    noter qu’une source primaire peut également être une source secondaire. Pour en savoir plus :
+    http://www.bibl.ulaval.ca/infosphere/sciences_humaines/choisirdocuprim.html 18. L’usage de la
+    taxonomie de Bloom est notamment recommandé par la société Coursera pour l’énoncé des objectifs
+    d’apprentissage dans les MOOC qui figurent sur la plateforme éponyme. 19. En effet, cela ne
+    nécessite aucune intervention de type post-production (montage, indexation ou autre). 20. La
+    notion d’environnement d’apprentissage a été conceptualisée de manière intéressante par Tosh,
+    Werdmuller, Chen, Light et Haywood (2006). Ceux-ci désignent sous le terme learning landscape un
+    espace (au sens figuré du terme) dans lequel les apprenants s’engagent dans un processus tout à
+    la fois académique et social qui favorise avant tout la construction des apprentissages et non
+    pas uniquement la transmission d’informations. 21. Voir également l’enquête de satisfaction
+    menée auprès d’étudiants, d’enseignants et de membres du personnel administratif et technique
+    par le Service des nouvelles technologies de l’information, de la communication et de
+    l’enseignement (NTICE), et qui souligne des raisons d’usage identiques. 22. « Les étudiants
+    peuvent annoter leur propre performance en vue de mener une auto-réflexion à ce sujet ou
+    partager une analyse avec leur enseignant » (Rich et Hannafin, 2009, cités par Aubert et al.,
+    2014, p. 3 [notre traduction]). 23. « Les enseignants peuvent également annoter leurs propres
+    performances dans une perspective auto-réflexive afin d’améliorer leur pratique » (Rich et
+    Hannafin, 2009, cités par Aubert et al., 2014, p. 3 [notre traduction]). 24. Il s’agit
+    d’applications permettant de générer des représentations temporelles dynamiques et
+    collaboratives auxquelles les participants peuvent adjoindre des documents textuels ou
+    multimédias. 25. Citons également l’implémentation de lecteurs intelligents, à l’instar de celui
+    qui a été développé par l’Université libre de Bruxelles (Roland, 2013a, 2013b), permettant la
+    manipulation des ressources – insertion et partage de commentaires notamment – par les étudiants
+    et les enseignants. 26. Les qualificatifs en français sont notre traduction. En anglais, les
+    différents types de comportements sont qualifiés comme suit : linear, elaborative, maintenance
+    rehearsal, zapping. 27. « An interesting, new, innovative, useful and also funny experience »
+    (Carvalho et al., 2009, p. 138). 28. « The time spent and the effort made are not recognized by
+    the institution » (Carvalho et al., 2009, p. 139). 29. Évoquant l’intégration de ce que l’on
+    appelait à l’époque « l’audiovisuel » dans les pratiques éducatives, Jacquinot (1977/2012)
+    soulignait que « non seulement la pédagogie n’a pas su trouver de nouveaux modèles didactiques
+    pour explorer les possibilités offertes par le cinéma et la télévision — on demande toujours des
+    inventeurs —, mais elle a même réussi à exporter ses anciens modèles dans l’univers des moyens
+    de communication de masse » (p. 145). 30. Le mémoire de maîtrise de Manon Paladino-Christin
+    soutenu à l’Université de Genève en 2015 a pour objet les aspects motivationnels de l’usage des
+    podcasts en autoformation. Le lecteur pourra s’y référer pour un état des lieux plus complet à
+    ce sujet. 31. Tel est le cas, par exemple, de l’Université de Genève qui vient de mettre en
+    ligne une plateforme de formation aux compétences informationnelles, InfoTrack
+    (https://infotrack.unige.ch/) comportant de nombreuses capsules vidéo, ainsi qu’un test
+    d’autodiagnostic. 32. LAMS (Learning Activity Management System) est un logiciel libre et
+    gratuit permettant de concevoir, d’implémenter et de gérer des activités d’apprentissage en
+    ligne de manière séquencée. Pour plus d’information à ce sujet : http://www.lamsfoundation.org/
+    33. L’interactivité fonctionnelle relève, selon Barchechat et Pouts-Lajus (1990, cités par
+    Peraya, 1999, p. 4), de l’interaction personne-machine, tandis que l’interactivité
+    intentionnelle dépend de la relation communicationnelle qui s’instaure entre un utilisateur
+    présent et un auteur absent mais dont la trace subsiste dans le dispositif. 34. Nous pensons
+    plus particulièrement à l’ouvrage Image et pédagogie publié en 1977 et réédité en 2012. 35. «
+    Média » ou « dispositif médiatique » est le terme générique que nous utilisons pour désigner
+    toute technologie — analogique ou numérique — utilisée dans un cadre éducatif au sens large,
+    pour souligner la nature communicationnelle de toute technologie, de tout instrument au service
+    d’une activité. 36. Dans notre thèse de doctorat, nous avons proposé de distinguer quatre
+    conceptions des médias : une conception diffusionnelle qui considère les médias comme des moyens
+    de diffusion d’information sans aucun impact ni sur le message ni sur le processus
+    d’apprentissage; une conception pédago-centrée qui accorde à l’enseignant le primat de tout
+    effet sur ce processus; une conception sémiocognitive qui souligne le rôle joué par les
+    registres symboliques dans la construction des représentations mentales; une conception
+    cognitive qui envisage les médias dans leur capacité à soutenir ou rendre possible certains
+    processus cognitifs; enfin une conception dispositive qui repose tout à la fois sur les
+    postulats sémiotique et cognitif et s’inscrit dans une vision communicationnelle pragmatique qui
+    envisage les effets des médias sur différentes dimensions du comportement humain. Revue de
+    littérature ©Auteur(s). Cette oeuvre, disponible à
+    https://doi.org/10.18126/ritpu-2016-v13n23-02, est mise à disposition selon les termes de la
+    licence Creative Commons Attribution 4.0 International
+    http://creativecommons.org/licences/by/4.0/deed.fr Claire PELTIER TECFA Université de Genève
+    claire.peltier@unige.ch </texte></corps><partiesann lang="fr">
+    <grbiblio>
+      <biblio><refbiblio id="rb1">Astier, F. (2010). Les cours enregistrés de Gilles Deleuze à l’université de Paris 8, 1979-1987. <marquage typemarq="italique">Appareil</marquage>, (4). https://doi.org/10.4000/appareil.896</refbiblio>
+<refbiblio id="rb2">Aubert, O., Prié, Y. et Canellas, C. (2014, avril). <marquage typemarq="italique">Leveraging video annotations in video-based e-learning</marquage>. Communication présentée à la 7th International Conference on Computer Supported Education (CSEDU), Barcelone, Espagne. <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls3" xlink:href="https://arxiv.org/abs/1404.4607" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Récupéré</liensimple></marquage> de <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls4" xlink:href="http://arxiv.org" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://arxiv.org</liensimple></marquage></refbiblio>
+<refbiblio id="rb3">Bloom, B. S. (1956). <marquage typemarq="italique">Taxonomy of educational objectives: the classification of educational goals</marquage>. New York, NY : D. McKay.</refbiblio>
+<refbiblio id="rb4">Burdet, B., Bontron, C. et Burgi, P.-Y. (2007). Lecture capture: What can be automated? <marquage typemarq="italique">Educause Quarterly</marquage>, (2), 40-48. <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls5" xlink:href="https://net.educause.edu/ir/library/pdf/eqm0725.pdf" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Récupéré</liensimple></marquage> de <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls6" xlink:href="http://net.educause.edu" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://net.educause.edu</liensimple></marquage></refbiblio>
+<refbiblio id="rb5">Calas, M.-F. (1978). Les débuts des archives sonores et visuelles. <marquage typemarq="italique">Ethnologie française</marquage>, <marquage typemarq="italique">8</marquage>(4), 331-336.</refbiblio>
+<refbiblio id="rb6">Carvalho, A. A., Aguiar, C. et Maciel, R. (2009). A taxonomy of podcasts and its application to higher education. Dans H. Damis et L. Creanor (dir.), <marquage typemarq="italique">ALT-C 2009: In dreams begins responsibility—Choice, evidence and change: Proceedings of the International Conference for the Association for Learning Technology</marquage> (p. 132-140). <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls7" xlink:href="http://repository.alt.ac.uk/638/" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Récupéré</liensimple></marquage> de <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls8" xlink:href="http://repository.alt.ac.uk" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://repository.alt.ac.uk</liensimple></refbiblio>
+<refbiblio id="rb7">Cebeci, Z. et Tekdal, M. (2006). Using podcasts as audio learning objects. <marquage typemarq="italique">Interdisciplinary Journal of Knowledge and Learning Objects</marquage>, <marquage typemarq="italique">2</marquage>, 47-57. <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls9" xlink:href="http://ijello.org/Volume2/v2p047-057Cebeci.pdf" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Récupéré</liensimple></marquage> de <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls10" xlink:href="http://ijello.org" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://ijello.org</liensimple></marquage></refbiblio>
+<refbiblio id="rb8">Chan, A. et Lee, M. J. (2005). An MP3 a day keeps the worries away: Exploring the use of podcasting to address preconceptions and alleviate pre-class anxiety amongst undergraduate information technology students. Dans D.H.R. Spennemann et L. Burr (dir.), <marquage typemarq="italique">Good Practice in Practice: Proceedings of the Student Experience Conference</marquage> (p. 58-70). <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls11" xlink:href="http://csusap.csu.edu.au/~achan/papers/2005_POD_SEC.pdf" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Récupéré</liensimple></marquage> de la plateforme Unix de Charles Sturt University : <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls12" xlink:href="http://csusap.csu.edu.au" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://csusap.csu.edu.au</liensimple></marquage></refbiblio>
+<refbiblio id="rb9">Charlier, B et Henri, F. (2016). Rechercher, comprendre et concevoir l’apprentissage avec la vidéo dans les xMOOC. <marquage typemarq="italique">Revue internationale des technologies en pédagogie universitaire, 13</marquage> (2-3), 36-45.</refbiblio>
+<refbiblio id="rb10">Clot, Y., Faïta, D., Fernandez, G. et Scheller, L. (2000). Entretiens en autoconfrontation croisée : une méthode en clinique de l’activité. <marquage typemarq="italique">Perspectives interdisciplinaires sur le travail et la santé (PISTES)</marquage>, <marquage typemarq="italique">2</marquage>(1). https://doi.org/10.4000/pistes.3833</refbiblio>
+<refbiblio id="rb11">Copley, J. (2007). Audio and video podcasts of lectures for campus-based students: Production and evaluation of student use. <marquage typemarq="italique">Innovation in Education and Teaching International</marquage>, <marquage typemarq="italique">44</marquage>(4), 387-399. https://doi.org/10.1080/14703290701602805</refbiblio>
+<refbiblio id="rb12">Cordereix, P. (2005). Les fonds sonores du département de l’Audiovisuel de la Bibliothèque nationale de France. <marquage typemarq="italique">Le Temps des médias</marquage>, <marquage typemarq="italique">2</marquage>(5), 253-264. https://doi.org/10.3917/tdm.005.0253</refbiblio>
+<refbiblio id="rb13">Coulon, A. (1997). <marquage typemarq="italique">Le métier d’étudiant : l’entrée dans la vie universitaire</marquage>. Paris : Presses universitaires de France.</refbiblio>
+<refbiblio id="rb14">Cuban, L. (1986). <marquage typemarq="italique">Teachers and machines: The classroom use of technology since 1920</marquage>. New York, NY : Teachers College Press.</refbiblio>
+<refbiblio id="rb15">De Boer, J., Kommers, P. A. M. et de Brock, B. (2011). Using learning styles and viewing styles in streaming video. <marquage typemarq="italique">Computers &amp; Education</marquage>, <marquage typemarq="italique">56</marquage>(3), 727-735. https://doi.org/10.1016/j.compedu.2010.10.015</refbiblio>
+<refbiblio id="rb16">Dennen, V. et Myers, J. (2010). Podcast pedagogy: Message design, motivation, and learning. Dans J. Sanchez et K. Zhang (dir.), <marquage typemarq="italique">World Conference on E-Learning in Corporate, Government, Healthcare, and Higher Education</marquage> (vol. 1, p. 43-49). Chesapeake, VA : Association for the Advancement of Computing in Education.</refbiblio>
+<refbiblio id="rb17">Depover, C. (2014). Pour revenir sur la question de l’efficacité des médias. Dans C. Peltier (dir.), <marquage typemarq="italique">La médiatisation de la formation et de l’apprentissage. Mélanges offerts à Daniel Peraya </marquage>(p. 121-134). Bruxelles, Belgique : De Boeck. </refbiblio>
+<refbiblio id="rb18">Deschryver, N. et Charlier, B. (dir.). (2012). <marquage typemarq="italique">Dispositifs hybrides, nouvelle perspective pour une pédagogie renouvelée de l’enseignement supérieur. Rapport final.</marquage> <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls13" xlink:href="http://archive-ouverte.unige.ch/unige:23102" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Récupéré</liensimple></marquage> de <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls14" xlink:href="http://archive-ouverte.unige.ch" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://archive-ouverte.unige.ch</liensimple></marquage></refbiblio>
+<refbiblio id="rb19">Dobozy, E. et Gross, J. (2010). Pushing library information to first-year students: An exploratory study of faculty/library collaboration. <marquage typemarq="italique">Australian Academic ’ Research Libraries</marquage>, <marquage typemarq="italique">41</marquage>(2), 90-99. https://doi.org/10.1080/00048623.2010.10721447</refbiblio>
+<refbiblio id="rb20">Faïta, D. et Vieira, M. (2003). Réflexions méthodologiques sur l’autoconfrontation croisée. <marquage typemarq="italique">DELTA</marquage>, <marquage typemarq="italique">19</marquage>(1), 123-154. https://doi.org/10.1590/s0102-44502003000100005</refbiblio>
+<refbiblio id="rb21">Farkas, M. G. (2013). Mobile learning: The teacher in your pocket. Dans T. A. Peters et L. Bell (dir.), <marquage typemarq="italique">The handheld library: Mobile technology and the librarian </marquage>(p. 31-45). <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls15" xlink:href="http://pdxscholar.library.pdx.edu/ulib_fac/29/" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Récupéré</liensimple></marquage> de<marquage typemarq="souligne"> <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls16" xlink:href="http://pdxscholar.library.pdx.edu" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://pdxscholar.library.pdx.edu</liensimple></marquage></refbiblio>
+<refbiblio id="rb22">Fill, K. et Ottewill, R. (2006). Sink or swim: taking advantage of developments in video streaming. <marquage typemarq="italique">Innovations in Education and Teaching International</marquage>, <marquage typemarq="italique">43</marquage>(4), 397-408. https://doi.org/10.1080/14703290600974008</refbiblio>
+<refbiblio id="rb23">Galeron, G. (2007). <marquage typemarq="italique">Le podcasting : les enjeux de la « radio à la demande »</marquage> (rapport de recherche). <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls17" xlink:href="http://junon.u-3mrs.fr/u3ired01/Main docu/tableronde2007/tr2007-ggaleron.pdf" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Récupéré</liensimple></marquage> du site de l’Institut de recherche et d’études en droit de l’information et de la communication : <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls18" xlink:href="http://junon.u-3mrs.fr/u3ired01/" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://junon.u-3mrs.fr/u3ired01/</liensimple></marquage> </refbiblio>
+<refbiblio id="rb24">Giannakos, M. N., Jaccheri, L. et Krogstie, J. (2014). Looking at MOOCs rapid growth through the lens of video-based learning research. <marquage typemarq="italique">iJET</marquage>, <marquage typemarq="italique">9</marquage>(1), 35-38. https://doi.org/10.3991/ijet.v9i1.3349</refbiblio>
+<refbiblio id="rb25">Harris, H. et Park, S. (2008). Educational usages of podcasting. <marquage typemarq="italique">British Journal of Educational Technology</marquage>, <marquage typemarq="italique">39</marquage>(3), 548-551. https://doi.org/10.1111/j.1467-8535.2007.00788.x</refbiblio>
+<refbiblio id="rb26">Henri, F. et Kaye, A. (1985). <marquage typemarq="italique">Le savoir à domicile : pédagogie et problématique de la formation à distance</marquage>. Québec, Canada : Presses universitaires du Québec.</refbiblio>
+<refbiblio id="rb27">Jacquinot, G. (1977/2012). <marquage typemarq="italique">Image et pédagogie : analyse sémiologique du film à intention didactique</marquage>. Paris, France : Éditions des Archives contemporaines.</refbiblio>
+<refbiblio id="rb28">Kay, R. H. (2012). Exploring the use of video podcasts in education: A comprehensive review of the literature. <marquage typemarq="italique">Computers in Human Behavior</marquage>, <marquage typemarq="italique">28</marquage>(3), 820-831. https://doi.org/10.1016/j.chb.2012.01.011</refbiblio>
+<refbiblio id="rb29">Kazlauskas, A. et Robinson, K. (2012). Podcasts are not for everyone. <marquage typemarq="italique">British Journal of Educational Technology</marquage>, <marquage typemarq="italique">43</marquage>(2), 321-330. https://doi.org/10.1111/j.1467-8535.2010.01164.x</refbiblio>
+<refbiblio id="rb30">Kemp, J., Mellor, A., Kotter, R. et Oosthoek, J. W. (2012). Student-produced podcasts as an assessment tool: An example from geomorphology. <marquage typemarq="italique">Journal of Geography in Higher Education,</marquage> <marquage typemarq="italique">36</marquage>(1), 117-130. https://doi.org/10.1080/03098265.2011.576754</refbiblio>
+<refbiblio id="rb31">Lameul, G. (2008). Les effets de l’usage des technologies d’information et de communication en formation d’enseignants sur la construction des postures professionnelles. <marquage typemarq="italique">Savoirs</marquage>, (17), 71-94. https://doi.org/10.3917/savo.017.0071</refbiblio>
+<refbiblio id="rb32">Lebrun, M. (2012). <marquage typemarq="italique">Classes inversées, flipped classrooms… Ça flippe quoi au juste?</marquage> [billet de blogue]. <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls19" xlink:href="http://lebrunremy.be/WordPress/?p=612" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Récupéré</liensimple></marquage> du blogue de l’auteur : <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls20" xlink:href="http://lebrunremy.be/WordPress" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://lebrunremy.be/WordPress</liensimple></marquage></refbiblio>
+<refbiblio id="rb33">Mangenot, F. (2014). MOOC : hypothèses sur l’engouement pour un objet mal identifié. <marquage typemarq="italique">Distances et médiations des savoirs</marquage>, (7). <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls21" xlink:href="https://dms.revues.org/844" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Récupéré</liensimple></marquage> de <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls22" xlink:href="http://dms.revues.org" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://dms.revues.org</liensimple></marquage></refbiblio>
+<refbiblio id="rb34">Meredith, J. R. (2012). <marquage typemarq="italique">The impact of podcasting on perceived learning, classroom community, and preferred context for podcast consumption</marquage> (thèse de doctorat non publiée). Regent University, Londres, Grande-Bretagne.</refbiblio>
+<refbiblio id="rb35">Mollo, V. et Falzon, P. (2004). Auto- and allo-confrontation as tools for reflective activities. <marquage typemarq="italique">Applied Ergonomics</marquage>, <marquage typemarq="italique">35</marquage>(6), 531-540. https://doi.org/10.1016/j.apergo.2004.06.003</refbiblio>
+<refbiblio id="rb36">O’Bannon, B., Lubke, J. K., Beard, J. L. et Britt, V. G. (2011). Using podcasts to replace lecture: Effects on student achievement. <marquage typemarq="italique">Computers ’ Education</marquage>, <marquage typemarq="italique">57</marquage>(3), 1885-1892. https://doi.org/10.1016/j.compedu.2011.04.001</refbiblio>
+<refbiblio id="rb37">Paladino-Christin, M. (2015). <marquage typemarq="italique">Podcasting et autoformation : préférences d’usage et aspects motivationnels. Le cas des professionnels des technologies de l’information et de la communication (TIC)</marquage> (mémoire de maîtrise, Université de Genève, Suisse). <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls23" xlink:href="https://archive-ouverte.unige.ch/unige:55039" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Récupéré</liensimple></marquage> de <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls24" xlink:href="http://archive-ouverte.unige.ch" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://archive-ouverte.unige.ch</liensimple></marquage></refbiblio>
+<refbiblio id="rb38">Peltier, C. (2014). Entre nomadisme et interdisciplinarité : l’exploration sans frontières des dispositifs de communication et de formation médiatisées. Rencontre avec Daniel Peraya. Dans C. Peltier (dir.), <marquage typemarq="italique">La médiatisation de la formation et de l’apprentissage. Mélanges offerts à Daniel Peraya</marquage> (p. 31-53). Bruxelles, Belgique : De Boeck.</refbiblio>
+<refbiblio id="rb39">Peltier, C. (2016). <marquage typemarq="italique">Représentation des médias et appropriation des dispositifs médiatiques</marquage> <marquage typemarq="italique">chez des enseignants du supérieur</marquage> (thèse de doctorat, Université de Genève, Suisse). <marquage typemarq="souligne">Récupéré</marquage> de <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls25" xlink:href="http://archive-ouverte.unige.ch" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://archive-ouverte.unige.ch</liensimple></marquage></refbiblio>
+<refbiblio id="rb40">Peltier, C., Peraya, D., Grenon, V. et Larose, F. (2016). Usages et effets perçus des podcasts de type cours enregistrés : une étude exploratoire menée à l’Université de Genève auprès d’étudiants et d’enseignants. <marquage typemarq="italique">Revue internationale des technologies en pédagogie universitaire, 13</marquage> (2-3), 60-80.</refbiblio>
+<refbiblio id="rb41">Peraya, D. (1993). L’audiovisuel à l’école : voyage à travers les usages. <marquage typemarq="italique">Français 2000 — Bulletin de la Société belge des professeurs de français</marquage>, (138-139), 16-28. <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls26" xlink:href="https://archive-ouverte.unige.ch/unige:85010" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Récupéré</liensimple></marquage> de <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls27" xlink:href="http://archive-ouverte.unige.ch" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://archive-ouverte.unige.ch</liensimple></marquage></refbiblio>
+<refbiblio id="rb42">Peraya, D. (1999). Médiation et médiatisation : le campus virtuel. <marquage typemarq="italique">Hermès</marquage>, (25), 153-167. https://doi.org/10.4267/2042/14983</refbiblio>
+<refbiblio id="rb43">Peraya, D. (2010). Médiatisation et médiation. Des médias éducatifs aux ENT. Dans V. Liquète (dir.), <marquage typemarq="italique">Médiations</marquage> (p. 33-48). Paris, France : CNRS. </refbiblio>
+<refbiblio id="rb44">Peraya, D. (2015). La classe inversée peut-elle changer l’école?<marquage typemarq="italique"> Résonances. Mensuel de l’école valaisanne</marquage>, (6), 8-9. <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls28" xlink:href="http://archive-ouverte.unige.ch/unige:22798" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Récupéré</liensimple></marquage> de <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls29" xlink:href="http://archive-ouverte.unige.ch" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://archive-ouverte.unige.ch</liensimple></marquage></refbiblio>
+<refbiblio id="rb45">Perriault, J. (1981). <marquage typemarq="italique">Mémoires de l’ombre et du son : une archéologie de l’audio-visuel</marquage>. Paris, France : Flammarion.</refbiblio>
+<refbiblio id="rb46">Perriault, J. (1989). <marquage typemarq="italique">La logique de l’usage : essai sur les machines à communiquer</marquage>. Paris, France : Flammarion.</refbiblio>
+<refbiblio id="rb47">Rebetez, C. et Bétrancourt, M. (2007). Control and interactivity when learning collaboratively from animation. Dans <marquage typemarq="italique">Proceedings of the 12th EARLI Biennal Conference</marquage>. Budapest, Hongrie.</refbiblio>
+<refbiblio id="rb48">Rebetez, C. et Bétrancourt, M. (2009). Simultaneous static or animated graphics in the construction of a dynamic mental model. Dans <marquage typemarq="italique">Proceedings of the 13th EARLI Biennal Conference</marquage>. Amsterdam, Pays-Bas.</refbiblio>
+<refbiblio id="rb49">Roland, N. (2013a). Baladodiffusion et apprentissage mobile : approche compréhensive des usages étudiants de l’Université libre de Bruxelles. <marquage typemarq="italique">Sticef</marquage>, <marquage typemarq="italique">20</marquage>. <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls30" xlink:href="http://sticef.univ-lemans.fr/num/vol2013/12-roland-atame/sticef_2013_NS_roland_12.htm" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Récupéré</liensimple></marquage> de <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls31" xlink:href="http://sticef.univ-lemans.fr" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://sticef.univ-lemans.fr</liensimple></marquage></refbiblio>
+<refbiblio id="rb50">Roland, N. (2013b). <marquage typemarq="italique">La recherche scientifique au service de l’expérience utilisateur. Retour sur le processus de conception d’EZplayer</marquage>. Compléments à l’intervention du 17 septembre 2013, campus européen d’été de l’Université de Poitiers. <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls32" xlink:href="http://www.adjectif.net/spip/spip.php?article261" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">Récupéré</liensimple></marquage> de <marquage typemarq="souligne"><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls33" xlink:href="http://www.adjectif.net" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">http://www.adjectif.net</liensimple></marquage></refbiblio>
+<refbiblio id="rb51">Tosh, D., Werdmuller, B., Chen, H. L., Light, T. P. et Haywood, J. (2006). The learning landscape: A conceptual framework for ePortfolios. Dans A. Jafari and C. Kaufman (dir.),<marquage typemarq="italique"> Handbook of research on ePortfolios</marquage> (p. 24-32). Hershey, PA : Idea Group Reference.https://doi.org/10.4018/978-1-59140-890-1.ch003</refbiblio>
+<refbiblio id="rb52">Wallet, J. (1997). De quelques invariants autour de la place des images animées à l’école. <marquage typemarq="italique">Recherche et formation</marquage>, <marquage typemarq="italique">26</marquage>(1), 65-78. https://doi.org/10.3406/refor.1997.1450</refbiblio></biblio>
+    </grbiblio>
+  </partiesann></article>
