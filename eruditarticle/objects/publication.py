@@ -397,15 +397,18 @@ class EruditPublication(
 
     def get_volume(self):
         """ :returns: the volume of the publication object. """
-        return '-'.join([v.text for v in self.findall('numero/volume') if v is not None])
+        return '-'.join([v.text for v in self.findall('numero/volume')
+                        if v is not None and v.text is not None])
 
     def get_number(self):
         """ :returns: the number of the publication object. """
-        return '-'.join([n.text for n in self.findall('numero/nonumero') if n is not None])
+        return '-'.join([n.text for n in self.findall('numero/nonumero')
+                        if n is not None and n.text is not None])
 
     def get_alt_number(self):
         """ :returns: the alternative number of the publication object. """
-        return '-'.join([a.text for a in self.findall('numero/anonumero') if a is not None])
+        return '-'.join([a.text for a in self.findall('numero/anonumero')
+                        if a is not None and a.text is not None])
 
     def get_volume_numbering(self, html=False, abbreviated=False, formatted=False):
         """ Return the volume title of this publication

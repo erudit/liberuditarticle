@@ -78,6 +78,10 @@ class TestAbbreviatedPublicationVolumeNumbering(object):
     def test_can_format_double_volumes(self, value):
         assert value == "Vol. 82-83, 2015–2016"
 
+    @with_value("sp04510.xml", "get_volume_numbering", formatted=True, abbreviated=True, html=True)
+    def test_empty_volume_and_number_do_not_crash(self, value):
+        assert value == "2018"
+
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication/volume_numbering', EruditPublication)
 class TestPublicationVolumeNumbering(object):
