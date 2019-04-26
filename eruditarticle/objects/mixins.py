@@ -21,6 +21,9 @@ class PublicationPeriodMixin(object):
         if not child_elements:
             return ''
         first_element = child_elements.pop(0)
+        # Make sure we dont have an empty first element.
+        while first_element is None or first_element.text is None:
+            first_element = child_elements.pop(0)
         if first_element.tag == 'annee':
             previous_item_is_year = True
         else:
