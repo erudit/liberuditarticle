@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
-
-from __future__ import unicode_literals
+import html
 import io
 import re
 
@@ -45,4 +43,7 @@ def normalize_whitespace(s):
     """
     if not s:
         return s
+    # Return None if string is empty or contains only white spaces.
+    if not html.unescape(s).strip():
+        return None
     return re.sub(r'[ \n\r\t]+', ' ', s.strip())
