@@ -69,7 +69,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """ :returns: the type of the article. """
         return self._dom.getroot().get('typeart')
 
-    def get_authors(self, formatted=False, html=False, style=None):
+    def get_authors(self, formatted=False, html=False, style=None, suffixes=True):
         """ :returns: the authors of the article object.
 
             :param formatted: Whether we return a formatted string or a Person list
@@ -92,7 +92,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             elif style == 'chicago':
                 authors = format_authors_chicago(authors)
             else:
-                authors = format_authors(authors, html=html)
+                authors = format_authors(authors, html=html, suffixes=suffixes)
 
         return authors
 

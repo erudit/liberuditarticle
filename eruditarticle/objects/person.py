@@ -11,11 +11,13 @@ except ImportError:
 
 
 class PersonName(DomObject):
-    def format(self, html=False):
+    def format(self, html=False, suffixes=True):
         get = self.get_html if html else self.get_text
         keys_order = ['prenom', 'autreprenom', 'nomfamille']
         ordered_vals = [get(key) for key in keys_order]
         formatted_name = ' '.join(v for v in ordered_vals if v)
+        if not suffixes:
+            return formatted_name
         suffixes = []
         for suffixe in self.findall('suffixe'):
             if suffixe.text is None:
@@ -85,7 +87,7 @@ class Person(DomObject):
         else:
             return None
 
-    def format_name(self, html=False):
+    def format_name(self, html=False, suffixes=True):
         if html:
             get = self.get_html
         else:
@@ -97,15 +99,17 @@ class Person(DomObject):
             member_elems = self.findall('membre')
             if member_elems:
                 members = (PersonName(elem.find('nompers')) for elem in member_elems)
-                formatted_members = ', '.join(m.format(html=html) for m in members)
+                formatted_members = ', '.join(
+                    m.format(html=html, suffixes=suffixes) for m in members
+                )
                 result = '{} ({})'.format(result, formatted_members)
             return result
         nompers = self.find('nompers')
         if nompers is not None:
-            result = PersonName(nompers).format(html=html)
+            result = PersonName(nompers).format(html=html, suffixes=suffixes)
             pseudo = self.pseudo
             if pseudo:
-                result += ', alias ' + pseudo.format(html=html)
+                result += ', alias ' + pseudo.format(html=html, suffixes=suffixes)
             return result
         else:
             return ''
@@ -125,8 +129,8 @@ class Redacteur(Person):
             return []
 
 
-def format_authors(authors, html=False):
-    authors = [author.format_name(html=html) for author in authors]
+def format_authors(authors, html=False, suffixes=True):
+    authors = [author.format_name(html=html, suffixes=suffixes) for author in authors]
     last_author = authors.pop()
     if len(authors) == 0:
         return last_author
