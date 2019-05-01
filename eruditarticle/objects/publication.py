@@ -525,4 +525,4 @@ class EruditPublication(
     number = property(get_number)
     alt_number = property(get_alt_number)
     publishers = property(get_publishers)
-    langauges = property(get_languages)
+    languages = property(get_languages)
