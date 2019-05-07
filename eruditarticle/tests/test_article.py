@@ -424,6 +424,11 @@ class TestFormatPersonName(object):
         obj = self.test_objects[objectname + '.xml']
         assert obj.get_authors(formatted=True, style=style) == expected
 
+    def test_get_formatted_authors_with_and_without_suffixes(self):
+        obj = self.test_objects['with_suffix.xml']
+        assert obj.get_authors(formatted=True) == 'Thibault Martin, Ph.D.'
+        assert obj.get_authors(formatted=True, suffixes=False) == 'Thibault Martin'
+
     @pytest.mark.parametrize('objectname,expected', [
         ('no_authors', ""),
         ('multiple_authors', "Sauvaire, M. & Falardeau, É."),
