@@ -2,8 +2,15 @@ import collections
 import pytest
 from lxml.builder import E
 
-from eruditarticle.objects import EruditArticle
+from eruditarticle.objects import EruditArticle, Title
 from eruditarticle.tests.decorators import with_value, with_fixtures
+
+
+class Title(Title):
+    def __init__(self, title=None, subtitle=None, lang=None):
+        self.lang = lang
+        self.title = title
+        self.subtitle = subtitle
 
 
 def person_to_dict(person):
@@ -235,8 +242,6 @@ class TestArticleSavantComplet(object):
         assert self.test_objects['1005860ar.xml'].get_publication_period() == "2008–2009"
 
     def test_can_return_titles_subtitles(self):
-        from eruditarticle.objects.base import Title
-
         assert self.test_objects['1005860ar.xml'].get_titles() == {
             'main': Title(title="Esth&#233;tique et s&#233;miotique", subtitle="Pr&#233;sentation", lang="fr"),  # noqa
             "paral": [
@@ -338,9 +343,11 @@ class TestArticleSavantComplet(object):
         assert self.test_objects['044308ar.xml'].get_formatted_html_title() == EXPECTED
         assert self.test_objects['044308ar.xml'].get_title(formatted=True, html=True) == EXPECTED
 
-    def test_can_return_journal_titles(self):
-        from eruditarticle.objects.base import Title
+        EXPECTED = 'Colloque d&#8217;histoire antillaise : <span class="majuscule">C</span>ENTRE D&#8217;ENSEIGNEMENT SUP&#201;RIEUR LITT&#201;RAIRE DE POINTE-&#192;-PITRE (25-28 avril 1969)'  # noqa
+        assert self.test_objects['1056263ar.xml'].get_formatted_html_title() == EXPECTED
+        assert self.test_objects['1056263ar.xml'].get_title(formatted=True, html=True) == EXPECTED
 
+    def test_can_return_journal_titles(self):
         assert self.test_objects['1006389ar.xml'].get_journal_titles() == {
             "main": Title(title="Anthropologie et Soci&#233;t&#233;s", subtitle=None, lang="fr"),
             "paral": [],
@@ -386,13 +393,14 @@ class TestArticleSavantComplet(object):
     def test_get_formatted_title(self):
         # There should not be a capital letter after a colon.
         assert self.test_objects['1056361ar.xml'].get_formatted_title() == 'UN ROMAN « NÉ DANS SA PROPRE NÉGATION » : l’articulation du littéraire et du religieux dans Angéline de Montbrun de Laure Conan'  # noqa
+        # There should be a capital letter after a colon if it was forced in the XML.
+        assert self.test_objects['1056263ar.xml'].get_formatted_title() == 'Colloque d’histoire antillaise : CENTRE D’ENSEIGNEMENT SUPÉRIEUR LITTÉRAIRE DE POINTE-À-PITRE (25-28 avril 1969)'  # noqa
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/savant/minimal', EruditArticle)
 class TestArticleSavantMinimal(object):
 
     def test_can_return_titles_and_subtitles(self):
-        from eruditarticle.objects.base import Title
         assert self.test_objects['602354ar.xml'].get_titles(html=False) == {
             'main': Title(title='Immigration, langues et performance économique : le Québec et l’Ontario entre 1970 et 1995', lang="fr", subtitle=None),  # noqa
             'equivalent': [
@@ -529,7 +537,6 @@ class TestArticleCulturelMinimal(object):
             assert isinstance(article, EruditArticle)
 
     def test_can_return_its_title(self):
-        from eruditarticle.objects.base import Title
         assert self.test_objects['49222ac.xml'].get_titles(html=False) == {
             'main': Title(
                 title='Love and death on long island',
@@ -560,7 +567,6 @@ class TestArticleCulturelMinimal(object):
 
     @with_value('67660ac.xml', 'get_titles')
     def test_untitled_article_can_return_its_title(self, value):
-        from eruditarticle.objects.base import Title
         assert value == {
             'main': Title(
                 title=None,
