@@ -80,7 +80,7 @@ class EruditPublication(
         :returns: a list of notegens
         """
         notes = []
-        for note_elem in self.findall('numero/notegen[@typenoteg="edito"]'):
+        for note_elem in self.findall('numero/notegen[@typenoteg="edito"][@porteenoteg="numero"]'):
 
             if html:
                 parser_method = self.convert_marquage_content_to_html

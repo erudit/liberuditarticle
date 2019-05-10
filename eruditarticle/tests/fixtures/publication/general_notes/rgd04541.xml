@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+<originator username="cen-tech" date="2019-05-07" app="Tournesol 0.5.3"/>
+<copyright>
+	<year>1981</year>
+<contribution>
+<artificialperson>
+	<name>Faculté de droit, Section de droit civil, Université d'Ottawa</name>
+</artificialperson>
+<contributiontype>
+	<code>droit</code>
+	<label lang="en">Copyright Holder</label>
+	<label lang="fr">Titulaire du droit d'auteur</label>
+	<label lang="es">Titular del derecho de autor</label>
+</contributiontype>
+	<ordering>0</ordering>
+</contribution>
+<copyrightdeclaration>
+	<code>da</code>
+	<label lang="en">Copyright</label>
+	<label lang="fr">Droits d'auteur</label>
+	<label lang="es">Derecho de Autor</label>
+</copyrightdeclaration>
+</copyright>
+<publicationnumberingkeys>
+	<publicationtypecode>reg</publicationtypecode>
+	<years>
+		<year value="1981">
+		</year>
+	</years>
+</publicationnumberingkeys><infosommaire>
+  <url>/revue/rgd/1981/v12/n2</url>
+  <nbarticle>14</nbarticle>
+  <revue id="rgd01024" lang="fr en">
+    <titrerev>Revue générale de droit</titrerev>
+    <titrerevabr>rgd</titrerevabr>
+    <idissn>0035-3086</idissn>
+    <idissnnum>2292-2512</idissnnum>
+    <directeur sexe="masculin">
+      <fonction lang="fr">Directeur</fonction>
+      <nompers>
+        <prenom>Jean-Denis</prenom>
+        <nomfamille>Archambault</nomfamille>
+      </nompers>
+      <key>directeur</key>
+    </directeur>
+  </revue>
+  <numero id="rgd04541">
+    <volume>12</volume>
+    <nonumero>2</nonumero>
+    <pub>
+      <annee>1981</annee>
+    </pub>
+    <pubnum>
+      <date typedate="publication">2019-05-06</date>
+    </pubnum>
+    <notegen lang="fr" porteenoteg="surtitre" typenoteg="edito">
+      <alinea>Tenu à Montréal du 14 au 18 septembre 1981, le XIV<exposant>e</exposant> congrès de l’Institut international de Droit d’expression française avait pour thème : Mécanismes de protection des droits de la personne. 
+La Revue générale de droit remercie vivement tous les participants canadiens d’avoir accepté de réunir leur contribution dans l’un de ses numéros. L’actualité du sujet, la qualité des présentations ainsi que leur diversité retiendront l’attention du public lecteur. 
+Nous exprimons également notre sincère gratitude à Monsieur Pierre Decheix, Secrétaire général de l’Institut international de Droit d’expression française, et à la Direction de la Revue Juridique et Politique, Indépendance et Coopération qui ont courtoisement accepté que les communications canadiennes soient publiées dans la Revue générale de droit. 
+Par ce numéro, nous voulons enfin souligner l’inauguration officielle, le 16 novembre 1981, du Centre de recherche et d’enseignement sur les droits de la personne de l’Université d’Ottawa. Le Centre publiera, dès 1983, l’Annuaire canadien des droits de la personne — The Canadian Human Rights Yearbook. </alinea>
+    </notegen>
+  </numero>
+  <editeur>
+    <nomorg>Éditions de l’Université d’Ottawa</nomorg>
+    <key>editeur</key>
+  </editeur>
+  <droitsauteur>Droits d'auteur © <nomorg>Faculté de droit, Section de droit civil, Université d'Ottawa</nomorg>, 1981</droitsauteur>
+</infosommaire>
+<article doi="10.7202/1059402ar" idproprio="1059402ar" lang="fr"
+  ordseq="1" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="411" unite="ko">/revue/rgd/1981/v12/n2/1059402ar.pdf</urlpdf>
+  <pagination>
+    <ppage>299</ppage>
+    <dpage>309</dpage>
+  </pagination>
+  <notegen lang="fr" porteenoteg="surtitre" typenoteg="edito">
+    <alinea>Tenu à Montréal du 14 au 18 septembre 1981, le XIV<exposant>e</exposant> congrès de l’Institut international de Droit d’expression française avait pour thème : Mécanismes de protection des droits de la personne. 
+La Revue générale de droit remercie vivement tous les participants canadiens d’avoir accepté de réunir leur contribution dans l’un de ses numéros. L’actualité du sujet, la qualité des présentations ainsi que leur diversité retiendront l’attention du public lecteur. 
+Nous exprimons également notre sincère gratitude à Monsieur Pierre Decheix, Secrétaire général de l’Institut international de Droit d’expression française, et à la Direction de la Revue Juridique et Politique, Indépendance et Coopération qui ont courtoisement accepté que les communications canadiennes soient publiées dans la Revue générale de droit. 
+Par ce numéro, nous voulons enfin souligner l’inauguration officielle, le 16 novembre 1981, du Centre de recherche et d’enseignement sur les droits de la personne de l’Université d’Ottawa. Le Centre publiera, dès 1983, l’Annuaire canadien des droits de la personne — The Canadian Human Rights Yearbook. </alinea>
+  </notegen>
+<liminaire>
+ <grtitre>
+  <surtitre>Droits de la personne</surtitre>
+                  <titre>DE LA PROTECTION LÉGISLATIVE ET CONSTITUTIONNELLE DES DROITS DE LA PERSONNE AU CANADA EN GÉNÉRAL ET AU QUÉBEC</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Gérald-A.</prenom>
+    <nomfamille>Beaudoin</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Dans nos démocraties, la protection des droits de la personne s’effectue d’au moins cinq façons : par une déclaration intégrée dans la Constitution et assortie d’un contrôle judiciaire de la constitutionnalité, ou encore par intégration sans contrôle judiciaire; en troisième lieu cette protection peut être laissée au seul législateur; une quatrième façon consiste à inscrire une Déclaration dans la Constitution avec clause dérogatoire et enfin, une cinquième voie vise à protéger les droits par une législation spéciale à laquelle on ne peut déroger que par une déclaration expresse.</alinea><alinea>Le Canada a emprunté la cinquième voie.</alinea><alinea>Les droits de la personne sont protégés par des déclarations dans l’ordre fédéral et dans l’ordre provincial de gouvernement. De plus, plusieurs commissions des droits de la personne ont été mises sur pied par les deux ordres de gouvernement.</alinea><alinea>Même si nous n’avons pas une Déclaration des droits « intégrée » dans la Constitution, les tribunaux ont déclaré que certaines libertés sont garanties implicitement. Notre Constitution contient, au surplus, quelques dispositions expresses sur les droits démocratiques, religieux et linguistiques.</alinea><alinea>Au Canada un débat se déroule actuellement sur l’opportunité d’intégrer les droits de la personne dans la Constitution et d’emprunter la première voie. Devons-nous nous rapprocher de l’école américaine et française ou rester plus près de l’école britannique où prévalait, du moins jusqu’à tout récemment, la souveraineté parlementaire ? De plus, chez-nous ce débat est relié à la réforme constitutionnelle, ce qui lui donne une dimension additionnelle qui nous est propre.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1059403ar" idproprio="1059403ar" lang="fr"
+  ordseq="2" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="424" unite="ko">/revue/rgd/1981/v12/n2/1059403ar.pdf</urlpdf>
+  <pagination>
+    <ppage>311</ppage>
+    <dpage>322</dpage>
+  </pagination>
+  <notegen lang="fr" porteenoteg="surtitre" typenoteg="edito">
+    <alinea>Tenu à Montréal du 14 au 18 septembre 1981, le XIV<exposant>e</exposant> congrès de l’Institut international de Droit d’expression française avait pour thème : Mécanismes de protection des droits de la personne. 
+La Revue générale de droit remercie vivement tous les participants canadiens d’avoir accepté de réunir leur contribution dans l’un de ses numéros. L’actualité du sujet, la qualité des présentations ainsi que leur diversité retiendront l’attention du public lecteur. 
+Nous exprimons également notre sincère gratitude à Monsieur Pierre Decheix, Secrétaire général de l’Institut international de Droit d’expression française, et à la Direction de la Revue Juridique et Politique, Indépendance et Coopération qui ont courtoisement accepté que les communications canadiennes soient publiées dans la Revue générale de droit. 
+Par ce numéro, nous voulons enfin souligner l’inauguration officielle, le 16 novembre 1981, du Centre de recherche et d’enseignement sur les droits de la personne de l’Université d’Ottawa. Le Centre publiera, dès 1983, l’Annuaire canadien des droits de la personne — The Canadian Human Rights Yearbook. </alinea>
+  </notegen>
+<liminaire>
+ <grtitre>
+  <surtitre>Droits de la personne</surtitre>
+                  <titre>LES TRIBUNAUX ET LA PROTECTION DES DROITS DE LA PERSONNE AU CANADA</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Pierre</prenom>
+    <nomfamille>Blache</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Nous cherchons ici à identifier et à évaluer les rôles successivement assignés aux tribunaux judiciaires au Canada en ce qui a trait aux droits fondamentaux, et à rappeler leur performance. Nous tentons aussi, à la lumière de cette esquisse, de juger les propositions récentes visant à leur confier une responsabilité accrue dans la protection des droits de la personne.</alinea><alinea>Dans un premier temps nous rappelons que la société canadienne, qui réservait aux tribunaux judiciaires un rôle mineur dans la protection des droits de la personne, a choisi de leur confier un rôle clé en ce domaine au cours des dernières décennies. Ainsi les a-t-on obligés à ne pas donner effet aux lois contraires aux droits de la personne, et a-t-on opté pour un idéal d’égalité juridique à la réalisation duquel ils sont appelés à contribuer de façon déterminante.</alinea><alinea>À cet appel non équivoque nos tribunaux ont pourtant opposé une résistance marquée qui a abouti à une interprétation restrictive des droits fondamentaux. Celle-ci confine parfois presque à une fin de non recevoir.</alinea><alinea>Peut-on ignorer cette histoire lorsque vient l’heure de juger le projet de constitutionnaliser les droits de la personne ? Nous ne le croyons pas. Ne nous invite-t-elle pas à conclure que cette évolution proposée est le passage requis pour l’émergence des Tribunaux judiciaires hors de la pusillanamité, vers un contrôle judiciaire raisonnable des parlements au nom des valeurs premières de la société.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1059404ar" idproprio="1059404ar" lang="fr"
+  ordseq="3" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="369" unite="ko">/revue/rgd/1981/v12/n2/1059404ar.pdf</urlpdf>
+  <pagination>
+    <ppage>323</ppage>
+    <dpage>333</dpage>
+  </pagination>
+  <notegen lang="fr" porteenoteg="surtitre" typenoteg="edito">
+    <alinea>Tenu à Montréal du 14 au 18 septembre 1981, le XIV<exposant>e</exposant> congrès de l’Institut international de Droit d’expression française avait pour thème : Mécanismes de protection des droits de la personne. 
+La Revue générale de droit remercie vivement tous les participants canadiens d’avoir accepté de réunir leur contribution dans l’un de ses numéros. L’actualité du sujet, la qualité des présentations ainsi que leur diversité retiendront l’attention du public lecteur. 
+Nous exprimons également notre sincère gratitude à Monsieur Pierre Decheix, Secrétaire général de l’Institut international de Droit d’expression française, et à la Direction de la Revue Juridique et Politique, Indépendance et Coopération qui ont courtoisement accepté que les communications canadiennes soient publiées dans la Revue générale de droit. 
+Par ce numéro, nous voulons enfin souligner l’inauguration officielle, le 16 novembre 1981, du Centre de recherche et d’enseignement sur les droits de la personne de l’Université d’Ottawa. Le Centre publiera, dès 1983, l’Annuaire canadien des droits de la personne — The Canadian Human Rights Yearbook. </alinea>
+  </notegen>
+<liminaire>
+ <grtitre>
+  <surtitre>Droits de la personne</surtitre>
+                  <titre>LA LOI CANADIENNE SUR LES DROITS DE LA PERSONNE ET SA MISE EN APPLICATION PAR LA COMMISSION</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Rita</prenom>
+    <nomfamille>Cadieux</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>La Loi canadienne sur les droits de la personne interdit la discrimination sous neuf motifs qui sont la race, l’origine nationale ou ethnique, la couleur, la religion, l’âge, le sexe, la situation de famille, l’état de personne graciée et, en matière d’emploi, le handicap physique. De plus, la partie IV de la Loi assure la protection des renseignements personnels.</alinea><alinea>La Commission canadienne des droits de la personne, qui administre la Loi, est une agence fédérale indépendante qui se rapporte au Parlement par l’intermédiaire du Ministre de la Justice.</alinea><alinea>Le mandat qui est donné à la Commission dans la Loi comprend, entre autres, l’instruction des plaintes de discrimination, l’information et l’éducation du public dans le domaine des droits de la personne et la mise sur pied de programmes de recherches dans ce même domaine.</alinea><alinea>La Commission fait enquête sur les plaintes de discrimination qu’elle reçoit. Si la plainte est fondée, la Commission tente d’en arriver à un règlement par voie de conciliation. Lorsque cela est impossible, la Commission peut mettre sur pied un Tribunal des droits de la personne chargé d’examiner la plainte. D’ailleurs, la Commission peut, à toute étape postérieure au dépôt de la plainte, constituer un tel tribunal si elle le juge à propos.</alinea><alinea>Les articles 10, 11 et 15, qui permettent à la Commission d’aller plus loin dans son action que l’instruction de plaintes individuelles de discrimination, sont explicités dans le texte. Ces articles touchent la discrimination systémique, la parité salariale entre les hommes et les femmes qui exécutent des fonctions équivalentes et la possibilité de mettre en oeuvre des programmes d’action positive.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1059405ar" idproprio="1059405ar" lang="fr"
+  ordseq="4" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="859" unite="ko">/revue/rgd/1981/v12/n2/1059405ar.pdf</urlpdf>
+  <pagination>
+    <ppage>335</ppage>
+    <dpage>357</dpage>
+  </pagination>
+  <notegen lang="fr" porteenoteg="surtitre" typenoteg="edito">
+    <alinea>Tenu à Montréal du 14 au 18 septembre 1981, le XIV<exposant>e</exposant> congrès de l’Institut international de Droit d’expression française avait pour thème : Mécanismes de protection des droits de la personne. 
+La Revue générale de droit remercie vivement tous les participants canadiens d’avoir accepté de réunir leur contribution dans l’un de ses numéros. L’actualité du sujet, la qualité des présentations ainsi que leur diversité retiendront l’attention du public lecteur. 
+Nous exprimons également notre sincère gratitude à Monsieur Pierre Decheix, Secrétaire général de l’Institut international de Droit d’expression française, et à la Direction de la Revue Juridique et Politique, Indépendance et Coopération qui ont courtoisement accepté que les communications canadiennes soient publiées dans la Revue générale de droit. 
+Par ce numéro, nous voulons enfin souligner l’inauguration officielle, le 16 novembre 1981, du Centre de recherche et d’enseignement sur les droits de la personne de l’Université d’Ottawa. Le Centre publiera, dès 1983, l’Annuaire canadien des droits de la personne — The Canadian Human Rights Yearbook. </alinea>
+  </notegen>
+<liminaire>
+ <grtitre>
+  <surtitre>Droits de la personne</surtitre>
+                  <titre>LA COMMISSION DES DROITS DE LA PERSONNE DU QUÉBEC : CINQ ANNÉES DE LUTTE POUR LE DROIT À L’ÉGALITÉ</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Madeleine</prenom>
+    <nomfamille>Caron</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>La Commission des droits de la personne du Québec est un organisme administratif chargé d’appliquer la Charte des droits et libertés de la personne mise en vigueur en 1976. Cette Charte est une loi fondamentale, en premier lieu, par l’étendue des droits qu’elle consacre : droits fondamentaux classiques, dont le droit à l’égalité, droits politiques, judiciaires et droits économiques et sociaux; en second lieu, parce que les dispositions de la Charte sur le droit à l’égalité et sur les droits judiciaires prévalent sur toute disposition d’une loi postérieure à moins que le législateur n’ait exprimé explicitement son intention contraire, en disant que la loi s’applique malgré la Charte.</alinea><alinea>Pour promouvoir les principes de la Charte, la Commission prend les moyens suivants. Quand une personne ou un groupe de personnes se plaint d’un acte de discrimination, soit de la part de l’État, soit de la part d’une personne privée, elle fait enquête, et pour cela elle peut contraindre toute personne à témoigner devant elle. Elle tente la conciliation entre les personnes en cause et, en cas d’échec, recommande formellement la cessation de l’acte reproché, l’accomplissement d’un acte ou le paiement d’une indemnité. En dernier recours, elle prend fait et cause de la victime et s’adresse aux tribunaux pour obtenir une injonction ou l’indemnité dont elle avait recommandé le paiement. Organisme essentiellement administratif, la Commission est parfois qualifiée d’organisme quasi judiciaire, notamment quand elle décide de sa compétence et contraint les témoins.</alinea><alinea>Outre l’exercice de ses pouvoirs d’enquête, la Commission analyse la législation québécoise en fonction de sa conformité aux principes de la Charte et fait des recommandations au gouvernement.</alinea><alinea>Enfin, la Commission coopère avec les groupes, reçoit leurs suggestions, fait de l’éducation aux droits de la personne, devenant ainsi, de par la volonté même du législateur québécois, un agent de changement social.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1059406ar" idproprio="1059406ar" lang="fr"
+  ordseq="5" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="647" unite="ko">/revue/rgd/1981/v12/n2/1059406ar.pdf</urlpdf>
+  <pagination>
+    <ppage>359</ppage>
+    <dpage>374</dpage>
+  </pagination>
+  <notegen lang="fr" porteenoteg="surtitre" typenoteg="edito">
+    <alinea>Tenu à Montréal du 14 au 18 septembre 1981, le XIV<exposant>e</exposant> congrès de l’Institut international de Droit d’expression française avait pour thème : Mécanismes de protection des droits de la personne. 
+La Revue générale de droit remercie vivement tous les participants canadiens d’avoir accepté de réunir leur contribution dans l’un de ses numéros. L’actualité du sujet, la qualité des présentations ainsi que leur diversité retiendront l’attention du public lecteur. 
+Nous exprimons également notre sincère gratitude à Monsieur Pierre Decheix, Secrétaire général de l’Institut international de Droit d’expression française, et à la Direction de la Revue Juridique et Politique, Indépendance et Coopération qui ont courtoisement accepté que les communications canadiennes soient publiées dans la Revue générale de droit. 
+Par ce numéro, nous voulons enfin souligner l’inauguration officielle, le 16 novembre 1981, du Centre de recherche et d’enseignement sur les droits de la personne de l’Université d’Ottawa. Le Centre publiera, dès 1983, l’Annuaire canadien des droits de la personne — The Canadian Human Rights Yearbook. </alinea>
+  </notegen>
+<liminaire>
+ <grtitre>
+  <surtitre>Droits de la personne</surtitre>
+                  <titre>LA MISE EN OEUVRE AU CANADA DES TRAITÉS RELATIFS AUX DROITS DE LA PERSONNE</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Alice</prenom>
+    <nomfamille>Desjardins</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Le partage constitutionnel des compétences entre les deux niveaux de gouvernement du Canada appelle certains mécanismes et modalités de mise en oeuvre des conventions internationales dans le domaine des droits de la personne. Tant sur le plan interne qu’international, les gouvernements et, à leur suite, les tribunaux s’efforcent d’assurer aux Canadiens le maximum de bénéfices et de contributions à la promotion juridique internationale des droits de la personne.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1059407ar" idproprio="1059407ar" lang="fr"
+  ordseq="6" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="824" unite="ko">/revue/rgd/1981/v12/n2/1059407ar.pdf</urlpdf>
+  <pagination>
+    <ppage>375</ppage>
+    <dpage>395</dpage>
+  </pagination>
+  <notegen lang="fr" porteenoteg="surtitre" typenoteg="edito">
+    <alinea>Tenu à Montréal du 14 au 18 septembre 1981, le XIV<exposant>e</exposant> congrès de l’Institut international de Droit d’expression française avait pour thème : Mécanismes de protection des droits de la personne. 
+La Revue générale de droit remercie vivement tous les participants canadiens d’avoir accepté de réunir leur contribution dans l’un de ses numéros. L’actualité du sujet, la qualité des présentations ainsi que leur diversité retiendront l’attention du public lecteur. 
+Nous exprimons également notre sincère gratitude à Monsieur Pierre Decheix, Secrétaire général de l’Institut international de Droit d’expression française, et à la Direction de la Revue Juridique et Politique, Indépendance et Coopération qui ont courtoisement accepté que les communications canadiennes soient publiées dans la Revue générale de droit. 
+Par ce numéro, nous voulons enfin souligner l’inauguration officielle, le 16 novembre 1981, du Centre de recherche et d’enseignement sur les droits de la personne de l’Université d’Ottawa. Le Centre publiera, dès 1983, l’Annuaire canadien des droits de la personne — The Canadian Human Rights Yearbook. </alinea>
+  </notegen>
+<liminaire>
+ <grtitre>
+  <surtitre>Droits de la personne</surtitre>
+                  <titre>QUELQUES ASPECTS DE LA MISE EN OEUVRE AU CANADA DES PACTES DE L’O.N.U. RELATIFS AUX DROITS DE L’HOMME</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Réal</prenom>
+    <nomfamille>Forest</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>En 1976, la « Charte internationale des droits de l’Homme » de l’O.N.U., dont la Déclaration Universelle de 1948 n’était que le premier volet, devenait enfin une réalité juridique par l’entrée en vigueur des trois instruments suivants : le Pacte international relatif aux droits économiques, sociaux et culturels, le Pacte international relatif aux droits civils et politiques et le Protocole facultatif se rapportant au Pacte international relatif aux droits civils et politiques. Aux termes de ces Pactes, les États parties assument fondamentalement deux types d’obligations : 1) assurer aux individus relevant de leur compétence, progressivement dans un cas, immédiatement dans l’autre, les droits reconnus dans les Pactes; 2) se soumettre aux procédures de contrôle international établies par les Pactes et le Protocole facultatif.</alinea><alinea>En 1976, le Canada a adhéré à chacun des Pactes et au Protocole facultatif. Or l’exécution des deux types d’obligations identifiées pose des problèmes particuliers au Canada reliés notamment, mais pas seulement à la nature fédérale de sa constitution.</alinea><alinea>Il est proposé d’étudier ici quelques-uns des problèmes soulevés par la mise en oeuvre au Canada de ces instruments.</alinea><alinea>La première partie est consacrée à l’exposé du cadre constitutionnel qui préside à la conclusion et à l’exécution des traités au Canada. La deuxième partie cherche à montrer les mécanismes adoptés pour donner suite aux obligations assumées par le Canada aux termes des Pactes en dépit des difficultés constitutionnelles.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1059408ar" idproprio="1059408ar" lang="fr"
+  ordseq="7" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="143" unite="ko">/revue/rgd/1981/v12/n2/1059408ar.pdf</urlpdf>
+  <pagination>
+    <ppage>397</ppage>
+    <dpage>400</dpage>
+  </pagination>
+  <notegen lang="fr" porteenoteg="surtitre" typenoteg="edito">
+    <alinea>Tenu à Montréal du 14 au 18 septembre 1981, le XIV<exposant>e</exposant> congrès de l’Institut international de Droit d’expression française avait pour thème : Mécanismes de protection des droits de la personne. 
+La Revue générale de droit remercie vivement tous les participants canadiens d’avoir accepté de réunir leur contribution dans l’un de ses numéros. L’actualité du sujet, la qualité des présentations ainsi que leur diversité retiendront l’attention du public lecteur. 
+Nous exprimons également notre sincère gratitude à Monsieur Pierre Decheix, Secrétaire général de l’Institut international de Droit d’expression française, et à la Direction de la Revue Juridique et Politique, Indépendance et Coopération qui ont courtoisement accepté que les communications canadiennes soient publiées dans la Revue générale de droit. 
+Par ce numéro, nous voulons enfin souligner l’inauguration officielle, le 16 novembre 1981, du Centre de recherche et d’enseignement sur les droits de la personne de l’Université d’Ottawa. Le Centre publiera, dès 1983, l’Annuaire canadien des droits de la personne — The Canadian Human Rights Yearbook. </alinea>
+  </notegen>
+<liminaire>
+ <grtitre>
+  <surtitre>Droits de la personne</surtitre>
+                  <titre>LA NATURE JURIDIQUE DE LA DÉCLARATION UNIVERSELLE DES DROITS DE L’HOMME</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>John</prenom><autreprenom>P.</autreprenom>
+    <nomfamille>Humphrey</nomfamille><suffixe typesuff="professionnel">o.c.</suffixe>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1059409ar" idproprio="1059409ar" lang="fr"
+  ordseq="8" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="480" unite="ko">/revue/rgd/1981/v12/n2/1059409ar.pdf</urlpdf>
+  <pagination>
+    <ppage>401</ppage>
+    <dpage>412</dpage>
+  </pagination>
+  <notegen lang="fr" porteenoteg="surtitre" typenoteg="edito">
+    <alinea>Tenu à Montréal du 14 au 18 septembre 1981, le XIV<exposant>e</exposant> congrès de l’Institut international de Droit d’expression française avait pour thème : Mécanismes de protection des droits de la personne. 
+La Revue générale de droit remercie vivement tous les participants canadiens d’avoir accepté de réunir leur contribution dans l’un de ses numéros. L’actualité du sujet, la qualité des présentations ainsi que leur diversité retiendront l’attention du public lecteur. 
+Nous exprimons également notre sincère gratitude à Monsieur Pierre Decheix, Secrétaire général de l’Institut international de Droit d’expression française, et à la Direction de la Revue Juridique et Politique, Indépendance et Coopération qui ont courtoisement accepté que les communications canadiennes soient publiées dans la Revue générale de droit. 
+Par ce numéro, nous voulons enfin souligner l’inauguration officielle, le 16 novembre 1981, du Centre de recherche et d’enseignement sur les droits de la personne de l’Université d’Ottawa. Le Centre publiera, dès 1983, l’Annuaire canadien des droits de la personne — The Canadian Human Rights Yearbook. </alinea>
+  </notegen>
+<liminaire>
+ <grtitre>
+  <surtitre>Droits de la personne</surtitre>
+                  <titre>LES TRIBUNAUX CANADIENS ET LA PROTECTION DES DROITS DE LA PERSONNE</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Michel</prenom>
+    <nomfamille>Lebel</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Ce travail fait une description critique des trois niveaux où peuvent intervenir les tribunaux pour assurer la protection des droits de la personne, soit en contrôlant la constitutionnalité des lois, leur quasi-constitutionnalité, i.e., leur conformité avec des lois générales sur les droits de la personne et enfin la légalité des actes de l’administration.</alinea><alinea>L’auteur estime qu’une protection judiciaire des droits de la personne fondée sur la théorie du partage des compétences entre les autorités fédérales et provinciales est une solution politique erronée à une question fondamentale, que la Déclaration canadienne des droits a été en pratique peu appliquée par les tribunaux et que ceux-ci ont eu surtout une action salutaire dans le contrôle des actes de l’administration.</alinea><alinea>Enfin cette étude conclut à l’importance pour un régime démocratique d’avoir un pouvoir judiciaire toujours soucieux de faire respecter le principe de légalité.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1059410ar" idproprio="1059410ar" lang="fr"
+  ordseq="9" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="718" unite="ko">/revue/rgd/1981/v12/n2/1059410ar.pdf</urlpdf>
+  <pagination>
+    <ppage>413</ppage>
+    <dpage>429</dpage>
+  </pagination>
+  <notegen lang="fr" porteenoteg="surtitre" typenoteg="edito">
+    <alinea>Tenu à Montréal du 14 au 18 septembre 1981, le XIV<exposant>e</exposant> congrès de l’Institut international de Droit d’expression française avait pour thème : Mécanismes de protection des droits de la personne. 
+La Revue générale de droit remercie vivement tous les participants canadiens d’avoir accepté de réunir leur contribution dans l’un de ses numéros. L’actualité du sujet, la qualité des présentations ainsi que leur diversité retiendront l’attention du public lecteur. 
+Nous exprimons également notre sincère gratitude à Monsieur Pierre Decheix, Secrétaire général de l’Institut international de Droit d’expression française, et à la Direction de la Revue Juridique et Politique, Indépendance et Coopération qui ont courtoisement accepté que les communications canadiennes soient publiées dans la Revue générale de droit. 
+Par ce numéro, nous voulons enfin souligner l’inauguration officielle, le 16 novembre 1981, du Centre de recherche et d’enseignement sur les droits de la personne de l’Université d’Ottawa. Le Centre publiera, dès 1983, l’Annuaire canadien des droits de la personne — The Canadian Human Rights Yearbook. </alinea>
+  </notegen>
+<liminaire>
+ <grtitre>
+  <surtitre>Droits de la personne</surtitre>
+                  <titre>LA SUPRÉMATIE DES DROITS ET LIBERTÉS DE LA PERSONNE ET LA QUESTION CONSTITUTIONNELLE AU CANADA</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Daniel</prenom>
+    <nomfamille>Proulx</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Le régime fédéral canadien accorde aux deux ordres de gouvernement, fédéral et provincial, une compétence législative en matière de libertés publiques. C’est ce qui explique pourquoi le Canada n’est pas encore doté d’une charte constitutionnelle des droits et libertés : ne pouvant pas en imposer une aux autres, les gouvernements ne se sont jamais entendus non plus sur un projet commun.</alinea><alinea>Chacun des onze législateurs a néanmoins adopté une loi reconnaissant certains droits fondamentaux. La suprématie de la norme de protection est alors assurée par l’existence d’une clause qui pose que les droits et libertés prévalent sur toute autre loi ordinaire à moins qu’il ne soit précisé dans une telle loi quelle s’applique « nonobstant la Déclaration des droits ».</alinea><alinea>Cette technique législative originale, qui établit un équilibre entre la suprématie parlementaire et la suprématie judiciaire, n’a pas toujours donné les résultats escomptés. Le gouvernement fédéral voudrait donc procéder à la constitutionnalisation d’une charte formelle des droits afin que la norme de protection lie tous les parlements, fédéral comme provinciaux.</alinea><alinea>Ce projet ne semble pas, à lui seul, devoir changer l’attitude conservatrice de la jurisprudence à l’égard de son rôle de protecteur des libertés fondamentales. Toutefois, si tel devait être le cas, le projet fédéral de constitutionnalisation des droits devrait inclure la clause actuelle établissant un juste équilibre entre la suprématie parlementaire et la suprématie judiciaire. Sinon, les intérêts fondamentaux de la majorité risquent d’être bafoués, ce qui serait d’une gravité singulière pour la majorité francophone du Québec, par ailleurs nettement minoritaire dans un Canada et une Amérique du nord entièrement anglophones.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1059411ar" idproprio="1059411ar" lang="fr"
+  ordseq="10" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="1,6" unite="mo">/revue/rgd/1981/v12/n2/1059411ar.pdf</urlpdf>
+  <pagination>
+    <ppage>433</ppage>
+    <dpage>470</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Droit pénal</surtitre>
+                  <titre>LE POUVOIR DE SURSIS DU JUGE ET L’ABUS DE PROCÉDURE EN DROIT CRIMINEL CANADIEN</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Rachel</prenom>
+    <nomfamille>Grondin</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1059412ar" idproprio="1059412ar" lang="fr"
+  ordseq="11" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="440" unite="ko">/revue/rgd/1981/v12/n2/1059412ar.pdf</urlpdf>
+  <pagination>
+    <ppage>473</ppage>
+    <dpage>484</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Notes, informations et documents</surtitre>
+                  <titre>LE CRÉDIT-BAIL IMMOBILIER EN DROIT FRANÇAIS CONTEMPORAIN</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Henri</prenom>
+    <nomfamille>Ader</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1059413ar" idproprio="1059413ar" lang="fr"
+  ordseq="12" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="620" unite="ko">/revue/rgd/1981/v12/n2/1059413ar.pdf</urlpdf>
+  <pagination>
+    <ppage>485</ppage>
+    <dpage>501</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Notes, informations et documents</surtitre>
+                  <titre>LA FRANCE A-T-ELLE CHANGÉ DE CONSTITUTION LE 10 MAI 1981 ?</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Michel</prenom>
+    <nomfamille>Bouissou</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1059414ar" idproprio="1059414ar" lang="fr"
+  ordseq="13" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="100" unite="ko">/revue/rgd/1981/v12/n2/1059414ar.pdf</urlpdf>
+  <pagination>
+    <ppage>505</ppage>
+    <dpage>506</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Bibliographie</surtitre>
+                
+                    <trefbiblio>
+Viateur Bergeron, — <marquage typemarq="italique">L’attribution d’une protection légale aux malades mentaux</marquage>, Montréal, Les Éditions Yvon Blais Inc, 1981 (ISBN 2-89073-102-2)</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Jacques</prenom>
+    <nomfamille>Deslauriers</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeur agrégé à la Faculté de droit de l’Université Laval</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1059415ar" idproprio="1059415ar" lang="fr"
+  ordseq="14" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="62" unite="ko">/revue/rgd/1981/v12/n2/1059415ar.pdf</urlpdf>
+  <pagination>
+    <ppage>507</ppage>
+    <dpage>508</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Bibliographie</surtitre>
+                
+                    <trefbiblio>
+Jacques Grand’Maison, <marquage typemarq="italique">De quel droit ?</marquage>, Montréal, Lemeac, 1980, tomes 1 et 2</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Pierre</prenom>
+    <nomfamille>Lemieux</nomfamille>
+   </nompers>
+  <affiliation><alinea>Professeur à la Faculté de droit de l’Université Laval</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+</sommaire>

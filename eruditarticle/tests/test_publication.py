@@ -254,6 +254,10 @@ class TestEditorialNotes(object):
         # doesn't end up in our results.
         assert value == []
 
+    @with_value('rgd04541.xml', 'get_notegens_edito')
+    def test_ignore_notegen_when_scope_is_not_numero(self, value):
+        assert value == []
+
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication', EruditPublication)
 class TestPublicationPublisher(object):
