@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+<originator username="robichma" date="2019-01-04" app="Tournesol 0.4.2"/>
+<copyright>
+	<year>2018</year>
+<contribution>
+<artificialperson>
+	<name>Circuit, musiques contemporaines</name>
+</artificialperson>
+<contributiontype>
+	<code>droit</code>
+	<label lang="en">Copyright Holder</label>
+	<label lang="fr">Titulaire du droit d'auteur</label>
+	<label lang="es">Titular del derecho de autor</label>
+</contributiontype>
+	<ordering>0</ordering>
+</contribution>
+<copyrightdeclaration>
+	<code>tdr</code>
+	<label lang="en">All Rights Reserved</label>
+	<label lang="fr">Tous droits réservés</label>
+	<label lang="es">Todos los derechos reservados</label>
+</copyrightdeclaration>
+</copyright>
+<publicationnumberingkeys>
+	<publicationtypecode>reg</publicationtypecode>
+	<years>
+		<year value="2018">
+		</year>
+	</years>
+</publicationnumberingkeys><infosommaire>
+  <url>/revue/circuit/2018/v28/n3</url>
+  <nbarticle>15</nbarticle>
+  <revue id="circuit21" lang="fr">
+    <titrerev>Circuit</titrerev>
+    <sstitrerev>Musiques contemporaines</sstitrerev>
+    <titrerevabr>circuit</titrerevabr>
+    <idissn>1183-1693</idissn>
+    <idissnnum>1488-9692</idissnnum>
+    <directeur sexe="masculin">
+      <fonction lang="fr">Directeur général </fonction>
+      <nompers>
+        <prenom>Maxime</prenom>
+        <nomfamille>McKinley</nomfamille>
+      </nompers>
+      <key>directeurgeneral</key>
+    </directeur>
+    <redacteurchef idrefs="th1" sexe="masculin" typerc="invite">
+      <nompers>
+        <prenom>Luis</prenom>
+        <nomfamille>Velasco-Pufleau</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+    <redacteurchef sexe="masculin" typerc="regulier">
+      <fonction lang="fr">Rédacteur en chef</fonction>
+      <nompers>
+        <prenom>Maxime</prenom>
+        <nomfamille>McKinley</nomfamille>
+      </nompers>
+      <key>redacteurenchef</key>
+    </redacteurchef>
+  </revue>
+  <numero id="circuit04198">
+    <volume>28</volume>
+    <nonumero>3</nonumero>
+    <pub>
+      <annee>2018</annee>
+    </pub>
+    <pubnum>
+      <date typedate="publication">2019-01-03</date>
+    </pubnum>
+    <grtheme id="th1">
+      <theme>Engagements sonores</theme>
+      <sstheme>Éthique et politique</sstheme>
+    </grtheme>
+    <idisbn13>978-2-924894-04-0</idisbn13>
+    <idisbnnum13>978-2-924894-05-7</idisbnnum13>
+  </numero>
+  <editeur>
+    <nomorg>Circuit, musiques contemporaines</nomorg>
+    <key>editeur</key>
+  </editeur>
+  <droitsauteur>Tous droits réservés © <nomorg>Circuit, musiques contemporaines</nomorg>, 2018</droitsauteur>
+</infosommaire>
+<article doi="10.7202/1055189ar" horstheme="oui" idproprio="1055189ar"
+  lang="fr" ordseq="1" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="147" unite="ko">/revue/circuit/2018/v28/n3/1055189ar.pdf</urlpdf>
+  <pagination>
+    <ppage>5</ppage>
+    <dpage>7</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>Avant-propos. Pour des musicien·ne·s <marquage typemarq="italique">organiques</marquage> ?</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Maxime</prenom>
+    <nomfamille>McKinley</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1055190ar" idproprio="1055190ar" idref="th1"
+  lang="fr" ordseq="2" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="958" unite="ko">/revue/circuit/2018/v28/n3/1055190ar.pdf</urlpdf>
+  <pagination>
+    <ppage>9</ppage>
+    <dpage>12</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>Introduction. Engagements sonores : éthique et politique</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Luis</prenom>
+    <nomfamille>Velasco-Pufleau</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1055191ar" idproprio="1055191ar" idref="th1"
+  lang="fr" ordseq="3" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="1,1" unite="mo">/revue/circuit/2018/v28/n3/1055191ar.pdf</urlpdf>
+  <pagination>
+    <ppage>13</ppage>
+    <dpage>24</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre><marquage typemarq="italique">Noli me tangere. </marquage>Violence politique, éthique protestante et composition musicale dans une section de <marquage typemarq="italique">La Petite Fille aux allumettes</marquage> de Helmut Lachenmann</titre>
+                  <titreparal lang="en">Noli me tangere. <marquage typemarq="italique">Political Violence, Protestant Ethic and Musical Composition in a Section of Helmut Lachenmann’s</marquage> The Little Match Girl</titreparal>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Laurent</prenom>
+    <nomfamille>Feneyrou</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>À partir des sections 15a et 15b de <marquage typemarq="italique">La Petite Fille aux allumettes</marquage> de Helmut Lachenmann, qui mettent en musique un extrait d’une lettre de Gudrun Ensslin, amie de jeunesse du compositeur et militante dans les mouvements étudiants ouest-allemands des années 1960, puis dans les actions de la Fraction Armée Rouge, de 1970 à sa mort en prison, en 1977, cet article interroge les relations entre écriture musicale, éthique protestante et engagement politique. Décrivant la musique des deux sections et ses principes, où prime l’exigence de l’action plutôt que l’intention, il s’interroge sur un contexte biographique et sur les conditions culturelles, historiques et politiques qui rendent possible son intégration dans une oeuvre d’art à la fin du <marquage typemarq="petitecap">xx</marquage><exposant>e</exposant> siècle.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">Studying sections 15a and 15b of Helmut Lachenmann’s </marquage>The Little Match Girl<marquage typemarq="italique">, which set to music an excerpt from a letter written by Gudrun Ensslin, a youth friend of the composer and activist in the 1960s West German student movements, then in the actions of the Red Army Faction, from 1970 to her death in prison in 1977, this article deals with the relations between music composition, Protestant ethics and political commitment. Describing the music of the two sections and its principles, where the need for action rather than intention is paramount, it questions a biographical context and the cultural, historical and political conditions that make it possible to integrate it into a work of art at the end of the twentieth century.</marquage></alinea>
+ </resume><grmotcle lang="fr"><motcle>Helmut Lachenmann</motcle><motcle><marquage typemarq="italique">La Petite Fille aux allumettes</marquage></motcle><motcle>Gudrun Ensslin</motcle><motcle>Fraction Armée Rouge</motcle><motcle>protestantisme</motcle></grmotcle><grmotcle lang="en"><motcle><marquage typemarq="italique">Helmut Lachenmann</marquage></motcle><motcle>The Little Match Girl</motcle><motcle><marquage typemarq="italique">Gudrun Ensslin</marquage></motcle><motcle><marquage typemarq="italique">Red Army Faction</marquage></motcle><motcle><marquage typemarq="italique">Protestantism</marquage></motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1055192ar" idproprio="1055192ar" idref="th1"
+  lang="en" ordseq="4" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="1,5" unite="mo">/revue/circuit/2018/v28/n3/1055192ar.pdf</urlpdf>
+  <pagination>
+    <ppage>25</ppage>
+    <dpage>38</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre><marquage typemarq="italique">Gernikaren itzalpean</marquage>: Propaganda, Appropriation, and Depoliticisation of Basque Art Music</titre>
+                  <titreparal lang="fr"><marquage typemarq="italique">Gernikaren itzalpean</marquage> : propagande, appropriation et dépolitisation de la musique d’art basque</titreparal>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>José</prenom><autreprenom>L.</autreprenom>
+    <nomfamille>Besada</nomfamille>
+   </nompers>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>Ainara</prenom>
+    <nomfamille>Zubizarreta</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Le bombardement de Guernica est le crime de guerre le plus connu de la Guerre d’Espagne. La commune, symbole des essences basques, a été détruite par un raid aérien italo-allemand ayant duré plus de trois heures, et près de deux cents personnes ont été tuées. Malheureusement, cet événement abominable demeure toujours controversé parmi les factions politiques disparates, donnant parfois lieu à une mémoire abondante en idées reçues.</alinea><alinea>Comme la musique joue souvent un rôle politique au sein des conflits, en particulier ceux impliquant la violence, il n’est pas surprenant que le bombardement de Guernica ait inspiré plusieurs compositions de musique dite « savante ». Parmi les cas possibles, nous étudions trois oeuvres de compositeurs basques : Pablo Sorozábal, Francisco Escudero et Ramon Lazkano. Chaque étude de cas reflète, en termes politiques, un événement de propagande, une appropriation musicale et une dépolitisation collatérale des mémoires autour du crime de guerre.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">The Bombing of Guernica stands as the best-known war crime during the Spanish Civil War. The town symbolically representing the Basque essences was destroyed by a German-Italian air raid lasting over three hours, and almost two hundred people were killed. Unfortunately, this abominable event remains contentious among disparate political factions, sometimes upholding its memory by means of tailor-made interpretations.</marquage></alinea><alinea><marquage typemarq="italique">As music often performs a political role within conflicts, particularly those involving violence, it is not surprising that the Bombing of Guernica has inspired several compositions of art music. Among them, we study three works by Basque composers, namely Pablo Sorozábal, Francisco Escudero, and Ramon Lazkano. Each case study respectively stands, politically speaking, as a propagandistic event, a musical appropriation, and a collateral depoliticization of the vivid memories around the war crime.</marquage></alinea>
+ </resume><grmotcle lang="fr"><motcle><marquage typemarq="italique">Guernica</marquage></motcle><motcle>nationalisme</motcle><motcle>musique basque</motcle><motcle>musique et conflit</motcle><motcle>Francisco Escudero</motcle><motcle>Pablo Sorozábal</motcle><motcle>Ramon Lazkano</motcle><motcle>Mikel Laboa</motcle></grmotcle><grmotcle lang="en"><motcle>Guernica</motcle><motcle><marquage typemarq="italique">nationalism</marquage></motcle><motcle><marquage typemarq="italique">Basque music</marquage></motcle><motcle><marquage typemarq="italique">music and conflict</marquage></motcle><motcle><marquage typemarq="italique">Francisco Escudero</marquage></motcle><motcle><marquage typemarq="italique">Pablo Sorozábal</marquage></motcle><motcle><marquage typemarq="italique">Ramon Lazkano</marquage></motcle><motcle><marquage typemarq="italique">Mikel Laboa</marquage></motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1055193ar" idproprio="1055193ar" idref="th1"
+  lang="en" ordseq="5" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="315" unite="ko">/revue/circuit/2018/v28/n3/1055193ar.pdf</urlpdf>
+  <pagination>
+    <ppage>39</ppage>
+    <dpage>51</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>Cornelius Cardew behind the Iron Curtain</titre>
+                  <titreparal lang="fr">Cornelius Cardew derrière le Rideau de Fer</titreparal>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Monika</prenom>
+    <nomfamille>Żyła</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Cet article se penche sur la réception de la musique de Cornelius Cardew à l’occasion du festival Automne de Varsovie entre 1960 et 1970. À l’époque, ce festival soutenu par l’État, organisé depuis 1956 dans la capitale de la République populaire de Pologne, était considéré comme une vitrine majeure et libérale d’avant-gardes européennes provenant des deux côtés du Rideau de fer. Dans ce texte, l’auteur s’intéresse aux conséquences découlant de la programmation de la musique de Cardew lors d’un festival s’étant tenu dans un pays appartenant au Bloc de l’Est. Elle analyse la manière dont les critiques musicaux et les intellectuels polonais ont interprété la musique de Cardew, tout particulièrement ses oeuvres <marquage typemarq="italique">Treatise</marquage> et <marquage typemarq="italique">The Great Learning</marquage>, condamnées pour leurs éléments communistes et leurs références pro-chinoises, explicitement maoïstes et confucianistes. L’auteure argumente que le rejet de la musique de Cardew en Pologne résulte de biais envers les penchants socialistes exprimés dans sa musique, portés sur l’émancipation et le collectif. Cet article découle de recherches menées dans les archives de l’Union des compositeurs de Pologne, du festival Automne de Varsovie, de la Fondation Paul Sacher et de Deutsches Polen.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">The article considers the reception of Cornelius Cardew’s music at the Warsaw Autumn festival between 1960 and 1970. At that time, the state-backed festival—organized since 1956 in the capital of the People’s Republic of Poland—was considered to be an important and liberal showcase of European avant-garde from both sides of the Iron Curtain. In the article, I primarily look at the consequences of programming Cardew’s music at the festival held in a country belonging to the Eastern Block of Soviet Satellite States. I discuss further, how music critics and polish intellectuals interpreted Cardew’s music, especially his </marquage>Treatise<marquage typemarq="italique">, and </marquage>The Great Learning<marquage typemarq="italique">, and condemned it for their allegedly communist, pro-Chinese overtones, and explicit Maoist and Confucianist references. The rejection of Cardew’s music in Poland resulted from a bias towards his socialist, collective, and emancipatory tendencies expressed by his music. The article is based on my archival research conducted in the archive of the Polish Composers Union, the Warsaw Autumn archive, Paul Sacher Stiftung in Basel and Deutsches Polen - Institute in Darmstadt.</marquage></alinea>
+ </resume><grmotcle lang="fr"><motcle>Automne de Varsovie</motcle><motcle>Cornelius Cardew</motcle><motcle>musique et politique</motcle><motcle>Guerre froide</motcle><motcle>années 1960</motcle></grmotcle><grmotcle lang="en"><motcle><marquage typemarq="italique">Warsaw Autumn</marquage></motcle><motcle><marquage typemarq="italique">Cornelius Cardew</marquage></motcle><motcle><marquage typemarq="italique">music and politics</marquage></motcle><motcle><marquage typemarq="italique">Cold War</marquage></motcle><motcle><marquage typemarq="italique">1960s</marquage></motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1055194ar" idproprio="1055194ar" idref="th1"
+  lang="fr" ordseq="6" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="298" unite="ko">/revue/circuit/2018/v28/n3/1055194ar.pdf</urlpdf>
+  <pagination>
+    <ppage>53</ppage>
+    <dpage>64</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>L’écoute musicale comme construction du commun</titre>
+                  <titreparal lang="en"><marquage typemarq="italique">Musical Listening as Construction of Commonness</marquage></titreparal>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Makis</prenom>
+    <nomfamille>Solomos</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Dans la tradition musicale idéaliste, l’écoute s’apparente à la plongée dans l’univers singulier de l’oeuvre musicale, conçue comme monade où chaque élément de la réalité a sa représentation : écouter signifie s’immerger dans une intériorité qui forme un monde en soi. La conséquence de cette forme d’écoute est une relative surdité à son environnement immédiat. Certaines formes actuelles d’addiction aurale, bénéficiant notamment du productivisme consumériste, renforcent jusqu’à la caricature cette surdité. C’est sans doute pourquoi de nombreux artistes d’aujourd’hui, et notamment ceux gravitant autour de l’écologie acoustique ou sonore, renversent la perspective et pensent l’écoute comme manière de se mettre en relation avec le monde. Cela passe souvent par une relative disparition de l’oeuvre (au profit de processus) et par un recentrement sur l’acte même d’écouter. Ce renversement n’est pas seulement un choix esthétique, il est aussi politique : il met en avant l’idée que l’écoute peut être <marquage typemarq="italique">construction du commun</marquage>.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">The Idealist musical tradition associates the act of listening to and immersion into the singular univers of musical works, each conceived as a monad in which every element of reality has its own representation: listening means diving in a form of interiority that has is a world in itself. The consequence of such a listening habit is a relative deafness to one’s immediate environment. Certain actual forms of auditive addiction, drawing on consumerist productivity, push this deafness to caricature like levels. This might explain why so many present artists, especially those working on sonic and acoustic ecologies, tend to reverse perspectives and to think the act of listening as a way to interact with the world. This often happens through the disappearance of the work while the process itself takes precedence, and by refocusing one’s action on the very act of listening. This reversal is not only an aesthetic choice, it also is a political one: it puts forth the idea that listening is a construction of </marquage>commonness<marquage typemarq="italique">.</marquage></alinea>
+ </resume><grmotcle lang="fr"><motcle>écoute musicale</motcle><motcle>commun(s)</motcle><motcle>milieu sonore</motcle><motcle>autonomie</motcle><motcle>écologie sonore</motcle></grmotcle><grmotcle lang="en"><motcle><marquage typemarq="italique">Musical Listening</marquage></motcle><motcle><marquage typemarq="italique">Commonness</marquage></motcle><motcle><marquage typemarq="italique">Sound Milieu</marquage></motcle><motcle><marquage typemarq="italique">Autonomy</marquage></motcle><motcle><marquage typemarq="italique">Sound Ecology</marquage></motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1055195ar" idproprio="1055195ar" idref="th1"
+  lang="fr" ordseq="7" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="189" unite="ko">/revue/circuit/2018/v28/n3/1055195ar.pdf</urlpdf>
+  <pagination>
+    <ppage>65</ppage>
+    <dpage>70</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre><marquage typemarq="italique">Le trésor de la langue</marquage> : un entretien avec René Lussier</titre>
+                  <titreparal lang="en">Le trésor de la langue: <marquage typemarq="italique">An Interview with René Lussier</marquage></titreparal>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Luis</prenom>
+    <nomfamille>Velasco-Pufleau</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea><marquage typemarq="italique">Le trésor de la langue</marquage> (1989) est une oeuvre unique en son genre. Sorte de « <marquage typemarq="italique">road movie</marquage> » sonore, elle explore les dimensions politique, historique et poétique de la langue française parlée au Québec. En rapprochant des matériaux hétérogènes grâce à la technique du collage sonore, René Lussier propose une écoute critique de l’histoire du Québec. Cet entretien retrace la genèse du <marquage typemarq="italique">Trésor de la langue</marquage> ainsi que certains des enjeux éthiques et politiques de l’utilisation d’archives sonores et d’enregistrements de terrain présents dans cette oeuvre. Il témoigne de la capacité de la musique à investir l’histoire récente afin de répondre à des interrogations communes, au-delà des dits et des non-dits de la mémoire collective et de l’histoire officielle.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">Within its genre, </marquage>Le trésor de la langue<marquage typemarq="italique"> (1989) is a unique musical work. A kind of sonic “road movie,” it explores the political, historical and poetic dimensions of the French language spoken in Quebec. Bringing together heterogeneous materials through the technique of sound collage, René Lussier offers a critical listening of the history of Quebec. This interview tracks the compositional process of </marquage>Le trésor de la langue<marquage typemarq="italique"> as well as some of the ethical and political issues involved in the use of sound archives and field recordings in this work. It testifies to the capacity of music to scrutinise recent history in order to answer common questions, beyond what is said and what is silenced in collective memory and official history.</marquage></alinea>
+ </resume><grmotcle lang="fr"><motcle>René Lussier</motcle><motcle>Québec</motcle><motcle>collage sonore</motcle><motcle>écoute</motcle><motcle>musique et politique</motcle></grmotcle><grmotcle lang="en"><motcle><marquage typemarq="italique">René Lussier</marquage></motcle><motcle><marquage typemarq="italique">Quebec</marquage></motcle><motcle><marquage typemarq="italique">listening</marquage></motcle><motcle><marquage typemarq="italique">music and politics</marquage></motcle><motcle><marquage typemarq="italique">sound collage</marquage></motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1055196ar" idproprio="1055196ar" idref="th1"
+  lang="fr" ordseq="8" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="1,9" unite="mo">/revue/circuit/2018/v28/n3/1055196ar.pdf</urlpdf>
+  <pagination>
+    <ppage>71</ppage>
+    <dpage>86</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Cahier d’analyse</surtitre>
+                  <titre><marquage typemarq="italique">Le trésor de la langue</marquage> de René Lussier : documentation d’un voyage, de la quête linguistique au débat politique</titre>
+                  <titreparal lang="en"><marquage typemarq="italique">René Lussier’s </marquage>Le trésor de la langue<marquage typemarq="italique">: Documentation of a Journey, from Linguistic Quest to Political Debate</marquage></titreparal>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Ana</prenom>
+    <nomfamille>Dall’Ara-Majek</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Chef-d’oeuvre du compositeur et musicien René Lussier, <marquage typemarq="italique">Le trésor de la langue</marquage> s’articule autour de trois axes : l’approche musicale et linguistique fait état de la particularité de l’oeuvre à transcrire instrumentalement la voix parlée tout en la réorchestrant dans des styles musicaux variés ; l’approche documentaire se focalise sur le récit du voyage du compositeur entre Montréal et Québec, et offre un témoignage de l’oeuvre en train de se faire ; enfin l’approche historique fait le lien entre la documentation collectée et agencée par le compositeur, et les enjeux historiques et politiques qui s’en dégagent, remettant sur le devant de la scène les événements marquants du <marquage typemarq="petitecap">xx</marquage><exposant>e</exposant> siècle, notamment le débat sur la souveraineté et l’épineuse question identitaire au Québec.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">Masterpiece of composer and performer René Lussier, </marquage>Le trésor de la langue<marquage typemarq="italique"> revolves around three main axes: its musical and linguistic approach shows the singularity of the work, which translates spoken language into instrumental music while also arranging it a in variety of musical styles; its documentary approach focuses on the composer’s travel story, between Montreal and Quebec City, and offers witness of the making of the work; finally, the historical approach ties together both the material collected and arranged by the composer, and the historical and political issues addressed in the work. In so doing, its propels to the front scene major </marquage><marquage typemarq="italique"><marquage typemarq="petitecap">xx</marquage></marquage><marquage typemarq="italique">th century events, </marquage><marquage typemarq="italique">such as the debate around sovereignty and Quebec’s difficult identity issues.</marquage></alinea>
+ </resume><grmotcle lang="fr"><motcle>archives folkloriques</motcle><motcle>québécois</motcle><motcle>débat politique</motcle><motcle>musiques actuelles</motcle><motcle>film sonore</motcle></grmotcle><grmotcle lang="en"><motcle><marquage typemarq="italique">folk archives</marquage></motcle><motcle><marquage typemarq="italique">quebecer</marquage></motcle><motcle><marquage typemarq="italique">political debate</marquage></motcle><motcle><marquage typemarq="italique">current music</marquage></motcle><motcle><marquage typemarq="italique">sound film</marquage></motcle></grmotcle>
+</liminaire>
+</article>
+<article doi="10.7202/1055197ar" horstheme="oui" idproprio="1055197ar"
+  lang="fr" ordseq="9" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="123" unite="ko">/revue/circuit/2018/v28/n3/1055197ar.pdf</urlpdf>
+  <pagination>
+    <ppage>87</ppage>
+    <dpage>88</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Exclusivité web</surtitre>
+                  <titre>Québec : traces sonores du printemps 2012</titre>
+                <sstitre>« et tout ce qu’on entendait, c’était la clameur populaire, au loin »</sstitre>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1"><contribution typecontrib="aut">Une enquête en ligne de</contribution>
+   <nompers>
+    <prenom>Symon</prenom>
+    <nomfamille>Henry</nomfamille>
+   </nompers>
+  </auteur>
+  <auteur id="au2"><contribution typecontrib="aut">Une enquête en ligne de</contribution>
+   <nompers>
+    <prenom>Emanuelle</prenom>
+    <nomfamille>Majeau-Bettez</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur><notegen typenoteg="edito"><alinea>Enquête disponible en ligne sur la plateforme Hypothèses : 
+ <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:href="https://quebec2012.hypotheses.org" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://quebec2012.hypotheses.org</liensimple> ainsi que sur le site internet de la revue <marquage typemarq="italique">Circuit</marquage> : 
+ <liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls2" xlink:href="https://revuecircuit.ca/web" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://revuecircuit.ca/web</liensimple></alinea></notegen>
+</liminaire>
+</article>
+<article doi="10.7202/1055198ar" horstheme="oui" idproprio="1055198ar"
+  lang="fr" ordseq="10" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="261" unite="ko">/revue/circuit/2018/v28/n3/1055198ar.pdf</urlpdf>
+  <pagination>
+    <ppage>89</ppage>
+    <dpage>92</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Actualités</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Analyser la musique mixte</marquage>, d’Alain Bonardi, Bruno Bossis, Pierre Couprie et Vincent Tiffon (dir.), Sampzon, Delatour, 2017, 320 pages</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1"><contribution typecontrib="aut">Compte rendu de</contribution>
+   <nompers>
+    <prenom>Eric </prenom>
+    <nomfamille>Maestri</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1055199ar" horstheme="oui" idproprio="1055199ar"
+  lang="fr" ordseq="11" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="306" unite="ko">/revue/circuit/2018/v28/n3/1055199ar.pdf</urlpdf>
+  <pagination>
+    <ppage>93</ppage>
+    <dpage>95</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Actualités</surtitre>
+                  <titre><marquage typemarq="petitecap">smcq</marquage> – Par 5 chemins…</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Réjean</prenom>
+    <nomfamille>Beaucage</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1055200ar" horstheme="oui" idproprio="1055200ar"
+  lang="fr" ordseq="12" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="985" unite="ko">/revue/circuit/2018/v28/n3/1055200ar.pdf</urlpdf>
+  <pagination>
+    <ppage>96</ppage>
+    <dpage>97</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Actualités</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">The Concert Accordion : Contemporary Perspectives</marquage>, de Joseph Petrič, Essen, Augemus Musikverlag, 2017, 321 pages</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1"><contribution typecontrib="aut">Compte rendu de</contribution>
+   <nompers>
+    <prenom>Réjean</prenom>
+    <nomfamille>Beaucage</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1055201ar" horstheme="oui" idproprio="1055201ar"
+  lang="fr" ordseq="13" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="632" unite="ko">/revue/circuit/2018/v28/n3/1055201ar.pdf</urlpdf>
+  <pagination>
+    <ppage>98</ppage>
+    <dpage>99</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Actualités</surtitre>
+                  <titre><marquage typemarq="italique">voir dans le vent qui hurle les étoiles rire, et rire</marquage> : partitions graphiques de Symon Henry, en collaboration avec les Éditions de la Tournure, 2016, 206 pages</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1"><contribution typecontrib="aut">Compte rendu de</contribution>
+   <nompers>
+    <prenom>Réjean</prenom>
+    <nomfamille>Beaucage</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1055202ar" horstheme="oui" idproprio="1055202ar"
+  lang="fr" ordseq="14" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="483" unite="ko">/revue/circuit/2018/v28/n3/1055202ar.pdf</urlpdf>
+  <pagination>
+    <ppage>101</ppage>
+    <dpage>103</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Actualités</surtitre>
+                  <titre><marquage typemarq="italique">Créé dans</marquage> Le Vivier</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Gabrielle</prenom>
+    <nomfamille>Blais-Sénéchal</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1055203ar" horstheme="oui" idproprio="1055203ar"
+  lang="fr" ordseq="15" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="1,4" unite="mo">/revue/circuit/2018/v28/n3/1055203ar.pdf</urlpdf>
+  <pagination>
+    <ppage>105</ppage>
+    <dpage>106</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>Les illustrations</titre>
+                
+         </grtitre>
+</liminaire>
+</article>
+</sommaire>

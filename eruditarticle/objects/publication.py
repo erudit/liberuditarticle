@@ -6,6 +6,7 @@ except ImportError:
     _ = lambda x: x  # noqa
 
 import collections
+import html
 import itertools
 import roman
 from datetime import datetime
@@ -221,8 +222,10 @@ class EruditPublication(
         def _theme_name_formatter(name, subname, lang):
             # Lower case the first letter if theme name is in French.
             if subname and lang == 'fr':
+                # Convert html entities (&#201; -> É) so that the first letter gets lowercased.
+                subname = html.unescape(subname)
                 subname = subname[0].lower() + subname[1:]
-            return "{} : {}".format(name, subname) if subname else name
+            return "{}\xa0: {}".format(name, subname) if subname else name
 
         return list(map(lambda t: _theme_name_formatter(t[0], t[1], t[2]), theme_name_subnames))
 
