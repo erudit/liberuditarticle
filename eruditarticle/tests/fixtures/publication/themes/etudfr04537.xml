@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+<originator username="robichac" date="2019-05-06" app="Tournesol 0.5.3"/>
+<copyright>
+	<year>2019</year>
+<contribution>
+<artificialperson>
+	<name>Les Presses de l’Université de Montréal</name>
+</artificialperson>
+<contributiontype>
+	<code>droit</code>
+	<label lang="en">Copyright Holder</label>
+	<label lang="fr">Titulaire du droit d'auteur</label>
+	<label lang="es">Titular del derecho de autor</label>
+</contributiontype>
+	<ordering>0</ordering>
+</contribution>
+<copyrightdeclaration>
+	<code>tdr</code>
+	<label lang="en">All Rights Reserved</label>
+	<label lang="fr">Tous droits réservés</label>
+	<label lang="es">Todos los derechos reservados</label>
+</copyrightdeclaration>
+</copyright>
+<publicationnumberingkeys>
+	<publicationtypecode>reg</publicationtypecode>
+	<years>
+		<year value="2019">
+		</year>
+	</years>
+</publicationnumberingkeys><infosommaire>
+  <url>/revue/etudfr/2019/v55/n1</url>
+  <nbarticle>10</nbarticle>
+  <revue id="etudfr13" lang="fr">
+    <titrerev>Études françaises</titrerev>
+    <titrerevabr>etudfr</titrerevabr>
+    <idissn>0014-2085</idissn>
+    <idissnnum>1492-1405</idissnnum>
+    <directeur sexe="feminin">
+      <fonction lang="fr">Directrice</fonction>
+      <nompers>
+        <prenom>Élisabeth</prenom>
+        <nomfamille>Nardout-Lafarge</nomfamille>
+      </nompers>
+      <key>directrice</key>
+    </directeur>
+    <redacteurchef idrefs="th1" sexe="feminin" typerc="invite">
+      <nompers>
+        <prenom>Margot</prenom>
+        <nomfamille>Irvine</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+    <redacteurchef idrefs="th1" sexe="feminin" typerc="invite">
+      <nompers>
+        <prenom>Karin</prenom>
+        <nomfamille>Schwerdtner</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+  </revue>
+  <numero id="etudfr04537">
+    <volume>55</volume>
+    <nonumero>1</nonumero>
+    <pub>
+      <annee>2019</annee>
+    </pub>
+    <pubnum>
+      <date typedate="publication">2019-05-02</date>
+    </pubnum>
+    <grtheme id="th1">
+
+      <theme>Entre public et privé : lettres d’écrivains depuis le <marquage typemarq="petitecap">xix</marquage>
+        <exposant>e</exposant> siècle</theme>
+    </grtheme>
+    <idisbn13>978-2-7606-4029-0</idisbn13>
+    <idisbnnum13>978-2-7606-4030-6</idisbnnum13>
+    <idisbnepub>978-2-7606-4031-3</idisbnepub>
+  </numero>
+  <editeur>
+    <nomorg>Les Presses de l’Université de Montréal</nomorg>
+    <key>editeur</key>
+  </editeur>
+  <droitsauteur>Tous droits réservés © <nomorg>Les Presses de l’Université de Montréal</nomorg>, 2019</droitsauteur>
+</infosommaire>
+<article doi="10.7202/1059364ar" idproprio="1059364ar" idref="th1"
+  lang="fr" ordseq="1" qualtraitement="complet" typeart="autre">
+  <urlhtml>/revue/etudfr/2019/v55/n1/1059364ar.html</urlhtml>
+  <urlpdf taille="187" unite="ko">/revue/etudfr/2019/v55/n1/1059364ar.pdf</urlpdf>
+  <urlplan>/revue/etudfr/2019/v55/n1/1059364ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>5</ppage>
+    <dpage>15</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>Présentation</titre>
+                <sstitre>Entre public et privé : lettres d’écrivains depuis le <marquage typemarq="petitecap">xix</marquage><exposant>e</exposant> siècle</sstitre>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Karin</prenom>
+    <nomfamille>Schwerdtner</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1059365ar" idproprio="1059365ar" idref="th1"
+  lang="fr" ordseq="2" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/etudfr/2019/v55/n1/1059365ar.html</urlhtml>
+  <urlpdf taille="218" unite="ko">/revue/etudfr/2019/v55/n1/1059365ar.pdf</urlpdf>
+  <urlplan>/revue/etudfr/2019/v55/n1/1059365ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>17</ppage>
+    <dpage>31</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>« Le sentiment dont nous parlons »</titre>
+                <sstitre>La correspondance de Georges Hérelle<renvoi id="re1no1" idref="no1" typeref="note">1</renvoi></sstitre>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Clive</prenom>
+    <nomfamille>Thomson</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Georges Hérelle (1848-1935) est bien connu, de son vivant, pour ses excellentes traductions en français de l’oeuvre de l’écrivain italien Gabriele D’Annunzio et pour ses travaux d’érudition sur le théâtre populaire basque. Dans notre étude récente, <marquage typemarq="italique">Georges Hérelle</marquage> :<marquage typemarq="italique"> archéologue de l’inversion sexuelle </marquage>« <marquage typemarq="italique">fin de siècle » </marquage>(Paris, Éditions du Félin, 2014)<marquage typemarq="italique">, </marquage>nous avons insisté sur l’important rôle qu’il a joué comme historien et surtout archiviste de l’homosexualité, en examinant son journal intime, ses notes de voyage, ses albums de photographies et ses manuscrits inédits. Se caractérisant comme « timide et un peu sauvage », Hérelle avoue, dans son journal intime, « sa crainte d’être indiscret ». Il décide, très jeune, de mener une double vie. Dans le contexte de sa longue carrière de professeur de philosophie, il conserve l’image publique d’un homme convenable et modeste. C’est une question de survie, dit-il, parce qu’il est entouré d’une société extrêmement hostile et intolérante. Par ailleurs, il fréquente discrètement dans sa vie privée un tout petit groupe d’amis homosexuels. Dans l’article présent, nous abordons un nouvel objet d’étude, à savoir les lettres des années 1860 et 1870 qu’Hérelle a adressées à Paul Bourget et à d’autres amis intimes. Hérelle et ses amis se racontent les menus détails de leur vie quotidienne, mais aussi leurs aventures amoureuses, pensées intimes et ambitions littéraires. Ces jeunes gens sont à la recherche d’un langage qui leur permettrait de décrire avec précision la nature de leurs sentiments amoureux. Notre analyse révèle une image singulièrement riche de la vie homosexuelle à un moment historique précis – les premières années de la Troisième République – pour lequel il existe très peu de témoignages autobiographiques d’homosexuels.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">Georges Hérelle (1848-1935) was well known, during his lifetime, for his excellent French translations of the work of the Italian author Gabriele D’Annunzio and for his research on Basque popular theatre. In our recent study, </marquage>Georges Hérelle: archéologue de l’inversion sexuelle «fin de siècle»<marquage typemarq="italique"> (Paris, Éditions du Félin, 2014), we’ve concentrated on the important role he played as a historian and particularly as an archivist of homosexuality, drawing from his private journal, his voyage log, his photograph albums and his unpublished manuscripts. Describing himself as “timid and a bit wild,” Hérelle admits in his journal his “fear of being indiscreet.” He decided while still very young to lead a double life. In the context of his long career as a professor of Philosophy, he maintained the public image of a conventional, modest man. It was a question of survival, according to Hérelle, because he was surrounded by a hostile and intolerant society. However, in his private life, he discretely kept company with a small group of homosexual friends. In this article, we focus on a new object of study: the letters that Hérelle wrote in the 1860s and 1870s to Paul Bourget and other close friends. Hérelle and his friends discuss the details of their daily lives, but also their romantic adventures, intimate thoughts and literary ambitions. These young people were searching for a language that would allow them to describe precisely the nature of their romantic feelings. Our analysis reveals a singularly rich image of homosexual life at a precise historical moment – the first years of the Third Republic – for which there exist very few autobiographical accounts by homosexuals.</marquage></alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1059366ar" idproprio="1059366ar" idref="th1"
+  lang="fr" ordseq="3" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/etudfr/2019/v55/n1/1059366ar.html</urlhtml>
+  <urlpdf taille="235" unite="ko">/revue/etudfr/2019/v55/n1/1059366ar.pdf</urlpdf>
+  <urlplan>/revue/etudfr/2019/v55/n1/1059366ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>33</ppage>
+    <dpage>49</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>« Rien ne sera plus beau que ces lettres »</titre>
+                <sstitre>La correspondance de Romain Rolland et de Louise Cruppi</sstitre>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Margot</prenom>
+    <nomfamille>Irvine</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>La correspondance de Louise Cruppi et de Romain Rolland, inédite et conservée dans le Fonds Romain Rolland à la BnF, comprend des centaines de lettres échangées par les deux auteurs entre 1905 et 1925. Cet article examine les représentations de Cruppi et de Rolland, entre public et privé, qui émergent de ces lettres, afin de comprendre ce que cette importante correspondance représentait pour eux, personnellement et professionnellement. Les différences dans les identités publiques et privées d’un homme et d’une femme de lettres au début du vingtième siècle retiennent en particulier notre attention, ainsi que le rôle de cette longue amitié dans les carrières intellectuelles de ces deux auteurs.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">The correspondence between Louise Cruppi and Romain Rolland, unpublished and preserved in the Fonds Romain Rolland at the French National Library, consists of hundreds of letters exchanged by the two authors between 1905 and 1925. This article will examine the representations of Cruppi and Rolland, public and private, that emerged from these letters, in an attempt to understand what this important correspondence represented for them, both personally and professionally. We wish to focus in particular on the differences between the public and private identities of a man and a woman of letters in the early twentieth century, as well as on the role that this long friendship played in the intellectual careers of both authors.</marquage></alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1059367ar" idproprio="1059367ar" idref="th1"
+  lang="fr" ordseq="4" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/etudfr/2019/v55/n1/1059367ar.html</urlhtml>
+  <urlpdf taille="236" unite="ko">/revue/etudfr/2019/v55/n1/1059367ar.pdf</urlpdf>
+  <urlplan>/revue/etudfr/2019/v55/n1/1059367ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>51</ppage>
+    <dpage>66</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>Identité fluide dans la correspondance de Zola et la pratique de l’autoportrait</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Geneviève</prenom>
+    <nomfamille>De Viveiros</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Zola n’est pas étranger à l’art du portrait : journaliste, il a signé de nombreux textes où il met en scène ses contemporains. La correspondance, parce qu’elle permet l’autoréflexion à travers le dialogue avec l’autre, est également le lieu d’expression chez Zola, de portraits et d’autoportraits. Nous cherchons à montrer, dans notre article, en parcourant différents exemples d’autoportraits accueillis par la correspondance du romancier, comment il se présente comme épistolier. L’identité qu’assume le romancier dans ses lettres est souvent fluide, changeante, dépendante des rapports qu’il entretient avec le monde littéraire. Ceci est surtout vrai en ce qui concerne les échanges épistolaires entretenus avec d’autres acteurs du champ littéraire, écrivains, critiques et journalistes.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">Zola is no stranger to the art of the portrait: as a journalist, he penned many biographical texts describing his contemporaries. His correspondence, which allows for self-reflection through dialogue with the other, is also host to numerous portraits and self-portraits. In our article we seek to show, by poring over different examples of self-portraits found in the novelist’s correspondence, how Zola presents himself to his readers. The identity assumed by the novelist in his letters is often fluid, changing, dependant upon his relations with the literary world. This is especially true concerning his epistolary exchanges with other actors of the literary field, writers, critics, and journalists.</marquage></alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1059368ar" idproprio="1059368ar" idref="th1"
+  lang="fr" ordseq="5" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/etudfr/2019/v55/n1/1059368ar.html</urlhtml>
+  <urlpdf taille="281" unite="ko">/revue/etudfr/2019/v55/n1/1059368ar.pdf</urlpdf>
+  <urlplan>/revue/etudfr/2019/v55/n1/1059368ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>67</ppage>
+    <dpage>87</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre><marquage typemarq="italique">De la vie dans son art, de l’art dans sa vie</marquage></titre>
+                <sstitre>Identités publiques et privées dans la correspondance d’Anny Duperey et Nina Vidrovitch</sstitre>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Tara</prenom>
+    <nomfamille>Collington</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Publié en 2008, le recueil <marquage typemarq="italique">De la vie dans son art, de l’art dans sa vie</marquage> (Paris, Seuil) reproduit la correspondance entre la comédienne et écrivaine Anny Duperey et la peintre Nina Vidrovitch sur une période de cinq ans, de 1993 à 1998. La présente étude examine d’abord la naissance de cette correspondance et puis la genèse du projet de publication, tout en soulignant quelques aspects formels de l’oeuvre en question. Les deux épistolières abordent une variété de sujets dans leurs échanges, mais un fil conducteur réunit toutes les lettres reproduites dans le livre : la question d’assumer son identité en tant que « femme artiste ». Nous nous penchons sur trois thèmes incontournables de ce recueil : d’abord, la question de la bonne gestion de son image en tant que femme artiste ; ensuite la question de l’imbrication des vies privées et publiques des deux femmes ; et finalement le rapport entre la création artistique et la pratique épistolaire.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">Published in 2008, </marquage>De la vie dans son art, de l’art dans sa vie<marquage typemarq="italique"> (Paris, Seuil) contains the letters exchanged between the actress and writer Anny Duperey and the painter Nina Vidrovitch over a period of 5 years, from 1993 to 1998. This article will first examine the birth of this correspondence as well as the eventual decision to publish a selection of letters, while also noting some formal aspects of the work in question. The two writers explore a variety of subjects in their letters. But one constant in their writings is the desire to explore the question of their identity as female artists. The present study will thus subsequently examine three major themes in the text: first, the question of one’s image or physical appearance as a female artist; second, the interconnectedness of their public and private lives; and finally the relationship between artistic creation and epistolary practice.</marquage></alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1059369ar" idproprio="1059369ar" idref="th1"
+  lang="fr" ordseq="6" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/etudfr/2019/v55/n1/1059369ar.html</urlhtml>
+  <urlpdf taille="226" unite="ko">/revue/etudfr/2019/v55/n1/1059369ar.pdf</urlpdf>
+  <urlplan>/revue/etudfr/2019/v55/n1/1059369ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>89</ppage>
+    <dpage>103</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>Pascale Roze à Léon Tolstoï</titre>
+                <sstitre>La relation épistolaire dans <marquage typemarq="italique">Lettre d’été</marquage></sstitre>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Karin</prenom>
+    <nomfamille>Schwerdtner</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Dans <marquage typemarq="italique">Lettre d’été</marquage> (Paris, Albin Michel, 2000), Pascale Roze s’adresse à Léon Tolstoï sur le ton d’une « vraie confidence », ce qui lui permet « d’écrire cette expérience-là » (avoir frôlé la mort) qui, sans l’écriture, serait restée secrète, cachée, inexpliquée. Par ailleurs, hantée par des questions sur la mort auxquels son destinataire ne peut répondre, l’auteure tente d’interroger à la fois l’image de lui-même et la philosophie que le grand écrivain a pu élaborer au fil de ses écrits publiés et papiers privés. Cette tentative d’interrogation l’amènera, d’une part, à établir entre eux certaines « correspondances » ou affinités et, d’autre part, à rendre sensible une différence importante d’attitude devant la vie et la mort, différence que sa très grande admiration pour le romancier russe aurait pu censurer. Selon notre hypothèse, pour l’auteure de <marquage typemarq="italique">Lettre d’été</marquage>, s’adresser à Tolstoï, lui poser ses questions les plus intimes, reviendrait à incarner, par rapport à son destinataire, le semblable et le différent à la fois.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">In </marquage>Lettre d’été<marquage typemarq="italique"> (Paris, Albin Michel, 2000), Pascale Roze addresses Leo Tolstoy in the manner of a “true secret,” thereby allowing her to “write about that experience” (of having had a brush with death) that otherwise would have remained secret, hidden, unexplained. Furthermore, haunted by questions about death that her correspondent is unable to answer, Roze examines both his image and the philosophy that the great writer was able to develop through the course of his published writings and private papers. On the one hand, this attempt at questioning leads her to establish certain “correspondences” or affinities between them, and, on the other hand, makes it possible for the difference of attitude to life and death to be felt, a difference that her great admiration for the Russian novelist might have caused her to suppress/overlook. As stated in our hypothesis, writing to Tolstoy, asking him her most intimate questions would be for the author of </marquage>Lettre d’été<marquage typemarq="italique">,</marquage><marquage typemarq="italique"> in relation to her correspondent, to incarnate the similar and the different all at once.</marquage></alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1059370ar" idproprio="1059370ar" idref="th1"
+  lang="fr" ordseq="7" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/etudfr/2019/v55/n1/1059370ar.html</urlhtml>
+  <urlpdf taille="243" unite="ko">/revue/etudfr/2019/v55/n1/1059370ar.pdf</urlpdf>
+  <urlplan>/revue/etudfr/2019/v55/n1/1059370ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>105</ppage>
+    <dpage>120</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>Les lettres d’hommage de Linda Lê</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Michèle</prenom>
+    <nomfamille>Bacholle</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Si la lettre constitue une conversation entre absents, ceux-ci sont toutefois généralement vivants. Linda Lê, elle, écrit des lettres à des familiers morts (son père, décédé seul au Vietnam – <marquage typemarq="italique">Lettre morte</marquage>, Paris, Christian Bourgois, 1999) ou à jamais confinés dans le non-être (son fils – <marquage typemarq="italique">À l’enfant que je n’aurai pas</marquage>, Paris, NiL, 2011). En 1999 elle publie aussi <marquage typemarq="italique">Tu écriras sur le bonheur </marquage>(Paris, Presses universitaires de France), trente-huit textes dédiés à des écrivains de renommée et d’origines diverses, sortes de « pères spirituels » ou littéraires et réitère son geste d’adresse en 2015, avec <marquage typemarq="italique">Par ailleurs (exils) </marquage>(Paris, Christian Bourgois), lettres d’hommage à des écrivains par-delà le trépas. La tâche incombe alors au lecteur d’établir des correspondances entre eux et Linda Lê, entre les oeuvres achevées, passées à la postérité des uns et l’oeuvre en devenir, à la postérité encore incertaine de l’autre. Cet article identifie les continuités et discontinuités entre <marquage typemarq="italique">Tu écriras sur le bonheur</marquage> et <marquage typemarq="italique">Par ailleurs (exils)</marquage> et examine les cinq « figures tutélaires » qu’ils ont en commun, avant de relever quels sont les grands absents de <marquage typemarq="italique">Par ailleurs (exils)</marquage> et quels écrivains y ont fait leur entrée. Alors que <marquage typemarq="italique">Tu écriras sur le bonheur</marquage> était une compilation alphabétique, <marquage typemarq="italique">Par ailleurs (exils)</marquage> est une suite d’hommages présentés pêle-mêle ; entre les deux se dessine le cheminement de l’oeuvre de Lê de la « littérature déplacée » vers une « littérature du dépaysement ». J’argue qu’il revient aux lecteurs et critiques, destinataires ultimes de ces lettres d’hommage, de les recevoir et d’assurer la postérité de leur auteure.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">If a letter is a conversation between absentees, they are usually living. Linda Lê, however, writes letters to members of her family who are deceased (her father, who died alone in Vietnam – </marquage>Lettre morte<marquage typemarq="italique">, Paris, Christian Bourgois, 1999) or who are forever confined to non-existence (her son – </marquage>À l’enfant que je n’aurai pas<marquage typemarq="italique">, Paris, NiL, 2011). In 1999, she also published </marquage>Tu écriras sur le Bonheur <marquage typemarq="italique">(Paris, Presses universitaires de France), thirty-eight texts dedicated to celebrated authors of various origins, sorts of “spiritual,” or literary, fathers. She repeats this manner of address in 2015 with </marquage>Par ailleurs (exils) <marquage typemarq="italique">(Paris, Christian Bourgois), letters of homage to writers beyond the grave. It falls then to the reader to build connections between these writers and Linda Lê, between their finished works, passed down through generations, and her works in the making. This article identifies and examines the five “tutelary figures” they have in common, before pointing out which authors were missing and which were present in </marquage>Par ailleurs (exils)<marquage typemarq="italique">. While </marquage>Tu écriras sur le bonheur<marquage typemarq="italique"> was an alphabetical compilation, </marquage>Par ailleurs (exils) <marquage typemarq="italique">is a suite of homages presented in no particular order; between the two the trace of Lê’s work is discernable from “displaced literature” to a “literature of evasion.” I argue that it is the role of readers and critics, the ultimate recipients of her letters of homage, to receive them and to insure their author will be remembered for posterity.</marquage></alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1059371ar" horstheme="oui" idproprio="1059371ar"
+  lang="fr" ordseq="8" qualtraitement="complet" typeart="autre">
+  <urlhtml>/revue/etudfr/2019/v55/n1/1059371ar.html</urlhtml>
+  <urlpdf taille="193" unite="ko">/revue/etudfr/2019/v55/n1/1059371ar.pdf</urlpdf>
+  <pagination>
+    <ppage>123</ppage>
+    <dpage>134</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Entretien</surtitre>
+                  <titre>Michèle Lesbre, femme de (vraies) lettres<renvoi id="re1no1" idref="no1" typeref="note">1</renvoi></titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1"><contribution typecontrib="aut">Propos recueillis par</contribution>
+   <nompers>
+    <prenom>Karin</prenom>
+    <nomfamille>Schwerdtner</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1059372ar" horstheme="oui" idproprio="1059372ar"
+  lang="fr" ordseq="9" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/etudfr/2019/v55/n1/1059372ar.html</urlhtml>
+  <urlpdf taille="308" unite="ko">/revue/etudfr/2019/v55/n1/1059372ar.pdf</urlpdf>
+  <urlplan>/revue/etudfr/2019/v55/n1/1059372ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>137</ppage>
+    <dpage>159</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Exercices de lecture</surtitre>
+                  <titre>La France malade et ses récits</titre>
+                <sstitre>« Islamisation » de la société et « radicalisation » de l’individu dans cinq romans français contemporains (2012-2016)</sstitre>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Alex</prenom>
+    <nomfamille>Gagnon</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Dans l’imaginaire social français du <marquage typemarq="petitecap">xxi</marquage><exposant>e</exposant> siècle naissant, l’islam devient, selon Raphaël Liogier, « la figure centrale de l’altérité indésirable ». Intrusive, sa présence est souvent considérée comme doublement menaçante, sur les plans sécuritaire et identitaire<marquage typemarq="italique">. </marquage>Le phénomène n’est pas nouveau, mais il connaît, depuis le milieu des années 2000, une aggravation inédite, alors que les thèmes de l’« islamisation » de la société et de la « radicalisation » des individus alimentent de nouvelles peurs et nourrissent un récit sociétal, celui d’une invasion étrangère qui marquerait le déclin possible d’un Occident menacé. Dans la foulée, on voit apparaître, depuis quelques années, des fictions romanesques qui, s’appropriant ces thèmes, interagissent directement avec ce récit, dans une double dynamique de reprise et de rupture narratives. À partir d’une lecture du discours médiatique visant, dans un premier temps, à reconstruire ce récit sociétal de l’invasion musulmane, cet article analyse, dans un deuxième temps, cinq romans qui, parus en France entre 2012 et 2016, mettent en récit l’islamisation de la société occidentale et/ou la radicalisation ou « djihadisation » d’un personnage converti à l’islam. Il retrace ainsi divers types de transformation que la littérature contemporaine fait subir au récit sociétal : alors que certains textes s’approprient le récit d’invasion pour l’exacerber, racontant ou bien la résistance héroïque d’une <marquage typemarq="italique">Civilisation indestructible</marquage> ou bien, au contraire, la déliquescence inéluctable d’une <marquage typemarq="italique">France agonisante</marquage>, d’autres le mettent à distance et, en insistant sur le naufrage d’un <marquage typemarq="italique">Occident délétère</marquage>, rattachent moins la barbarie à une invasion étrangère qu’à une détérioration intérieure.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">In the social imaginary of the 21<exposant>st</exposant> century, Islam has become, according to Raphael Liogier, the “central figure of undesirable otherness.” Its intrusive presence is often considered doubly threatening in terms of security and identity. This phenomenon is not new, but since the mid-2000s, it has experienced an unprecedented aggravation, whereas the themes of the “Islamization” of society and the “radicalization” of individuals feed new fears and nourish the social narrative of a foreign invasion, marking the possible decline of an already threatened West. With this, fiction has been appearing for some years now that directly interacts with this narrative, within a double dynamic of reenactment and rupture that can be explained by sociocriticism. Based on a reading of media rhetoric, which aims to reconstruct the narrative of the Muslim invasion, this article analyzes five novels, published in France between 2012 and 2016, which fictionalize the Islamization of the Western world and/or the radicalization of a character converted to Islam. By doing so, it retraces the various types of transformation of the narrative throughout contemporary literature: while certain texts exacerbate the narrative of the invasion, recounting either the heroic resistance of an </marquage>indestructible Civilization<marquage typemarq="italique"> or, on the other hand, the ineluctable decay of a </marquage>dying France<marquage typemarq="italique">, others are taking distance. By insisting on the wreck of a </marquage>deleterious West<marquage typemarq="italique">, those fictions attach less barbarism to a foreign invasion than to an internal deterioration.</marquage></alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1059373ar" horstheme="oui" idproprio="1059373ar"
+  lang="fr" ordseq="10" qualtraitement="complet" typeart="article">
+  <urlhtml>/revue/etudfr/2019/v55/n1/1059373ar.html</urlhtml>
+  <urlpdf taille="336" unite="ko">/revue/etudfr/2019/v55/n1/1059373ar.pdf</urlpdf>
+  <urlplan>/revue/etudfr/2019/v55/n1/1059373ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>161</ppage>
+    <dpage>184</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Exercices de lecture</surtitre>
+                  <titre>Mémoires du temps perdu</titre>
+                <sstitre>L’<marquage typemarq="italique">Élucidation</marquage> médiévale et son remaniement dans l’imprimé de 1530</sstitre>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Mireille</prenom>
+    <nomfamille>Séguy</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Cet article s’intéresse à la réécriture de l’<marquage typemarq="italique">Élucidation</marquage> médiévale (l’un des prologues « postiches » du <marquage typemarq="italique">Conte du graal</marquage> et de ses trois premières <marquage typemarq="italique">Continuations</marquage>) que propose <marquage typemarq="italique">La Tresplaisante et recreative hystoire de Perceval le Galloys</marquage>, imprimée en 1530. Si le choix d’éditer ce prologue obscur – à tous les sens du terme – illustre sans doute le goût de la Renaissance pour une forme d’altérité médiévale, il témoigne aussi des limites de la compréhension de la forme d’archaïsme que met en oeuvre délibérément ce prologue qui invente, à la faveur d’une écriture lacunaire et opaque, un mythe sur l’origine perdue des récits arthuriens. L’article fait à terme l’hypothèse que l’imprimé marque, à cet égard, un autre rapport au temps, qui s’exprime dans un nouvel imaginaire de la production romanesque et un nouveau modèle de généalogie littéraire.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">This article examines the rewriting of the medieval </marquage>Elucidation<marquage typemarq="italique"> (one of the “false” prologues of the </marquage>Story of the Grail<marquage typemarq="italique"> and its first three </marquage>Continuations<marquage typemarq="italique">) that is proposed by </marquage>La Tresplaisante et recreative hystoire de Perceval le Galloys<marquage typemarq="italique">, printed in 1530. If the choice to publish this obscure prologue – obscure in every sense of the word – undoubtedly illustrates the taste of the Renaissance for a form of medieval otherness, it also demonstrates the limits of the understanding of the form of archaism that the prologue deliberately uses, which has created, owing to an incomplete and opaque writing style, a myth about the lost origin of Arthurian narratives. The article hypothesizes that the printed word marks, with regard to this, another relationship to time, which is expressed in a new imaginary of the novelistic production and a new model of literary genealogy.</marquage></alinea>
+ </resume>
+</liminaire>
+</article>
+</sommaire>
