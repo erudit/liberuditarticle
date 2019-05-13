@@ -364,9 +364,9 @@ class TestPublicationFormattedThemes(object):
         assert value == [
             {
                 'names': [
-                    "Cyberespace et anthropologie : transmission des savoirs et des savoir-faire",  # noqa
-                    "Cyberspace and Anthropology : Transmission of Knowledge and Know-How",  # noqa
-                    "Ciberespacio y antropologia : Transmision de conocimientos y de saber-como",  # noqa
+                    "Cyberespace et anthropologie\xa0: transmission des savoirs et des savoir-faire",  # noqa
+                    "Cyberspace and Anthropology\xa0: Transmission of Knowledge and Know-How",  # noqa
+                    "Ciberespacio y antropologia\xa0: Transmision de conocimientos y de saber-como",  # noqa
                 ],
                 'editors': [
                     "Joseph J. L&#233;vy",
@@ -398,6 +398,15 @@ class TestPublicationFormattedThemes(object):
                     'La traduction litt&#233;raire <em>et</em> le Canada',
                     'Literary translation <em>and</em> Canada',
                 ],
+            },
+        ]
+
+    @with_value('circuit04198.xml', 'get_themes', html=True, formatted=True)
+    def test_theme_subname_first_letter_gets_lowercased(self, value):
+        assert value == [
+            {
+                'editors': ['Luis Velasco-Pufleau'],
+                'names': ['Engagements sonores\xa0: éthique et politique'],
             },
         ]
 
