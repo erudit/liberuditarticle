@@ -46,4 +46,10 @@ def normalize_whitespace(s):
     # Return None if string is empty or contains only white spaces.
     if not html.unescape(s).strip():
         return None
-    return re.sub(r'[ \n\r\t]+', ' ', s.strip())
+    # Strip white spaces from the begining and end of the string.
+    s = s.strip()
+    # Remove line breaks and following spaces between tags.
+    s = re.sub(r'>\n[ \t]*<', '><', s)
+    # Replace duplicated spaces with one space only.
+    s = re.sub(r'[ \n\t]+', ' ', s)
+    return s

@@ -8,6 +8,10 @@ from eruditarticle.utils import normalize_whitespace
     (' foo  bar ', 'foo bar'),
     ('foo\nbar', 'foo bar'),
     ('foo\n\t bar', 'foo bar'),
+    # Line breaks and following spaces between tags shoud be removed.
+    ('<foo>\n\t<bar>', '<foo><bar>'),
+    # Trailling spaces before line breaks should be kept.
+    ('<foo> \n\t<bar>', '<foo> <bar>'),
     # We don't want to normalize unbreakable spaces. Keeping them is important.
     ('foo\xa0bar', 'foo\xa0bar'),
 ])
