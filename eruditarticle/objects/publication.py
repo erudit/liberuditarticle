@@ -83,6 +83,11 @@ class EruditPublication(
         notes = []
         for note_elem in self.findall('numero/notegen[@typenoteg="edito"]'):
 
+            # If a scope is defined, make sure it's 'numero'.
+            scope = note_elem.get('porteenoteg')
+            if scope is not None and scope != 'numero':
+                continue
+
             if html:
                 parser_method = self.convert_marquage_content_to_html
             else:
