@@ -258,12 +258,12 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """
         if html:
             references = [
-                self.convert_marquage_content_to_html(ref).strip()
+                self.convert_marquage_content_to_html(ref)
                 for ref in self.findall(tag)
             ]
         else:
             references = [
-                self.stringify_children(ref).strip()
+                self.stringify_children(ref)
                 for ref in self.findall(tag)
             ]
         return references

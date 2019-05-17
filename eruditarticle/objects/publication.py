@@ -100,7 +100,7 @@ class EruditPublication(
             note = {
                 "lang": note_elem.get("lang"),
                 "type": note_elem.get("typenoteg"),
-                "content": alineas_content.strip(),
+                "content": alineas_content,
                 "authors": format_authors(authors, html=html) if authors else "",
             }
             notes.append(note)
@@ -368,7 +368,7 @@ class EruditPublication(
     def get_note_edito(self):
         """ :returns: the edito note associated with the publication object if any. """
         note = self.stringify_children(self.find('notegen[@typenoteg="edito"]'))
-        return note.strip() if note is not None else note
+        return note if note is not None else note
 
     def get_production_date(self):
         """ :returns: the production date of the publication object. """
