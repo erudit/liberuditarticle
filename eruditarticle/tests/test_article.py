@@ -308,6 +308,27 @@ class TestArticleSavantComplet(object):
             'reviewed_works': [],
         }
 
+        assert self.test_objects['1043053ar.xml'].get_titles() == {
+            'main': Title(
+                title="L'impossible v&#233;rit&#233; de l'histoire des pensionnats",
+                subtitle='Traumatismes, victimisation et r&#233;conciliation pr&#233;matur&#233;e',
+                lang='fr',
+            ),
+            'paral': [],
+            'equivalent': [],
+            'reviewed_works': [
+                'C<span class="petitecap">ommission de v&#233;rit&#233; et r&#233;conciliation</span>, 2015, <em>Rapport final de la Commission de v&#233;rit&#233; et r&#233;conciliation du Canada</em>, Volume 1. <em>Pensionnats du Canada</em><em>&#160;:</em><em> L&#8217;histoire</em>, partie 1,<em> des origines &#224; 1939</em>, 1072&#160;p.',  # noqa
+                'C<span class="petitecap">ommission de v&#233;rit&#233; et r&#233;conciliation</span>, 2015, Volume 1. <em>Pensionnats du Canada</em><em>&#160;:</em><em> L&#8217;histoire</em>, partie 2,<em> de 1939 &#224; 2000</em>, 896&#160;p.',  # noqa
+                'C<span class="petitecap">ommission de v&#233;rit&#233; et r&#233;conciliation</span>, 2016, Volume 2. <em>Pensionnats du Canada</em><em>&#160;:</em><em> L&#8217;exp&#233;rience inuite et nordique</em>, 290&#160;p.',  # noqa
+                'C<span class="petitecap">ommission de v&#233;rit&#233; et r&#233;conciliation</span>, 2015, Volume 3. <em>Pensionnats du Canada</em><em>&#160;:</em><em> L&#8217;exp&#233;rience m&#233;tisse</em>, 96&#160;p.',  # noqa
+                'C<span class="petitecap">ommission de v&#233;rit&#233; et r&#233;conciliation</span>, 2015, Volume 4. <em>Pensionnats du Canada</em><em>&#160;:</em><em> Enfants disparus et lieux de s&#233;pulture non marqu&#233;s</em>, 304&#160;p.',  # noqa
+                'C<span class="petitecap">ommission de v&#233;rit&#233; et r&#233;conciliation</span>, 2016, Volume 5. <em>Pensionnats du Canada</em><em>&#160;:</em><em> Les s&#233;quelles</em>, 464&#160;p.',  # noqa
+                'C<span class="petitecap">ommission de v&#233;rit&#233; et r&#233;conciliation</span>, 2016, Volume 6. <em>Pensionnats du Canada</em><em>&#160;:</em><em> La r&#233;conciliation</em>, 352&#160;p.',  # noqa
+                'G<span class="petitecap">oulet</span> H., 2016, <em>Histoire des pensionnats indiens catholiques du Qu&#233;bec. Le r&#244;le d&#233;terminant des p&#232;res oblats</em>. Montr&#233;al, Presses de l&#8217;Universit&#233; de Montr&#233;al, 222 p.',  # noqa
+                'N<span class="petitecap">iezen</span> R., 2013, <em>Truth and Indignation. Canada&#8217;s Truth and Reconciliation Commission on Indian Residential Schools</em>. Toronto, University of Toronto Press, 192&#160;p.',  # noqa
+            ],
+        }
+
     def test_can_return_formatted_titles(self):
         EXPECTED = "Esth&#233;tique et s&#233;miotique\xa0: pr&#233;sentation / Aesthetics and Semiotics: Presentation"  # noqa
         assert self.test_objects['1005860ar.xml'].get_formatted_html_title() == EXPECTED

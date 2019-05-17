@@ -266,7 +266,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
                 self.stringify_children(ref)
                 for ref in self.findall(tag)
             ]
-        return references
+        return [ref for ref in references if ref is not None]
 
     def get_reviewed_works(self, html=True):
         """ :returns: the works reviewed by this article """

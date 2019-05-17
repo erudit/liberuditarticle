@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://www.erudit.org/xsd/article" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.erudit.org/xsd/article http://www.erudit.org/xsd/article/3.0.0/eruditarticle.xsd" qualtraitement="complet" idproprio="1043053ar" typeart="autre" lang="fr" ordseq="14" horstheme="oui"><admin><infoarticle><idpublic scheme="doi">10.7202/1043053ar</idpublic><pagination> <ppage>329</ppage> <dpage>340</dpage> 
+        </pagination></infoarticle><revue id="as23" lang="fr"><titrerev>Anthropologie et Sociétés</titrerev><titrerevabr>as</titrerevabr><idissn>0702-8997</idissn><idissnnum>1703-7921</idissnnum><directeur sexe="masculin"><nompers><prenom>Frédéric</prenom><autreprenom>Benjamin</autreprenom><nomfamille>Laugrand</nomfamille></nompers></directeur><redacteurchef typerc="invite" idrefs="th1" sexe="masculin"><fonction lang="fr">Rédacteur invité</fonction><nompers><prenom>Bob</prenom><autreprenom>W.</autreprenom><nomfamille>White</nomfamille></nompers></redacteurchef><redacteurchef typerc="invite" idrefs="th1" sexe="masculin"><fonction lang="fr">Rédacteur invité</fonction><nompers><prenom>Lomomba</prenom><nomfamille>Emongo</nomfamille></nompers></redacteurchef><redacteurchef typerc="invite" idrefs="th1" sexe="masculin"><fonction lang="fr">Rédacteur invité</fonction><nompers><prenom>Gaby</prenom><nomfamille>Hsab</nomfamille></nompers></redacteurchef></revue><numero id="as03388"><volume>41</volume><nonumero>3</nonumero><pub><annee>2017</annee></pub><pubnum><date typedate="publication">2018-01-30</date></pubnum><grtheme id="th1"><theme>L'interculturel dans la cité</theme><themeparal lang="en">Interculturalism in the City</themeparal><themeparal lang="es">La interculturalidad en la ciudad</themeparal></grtheme><idisbn13>978-2-924814-02-4</idisbn13></numero><editeur><nomorg>Département d’anthropologie de l’Université Laval</nomorg></editeur><prodnum><nomorg>Érudit</nomorg></prodnum><diffnum><nomorg>Érudit</nomorg></diffnum><schema nom="Erudit Article" version="3.0.0" lang="fr"/><droitsauteur>Tous droits réservés © <nomorg>Anthropologie et Sociétés, Université Laval</nomorg>, 2017</droitsauteur></admin><liminaire><grtitre><surtitre>Essai bibliographique</surtitre><surtitreparal lang="en">Bibliographical Essay</surtitreparal><surtitreparal lang="es">Ensayo bibliográfico</surtitreparal>
+      <titre>L'impossible vérité de l'histoire des pensionnats</titre>
+      <sstitre>Traumatismes, victimisation et réconciliation prématurée</sstitre>
+      <trefbiblio> </trefbiblio>
+      <trefbiblio>C<marquage typemarq="petitecap">ommission de vérité et réconciliation</marquage>, 2015, <marquage typemarq="italique">Rapport final de la Commission de vérité et réconciliation du Canada</marquage>, Volume 1.        <marquage typemarq="italique">Pensionnats du Canada</marquage><marquage typemarq="italique"> :</marquage><marquage typemarq="italique"> L’histoire</marquage>, partie 1,<marquage typemarq="italique"> des origines à        1939</marquage>, 1072 p.</trefbiblio>
+      <trefbiblio>C<marquage typemarq="petitecap">ommission de vérité et réconciliation</marquage>, 2015, Volume 1. <marquage typemarq="italique">Pensionnats du Canada</marquage><marquage typemarq="italique"> :</marquage><marquage typemarq="italique"> L’histoire</marquage>, partie 2,<marquage typemarq="italique"> de        1939 à 2000</marquage>, 896 p.</trefbiblio>
+      <trefbiblio>C<marquage typemarq="petitecap">ommission de vérité et réconciliation</marquage>, 2016, Volume 2. <marquage typemarq="italique">Pensionnats du Canada</marquage><marquage typemarq="italique"> :</marquage><marquage typemarq="italique"> L’expérience inuite et        nordique</marquage>, 290 p.</trefbiblio>
+      <trefbiblio>C<marquage typemarq="petitecap">ommission de vérité et réconciliation</marquage>, 2015, Volume 3. <marquage typemarq="italique">Pensionnats du Canada</marquage><marquage typemarq="italique"> :</marquage><marquage typemarq="italique"> L’expérience métisse</marquage>,        96 p.</trefbiblio>
+      <trefbiblio>C<marquage typemarq="petitecap">ommission de vérité et réconciliation</marquage>, 2015, Volume 4. <marquage typemarq="italique">Pensionnats du Canada</marquage><marquage typemarq="italique"> :</marquage><marquage typemarq="italique"> Enfants disparus et lieux de        sépulture non marqués</marquage>, 304 p.</trefbiblio>
+      <trefbiblio>C<marquage typemarq="petitecap">ommission de vérité et réconciliation</marquage>, 2016, Volume 5. <marquage typemarq="italique">Pensionnats du Canada</marquage><marquage typemarq="italique"> :</marquage><marquage typemarq="italique"> Les séquelles</marquage>,        464 p.</trefbiblio>
+      <trefbiblio>C<marquage typemarq="petitecap">ommission de vérité et réconciliation</marquage>, 2016, Volume 6. <marquage typemarq="italique">Pensionnats du Canada</marquage><marquage typemarq="italique"> :</marquage><marquage typemarq="italique"> La réconciliation</marquage>,        352 p.</trefbiblio>
+      <trefbiblio>G<marquage typemarq="petitecap">oulet</marquage> H., 2016, <marquage typemarq="italique">Histoire des pensionnats indiens catholiques du Québec. Le rôle déterminant des pères oblats</marquage>. Montréal, Presses        de l’Université de Montréal, 222 p.</trefbiblio>
+      <trefbiblio>N<marquage typemarq="petitecap">iezen</marquage> R., 2013, <marquage typemarq="italique">Truth and Indignation. Canada’s Truth and Reconciliation Commission on Indian Residential Schools</marquage>. Toronto,        University of Toronto Press, 192 p.</trefbiblio>
+    </grtitre><grauteur><auteur id="au1"><nompers>
+        <prenom>Frédéric</prenom>
+        
+        <nomfamille>Laugrand</nomfamille>
+        </nompers><affiliation>
+        <alinea>Département d’anthropologie, Pavillon Charles-De Koninck, Université Laval,          Québec (Québec) G1V 0A6, Canada</alinea>
+        </affiliation><courriel><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1" xlink:href="mailto:frederic.laugrand@ant.ulaval.ca" xlink:type="simple">frederic.laugrand@ant.ulaval.ca</liensimple></courriel></auteur></grauteur></liminaire><corps><section1 id="s1n1"><no>1</no><para id="pa1"><no>1</no>
+        <alinea>Après l’Afrique du Sud et le Rwanda, le Canada a mis en place une Commission de
+          vérité et réconciliation (ci-après CRV) afin de répondre aux séquelles du colonialisme qui
+          a fait de nombreuses victimes parmi les Premières Nations, les Métis et les Inuit. Sans
+          doute faut-il rappeler que plus de 150 000 enfants ont été placés dans des écoles
+          résidentielles en un peu moins de cent ans. Dans un dossier que la revue <marquage typemarq="italique">Recherches amérindiennes au Québec</marquage> a consacré aux
+          pensionnats, Mylène Jaccoud (2016 : 155) rappelle qu’en procédant ainsi, le Canada a
+          choisi de construire « une réponse politique », espérant, d’une part, documenter dans les
+          détails cette page sombre de l’histoire canadienne qui a produit de nombreuses injustices
+          et des traumatismes intergénérationnels chez une multitude de victimes, directes ou
+          indirectes et, d’autre part, amorcer un processus de guérison et de réconciliation.
+          Contrairement à la CVR sud-africaine, ajoute la criminaliste, la CVR du Canada n’a pas mis
+          la réparation et la réhabilitation des victimes au coeur de son mandat, se limitant à
+          réaliser une enquête pour « faire oeuvre de vérité sur les faits ». </alinea>
+      </para><para id="pa2"><no>2</no>
+        <alinea>Il est regrettable que le Canada se soit montré aussi timide par rapport à bien
+          d’autres nations, s’enfermant dans l’idée de révéler « une vérité historique », car de ce
+          point de vue, le travail effectué laisse à désirer. </alinea>
+      </para><para id="pa3"><no>3</no>
+        <alinea>Le Rapport final de la Commission de vérité et réconciliation du Canada était
+          attendu depuis longtemps et la somme d’informations qu’il contient est considérable. À des
+          fins de clarté, je reprendrai ici les différents volumes pour les commenter.</alinea>
+      </para><para id="pa4"><no>4</no>
+        <alinea>Le volume 1 de la vaste histoire des pensionnats rédigée par la CVR comprend deux
+          parties. La première traite du contexte historique des pensionnats du Canada. La seconde
+          présente le système des pensionnats au Canada de 1867 à 1939. Sont examinés successivement
+          le rôle de l’idéologie coloniale, celui des églises et les tout premiers pensionnats avant
+          la lettre, ceux qui ont été créés au Canada français par les récollets et les jésuites
+          (1603-1763), et ceux qui datent d’avant la Confédération. De facture classique, cette
+          partie revient sur plusieurs idéologies fondatrices comme la doctrine de la découverte,
+          celle de la <marquage typemarq="italique">terra</marquage> <marquage typemarq="italique">nullius</marquage>, et sur l’action dite civilisatrice des premiers colons. Le chapitre 2
+          présente les Églises et leur mission de conversion. Le lecteur découvre comment, en dépit
+          de quelques frictions avec le gouvernement canadien, les églises presbytérienne, morave,
+          méthodiste, anglicane et catholique furent toutes impliquées, l’école demeurant un des
+          piliers des transformations religieuses, et en particulier de la conversion. L’institution
+          religieuse a partout été en mesure de saper les autorités, d’interdire les pratiques et
+          d’imposer un nouveau code moral au nom de la salvification. À ce niveau de généralité, ces
+          affirmations paraissent justes, mais quand on examine la situation de plus près, ce
+          chapitre paraît trivial, d’une banalité déconcertante. Mais qu’importe, on ne semble pas
+          ici chercher à retracer une histoire complexe, truffée de zones floues, d’ambigüités, ni à
+          savoir que dans de nombreuses régions du Canada, les peuples autochtones ont eux-mêmes
+          joué un rôle actif dans ce vaste mouvement de conversion, prenant parfois l’initiative de
+          l’évangélisation. Au contraire, c’est à une vaste entreprise d’édification d’un mythe à
+          laquelle on assiste. Soit, mais comme celui de l’obscurité du Moyen Âge, de la Grande
+          noirceur au Québec ou d’autres légendes noires, ces imageries manichéennes seront un jour
+          réexaminées et déconstruites. Sur le terrain, en effet, les situations furent tellement
+          plus complexes qu’une telle caricature est regrettable et nuisible à la réconciliation.
+          Parions qu’il faudra plusieurs décennies pour que les Canadiens et les Autochtones
+          assument davantage cette période de leur histoire. Il est bien dommage que les rédacteurs
+          n’aient pas lu le <marquage typemarq="italique">Sanglot de l’homme blanc</marquage> de
+          Pascal Bruckner (1983), car cette lecture les aurait mis sur d’autres pistes que celles de
+          culpabilité et de la victimisation. Si seulement cette mauvaise conscience s’accompagnait
+          de réels changements dans les politiques du ministère des Affaires indiennes et d’une
+          volonté réelle d’entendre les Autochtones ou de régler les conflits…</alinea>
+      </para><para id="pa5"><no>5</no>
+        <alinea>Dans ce premier volume, la politique de civilisation du Bureau colonial britannique
+          (1820-1867), que reprend presque intégralement le Département des Indiens du Canada-Uni
+          qui lui succède en 1860, est assez bien présentée. Il en va de même du chapitre consacré
+          aux pensionnats d’avant la Confédération où l’on découvre l’Institut Mohawk, une école
+          dite « industrielle », ouverte à la demande des Indiens de Grand River et où ces derniers
+          pouvaient parler leur langue, où des professeurs métis aussi furent enseignants, comme
+          Peter Jones, le célèbre pasteur méthodiste. L’école formera même les premiers médecins
+          autochtones en les envoyant à l’Université d’Oxford, en Angleterre. On est loin ici de la
+          réalité d’autres écoles où nombre d’abus ont été commis, mais il est honnête de présenter
+          ces cas atypiques qui montrent comment certains Autochtones espéraient déjà, par
+          l’instruction, acquérir les compétences des coloniaux et devenir autonomes sur le plan
+          économique. Ce chemin ne sera toutefois pas suivi. Après le rapport Ryerson en 1846, des
+          écoles industrielles furent créées un peu partout au pays afin d’y enseigner la religion
+          mais surtout les travaux manuels, l’agriculture, la mécanique. Comment ne pas établir ici
+          un parallèle avec la volonté actuelle du gouvernement fédéral de former davantage les
+          Autochtones pour en faire de bons travailleurs, mineurs et autres techniciens ? Car ce
+          sont bien ces enjeux qui figurent aujourd’hui derrière l’idée de faire de l’éducation une
+          priorité pour les Autochtones. Le gouvernement fédéral ne souhaite pas tant des
+          intellectuels critiques que des travailleurs qualifiés susceptibles de participer
+          pleinement au développement socioéconomique du pays. Les chapitres 6, 7 et 8 examinent
+          plusieurs de ces écoles dans l’Ouest canadien et présentent le contexte sociohistorique de
+          l’époque où « le Sauvage » se retrouve au coeur d’une vaste entreprise d’exploitation et
+          d’occidentalisation.</alinea>
+      </para><para id="pa6"><no>6</no>
+        <alinea>La seconde partie est consacrée au système des pensionnats au Canada, de 1867 à
+          1939. Les 31 chapitres abordent l’établissement et le fonctionnement du système des
+          pensionnats. Inscriptions, travaux, loisirs, sports sont décrits dans les détails. La
+          section comprend un examen de plusieurs récits d’élèves qui ont vécu dans les pensionnats
+          à cette période. Certains récits sont accablants. D’autres montrent que les pensionnaires
+          n’ont pas tous vécu des expériences négatives, plusieurs ayant connu ensuite des carrières
+          fructueuses. Parmi ces trajectoires, il faut citer les cas de Shingwauk, de Charles
+          Nowell, de Daniel Kennedy, de Mike Mountain Horse, d’Eleanor Brass, de Mary John, et de
+          nombreux autres dont les portraits sont esquissés. Dans bien des cas, ces
+          pensionnaires – garçons ou filles – vivaient difficilement l’isolement par rapport à leur
+          famille. La solitude, le dur labeur, la discipline, l’imposition d’une langue, la maladie,
+          etc., sont autant de dures réalités auxquelles ces élèves devaient faire face. Une
+          présentation détaillée du système de ces écoles (établissement, financement, règlements,
+          etc.) et de l’éducation qui y était dispensée (pédagogie, routine quotidienne, programmes
+          d’études, qualité des enseignants, charge de travail, instruction religieuse) est très
+          bien faite dans les chapitres 10, 11, 12 et 13. Le chapitre 14 montre pour sa part comment
+          les enfants autochtones constituent une main-d’oeuvre bon marché, les sports et les
+          loisirs servant à leur insuffler un sens de la discipline et de la performance. Lors de la
+          Première Guerre mondiale, plusieurs centaines de jeunes adultes seront d’ailleurs ensuite
+          facilement enrôlés dans l’armée comme soldats. Assez vite, un autre bilan alors se
+          dessine : celui des maladies infectieuses (surtout la tuberculose et la grippe), des
+          incidents et des accidents (de très nombreux incendies notamment), des abus sexuels et des
+          châtiments corporels, de la violence disciplinaire ou sociale perpétrée, des fugues et des
+          absences, de l’abolition des langues autochtones, de la séparation des enfants de leurs
+          parents, mais aussi des garçons et des filles et de l’assimilation forcée. Deux chapitres
+          portent sur la réaction et la résistance des parents ainsi que sur une étude de cas, celui
+          du pensionnat de Lytton (1902-1939). En définitive, ce premier volume montre l’ampleur du
+          génocide culturel mis en oeuvre par les institutions coloniales et religieuses, soit la
+          destruction systématique des structures, des institutions et des pratiques de groupes
+          humains jugés inférieurs et primitifs. Il faut rappeler que dans bien des cas, cette
+          entreprise de destruction a été précédée par des victoires militaires ou politiques qui
+          ont obligé les Autochtones à signer des traités, à céder du territoire et des ressources.
+          De ce point de vue, on ne voit pas en quoi ni pourquoi ces traités devraient aujourd’hui
+          servir de base à la réconciliation. Quel est le fondement juridique de ces accords souvent
+          obtenus à la hâte ou sans réelles négociations ? Comment penser que ces derniers ne sont
+          pas entachés par les conditions dans lesquels ils ont été signés ? Quelle valeur accorder
+          à ces documents, si ce n’est celle – bien entendu – d’offrir du travail et des revenus à
+          des générations d’avocats et de juristes non-autochtones ? Il faudra un jour chiffrer ces
+          dépenses pour mesurer les miettes qui reviennent finalement aux communautés autochtones
+          par rapport aux sommes astronomiques que récupèrent les cabinets juridiques. Quant aux
+          préjudices, il est choquant de constater que si peu soit encore fait pour informer les
+          Canadiens des cultures autochtones et de leur histoire, que presque rien n’est vraiment
+          accompli pour sauver les langues autochtones, etc.</alinea>
+      </para><para id="pa7"><no>7</no>
+        <alinea>Le rapport final de la Commission comprend six autres volumes numérotés : le volume
+          1 est consacré à l’histoire de 1939 à 2000, le volume 2 à l’expérience inuite et nordique,
+          le volume 3 à l’expérience métisse, le volume 4 aux enfants disparus et aux lieux de
+          sépulture non marqués, le volume 5 aux séquelles et le volume 6 à la réconciliation à
+          proprement dite.</alinea>
+      </para><para id="pa8"><no>8</no>
+        <alinea>Le volume 1, consacré à l’histoire des pensionnats de 1939 à 2000, offre un vaste
+          panorama thématique et sociohistorique des pensionnats. Cette section 3 comporte
+          14 chapitres qui recoupent en partie ceux de la section 2 (on aborde ici une époque
+          ultérieure), mais de manière plus large et moins précise. Les chapitres 32, 33, 34 et 35
+          traitent dans les détails du système des pensionnats en examinant leur administration et
+          leur démantèlement dans les années 2000, le contenu des programmes et de la pédagogie, la
+          question de la protection de l’enfance et celle du surpeuplement dans des établissements
+          de plus en plus délabrés, notamment les dortoirs. Selon le document, la Loi des Indiens de
+          1920 établissait clairement l’objectif de l’assimilation totale avec, à terme, la
+          dissolution des réserves et la dénonciation des traités, le but étant de faire disparaître
+          l’indien, de le faire absorber par la société. Ces objectifs ne seront évidemment jamais
+          atteints. En 1944-1945, le Canada comptait cependant 8 865 pensionnaires et
+          76 pensionnats, les 7 753 élèves restants fréquentant des externats sous la houlette du
+          ministère des Affaires indiennes. Après la guerre, l’expansion des pensionnats leur a fait
+          gagner le Grand Nord et le Québec. Et pourtant, dès les années 1940, le gouvernement
+          fédéral semble perdre confiance dans ce système de scolarisation. En 1948, un rapport du
+          comité spécial mixte du parlement en demande l’abolition pure et simple. Il faudra
+          toutefois attendre encore près de 60 ans pour voir la fermeture complète des
+          établissements. En attendant, le système des pensionnats est passé au crible : les
+          programmes sont examinés, la formation scolaire complétant bien souvent une formation
+          professionnelle (ce que désigne le système de la demi-journée), la vie en salle de classe
+          avec ses aléas et la réaction des parents aux politiques d’assimilation. </alinea>
+      </para><para id="pa9"><no>9</no>
+        <alinea>Les chapitres 36, 37 et 38 dressent le bilan en matière de santé, de régimes et
+          d’hygiène alimentaires et des risques d’incendie. À ce titre, entre 1940 et 1949, près de
+          10 bâtiments scolaires ont été détruits par le feu, plusieurs de ces incendies ayant été
+          allumés par des élèves. Le bilan paraît tout aussi accablant que pour la période
+          antérieure, avec de nombreux ravages provoqués par la tuberculose. En somme, même si des
+          progrès substantiels sont notables après 1940, les bâtiments surpeuplés et la promiscuité
+          favorisent la propagation rapide des infections et des maladies. Le sous-financement et
+          les défaillances sur le plan de la surveillance entraînent de nombreux problèmes.</alinea>
+      </para><para id="pa10"><no>10</no>
+        <alinea>Les chapitres 39, 40, 41 et 42 traitent des fugueurs et des incidents, de la
+          discipline et des mauvais traitements infligés aux pensionnaires, sans oublier la
+          victimisation des élèves par leurs camarades eux-mêmes. Dans les pensionnats, la détresse
+          sur le plan affectif se mesure en effet de plus en plus, avec de nombreuses fugues, en
+          particulier dans les années 1940. Ces fugues sont sévèrement punies par le fouet et les
+          menottes. Les institutions et le gouvernement tentent momentanément de trouver une
+          politique disciplinaire mais les discussions traînent et les dispositions s’avèrent
+          difficiles à appliquer. Dans ce contexte, la violence règne et les mauvais traitements se
+          multiplient. Le chapitre 41 fournit des tableaux détaillés des préjudices et des sévices
+          les plus graves perpétrés dans les pensionnats des différentes provinces, certains ayant
+          donné lieu à des réclamations et/ou à des poursuites criminelles devant les tribunaux. Le
+          chapitre suivant n’est guère plus facile à lire, qui aborde la violence entre les élèves
+          eux-mêmes, laquelle a atteint aussi des proportions inimaginables avec, en date du 14
+          décembre 2012, plus de 8 470 demandes d’indemnisation soumises par des personnes disant
+          avoir été maltraitées par d’autres élèves. Les maux se nomment intimidation, violence
+          sexuelle, etc. De ce point de vue, ni le sport, ni les arts, ni les jeux discutés dans le
+          chapitre 43 n’ont permis de réguler les tensions sociales dans ces
+          établissements.</alinea>
+      </para><para id="pa11"><no>11</no>
+        <alinea>Les deux derniers chapitres, 44 et 45, sont consacrés au personnel (1940-2000) et à
+          la Convention de règlement signée en 2006. Sont examinés le recrutement des employés,
+          leurs conditions de vie, les relations sociales, les conflits, le personnel autochtone,
+          les curriculums, etc. Une date importante est celle de 1954, année à partir de laquelle le
+          ministère des Affaires indiennes se charge dorénavant totalement de la responsabilité
+          d’engager le personnel enseignant. Près de 1 400 enseignants deviennent ainsi des employés
+          du gouvernement. Ce transfert de responsabilité des Églises au gouvernement ouvre la voie
+          à la prise en charge des écoles par le gouvernement en 1969. Ce dernier espère de nouveau
+          mettre un terme au système des pensionnats mais des autorités autochtones s’y opposent et
+          il semble que ce soit ainsi l’avènement d’écoles exploitées par les Autochtones eux-mêmes
+          qui ait prolongé la durée du système. Le chapitre 45 revient plus sur le processus de
+          négociation qui a ensuite débouché sur la signature d’une Convention de règlement qui
+          associe des excuses (elles seront présentées par le premier ministre Stephen Harper en
+          2008), des droits concédés « aux survivants », des poursuites civiles, des recours
+          collectifs, des indemnisations pour les mauvais traitements subis dans les écoles, et la
+          création de la Commission de vérité et réconciliation du Canada, cette dernière s’étant vu
+          confier le mandat de « faire connaître aux Canadiens l’histoire des pensionnats et
+          l’impact de ces établissements sur les Autochtones » (p. 610).</alinea>
+      </para><para id="pa12"><no>12</no>
+        <alinea>Le volume 2 est consacré à l’expérience inuit et nordique. Divisé en deux parties,
+          la première examine les écoles de missionnaires dans le Nord de 1867 à 1960 et porte
+          principalement sur l’ouest de l’Arctique canadien, couvrant les institutions situées dans
+          les Territoires du Nord-Ouest et au Yukon. Les auteurs abordent la politique
+          gouvernementale canadienne qui, pendant longtemps, néglige plutôt que dirige la question
+          de l’éducation des Inuit. Le chapitre 2 traite des premières bases de la création des
+          écoles entre 1850 et 1900. Les chapitres 3, 4 et 5 décrivent les écoles missionnaires, la
+          vie des élèves et l’éducation. La seconde partie analyse les pensionnats et la
+          bureaucratisation du Nord après 1950 en tenant compte des établissements qui ont été
+          ouverts au Nouveau-Québec et au Labrador. Le gouvernement fédéral repense ici sa politique
+          en créant des externats, des grands et des petits foyers. L’administration territoriale
+          est analysée de 1969 à 1997. Mais dans le Nord comme ailleurs, les problèmes se
+          ressemblent et de nombreux abus, conflits et dysfonctionnements sont montrés du doigt.
+          Surtout, la transmission intergénérationnelle des valeurs et des traditions a été
+          brutalement interrompue. Les enfants ont perdu beaucoup de leur culture et se trouvent
+          détachés de leurs parents, ce qui a donné lieu à de nombreux problèmes. En dépit des
+          épreuves parfois très lourdes qu’ont dû vivre les pensionnaires, plusieurs ont ensuite
+          connu d’intéressantes carrières, devenant des leaders importants. Plusieurs leaders
+          indiquent même leur satisfaction à avoir ainsi découvert les modes de pensée des Blancs,
+          ces connaissances leur permettant aujourd’hui de faire fonctionner le gouvernement du
+          Nunavut.</alinea>
+      </para><para id="pa13"><no>13</no>
+        <alinea>Le volume 3 porte sur l’expérience métisse. Les auteurs soulignent ici le rôle
+          qu’ont joué des soeurs métisses éduquées par les Soeurs de la Charité de Montréal, deux
+          d’entre elles, les soeurs Angélique et Marguerite Nolin, ayant ouvert une école à
+          Rivière-Rouge en 1829. Louis Riel étudiera lui-même dans une école catholique du
+          Bas-Canada avant d’être recruté comme enseignant au pensionnat pour garçons au Montana. En
+          ce sens, Inuit et Métis semblent plus nuancés que bien des membres des Premières Nations
+          face à la question des pensionnats.</alinea>
+      </para><para id="pa14"><no>14</no>
+        <alinea>Le volume 4 est consacré aux enfants disparus et aux lieux de sépulture non marqués.
+          Le chapitre 1 offre une analyse statistique détaillée des décès en distinguant le registre
+          des décès confirmés d’élèves dont le nom est connu, le registre des décès confirmés
+          d’élèves dont le nom est inconnu et le registre des décès nécessitant des compléments
+          d’enquête. Le chapitre 2 sur les politiques opérationnelles et les soins de garde examine
+          les politiques administratives relatives aux décès, aux maladies et aux disparitions. Le
+          chapitre 3 offre pour finir une étude sur les cimetières et les lieux de sépulture où des
+          élèves ont vraisemblablement été enterrés, de nombreuses tombes ayant été laissées à
+          l’abandon. Cinq annexes identifient les pensionnats au pays et reviennent sur les
+          incendies, avec près de 53 établissements détruits par le feu de 1867 à 1997. Pour
+          conclure, il est rappelé que sous l’effet de la tuberculose et d’autres facteurs,
+          2 040 élèves sont décédés dans les pensionnats, un chiffre terrible auquel il faut ajouter
+          1 161 décès déclarés de pensionnaires inconnus et d’autres, puisque les enquêtes demeurent
+          inachevées. Ces chiffres sont effrayants pour des esprits contemporains, mais si on ne
+          peut pas les excuser, il faut aussi les rapporter aux conditions de vie et aux
+          sensibilités de l’époque.</alinea>
+      </para><para id="pa15"><no>15</no>
+        <alinea>Le volume 5 s’attache à saisir les multiples séquelles laissées par les pensionnats.
+          Ces séquelles se mesurent bien entendu sur le plan culturel, de nombreux Autochtones ayant
+          été aliénés, séparés de leur famille et déculturés, ce qui se voit clairement de nos jours
+          dans le déclin inquiétant des langues autochtones. Au-delà de ces effets déstructurants,
+          les Autochtones se heurtent toujours au racisme, présentent une espérance de vie
+          inférieure à celle des autres Canadiens, et font face à de nombreux préjugés. Maladies,
+          pauvreté, analphabétisme, échec scolaire, drogue et alcoolisme ne sont que les principaux
+          maux dont souffrent encore de nombreuses communautés, y compris dans un pays comme le
+          Canada qui a pourtant essayé, il y a quelques mois encore, de bloquer la venue d’un
+          enquêteur des Nations Unies. Les séquelles psychologiques paraissent moins visibles, mais
+          elles sont bel et bien mesurables, le mal être, la dépression et le suicide touchant de
+          nombreuses familles, sans oublier la surincarcération qui touche les Autochtones et les
+          nombreuses injustices dont ils demeurent les victimes. Ces faits ne sont toutefois pas
+          seulement attribuables au système des pensionnats, mais à une entreprise d’assimilation
+          pensée à une échelle plus large encore. Cette assimilation a donc profondément affecté les
+          Autochtones dans des domaines clés que sont la protection de l’enfance, l’éducation, la
+          langue, la culture, la santé et la justice. Au terme de cinq chapitres qui abordent ces
+          lourdes et durables séquelles, ce volume se clôt sur les différents appels à l’action dans
+          ces mêmes domaines. Les commissaires en appellent, entre autres – car ici le texte est
+          fort détaillé – à réduire les inégalités dont souffrent les Autochtones et à mieux
+          protéger leurs enfants ; à combler les écarts en matière d’éducation et d’emploi entre
+          Canadiens et Autochtones ; à reconnaître des droits linguistiques et culturels aux peuples
+          autochtones ; à améliorer la santé de ces populations ; à assurer plus d’équité dans la
+          justice ; et à signer la Déclaration des Nations Unies sur les droits des peuples
+          autochtones. Toutes ces mesures, soit près de 94 propositions concrètes, y compris le
+          respect des traités et des commémorations, devraient faciliter un pacte de
+          réconciliation.</alinea>
+      </para><para id="pa16"><no>16</no>
+        <alinea>Le volume 6, intitulé <marquage typemarq="italique">La réconciliation</marquage>,
+          propose des principes directeurs et un cadre pour favoriser la réconciliation dans la
+          société canadienne tout en soulignant les multiples défis qu’il faudra surmonter pour
+          réussir cette sortie du cadre impérial. Plus que des excuses nécessaires, des gestes
+          symboliques et l’établissement de relations respectueuses entre les Canadiens
+          non-autochtones et les peuples autochtones, les auteurs préconisent de revaloriser les
+          cultures, les pratiques, les lois et les traditions autochtones. Mais la société
+          canadienne est-elle capable de prendre ces directives au sérieux ? Les auteurs proposent
+          plusieurs moyens comme l’éducation publique, les arts et la commémoration. En somme, les
+          Canadiens doivent « apprendre à décoloniser », pour reprendre les propos de Shirley
+          Flowers. Ils doivent prendre conscience du passé, reconnaître les torts, expier les fautes
+          commises, présenter des excuses, et agir pour faire changer les comportements. La
+          réconciliation consiste donc en un long processus visant « à établir et maintenir une
+          relation de respect réciproque entre les peuples autochtones et non autochtones du pays »
+          (p. 3). </alinea>
+      </para><para id="pa17"><no>17</no>
+        <alinea>La fin des travaux de la Commission en 2015 amorce ainsi une nouvelle période, celle
+          de la guérison, mais aussi celle d’une voie nouvelle et audacieuse. Il est vrai que de
+          nombreux Canadiens méconnaissent encore beaucoup les peuples autochtones qui les
+          entourent, et même ignorent tout des traditions et des spiritualités autochtones.
+          Pourtant, saura-t-on définitivement tourner la page du colonialisme ? Les fantômes du
+          colonialisme ne reviendront-ils pas rapidement lorsqu’il s’agira de reconnaître certaines
+          des pratiques autochtones qui se situent bien loin de nos valeurs ? Comment les
+          initiatives de revitalisation culturelle seront-elles reçues en dehors des cercles
+          autochtones ? À certains égards, le document tombe vite dans l’utopie… Ainsi veut-on
+          construire une société plus équitable et inclusive en éliminant les grands écarts sur les
+          plans social, économique et sanitaire entre les Autochtones et les Canadiens
+          non-autochtones, alors que tous les indicateurs laissent entendre que l’inverse se produit
+          en général dans l’Occident tout entier, les écarts entre riches et pauvres ne cessant de
+          se creuser. Enfin, il ne faudrait pas non plus imaginer que les Autochtones n’ont été que
+          des victimes passives de l’occidentalisation et qu’ils ont perdu leurs identités et toutes
+          leurs traditions, car bien des continuités sont repérables lorsqu’on s’intéresse aux
+          dynamiques locales.</alinea>
+      </para><para id="pa18"><no>18</no>
+        <alinea>En somme, les 7 volumes qui constituent le Rapport final de la Commission de vérité
+          et réconciliation du Canada plongent le lecteur dans ce qui est sans doute le plus sombre
+          épisode de l’histoire canadienne, épisode au cours duquel on peut dire qu’un « génocide
+          culturel » a été perpétré. </alinea>
+      </para><para id="pa19"><no>19</no>
+        <alinea>Le juge Sinclair, qui signe un des textes introductifs, évoque le terrible paradoxe
+          qui a affecté les victimes parmi les plus vulnérables, sept générations d’enfants :
+          « Alors que certains perçoivent les pensionnats comme des centres d’éducation, il
+          s’agissait, en réalité, de centres d’endoctrinement culturel » (p. vii). À certains
+          égards, cette idéologie a pourtant largement survécu, comme l’attestent encore toutes ces
+          initiatives et ces discours qui stigmatisent les peuples autochtones, pour ne pas
+          mentionner la facilité avec laquelle une bonne partie de la société civile canadienne
+          accepte les drames qui affectent les nations autochtones : disparition des femmes,
+          multiplication des sans-abris, dépossession des terres savamment et légalement orchestrée
+          (voir le film <marquage typemarq="italique">Le peuple invisible</marquage>, de Richard
+          Desjardins et Robert Monderie, 2007), exploitation unilatérale des ressources du sous-sol
+          (voir le film <marquage typemarq="italique">Une tente sur mars</marquage>, de Martin
+          Bureau et Luc Renaud, 2009), etc. En d’autres termes, en dépit de la résistance, les
+          peuples autochtones continuent de faire face à des politiques d’assimilation dont on
+          mesurera un jour les effets dévastateurs. Mais les instruments ont changé et sont devenus
+          plus insidieux.</alinea>
+      </para><para id="pa20"><no>20</no>
+        <alinea>Pour revenir aux pensionnats, cette masse de documents a de quoi bouleverser les
+          consciences collectives. La Commission aurait recueilli pas moins de 6 500 témoignages
+          d’anciens élèves décrivant des expériences vécues dans les pensionnats entre 1940 et 1997.
+          Les données statistiques et les photographies donnent encore plus d’ampleur à ce corpus.
+          Ces récits font entrer le Canada dans le rang des grandes nations colonisatrices. Le
+          lecteur découvre une colonisation intérieure particulièrement dure et qui s’est prolongée
+          bien au-delà des années 1960 alors qu’ailleurs dans le monde, ces années marquaient une
+          nouvelle étape dans la décolonisation.</alinea>
+      </para><para id="pa21"><no>21</no>
+        <alinea>Même si ce travail a représenté un chantier gigantesque, on regrette qu’il manque de
+          nombreuses voix : celles du personnel technique, des professeurs, et surtout celles des
+          soeurs missionnaires qui ont été nombreuses à travailler, parfois avec le plus grand
+          dévouement, auprès des enfants. Ces mémoires brillent par leur absence. Les récits des
+          victimes ne suffisent pas. En outre, il serait erroné de penser qu’il n’y a pas eu de
+          victimes ou de tentatives de résistance de l’autre côté. À Chesterfield Inlet, par
+          exemple, une soeur métis s’est distinguée en se montrant laxiste sur les règlements ; une
+          autre relate comment elle a su faire face à un patient alité plein d’ambition à son égard,
+          etc. Le rapport n’accorde aucune place à ces gestes. Au contraire, il frôle parfois la
+          caricature. Que faire aussi de ces cas de jeunes filles inuit qui préféraient aller au
+          pensionnat ou devenir des postulantes plutôt que de se retrouver mariées de force par leur
+          famille, comme le voulait la tradition des mariages arrangés ? </alinea>
+      </para><para id="pa22"><no>22</no>
+        <alinea>Le livre de l’historien Henry Goulet intitulé <marquage typemarq="italique">Histoire
+          des pensionnats indiens catholiques du Québec… </marquage>(2016) ne fait pas davantage de
+          place à cette complexité. Au contraire, en pointant des responsables et des acteurs clés
+          – ici les missionnaires oblats –, on oublie aisément le rôle de toute une nation, d’une
+          collectivité entière qui connaissait fort bien l’existence de ces pensionnats et de
+          certains des abus qui y étaient perpétrés. D’ailleurs, nombre de pensionnaires
+          non-autochtones ont subi des violences du même ordre dans certaines écoles. À ce titre, on
+          regrette l’absence ici comme dans le Rapport de la Commission d’une réelle réflexion de
+          fond à partir des travaux de H. Arendt, de P. Legendre et de P. Ricoeur. </alinea>
+      </para><para id="pa23"><no>23</no>
+        <alinea>L’ouvrage de Goulet compte 5 chapitres, soit un chapitre introductif et synthétique
+          où l’auteur rappelle l’ouverture tardive des pensionnats indiens au Québec, et quatre
+          chapitres/études de cas où il examine les pensionnats de Fort-George (1930-1980), de
+          Sept-Îles (1952-1971), de Saint-Marc-de-Figuery à Amos (1955-1973) et de Pointe-Bleue
+          (Mashteuiatsh) (1960-1973). L’auteur a raison de rappeler combien les oblats ont tenté de
+          freiner l’assimilation des Autochtones en défendant le maintien des cultures et des
+          valeurs amérindiennes, en s’opposant donc à ce que les élèves autochtones soient envoyés
+          dans des écoles publiques et en faisant la promotion des pensionnats, mais le système des
+          écoles résidentielles est bien antérieur à cette posture des oblats des années 1960. Ce
+          système d’assimilation est plutôt conforme à l’idée britannique d’assimilation. </alinea>
+      </para><para id="pa24"><no>24</no>
+        <alinea>L’ouvrage de Ronald Niezen, <marquage typemarq="italique">Truth and
+          Indignation</marquage>… (2013) semble plus convaincant sur le plan analytique, mais on
+          peut regretter d’entrée qu’il offre si peu de matériaux empiriques sur les voix et
+          perspectives des missionnaires. L’auteur cite brièvement plusieurs missionnaires et soeurs
+          qui évoquent tantôt leur étonnement face aux résultats de la Commission, tantôt leur
+          malaise ou leur colère, tandis que d’autres encore indiquent qu’ils ont fait leur travail
+          sans volonté de blesser quiconque. L’ouvrage de Niezen apporte toutefois un regard
+          critique sur la Commission elle-même. L’anthropologue du droit montre bien les
+          contradictions et les multiples difficultés de la Commission, laquelle ne s’est pas dotée
+          des moyens suffisants pour atteindre ses objectifs, n’a pas bien médiatisé son travail et,
+          surtout, n’a pas vraiment fait justice ni réparé les victimes. Ces errances n’ont pas
+          soulagé la souffrance des victimes mais multiplié les frustrations tant pour les victimes,
+          et ce, sur un plan intergénérationnel, que pour les missionnaires condamnés au silence,
+          d’où cette notion d’indignation que partagent maintenant l’ensemble des acteurs.</alinea>
+      </para><para id="pa25"><no>25</no>
+        <alinea>Tous ces travaux sur les pensionnats ont été menés avec des fonds d’archives et des
+          témoignages oraux, mais les zones d’ombre demeurent encore trop nombreuses pour évoquer
+          une quelconque « vérité ». D’ailleurs, un récit objectif demeure sans doute un peu
+          utopique tant la violence de certains événements et les traumatismes qu’ils ont produit
+          pèsent encore trop lourd pour que toutes les vérités puissent être dites.</alinea>
+      </para><para id="pa26"><no>26</no>
+        <alinea>Plus fondamentalement, il faut s’interroger sur la pertinence même d’une
+          réconciliation alors que de nombreuses fractures demeurent. Cette idée circule depuis
+          quelques années déjà dans les cercles évangéliques et pentecôtistes, mais à qui la
+          réconciliation va-t-elle bénéficier ? Où sont les réparations ? Comment ne pas voir
+          qu’aujourd’hui, encore, une forme de néocolonialisme perdure, cette fois sur le plan
+          socioéconomique, les territoires autochtones étant devenus des espaces et ressources
+          convoités ? Il suffit d’évoquer les sables bitumineux et la construction des pipelines.
+          D’ailleurs, les procès à venir seront nombreux. Bref, en guise de réconciliation, ne
+          faudrait-il pas, plutôt, se lancer dans un exercice réflexif et collectif avec les
+          Autochtones pour imaginer et définir plus clairement les termes et les conditions d’un
+          vivre ensemble ? La réconciliation est un horizon, elle ne se décrète pas. </alinea>
+      </para><para id="pa27"><no>27</no>
+        <alinea>La commissaire Marie Wilson, qui rédige une déclaration au début du volume 1, laisse
+          entendre qu’il s’agit bien là d’un premier pas vers une réconciliation. On peut rétorquer
+          qu’il faudra pourtant bien aborder aussi les dossiers irritants, ce que fait le chef
+          Wilton Littlechild, qui a été un élève de pensionnat pendant près de douze ans. Ce dernier
+          préfère, lui, de parler de guérison et de résilience, en appelant à un retour de la
+          spiritualité via celui des langues, des cultures et des terres spoliées. Littlechild
+          esquisse quatre solutions : partir des traités historiques, se servir de la Déclaration
+          des Nations Unies sur les droits des peuples autochtones pour donner un cadre à la
+          réconciliation, développer une éducation holistique, et retrouver une harmonie familiale.
+          Soit, mais il reste au Canada et à ses habitants d’en faire un peu plus à l’égard des
+          peuples autochtones au risque de donner raison à Niezen, qui s’interroge à l’effet de
+          savoir si en créant une telle Commission le Canada n’a pas voulu se donner bonne
+          conscience, comme il l’a fait pour le Nunavut, et ainsi redorer son image. Une fois de
+          plus, le pays confirme son incapacité structurelle à développer des relations
+          respectueuses et d’égal à égal avec les peuples autochtones encore soumis à la Loi sur les
+          Indiens, nonobstant son caractère racial et désuet, comme l’a bien illustré un collectif
+          amérindien (Picard-Sioui 2009). </alinea>
+      </para><para id="pa28"><no>28</no>
+        <alinea>Combien de temps, et combien de commissions faudra-t-il encore pour en
+          sortir ?</alinea>
+      </para></section1></corps><partiesann lang="fr">
+    <grbiblio>
+      <biblio><titre>Références</titre><refbiblio id="rb1"><marquage typemarq="petitecap">Bruckner</marquage> Pascal, 1983, <marquage typemarq="italique">Le Sanglot de l’homme blanc</marquage>. Paris,        Éditions du Seuil.</refbiblio><refbiblio id="rb2"><marquage typemarq="petitecap">Bureau</marquage> Martin et Luc <marquage typemarq="petitecap">Renaud</marquage>, 2009,        <marquage typemarq="italique">Une tente sur mars</marquage> [film documentaire]. Québec, Productions Thalie, 60 min.</refbiblio><refbiblio id="rb3"><marquage typemarq="petitecap">Desjardins</marquage> Richard et R. <marquage typemarq="petitecap">Monderie</marquage>,        2007, <marquage typemarq="italique">Le peuple invisible</marquage> [film documentaire]. Montréal, Office national du film du        Canada, 93 min.</refbiblio><refbiblio id="rb4"><marquage typemarq="petitecap">Jaccoud</marquage> Mylène, 2016, « La portée réparatrice et réconciliatrice de        la Commission de vérité et réconciliation du Canada », <marquage typemarq="italique">Recherches amérindiennes au        Québec</marquage>, 46, 2-3 : 155-164, disponible sur Internet (doi : 10.7202/1040443ar) le 28 août        2017.</refbiblio><refbiblio id="rb5"><marquage typemarq="petitecap">Picard-Sioui</marquage> Louis Karl (dir.), 2009, <marquage typemarq="italique">La Loi sur les        Indiens revisitée</marquage>. Wendake, Musée huron-wendat.</refbiblio><refbiblio id="rb6"><marquage typemarq="italique">Recherches amérindiennes au Québec</marquage>, 2016, « Tableau noir et réconciliation :        écoles et pensionnats au Québec », disponible sur Internet (<liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls2" xlink:href="https://www.erudit.org/fr/revues/raq/2016-v46-n2-3-raq03118/" xlink:type="simple" xlink:show="replace" xlink:actuate="onRequest">https://www.erudit.org/fr/revues/raq/2016-v46-n2-3-raq03118/</liensimple>) le 28 août        2017.</refbiblio></biblio>
+    </grbiblio>
+  </partiesann></article>
