@@ -300,7 +300,7 @@ class EruditPublication(
         :returns: the theme of the publication object with HTML tags. """
         return self.convert_marquage_content_to_html(self.find('theme'))
 
-    def get_journal_title(self, formatted=False, html=False, subtitles=False):
+    def get_journal_title(self, formatted=False, html=False, subtitles=True):
         """ Return the title of the journal
 
         :param formatted: if ``True``, format all the parts of the title. Otherwise, return
@@ -321,7 +321,7 @@ class EruditPublication(
         if not formatted:
             return titles
         else:
-            return self._get_formatted_single_title(titles)
+            return self._get_formatted_single_title(titles, subtitles=subtitles)
 
     def get_first_page(self):
         """ :returns: the first page of the publication object. """
