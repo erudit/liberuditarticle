@@ -30,6 +30,10 @@ class TestCanReturnJournalTitle(object):
     def test_can_format_journal_titles_and_subtitles(self, value):
         assert value == "Cinémas\xa0: revue d'études cinématographiques / Cinémas: Journal of Film Studies"  # noqa
 
+    @with_value("cine02589.xml", "get_journal_title", formatted=True, subtitles=False)
+    def test_can_format_journal_titles_without_subtitles(self, value):
+        assert value == "Cinémas"
+
     @with_value("cine02589.xml", "get_journal_title")
     def test_can_return_journal_titles_and_subtitles(self, value):
         assert value == {

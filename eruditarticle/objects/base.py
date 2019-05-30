@@ -35,7 +35,7 @@ class EruditBaseObject(DomObject):
 
         return result
 
-    def _format_single_title(self, title):
+    def _format_single_title(self, title, subtitles=True):
         """ format a Title namedtuple """
         # Should not add colon after punctuation.
         if title.title and title.title[-1] in '.!?':
@@ -46,22 +46,20 @@ class EruditBaseObject(DomObject):
                 separator = "\xa0: "
             else:
                 separator = ": "
-        # Lowercase French subtitles if following a colon.
-        if title.subtitle and title.lang == "fr" and ':' in separator:
-            subtitle = title.subtitle[:1].lower() + title.subtitle[1:]
-        else:
-            subtitle = title.subtitle
-        if title.title and title.subtitle:
+        if subtitles and title.subtitle:
+            # Lowercase French subtitles if following a colon.
+            if title.lang == "fr" and ':' in separator:
+                subtitle = title.subtitle[:1].lower() + title.subtitle[1:]
+            else:
+                subtitle = title.subtitle
             return "{title}{separator}{subtitle}".format(
                 title=title.title,
                 separator=separator,
                 subtitle=subtitle,
             )
-        return "{title}".format(
-            title=title.title
-        )
+        return title.title
 
-    def _get_formatted_single_title(self, titles, use_equivalent=False):
+    def _get_formatted_single_title(self, titles, use_equivalent=False, subtitles=True):
         """ Format the main, paral and equivalent titles in a single title
 
             :param use_equivalent: whether or not to use equivalent titles. In the
@@ -74,19 +72,36 @@ class EruditBaseObject(DomObject):
 
         sections = []
         if titles['main'].title is not None:
-            sections.append(self._format_single_title(titles['main']))
+            sections.append(self._format_single_title(titles['main'], subtitles=subtitles))
 
-        if titles['paral']:
-            sections.append(" / ".join(
-                self._format_single_title(paral_title)
-                for paral_title in titles['paral']
-            ))
+        paral_titles = []
+        for paral_title in titles['paral']:
+            # Format parallel title.
+            formatted_paral_title = self._format_single_title(
+                paral_title,
+                subtitles=subtitles,
+            )
+            # Add the parallel title to the list only if it's different than the main title.
+            if formatted_paral_title not in sections:
+                paral_titles.append(formatted_paral_title)
+        # Add parallel titles to the main title.
+        if paral_titles:
+            sections.append(' / '.join(paral_titles))
 
-        if titles['equivalent'] and use_equivalent:
-            sections.append(" / ".join(
-                self._format_single_title(paral_title)
-                for paral_title in titles['equivalent']
-            ))
+        if use_equivalent:
+            equivalent_titles = []
+            for equivalent_title in titles['equivalent']:
+                # Format equivalent title.
+                formatted_equivalent_title = self._format_single_title(
+                    equivalent_title,
+                    subtitles=subtitles,
+                )
+                # Add the equivalent title to the list only if it's different than the main title.
+                if formatted_equivalent_title not in sections:
+                    equivalent_titles.append(formatted_equivalent_title)
+            # Add equivalent titles to the main title.
+            if equivalent_titles:
+                sections.append(' / '.join(equivalent_titles))
 
         return " / ".join(sections)
 
