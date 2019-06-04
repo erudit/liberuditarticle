@@ -231,9 +231,21 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             "" if level == 1 else level
         )
 
+        if html:
+            parser_method = self.convert_marquage_content_to_html
+        else:
+            parser_method = self.stringify_children
+
+        paral_titles = self.find_paral(
+            self.find('liminaire//grtitre'),
+            surtitre_elem,
+        )
+        for lang, title in paral_titles.items():
+            paral_titles[lang] = parser_method(title)
+
         return {
             'main': section_title,
-            'paral': self.find_paral(self.find('liminaire//grtitre'), surtitre_elem),
+            'paral': paral_titles,
         } if section_title else None
 
     def _get_section_title(self, level=1, html=True):
