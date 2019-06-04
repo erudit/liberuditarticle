@@ -335,7 +335,7 @@ class TestArticleSavantComplet(object):
         }
 
     def test_can_return_formatted_titles(self):
-        EXPECTED = "Esth&#233;tique et s&#233;miotique\xa0: pr&#233;sentation / Aesthetics and Semiotics: Presentation"  # noqa
+        EXPECTED = "Esthétique et sémiotique\xa0: présentation / Aesthetics and Semiotics: Presentation"  # noqa
         assert self.test_objects['1005860ar.xml'].get_formatted_html_title() == EXPECTED
         assert self.test_objects['1005860ar.xml'].get_title(formatted=True, html=True) == EXPECTED
 
@@ -343,7 +343,7 @@ class TestArticleSavantComplet(object):
         assert self.test_objects['044308ar.xml'].get_formatted_html_title() == EXPECTED
         assert self.test_objects['044308ar.xml'].get_title(formatted=True, html=True) == EXPECTED
 
-        EXPECTED = 'Colloque d&#8217;histoire antillaise : <span class="majuscule">C</span>ENTRE D&#8217;ENSEIGNEMENT SUP&#201;RIEUR LITT&#201;RAIRE DE POINTE-&#192;-PITRE (25-28 avril 1969)'  # noqa
+        EXPECTED = 'Colloque d’histoire antillaise : <span class="majuscule">C</span>ENTRE D’ENSEIGNEMENT SUPÉRIEUR LITTÉRAIRE DE POINTE-À-PITRE (25-28 avril 1969)'  # noqa
         assert self.test_objects['1056263ar.xml'].get_formatted_html_title() == EXPECTED
         assert self.test_objects['1056263ar.xml'].get_title(formatted=True, html=True) == EXPECTED
 
@@ -367,7 +367,7 @@ class TestArticleSavantComplet(object):
         }
 
     def test_can_return_its_formatted_journal_title(self):
-        assert self.test_objects['1005860ar.xml'].get_formatted_journal_title() == "Recherches s&#233;miotiques / Semiotic Inquiry"  # noqa
+        assert self.test_objects['1005860ar.xml'].get_formatted_journal_title() == "Recherches sémiotiques / Semiotic Inquiry"  # noqa
         assert self.test_objects['044308ar.xml'].get_formatted_journal_title() == "Relations industrielles / Industrial Relations"  # noqa
 
     def test_can_return_languages(self):
@@ -564,6 +564,10 @@ class TestArticleCulturelMinimal(object):
             'equivalent': [],
             'reviewed_works': [],
         }
+
+    def test_can_return_its_formatted_title(self):
+        assert self.test_objects['90859ac.xml'].get_title(formatted=True, html=True) == 'Doubles vies : écris-moi des mots qui sonnent, sonnent, sonnent'  # noqa
+        assert self.test_objects['90873ac.xml'].get_title(formatted=True, html=True) == 'God exists, Her Name Is Petrunya : à la fin, c’est l’eau qui gagne'  # noqa
 
     @with_value('67660ac.xml', 'get_titles')
     def test_untitled_article_can_return_its_title(self, value):
