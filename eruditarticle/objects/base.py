@@ -23,8 +23,8 @@ class Title:
         self.title = parser_method(title, strip_elements=self.STRIP_ELEMENTS)
         self.subtitle = parser_method(subtitle, strip_elements=self.STRIP_ELEMENTS)
         self.lang = lang
-        self.xml_title = title
-        self.xml_subtitle = subtitle
+        self.xml_title = et.tostring(title) if title is not None else None
+        self.xml_subtitle = et.tostring(subtitle) if subtitle is not None else None
 
     def __repr__(self):
         return 'Title(title="{}", subtitle="{}", lang="{}")'.format(
@@ -53,7 +53,7 @@ class Title:
             # Check if uppercase is forced on subtitle.
             match = re.search(
                 r'^<[a-z]+><marquage typemarq=\"majuscule\">',
-                et.tostring(self.xml_subtitle).decode()
+                self.xml_subtitle.decode()
             )
             # Lowercase French subtitles if following a colon and uppercase is not forced.
             if self.lang == "fr" and ':' in separator and not match:
