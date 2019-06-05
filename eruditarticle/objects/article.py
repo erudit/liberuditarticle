@@ -127,7 +127,8 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
 
     def get_doi(self):
         """ :returns: the DOI of the article object. """
-        return self.get_text('idpublic[@scheme="doi"]')
+        doi = self.get_text('idpublic[@scheme="doi"]')
+        return doi.strip() if doi is not None else None
 
     def get_uri(self):
         """ :returns: the URI of the article object. """
@@ -286,7 +287,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         for reference in xml_references:
             doi = reference.find('idpublic[@scheme="doi"]')
             if doi is not None:
-                doi = doi.text
+                doi = doi.text.strip()
             if html:
                 title = self.convert_marquage_content_to_html(
                     reference, strip_elements=('idpublic',)
