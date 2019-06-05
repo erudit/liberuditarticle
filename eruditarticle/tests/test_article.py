@@ -593,6 +593,9 @@ class TestArticleCulturelMinimal(object):
     def test_can_extract_reviewed_works(self):
         assert self.test_objects['49222ac.xml'].get_reviewed_works(html=False) == ["Love and Death on Long Island (Rendez-vous à Long Island), Grande-Bretagne / Canada, 1997, 93 minutes"]  # noqa
 
+    def test_get_doi_with_extra_space(self):
+        assert self.test_objects['1009368ar.xml'].get_doi() == '10.7202/1009368ar'
+
 
 def get_article(fixturename):
     path = './eruditarticle/tests/fixtures/{}'.format(fixturename)
