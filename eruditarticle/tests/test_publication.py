@@ -2,17 +2,11 @@ import pytest
 
 from datetime import datetime
 
-from eruditarticle.objects import EruditPublication, Title
+from eruditarticle.objects.base import Title
+from eruditarticle.objects import EruditPublication
 from eruditarticle.tests.decorators import with_value, with_fixtures
 
 from .test_article import people_to_dict
-
-
-class Title(Title):
-    def __init__(self, title=None, subtitle=None, lang=None):
-        self.lang = lang
-        self.title = title
-        self.subtitle = subtitle
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication/journal_title', EruditPublication)
