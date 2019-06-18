@@ -59,11 +59,11 @@ class Title:
             if self.lang == "fr" and ':' in separator and not match:
                 subtitle = subtitle[:1].lower() + subtitle[1:]
             return "{title}{separator}{subtitle}".format(
-                title=title,
+                title=html.escape(title, quote=False),
                 separator=separator,
-                subtitle=subtitle,
+                subtitle=html.escape(subtitle, quote=False),
             )
-        return title
+        return html.escape(title, quote=False)
 
 
 class EruditBaseObject(DomObject):
