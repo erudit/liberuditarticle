@@ -1,69 +1,14 @@
 import collections
 from copy import copy
 
-import html
 import lxml.etree as et
-import re
 import six
 
 from ..utils import remove_xml_namespaces, normalize_whitespace
 from .dom import DomObject
 from .person import Person
 
-
-class Title:
-
-    STRIP_ELEMENTS = ['renvoi']
-
-    def __init__(self, title=None, subtitle=None, lang=None, html=True):
-        if html:
-            parser_method = EruditBaseObject.convert_marquage_content_to_html
-        else:
-            parser_method = EruditBaseObject.stringify_children
-        self.title = parser_method(title, strip_elements=self.STRIP_ELEMENTS)
-        self.subtitle = parser_method(subtitle, strip_elements=self.STRIP_ELEMENTS)
-        self.lang = lang
-        self.xml_title = et.tostring(title) if title is not None else None
-        self.xml_subtitle = et.tostring(subtitle) if subtitle is not None else None
-
-    def __repr__(self):
-        return 'Title(title="{}", subtitle="{}", lang="{}")'.format(
-            self.title,
-            self.subtitle,
-            self.lang,
-        )
-
-    def __eq__(self, other):
-        return str(self) == str(other)
-
-    def format(self, with_subtitle=True):
-        """ Format a title with or without its subtitle. """
-        title = html.unescape(self.title)
-        # Should not add colon after punctuation.
-        if title and title[-1] in '.!?':
-            separator = ' '
-        else:
-            # Add non-breaking space before colon for French titles.
-            if self.lang == "fr":
-                separator = "\xa0: "
-            else:
-                separator = ": "
-        if with_subtitle and self.xml_subtitle is not None:
-            subtitle = html.unescape(self.subtitle)
-            # Check if uppercase is forced on subtitle.
-            match = re.search(
-                r'^<[a-z]+><marquage typemarq=\"majuscule\">',
-                self.xml_subtitle.decode()
-            )
-            # Lowercase French subtitles if following a colon and uppercase is not forced.
-            if self.lang == "fr" and ':' in separator and not match:
-                subtitle = subtitle[:1].lower() + subtitle[1:]
-            return "{title}{separator}{subtitle}".format(
-                title=title,
-                separator=separator,
-                subtitle=subtitle,
-            )
-        return title
+Title = collections.namedtuple('Title', ['title', 'subtitle', 'lang'])
 
 
 class EruditBaseObject(DomObject):
@@ -90,6 +35,30 @@ class EruditBaseObject(DomObject):
 
         return result
 
+    def _format_single_title(self, title, subtitles=True):
+        """ format a Title namedtuple """
+        # Should not add colon after punctuation.
+        if title.title and title.title[-1] in '.!?':
+            separator = ' '
+        else:
+            # Add non-breaking space before colon for French titles.
+            if title.lang == "fr":
+                separator = "\xa0: "
+            else:
+                separator = ": "
+        if subtitles and title.subtitle:
+            # Lowercase French subtitles if following a colon.
+            if title.lang == "fr" and ':' in separator:
+                subtitle = title.subtitle[:1].lower() + title.subtitle[1:]
+            else:
+                subtitle = title.subtitle
+            return "{title}{separator}{subtitle}".format(
+                title=title.title,
+                separator=separator,
+                subtitle=subtitle,
+            )
+        return title.title
+
     def _get_formatted_single_title(self, titles, use_equivalent=False, subtitles=True):
         """ Format the main, paral and equivalent titles in a single title
 
@@ -103,12 +72,15 @@ class EruditBaseObject(DomObject):
 
         sections = []
         if titles['main'].title is not None:
-            sections.append(titles['main'].format(with_subtitle=subtitles))
+            sections.append(self._format_single_title(titles['main'], subtitles=subtitles))
 
         paral_titles = []
         for paral_title in titles['paral']:
             # Format parallel title.
-            formatted_paral_title = paral_title.format(with_subtitle=subtitles)
+            formatted_paral_title = self._format_single_title(
+                paral_title,
+                subtitles=subtitles,
+            )
             # Add the parallel title to the list only if it's different than the main title.
             if formatted_paral_title not in sections:
                 paral_titles.append(formatted_paral_title)
@@ -120,7 +92,10 @@ class EruditBaseObject(DomObject):
             equivalent_titles = []
             for equivalent_title in titles['equivalent']:
                 # Format equivalent title.
-                formatted_equivalent_title = equivalent_title.format(with_subtitle=subtitles)
+                formatted_equivalent_title = self._format_single_title(
+                    equivalent_title,
+                    subtitles=subtitles,
+                )
                 # Add the equivalent title to the list only if it's different than the main title.
                 if formatted_equivalent_title not in sections:
                     equivalent_titles.append(formatted_equivalent_title)
@@ -168,23 +143,24 @@ class EruditBaseObject(DomObject):
         paral_titles = self.find_paral(
             root_elem,
             paral_title_elem_name,
+            html=html,
         )
 
         paral_subtitles = self.find_paral(
             root_elem,
             paral_subtitle_elem_name,
+            html=html,
         )
 
         # Process the paral and equivalent titles first since they have a 'lang' attribute and the
         # main title does not.
         for lang, title in paral_titles.items():
-            if title.text is None:
+            if not title:
                 continue
             paral_title = Title(
                 title=title,
-                subtitle=paral_subtitles[lang] if lang in paral_subtitles else None,
                 lang=lang,
-                html=html,
+                subtitle=paral_subtitles[lang] if lang in paral_subtitles else None
             )
 
             if not strict_language_check or lang in languages:
@@ -201,11 +177,17 @@ class EruditBaseObject(DomObject):
         if title_elem is None or (not title_elem.text and len(title_elem) == 0):
             title_elem = None
 
+        if html:
+            parser_method = self.convert_marquage_content_to_html
+        else:
+            parser_method = self.stringify_children
+
+        strip_elements = ['renvoi']
+
         titles['main'] = Title(
-            title=title_elem,
-            subtitle=subtitle_elem,
-            lang=languages.pop(0) if languages else 'fr',
-            html=html,
+            title=parser_method(title_elem, strip_elements),
+            subtitle=parser_method(subtitle_elem, strip_elements),
+            lang=languages.pop(0) if languages else 'fr'
         )
         return titles
 
@@ -242,8 +224,7 @@ class EruditBaseObject(DomObject):
             persons.append(Person(tree_author))
         return persons
 
-    @staticmethod
-    def stringify_children(node, strip_elements=None):
+    def stringify_children(self, node, strip_elements=None):
         """ Convert a node content to string
 
         :param strip_elements: elements to strip before converting to string
@@ -260,9 +241,12 @@ class EruditBaseObject(DomObject):
         if node.text is not None:
             return normalize_whitespace(node.text)
 
-    def find_paral(self, tag, paral_tag_name):
+    def find_paral(self, tag, paral_tag_name, html=True):
         """ Find the parallel values for the given tag using the given tag name. """
         pn = collections.OrderedDict()
         for title_paral in tag.findall(paral_tag_name):
-            pn[title_paral.get('lang')] = title_paral
+            if html:
+                pn[title_paral.get('lang')] = self.convert_marquage_content_to_html(title_paral)
+            else:
+                pn[title_paral.get('lang')] = self.stringify_children(title_paral)
         return pn
