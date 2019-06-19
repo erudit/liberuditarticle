@@ -1,7 +1,6 @@
 import collections
 from copy import copy
 
-import html
 import lxml.etree as et
 import re
 import six
@@ -38,7 +37,7 @@ class Title:
 
     def format(self, with_subtitle=True):
         """ Format a title with or without its subtitle. """
-        title = html.unescape(self.title)
+        title = self.title
         # Should not add colon after punctuation.
         if title and title[-1] in '.!?':
             separator = ' '
@@ -49,7 +48,7 @@ class Title:
             else:
                 separator = ": "
         if with_subtitle and self.xml_subtitle is not None:
-            subtitle = html.unescape(self.subtitle)
+            subtitle = self.subtitle
             # Check if uppercase is forced on subtitle.
             match = re.search(
                 r'^<[a-z]+><marquage typemarq=\"majuscule\">',
@@ -59,11 +58,11 @@ class Title:
             if self.lang == "fr" and ':' in separator and not match:
                 subtitle = subtitle[:1].lower() + subtitle[1:]
             return "{title}{separator}{subtitle}".format(
-                title=html.escape(title, quote=False),
+                title=title,
                 separator=separator,
-                subtitle=html.escape(subtitle, quote=False),
+                subtitle=subtitle,
             )
-        return html.escape(title, quote=False)
+        return title
 
 
 class EruditBaseObject(DomObject):

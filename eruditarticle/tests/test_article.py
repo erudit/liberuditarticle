@@ -42,7 +42,7 @@ class TestGetAbstracts:
     @with_value('1043568ar.xml', 'get_abstracts', html=True)
     def test_can_return_html_tags_of_abstracts(self, value):
         assert value[0]['type'] == 'main'
-        assert value[0]['content'] == """<p class="alinea"><em>En fin de premi&#232;re ann&#233;e de formation &#224; l&#8217;enseignement primaire, les &#233;tudiants du canton de Vaud en Suisse sont certifi&#233;s par des examens de diff&#233;rentes natures. Pour cette recherche &#224; caract&#232;re exploratoire, nous avons retenu deux certifications particuli&#232;res. La premi&#232;re concerne un module intitul&#233; </em>Savoirs math&#233;matiques et enseignement<em>, qui est certifi&#233; par un questionnaire &#224; choix multiples (QCM) et qui exige des &#233;tudiants non seulement qu&#8217;ils r&#233;pondent aux questions, mais &#233;galement qu&#8217;ils indiquent leurs degr&#233;s de certitude des r&#233;ponses donn&#233;es. Ce faisant, ils s&#8217;auto&#233;valuent et cette estimation est prise en compte dans la r&#233;ussite &#224; l&#8217;examen. La seconde concerne un module intitul&#233; </em>Enseignement et apprentissage<em>. L&#8217;examen se structure par des questions ouvertes testant les capacit&#233;s d&#8217;analyse de t&#226;ches distribu&#233;es aux &#233;l&#232;ves des classes de la r&#233;gion. L&#8217;article pr&#233;sente les r&#233;sultats d&#8217;une recherche visant &#224; comprendre les liens entre des exp&#233;riences &#233;valuatives et des postures en formation de quatre &#233;tudiantes, puis &#224; d&#233;finir d&#8217;&#233;ventuelles logiques de formation. Nous avons relev&#233; quatre postures qui remettent en question le rapport aux savoirs de la profession.</em></p>"""  # noqa
+        assert value[0]['content'] == """<p class="alinea"><em>En fin de première année de formation à l’enseignement primaire, les étudiants du canton de Vaud en Suisse sont certifiés par des examens de différentes natures. Pour cette recherche à caractère exploratoire, nous avons retenu deux certifications particulières. La première concerne un module intitulé </em>Savoirs mathématiques et enseignement<em>, qui est certifié par un questionnaire à choix multiples (QCM) et qui exige des étudiants non seulement qu’ils répondent aux questions, mais également qu’ils indiquent leurs degrés de certitude des réponses données. Ce faisant, ils s’autoévaluent et cette estimation est prise en compte dans la réussite à l’examen. La seconde concerne un module intitulé </em>Enseignement et apprentissage<em>. L’examen se structure par des questions ouvertes testant les capacités d’analyse de tâches distribuées aux élèves des classes de la région. L’article présente les résultats d’une recherche visant à comprendre les liens entre des expériences évaluatives et des postures en formation de quatre étudiantes, puis à définir d’éventuelles logiques de formation. Nous avons relevé quatre postures qui remettent en question le rapport aux savoirs de la profession.</em></p>"""  # noqa
 
     @with_value('1043568ar.xml', 'get_abstracts')
     def test_can_return_paral_abstracts_in_the_lang_order_defined_in_the_article(self, value):  # noqa
@@ -66,31 +66,31 @@ class TestGetAbstracts:
 
     @with_value('1043074ar.xml', 'get_abstracts', html=True)
     def test_can_convert_alinea_to_p(self, value):
-        assert value[0]['content'] == """<p class="alinea">The aim of the paper is to track the scale and the strategy of European multinational firms related to the internationalization of their R&amp;D. We address two questions: 1. Can we confirm the general view assuming a growing trend in the internationalisation of technology? 2. Does the &#8220;home base augmenting&#8221; dominant strategy observed in the 1990s still hold? We use a patent data set for a sample of 349 firms and two time periods 1994-1996 and 2003-2005. We find out: 1) the remaining importance of the national technological bases of MNCs, 2) R&amp;D internationalisation is not continuously growing over the period under observation, 3) an emerging trend working to the detriment of the home base augmenting strategy.</p>"""  # noqa
+        assert value[0]['content'] == """<p class="alinea">The aim of the paper is to track the scale and the strategy of European multinational firms related to the internationalization of their R&amp;D. We address two questions: 1. Can we confirm the general view assuming a growing trend in the internationalisation of technology? 2. Does the “home base augmenting” dominant strategy observed in the 1990s still hold? We use a patent data set for a sample of 349 firms and two time periods 1994-1996 and 2003-2005. We find out: 1) the remaining importance of the national technological bases of MNCs, 2) R&amp;D internationalisation is not continuously growing over the period under observation, 3) an emerging trend working to the detriment of the home base augmenting strategy.</p>"""  # noqa
 
     @with_value('602618ar.xml', 'get_abstracts', html=True)
     def test_can_convert_listeord_to_ol(self, value):
-        assert value[0]['content'] == """<p class="alinea">Dans les subordonn&#233;es finales introduites par <em>damit</em>, on constate que le Pr&#228;teritum allemand peut entrer en concurrence avec les formes subjonctives avec lesquelles il est alors commutable sans changement appr&#233;ciable de sens&#160;:</p><ol class="lettremin" start="1"><li><p class="alinea">Ich weckte sie, wenn sie verschlief, <em>damit</em> sie rechtzeitig zur Kirche <em>kam</em>.</p><p class="alinea">Hauser-Suida, Hoppe-Beugel (1972:40)</p><p class="alinea">+&#160;<em>damit</em> sie rechtzeitig zur Kirche <em>k&#228;me</em>.</p></li></ol><p class="alinea">mais que dans ce cas, l&#8217;alternance du Pr&#228;teritum avec le Perfekt&#160;&#8212; autrement tr&#232;s fr&#233;quente&#160;&#8212; est interdite. Qu&#8217;il y ait des traits communs entre le Konjunktiv&#160;II et le Pr&#228;teritum est un fait que signale la synapse totale de ces deux formes de la conjugaison r&#233;guli&#232;re&#160;:</p><ol class="lettremin" start="2"><li><p class="alinea">Sie <em>fragte</em> ihn um Rat. (indicatif)</p></li><li><p class="alinea">Er w&#228;re der letzte, den ich um Rat <em>fragte</em>.</p></li></ol><p class="alinea">et la synapse partielle des formes irr&#233;guli&#232;res (voir exemple (a)).</p><p class="alinea">Nous allons essayer de d&#233;gager les divers effets de sens qui d&#233;coulent de l&#8217;emploi de l&#8217;une ou de l&#8217;autre forme dans la subordonn&#233;e finale introduite par <em>damit</em>, pour enfin r&#233;examiner le signifi&#233; de puissance du Pr&#228;teritum allemand, et proposer un lien avec le Konjunktiv&#160;II.</p>""" # noqa
+        assert value[0]['content'] == """<p class="alinea">Dans les subordonnées finales introduites par <em>damit</em>, on constate que le Präteritum allemand peut entrer en concurrence avec les formes subjonctives avec lesquelles il est alors commutable sans changement appréciable de sens :</p><ol class="lettremin" start="1"><li><p class="alinea">Ich weckte sie, wenn sie verschlief, <em>damit</em> sie rechtzeitig zur Kirche <em>kam</em>.</p><p class="alinea">Hauser-Suida, Hoppe-Beugel (1972:40)</p><p class="alinea">+ <em>damit</em> sie rechtzeitig zur Kirche <em>käme</em>.</p></li></ol><p class="alinea">mais que dans ce cas, l’alternance du Präteritum avec le Perfekt — autrement très fréquente — est interdite. Qu’il y ait des traits communs entre le Konjunktiv II et le Präteritum est un fait que signale la synapse totale de ces deux formes de la conjugaison régulière :</p><ol class="lettremin" start="2"><li><p class="alinea">Sie <em>fragte</em> ihn um Rat. (indicatif)</p></li><li><p class="alinea">Er wäre der letzte, den ich um Rat <em>fragte</em>.</p></li></ol><p class="alinea">et la synapse partielle des formes irrégulières (voir exemple (a)).</p><p class="alinea">Nous allons essayer de dégager les divers effets de sens qui découlent de l’emploi de l’une ou de l’autre forme dans la subordonnée finale introduite par <em>damit</em>, pour enfin réexaminer le signifié de puissance du Präteritum allemand, et proposer un lien avec le Konjunktiv II.</p>""" # noqa
 
     @with_value('1005712ar.xml', 'get_abstracts', html=True)
     def test_can_convert_listenonord_to_ul(self, value):
-        assert value[0]['content'] == """<p class="alinea">Contrairement &#224; d&#8217;autres crimes commis au sein du cercle familial, le crime passionnel, pourtant tr&#232;s visible socialement, n&#8217;a jamais fait l&#8217;objet d&#8217;une critique sociale ou psychologique efficace comme c&#8217;est le cas pour l&#8217;infanticide depuis longtemps d&#233;j&#224;, ou plus r&#233;cemment pour les abus sexuels ou le viol conjugal.</p><p class="alinea">Sur la base d&#8217;un corpus de 337 crimes et d&#8217;outils d&#8217;analyse vari&#233;s, nous soulignerons trois aspects&#160;:</p><ul class="tiret"><li><p class="alinea">Dangerosit&#233; du milieu familial et conjugal, surtout pour les femmes.</p></li><li><p class="alinea">D&#233;ni de cette dangerosit&#233; dans le discours m&#233;diatique, voire psychiatrique.</p></li><li><p class="alinea">Dangerosit&#233; masqu&#233;e enfin, car ces criminels, hommes et femmes, fonctionnent dans une pseudo-normalit&#233;.</p></li></ul>""" # noqa
+        assert value[0]['content'] == """<p class="alinea">Contrairement à d’autres crimes commis au sein du cercle familial, le crime passionnel, pourtant très visible socialement, n’a jamais fait l’objet d’une critique sociale ou psychologique efficace comme c’est le cas pour l’infanticide depuis longtemps déjà, ou plus récemment pour les abus sexuels ou le viol conjugal.</p><p class="alinea">Sur la base d’un corpus de 337 crimes et d’outils d’analyse variés, nous soulignerons trois aspects :</p><ul class="tiret"><li><p class="alinea">Dangerosité du milieu familial et conjugal, surtout pour les femmes.</p></li><li><p class="alinea">Déni de cette dangerosité dans le discours médiatique, voire psychiatrique.</p></li><li><p class="alinea">Dangerosité masquée enfin, car ces criminels, hommes et femmes, fonctionnent dans une pseudo-normalité.</p></li></ul>""" # noqa
 
     @with_value('1043218ar.xml', 'get_abstracts', html=True)
     def test_can_convert_bloccitation_to_blockquote(self, value):
-        assert value[0]['content'] == """<p class="alinea">Lorsque le directeur de <em>La Revue musicale </em><em><span class="petitecap">sim</span></em>, Jules &#201;corcheville, part pour le front en 1914, il &#233;crit &#224; son ami &#201;mile Vuillermoz&#160;:</p><blockquote class="bloccitation"><p class="alinea">Si je ne reviens pas, je vous recommande notre oeuvre, cher ami. Et surtout, si vous tenez &#224; me faire plaisir dans l&#8217;autre monde, efforcez-vous de maintenir la concorde et l&#8217;harmonie entre les diff&#233;rents &#233;l&#233;ments qui vont se trouver en pr&#233;sence &#224; ma disparition. Notre revue est faite de diff&#233;rentes pi&#232;ces ajust&#233;es (Amis, <span class="petitecap">sim</span>, etc.), qui tiennent en &#233;quilibre par miracle, quelques ann&#233;es de coh&#233;sion sont absolument n&#233;cessaires encore et c&#8217;est pr&#233;cis&#233;ment cette concentration de nos diff&#233;rentes forces qu&#8217;il faudrait maintenir. En tout cas, il ne faudrait pas que ma disparition entra&#238;n&#226;t celle d&#8217;une oeuvre qui nous a co&#251;t&#233;, &#224; tous, tant de peine. N&#8217;est-il pas vrai ?</p></blockquote><p class="alinea">Malgr&#233; le souhait d&#8217;&#201;corcheville, <em>La Revue </em><em><span class="petitecap">sim</span></em> dispara&#238;tra, mais pas pour longtemps puisqu&#8217;elle donnera naissance &#224; deux nouveaux organismes en 1917 et 1920. Pendant la guerre, les anciens de <em>La Revue </em><em><span class="petitecap">sim</span></em> dont Lionel de La Laurencie, vont cr&#233;er la Soci&#233;t&#233; fran&#231;aise de musicologie (<span class="petitecap">sfm</span>) sur les ruines de la Soci&#233;t&#233; internationale de musique et publieront un <em>Bulletin </em>qui deviendra la <em>Revue de musicologie. </em>Loin de l&#8217;actualit&#233;, s&#8217;&#233;cartant d&#233;lib&#233;r&#233;ment du contexte sociopolitique et culturel, la <span class="petitecap">sfm</span> et son <em>Bulletin </em>favoriseront une approche tr&#232;s &#171;&#160;scientifique&#160;&#187; et relativement nouvelle en France, de la musicologie, bien qu&#8217;encore teint&#233;e par les tendances historicisantes &#224; la mani&#232;re de la Schola Cantorum et &#233;cartant pour un temps toute la musicologie germanique. En parall&#232;le, sous les auspices du musicologue Henry Pruni&#232;res qui s&#8217;&#233;carte r&#233;solument de la <span class="petitecap">sfm</span>, est cr&#233;&#233;e <em>La Revue musicale</em>. C&#8217;est &#224; partir d&#8217;un r&#233;seau international qui place la musicologie fran&#231;aise au coeur de l&#8217;action musicale contemporaine que Pruni&#232;res &#233;tablit de nouvelles alliances avec le milieu des arts et de la litt&#233;rature pour fonder l&#8217;une des plus c&#233;l&#232;bres revues musicales de la premi&#232;re moiti&#233; du <span class="petitecap">xx</span><sup>e</sup>&#160;si&#232;cle. &#192; partir de documents in&#233;dits, nous &#233;tudierons les circonstances qui m&#232;nent &#224; la refondation de <em>La Revue musicale</em> sur les cendres de la <em>Revue </em><em><span class="petitecap">sim</span></em> entre 1915 et 1919. Nous verrons ainsi comment les hasards de la guerre m&#232;nent Pruni&#232;res &#224; entreprendre la carri&#232;re d&#8217;&#233;diteur et comment le musicologue con&#231;oit le projet international de la revue dans un contexte de guerre qui contribue &#224; une red&#233;finition des cultures nationales.</p><p class="alinea">Il est difficile d&#8217;extrapoler sur ce qu&#8217;aurait pu &#234;tre l&#8217;avenir de <em>La Revue musicale </em><em><span class="petitecap">sim</span></em> si la guerre n&#8217;avait pas eu lieu. Il est par contre possible de documenter et de comprendre le r&#244;le que la Grande Guerre jouera dans l&#8217;essor d&#8217;une nouvelle dynamique pour la musicologie fran&#231;aise dont la division d&#8217;abord justifi&#233;e par le conflit aura des cons&#233;quences &#224; long terme sur l&#8217;&#233;chiquier international de la discipline.</p>""" # noqa
+        assert value[0]['content'] == """<p class="alinea">Lorsque le directeur de <em>La Revue musicale </em><em><span class="petitecap">sim</span></em>, Jules Écorcheville, part pour le front en 1914, il écrit à son ami Émile Vuillermoz :</p><blockquote class="bloccitation"><p class="alinea">Si je ne reviens pas, je vous recommande notre oeuvre, cher ami. Et surtout, si vous tenez à me faire plaisir dans l’autre monde, efforcez-vous de maintenir la concorde et l’harmonie entre les différents éléments qui vont se trouver en présence à ma disparition. Notre revue est faite de différentes pièces ajustées (Amis, <span class="petitecap">sim</span>, etc.), qui tiennent en équilibre par miracle, quelques années de cohésion sont absolument nécessaires encore et c’est précisément cette concentration de nos différentes forces qu’il faudrait maintenir. En tout cas, il ne faudrait pas que ma disparition entraînât celle d’une oeuvre qui nous a coûté, à tous, tant de peine. N’est-il pas vrai ?</p></blockquote><p class="alinea">Malgré le souhait d’Écorcheville, <em>La Revue </em><em><span class="petitecap">sim</span></em> disparaîtra, mais pas pour longtemps puisqu’elle donnera naissance à deux nouveaux organismes en 1917 et 1920. Pendant la guerre, les anciens de <em>La Revue </em><em><span class="petitecap">sim</span></em> dont Lionel de La Laurencie, vont créer la Société française de musicologie (<span class="petitecap">sfm</span>) sur les ruines de la Société internationale de musique et publieront un <em>Bulletin </em>qui deviendra la <em>Revue de musicologie. </em>Loin de l’actualité, s’écartant délibérément du contexte sociopolitique et culturel, la <span class="petitecap">sfm</span> et son <em>Bulletin </em>favoriseront une approche très « scientifique » et relativement nouvelle en France, de la musicologie, bien qu’encore teintée par les tendances historicisantes à la manière de la Schola Cantorum et écartant pour un temps toute la musicologie germanique. En parallèle, sous les auspices du musicologue Henry Prunières qui s’écarte résolument de la <span class="petitecap">sfm</span>, est créée <em>La Revue musicale</em>. C’est à partir d’un réseau international qui place la musicologie française au coeur de l’action musicale contemporaine que Prunières établit de nouvelles alliances avec le milieu des arts et de la littérature pour fonder l’une des plus célèbres revues musicales de la première moitié du <span class="petitecap">xx</span><sup>e</sup> siècle. À partir de documents inédits, nous étudierons les circonstances qui mènent à la refondation de <em>La Revue musicale</em> sur les cendres de la <em>Revue </em><em><span class="petitecap">sim</span></em> entre 1915 et 1919. Nous verrons ainsi comment les hasards de la guerre mènent Prunières à entreprendre la carrière d’éditeur et comment le musicologue conçoit le projet international de la revue dans un contexte de guerre qui contribue à une redéfinition des cultures nationales.</p><p class="alinea">Il est difficile d’extrapoler sur ce qu’aurait pu être l’avenir de <em>La Revue musicale </em><em><span class="petitecap">sim</span></em> si la guerre n’avait pas eu lieu. Il est par contre possible de documenter et de comprendre le rôle que la Grande Guerre jouera dans l’essor d’une nouvelle dynamique pour la musicologie française dont la division d’abord justifiée par le conflit aura des conséquences à long terme sur l’échiquier international de la discipline.</p>""" # noqa
 
     @with_value('1056320ar.xml', 'get_abstracts', html=True)
     def test_can_convert_renvoi_to_footnote_links(self, value):
-        assert value[0]['content'] == """<p class="alinea"><em>Vu son expertise en classe et dans l&#8217;&#233;cole, l&#8217;enseignant associ&#233; est consid&#233;r&#233; comme une personne essentielle &#224; la formation initiale en enseignement. Des attentes &#224; son &#233;gard sont formul&#233;es par les instances minist&#233;rielles (gouvernement du Qu&#233;bec, 2002, 2008), mais aussi par les stagiaires (Caron, Portelance &amp; Martineau, 2013). Pour r&#233;pondre, l&#8217;enseignant associ&#233; est fortement incit&#233; &#224; s&#8217;inscrire dans un processus de formation continue, ce qui lui permet d&#8217;enrichir ses pratiques de formateur du stagiaire. Dans le but de soutenir le d&#233;veloppement des comp&#233;tences attendues des enseignants associ&#233;s (Portelance, Gervais, Lessard, Beaulieu et al, 2008), une recherche subventionn&#233;e par le minist&#232;re de l&#8217;&#201;ducation du Qu&#233;bec</em><a href="#no1" id="re1no1" class="norenvoi">[1]</a><em> utilise une approche collaborative avec une communaut&#233; de pratique compos&#233;e d&#8217;enseignants associ&#233;s. Les membres sont engag&#233;s dans une d&#233;marche de r&#233;flexion et de coconstruction de sens (Bourassa, Philion &amp; Chevalier, 2007). Les discussions portent sur les pratiques d&#8217;encadrement du stagiaire. L&#8217;analyse de leurs propos met en &#233;vidence les manifestations de la dynamique interactionnelle qui favorise leur cod&#233;veloppement professionnel.</em></p>"""  # noqa
+        assert value[0]['content'] == """<p class="alinea"><em>Vu son expertise en classe et dans l’école, l’enseignant associé est considéré comme une personne essentielle à la formation initiale en enseignement. Des attentes à son égard sont formulées par les instances ministérielles (gouvernement du Québec, 2002, 2008), mais aussi par les stagiaires (Caron, Portelance &amp; Martineau, 2013). Pour répondre, l’enseignant associé est fortement incité à s’inscrire dans un processus de formation continue, ce qui lui permet d’enrichir ses pratiques de formateur du stagiaire. Dans le but de soutenir le développement des compétences attendues des enseignants associés (Portelance, Gervais, Lessard, Beaulieu et al, 2008), une recherche subventionnée par le ministère de l’Éducation du Québec</em><a href="#no1" id="re1no1" class="norenvoi">[1]</a><em> utilise une approche collaborative avec une communauté de pratique composée d’enseignants associés. Les membres sont engagés dans une démarche de réflexion et de coconstruction de sens (Bourassa, Philion &amp; Chevalier, 2007). Les discussions portent sur les pratiques d’encadrement du stagiaire. L’analyse de leurs propos met en évidence les manifestations de la dynamique interactionnelle qui favorise leur codéveloppement professionnel.</em></p>"""  # noqa
 
     @with_value('1057080ar.xml', 'get_abstracts', html=True)
     def test_can_convert_renvoi_to_footnote_links_in_title(self, value):
-        assert value[0]['title'] == 'R&#233;sum&#233;&#160;<a href="#no1" id="re1no1" class="norenvoi">[1]</a>'  # noqa
+        assert value[0]['title'] == 'Résumé <a href="#no1" id="re1no1" class="norenvoi">[1]</a>'  # noqa
 
     @with_value('1056946ar.xml', 'get_abstracts', html=True)
     def test_can_convert_indice_tag_to_sub_tag(self, value):
-        assert value[0]['content'] == """<p class="alinea">Apr&#232;s avoir rappel&#233; les contextes th&#233;orique et &#233;conomique dans lequel s&#8217;inscrit cet article, nous pr&#233;sentons un premier mod&#232;le &#233;conom&#233;trique existant d&#8217;&#233;lasticit&#233;-prix. Puis, nous introduisons un mod&#232;le micro-&#233;conomique dynamique en partant de l&#8217;exemple concret d&#8217;une compagnie d&#8217;assurance non-vie qui souhaite changer de strat&#233;gie de renouvellement. Nous &#233;tudions les effets de son choix de prix (primes) sur son portefeuille et son chiffre d&#8217;affaires, dans un contexte de concurrence. La variation du nombre de contrats en portefeuille et du chiffre d&#8217;affaires de la compagnie entre deux instants t<sub>0</sub> et t<sub>1</sub> est d&#233;termin&#233;e. Une application num&#233;rique sur trois branches d&#8217;assurance d&#8217;entreprises pr&#233;c&#232;de la conclusion.</p>"""  # noqa
+        assert value[0]['content'] == """<p class="alinea">Après avoir rappelé les contextes théorique et économique dans lequel s’inscrit cet article, nous présentons un premier modèle économétrique existant d’élasticité-prix. Puis, nous introduisons un modèle micro-économique dynamique en partant de l’exemple concret d’une compagnie d’assurance non-vie qui souhaite changer de stratégie de renouvellement. Nous étudions les effets de son choix de prix (primes) sur son portefeuille et son chiffre d’affaires, dans un contexte de concurrence. La variation du nombre de contrats en portefeuille et du chiffre d’affaires de la compagnie entre deux instants t<sub>0</sub> et t<sub>1</sub> est déterminée. Une application numérique sur trois branches d’assurance d’entreprises précède la conclusion.</p>"""  # noqa
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/keywords', EruditArticle)
@@ -113,9 +113,9 @@ class TestGetKeywords:
 
     @with_value('1043568ar.xml', 'get_keywords', html=True)
     def test_can_convert_marquage_in_keywords(self, value):  # noqa
-        assert value['fr'] == ['formation &#224; l&#8217;enseignement',
+        assert value['fr'] == ['formation à l’enseignement',
                                '<span class=""><em>postures en formation</em></span>',
-                               'rapport &#224; l&#8217;&#233;valuation', 'rapport au savoir']
+                               'rapport à l’évaluation', 'rapport au savoir']
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/section_titles', EruditArticle)
@@ -135,7 +135,7 @@ class TestSectionTitle(object):
         )
 
         assert value == {
-            'main': "Paroles d&#8217;a&#238;n&#233;s nehirowisiwok",
+            'main': "Paroles d’aînés nehirowisiwok",
             'paral': collections.OrderedDict(),
         }
 
@@ -146,10 +146,10 @@ class TestSectionTitle(object):
 
         paral = collections.OrderedDict()
         paral['en'] = "Special Edition: Undertaking and innovating in a globalised economy..."
-        paral['es'] = "Dossier especial: Emprender e innovar en una econom&#237;a globalizada&#8230;"  # noqa
+        paral['es'] = "Dossier especial: Emprender e innovar en una economía globalizada…"  # noqa
 
         assert value == {
-            'main': "Dossier sp&#233;cial&#160;: Entreprendre et innover dans une &#233;conomie globalis&#233;e...",  # noqa
+            'main': "Dossier spécial : Entreprendre et innover dans une économie globalisée...",  # noqa
             'paral': paral,
         }
 
@@ -162,7 +162,7 @@ class TestArticleNoteGen(object):
         assert value == [{
             "type": "edito",
             "scope": "numero",
-            "content": ["Une version ant&#233;rieure de ce texte &#224; &#233;t&#233; publi&#233;e dans <em>Le Devoir </em>du 7 mars 2011."]  # noqa
+            "content": ["Une version antérieure de ce texte à été publiée dans <em>Le Devoir </em>du 7 mars 2011."]  # noqa
         }]
 
     @with_value('1006460ar.xml', 'get_notegens')
@@ -170,7 +170,7 @@ class TestArticleNoteGen(object):
         assert value == [{
             "type": "edito",
             "scope": "numero",
-            "content": ['Pour obtenir la liste des sigles utilis&#233;s dans cet article et les r&#233;f&#233;rences compl&#232;tes aux oeuvres de Marie-Claire Blais, <a href="http://www.erudit.org/revue/vi/2011/v37/n1/1006456ar.html">voir p.&#160;7</a>.']  # noqa
+            "content": ['Pour obtenir la liste des sigles utilisés dans cet article et les références complètes aux oeuvres de Marie-Claire Blais, <a href="http://www.erudit.org/revue/vi/2011/v37/n1/1006456ar.html">voir p. 7</a>.']  # noqa
         }]
 
     @with_value('1007816ar.xml', 'get_notegens')
@@ -178,13 +178,13 @@ class TestArticleNoteGen(object):
         assert value == [{
             "type": "edito",
             "scope": "numero",
-            "content": ["Sophie Th&#233;riault est professeure &#224; la Facult&#233; de droit de l&#8217;Universit&#233; d&#8217;Ottawa, Section de droit civil. Elle est &#233;galement membre du Barreau du Qu&#233;bec, du Centre du droit de l&#8217;environnement et de la durabilit&#233; mondiale de l&#8217;Universit&#233; d&#8217;Ottawa et du Centre de recherche et d&#8217;enseignement sur les droits de la personne de l&#8217;Universit&#233; d&#8217;Ottawa. David Robitaille est professeur &#224; la Facult&#233; de droit de l&#8217;Universit&#233; d&#8217;Ottawa, Section de droit civil. Il est &#233;galement membre du Barreau du Qu&#233;bec et du Centre de recherche et d&#8217;enseignement sur les droits de la personne de l&#8217;Universit&#233; d&#8217;Ottawa. Cet article a &#233;t&#233; r&#233;alis&#233; gr&#226;ce &#224; l&#8217;appui financier de la Fondation du Barreau du Qu&#233;bec, que nous remercions vivement. Nos remerciements vont &#233;galement &#224; nos assistants de recherche Camille Provencher, Pierre-Alexandre Henri, Nora Szeles et Karine H&#233;bert, ainsi qu&#8217;&#224; notre coll&#232;gue S&#233;bastien Grammond, pour ses commentaires judicieux."]  # noqa
+            "content": ["Sophie Thériault est professeure à la Faculté de droit de l’Université d’Ottawa, Section de droit civil. Elle est également membre du Barreau du Québec, du Centre du droit de l’environnement et de la durabilité mondiale de l’Université d’Ottawa et du Centre de recherche et d’enseignement sur les droits de la personne de l’Université d’Ottawa. David Robitaille est professeur à la Faculté de droit de l’Université d’Ottawa, Section de droit civil. Il est également membre du Barreau du Québec et du Centre de recherche et d’enseignement sur les droits de la personne de l’Université d’Ottawa. Cet article a été réalisé grâce à l’appui financier de la Fondation du Barreau du Québec, que nous remercions vivement. Nos remerciements vont également à nos assistants de recherche Camille Provencher, Pierre-Alexandre Henri, Nora Szeles et Karine Hébert, ainsi qu’à notre collègue Sébastien Grammond, pour ses commentaires judicieux."]  # noqa
         }, {
             "type": "edito",
             "scope": "numero",
             "content": [
                 "Citation: (2011) 57:2 McGill LJ 211",
-                "R&#233;f&#233;rence&#160;: (2011) 57&#160;:&#160;2 RD McGill 211",
+                "Référence : (2011) 57 : 2 RD McGill 211",
             ]
         }]
 
@@ -193,11 +193,11 @@ class TestArticleNoteGen(object):
         assert value == [{
             "type": "edito",
             "scope": "numero",
-            "content": ["Le pr&#233;sent texte suscite un questionnement approfondi sur l&#8217;&#233;conomie du contrat. Le lecteur trouvera des &#233;l&#233;ments de r&#233;ponse dans le texte suivant&#160;: &#171;&#160;L&#8217;apport &#233;pist&#233;mologique de la notion d&#8217;&#233;conomie du contrat en mati&#232;re d&#8217;interpr&#233;tation&#160;&#187;, (2016) 57:4 C&#160;de&#160;D &#224; para&#238;tre en d&#233;cembre."]  # noqa
+            "content": ["Le présent texte suscite un questionnement approfondi sur l’économie du contrat. Le lecteur trouvera des éléments de réponse dans le texte suivant : « L’apport épistémologique de la notion d’économie du contrat en matière d’interprétation », (2016) 57:4 C de D à paraître en décembre."]  # noqa
         }, {
             "type": "auteur",
             "scope": None,
-            "content": ["Je tiens &#224; remercier les professeurs Andr&#233; B&#233;langer (Universit&#233; Laval) et Martin Ndende (Universit&#233; de Nantes) sous la direction desquels s&#8217;effectue ma th&#232;se intitul&#233;e &#171;&#160;L&#8217;&#233;conomie du contrat dans l&#8217;effet obligatoire des clauses du contrat&#160;: l&#8217;exemple du contrat de transport&#160;&#187;."]  # noqa
+            "content": ["Je tiens à remercier les professeurs André Bélanger (Université Laval) et Martin Ndende (Université de Nantes) sous la direction desquels s’effectue ma thèse intitulée « L’économie du contrat dans l’effet obligatoire des clauses du contrat : l’exemple du contrat de transport »."]  # noqa
         }]
 
 
@@ -229,11 +229,11 @@ class TestArticleSavantComplet(object):
         assert self.test_objects['1001948ar.xml'].get_isbn_num() is None
 
     def test_html_title(self):
-        assert self.test_objects['1001948ar.xml'].get_html_title() == 'La pr&#233;cision des analystes financiers en Europe&#160;: l&#8217;effet pays et l&#8217;effet secteur revisit&#233;s'  # noqa
-        assert self.test_objects['1001948ar_alt.xml'].get_html_title() == 'La pr&#233;cision des analystes financiers en Europe&#160;: l&#8217;effet pays et l&#8217;effet secteur <strong>test</strong> test 2 revisit&#233;s'   # noqa
+        assert self.test_objects['1001948ar.xml'].get_html_title() == 'La précision des analystes financiers en Europe : l’effet pays et l’effet secteur revisités'  # noqa
+        assert self.test_objects['1001948ar_alt.xml'].get_html_title() == 'La précision des analystes financiers en Europe : l’effet pays et l’effet secteur <strong>test</strong> test 2 revisités'   # noqa
         # Check that <liensimple> tags are not stripped or displayed as links. They should be
         # displayed as text.
-        assert self.test_objects['007801ar.xml'].get_html_title() == 'Sites Internet des Archives nationales du Canada et des Archives nationales du Qu&#233;bec &lt;http://www.archives.ca&gt; et &lt;http://www.anq.gouv.qc.ca&gt;. Sites &#233;valu&#233;s &#224; la fin mars 2003.'  # noqa
+        assert self.test_objects['007801ar.xml'].get_html_title() == 'Sites Internet des Archives nationales du Canada et des Archives nationales du Québec &lt;http://www.archives.ca&gt; et &lt;http://www.anq.gouv.qc.ca&gt;. Sites évalués à la fin mars 2003.'  # noqa
 
     def test_publication_period(self):
         assert self.test_objects['1001948ar.xml'].get_publication_period() == 'Juin 2010'
@@ -243,7 +243,7 @@ class TestArticleSavantComplet(object):
 
     def test_can_return_titles_subtitles(self):
         assert self.test_objects['1005860ar.xml'].get_titles() == {
-            'main': Title(title="Esth&#233;tique et s&#233;miotique", subtitle="Pr&#233;sentation", lang="fr"),  # noqa
+            'main': Title(title="Esthétique et sémiotique", subtitle="Présentation", lang="fr"),  # noqa
             "paral": [
                 Title(title="Aesthetics and Semiotics", lang="en", subtitle="Presentation")  # noqa
             ],
@@ -256,20 +256,20 @@ class TestArticleSavantComplet(object):
             'paral': [],
             'equivalent': [],
             'reviewed_works': [
-                    '<em>Sociologie des relations professionnelles</em>, Par Michel Lallement, Nouvelle &#233;dition, Paris&#160;: La D&#233;couverte, collection Rep&#232;res, 2008, 121&#160;p., ISBN 978-2-7071-5446-0.',  # noqa
-                    '<em>Sociologie du travail&#160;: les relations professionnelles</em>, Par Antoine Bevort et Annette Jobert, Paris&#160;: Armand Collin, collection U, 2008, 268&#160;p., ISBN 978-2-200-34571-6.'  # noqa
+                    '<em>Sociologie des relations professionnelles</em>, Par Michel Lallement, Nouvelle édition, Paris : La Découverte, collection Repères, 2008, 121 p., ISBN 978-2-7071-5446-0.',  # noqa
+                    '<em>Sociologie du travail : les relations professionnelles</em>, Par Antoine Bevort et Annette Jobert, Paris : Armand Collin, collection U, 2008, 268 p., ISBN 978-2-200-34571-6.'  # noqa
             ]
         }
 
         assert self.test_objects['1004725ar.xml'].get_titles() == {
             'main': Title(title="Introduction: Food, Language, and Identity", subtitle=None, lang="en"),  # noqa
             'paral': [],
-            'equivalent': [Title(title="Cuisine, langue et identit&#233;", subtitle=None, lang="fr")],  # noqa
+            'equivalent': [Title(title="Cuisine, langue et identité", subtitle=None, lang="fr")],  # noqa
             'reviewed_works': [],
         }
 
         assert self.test_objects['1003507ar.xml'].get_titles() == {
-            'main': Title(title="Reconceptualizing Translation &#8211; Some Chinese Endeavours", subtitle=None, lang="en"),  # noqa
+            'main': Title(title="Reconceptualizing Translation – Some Chinese Endeavours", subtitle=None, lang="en"),  # noqa
             'paral': [],
             'equivalent': [],
             'reviewed_works': [],
@@ -280,26 +280,26 @@ class TestArticleSavantComplet(object):
             'paral': [],
             'equivalent': [],
             'reviewed_works': [
-                'C<span class="petitecap">oulombe</span> Maxime, 2010, <em>Le monde sans fin des jeux vid&#233;o</em>. Paris, Presses universitaires de France, coll. La nature humaine, 160 p., bibliogr.'  # noqa
+                'C<span class="petitecap">oulombe</span> Maxime, 2010, <em>Le monde sans fin des jeux vidéo</em>. Paris, Presses universitaires de France, coll. La nature humaine, 160 p., bibliogr.'  # noqa
             ],
         }
 
         assert self.test_objects['1056361ar.xml'].get_titles() == {
             'main': Title(
-                title='UN ROMAN &#171;&#160;N&#201; DANS SA PROPRE N&#201;GATION&#160;&#187;',
-                subtitle='L&#8217;articulation du litt&#233;raire et du religieux dans&#160;<em>Ang&#233;line</em> <em>de</em> <em>Montbrun</em> de Laure Conan',  # noqa
+                title='UN ROMAN « NÉ DANS SA PROPRE NÉGATION »',
+                subtitle='L’articulation du littéraire et du religieux dans <em>Angéline</em> <em>de</em> <em>Montbrun</em> de Laure Conan',  # noqa
                 lang='fr',
             ),
             'paral': [],
             'equivalent': [
                 Title(
-                    title='A NOVEL &#8220;BORN IN ITS OWN NEGATION&#8221;',
-                    subtitle='THE ARTICULATION OF THE LITERARY AND THE RELIGIOUS IN LAURE CONAN&#8217;S <em>ANG&#201;LINE DE MONTBRUN</em>',  # noqa
+                    title='A NOVEL “BORN IN ITS OWN NEGATION”',
+                    subtitle='THE ARTICULATION OF THE LITERARY AND THE RELIGIOUS IN LAURE CONAN’S <em>ANGÉLINE DE MONTBRUN</em>',  # noqa
                     lang='en',
                 ),
                 Title(
-                    title='UNA NOVELA &#8220;NACIDA EN SU PROPIA NEGACI&#211;N&#8221;',
-                    subtitle='LA ARTICULACI&#211;N DE LO LITERARIO Y LO RELIGIOSO EN <em>ANG&#201;LINE DE MONTBRUN</em>, DE LAURE CONAN',  # noqa
+                    title='UNA NOVELA “NACIDA EN SU PROPIA NEGACIÓN”',
+                    subtitle='LA ARTICULACIÓN DE LO LITERARIO Y LO RELIGIOSO EN <em>ANGÉLINE DE MONTBRUN</em>, DE LAURE CONAN',  # noqa
                     lang='es',
                 ),
             ],
@@ -315,22 +315,22 @@ class TestArticleSavantComplet(object):
 
         assert self.test_objects['1043053ar.xml'].get_titles() == {
             'main': Title(
-                title="L'impossible v&#233;rit&#233; de l'histoire des pensionnats",
-                subtitle='Traumatismes, victimisation et r&#233;conciliation pr&#233;matur&#233;e',
+                title="L'impossible vérité de l'histoire des pensionnats",
+                subtitle='Traumatismes, victimisation et réconciliation prématurée',
                 lang='fr',
             ),
             'paral': [],
             'equivalent': [],
             'reviewed_works': [
-                'C<span class="petitecap">ommission de v&#233;rit&#233; et r&#233;conciliation</span>, 2015, <em>Rapport final de la Commission de v&#233;rit&#233; et r&#233;conciliation du Canada</em>, Volume 1. <em>Pensionnats du Canada</em><em>&#160;:</em><em> L&#8217;histoire</em>, partie 1,<em> des origines &#224; 1939</em>, 1072&#160;p.',  # noqa
-                'C<span class="petitecap">ommission de v&#233;rit&#233; et r&#233;conciliation</span>, 2015, Volume 1. <em>Pensionnats du Canada</em><em>&#160;:</em><em> L&#8217;histoire</em>, partie 2,<em> de 1939 &#224; 2000</em>, 896&#160;p.',  # noqa
-                'C<span class="petitecap">ommission de v&#233;rit&#233; et r&#233;conciliation</span>, 2016, Volume 2. <em>Pensionnats du Canada</em><em>&#160;:</em><em> L&#8217;exp&#233;rience inuite et nordique</em>, 290&#160;p.',  # noqa
-                'C<span class="petitecap">ommission de v&#233;rit&#233; et r&#233;conciliation</span>, 2015, Volume 3. <em>Pensionnats du Canada</em><em>&#160;:</em><em> L&#8217;exp&#233;rience m&#233;tisse</em>, 96&#160;p.',  # noqa
-                'C<span class="petitecap">ommission de v&#233;rit&#233; et r&#233;conciliation</span>, 2015, Volume 4. <em>Pensionnats du Canada</em><em>&#160;:</em><em> Enfants disparus et lieux de s&#233;pulture non marqu&#233;s</em>, 304&#160;p.',  # noqa
-                'C<span class="petitecap">ommission de v&#233;rit&#233; et r&#233;conciliation</span>, 2016, Volume 5. <em>Pensionnats du Canada</em><em>&#160;:</em><em> Les s&#233;quelles</em>, 464&#160;p.',  # noqa
-                'C<span class="petitecap">ommission de v&#233;rit&#233; et r&#233;conciliation</span>, 2016, Volume 6. <em>Pensionnats du Canada</em><em>&#160;:</em><em> La r&#233;conciliation</em>, 352&#160;p.',  # noqa
-                'G<span class="petitecap">oulet</span> H., 2016, <em>Histoire des pensionnats indiens catholiques du Qu&#233;bec. Le r&#244;le d&#233;terminant des p&#232;res oblats</em>. Montr&#233;al, Presses de l&#8217;Universit&#233; de Montr&#233;al, 222 p.',  # noqa
-                'N<span class="petitecap">iezen</span> R., 2013, <em>Truth and Indignation. Canada&#8217;s Truth and Reconciliation Commission on Indian Residential Schools</em>. Toronto, University of Toronto Press, 192&#160;p.',  # noqa
+                'C<span class="petitecap">ommission de vérité et réconciliation</span>, 2015, <em>Rapport final de la Commission de vérité et réconciliation du Canada</em>, Volume 1. <em>Pensionnats du Canada</em><em> :</em><em> L’histoire</em>, partie 1,<em> des origines à 1939</em>, 1072 p.',  # noqa
+                'C<span class="petitecap">ommission de vérité et réconciliation</span>, 2015, Volume 1. <em>Pensionnats du Canada</em><em> :</em><em> L’histoire</em>, partie 2,<em> de 1939 à 2000</em>, 896 p.',  # noqa
+                'C<span class="petitecap">ommission de vérité et réconciliation</span>, 2016, Volume 2. <em>Pensionnats du Canada</em><em> :</em><em> L’expérience inuite et nordique</em>, 290 p.',  # noqa
+                'C<span class="petitecap">ommission de vérité et réconciliation</span>, 2015, Volume 3. <em>Pensionnats du Canada</em><em> :</em><em> L’expérience métisse</em>, 96 p.',  # noqa
+                'C<span class="petitecap">ommission de vérité et réconciliation</span>, 2015, Volume 4. <em>Pensionnats du Canada</em><em> :</em><em> Enfants disparus et lieux de sépulture non marqués</em>, 304 p.',  # noqa
+                'C<span class="petitecap">ommission de vérité et réconciliation</span>, 2016, Volume 5. <em>Pensionnats du Canada</em><em> :</em><em> Les séquelles</em>, 464 p.',  # noqa
+                'C<span class="petitecap">ommission de vérité et réconciliation</span>, 2016, Volume 6. <em>Pensionnats du Canada</em><em> :</em><em> La réconciliation</em>, 352 p.',  # noqa
+                'G<span class="petitecap">oulet</span> H., 2016, <em>Histoire des pensionnats indiens catholiques du Québec. Le rôle déterminant des pères oblats</em>. Montréal, Presses de l’Université de Montréal, 222 p.',  # noqa
+                'N<span class="petitecap">iezen</span> R., 2013, <em>Truth and Indignation. Canada’s Truth and Reconciliation Commission on Indian Residential Schools</em>. Toronto, University of Toronto Press, 192 p.',  # noqa
             ],
         }
 
@@ -339,23 +339,23 @@ class TestArticleSavantComplet(object):
         assert self.test_objects['1005860ar.xml'].get_formatted_html_title() == EXPECTED
         assert self.test_objects['1005860ar.xml'].get_title(formatted=True, html=True) == EXPECTED
 
-        EXPECTED = '<em>Sociologie des relations professionnelles</em>, Par Michel Lallement, Nouvelle &#233;dition, Paris&#160;: La D&#233;couverte, collection Rep&#232;res, 2008, 121&#160;p., ISBN 978-2-7071-5446-0. / <em>Sociologie du travail&#160;: les relations professionnelles</em>, Par Antoine Bevort et Annette Jobert, Paris&#160;: Armand Collin, collection U, 2008, 268&#160;p., ISBN 978-2-200-34571-6.'  # noqa
+        EXPECTED = '<em>Sociologie des relations professionnelles</em>, Par Michel Lallement, Nouvelle édition, Paris : La Découverte, collection Repères, 2008, 121 p., ISBN 978-2-7071-5446-0. / <em>Sociologie du travail : les relations professionnelles</em>, Par Antoine Bevort et Annette Jobert, Paris : Armand Collin, collection U, 2008, 268 p., ISBN 978-2-200-34571-6.'  # noqa
         assert self.test_objects['044308ar.xml'].get_formatted_html_title() == EXPECTED
         assert self.test_objects['044308ar.xml'].get_title(formatted=True, html=True) == EXPECTED
 
-        EXPECTED = 'Colloque d’histoire antillaise : &lt;span class="majuscule"&gt;C&lt;/span&gt;ENTRE D’ENSEIGNEMENT SUPÉRIEUR LITTÉRAIRE DE POINTE-À-PITRE (25-28 avril 1969)'  # noqa
+        EXPECTED = 'Colloque d’histoire antillaise : <span class="majuscule">C</span>ENTRE D’ENSEIGNEMENT SUPÉRIEUR LITTÉRAIRE DE POINTE-À-PITRE (25-28 avril 1969)'  # noqa
         assert self.test_objects['1056263ar.xml'].get_formatted_html_title() == EXPECTED
         assert self.test_objects['1056263ar.xml'].get_title(formatted=True, html=True) == EXPECTED
 
     def test_can_return_journal_titles(self):
         assert self.test_objects['1006389ar.xml'].get_journal_titles() == {
-            "main": Title(title="Anthropologie et Soci&#233;t&#233;s", subtitle=None, lang="fr"),
+            "main": Title(title="Anthropologie et Sociétés", subtitle=None, lang="fr"),
             "paral": [],
             "equivalent": [],
         }
 
         assert self.test_objects['1005860ar.xml'].get_journal_titles() == {
-            "main": Title(title="Recherches s&#233;miotiques", subtitle=None, lang="fr"),
+            "main": Title(title="Recherches sémiotiques", subtitle=None, lang="fr"),
             "paral": [Title(title="Semiotic Inquiry", subtitle=None, lang="en")],
             "equivalent": [],
         }
@@ -395,8 +395,6 @@ class TestArticleSavantComplet(object):
         assert self.test_objects['1056361ar.xml'].get_formatted_title() == 'UN ROMAN « NÉ DANS SA PROPRE NÉGATION » : l’articulation du littéraire et du religieux dans Angéline de Montbrun de Laure Conan'  # noqa
         # There should be a capital letter after a colon if it was forced in the XML.
         assert self.test_objects['1056263ar.xml'].get_formatted_title() == 'Colloque d’histoire antillaise : CENTRE D’ENSEIGNEMENT SUPÉRIEUR LITTÉRAIRE DE POINTE-À-PITRE (25-28 avril 1969)'  # noqa
-        # Check that ampersands are escaped.
-        assert self.test_objects['1060865ar.xml'].get_formatted_title() == 'Book Review: PENNY HAWORTH &amp; CHERYL CRAIG (Eds.). The Career Trajectories of English Language Teachers. (2016).'  # noqa
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/savant/minimal', EruditArticle)

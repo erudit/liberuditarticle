@@ -1,4 +1,3 @@
-import html
 import io
 import re
 
@@ -41,13 +40,10 @@ def normalize_whitespace(s):
 
     That is, newlines and tabs converted to space.
     """
-    if not s:
-        return s
-    # Return None if string is empty or contains only white spaces.
-    if not html.unescape(s).strip():
-        return None
     # Strip white spaces from the begining and end of the string.
     s = s.strip()
+    if not s:
+        return None
     # Remove line breaks and following spaces between tags.
     s = re.sub(r'>\n[ \t]*<', '><', s)
     # Replace duplicated spaces with one space only.
