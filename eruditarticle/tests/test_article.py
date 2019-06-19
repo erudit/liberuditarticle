@@ -343,7 +343,7 @@ class TestArticleSavantComplet(object):
         assert self.test_objects['044308ar.xml'].get_formatted_html_title() == EXPECTED
         assert self.test_objects['044308ar.xml'].get_title(formatted=True, html=True) == EXPECTED
 
-        EXPECTED = 'Colloque d’histoire antillaise : <span class="majuscule">C</span>ENTRE D’ENSEIGNEMENT SUPÉRIEUR LITTÉRAIRE DE POINTE-À-PITRE (25-28 avril 1969)'  # noqa
+        EXPECTED = 'Colloque d’histoire antillaise : &lt;span class="majuscule"&gt;C&lt;/span&gt;ENTRE D’ENSEIGNEMENT SUPÉRIEUR LITTÉRAIRE DE POINTE-À-PITRE (25-28 avril 1969)'  # noqa
         assert self.test_objects['1056263ar.xml'].get_formatted_html_title() == EXPECTED
         assert self.test_objects['1056263ar.xml'].get_title(formatted=True, html=True) == EXPECTED
 
@@ -395,6 +395,8 @@ class TestArticleSavantComplet(object):
         assert self.test_objects['1056361ar.xml'].get_formatted_title() == 'UN ROMAN « NÉ DANS SA PROPRE NÉGATION » : l’articulation du littéraire et du religieux dans Angéline de Montbrun de Laure Conan'  # noqa
         # There should be a capital letter after a colon if it was forced in the XML.
         assert self.test_objects['1056263ar.xml'].get_formatted_title() == 'Colloque d’histoire antillaise : CENTRE D’ENSEIGNEMENT SUPÉRIEUR LITTÉRAIRE DE POINTE-À-PITRE (25-28 avril 1969)'  # noqa
+        # Check that ampersands are escaped.
+        assert self.test_objects['1060865ar.xml'].get_formatted_title() == 'Book Review: PENNY HAWORTH &amp; CHERYL CRAIG (Eds.). The Career Trajectories of English Language Teachers. (2016).'  # noqa
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/savant/minimal', EruditArticle)
