@@ -47,7 +47,7 @@ class Title:
                 separator = "\xa0: "
             else:
                 separator = ": "
-        if with_subtitle and self.xml_subtitle is not None:
+        if with_subtitle and self.subtitle is not None and self.xml_subtitle is not None:
             subtitle = self.subtitle
             # Check if uppercase is forced on subtitle.
             match = re.search(
