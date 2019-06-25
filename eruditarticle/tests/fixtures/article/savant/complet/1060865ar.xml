@@ -1,0 +1,378 @@
+
+
+<article xmlns="http://www.erudit.org/xsd/article"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:schemaLocation="http://www.erudit.org/xsd/article http://www.erudit.org/xsd/article/3.0.0/eruditarticle.xsd"
+         idproprio="1060865ar" lang="en"
+         ordseq="20100" qualtraitement="minimal"
+         typeart="compterendu" >
+  <admin>
+    
+    <infoarticle>
+      <idpublic scheme="doi">10.7202/1060865ar</idpublic>
+        
+
+    </infoarticle>
+    
+    
+
+
+
+  <revue id="mje106" lang="en fr">
+      <titrerev>McGill Journal of Education</titrerev>
+      
+
+      
+      
+      <titrerevparal lang="fr">Revue des sciences de l&#39;éducation de McGill</titrerevparal>
+      
+
+      
+
+    
+      <titrerevabr>mje</titrerevabr>
+    
+      
+      <idissnnum>1916-0666</idissnnum>
+      
+      <directeur sexe="feminin">
+        
+        <fonction lang="en">Managing Editor / Directrice de la rédaction</fonction>
+        
+        <nompers>
+  <prenom>Sylvie</prenom>
+  <nomfamille>Wald</nomfamille>
+  
+  
+  
+</nompers>
+
+      </directeur>
+      
+      
+      <redacteurchef sexe="feminin"
+        typerc="regulier"
+        >
+        
+        <fonction lang="en">Editor-in-Chief / Rédactrice-en-chef</fonction>
+        
+        <nompers>
+  <prenom>Teresa</prenom>
+  <nomfamille>Strong-Wilson</nomfamille>
+  
+  
+  
+</nompers>
+
+      </redacteurchef>
+      
+      <redacteurchef sexe="feminin"
+        typerc="regulier"
+        >
+        
+        <fonction lang="en">Associate Editor / Rédactrice associée</fonction>
+        
+        <nompers>
+  <prenom>Anila</prenom>
+  <nomfamille>Asghar</nomfamille>
+  
+  
+  
+</nompers>
+
+      </redacteurchef>
+      
+      <redacteurchef sexe="masculin"
+        typerc="regulier"
+        >
+        
+        <fonction lang="en">Associate Editor / Rédacteur associé</fonction>
+        
+        <nompers>
+  <prenom>Vincent</prenom>
+  <nomfamille>Boutonnet</nomfamille>
+  
+  
+  
+</nompers>
+
+      </redacteurchef>
+      
+      <redacteurchef sexe="feminin"
+        typerc="regulier"
+        >
+        
+        <fonction lang="en">Associate Editor / Rédactrice associée</fonction>
+        
+        <nompers>
+  <prenom>Mindy</prenom>
+  <nomfamille>Carter</nomfamille>
+  
+  
+  
+</nompers>
+
+      </redacteurchef>
+      
+      <redacteurchef sexe="masculin"
+        typerc="regulier"
+        >
+        
+        <fonction lang="en">Associate Editor / Rédacteur associé</fonction>
+        
+        <nompers>
+  <prenom>Jérôme</prenom>
+  <nomfamille>St-Amand</nomfamille>
+  
+  
+  
+</nompers>
+
+      </redacteurchef>
+      
+      <redacteurchef sexe="feminin"
+        typerc="regulier"
+        >
+        
+        <fonction lang="en">Associate Editor / Rédactrice associée</fonction>
+        
+        <nompers>
+  <prenom>Lisa</prenom>
+  <nomfamille>Starr</nomfamille>
+  
+  
+  
+</nompers>
+
+      </redacteurchef>
+      
+  </revue>
+
+    
+    <numero id="mje04667">
+      <volume>54</volume>
+      
+      <nonumero>1</nonumero>
+      
+      <pub>
+        <periode>Hiver</periode>
+        
+        <annee>2019</annee>
+      </pub>
+      
+        <pubnum>
+          <date typedate="publication">2019-06-17</date>
+        </pubnum>
+        
+    
+      
+
+    
+    </numero>
+
+    
+    <editeur>
+      <nomorg>Faculty of Education, McGill University</nomorg>
+    </editeur>
+    
+    <prodnum><nomorg>Érudit</nomorg></prodnum>
+    <diffnum><nomorg>Érudit</nomorg></diffnum>
+    <schema lang="fr" nom="Erudit Article" version="3.0.0" />
+    <droitsauteur><declaration>All Rights Reserved ©</declaration>, <annee>2019</annee><nompers><prenom>Philippa</prenom><nomfamille>Parks</nomfamille></nompers></droitsauteur>
+  </admin>
+  <liminaire>
+    
+
+
+    <grtitre>
+      
+      <surtitre>Book Reviews</surtitre>
+      
+      
+      
+      
+
+      <titre>Book Review: PENNY HAWORTH &amp; CHERYL CRAIG (Eds.). The Career Trajectories of English Language Teachers. (2016).</titre>
+      
+      
+      
+      
+      
+      
+    </grtitre>
+
+    
+    <grauteur>
+      
+      <auteur id="au1">
+        
+        <nompers>
+  <prenom>Philippa</prenom>
+  <nomfamille>Parks</nomfamille>
+  
+  
+  
+</nompers>
+
+
+  <affiliation><alinea>McGill University</alinea></affiliation>
+
+
+  <courriel><liensimple id="ls1" xlink:href="mailto:philippa.parks@mcgill.ca"
+            xlink:type="simple">philippa.parks@mcgill.ca</liensimple>
+</courriel>
+
+
+
+      </auteur>
+      
+    </grauteur>
+    
+    
+    
+
+    
+    
+      
+      
+    
+
+        
+      
+    
+      
+    
+
+  </liminaire>
+  <corps lang="en">
+    <texte typetexte="libre">
+      
+      54-1ParksIDHTML
+		
+		body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+			margin:0;
+			padding:0;
+			border-width:0;
+		}
+		td, th {
+			border-style:solid;
+			border-width:1px;
+		}
+		table {
+			border-collapse:collapse;
+		}
+		li {
+			display:block;
+		}
+		body {
+			font-size:20px;
+			-epub-hyphens:auto;
+		}
+		p.x--Body-text {
+			-epub-ruby-position:over;
+			color:#000000;
+			font-family:&quot;Goudy Old Style&quot;, serif;
+			font-size:18px;
+			font-style:normal;
+			font-variant:normal;
+			font-weight:normal;
+			line-height:1.2;
+			margin-bottom:12px;
+			margin-left:0px;
+			margin-right:0px;
+			text-align:left;
+			text-decoration:none;
+			text-indent:0px;
+		}
+		p.x--Author {
+			-epub-ruby-position:over;
+			color:#000000;
+			font-family:&quot;Gill Sans&quot;, sans-serif;
+			font-size:16px;
+			font-style:italic;
+			font-variant:normal;
+			font-weight:normal;
+			line-height:1.2;
+			margin-bottom:15px;
+			margin-left:0px;
+			margin-right:0px;
+			text-align:left;
+			text-decoration:none;
+			text-indent:0px;
+		}
+		p.x--Heading-1 {
+			-epub-ruby-position:over;
+			color:#000000;
+			font-family:&quot;Gill Sans&quot;, sans-serif;
+			font-size:17px;
+			font-style:normal;
+			font-weight:normal;
+			line-height:1.176;
+			margin-bottom:12px;
+			margin-left:0px;
+			margin-right:0px;
+			text-align:left;
+			text-decoration:none;
+			text-indent:0px;
+			text-transform:uppercase;
+		}
+		p.x--Book-Review-Title {
+			-epub-ruby-position:over;
+			color:#000000;
+			font-family:&quot;Gill Sans&quot;, sans-serif;
+			font-size:16px;
+			font-style:normal;
+			font-variant:normal;
+			font-weight:normal;
+			line-height:1.2;
+			margin-bottom:15px;
+			margin-left:0px;
+			margin-right:0px;
+			text-align:left;
+			text-decoration:none;
+			text-indent:0px;
+		}
+		span.x-Opening-Letter {
+			font-family:&quot;Gill Sans&quot;, sans-serif;
+			font-size:26px;
+			font-style:normal;
+			font-weight:normal;
+			text-transform:uppercase;
+		}
+		span.x-Author-Name {
+			font-family:&quot;Gill Sans&quot;, sans-serif;
+			font-size:16px;
+			font-style:normal;
+			font-weight:normal;
+			text-transform:uppercase;
+		}
+		p.para-style-override-1 {
+			text-align:right;
+		}
+		span.char-style-override-1 {
+			text-transform:uppercase;
+		}
+		span.char-style-override-2 {
+			font-style:italic;
+			font-weight:normal;
+		}
+
+	
+	
+		
+			BOOK REVIEW / Compte-Rendu
+			Penny Haworth &amp; Cheryl Craig (Eds.). The Career Trajectories of English Language Teachers. Oxford, United Kingdom: Symposium Books. (2016). 256 pp. $44.17 (Kindle). (ISBN 978-1-873927-87-8)
+			The Career Trajectories of English Language Teachers is an edited collection of stories and papers written both by career English language teachers and the scholars who study them. Its intention is to give the reader insight into the complexities of the diverse contexts in which English language teachers find themselves as they teach. It provides an important contribution to the fields of English language teacher professional identity formation and English language teacher education. Previous work in these fields has tended to focus on single contexts for English language teaching, but this collection brings together a wider range of contexts reflecting on the forces of globalization and the spread of English as an international language. Collectively these stories trace the social and historical tensions behind educational policies and reveal how these forces influence the course of English language teachers’ careers. The book does not seek to outline global solutions to problems of integration or identity that language teachers face, nor does it advocate approaches to take in teacher education. Instead, it provides the reader with a series of stories, ideas, and thoughts about English language teachers and the paths they have chosen and invites the reader to reflect on these choices. The collection will interest language teachers and educational scholars who want insight into how ideas and theories of cross-cultural communication, language acquisition, linguistics, and language teaching methods are brought to life and lived by the teachers themselves in an increasingly complex world.  
+			The book is divided into two sections; the first focuses on the stories and lived experiences of English language teachers from a range of cultural, social, and educational backgrounds as they navigate through the challenges of teaching throughout the course of their careers; the second looks at the ways language teacher education and language teacher educators and researchers are negotiating the challenges of globalization. The second half of the book moves away from stories of English language teachers’ professional identities and career trajectories towards English language teacher education programs and the stories of researchers and educators within these institutions.  
+			An overarching theme of the book is the diversity of context in which English language teachers find themselves teaching within an increasingly multicultural world. Accordingly, the stories of the English language teachers are situated within diverse historical geopolitical contexts ranging from the dense inner cityscapes of urban America, where language teachers deal with diverse linguistic populations, to the remote regions of the Australian outback, where teachers struggle to integrate into a homogenous and cohesive Indigenous community. The stories and voices are a reflection of the globalization of English language teaching itself. They traverse the world from Iceland to India, from Malaysia to California, from Chile to China.  
+			Despite the diversity of context, there are many common themes. One of these is the negotiation of the teachers’ professional identities as they are challenged and remade in reaction to official rhetoric and state curriculum. In Chapter 2, “Unpacking Tensions,” for example, a TESOL teacher in China comes to understand how eastern and western perspectives on “learning a language” rather than the state approach to “learning about a language” shape who she is becoming as a language teacher. The same tensions between one’s “own true self” and living up to the demands of state curriculum are present in Chapter 3, “Everyday Priorities,” where an ESL teacher in the U.S. uses self-study and narrative analysis to understand her own professional identity through the priority she gives to building relationships with her students over the curriculum demands of the state. 
+			Often teachers’ identity negotiation becomes a mechanism to solve challenges in their teaching careers, whether that is to achieve social justice through pedagogy as in Chapter 5, “Teaching English as a Second Language in India”, or the storying of one’s own experience to negotiate a new cultural and linguistic space in classrooms in Chapter 7, “Career Trajectory of a Career Teacher in Iceland”. More often than not, the stories of teachers’ identities and their career trajectories are shaped by educational policy that shifts in response to the forces of globalization. In Chapter 4, “Managing Context and Complexities,” for example, underlying historical, social, and racial tensions in Malaysia result in shifts in educational policy which stifle one English teacher’s career trajectory. In Chapter 6, “Influence of Chinese Educational Policy” geopolitics create a demand first for Russian, and then for English language teachers that limits and disrupts career opportunities and the professional identity development of one Chinese English language teacher. 
+			Stories in the second half of the book touch on a number of important themes for English language teacher educators and researchers, including meeting the challenges of isolation in order to working collaboratively on research (Chapter 13), coping with the precarious professional status that English language teachers experience in different contexts (Chapters 14, 15), and negotiation of identity as English language teachers who belong to cultures other than English (Chapters 16, 17). In this second half of the book, globalization and multiculturalism are strong forces that shape the development of English language teachers in teacher education. In Chapter 9, “Self-Reflective Inquiry in Teacher Education for Diversity,” for example, pre-service teachers learn to recognize the value of their own multilingualism and recast language shame as they work towards addressing the challenges of linguistic diversity in their future classrooms. 
+			Linguistic diversity is not the only quality preservice teachers bring to teacher education: previous experience in other careers can also shape the ways English language teachers understand their own teaching and learning. Chapter 10, “Using VideoWeb in EFL Teacher Education”, for example, focuses on how teacher education meets — or fails to meet — the diversity of experience teachers bring to their program. Issues of diversity in linguistic identity and professional experience are pivotal in Chapter 11, “Innovating in Initial Teacher Education,” when two teacher educators work to create a new teacher education program that both satisfies a growing global demand for English language teachers on one hand, while accepting the general lack of experience their pre-service teachers have — both in with the language and in the classroom — on the other.
+			The final chapter, “Self-determination in Career Trajectories of English Language Teachers” draws together the common threads throughout the book, reflecting on the ways that teaching is shaped by experience but also by contact with other languages and cultures. English language teachers work with and within language. They must constantly negotiate differences, shifts, and change in culture, history, politics, and geography. What the book ultimately reveals through its range of stories about English language teacher career trajectories is that it is through negotiations of difference that English language teachers’ identities are recognized and consolidated.
+			Philippa Parks McGill University
+    </texte>
+  </corps>
+    
+</article>

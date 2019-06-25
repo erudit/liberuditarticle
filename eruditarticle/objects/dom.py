@@ -82,6 +82,6 @@ class DomObject:
                 'marquepage',
                 'objetmedia',
             ])
-        _html = et.tostring(_node.getroot(), method='html')
+        _html = et.tostring(_node.getroot(), encoding='utf-8', method='html')
         output = _html.split(b'>', 1)[1].rsplit(b'<', 1)[0]
         return normalize_whitespace(output.decode('utf-8'))

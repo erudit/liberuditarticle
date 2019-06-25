@@ -2,11 +2,17 @@ import pytest
 
 from datetime import datetime
 
-from eruditarticle.objects.base import Title
-from eruditarticle.objects import EruditPublication
+from eruditarticle.objects import EruditPublication, Title
 from eruditarticle.tests.decorators import with_value, with_fixtures
 
 from .test_article import people_to_dict
+
+
+class Title(Title):
+    def __init__(self, title=None, subtitle=None, lang=None):
+        self.lang = lang
+        self.title = title
+        self.subtitle = subtitle
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication/journal_title', EruditPublication)
@@ -154,12 +160,12 @@ class TestEditorialNotes(object):
             {
                 "lang": "fr",
                 "type": "edito",
-                "content": '<p class="alinea">Ce num&#233;ro d&#8217;Eurostudia est publi&#233; avec l&#8217;aide de l&#8217;Office allemand d&#8217;&#233;changes universitaires (DAAD) gr&#226;ce au soutien financier du minist&#232;re des Affaires &#233;trang&#232;res de la R&#233;publique f&#233;d&#233;rale d&#8217;Allemagne.</p>',  # noqa
+                "content": '<p class="alinea">Ce numéro d’Eurostudia est publié avec l’aide de l’Office allemand d’échanges universitaires (DAAD) grâce au soutien financier du ministère des Affaires étrangères de la République fédérale d’Allemagne.</p>',  # noqa
                 "authors": "",
             }, {
                 "lang": "de",
                 "type": "edito",
-                "content": '<p class="alinea">Hergestellt mit Unterst&#252;tzung durch den DAAD aus Mitteln, die das Ausw&#228;rtige Amt bereitstellt.</p>',  # noqa
+                "content": '<p class="alinea">Hergestellt mit Unterstützung durch den DAAD aus Mitteln, die das Auswärtige Amt bereitstellt.</p>',  # noqa
                 "authors": "",
             }, {
                 "lang": "en",
@@ -213,7 +219,7 @@ class TestEditorialNotes(object):
             {
                 "lang": "fr",
                 "type": "edito",
-                "content": '<p class="alinea"><a href="http://www.erudit.org/projspec/ateliers/v10n2_complet.pdf">T&#233;l&#233;charger le num&#233;ro complet / Download the complete issue</a></p>',  # noqa
+                "content": '<p class="alinea"><a href="http://www.erudit.org/projspec/ateliers/v10n2_complet.pdf">Télécharger le numéro complet / Download the complete issue</a></p>',  # noqa
                 "authors": "",
             }
         ]
@@ -224,7 +230,7 @@ class TestEditorialNotes(object):
             {
                 "lang": "fr",
                 "type": "edito",
-                "content": '<p class="alinea">&#192; la m&#233;moire de Robert Plante, m&#233;decin du travail</p>', # noqa
+                "content": '<p class="alinea">À la mémoire de Robert Plante, médecin du travail</p>', # noqa
                 "authors": "",
             }
         ]
@@ -235,7 +241,7 @@ class TestEditorialNotes(object):
             {
                 "lang": "fr",
                 "type": "edito",
-                "content": '<p class="alinea">Les textes qui composent ce num&#233;ro sp&#233;cial de la <em>Revue de droit de McGill</em> se r&#233;f&#232;rent &#224; la pr&#233;sente introduction pour la pr&#233;sentation des faits de l&#8217;affaire et pour le r&#233;sum&#233; des jugements. Comme la plupart de ces textes sont en anglais, une version anglaise de cette introduction est disponible sur le site Web de la <em>Revue</em> (<a href="http://lawjournal.mcgill.ca">http://lawjournal.mcgill.ca</a>).</p>',  # noqa
+                "content": '<p class="alinea">Les textes qui composent ce numéro spécial de la <em>Revue de droit de McGill</em> se réfèrent à la présente introduction pour la présentation des faits de l’affaire et pour le résumé des jugements. Comme la plupart de ces textes sont en anglais, une version anglaise de cette introduction est disponible sur le site Web de la <em>Revue</em> (<a href="http://lawjournal.mcgill.ca">http://lawjournal.mcgill.ca</a>).</p>',  # noqa
                 "authors": "",
             }
         ]
@@ -246,7 +252,7 @@ class TestEditorialNotes(object):
             {
                 "lang": "fr",
                 "type": "edito",
-                "content": '<p class="alinea"><strong>Remerciements&#160;:</strong> La Revue remercie le Bureau du Vice-rectorat &#224; l&#8217;enseignement et &#224; la recherche (Affaires francophones) de l&#8217;Universit&#233; Laurentienne et l&#8217;Institut fran&#231;ais de l&#8217;Universit&#233; de R&#233;gina de leur appui financier &#224; la production de ce num&#233;ro.</p>',  # noqa
+                "content": '<p class="alinea"><strong>Remerciements :</strong> La Revue remercie le Bureau du Vice-rectorat à l’enseignement et à la recherche (Affaires francophones) de l’Université Laurentienne et l’Institut français de l’Université de Régina de leur appui financier à la production de ce numéro.</p>',  # noqa
                 "authors": "",
             }
         ]
@@ -316,8 +322,8 @@ class TestPublicationFormattedThemes(object):
     def test_can_return_theme_names_with_child_elements(self, value):
         assert value == [
             {
-                'names': ["Apprendre et enseigner la musique au XXI<sup>e</sup> si&#232;cle. Nouvelles propositions p&#233;dagogiques"],  # noqa
-                'editors': ["Francis Dub&#233;"],
+                'names': ["Apprendre et enseigner la musique au XXI<sup>e</sup> siècle. Nouvelles propositions pédagogiques"],  # noqa
+                'editors': ["Francis Dubé"],
             }
         ]
 
@@ -329,8 +335,8 @@ class TestPublicationFormattedThemes(object):
                 'editors': ["Alain Lesage"]
             },
             {
-                'names': ["Les &#233;tats de stress post-traumatique"],
-                "editors": ["Alain Lesage", "Louis C&#244;t&#233;", "Yves Lecomte"]
+                'names': ["Les états de stress post-traumatique"],
+                "editors": ["Alain Lesage", "Louis Côté", "Yves Lecomte"]
             }
         ]
 
@@ -338,14 +344,14 @@ class TestPublicationFormattedThemes(object):
     def test_can_display_multiple_themes_and_multiple_editors(self, value):
         assert value == [
             {
-                'names': ["L&#8217;actualit&#233; du mythe"],
+                'names': ["L’actualité du mythe"],
                 'editors': ['Vincent C. Lambert']
             },
             {
-                'names': ["Comprendre des textes &#224; l&#8217;oral et &#224; l&#8217;&#233;crit"],
+                'names': ["Comprendre des textes à l’oral et à l’écrit"],
                 "editors": [
                     "Christian Dumais",
-                    "R&#233;al Bergeron"
+                    "Réal Bergeron"
                 ]
             }
         ]
@@ -354,15 +360,15 @@ class TestPublicationFormattedThemes(object):
     def test_can_display_multiple_themes_and_no_editors(self, value):
         assert value == [
             {
-                'names': ["La pr&#233;vention pr&#233;coce en question"],
+                'names': ["La prévention précoce en question"],
                 "editors": [
                     "Michel Parazelli",
-                    "Sylvie L&#233;vesque",
-                    "Carol G&#233;linas",
+                    "Sylvie Lévesque",
+                    "Carol Gélinas",
                 ]
             },
             {
-                'names': ["Regards crois&#233;s France-Qu&#233;bec"],
+                'names': ["Regards croisés France-Québec"],
                 "editors": []
             }
         ]
@@ -377,8 +383,8 @@ class TestPublicationFormattedThemes(object):
                     "Ciberespacio y antropologia\xa0: Transmision de conocimientos y de saber-como",  # noqa
                 ],
                 'editors': [
-                    "Joseph J. L&#233;vy",
-                    "&#201;velyne Lasserre"
+                    "Joseph J. Lévy",
+                    "Évelyne Lasserre"
                 ]
             }
         ]
@@ -388,22 +394,22 @@ class TestPublicationFormattedThemes(object):
         assert value == [
             {
                 'editors': [
-                    '&#193;lvaro Echeverri',
+                    'Álvaro Echeverri',
                     'Georges L. Bastin',
                 ],
                 'names': [
-                    'Territoires, histoires, m&#233;moires',
+                    'Territoires, histoires, mémoires',
                     'Territories, histories, memories',
                 ],
             },
             {
                 'editors': [
-                    'Nicole C&#244;t&#233;',
-                    'Dani&#232;le Marcoux',
+                    'Nicole Côté',
+                    'Danièle Marcoux',
                     'Madeleine Stratford',
                 ],
                 'names': [
-                    'La traduction litt&#233;raire <em>et</em> le Canada',
+                    'La traduction littéraire <em>et</em> le Canada',
                     'Literary translation <em>and</em> Canada',
                 ],
             },
@@ -422,7 +428,7 @@ class TestPublicationFormattedThemes(object):
     def test_spaces_between_xml_tags(self, value):
         assert value == [
             {
-                'names': ['Entre public et priv&#233;&#160;: lettres d&#8217;&#233;crivains depuis le <span class="petitecap">xix</span><sup>e</sup> si&#232;cle'],  # noqa
+                'names': ['Entre public et privé : lettres d’écrivains depuis le <span class="petitecap">xix</span><sup>e</sup> siècle'],  # noqa
                 'editors': ["Margot Irvine", "Karin Schwerdtner"],
             }
         ]
@@ -569,8 +575,8 @@ class TestEruditPublication(object):
                 'redacteurchef': [],
                 'paral': {},
                 'subname': 'Cinq cinéastes sur le divan',
-                'html_name': 'La production au Qu&#233;bec',
-                'html_subname': 'Cinq cin&#233;astes sur le divan',
+                'html_name': 'La production au Québec',
+                'html_subname': 'Cinq cinéastes sur le divan',
                 'lang': 'fr',
             },
         }
@@ -599,8 +605,8 @@ class TestEruditPublication(object):
             'paral': {},
             'redacteurchef': [],
             'subname': 'Cinq cinéastes sur le divan',
-            'html_name': 'La production au Qu&#233;bec',
-            'html_subname': 'Cinq cin&#233;astes sur le divan',
+            'html_name': 'La production au Québec',
+            'html_subname': 'Cinq cinéastes sur le divan',
             'lang': 'fr',
         }
 
@@ -639,7 +645,7 @@ class TestEruditPublication(object):
             {
                 "type": "edito",
                 "lang": "fr",
-                "content": """<p class="alinea"><strong>POUR NABIHA</strong> : Nabiha Jerad, Professeur de socio-linguistique &#224; la Facult&#233; des Lettres de l&#8217;Universit&#233; de Tunis se trouvait dans son &#238;le natale, Kerkennah, pour c&#233;l&#233;brer le Ramadan avec sa famille. Sortie pour prendre l&#8217;air avant le d&#238;ner, elle fut renvers&#233;e par une voiture. Le chauffeur - ou plut&#244;t le chauffard - ne s&#8217;arr&#234;ta pas et s&#8217;enfuit. C&#8217;&#233;tait le 11 ao&#251;t 2012. Elle tomba dans un coma dont elle ne se sortira jamais, malgr&#233; les soins intensifs et le d&#233;vouement du personnel m&#233;dical, d&#8217;abord &#224; Bruxelles, ensuite &#224; Tunis o&#249; elle rendit l&#8217;&#226;me le 19 octobre 2012. </p><p class="alinea">Pour ceux et celles qui l&#8217;ont connue, Nabiha avait le coeur sur la main, l&#8217;esprit ouvert &#224; &#8220;tous les souffles du monde&#8221; pour reprendre Aim&#233; C&#233;saire. Elle &#233;tait d&#8217;un grand d&#233;vouement envers ses &#233;tudiants, tr&#232;s attach&#233;e &#224; son pays la Tunisie et fortement engag&#233;e dans ce qui fut appel&#233;e la R&#233;volution de Jasmin. Son article non achev&#233;, qui devait para&#238;tre dans ce volume, se serait ajout&#233; &#224; ses nombreuses autres publications dans le domaine de la socio-linguistique. Cette petite note rappellera la m&#233;moire de celle qui fut non seulement une coll&#232;gue, mais aussi une amie. Universit&#233; Laval 3 Juillet 2013</p>""",  # noqa
+                "content": """<p class="alinea"><strong>POUR NABIHA</strong> : Nabiha Jerad, Professeur de socio-linguistique à la Faculté des Lettres de l’Université de Tunis se trouvait dans son île natale, Kerkennah, pour célébrer le Ramadan avec sa famille. Sortie pour prendre l’air avant le dîner, elle fut renversée par une voiture. Le chauffeur - ou plutôt le chauffard - ne s’arrêta pas et s’enfuit. C’était le 11 août 2012. Elle tomba dans un coma dont elle ne se sortira jamais, malgré les soins intensifs et le dévouement du personnel médical, d’abord à Bruxelles, ensuite à Tunis où elle rendit l’âme le 19 octobre 2012. </p><p class="alinea">Pour ceux et celles qui l’ont connue, Nabiha avait le coeur sur la main, l’esprit ouvert à “tous les souffles du monde” pour reprendre Aimé Césaire. Elle était d’un grand dévouement envers ses étudiants, très attachée à son pays la Tunisie et fortement engagée dans ce qui fut appelée la Révolution de Jasmin. Son article non achevé, qui devait paraître dans ce volume, se serait ajouté à ses nombreuses autres publications dans le domaine de la socio-linguistique. Cette petite note rappellera la mémoire de celle qui fut non seulement une collègue, mais aussi une amie. Université Laval 3 Juillet 2013</p>""",  # noqa
                 "authors": "Justin K. Bisanswa",
             }
         ]
@@ -774,7 +780,7 @@ class TestEruditPublication(object):
         assert pub.get_volume_numbering(formatted=True) == ''
 
     @pytest.mark.parametrize('fixture, language, html, expected_label', [
-        ('images1080663.xml', 'fr', True, 'Tous droits r&#233;serv&#233;s'),
+        ('images1080663.xml', 'fr', True, 'Tous droits réservés'),
         ('images1080663.xml', 'en', True, 'All Rights Reserved'),
         ('images1080663.xml', 'es', True, 'Reservados todos los derechos'),
         ('images1080663.xml', 'fr', False, 'Tous droits réservés'),
@@ -798,7 +804,7 @@ class TestEruditPublication(object):
         ('moebius1016931.xml', False, []),
         # Multiple names, including physical person with prefix.
         ('liberte1032075.xml', False, ['Mme E. Bertil', 'Collectif Liberté']),
-        ('liberte1032075.xml', True, ['Mme E. Bertil', 'Collectif Libert&#233;']),
+        ('liberte1032075.xml', True, ['Mme E. Bertil', 'Collectif Liberté']),
     ])
     def test_get_copyrights_names(self, fixture, html, expected_names):
         publication = self.test_objects[fixture]
@@ -822,7 +828,7 @@ class TestEruditPublication(object):
         ('images1080663.xml', 'fr', True, False, 'Tous droits réservés © 24 images inc., 1992'),
         ('images1080663.xml', 'en', True, False, 'All Rights Reserved © 24 images inc., 1992'),
         ('images1080663.xml', 'es', True, False, 'Reservados todos los derechos © 24 images inc., 1992'),  # noqa
-        ('images1080663.xml', 'fr', False, True, 'Tous droits r&#233;serv&#233;s © 24 images inc., 1992'),  # noqa
+        ('images1080663.xml', 'fr', False, True, 'Tous droits réservés © 24 images inc., 1992'),  # noqa
         ('images1080663.xml', 'en', False, True, 'All Rights Reserved © 24 images inc., 1992'),
         ('images1080663.xml', 'es', False, True, 'Reservados todos los derechos © 24 images inc., 1992'),  # noqa
         # Unavailable language, defaults to first label.
@@ -830,19 +836,19 @@ class TestEruditPublication(object):
         # Missing label.
         ('ae1806445.xml', 'fr', False, False, {'label': '', 'names': ['HEC Montréal'], 'year': '1970'}),  # noqa
         ('ae1806445.xml', 'fr', True, False, ' © HEC Montréal, 1970'),
-        ('ae1806445.xml', 'fr', False, True, ' © HEC Montr&#233;al, 1970'),
+        ('ae1806445.xml', 'fr', False, True, ' © HEC Montréal, 1970'),
         # Missing names.
         ('moebius1016931.xml', 'fr', False, False, {'label': 'Tous droits réservés', 'names': [], 'year': '1997'}),  # noqa
         ('moebius1016931.xml', 'fr', True, False, 'Tous droits réservés © , 1997'),
-        ('moebius1016931.xml', 'fr', False, True, 'Tous droits r&#233;serv&#233;s © , 1997'),
+        ('moebius1016931.xml', 'fr', False, True, 'Tous droits réservés © , 1997'),
         # Missing year.
         ('va1258133.xml', 'fr', False, False, {'label': 'Tous droits réservés', 'names': ['La Société des Arts'], 'year': ''}),  # noqa
         ('va1258133.xml', 'fr', True, False, 'Tous droits réservés © La Société des Arts, '),
-        ('va1258133.xml', 'fr', False, True, 'Tous droits r&#233;serv&#233;s © La Soci&#233;t&#233; des Arts, '),  # noqa
+        ('va1258133.xml', 'fr', False, True, 'Tous droits réservés © La Société des Arts, '),  # noqa
         # Multiple names, including physical person with prefix.
         ('liberte1032075.xml', 'fr', False, False, {'label': 'Tous droits réservés', 'names': ['Mme E. Bertil', 'Collectif Liberté'], 'year': '1986'}),  # noqa
         ('liberte1032075.xml', 'fr', True, False, 'Tous droits réservés © Mme E. Bertil et Collectif Liberté, 1986'),  # noqa
-        ('liberte1032075.xml', 'fr', False, True, 'Tous droits r&#233;serv&#233;s © Mme E. Bertil et Collectif Libert&#233;, 1986'),  # noqa
+        ('liberte1032075.xml', 'fr', False, True, 'Tous droits réservés © Mme E. Bertil et Collectif Liberté, 1986'),  # noqa
     ])
     def test_get_copyrights(self, fixture, language, formatted, html, expected_copyrights):
         assert self.test_objects[fixture].get_copyrights(language, formatted=formatted, html=html) == expected_copyrights  # noqa

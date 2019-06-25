@@ -31,7 +31,7 @@ def test_nomorg_as_text():
 
 def test_nomorg_as_html():
     person = Person(get_dom('author_nomorg_formatting.xml'))
-    EXPECTED = 'Comit&#233; de r&#233;daction de <em>Drogues, sant&#233; et soci&#233;t&#233;</em>'
+    EXPECTED = 'Comité de rédaction de <em>Drogues, santé et société</em>'
     assert person.format_name(html=True) == EXPECTED
 
 
