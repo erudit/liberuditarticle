@@ -119,6 +119,8 @@ class CopyrightMixin(object):
                 text = ' '.join(da.itertext())
                 # Remove duplicated spaces.
                 text = normalize_whitespace(text)
+                if text is None:
+                    continue
                 # Remove spaces before commas.
                 text = text.replace(' ,', ',')
                 da_list.append({'text': text})
