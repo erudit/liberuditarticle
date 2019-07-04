@@ -216,6 +216,8 @@ class EruditPublication(
 
     def _format_theme_names(self, theme):
         """ Format the theme name """
+        if theme['name'] is None:
+            return []
         theme_name_subnames = [
             (theme['name'], theme.get('subname', None), theme['lang'])
         ] + [
