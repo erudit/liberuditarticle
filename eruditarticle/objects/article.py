@@ -147,7 +147,10 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         :returns: the full body of the article object as HTML text. """
         alinea_nodes = self.findall('para/alinea')
         if alinea_nodes:
-            html_body = ' '.join([self.convert_marquage_content_to_html(n) for n in alinea_nodes])
+            html_body = ' '.join(
+                self.convert_marquage_content_to_html(n) for n in alinea_nodes
+                if n.text is not None
+            )
         else:
             texte_node = self.find('corps/texte')
             html_body = self.convert_marquage_content_to_html(texte_node)

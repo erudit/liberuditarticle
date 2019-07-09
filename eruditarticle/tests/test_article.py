@@ -390,6 +390,10 @@ class TestArticleSavantComplet(object):
         html = self.test_objects['1001948ar.xml'].get_html_body()
         assert 'Ferreira' in html
 
+    def test_html_body_with_empty_alinea(self):
+        html = self.test_objects['005722ar.xml'].get_html_body()
+        assert 'The appearance of nature and landscape descriptions' in html
+
     def test_get_formatted_title(self):
         # There should not be a capital letter after a colon.
         assert self.test_objects['1056361ar.xml'].get_formatted_title() == 'UN ROMAN « NÉ DANS SA PROPRE NÉGATION » : l’articulation du littéraire et du religieux dans Angéline de Montbrun de Laure Conan'  # noqa
