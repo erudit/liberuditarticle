@@ -433,6 +433,15 @@ class TestPublicationFormattedThemes(object):
             }
         ]
 
+    @with_value('004966ar.xml', 'get_themes', formatted=True, html=True)
+    def test_empty_theme_tag(self, value):
+        assert value == [
+            {
+                'names': [],
+                'editors': [],
+            }
+        ]
+
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication/redacteurchef', EruditPublication)
 class TestRedacteurChef(object):

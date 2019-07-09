@@ -216,6 +216,9 @@ class EruditPublication(
 
     def _format_theme_names(self, theme):
         """ Format the theme name """
+        if theme['name'] is None:
+            return []
+
         theme_name_subnames = [
             (theme['name'], theme.get('subname', None), theme['lang'])
         ] + [
@@ -223,14 +226,12 @@ class EruditPublication(
             for paral in theme['paral'].values()
         ]
 
-        def _theme_name_formatter(name, subname, lang):
-            # Lower case the first letter if theme name is in French.
+        theme_names = []
+        for name, subname, lang in theme_name_subnames:
             if subname and lang == 'fr':
-                # Convert html entities (&#201; -> É) so that the first letter gets lowercased.
                 subname = subname[0].lower() + subname[1:]
-            return "{}\xa0: {}".format(name, subname) if subname else name
-
-        return list(map(lambda t: _theme_name_formatter(t[0], t[1], t[2]), theme_name_subnames))
+            theme_names.append("{}\xa0: {}".format(name, subname) if subname else name)
+        return theme_names
 
     def get_redacteurchef(self, typerc=None, idrefs=None, formatted=False, html=False):
         """
