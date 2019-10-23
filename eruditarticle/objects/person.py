@@ -159,7 +159,12 @@ def _format_author_reverse(author, full_firstname=False):
     elif not firstname:
         return lastname
     if not full_firstname:
-        firstname = "{}.".format(firstname[:1])
+        # If the name is not composed, simply use the first letter.
+        if "-" not in firstname:
+            firstname = "{}.".format(firstname[:1])
+        # If the name is composed, use the first letter of each part.
+        else:
+            firstname = "-".join("{}.".format(part[:1]) for part in firstname.split("-"))
     result = "{}, {}".format(lastname, firstname)
     if othername:
         othernames = " ".join("{}.".format(name[:1]) for name in othername.split())

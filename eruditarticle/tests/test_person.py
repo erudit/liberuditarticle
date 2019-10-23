@@ -153,6 +153,10 @@ def test_format_authors_mla(authors, expected):
         [(None, "Lastname")],
         "Lastname"
     ),
+    (
+        [("Composed-Firstname", "Lastname")],
+        "Lastname, C.-F."
+    ),
 ])
 def test_format_authors_apa(authors, expected):
     authors = [FakePerson(*args) for args in authors]
