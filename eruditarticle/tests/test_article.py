@@ -393,6 +393,8 @@ class TestArticleSavantComplet(object):
     def test_html_body_with_empty_alinea(self):
         html = self.test_objects['005722ar.xml'].get_html_body()
         assert 'The appearance of nature and landscape descriptions' in html
+        html = self.test_objects['044581ar.xml'].get_html_body()
+        assert 'L’historien Pierre Gaxotte pensa proposer la candidature d’Anouilh' in html
 
     def test_get_formatted_title(self):
         # There should not be a capital letter after a colon.
