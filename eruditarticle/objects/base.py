@@ -1,11 +1,10 @@
 import collections
-from copy import copy
 
 import lxml.etree as et
 import re
 import six
 
-from ..utils import remove_xml_namespaces, normalize_whitespace
+from ..utils import remove_xml_namespaces
 from .dom import DomObject
 from .person import Person
 
@@ -240,24 +239,6 @@ class EruditBaseObject(DomObject):
         for tree_author in self.findall(tag_name):
             persons.append(Person(tree_author))
         return persons
-
-    @staticmethod
-    def stringify_children(node, strip_elements=None):
-        """ Convert a node content to string
-
-        :param strip_elements: elements to strip before converting to string
-
-        :returns: the text embedded in a specific node by stripping all tags
-            and stripping specified elements.
-        """
-        if node is None:
-            return None
-        node = copy(node)
-        if strip_elements:
-            et.strip_elements(node, *strip_elements, with_tail=False)
-        et.strip_tags(node, "*")
-        if node.text is not None:
-            return normalize_whitespace(node.text)
 
     def find_paral(self, tag, paral_tag_name):
         """ Find the parallel values for the given tag using the given tag name. """

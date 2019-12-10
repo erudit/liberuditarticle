@@ -29,7 +29,7 @@ class DomObject:
     def get_text(self, tag_name, dom=None):
         """ :returns: the text associated with the considered tag. """
         result = self.find(tag_name, dom=dom)
-        return result.text if result is not None else None
+        return self.stringify_children(result, strip_elements=['renvoi'])
 
     def get_html(self, tag_name, dom=None):
         """ :returns: the content of the considered tag converted to html. """
@@ -51,8 +51,23 @@ class DomObject:
                 break
         return text
 
-    def strip_markup(self):
-        et.strip_tags(self._root, 'marquage')
+    @staticmethod
+    def stringify_children(node, strip_elements=None):
+        """ Convert a node content to string
+
+        :param strip_elements: elements to strip before converting to string
+
+        :returns: the text embedded in a specific node by stripping all tags
+            and stripping specified elements.
+        """
+        if node is None:
+            return None
+        node = copy(node)
+        if strip_elements:
+            et.strip_elements(node, *strip_elements, with_tail=False)
+        et.strip_tags(node, "*")
+        if node.text is not None:
+            return normalize_whitespace(node.text)
 
     @staticmethod
     def convert_marquage_content_to_html(node, strip_elements=['renvoi']):
