@@ -92,7 +92,6 @@ class Person(DomObject):
             get = self.get_html
         else:
             get = self.get_text
-            self.strip_markup()
         if self.find('nomorg') is not None:
             # Our "person" is in fact an organization. Special rules apply.
             result = get('nomorg')
@@ -143,7 +142,6 @@ def format_authors(authors, html=False, suffixes=True):
 
 
 def _format_author_reverse(author, full_firstname=False):
-    author.strip_markup()
     if author.organization:
         return author.organization
     lastname = author.lastname.strip() if author.lastname else None
@@ -177,7 +175,6 @@ def format_authors_mla(authors):
         return _format_author_reverse(author, full_firstname=True)
 
     def single2(author):
-        author.strip_markup()
         othername = author.othername.strip() if author.othername else None
         if othername:
             return "{} {}. {}".format(author.firstname, othername[:1], author.lastname)
