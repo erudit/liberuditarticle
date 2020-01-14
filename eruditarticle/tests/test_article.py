@@ -396,6 +396,16 @@ class TestArticleSavantComplet(object):
         html = self.test_objects['044581ar.xml'].get_html_body()
         assert 'L’historien Pierre Gaxotte pensa proposer la candidature d’Anouilh' in html
 
+    def test_breaking_spaces_are_not_stripped_from_html_body(self):
+        html = self.test_objects['1065852ar.xml'].get_html_body()
+        assert 'Erratum\xa0: Une erreur s’est glissée dans le volume 52.1 de ' \
+               '<em>Criminologie</em>. Dans le texte «\xa0Szabo, ou la volonté d’exister\xa0», ' \
+               'de François Fenchel, nous aurions dû lire, à la page 8\xa0: «\xa0…il y a dans la ' \
+               'reconnaissance de l’oeuvre celle de sa propre vie, de la valeur du chemin qu’il ' \
+               'a tracé pour lui-même. La vie de Denis Szabo est une injonction à voir grand, ne ' \
+               'fût-ce que dans l’espoir d’éviter un destin joué d’avance.\xa0» Nous vous prions ' \
+               'de bien vouloir nous excuser pour cette erreur.' == html
+
     def test_get_formatted_title(self):
         # There should not be a capital letter after a colon.
         assert self.test_objects['1056361ar.xml'].get_formatted_title() == 'UN ROMAN « NÉ DANS SA PROPRE NÉGATION » : l’articulation du littéraire et du religieux dans Angéline de Montbrun de Laure Conan'  # noqa
