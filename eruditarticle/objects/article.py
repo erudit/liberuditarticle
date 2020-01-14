@@ -154,7 +154,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         else:
             texte_node = self.find('corps/texte')
             html_body = self.convert_marquage_content_to_html(texte_node)
-        return ' '.join(html_body.split()) if html_body else ''
+        return html_body if html_body else ''
 
     def get_html_title(self):
         """
