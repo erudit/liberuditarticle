@@ -1,0 +1,1065 @@
+
+
+<article xmlns="http://www.erudit.org/xsd/article"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.erudit.org/xsd/article http://www.erudit.org/xsd/article/3.0.0/eruditarticle.xsd"
+         idproprio="1042919ar" lang="en"
+         ordseq="10300" qualtraitement="minimal"
+         typeart="article" >
+  <admin>
+    
+    <infoarticle>
+      
+        
+      <pagination>
+        <ppage>351</ppage>
+        <dpage>369</dpage>
+      </pagination>
+    
+
+    </infoarticle>
+    
+    
+
+
+
+  <revue id="informallogic03372" lang="en">
+      <titrerev>Informal Logic</titrerev>
+      
+
+      
+
+      
+
+    
+      <titrerevabr>informallogic</titrerevabr>
+    
+      <idissn>0824-2577</idissn>
+      <idissnnum>2293-734X</idissnnum>
+      
+      <directeur>
+        <fonction>directeur</fonction>
+        <nompers>
+  <prenom>J. Anthony</prenom>
+  <nomfamille>Blair</nomfamille>
+  
+  
+  
+</nompers>
+
+      </directeur>
+      
+      <directeur>
+        <fonction>directeur</fonction>
+        <nompers>
+  <prenom>Christopher W.</prenom>
+  <nomfamille>Tindale</nomfamille>
+  
+  
+  
+</nompers>
+
+      </directeur>
+      
+      
+  </revue>
+
+    
+    <numero id="informallogic03370">
+      <volume>37</volume>
+      
+      <nonumero>4</nonumero>
+      
+      <pub>
+        
+        
+        <annee>2017</annee>
+      </pub>
+      
+        <pubnum>
+          <date typedate="publication">2017-12-06</date>
+        </pubnum>
+        
+    
+      
+
+    </numero>
+
+    
+    <editeur>
+      <nomorg>Informal Logic</nomorg>
+    </editeur>
+    
+    <prodnum><nomorg>Érudit</nomorg></prodnum>
+    <diffnum><nomorg>Érudit</nomorg></diffnum>
+    <schema lang="fr" nom="Erudit Article" version="3.0.0" />
+    
+      <droitsauteur><declaration>Copyright (c)</declaration>, <annee>2017</annee><nompers><prenom>Adam</prenom><nomfamille>Dalgleish</nomfamille></nompers>, <nompers><prenom>Patrick</prenom><nomfamille>Girard</nomfamille></nompers>, <nompers><prenom>Maree</prenom><nomfamille>Davies</nomfamille></nompers></droitsauteur>
+    
+    
+  </admin>
+  <liminaire>
+    
+
+
+    <grtitre>
+      
+      <surtitre>Articles</surtitre>
+      
+      
+      
+      
+
+      <titre>Critical Thinking, Bias and Feminist Philosophy: Building a Better Framework through Collaboration</titre>
+      
+      
+      
+      
+      
+      
+    </grtitre>
+
+    
+    <grauteur>
+      
+      <auteur id="au1">
+        
+        <nompers>
+  <prenom>Adam</prenom>
+  <nomfamille>Dalgleish</nomfamille>
+  
+  
+  
+</nompers>
+
+
+  <affiliation><alinea>University of Auckland</alinea></affiliation>
+
+
+  <courriel><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls1"
+            xlink:href="mailto:Adboo22@hotmail.com" xlink:type="simple">Adboo22@hotmail.com</liensimple>
+</courriel>
+
+
+
+      </auteur>
+      
+      <auteur id="au2">
+        
+        <nompers>
+  <prenom>Patrick</prenom>
+  <nomfamille>Girard</nomfamille>
+  
+  
+  
+</nompers>
+
+
+  <affiliation><alinea>University of Auckland</alinea></affiliation>
+
+
+  <courriel><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls2"
+            xlink:href="mailto:p.girard@auckland.ac.nz" xlink:type="simple">p.girard@auckland.ac.nz</liensimple>
+</courriel>
+
+
+
+      </auteur>
+      
+      <auteur id="au3">
+        
+        <nompers>
+  <prenom>Maree</prenom>
+  <nomfamille>Davies</nomfamille>
+  
+  
+  
+</nompers>
+
+
+  <affiliation><alinea>University of Auckland</alinea></affiliation>
+
+
+  <courriel><liensimple xmlns:xlink="http://www.w3.org/1999/xlink" id="ls3"
+            xlink:href="mailto:mj.davies@auckland.ac.nz" xlink:type="simple">mj.davies@auckland.ac.nz</liensimple>
+</courriel>
+
+
+
+      </auteur>
+      
+    </grauteur>
+    
+    
+
+    
+      <resume lang="en">
+        <alinea>In the late 20th century theorists within the radical feminist tradition such as Haraway (1988) highlighted the impossibility of separating knowledge from knowers, grounding firmly the idea that embodied bias can and does make its way into argument. Along a similar vein, Moulton (1983) exposed a gendered theme within critical thinking that casts the feminine as toxic ‘unreason’ and the ideal knower as distinctly masculine; framing critical thinking as a method of masculine knowers fighting off feminine ‘unreason’. Theorists such as Burrow (2010) have picked up upon this tradition, exploring the ways in which this theme of overly masculine, or ‘adversarial’, argumentation is both unnecessary and serves as an ineffective base for obtaining truth. Rooney (2010) further highlighted how this unnecessarily gendered context results in argumentative double binds for women, undermining their authority and stifling much-needed diversity within philosophy as a discipline. These are damning charges that warrant a response within critical thinking frameworks. We suggest that the broader critical thinking literature, primarily that found within contexts of critical pedagogy and dispositional schools, can and should be harnessed within the critical thinking literature to bridge the gap between classical and feminist thinkers. We highlight several methods by which philosophy can retain the functionality of critical thinking while mitigating the obstacles presented by feminist critics and highlight how the adoption of such methods not only improves critical thinking, but is also beneficial to philosophy, philosophers and feminists alike.</alinea>
+      </resume>
+    
+    
+      
+      
+      <resume lang="fr">
+        <alinea>Les philosophes cherchent souvent la vérité à travers les méthodes enseignées sous la bannière de la «Pensée critique». Pour la plupart, une variation de cette méthode est utilisée pour organiser les pensées et éliminer la subjectivité et les préjugés. Les philosophes féministes ont mis en relief un ensemble critique de lacunes au sein de ces méthodes, mais ces lacunes n’ont toutefois pas encore été entièrement abordées. Dans cet article, nous examinons ces critiques et explorons comment elles peuvent être atténuées en intégrant des éléments tirés de la pédagogie critique et des réflexions sur les dispositions qui oriente l’application des habiletés de la pensée critique. Le résultat est un ensemble de recommandations pour améliorer les méthodes de la pensée critique qui tiennent mieux compte des biais contextualisés tout en poursuivant plus précisément la vérité.</alinea>
+      </resume>
+      
+    
+
+        
+      
+      <grmotcle lang="en">
+      
+        <motcle>critical thinking</motcle>
+      
+        <motcle>feminism</motcle>
+      
+        <motcle>critical pedagogy</motcle>
+      
+        <motcle>dispositional pedagogy</motcle>
+      
+      </grmotcle>
+      
+    
+      
+    
+
+  </liminaire>
+  <corps lang="en">
+    <texte typetexte="libre">
+      
+      Critical Thinking, Bias and Feminist
+Philosophy: Building a Better Framework
+through Collaboration
+A DAM D ALGLEISH Faculty of Arts
+P ATRICK G IRARD Faculty of Arts
+M AREE J. D AVIES Faculty of Education
+University of Auckland, Auckland, New Zealand
+p.girard@auckland.ac.nz
+Abstract: Philosophers often seek
+the truth through methods taught
+under the banner &quot;Critical thinking&quot;.
+For most, some variation on this
+method is used to organize thoughts
+and filter away subjectivity and bi-
+ases. Feminist philosophers have
+highlighted a critical set of short-
+comings within such methods that
+are yet to be fully addressed. In this
+paper, we explore these critiques
+and how they can be mitigated by
+incorporating elements from critical
+pedagogy and dispositional thinkers.
+The result is a set of recommenda-
+tions for improved critical thinking
+methods which better account for
+contextualized bias while also more
+accurately tracking the truth.
+Rėsumé: Les philosophes cherchent
+souvent la vérité à travers les mé-
+thodes enseignées sous la bannière
+de la «Pensée critique». Pour la plu-
+part, une variation de cette méthode
+est utilisée pour organiser les pen-
+sées et éliminer la subjectivité et les
+préjugés. Les philosophes féministes
+ont mis en relief un ensemble cri-
+tique de lacunes au sein de ces mé-
+thodes, mais ces lacunes n’ont
+toutefois pas encore été entièrement
+abordées. Dans cet article, nous ex-
+aminons ces critiques et explorons
+comment elles peuvent être atté-
+nuées en intégrant des éléments tirés
+de la pédagogie critique et des ré-
+flexions sur les dispositions qui ori-
+ente l’application des habiletés de la
+pensée critique. Le résultat est un
+ensemble de recommandations pour
+améliorer les méthodes de la pensée
+critique qui tiennent mieux compte
+des biais contextualisés tout en
+poursuivant plus précisément la
+vérité.
+Keywords: Critical thinking, bias, feminism, feminist philosophy, feminist
+epistemology, critical pedagogy, critical dispositions, standpoint theory, em-
+battled reason
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.352 Dalgleish, Girard &amp; Davies
+1. Context and definitional clarity
+Philosophy as a discipline preoccupies itself chiefly with the
+search for truth. As such, philosophers have spent a great deal of
+time attempting to craft models and frameworks for reliably
+finding the truth. Philosophers are not the only players in this
+game however, and educational theorists, feminists and others
+all seek to contribute on what makes a given pattern or method
+of thinking “critical”. Each of these different schools aims at
+something different, such as social change or challenging gen-
+dered assumptions within language. This paper seeks to explore
+that classic philosophical question of searching for the truth. As
+such, for the purposes of this paper, critical thinking (CT) refers
+to a method or intellectual behaviours designed to maximise
+truth-seeking potential. We realize that defining CT can be quite
+controversial, and we certainly don’t plan on addressing that
+debate within this paper, but we hope that by taking this familiar
+conception we can highlight for those within philosophy the im-
+portance of thinking carefully about what competing concep-
+tions have to offer within the search for truth.
+Most philosophers to this day defend the idea that their work
+is to some extent objective and not tainted too heavily by sub-
+jective experiences or bias. Methods are employed, often taught
+under the banner of CT, to filter out bias and subjectivity and
+track truth. These methods predominantly contain some combi-
+nation of formal and informal logic as well as training on com-
+mon psychological biases and domain knowledge 1 . The claim
+that such methods are objective, however, came under harsh
+scrutiny in the 1900s, first by postmodern thinkers and later by
+feminist scholars (Haraway, 1988; Moulton, 1983). While de-
+1
+Such methods also vary considerably depending on who teaches them, but a
+common thread is the use of formal and informal logic as well as other
+properties said to be truth tracking (Johnson &amp; Blair, 2009).
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.Critical Thinking, Bias &amp; Feminist Philosophy
+353
+fenders of CT engaged vehemently with post-modern critiques,
+the arguments made by feminist scholars have yet to be properly
+engaged with, despite the spawning of an entire school of femi-
+nist philosophy dedicated to highlighting and suggesting reme-
+dies to these ills (Rooney &amp; Hundleby, 2010). Here’s our mod-
+est attempt to address this situation, by exploring how current
+CT methods can mitigate the challenge posed by feminist phi-
+losophers and, in the process, improve current CT practice to
+more accurately track the truth.
+2. Feminist critiques
+At the heart of feminist critiques of CT lies feminist epistemol-
+ogy, more specifically standpoint theory (Anderson, 2015).
+Standpoint theory refers to the idea that what a knower per-
+ceives is influenced by their context, often their social and polit-
+ical background (Harding, 1986). One proponent of standpoint
+theory is Haraway (1988), who argues that “feminist objectivity
+means quite simply situated knowledges” (p. 581). In essence,
+Haraway argues that knowledge cannot be separated from the
+knower and as a result the context surrounding a knower shapes
+their knowledge intrinsically. In the case of gender, this might
+mean that people are socially, perhaps even biologically, in-
+clined toward particular favorings. For example, men in New
+Zealand might be socialized toward stoic behaviours and shun
+charity as a sign of weakness. This might lead masculine know-
+ers 2 to assess an argument regarding, say, individualist policies
+more favourably than one which argues along collectivist or
+community-based grounds. In this case, the knowledge generat-
+2
+We use &quot;masculine&quot; and &quot;feminine&quot; as opposed to &quot;male&quot; and &quot;female&quot;
+notions of reasons to isolate gender performance, which we do not equate
+with biological sex. We choose this more appropriate terminology in re-
+sponse to contemporary feminist, gender and queer theory, which came later
+than some of the research we address in this paper.
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.354 Dalgleish, Girard &amp; Davies
+ed through the use of any framework, including CT, will be
+shaped by the knower themselves; meaning that their prior
+knowledge will shape their acceptance of new knowledge.
+This line of argument can lead to the promoting of a position
+of absolute subjectivity or relativism. But Haraway is not con-
+vinced relativism is any better than objectivism: “relativism is a
+way of being nowhere while claiming to be everywhere equal-
+ly” (p. 584). This is in reference to her claim that proponents of
+CT’s objectivity commit to an impossible “gaze from nowhere”
+(p. 581); with knowers separated from knowledge, nowhere, and
+impartially “gazing” at truth without being embodied and pre-
+sent 3 . In response to this problem Haraway argues for what she
+calls “situated knowledges”. Her view is that we ought to accept
+that knowledge is limited by people’s “situatedness” and as such
+we should seek a diverse set of knowers to get a clearer picture
+of the truth. It is not that there is no objective truth, as one might
+be tempted to claim, but merely that the truth cannot be com-
+pletely and singularly objective. Haraway describes this as the
+“slippery pole” with relativists at one end and objectivists on the
+other and argues we are best served by remaining in the middle;
+acknowledging our knowledge as imperfect and situated and
+working together to promote a more situated semi-objective un-
+derstanding.
+Within her argument for situated knowledges Haraway
+(1988) takes aim at the classical claim of the sciences and phi-
+losophy as bastions of objectivity. She argues, having estab-
+lished that knowledge cannot be sufficiently separated from
+knowers, that scientists and philosophers commit a “God trick”
+(p. 582). This amounts to claiming a perfect separation of the
+body and mind, knowledge and knower and contributes to an
+3
+This view shares much ground with Nagel’s (1986) book The View from
+Nowhere .
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.Critical Thinking, Bias &amp; Feminist Philosophy
+355
+“ideology of direct, devouring, generative and unrestricted vi-
+sion” (p. 582); something that is clearly impossible if we accept
+her previous arguments. This charge certainly seems apt for
+parts of philosophy. With the clear goal of CT methods being
+the separation of arguers from their embodied limitations, such
+as confusion, bias or emotion, and committing fully to the task
+of obtaining truth. This presents a problem for many schools of
+philosophy, as CT methods form the bedrock of how philoso-
+phers generate and test new knowledge and, much like psycho-
+logical bias, the introduction of distorting experiences can sig-
+nificantly impact on the truth tracking potential of any model.
+Not all feminist scholars take the middle line position that
+Haraway (1988) does, however, and more postmodern leaning
+feminists take arguments such as hers as proof of the subjectivi-
+ty of knowledge and the impossibility of an objective CT
+framework. They argue for the dethroning of CT methods as the
+best method for knowledge generation or decision making over
+intuition or emotion (Mouffe, 2000; Thayer-Bacon, 1998). This
+view is rooted in the charge that our culture has been built up on
+the privileging of distinctly masculine styles of thought at the
+expense of more traditionally feminine styles such as intuition
+or emotion (Thayer-Bacon, 1998). Such scholars draw upon the
+growing literature which suggests we use unconscious intuition
+and emotional responses far more than we realize, contrasting
+starkly with the calm, well thought out picture we have of our-
+selves as critical thinkers (Kahneman, 2011). As a result, post-
+modern feminists often argue that we ought to pay more atten-
+tion to intuitional and emotional styles of thinking and remove
+our focus from, and perhaps even be cautious of, the more phil-
+osophical CT style of thinking.
+Another important critique of CT is that it perpetuates a sex-
+ist narrative and privileges masculine styles of reason over oth-
+ers. The original account of this argument is credited to Moulton
+but its contemporary form is highlighted well by Rooney
+(2010). Rooney argues that philosophy perpetuates a narrative
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.356 Dalgleish, Girard &amp; Davies
+of “embattled reason” (Moulton, 1983) 4 . The first part of the
+picture Rooney highlights is philosophy’s adversarial nature,
+namely that philosophy, as it is practiced within the literature,
+very often takes up a metaphor of “arguments as war”: thinkers
+pit ideas to the death and the best ideas remain. Further, she ar-
+gues that the goal of argumentation under this narrative shifts to
+the utter destruction of opposing argument, to “win” an argu-
+ment, rather than arriving at truth. That this style of argumenta-
+tion is prevalent can be seen with the frequent use of terminolo-
+gy such as ‘opponents’, ‘defending’ or ‘challenging arguments’
+being common within philosophy (Duffin, 2006).
+A second part of this picture Rooney highlights is that within
+western culture men have historically been viewed as stoic, rea-
+soned and strong and women emotional, fickle and distracting.
+Rooney argues this sexist attitude permeates this narrative; pro-
+moting the myth of the “man of reason” who fights off feminine
+unreason. Together, these two trends construct “embattled rea-
+son” as a deeply flawed tool rooted in historical sexism and,
+other feminists would argue, privileges strict, classical reason
+over more feminine tools of reason; such as intuition, creativity
+or emotion.
+Rooney’s (2010) argument gains significant strength when
+combined with Haraway’s (1988). If CT methods are not a neu-
+tral and objective tool for generating knowledge, then the
+flawed narrative of embattled reason seems even more problem-
+atic; as its masculine centric narrative can be considered a part
+of the reason philosophy attracts and maintains such a drastical-
+ly low number of female philosophers. If knowledge cannot be
+sufficiently separated from knowers, and our emotions, sociali-
+zation and history taint our CT, then the stifling of diversity is
+4
+Lloyd (1984) also goes into much depth on this topic in his book The Man
+of Reason .
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.Critical Thinking, Bias &amp; Feminist Philosophy
+357
+actively limiting and hurting the pursuit of knowledge within
+the discipline as well as maintaining a narrative harmful to
+women more generally. Given this argument, one could easily
+further argue that philosophy would benefit from a move away
+from the traditional school of logic; or at least drastically reform
+our attitudes toward its position as the prime method of reason.
+Rooney does not go this far and identifies two key problems
+with this line of argument. First, such an argument comes dan-
+gerously close to committing to a narrative of gender difference,
+advocating a position of masculine and feminine reason many
+feminists would find distasteful—or worse in terms of male and
+female reason. Second, this argument fails to account for the
+rise of women within similarly masculine themed fields such as
+Law; where women now comprise roughly 50% of admissions.
+Surely if the masculine theme of philosophy was the main deter-
+rent then the cutthroat and aggressive world of law would be
+equally off-putting. Rooney does, however, argue that the com-
+bative theme of philosophy is entirely unnecessary and argues
+its prominence is informed by a strong narrative of historic male
+preference and misogyny. Finally, she argues that philosophy
+should work hard to take on board feminist critique of its can-
+non and actively work toward un-entangling itself from the
+“embattled reason” narrative.
+A third critique, as examined by Burrow (2010), focuses on
+arguers and how gender roles place women in argumentative
+double binds, where women are expected to be adversarial, but
+their authority is undermined for doing so. Burrow argues that
+the adversarial context of modern philosophy attempts to force
+women into argumentative contexts which are aggressive. Ag-
+gressive, combative and direct communication has historically
+been considered masculine in western culture and, as such, for
+women to behave this way is to undermine their femininity and
+thus their authority. Feminists have been highlighting for dec-
+ades the negative perceptions that accompany stepping outside
+one’s prescribed gender role and it is a claim that seems to be
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.358 Dalgleish, Girard &amp; Davies
+seldom contested within the literature. This argument adds fur-
+ther heat to Rooney’s critique of adversarial argumentation but
+also highlights a slight problem: rationality has been historically
+considered masculine. While not as strongly coded as aggres-
+sion or direct action, rationality has been considered for most of
+history the realm of men. This is not to be confused with essen-
+tialist claims that rationality is masculine; but merely that it has
+been socially tied to that particular identity. If the other mascu-
+line traits of argumentation undermine women’s authority then
+surely rationality must too. But, rationality has not been consid-
+ered the singular domain of men for decades now and as such it
+seems unlikely that rationality would be a trait which would un-
+dermine femininity. This is raised as a defender of the adversar-
+ial context, someone who sees it as productive, might argue that
+it is the gender roles that need abolishing, not the context. But
+Burrow’s argument is not the only one levelled against the aver-
+sarial context of philosophy and, as Rooney highlights, there
+does not seem to be a reason for philosophy to be so adversarial
+and more than a few concerns over it being so (Rooney, 2010).
+While the identification of gender-based problems within ad-
+versarial argumentation could be disregarded as dealing with a
+symptom of gender roles rather than the cause, these critiques
+do seem to raise important points. First, if philosophy as a disci-
+pline could introduce more diversity within its ranks by adopt-
+ing a less adversarial tone, then surely this is worth pursuing.
+Second, as was pointed out by Rooney, adversarial argumenta-
+tion has negative effects on the quality and conduct of argu-
+ment. shifting, or sometimes conflating, “winning” an argument
+with “seeking truth” (Rooney, 2010). Historically philosophy
+has been very resistant toward these kinds of arguments, despite
+their quite reasonable critiques of the discipline and the irony of
+critiquing the core CT method used by philosophers for not be-
+ing receptive to critiques—a trait many would argue is core to
+good CT. If philosophy is to claim to be the home of the search
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.Critical Thinking, Bias &amp; Feminist Philosophy
+359
+for truth, then philosophers need to be receptive to critiques that
+their methods are being distorted by situated biases.
+3. Broader critical thinking literature: What can we learn?
+As mentioned earlier, philosophy is not the only discipline that
+has grappled with the topic of CT. Educational theorists in par-
+ticular have put great effort into attempting to distil the essence
+of CT so that it can be taught as a public good. One of the first
+theorists to spark this trend was Dewey, who conceptualized CT
+as the “active, persistent and careful consideration of any belief
+or supposed form of knowledge in the light of the grounds that
+support it, and the further conclusions to which it tends...”
+(Dewey, 1910, p .6). At this stage, educational CT methods
+shared many traits with philosophical CT and was focused pri-
+marily on argumentative methods upon which a user could pro-
+gress toward reliable and true beliefs. But, as time progressed,
+educational theorists began highlighting a second important trait
+they called “critical dispositions”. As Facione (2015) highlights,
+being a good critical thinker means more than the use of a par-
+ticular method and can be seen to be as much a set of traits as it
+is a set of skills. He argues that good CT requires thinkers who
+are open to new ideas, constantly challenging their beliefs, dili-
+gent in seeking out new knowledge and honest when confront-
+ing opposing argument. Critical thinkers might be operating
+within a philosophical CT framework and yet be unwilling to
+apply it consistently. Such thinkers could critique arguments
+they don’t like while defending ones they do and as such pro-
+duce biased results far from the truth philosophy strives for.
+While not a perfect mix, this critique can be seen to share much
+with the argument proposed by Rooney, arguing that adversarial
+argumentation can undermine the quest for truth in favour of a
+more combative joust of ideas. Overall, dispositional CT high-
+lights the traits required to be a good critical thinker and empha-
+sises that they should be considered a key part of the CT picture.
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.360 Dalgleish, Girard &amp; Davies
+Another vein within educational pursuits of CT literature is
+critical pedagogy, which argues that being critical is to be aware
+of societal structures and bias, and how these impact the way we
+think about and view the world. The critical pedagogy school’s
+ideology is tied up intrinsically with critical theory and anti-
+conservative politics, with theorists such as Freire (1970) and
+hooks (1994) viewing the educational system as a dogmatic en-
+gine of conservative worldviews. To these theorists, the CT
+method should be viewed as a way of thinking that encourages
+students to challenge dominant narratives and enables them to
+explore their place within societal power structures. “Powerful
+knowledge”, to use Young’s (2009) term, is knowledge with
+epistemic and specialised properties whose purpose is to assist
+students to think about the world in abstract or context-
+independent ways. This type of knowledge provides students
+with the ability to develop a critical awareness of the forces
+structuring their lives and to imagine alternatives beyond their
+everyday experiences (Young, 2009). Pedagogy that addresses
+these wider social issues is argued by some as critical pedagogy
+(McLaren, Macrine, &amp; Hill, 2010). These researchers argue that,
+if schools are serious about allowing students to understand is-
+sues about power in society, the micropolitical everyday lives of
+teachers and students should address the wider and larger eco-
+nomic, cultural, social and institutional structures through such
+avenues as discourse in classrooms. Critical pedagogy sought to
+change the way schools taught, decentralizing power and de-
+mocratising thought as a method for overcoming the strangle-
+hold conservative forces gain through controlling education. In
+this way they share roots with dispositional thinkers such as
+Dewey (1910), but also marry his ideas with critical theorists
+such as Foucault and Bourdieu (Bourdieu, 1974; Foucault,
+1982). As such, good critical thinkers within the critical peda-
+gogy are aware of and equipped to tackle biases and power im-
+balances within the system as a means to mitigate their broader
+effect on society. In short, thinkers rooted in the critical peda-
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.Critical Thinking, Bias &amp; Feminist Philosophy
+361
+gogy school are made highly aware of how their context shapes
+their perception and this allows them to challenge assumptions
+more readily than is possible by focusing merely on premises,
+argument structure and willingness to engage honestly in argu-
+ment. This way of thinking clearly shares roots with Haraway’s
+(1988) argument for situated knowledges and provides a broader
+literature base from which potential critical thinkers could draw
+from to be more critical in this vein. Similarly, critical thinkers
+from this school would also be far better equipped to address
+some of the concerns surrounding Burrow’s argumentative dou-
+ble bind argument, by being aware of social roles and societal
+power and actively keeping that in mind as they deliberate. In
+essence, critical pedagogy’s take on CT encompasses an aware-
+ness of power contexts and the biases they produce; using this
+knowledge as a method for fighting bias and oppression.
+These two positions, dispositional and critical pedagogy, ex-
+pose for us the kinds of traits that could be incorporated into an
+improved CT method within philosophy. Put simply, current
+philosophical CT methods lack context. In its base form, it re-
+mains blind to arguers and the context those arguers reside with-
+in. As our theorists have shown, arguers and contexts are critical
+to the practice of good CT; a fact dispositional and critical ped-
+agogy theorists have already internalized. But it does not stop
+there, even within CT courses taught on the modern university
+campus, dispositional traits and bias make their way into the
+curriculum in small ways. The principle of charity, a core part
+of many introductory texts, is a clear example of positive dispo-
+sitional CT. Psychological biases are also often used to help
+show how flawed our CT skills can be on their face and how we
+need to be careful to avoid these common pitfalls. But if being
+aware of psychological biases is considered acceptable, even
+important, for the CT method used within philosophy then why
+are societal or social biases not treated the same way? Given the
+mountain of evidence coming from throughout the social and
+cognitive sciences, that we are quite bad at filtering out personal
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.362 Dalgleish, Girard &amp; Davies
+biases, these broader contexts are more important than ever
+(Kahneman, 2011). An important answer could be that such a
+story is contradicting a deeply held desire within philosophy:
+that we can separate ourselves from context and deeply ponder
+to generate objective knowledge. But as we have seen from
+feminist critics, and acknowledge already by attempting to miti-
+gate psychological biases within our practice, our method is sel-
+dom completely objective. While philosophers may like to think
+we are objective, adopting an active process of exploring and
+checking our biases may well be the most reliable and effective
+path to maximizing objectivity and truth-tracking potential.
+4. Feminist-friendly critical thinking
+Following the critiques of feminist scholars and the clear in-
+sights we can gain from the dispositional school and critical
+pedagogy, CT would gain from responding to the clear debunk-
+ing of the idea that CT is objective in practice. The most direct
+and productive response is to combine and consider the litera-
+ture on CT from other discipline—in the case of feminist cri-
+tiques, critical pedagogy inspired by critical theory scholars. As
+highlighted earlier, critical pedagogy, rather than focusing on
+the practice of classical philosophical argument, seeks to high-
+light social concepts such as privilege, social construction and
+situated awareness. As critical pedagogy was designed with a
+similar philosophy of situated awareness in mind, its inclusion
+within a combined CT framework by definition mitigates Hara-
+way’s concerns regarding the narrow application of knowledge
+and promotes a more diverse set of knowers. This also ties in
+nicely to addressing our later critiques as a more group-based
+collaborative style of argumentation, that constructs rather than
+attacks arguments, would be ideal within a critical pedagogy
+framework. By adopting a more collaborative style, we could
+address both the potential issues arising from “embattled rea-
+son” as well as concerns over gender-based double binds for
+women, limiting adversariality within a more feminist-friendly
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.Critical Thinking, Bias &amp; Feminist Philosophy
+363
+context and reducing the requirement for women to be adversar-
+ial to contribute their experiences and knowledge to discussions.
+Overall, the introduction of a context of critical pedagogy into a
+framework of CT, we suggest, could successfully mitigate the
+critiques presented by feminist scholars.
+To illustrate, consider if when we attempted to assess an ar-
+gument we included within our CT method simply asking our-
+selves, or co-operative others, how might our experiences be
+impacting our assessment of this argument? What might other,
+relevant groups disagree with and where do they sit within pow-
+er structures? This may seem trivial, but reaching outside our
+context even in this small way could have big impacts on our
+arguments. For example, if we were to assess an argument about
+the ethical content of a refugee policy without considering the
+experiences of refugees within that policy, we are likely to miss
+critical information relevant to our argument. A similar case
+could be made for more dispositional styles of CT. Simply add-
+ing a step to our model that includes searching other disciplines
+for relevant critiques could add much value. The value of step-
+ping outside one’s current literature into an adjacent one often
+brings much depth into discussions. By doing the first, we in
+part acknowledge the intuitional and emotional connection ar-
+guers often have based on their experiences and by doing the
+first and the second we expose ourselves to alternate interpreta-
+tions which serve both a bias checking role and soften the tone
+of discussions to be more open to ideas and less hostile. Overall,
+small additions like these to the practice and teaching of CT
+within philosophy would certainly result in more accurate truth
+tracking as well as go some way toward addressing the concerns
+of standpoint, critical pedagogy and dispositional theorists.
+To really drive home the point, consider this: it is entirely
+possible for a thinker to be “critical” in the sense that they are
+using the current standard methods employed within philosophy
+frameworks, and also be completely unaware of how their expe-
+riences are shaping their intuitions toward an argument. It’s also
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.364 Dalgleish, Girard &amp; Davies
+completely possible that such a thinker might be employing that
+framework, considering their experiences but still applying that
+knowledge in an uneven way. A combination of, at least, solid
+philosophical logic training, a grounding in and tendency to-
+ward considering the experiences of others and an honest and
+consistent drive to apply such skills evenly is needed for robust
+critical thinking 5 . Missing any one of these branches would
+mean a thinker would less accurately track the truth in their ar-
+guments and, under our definition, be less critical.
+While some might think that CT and critical pedagogy are in
+conflict, there seems little reason for them to be in reality. One
+major concern that could be raised is how to treat well-reasoned
+conservative arguments within this new CT method. In this
+case, proponents of critical pedagogy have to acknowledge that
+conservative arguments may be acceptable, upon scrutiny. Fur-
+thermore, the raising of conservative arguments allows such
+theorists ample opportunity to highlight the flaws in these posi-
+tions, undermining their status as universal, societal truths and
+bringing them down to the level of one view in a sea of
+knowledge.
+The meshing of a classic CT framework within a critical
+pedagogy context could also address prominent concerns for
+both disciplines. For philosophical CT, it helps mitigate our
+concerns over CT and for proponents of critical pedagogy it
+would provide a much-needed vehicle for the promotion of crit-
+ical pedagogy ideas within schools, harnessing the groundswell
+of enthusiasm for promoting CT as a force for social change.
+Overall, not only could these two positions come together to
+provide a more robust and well framed critical discourse, they
+both benefit from collaboration.
+5
+Knowledge and avoidance of psychological biases might be another branch,
+but as these are sometimes acknowledged within the philo-sophical CT
+method as is.
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.Critical Thinking, Bias &amp; Feminist Philosophy
+365
+In practice, philosophy as a discipline has been quite incon-
+sistent in addressing broader takes on CT. Practicing philoso-
+phers often do not make or have trouble making use of the
+broader modern CT literature. Blair highlights this well in his
+article, where he argues that CT and logic should be considered,
+and in reality are, separate entities which have often been con-
+flated. This trend is also clear when we examine the perspective
+of critical pedagogy, but can also be seen within the more close-
+ly related dispositional school which promotes good conduct
+amongst arguers (Blair, 2012) 6 . A core component of good CT
+from within a dispositional framework is the willingness to
+challenge your own views and reform them in the face of evi-
+dence. But even prominent and esteemed philosophers have
+trouble adhering to this quality at times (Thayer-Bacon, 1998).
+In fact, the inclusion of critical pedagogy within philosophy
+would go a long way toward addressing the lack of dispositional
+CT found within the literature, since being forced to repeatedly
+encounter alternative views will help open up the dialogue about
+existing dominant narratives. There will be situations where
+feminist or progressive ideas would be challenged within such a
+CT framework, but the onus should fall on the pedagogy side to
+explain why these arguments are incorrect rather than de facto
+labelling them as uncritical, as some might be tempted to do.
+A familiar issue that raises concern for this proposed revision
+of the method is “the paradox of bias”. The paradox of bias is a
+phenomenon described by feminist scholars where their cri-
+tiques of privileged, biased systems is met with quite legitimate
+criticism that their recommendations introduce feminist-based
+bias (Anderson, 2015). Defenders of the classical system of CT
+could object that the introduction of feminist charged philoso-
+6
+Johnson &amp; Blair’s (2009) helpful article was brought to our attention by a
+reviewer and is an excellent overview of the kind of diversity that can be
+found within CT methods .
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.366 Dalgleish, Girard &amp; Davies
+phy, such as that found within critical pedagogy, introduces po-
+litical bias into the framework; disproportionately representing a
+progressive, feminist set of values. But, the claim that feminist
+revision introduces politically charged bias into the current
+framework of CT assumes that the current framework is not al-
+ready biased in practice, which is a premise that has been thor-
+oughly debunked by feminist scholars. Further, the framework
+even in theory could be seen as politically biased in some ways;
+promoting an individualistic, conservative position that resists
+change. In this context, the introduction of feminist bias is not
+making this new framework any more biased; but rather intro-
+ducing an ideological “check” which can help balance existing
+bias within the current framework. It could also be argued that
+feminist bias is preferable to our established bias as it promotes
+a context of knowledge generation; prompting its users to think
+deeper about their context. We must be careful however to bal-
+ance the perspectives of this new feminist take and that of CT;
+lest we merely replace an individualistic and conservative dom-
+inated CT with a progressive, feminist dominated one instead.
+Overall, examination of the paradox helps illuminate and rein-
+force previous arguments surrounding why the introduction of
+broader ideas into CT frameworks is necessary.
+Lastly, the CT literature is large and we do not claim to have
+contained within this article all the potential angles within
+which CT practice could be improved. Similarly, we don’t claim
+to have provided any sort of robust framework to guide the con-
+struction of a new, more well-rounded CT framework. We have
+instead merely indicated an area within which current philo-
+sophical CT models lack and attempted to highlight the possible
+fruits of collaboration between competing definitions across
+disciplines. We think that the potential benefits of incorporating
+critical pedagogy ideas within philosophical CT highlights the
+importance of taking a step back and asking ourselves what it
+means to think critically and may well provide a bridge between
+feminist and philosophical thinkers. We hope that a union of
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.Critical Thinking, Bias &amp; Feminist Philosophy
+367
+ideas between these, and perhaps other, schools of thought can
+foster more contextualized and robust styles of critical thought.
+5. Summary and conclusion
+As we have examined, Feminist theorists such as Haraway,
+Rooney and Burrow have successfully exposed unquestioned
+assumptions and highlighted practical limitations within the
+philosophical practice of CT which cast serious doubt on its
+ability to remain objective in the search for truth. We think the
+critiques highlighted by these feminist theorists can and should
+be addressed within philosophical critical thinking methods. As
+a result, we have argued that incorporating elements from within
+the discourse of critical pedagogy and dispositional veins of
+critical thinking would create a more robust and effective CT
+method. If philosophers are employing such methods as a means
+to more accurately track the truth in their work, then we would
+argue they have significant reason to consider reforming how
+we think about, teach and practice “critical thinking” in philoso-
+phy. For philosophers, this would mean a step away from their
+roots and toward addressing more seriously and equally the per-
+spectives of dispositional and critical pedagogy thinkers. For
+feminist and critical pedagogy thinkers, incorporating their ideas
+into the philosophical CT method could also provide useful out-
+lets to elicit social change by harnessing enthusiasm for the
+promotion of critical thinking toward progressive social aims.
+Overall, the adoption of such methods can benefit both sides of
+this debate; mitigating the bias present within the philosophical
+practice of CT and providing feminist proponents with a legiti-
+mate outlet with which to push toward social change. We think
+this illustrates quite clearly the potential benefits of co-operation
+between competing definitions of critical thinking and argue
+that bridging the gap between these definitions is a topic worthy
+of further consideration and analysis.
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.368 Dalgleish, Girard &amp; Davies
+References
+Anderson, E. (2015). Feminist Epistemology and Philosophy of
+Science. Stanford Encyclopaedia of Philosophy. Retr’d from:
+http://plato.stanford.edu/cgibin/encyclopedia/archinfo.cgi?entry
+=feminism-epistemology
+Blair, J. A. (2012). Groundwork in the Theory of Argumenta-
+tion: Selected Pages of J. Anthony Blair. Dordrecht; NY:
+Springer Science+Business.
+Burrow, S. (2010). Verbal Sparring and Apologetic Points: Po-
+liteness in Gendered Argumentation Contexts. Informal Log-
+ic, 30(3), 235-262.
+Dewey, J. (1910). How We Think. Buffalo; NY: Prometheus
+Books.
+Duffin, S. (2006). Reason in the Real World. Wellington: Dun-
+more Publishing.
+Facione, P. (2015). Critical Thinking: What it is and why it
+Counts. Millbrae, CA: Insight Assessment/California Aca-
+demic Press LLC. Retrieved from
+www.insightassessment.com/pdf_files/what&amp;why2015.pdf
+Freire, P. (1970). Pedagogy of the Oppressed. New York:
+Herder and Herder.
+Haraway, D. (1988). Situated Knowledges: The Science Ques-
+tion in Feminism and the Privilege of Partial Perspective.
+Feminist Studies, 14(3), 575-599.
+Harding, S. (1986). The Science Question in Feminism. Ithaca,
+NY: Cornell University Press.
+hooks, b. (1994). Teaching to transgress. New York, NY:
+Routledge.
+Johnson, R.H.&amp; Blair, J. A. (2009) Teaching the Dog’s Break-
+fast: Some Dangers and How to Deal with Them. APA News-
+letter on Teaching Philosophy, 9(1), 2.
+Kahneman, D. (2011). Thinking, Fast and Slow. New York, Far-
+rar: Straus and Giroux.
+Kraut, R. (2015). Plato. In Zalta, E. (Eds) The Stanford Ency-
+clopaedia of Philosophy. Retrieved from
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.Critical Thinking, Bias &amp; Feminist Philosophy
+369
+http://plato.stanford.edu/archives/spr2015/entries/plato/
+Lang, J. (2010). Feminist Epistemologies of Situated Knowl-
+edges: Implications for Rhetorical Argumentation. Informal
+Logic, 30(3), 309-334.
+Lloyd, G. (1984). The Man of Reason: “Male” and “Female”
+in Western Philosophy. London: Routledge.
+McLaren, P., Macrine, S., &amp; Hill, D. (2010). Revolutionizing
+pedagogy: Educating for social justice within and beyond
+global neo-liberalism. London, England: Palgrave Macmil-
+lan.
+Mouffe, C. (2000). The Democratic Paradox. London: Verso.
+Moulton, J. (1983). A Paradigm of Philosophy: The Adversary
+Method, in S. Harding &amp; M.B. Hintikka (Eds.) Discovering
+Reality. Boston: D. Reidel.
+Nagel, T. (1986). The View from Nowhere. New York: Oxford
+University Press.
+Rooney, P. (2010). Philosophy, Adversarial Argumentation and
+Embattled Reason. Informal Logic, 30(3), 203-234.
+Rooney, P &amp; Hundleby, C. (2010). Introduction: Reasoning for
+Change. Informal Logic, 30(3), 194-202.
+Thayer-Bacon, B. (1998). Transforming and Redescribing Criti-
+cal Thinking: Constructive Thinking. Studies in Philosophy
+and Education, 17, 123-148.
+Young, M. (2009). What are schools for? In Daniels, H.,
+Lauder, H., &amp; Porter, J. (Eds). Knowledge, values and educa-
+tional policy. London, UK: Routledge.
+© Adam Dalgleish, Patrick Girard &amp; Maree J. Davies. Informal Logic, Vol.
+37, No. 4 (2017), pp. 351-369.
+    </texte>
+  </corps>
+    
+  <partiesann lang="en">
+      <grbiblio>
+        <biblio>
+          
+            <refbiblio id="rb1">
+              
+              Anderson, E. (2015). Feminist Epistemology and Philosophy of Science. Stanford Encyclopaedia of Philosophy. Retr’d from: http://plato.stanford.edu/cgibin/encyclopedia/archinfo.cgi?entry=feminism-epistemology Blair, J. A. (2012). Groundwork in the Theory of Argumentation: Selected Pages of J. Anthony Blair. Dordrecht; NY: Springer Science+Business. 
+            </refbiblio>
+          
+            <refbiblio id="rb2">
+              
+              <idpublic scheme="doi">10.22329/il.v30i3.3033</idpublic>
+              
+              Burrow, S. (2010). Verbal Sparring and Apologetic Points: Politeness in Gendered Argumentation Contexts. Informal Logic, 30(3), 235-262. 
+            </refbiblio>
+          
+            <refbiblio id="rb3">
+              
+              Dewey, J. (1910). How We Think. Buffalo; NY: Prometheus Books. 
+            </refbiblio>
+          
+            <refbiblio id="rb4">
+              
+              Duffin, S. (2006). Reason in the Real World. Wellington: Dunmore Publishing. 
+            </refbiblio>
+          
+            <refbiblio id="rb5">
+              
+              Facione, P. (2015). Critical Thinking: What it is and why it Counts. Millbrae, CA: Insight Assessment/California Academic Press LLC. Retrieved from www.insightassessment.com/pdf_files/what&amp;why2015.pdf 
+            </refbiblio>
+          
+            <refbiblio id="rb6">
+              
+              Freire, P. (1970). Pedagogy of the Oppressed. New York: Herder and Herder. 
+            </refbiblio>
+          
+            <refbiblio id="rb7">
+              
+              <idpublic scheme="doi">10.2307/3178066</idpublic>
+              
+              Haraway, D. (1988). Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective. Feminist Studies, 14(3), 575-599. 
+            </refbiblio>
+          
+            <refbiblio id="rb8">
+              
+              Harding, S. (1986). The Science Question in Feminism. Ithaca, NY: Cornell University Press. 
+            </refbiblio>
+          
+            <refbiblio id="rb9">
+              
+              hooks, b. (1994). Teaching to transgress. New York, NY: Routledge. 
+            </refbiblio>
+          
+            <refbiblio id="rb10">
+              
+              Johnson, R.H.&amp; Blair, J. A. (2009) Teaching the Dog’s Breakfast: Some Dangers and How to Deal with Them. APA Newsletter on Teaching Philosophy, 9(1), 2. 
+            </refbiblio>
+          
+            <refbiblio id="rb11">
+              
+              Kahneman, D. (2011). Thinking, Fast and Slow. New York, Farrar: Straus and Giroux. 
+            </refbiblio>
+          
+            <refbiblio id="rb12">
+              
+              Kraut, R. (2015). Plato. In Zalta, E. (Eds) The Stanford Encyclopaedia of Philosophy. Retrieved from http://plato.stanford.edu/archives/spr2015/entries/plato/ 
+            </refbiblio>
+          
+            <refbiblio id="rb13">
+              
+              <idpublic scheme="doi">10.22329/il.v30i3.3036</idpublic>
+              
+              Lang, J. (2010). Feminist Epistemologies of Situated Knowledges: Implications for Rhetorical Argumentation. Informal Logic, 30(3), 309-334. 
+            </refbiblio>
+          
+            <refbiblio id="rb14">
+              
+              Lloyd, G. (1984). The Man of Reason: “Male” and “Female” in Western Philosophy. London: Routledge. 
+            </refbiblio>
+          
+            <refbiblio id="rb15">
+              
+              McLaren, P., Macrine, S., &amp; Hill, D. (2010). Revolutionizing pedagogy: Educating for social justice within and beyond global neo-liberalism. London, England: Palgrave Macmillan. 
+            </refbiblio>
+          
+            <refbiblio id="rb16">
+              
+              Mouffe, C. (2000). The Democratic Paradox. London: Verso. 
+            </refbiblio>
+          
+            <refbiblio id="rb17">
+              
+              Moulton, J. (1983). A Paradigm of Philosophy: The Adversary Method, in S. Harding &amp; M.B. Hintikka (Eds.) Discovering Reality. Boston: D. Reidel. 
+            </refbiblio>
+          
+            <refbiblio id="rb18">
+              
+              Nagel, T. (1986). The View from Nowhere. New York: Oxford University Press. 
+            </refbiblio>
+          
+            <refbiblio id="rb19">
+              
+              Rooney, P. (2010). Philosophy, Adversarial Argumentation and Embattled Reason. Informal Logic, 30(3), 203-234. 
+            </refbiblio>
+          
+            <refbiblio id="rb20">
+              
+              Rooney, P &amp; Hundleby, C. (2010). Introduction: Reasoning for Change. Informal Logic, 30(3), 194-202. 
+            </refbiblio>
+          
+            <refbiblio id="rb21">
+              
+              Thayer-Bacon, B. (1998). Transforming and Redescribing Critical Thinking: Constructive Thinking. Studies in Philosophy and Education, 17, 123-148. 
+            </refbiblio>
+          
+            <refbiblio id="rb22">
+              
+              Young, M. (2009). What are schools for? In Daniels, H., Lauder, H., &amp; Porter, J. (Eds). Knowledge, values and educational policy. London, UK: Routledge.
+            </refbiblio>
+          
+        </biblio>
+      </grbiblio>
+  </partiesann>
+    
+</article>
