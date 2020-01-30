@@ -127,7 +127,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
 
     def get_doi(self):
         """ :returns: the DOI of the article object. """
-        doi = self.get_text('idpublic[@scheme="doi"]')
+        doi = self.get_text('infoarticle/idpublic[@scheme="doi"]')
         return doi.strip() if doi is not None else None
 
     def get_uri(self):

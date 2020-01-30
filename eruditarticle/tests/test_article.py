@@ -454,6 +454,9 @@ class TestArticleSavantMinimal(object):
     def test_droitsauteur_with_empty_copyrights(self):
         assert self.test_objects['001118ar.xml'].get_droitsauteur() == []
 
+    def test_get_doi_with_no_doi(self):
+        assert self.test_objects['1042919ar.xml'].get_doi() is None
+
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/format_person_name/', EruditArticle)
 class TestFormatPersonName(object):
