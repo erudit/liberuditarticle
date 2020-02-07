@@ -36,32 +36,42 @@ class Title:
 
     def format(self, with_subtitle=True):
         """ Format a title with or without its subtitle. """
+        # If we don't ask for the subtitle or if there is no subtitle, just return the title.
+        if not with_subtitle or not self.subtitle:
+            return self.title
+
         title = self.title
-        # Should not add colon after punctuation.
-        if title and title[-1] in '.!?':
+        subtitle = self.subtitle
+
+        # Check if the title ends with a punctuation, with or without a marquage ending tag.
+        punctuation_match = re.search(
+            r'[\.\!\?](?:<\/marquage>)?<\/[a-z]+>$',
+            self.xml_title.decode().strip()
+        )
+        # If the title ends with a punctuation, do not add a colon before the subtitle.
+        if punctuation_match:
             separator = ' '
+        # For French titles, add a non-breaking space and a colon before the subtitle.
+        elif self.lang == "fr":
+            separator = "\xa0: "
+        # Otherwise, add a colon before the subtitle.
         else:
-            # Add non-breaking space before colon for French titles.
-            if self.lang == "fr":
-                separator = "\xa0: "
-            else:
-                separator = ": "
-        if with_subtitle and self.subtitle is not None and self.xml_subtitle is not None:
-            subtitle = self.subtitle
-            # Check if uppercase is forced on subtitle.
-            match = re.search(
-                r'^<[a-z]+><marquage typemarq=\"majuscule\">',
-                self.xml_subtitle.decode()
-            )
-            # Lowercase French subtitles if following a colon and uppercase is not forced.
-            if self.lang == "fr" and ':' in separator and not match:
-                subtitle = subtitle[:1].lower() + subtitle[1:]
-            return "{title}{separator}{subtitle}".format(
-                title=title,
-                separator=separator,
-                subtitle=subtitle,
-            )
-        return title
+            separator = ": "
+
+        # Check if uppercase is forced on the subtitle.
+        uppercase_match = re.search(
+            r'^<[a-z]+><marquage typemarq=\"majuscule\">',
+            self.xml_subtitle.decode().strip()
+        )
+        # Lowercase French subtitles if following a colon and uppercase is not forced.
+        if self.lang == "fr" and ':' in separator and not uppercase_match:
+            subtitle = subtitle[:1].lower() + subtitle[1:]
+
+        return "{title}{separator}{subtitle}".format(
+            title=title,
+            separator=separator,
+            subtitle=subtitle,
+        )
 
 
 class EruditBaseObject(DomObject):

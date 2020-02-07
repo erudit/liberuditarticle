@@ -347,6 +347,10 @@ class TestArticleSavantComplet(object):
         assert self.test_objects['1056263ar.xml'].get_formatted_html_title() == EXPECTED
         assert self.test_objects['1056263ar.xml'].get_title(formatted=True, html=True) == EXPECTED
 
+        EXPECTED = '<em>C’est fou la vie, pourquoi en faire une maladie?</em> Genèse et perspectives d’avenir du Mouvement Jeunes et santé mentale'  # noqa
+        assert self.test_objects['1067047ar.xml'].get_formatted_html_title() == EXPECTED
+        assert self.test_objects['1067047ar.xml'].get_title(formatted=True, html=True) == EXPECTED
+
     def test_can_return_journal_titles(self):
         assert self.test_objects['1006389ar.xml'].get_journal_titles() == {
             "main": Title(title="Anthropologie et Sociétés", subtitle=None, lang="fr"),
