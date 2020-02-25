@@ -1,0 +1,41 @@
+
+<numeros>
+  <originator app="Tournesol 0.5.7" date="2020-01-31" username="p0962873"></originator>
+  <revue>
+    <gratuites>
+      <gratuite pid="erudit:erudit.approchesind0522" revue="approchesind" valeur="true"></gratuite>
+      <gratuite pid="erudit:erudit.enjeux04890" revue="enjeux" valeur="true"></gratuite>
+    </gratuites>
+    <notes>
+      <note langue="fr" pid="erudit:erudit.enjeux04890" revue="enjeux">Les publications précédentes (du volume 1, numéro 1 au volume 6, numéro 1) sont disponibles sur la page de la revue Approches inductives</note>
+    </notes>
+  </revue>
+  <liste>
+    <decennie dannee="2019" pannee="2011">
+      <annee valeur="2019">
+        <numero annee="2019" autrenumero="" nonumero="2" periode="Automne" pid="erudit:erudit.enjeux04890.enjeux05076" revAbr="enjeux" type="reg" url="enjeux/2019/v6/n2" volume="6"></numero>
+        <numero annee="2019" autrenumero="" nonumero="1" periode="Hiver" pid="erudit:erudit.approchesind0522.approchesind04618" revAbr="approchesind" type="reg" url="approchesind/2019/v6/n1" volume="6"></numero>
+      </annee>
+      <annee valeur="2018">
+        <numero annee="2018" autrenumero="" nonumero="2" periode="Automne" pid="erudit:erudit.approchesind0522.approchesind04155" revAbr="approchesind" type="reg" url="approchesind/2018/v5/n2" volume="5"></numero>
+        <numero annee="2018" autrenumero="" nonumero="1" periode="Hiver" pid="erudit:erudit.approchesind0522.approchesind03621" revAbr="approchesind" type="reg" url="approchesind/2018/v5/n1" volume="5"></numero>
+      </annee>
+      <annee valeur="2017">
+        <numero annee="2017" autrenumero="" nonumero="2" periode="Automne" pid="erudit:erudit.approchesind0522.approchesind03440" revAbr="approchesind" type="reg" url="approchesind/2017/v4/n2" volume="4"></numero>
+        <numero annee="2017" autrenumero="" nonumero="1" periode="Hiver" pid="erudit:erudit.approchesind0522.approchesind03028" revAbr="approchesind" type="reg" url="approchesind/2017/v4/n1" volume="4"></numero>
+      </annee>
+      <annee valeur="2016">
+        <numero annee="2016" autrenumero="" nonumero="2" periode="Automne" pid="erudit:erudit.approchesind0522.approchesind02709" revAbr="approchesind" type="reg" url="approchesind/2016/v3/n2" volume="3"></numero>
+        <numero annee="2016" autrenumero="" nonumero="1" periode="Hiver" pid="erudit:erudit.approchesind0522.approchesind02367" revAbr="approchesind" type="reg" url="approchesind/2016/v3/n1" volume="3"></numero>
+      </annee>
+      <annee valeur="2015">
+        <numero annee="2015" autrenumero="" nonumero="2" periode="Automne" pid="erudit:erudit.approchesind0522.approchesind02027" revAbr="approchesind" type="reg" url="approchesind/2015/v2/n2" volume="2"></numero>
+        <numero annee="2015" autrenumero="" nonumero="1" periode="Hiver" pid="erudit:erudit.approchesind0522.approchesind01661" revAbr="approchesind" type="reg" url="approchesind/2015/v2/n1" volume="2"></numero>
+        <numero annee="2015" autrenumero="" nonumero="" periode="" pid="erudit:erudit.approchesind0522.approchesind01992" revAbr="approchesind" type="hs" url="approchesind/2015/v/napprochesind01992" volume=""></numero>
+      </annee>
+      <annee valeur="2014">
+        <numero annee="2014" autrenumero="" nonumero="1" periode="Automne" pid="erudit:erudit.approchesind0522.approchesind01463" revAbr="approchesind" type="reg" url="approchesind/2014/v1/n1" volume="1"></numero>
+      </annee>
+    </decennie>
+  </liste>
+</numeros>
