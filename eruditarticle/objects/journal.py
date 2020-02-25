@@ -54,7 +54,7 @@ class EruditJournal(EruditBaseObject):
         pubyears = sorted(pubyears)
         return pubyears
 
-    def get_notes(self, html=False):
+    def get_notes(self, html=False, journal_pid=None):
         """ Return the journal's notes.
 
         The notes are returned as a dictionary of the form:
@@ -66,9 +66,14 @@ class EruditJournal(EruditBaseObject):
 
         :param html: (bool, optional): Defaults to False.
             Whether to convert marquage content to HTML.
+        :param journal_pid: (str, optional): Only return the notes from the given journal pid.
+            For journals with a previous or next journal, we may have notes that only concern one
+            of them and we may want to filter those that do not concern us.
         :returns: The journal's notes as a dictionary. """
         notes = {}
         for note in self.findall('note'):
+            if journal_pid is not None and journal_pid != note.get('pid'):
+                continue
             lang = note.get('langue')
             if lang is None or note.text is None:
                 continue

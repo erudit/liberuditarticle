@@ -1,3 +1,5 @@
+import pytest
+
 from eruditarticle.objects import EruditJournal
 from eruditarticle.tests.decorators import with_fixtures
 from eruditarticle.tests.decorators import with_value
@@ -39,6 +41,17 @@ class TestEruditJournal(object):
                 "Veuillez prendre note que des articles peuvent s'ajouter au dernier numéro en cours d'année",  # noqa
             ],
         }
+
+    @pytest.mark.parametrize('journal_pid, expected_result', (
+        ('erudit:erudit.approchesind0522', {}),
+        ('erudit:erudit.enjeux04890', {'fr': [
+            'Les publications précédentes (du volume 1, numéro 1 au volume 6, numéro 1) sont '
+            'disponibles sur la page de la revue Approches inductives',
+        ]}),
+    ))
+    def test_can_return_journal_notes_for_given_journal_pid(self, journal_pid, expected_result):
+        journal = self.test_objects['approchesind0522.xml']
+        assert journal.get_notes(journal_pid=journal_pid) == expected_result
 
     @with_value("mi115.xml", 'has_published_issues')
     def test_has_published_issues(self, value):
