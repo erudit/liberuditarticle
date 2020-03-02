@@ -17,11 +17,15 @@ logger = logging.getLogger(__name__)
 
 class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin, EruditBaseObject):
 
-    def get_abstracts(self, formatted=False, html=False):
+    def get_abstracts(self, formatted=False, html=False, strip_footnotes=True):
         """ Returns the abstracts of the article object
         :param formatted: (bool, optional): Defaults to False.
             Not applicable
         :param html: (bool, optional): Defaults to False.
+        :param strip_footnotes: (bool, optional): Defaults to True.
+            If the abstracts are to be displayed outside the context of the article (i.e. in the
+            issue summary) where the footnotes are not accessible, we may want to strip footnotes
+            links from the abstracts. If `html` is False, footnotes will always be stripped.
 
         :returns: a list of dictionaries of the form::
 
@@ -37,6 +41,13 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """
         abstracts = []
         languages = self.get_languages()
+
+        # If html is False, footnotes should always be stripped.
+        if not html:
+            strip_footnotes = True
+        # If strip_footnotes is True, strip `renvoi` elements from abstracts.
+        strip_footnotes = ['renvoi'] if strip_footnotes else []
+
         if html:
             parser_method = self.convert_marquage_content_to_html
         else:
@@ -46,8 +57,14 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             abstract = {
                 'lang': abstract_dom.get('lang'),
                 'typeresume': abstract_dom.get('typeresume'),
-                'title': parser_method(abstract_dom.find('titre'), strip_elements=[]),
-                'content': parser_method(abstract_dom, strip_elements=['titre']),
+                'title': parser_method(
+                    abstract_dom.find('titre'),
+                    strip_elements=[] + strip_footnotes,
+                ),
+                'content': parser_method(
+                    abstract_dom,
+                    strip_elements=['titre'] + strip_footnotes,
+                ),
             }
 
             try:
