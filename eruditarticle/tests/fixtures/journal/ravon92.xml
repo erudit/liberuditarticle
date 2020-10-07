@@ -1,0 +1,125 @@
+
+<numeros>
+  <originator app="Tournesol_0.6.5" date="2020-09-29" username="Karine"></originator>
+  <revue>
+    <gratuites>
+      <gratuite pid="erudit:erudit.ronbrit05321" revue="ronbrit" valeur="true"></gratuite>
+      <gratuite pid="erudit:erudit.ravon92" revue="ravon" valeur="true"></gratuite>
+      <gratuite pid="erudit:erudit.ron25" revue="ron" valeur="true"></gratuite>
+    </gratuites>
+    <notes>
+      <note langue="fr" pid="erudit:erudit.ronbrit05321" revue="ronbrit">Les publications précédentes (du numéro 1 au numéro 46) sont disponibles sur la page de la revue <A href="https://www.erudit.org/fr/revues/ron">RON</A>. Les publications précédentes (du numéro 47 au numéro 67) sont disponibles sur la page de la revue <A href="https://www.erudit.org/fr/revues/ravon/">RAVON</A>.</note>
+      <note langue="fr" pid="erudit:erudit.ravon92" revue="ravon">Les publications précédentes (du numéro 1 au numéro 46) sont disponibles sur la page de la revue <A href="https://www.erudit.org/fr/revues/ron">RON</A>. Les publications suivantes (à partir du numéro 68-69) sont disponibles sur la page de la nouvelle revue <A href="https://www.erudit.org/fr/revues/ronbrit">RON</A>.</note>
+      <note langue="fr" pid="erudit:erudit.ron25" revue="ron">Les publications suivantes (du numéro 47 au numéro 67) sont disponibles sur la page de la revue <A href="https://www.erudit.org/fr/revues/ravon/">RAVON</A>. Les publications suivantes (à partir du numéro 68-69) sont disponibles sur la page de la nouvelle revue <A href="https://www.erudit.org/fr/revues/ronbrit">RON</A>.</note>
+    </notes>
+  </revue>
+  <liste>
+    <decennie dannee="2017" pannee="2011">
+      <annee valeur="2017">
+        <numero annee="2017" autrenumero="" nonumero="68-69" periode="Printemps-Automne" pid="erudit:erudit.ronbrit05321.ronbrit05407" revAbr="ronbrit" type="reg" url="ronbrit/2017/v/n68-69" volume=""></numero>
+      </annee>
+      <annee valeur="2016">
+        <numero annee="2016" autrenumero="" nonumero="66-67" periode="Printemps-Automne" pid="erudit:erudit.ravon92.ravon05340" revAbr="ravon" type="reg" url="ravon/2016/v/n66-67" volume=""></numero>
+      </annee>
+      <annee valeur="2015">
+        <numero annee="2015" autrenumero="" nonumero="65" periode="" pid="erudit:erudit.ravon92.ravon05331" revAbr="ravon" type="reg" url="ravon/2015/v/n65" volume=""></numero>
+      </annee>
+      <annee valeur="2013">
+        <numero annee="2013" autrenumero="" nonumero="64" periode="Octobre" pid="erudit:erudit.ravon92.ravon01452" revAbr="ravon" type="reg" url="ravon/2013/v/n64" volume=""></numero>
+        <numero annee="2013" autrenumero="" nonumero="63" periode="Avril" pid="erudit:erudit.ravon92.ravon01450" revAbr="ravon" type="reg" url="ravon/2013/v/n63" volume=""></numero>
+      </annee>
+      <annee valeur="2012">
+        <numero annee="2012" autrenumero="" nonumero="62" periode="Octobre" pid="erudit:erudit.ravon92.ravon01483" revAbr="ravon" type="reg" url="ravon/2012/v/n62" volume=""></numero>
+        <numero annee="2012" autrenumero="" nonumero="61" periode="Avril" pid="erudit:erudit.ravon92.ravon0834" revAbr="ravon" type="reg" url="ravon/2012/v/n61" volume=""></numero>
+      </annee>
+      <annee valeur="2011">
+        <numero annee="2011" autrenumero="" nonumero="59-60" periode="Avril-Octobre" pid="erudit:erudit.ravon92.ravon0382" revAbr="ravon" type="reg" url="ravon/2011/v/n59-60" volume=""></numero>
+      </annee>
+    </decennie>
+    <decennie dannee="2010" pannee="2001">
+      <annee valeur="2010">
+        <numero annee="2010" autrenumero="" nonumero="57-58" periode="Février-Mai" pid="erudit:erudit.ravon92.ravon1824552" revAbr="ravon" type="reg" url="ravon/2010/v/n57-58" volume=""></numero>
+      </annee>
+      <annee valeur="2009">
+        <numero annee="2009" autrenumero="" nonumero="56" periode="Novembre" pid="erudit:erudit.ravon92.ravon1503285" revAbr="ravon" type="reg" url="ravon/2009/v/n56" volume=""></numero>
+        <numero annee="2009" autrenumero="" nonumero="55" periode="Août" pid="erudit:erudit.ravon92.ravon3697" revAbr="ravon" type="reg" url="ravon/2009/v/n55" volume=""></numero>
+        <numero annee="2009" autrenumero="" nonumero="54" periode="Mai" pid="erudit:erudit.ravon92.ravon3401" revAbr="ravon" type="reg" url="ravon/2009/v/n54" volume=""></numero>
+        <numero annee="2009" autrenumero="" nonumero="53" periode="Février" pid="erudit:erudit.ravon92.ravon2916" revAbr="ravon" type="reg" url="ravon/2009/v/n53" volume=""></numero>
+      </annee>
+      <annee valeur="2008">
+        <numero annee="2008" autrenumero="" nonumero="52" periode="Novembre" pid="erudit:erudit.ravon92.ravon2573" revAbr="ravon" type="reg" url="ravon/2008/v/n52" volume=""></numero>
+        <numero annee="2008" autrenumero="" nonumero="51" periode="Août" pid="erudit:erudit.ravon92.ravon2473" revAbr="ravon" type="reg" url="ravon/2008/v/n51" volume=""></numero>
+        <numero annee="2008" autrenumero="" nonumero="50" periode="Mai" pid="erudit:erudit.ravon92.ravon2291" revAbr="ravon" type="reg" url="ravon/2008/v/n50" volume=""></numero>
+        <numero annee="2008" autrenumero="" nonumero="49" periode="Février" pid="erudit:erudit.ravon92.ravon2175" revAbr="ravon" type="reg" url="ravon/2008/v/n49" volume=""></numero>
+      </annee>
+      <annee valeur="2007">
+        <numero annee="2007" autrenumero="" nonumero="48" periode="Novembre" pid="erudit:erudit.ravon92.ravon1979" revAbr="ravon" type="reg" url="ravon/2007/v/n48" volume=""></numero>
+        <numero annee="2007" autrenumero="" nonumero="47" periode="Août" pid="erudit:erudit.ravon92.ravon1893" revAbr="ravon" type="reg" url="ravon/2007/v/n47" volume=""></numero>
+        <numero annee="2007" autrenumero="" nonumero="46" periode="Mai" pid="erudit:erudit.ron25.ron1782" revAbr="ron" type="reg" url="ron/2007/v/n46" volume=""></numero>
+        <numero annee="2007" autrenumero="" nonumero="45" periode="Février" pid="erudit:erudit.ron25.ron1728" revAbr="ron" type="reg" url="ron/2007/v/n45" volume=""></numero>
+      </annee>
+      <annee valeur="2006">
+        <numero annee="2006" autrenumero="" nonumero="44" periode="Novembre" pid="erudit:erudit.ron25.ron1433" revAbr="ron" type="reg" url="ron/2006/v/n44" volume=""></numero>
+        <numero annee="2006" autrenumero="" nonumero="43" periode="Août" pid="erudit:erudit.ron25.ron1383" revAbr="ron" type="reg" url="ron/2006/v/n43" volume=""></numero>
+        <numero annee="2006" autrenumero="" nonumero="41-42" periode="Février-Mai" pid="erudit:erudit.ron25.ron1276" revAbr="ron" type="reg" url="ron/2006/v/n41-42" volume=""></numero>
+      </annee>
+      <annee valeur="2005">
+        <numero annee="2005" autrenumero="" nonumero="40" periode="Novembre" pid="erudit:erudit.ron25.ron1039" revAbr="ron" type="reg" url="ron/2005/v/n40" volume=""></numero>
+        <numero annee="2005" autrenumero="" nonumero="38-39" periode="Mai" pid="erudit:erudit.ron25.ron988" revAbr="ron" type="reg" url="ron/2005/v/n38-39" volume=""></numero>
+      </annee>
+      <annee valeur="2004">
+        <numero annee="2004" autrenumero="" nonumero="36-37" periode="Novembre-Février" pid="erudit:erudit.ron25.ron947" revAbr="ron" type="reg" url="ron/2005/v/n36-37" volume=""></numero>
+        <numero annee="2004" autrenumero="" nonumero="34-35" periode="Mai" pid="erudit:erudit.ron25.ron824" revAbr="ron" type="reg" url="ron/2004/v/n34-35" volume=""></numero>
+      </annee>
+      <annee valeur="2003">
+        <numero annee="2003" autrenumero="" nonumero="32-33" periode="Novembre-Février" pid="erudit:erudit.ron25.ron769" revAbr="ron" type="reg" url="ron/2004/v/n32-33" volume=""></numero>
+        <numero annee="2003" autrenumero="" nonumero="31" periode="Août" pid="erudit:erudit.ron25.ron738" revAbr="ron" type="reg" url="ron/2003/v/n31" volume=""></numero>
+        <numero annee="2003" autrenumero="" nonumero="29-30" periode="Février-Mai" pid="erudit:erudit.ron25.ron695" revAbr="ron" type="reg" url="ron/2003/v/n29-30" volume=""></numero>
+      </annee>
+      <annee valeur="2002">
+        <numero annee="2002" autrenumero="" nonumero="28" periode="Novembre" pid="erudit:erudit.ron25.ron560" revAbr="ron" type="reg" url="ron/2002/v/n28" volume=""></numero>   
+     <numero annee="2002" autrenumero="" nonumero="27" periode="" pid="erudit:erudit.ron25.ron525" revAbr="ron" type="reg" url="ron/2002/v/n27" volume=""></numero>
+        <numero annee="2002" autrenumero="" nonumero="26" periode="Mai" pid="erudit:erudit.ron25.ron381" revAbr="ron" type="reg" url="ron/2002/v/n26" volume=""></numero>
+        <numero annee="2002" autrenumero="" nonumero="25" periode="Février" pid="erudit:erudit.ron25.ron437" revAbr="ron" type="reg" url="ron/2002/v/n25" volume=""></numero>
+      </annee>
+      <annee valeur="2001">
+        <numero annee="2001" autrenumero="" nonumero="24" periode="Novembre" pid="erudit:erudit.ron25.ron436" revAbr="ron" type="reg" url="ron/2001/v/n24" volume=""></numero>
+        <numero annee="2001" autrenumero="" nonumero="23" periode="Août" pid="erudit:erudit.ron25.ron435" revAbr="ron" type="reg" url="ron/2001/v/n23" volume=""></numero>
+        <numero annee="2001" autrenumero="" nonumero="22" periode="Mai" pid="erudit:erudit.ron25.ron434" revAbr="ron" type="reg" url="ron/2001/v/n22" volume=""></numero>
+        <numero annee="2001" autrenumero="" nonumero="21" periode="Février" pid="erudit:erudit.ron25.ron433" revAbr="ron" type="reg" url="ron/2001/v/n21" volume=""></numero>
+      </annee>
+    </decennie>
+    <decennie dannee="2000" pannee="1991">
+      <annee valeur="2000">
+        <numero annee="2000" autrenumero="" nonumero="20" periode="Novembre" pid="erudit:erudit.ron25.ron432" revAbr="ron" type="reg" url="ron/2000/v/n20" volume=""></numero>
+        <numero annee="2000" autrenumero="" nonumero="19" periode="Août" pid="erudit:erudit.ron25.ron431" revAbr="ron" type="reg" url="ron/2000/v/n19" volume=""></numero>
+        <numero annee="2000" autrenumero="" nonumero="18" periode="Mai" pid="erudit:erudit.ron25.ron430" revAbr="ron" type="reg" url="ron/2000/v/n18" volume=""></numero>
+        <numero annee="2000" autrenumero="" nonumero="17" periode="Février" pid="erudit:erudit.ron25.ron429" revAbr="ron" type="reg" url="ron/2000/v/n17" volume=""></numero>
+      </annee>
+      <annee valeur="1999">
+        <numero annee="1999" autrenumero="" nonumero="16" periode="Novembre" pid="erudit:erudit.ron25.ron428" revAbr="ron" type="reg" url="ron/1999/v/n16" volume=""></numero>
+        <numero annee="1999" autrenumero="" nonumero="15" periode="Août" pid="erudit:erudit.ron25.ron427" revAbr="ron" type="reg" url="ron/1999/v/n15" volume=""></numero>
+        <numero annee="1999" autrenumero="" nonumero="14" periode="Mai" pid="erudit:erudit.ron25.ron426" revAbr="ron" type="reg" url="ron/1999/v/n14" volume=""></numero>
+        <numero annee="1999" autrenumero="" nonumero="13" periode="Février" pid="erudit:erudit.ron25.ron425" revAbr="ron" type="reg" url="ron/1999/v/n13" volume=""></numero>
+      </annee>
+      <annee valeur="1998">
+        <numero annee="1998" autrenumero="" nonumero="12" periode="Novembre" pid="erudit:erudit.ron25.ron424" revAbr="ron" type="reg" url="ron/1998/v/n12" volume=""></numero>
+        <numero annee="1998" autrenumero="" nonumero="11" periode="Août" pid="erudit:erudit.ron25.ron423" revAbr="ron" type="reg" url="ron/1998/v/n11" volume=""></numero>
+        <numero annee="1998" autrenumero="" nonumero="10" periode="Mai" pid="erudit:erudit.ron25.ron422" revAbr="ron" type="reg" url="ron/1998/v/n10" volume=""></numero>
+        <numero annee="1998" autrenumero="" nonumero="9" periode="Février" pid="erudit:erudit.ron25.ron421" revAbr="ron" type="reg" url="ron/1998/v/n9" volume=""></numero>
+      </annee>
+      <annee valeur="1997">
+        <numero annee="1997" autrenumero="" nonumero="8" periode="Novembre" pid="erudit:erudit.ron25.ron420" revAbr="ron" type="reg" url="ron/1997/v/n8" volume=""></numero>
+        <numero annee="1997" autrenumero="" nonumero="7" periode="Août" pid="erudit:erudit.ron25.ron419" revAbr="ron" type="reg" url="ron/1997/v/n7" volume=""></numero>
+        <numero annee="1997" autrenumero="" nonumero="6" periode="Mai" pid="erudit:erudit.ron25.ron418" revAbr="ron" type="reg" url="ron/1997/v/n6" volume=""></numero>
+        <numero annee="1997" autrenumero="" nonumero="5" periode="Février" pid="erudit:erudit.ron25.ron417" revAbr="ron" type="reg" url="ron/1997/v/n5" volume=""></numero>
+      </annee>
+      <annee valeur="1996">
+        <numero annee="1996" autrenumero="" nonumero="4" periode="Novembre" pid="erudit:erudit.ron25.ron416" revAbr="ron" type="reg" url="ron/1996/v/n4" volume=""></numero>
+        <numero annee="1996" autrenumero="" nonumero="3" periode="Août" pid="erudit:erudit.ron25.ron415" revAbr="ron" type="reg" url="ron/1996/v/n3" volume=""></numero>
+        <numero annee="1996" autrenumero="" nonumero="2" periode="Mai" pid="erudit:erudit.ron25.ron414" revAbr="ron" type="reg" url="ron/1996/v/n2" volume=""></numero>
+        <numero annee="1996" autrenumero="" nonumero="1" periode="Février" pid="erudit:erudit.ron25.ron413" revAbr="ron" type="reg" url="ron/1996/v/n1" volume=""></numero>
+      </annee>
+    </decennie>
+  </liste>
+</numeros>

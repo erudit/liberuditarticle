@@ -42,6 +42,25 @@ class TestEruditJournal(object):
             ],
         }
 
+    @with_value("ravon92.xml", "get_notes", html=True)
+    def test_get_notes_html(self, value):
+        assert self.test_objects['ravon92.xml'].get_notes(html=True) == {
+            'fr': [
+                'Les publications précédentes (du numéro 1 au numéro 46) sont disponibles sur la pa'
+                'ge de la revue <A href="https://www.erudit.org/fr/revues/ron">RON</A>. Les publica'
+                'tions précédentes (du numéro 47 au numéro 67) sont disponibles sur la page de la r'
+                'evue <A href="https://www.erudit.org/fr/revues/ravon/">RAVON</A>.',
+                'Les publications précédentes (du numéro 1 au numéro 46) sont disponibles sur la pa'
+                'ge de la revue <A href="https://www.erudit.org/fr/revues/ron">RON</A>. Les publica'
+                'tions suivantes (à partir du numéro 68-69) sont disponibles sur la page de la nouv'
+                'elle revue <A href="https://www.erudit.org/fr/revues/ronbrit">RON</A>.',
+                'Les publications suivantes (du numéro 47 au numéro 67) sont disponibles sur la pag'
+                'e de la revue <A href="https://www.erudit.org/fr/revues/ravon/">RAVON</A>. Les pub'
+                'lications suivantes (à partir du numéro 68-69) sont disponibles sur la page de la '
+                'nouvelle revue <A href="https://www.erudit.org/fr/revues/ronbrit">RON</A>.'
+            ]
+        }
+
     @pytest.mark.parametrize('journal_pid, expected_result', (
         ('erudit:erudit.approchesind0522', {}),
         ('erudit:erudit.enjeux04890', {'fr': [
