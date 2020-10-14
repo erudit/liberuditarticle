@@ -157,6 +157,42 @@ class EruditBaseObject(DomObject):
                 for ref in root_elem.findall(f'.//{ref_elem_name}')
             ]
         return [ref for ref in references if ref is not None]
+
+    def _get_formatted_title(self, titles, html=True):
+        """ Format the article titles
+
+        .. warning::
+           Will be removed or modified 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
+
+        :returns: the formatted article title
+
+        This method calls :meth:`~.get_titles` and format its results.
+
+        The result is formatted in the following way::
+
+            "{main_title} : {main_subtitle} / .. /  {paral_title_n} : {paral_subtitle_n} / {reviewed_works}"  # noqa
+
+        If an article title is in French, a non-breaking space is inserted after the colon
+        separating it from its subtitle.
+        """
+
+        formatted_title = self._get_formatted_single_title(titles)
+
+        if 'reviewed_works' in titles and titles['reviewed_works']:
+            reviewed_works = " / ".join(
+                reference for reference in titles['reviewed_works']
+            )
+
+            if formatted_title:
+                formatted_title = "{title} / {reviewed_works}".format(
+                    title=formatted_title,
+                    reviewed_works=reviewed_works
+                )
+            else:
+                formatted_title = reviewed_works
+        return formatted_title
+
     def _get_titles(
         self, root_elem=None, title_elem_name=None, subtitle_elem_name=None,
         paral_title_elem_name=None, paral_subtitle_elem_name=None, languages=['fr'],

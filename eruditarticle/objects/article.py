@@ -320,8 +320,9 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             Not applicable
         :param html: (bool, optional): Defaults to False.
         """
+        titles = self.get_titles(html=html)
         if formatted:
-            return self._get_formatted_title(html=html)
+            return self._get_formatted_title(titles, html=html)
         else:
             return self.stringify_children(
                 self.find('titre', dom=self.find('grtitre')),
@@ -429,48 +430,14 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         titles = self.get_journal_titles()
         return self._get_formatted_single_title(titles, use_equivalent=True)
 
-    def _get_formatted_title(self, html=True):
-        """ Format the article titles
-
-        .. warning::
-           Will be removed or modified 0.3.0
-           For more information please refer to :py:mod:`eruditarticle.objects`
-
-        :returns: the formatted article title
-
-        This method calls :meth:`~.get_titles` and format its results.
-
-        The result is formatted in the following way::
-
-            "{main_title} : {main_subtitle} / .. /  {paral_title_n} : {paral_subtitle_n} / {reviewed_works}"  # noqa
-
-        If an article title is in French, a non-breaking space is inserted after the colon
-        separating it from its subtitle.
-        """
-        titles = self.get_titles(html=html)
-        formatted_title = self._get_formatted_single_title(titles)
-
-        if titles['reviewed_works']:
-            reviewed_works = " / ".join(
-                reference for reference in titles['reviewed_works']
-            )
-
-            if formatted_title:
-                formatted_title = "{title} / {reviewed_works}".format(
-                    title=formatted_title,
-                    reviewed_works=reviewed_works
-                )
-            else:
-                formatted_title = reviewed_works
-        return formatted_title
-
     def get_formatted_title(self):
         """
         .. warning::
            Will be removed or modified 0.3.0
            For more information please refer to :py:mod:`eruditarticle.objects`
         """
-        return self._get_formatted_title(html=False)
+        titles = self.get_titles(html=False)
+        return self._get_formatted_title(titles, html=False)
 
     def get_formatted_html_title(self):
         """
@@ -478,7 +445,8 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
            Will be removed or modified 0.3.0
            For more information please refer to :py:mod:`eruditarticle.objects`
         """
-        return self._get_formatted_title(html=True)
+        titles = self.get_titles(html=True)
+        return self._get_formatted_title(titles, html=True)
 
     @property
     def is_of_type_roc(self):
