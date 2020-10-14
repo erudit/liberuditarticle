@@ -140,6 +140,23 @@ class EruditBaseObject(DomObject):
 
         return " / ".join(sections)
 
+    def _get_reviewed_or_referenced_works(self, root_elem=None, ref_elem_name=None, html=True):
+        """
+        .. warning::
+           Will be removed or modified 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
+        """
+        if html:
+            references = [
+                self.convert_marquage_content_to_html(ref)
+                for ref in root_elem.findall(f'.//{ref_elem_name}')
+            ]
+        else:
+            references = [
+                self.stringify_children(ref)
+                for ref in root_elem.findall(f'.//{ref_elem_name}')
+            ]
+        return [ref for ref in references if ref is not None]
     def _get_titles(
         self, root_elem=None, title_elem_name=None, subtitle_elem_name=None,
         paral_title_elem_name=None, paral_subtitle_elem_name=None, languages=['fr'],

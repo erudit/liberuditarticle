@@ -284,27 +284,11 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """ :returns: the subtitle of the article object. """
         return self.stringify_children(self.find('sstitre'))
 
-    def _get_reviewed_or_referenced_works(self, tag, html=True):
-        """
-        .. warning::
-           Will be removed or modified 0.3.0
-           For more information please refer to :py:mod:`eruditarticle.objects`
-        """
-        if html:
-            references = [
-                self.convert_marquage_content_to_html(ref)
-                for ref in self.findall(tag)
-            ]
-        else:
-            references = [
-                self.stringify_children(ref)
-                for ref in self.findall(tag)
-            ]
-        return [ref for ref in references if ref is not None]
-
     def get_reviewed_works(self, html=True):
         """ :returns: the works reviewed by this article """
-        return self._get_reviewed_or_referenced_works('trefbiblio', html=html)
+        return self._get_reviewed_or_referenced_works(
+            root_elem=self._dom, ref_elem_name='trefbiblio', html=html
+        )
 
     def get_references(self, html=True):
         """
