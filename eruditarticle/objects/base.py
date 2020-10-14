@@ -4,6 +4,7 @@ import lxml.etree as et
 import re
 import six
 
+from .exceptions import LiberuditarticleError
 from ..utils import remove_xml_namespaces
 from .dom import DomObject
 from .person import Person
@@ -140,7 +141,7 @@ class EruditBaseObject(DomObject):
         return " / ".join(sections)
 
     def _get_titles(
-        self, root_elem_name=None, title_elem_name=None, subtitle_elem_name=None,
+        self, root_elem=None, title_elem_name=None, subtitle_elem_name=None,
         paral_title_elem_name=None, paral_subtitle_elem_name=None, languages=['fr'],
         strict_language_check=True, html=True
     ):
@@ -163,10 +164,9 @@ class EruditBaseObject(DomObject):
 
         :returns: the titles and subtitles relative to ``root_elem_name``
         """
-        root_elem = self.find(root_elem_name)
 
         if root_elem is None:
-            raise MissingXMLElementError(root_elem_name)
+            raise LiberuditarticleError("root_elem ")
 
         titles = {
             'main': None,

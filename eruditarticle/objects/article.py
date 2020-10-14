@@ -10,6 +10,7 @@ from .mixins import PublicationPeriodMixin
 from .person import (
     Person, format_authors, format_authors_mla, format_authors_apa, format_authors_chicago
 )
+
 from .exceptions import InvalidOrdseqError, InvalidTitleLevelError
 
 logger = logging.getLogger(__name__)
@@ -349,8 +350,9 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         This method has the same behaviour as :meth:`~.get_titles`.
         """
         languages = self.find('revue').get('lang').split()
+
         return self._get_titles(
-            root_elem_name='revue',
+            root_elem=self.find('revue'),
             title_elem_name='titrerev',
             subtitle_elem_name='sstitrerev',
             paral_title_elem_name='titrerevparal',
@@ -416,7 +418,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         """
 
         titles = self._get_titles(
-            root_elem_name='grtitre',
+            root_elem=self.find('grtitre'),
             title_elem_name='titre',
             subtitle_elem_name='sstitre',
             paral_title_elem_name='titreparal',

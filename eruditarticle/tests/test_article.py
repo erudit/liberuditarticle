@@ -5,7 +5,7 @@ from lxml.builder import E
 from eruditarticle.objects import EruditArticle, Title
 from eruditarticle.tests.decorators import with_value, with_fixtures
 from ..objects.exceptions import (
-    MissingXMLElementError, InvalidTitleLevelError, InvalidOrdseqError
+    LiberuditarticleError, InvalidTitleLevelError, InvalidOrdseqError
 )
 
 
@@ -165,14 +165,8 @@ class TestSectionTitle(object):
         }
 
     def test_if_missing_grtitre_raises_missingxmlelementerror_exception(self):
-        with pytest.raises(MissingXMLElementError):
+        with pytest.raises(LiberuditarticleError):
             self.test_objects['1005108ar.xml'].get_titles()
-
-    def test_missingxmlelementerror_exception_message_when_missing_grtitre(self):
-        try:
-            self.test_objects['1005108ar.xml'].get_titles()
-        except MissingXMLElementError as e:
-            assert str(e) == "The element 'grtitre' could not be found in the xml tree"
 
     def test_if_invalid_title_level_raises_invalidtitlelevelerror_exception(self):
         with pytest.raises(InvalidTitleLevelError):

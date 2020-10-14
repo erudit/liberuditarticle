@@ -34,7 +34,7 @@ class EruditPublication(
         :returns: the titles of the publication
         """
         return self._get_titles(
-            root_elem_name="revue",
+            root_elem=self.find("revue"),
             title_elem_name="titrerev",
             subtitle_elem_name="sstitrerev",
             paral_title_elem_name="titrerevparal",
@@ -309,7 +309,7 @@ class EruditPublication(
         :returns: the parts of the journal's title
         """
         titles = self._get_titles(
-            root_elem_name='infosommaire/revue',
+            root_elem=self.find('infosommaire/revue'),
             title_elem_name='titrerev',
             subtitle_elem_name='sstitrerev',
             paral_title_elem_name='titrerevparal',
