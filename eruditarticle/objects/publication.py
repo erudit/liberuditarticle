@@ -5,10 +5,12 @@ except ImportError:
     pgettext = lambda ctx, msg: msg  # noqa
     _ = lambda x: x  # noqa
 
+import typing
 import collections
 import itertools
 import roman
 from datetime import datetime
+from dataclasses import dataclass
 
 from .base import EruditBaseObject
 from .mixins import CopyrightMixin
@@ -16,7 +18,22 @@ from .mixins import ISBNMixin
 from .mixins import ISSNMixin
 from .mixins import PublicationPeriodMixin
 from .person import Redacteur, Person, format_authors
-from .exceptions import InvalidTypercError
+from .exceptions import InvalidTypercError, LiberuditarticleError
+
+
+@dataclass
+class SummaryArticle:
+    localidentifier: str
+    urlpdf: typing.Optional[str]
+    first_page: typing.Optional[str] = None
+    last_page: typing.Optional[str] = None
+    section_title: typing.Optional[str] = None
+    title: typing.Optional[str] = None
+    html_title: typing.Optional[str] = None
+    ordseq: typing.Optional[str] = None
+    doi: typing.Optional[str] = None
+    authors: typing.Optional[str] = None
+    accessible: typing.Optional[str] = True
 
 
 class EruditPublication(
@@ -534,3 +551,61 @@ class EruditPublication(
     alt_number = property(get_alt_number)
     publishers = property(get_publishers)
     languages = property(get_languages)
+
+    def get_summary_articles(self) -> typing.List[SummaryArticle]:
+        """ Return the list of the articles in the summary """
+        articles = []
+        articles_elem = self.findall('article')
+
+        for article in articles_elem:
+            titles = self._get_titles(
+                root_elem=article,
+                title_elem_name='titre',
+                subtitle_elem_name='sstitre',
+                paral_title_elem_name='titreparal',
+                paral_subtitle_elem_name='sstitreparal',
+                languages=self.get_languages(),
+                html=True
+            )
+            titles['reviewed_works'] = self._get_reviewed_or_referenced_works(
+                root_elem=article,
+                ref_elem_name='trefbiblio',
+                html=True
+            )
+
+            title = self._get_formatted_title(titles, html=False)
+            html_title = self._get_formatted_title(titles, html=True)
+            authors = [Person(author) for author in article.findall('.//auteur')]
+
+
+
+
+            summary_article = SummaryArticle(
+                localidentifier=article.get('idproprio'),
+                urlpdf=article.findtext('.//urlpdf'),
+                first_page=article.findtext('.//ppage'),
+                last_page=article.findtext('.//dpage'),
+                title=title,
+                html_title=html_title,
+                ordseq=article.get('ordseq'),
+                doi=article.get('doi'),
+                )
+            if authors:
+                summary_article.authors = format_authors(authors)
+
+            if article.findtext('.//accessible') == "non":
+                summary_article.accessible = False
+
+            articles.append(summary_article)
+        return articles
+
+    def get_summary_article(self, localidentifier: str) -> SummaryArticle:
+        summary_articles = self.get_summary_articles()
+        try:
+            return next(
+                a for a in summary_articles if a.localidentifier == localidentifier
+            )
+        except StopIteration:
+            raise LiberuditarticleError(
+                f"No article with localidentifier {localidentifier}"
+            )

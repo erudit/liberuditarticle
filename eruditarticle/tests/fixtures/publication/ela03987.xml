@@ -1,0 +1,1364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+<originator username="p0962873" date="2018-10-19" app="Tournesol 0.5.3"/>
+<copyright>
+	<year>2018</year>
+<contribution>
+<artificialperson>
+	<name>Association pour l'Étude des Littératures africaines (APELA)</name>
+</artificialperson>
+<contributiontype>
+	<code>droit</code>
+	<label lang="en">Copyright Holder</label>
+	<label lang="fr">Titulaire du droit d'auteur</label>
+	<label lang="es">Titular del derecho de autor</label>
+</contributiontype>
+	<ordering>0</ordering>
+</contribution>
+<copyrightdeclaration>
+	<code>tdr</code>
+	<label lang="en">All Rights Reserved</label>
+	<label lang="fr">Tous droits réservés</label>
+	<label lang="es">Todos los derechos reservados</label>
+</copyrightdeclaration>
+</copyright>
+<publicationnumberingkeys>
+	<publicationtypecode>reg</publicationtypecode>
+	<years>
+		<year value="2018">
+		</year>
+	</years>
+</publicationnumberingkeys><infosommaire>
+  <url>/revue/ela/2018/v/n45</url>
+  <nbarticle>53</nbarticle>
+  <revue id="ela0785" lang="fr en">
+    <titrerev>Études littéraires africaines</titrerev>
+    <titrerevabr>ela</titrerevabr>
+    <idissn>0769-4563</idissn>
+    <idissnnum>2270-0374</idissnnum>
+    <directeur sexe="masculin">
+      <nompers>
+        <prenom>Pierre</prenom>
+        <nomfamille>Halen</nomfamille>
+      </nompers>
+      <key>directeur</key>
+    </directeur>
+    <redacteurchef idrefs="th1" sexe="masculin" typerc="invite">
+      <nompers>
+        <prenom>Anthony</prenom>
+        <nomfamille>Mangeon</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+    <redacteurchef sexe="masculin" typerc="regulier">
+      <nompers>
+        <prenom>Xavier</prenom>
+        <nomfamille>Garnier</nomfamille>
+      </nompers>
+      <key>redacteurchef</key>
+    </redacteurchef>
+  </revue>
+  <numero id="ela03987">
+    <nonumero>45</nonumero>
+    <pub>
+      <annee>2018</annee>
+    </pub>
+    <pubnum>
+      <date typedate="publication">2018-09-27</date>
+    </pubnum>
+    <grtheme id="th1">
+      <theme>Henri Lopes, lectures façon façon-là</theme>
+    </grtheme>
+  </numero>
+  <editeur>
+    <nomorg>Association pour l'Étude des Littératures africaines (APELA)</nomorg>
+    <key>editeur</key>
+  </editeur>
+  <droitsauteur>Tous droits réservés © <nomorg>Association pour l'Étude des Littératures africaines (APELA)</nomorg>, 2018</droitsauteur>
+</infosommaire>
+<article doi="10.7202/1051608ar" horstheme="oui" idproprio="1051608ar" lang="fr" ordseq="1" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="161" unite="ko">/revue/ela/2018/v/n45/1051608ar.pdf</urlpdf>
+  <pagination>
+    <ppage>1</ppage>
+    <dpage>2</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+                  <titre>Claude Wauthier nous a quittés</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Bernard</prenom>
+    <nomfamille>Mouralis</nomfamille>
+   </nompers>
+  <affiliation><alinea>Ancien Secrétaire général de l’A<marquage typemarq="petitecap">pela</marquage></alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051609ar" idproprio="1051609ar" idref="th1" lang="fr" ordseq="2" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="266" unite="ko">/revue/ela/2018/v/n45/1051609ar.pdf</urlpdf>
+  <pagination>
+    <ppage>9</ppage>
+    <dpage>12</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre>Henri Lopes a cinquante ans !</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Anthony</prenom>
+    <nomfamille>Mangeon</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051610ar" idproprio="1051610ar" idref="th1" lang="fr" ordseq="3" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="491" unite="ko">/revue/ela/2018/v/n45/1051610ar.pdf</urlpdf>
+  <pagination>
+    <ppage>13</ppage>
+    <dpage>28</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre>Un art du roman démocratique ? Effets de miroir et lieux communs dans l’oeuvre d’Henri Lopes</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Anthony</prenom>
+    <nomfamille>Mangeon</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Si Henri Lopes a joué politiquement un rôle de premier plan dans l’instauration d’une république populaire au Congo, dans les années soixante-dix, il a également développé une conception démocratique du roman qui repose fondamentalement sur trois éléments. Son art de conter instaure tout d’abord une proximité avec le lecteur, à qui le récit est souvent adressé, et dont l’activité d’herméneute se trouve fréquemment mise en abyme à travers différentes figures de narrateurs-enquêteurs. D’autres effets de miroir sont ensuite construits, entre des personnages ou des mondes distincts et distants, afin d’établir autant d’équivalences entre Afrique, Antilles, Amérique et Europe. Enfin les récits privilégient des lieux communs, sur les plans topographiques, linguistiques et littéraires, qui créent des rapports fondamentalement horizontaux entre les nations, les cultures et les générations.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">If Henri Lopes was politically at the forefront in the building of a people’s republic in the Congo of the 1970s, he also pioneered a democratic practice of the novel based on three major aspects. First, he artfully creates a special relationship to his reader, to which his tales often specifically address, while his various narrators embody the hermeneutic activities of the investigator trying to join the different dots in a plot. Some mirroring effects are also set up between distinct and distant worlds or characters, thus establishing equivalence relations between Africa, Europe, America and the Caribbean. Finally, the various narratives favour common places, be they topographical, linguistic or literary, which provide horizontal connections between nations, cultures and generations.</marquage></alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1051611ar" idproprio="1051611ar" idref="th1" lang="fr" ordseq="4" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="518" unite="ko">/revue/ela/2018/v/n45/1051611ar.pdf</urlpdf>
+  <pagination>
+    <ppage>29</ppage>
+    <dpage>49</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre>Mobilités de l’oeuvre : exils, errances et retours</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Catherine</prenom>
+    <nomfamille>Mazauric</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Dans l’oeuvre d'Henri Lopes, partir, c’est se faire autre : les mobilités spatiales s'y conjuguent à une essentielle plasticité identitaire. À travers des êtres de plusieurs vies et de multiples appartenances en proie à l’« enracinerrance », figures ubiquitaires tout à la fois ancrées « au Pays » et désancrées, l’oeuvre lopésienne ne cesse ainsi de déplacer et fluidifier les catégories à travers lesquelles sont ordinairement inventoriés tant les formes et situations de déplacement (voyage, exil, migration, immigration, errance, retour, etc.) que les lieux entre lesquels elles se jouent, les tonalités affectives qui leur sont associées et les écritures qui en rendent compte. Le paysage intérieur sur fond duquel son oeuvre se déploie, formé des méandres du fleuve, de l’île et de la rive, étant lui-même mobile, elle conjoint le mouvement à une forme de stabilité, l’élan à une possibilité de réassurance constamment maintenue. La séduction qui en émane ne tiendrait-elle finalement pas à sa propension à solliciter les zones intermédiaires du psychisme, celles où s’élaborent les possibles de l’aventure humaine ?</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">In Henri Lopes’ work, leaving means becoming someone else : spatial mobilities go along with major identity changes. The characters live different lives and belong to different places, becoming ubiquitous figures both anchored in their native land and unmoored from it, experiencing an oxymoronic condition which has been dubbed « enracinerrance » (rooted wandering). Henri Lopes’ works thus alter and make fluid the various categories (such as travel, exile, migration, immigration, wandering, homecoming) through which forms and situations of displacement are usually apprehended. They also alter the affective overtones and the writing procedures associated with them, sketching an inner landscape made of river loops, banks and insular places where movement is combined with stability</marquage><marquage typemarq="italique">,</marquage><marquage typemarq="italique"> and the act of stepping into the unknown with yet constant reassurance, and thus exploring the liminal spaces of psychism which define the very human adventure.</marquage></alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1051612ar" idproprio="1051612ar" idref="th1" lang="fr" ordseq="5" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="487" unite="ko">/revue/ela/2018/v/n45/1051612ar.pdf</urlpdf>
+  <pagination>
+    <ppage>51</ppage>
+    <dpage>67</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre>L’histoire et son traitement dans l’oeuvre d’Henri Lopes</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Bernard</prenom>
+    <nomfamille>Mouralis</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>À la différence de Mongo Beti ou de Tchicaya U Tam’si, Henri Lopes, dans ses romans, n’a pas cherché à retracer une histoire avec la périodisation qu’un tel projet implique. Dans un premier temps, on examinera l’intérêt que Lopes porte à l’écriture d’une chronique sociale nettement insérée dans le contexte de l’Afrique des années 1960-1970, avec le recueil de nouvelles <marquage typemarq="italique">Tribaliques</marquage> (1971), <marquage typemarq="italique">La Nouvelle Romance</marquage> (1976) et <marquage typemarq="italique">Sans tam-tam </marquage>(1977). Puis, avec <marquage typemarq="italique">Le Pleurer-rire</marquage> (1982), il sort du cadre strict de la chronique en proposant, dans la lignée de Rabelais et M.A. Asturias, le portrait d’un dictateur, truculent, cruel, obscène. L’article s’interroge enfin sur la façon dont Lopes ne cesse d’entrelacer l’histoire et l’Histoire, en s’appuyant notamment sur le cas de Marie-Ève, l’héroïne peintre de <marquage typemarq="italique">Sur l’autre rive</marquage> (1992), et sur des textes plus nettement autobiographiques <marquage typemarq="italique">(Ma grand-mère bantoue et mes ancêtres les Gaulois</marquage>, 2003) ou relevant de l’autofiction (<marquage typemarq="italique">Le Méridional</marquage>, 2015).</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">Differenciating himself from Francophone African novelists such as Mongo Beti or Tchicaya U Tam’si, Henri Lopes has not aimed for his novels to outline historical events within a precise periodical timeframe. He actually chose to highlight social issues in the context of newly independent African nations in his early narratives (</marquage>Tribaliques<marquage typemarq="italique"> (1971), </marquage>La Nouvelle Romance<marquage typemarq="italique"> (1976), </marquage>Sans tam-tam<marquage typemarq="italique"> (1977)) and then discarded the constraints of the chronicle to portray dictatorship in </marquage>Le Pleurer-rire<marquage typemarq="italique"> (1982). This analysis will show as well how Lopes also intertwines individual and collective historical threads in </marquage>Sur l’autre rive<marquage typemarq="italique"> (1992), with the figure of Marie-Eve, a painter and the heroine of the novel, </marquage>Ma grand-mère bantoue et mes ancêtres les Gaulois<marquage typemarq="italique"> (2003), which is a more autobiographical text, and </marquage>Le Méridional<marquage typemarq="italique"> (2015), which belongs to the genre of autofiction.</marquage></alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1051613ar" idproprio="1051613ar" idref="th1" lang="fr" ordseq="6" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="495" unite="ko">/revue/ela/2018/v/n45/1051613ar.pdf</urlpdf>
+  <pagination>
+    <ppage>69</ppage>
+    <dpage>84</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre>Esthétique, politique et éthique du personnage : le métis dans l’oeuvre romanesque d’Henri Lopes</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Sylvère</prenom>
+    <nomfamille>Mbondobari</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Le métis est non seulement au fondement de l’écriture d’Henri Lopes, il fait partie de son être. Il est le lieu où s’observent les mécanismes les plus subtils de la société moderne. Malédiction ou élection, le métis est une figure de l’entre-deux qui navigue entre les continents, fait vaciller nos certitudes et permet d’interroger notre être-au-monde. Le présent article entend étudier la figure du métis à partir d’un triple rapport avec l’histoire, avec la société coloniale et postcoloniale et avec la littérature.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea>Métissage<marquage typemarq="italique"> is at the core of both Henri Lopes’ life and writing. It is the site where the most subtle mechanisms of modern society can be observed. Indeed, being both doomed and elected, the metis is an in-between figure which circulates between continents, unsettles our certainties and helps us to question our being-in-the-world. This article thus explores the various embodiments of </marquage>métissage<marquage typemarq="italique"> in Henri Lopes’ works, in a triple connection to history, colonial and postcolonial societies, and literature.</marquage></alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1051614ar" idproprio="1051614ar" idref="th1" lang="fr" ordseq="7" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="1,3" unite="mo">/revue/ela/2018/v/n45/1051614ar.pdf</urlpdf>
+  <pagination>
+    <ppage>85</ppage>
+    <dpage>102</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre>Henri Lopes, anti-« parrain » de la phratrie congolaise</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Céline</prenom>
+    <nomfamille>Gahungu</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>Entre 1969 et 1980, protecteur politique et modèle littéraire, Henri Lopes se refuse à exercer une autorité charismatique sur les novices de la phratrie. Au fil des entretiens, revient une antienne : il n’est pas un mentor et renvoie volontiers les débutants qui le sollicitent aux <marquage typemarq="italique">Lettres à un jeune poète </marquage>de Rilke. Susciter « l’envie » de prolonger son oeuvre « insolente », faire de la phratrie un laboratoire créatif destiné aux apprentis et les « aider » à se « sentir écrivains » – ce sont là les seules « leçons » dispensées par le romancier dont les textes réfléchissent, à l’infini, la dynamique exploratoire de son écriture.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">Between 1969 and 1980, Henri Lopes, who holds high-ranking ministerial positions and is a highly regarded literary figure, refuses to exert any charismatic authority on the phratry even while helping junior Congolese authors. In interviews, he constantly insists on one important idea : he is not a mentor and refers young writers to the reading of Rilke’s </marquage>Letters to a Young Poet<marquage typemarq="italique">. A willingness to trigger the « desire » to prolong his « cheeky » work, and to make of the phratry creative laboratory, so that aspiring writers should be « helped » to « feel like writers » those are the only « lessons » given by a novelist whose works indefinitely reflect the quest for an ever-exploring mode of writing.</marquage></alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1051615ar" idproprio="1051615ar" idref="th1" lang="fr" ordseq="8" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="340" unite="ko">/revue/ela/2018/v/n45/1051615ar.pdf</urlpdf>
+  <pagination>
+    <ppage>103</ppage>
+    <dpage>113</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre>Sculpter la matière, écrire le monde : entretien avec Henri Lopes</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1"><contribution typecontrib="aut">Entretien réalisé par</contribution>
+   <nompers>
+    <prenom>Céline</prenom>
+    <nomfamille>Gahungu</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051616ar" idproprio="1051616ar" idref="th1" lang="fr" ordseq="9" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="130" unite="ko">/revue/ela/2018/v/n45/1051616ar.pdf</urlpdf>
+  <pagination>
+    <ppage>115</ppage>
+    <dpage>115</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre>Extrait des carnets de Sony Labou Tansi</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Sony</prenom>
+    <nomfamille>Labou Tansi</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051617ar" idproprio="1051617ar" idref="th1" lang="fr" ordseq="10" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="230" unite="ko">/revue/ela/2018/v/n45/1051617ar.pdf</urlpdf>
+  <pagination>
+    <ppage>117</ppage>
+    <dpage>122</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre>Femmes congolaises et subterfuges d’une vie sur l’autre rive</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers typenompers="usage">
+    <prenom>Réassi</prenom>
+    <nomfamille>Ouabonzi</nomfamille>
+   </nompers>
+   <nompers typenompers="pseudonyme">
+    <prenom>Laréus</prenom>
+    <nomfamille>Gangoueus</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051618ar" idproprio="1051618ar" idref="th1" lang="fr" ordseq="11" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="1,9" unite="mo">/revue/ela/2018/v/n45/1051618ar.pdf</urlpdf>
+  <pagination>
+    <ppage>123</ppage>
+    <dpage>148</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre><marquage typemarq="italique">Le Méridional</marquage>, un roman hanté par la génétique</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Nicolas</prenom>
+    <nomfamille>Martin-Granel</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+ <resume typeresume="resume" lang="fr"><alinea>S’il a souvent et longuement exprimé ses réflexions sur la genèse de son oeuvre, sur son travail d’écrivain, Henri Lopes a longtemps été réticent à livrer ses brouillons et avant-textes à la curiosité des chercheurs en génétique des textes. Il s’y est enfin résolu à l’occasion de la sortie d’<marquage typemarq="italique">Une enfant de Poto-Poto</marquage>, le 12 décembre 2011, en mettant à la disposition de l’équipe « Manuscrits francophones » de l’ITEM tous les dossiers génétiques qu’il avait pu conserver et ensuite, la mise au net à peine remise à l’éditeur, celui du <marquage typemarq="italique">Méridional</marquage> consistant en deux tapuscrits autographes, versions 1 et 2 corrigées de la main de l’auteur. Une première lecture de ce dossier, qui se concentre sur l’<marquage typemarq="italique">incipit</marquage> et l’<marquage typemarq="italique">explicit</marquage> considérés comme les lieux stratégiques de l’écriture, permet de confirmer la théorie de sa pratique : immuabilité de la première phrase, premier jet dactylographié directement à l’ordinateur, re-travail acharné lors des multiples campagnes de relectures et réécritures. Au vu de celles-ci, cependant, la critique génétique peut avancer l’hypothèse que la singularité de ce roman autofictionnel tient à ce que l’écrivain aurait intégré, voire embarqué, le questionnement génétique dans le cabinet intime de son « écriture métisse », que ce soit pour le prévenir ou en émousser la pointe indiscrète. Le ver génétique est dans le fruit.</alinea>
+ </resume>
+ <resume typeresume="resume" lang="en"><alinea><marquage typemarq="italique">Although Henri Lopes regularly expressed his views at some length on the genesis of his novels and on his work as a writer, he was long reluctant to hand over his rough texts and preparatory work and make them available to researchers in textual genetics. He finally relented when Une enfant de Poto-Poto came out, on 12 December 2011, when he gave all the files he still had about the conception of his novel to the « French manuscripts » research team at the ITEM. Then, immediately after sending the approved proof copy of </marquage>Le Méridional <marquage typemarq="italique">to his publisher, he also gave them all of his files on this novel, i.e. two autograph typescripts, the first and second versions of the text corrected by his own hand. A first reading of these documents, which focusses more specifically on the </marquage>incipit<marquage typemarq="italique"> and the </marquage>explicit<marquage typemarq="italique"> as strategic sites of writing, confirms Lopes’ theoretical declarations about his own practice : his first sentence remains absolutely unchanged throughout, and he never stops editing and re-editing his text with each successive, unrelenting reading and proofreading. Taking those changes into consideration, however, it seems that the textual geneticist may suggest that Lopes’ auto-fictional novel owes its singular character to the fact that the writer has integrated, or even incorporated, this genetical questioning into the private cabinet of his own « métis » mode of writing, whether it be to forestall it, or to screen itself from its prying eyes. Even as it is conceived, the textual fruit has already been infected by the worm of genetics.</marquage></alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/1051619ar" idproprio="1051619ar" idref="th1" lang="fr" ordseq="12" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="532" unite="ko">/revue/ela/2018/v/n45/1051619ar.pdf</urlpdf>
+  <pagination>
+    <ppage>149</ppage>
+    <dpage>168</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Dossier</surtitre>
+                  <titre>Bibliographie</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1"><contribution typecontrib="aut">Constituée par</contribution>
+   <nompers>
+    <prenom>Bo-Hyun</prenom>
+    <nomfamille>Kim</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051620ar" horstheme="oui" idproprio="1051620ar" lang="fr" ordseq="13" qualtraitement="minimal" typeart="article">
+  <urlpdf taille="417" unite="ko">/revue/ela/2018/v/n45/1051620ar.pdf</urlpdf>
+  <pagination>
+    <ppage>169</ppage>
+    <dpage>173</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>À propos du décolonial</surtitre>
+                  <titre>La formation de la pensée décoloniale</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Adélia</prenom><autreprenom>da Silva</autreprenom>
+    <nomfamille>Mathias</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051621ar" horstheme="oui" idproprio="1051621ar" lang="fr" ordseq="14" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="392" unite="ko">/revue/ela/2018/v/n45/1051621ar.pdf</urlpdf>
+  <pagination>
+    <ppage>174</ppage>
+    <dpage>177</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>À propos du décolonial</surtitre>
+                  <titre>Quelques observations critiques</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Sarah</prenom>
+    <nomfamille>Burnautzki</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051622ar" horstheme="oui" idproprio="1051622ar" lang="fr" ordseq="15" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="579" unite="ko">/revue/ela/2018/v/n45/1051622ar.pdf</urlpdf>
+  <pagination>
+    <ppage>179</ppage>
+    <dpage>197</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Varias</surtitre>
+                  <titre>(Re)cartographies poétiques et imaginaire diasporique : une lecture de l’Atlantique noir à partir d’un <marquage typemarq="italique">Arc-en-ciel pour l’Occident chrétien</marquage>, <marquage typemarq="italique">Changó el gran putas</marquage> et <marquage typemarq="italique">The Salt Roads</marquage></titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Marine</prenom>
+    <nomfamille>Cellier</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051623ar" horstheme="oui" idproprio="1051623ar" lang="fr" ordseq="16" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="540" unite="ko">/revue/ela/2018/v/n45/1051623ar.pdf</urlpdf>
+  <pagination>
+    <ppage>199</ppage>
+    <dpage>211</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Varias</surtitre>
+                  <titre>Écriture, voyage et (con)quête dans <marquage typemarq="italique">Dahij</marquage> de Felwine Sarr</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Alioune</prenom>
+    <nomfamille>Diaw</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051624ar" horstheme="oui" idproprio="1051624ar" lang="fr" ordseq="17" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="344" unite="ko">/revue/ela/2018/v/n45/1051624ar.pdf</urlpdf>
+  <pagination>
+    <ppage>212</ppage>
+    <dpage>213</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+ALLEN-PAISANT (Jason), <marquage typemarq="italique">Théâtre dialectique postcolonial : Aimé Césaire et Derek Walcott</marquage>. Paris : Classiques Garnier, 2017, 267 p. – ISBN 978-2-406-06260-8</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Pierre</prenom>
+    <nomfamille>Boizette</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051625ar" horstheme="oui" idproprio="1051625ar" lang="fr" ordseq="18" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="332" unite="ko">/revue/ela/2018/v/n45/1051625ar.pdf</urlpdf>
+  <pagination>
+    <ppage>213</ppage>
+    <dpage>215</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+ANDERSEN (Frits), <marquage typemarq="italique">The Dark Continent ? Images of Africa in European narratives about the Congo</marquage>. Aarhus : Aarhus University Press, 2016, 692 p.<marquage typemarq="italique"> –</marquage> ISBN<marquage typemarq="italique"> </marquage>978-8-77124-853-1</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Katie</prenom>
+    <nomfamille>Tidmarsh</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051626ar" horstheme="oui" idproprio="1051626ar" lang="fr" ordseq="19" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="362" unite="ko">/revue/ela/2018/v/n45/1051626ar.pdf</urlpdf>
+  <pagination>
+    <ppage>215</ppage>
+    <dpage>218</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+BAHSOUN (Jihad), <marquage typemarq="italique">L’Islam dans les littératures francophones du Maghreb et du Moyen-Orient.</marquage> Paris : L’Harmattan, coll. Critiques littéraires, 2016, 164 p. – ISBN 978-2-343-10517-8</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Fatma</prenom>
+    <nomfamille>Agoun Perpère</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051627ar" horstheme="oui" idproprio="1051627ar" lang="fr" ordseq="20" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="330" unite="ko">/revue/ela/2018/v/n45/1051627ar.pdf</urlpdf>
+  <pagination>
+    <ppage>218</ppage>
+    <dpage>220</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+BECK (Rose Marie), KRESSE (Kai), dir., <marquage typemarq="italique">Abdilatif Abdalla : Poet in Politics</marquage>. Dar es Salaam : Mkuki na Nyota, 2016, 147 p. – ISBN 978-9987-753-38-3</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Nathalie</prenom>
+    <nomfamille>Carré</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051628ar" horstheme="oui" idproprio="1051628ar" lang="fr" ordseq="21" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="334" unite="ko">/revue/ela/2018/v/n45/1051628ar.pdf</urlpdf>
+  <pagination>
+    <ppage>220</ppage>
+    <dpage>223</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+BRÉZEAULT (Éloïse), JOHNSON L. (Erica), eds., <marquage typemarq="italique">Memory as Colonial Capital : Cross-cultural Encounters in French and English</marquage>. Basingstoke : Springer Nature, Palgrave Macmillan, coll. Palgrave Macmillan Memory Studies, 2017, 201 p. – ISBN 978-3-319-50576-3, ISBN 978-3-319-50577-0</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Karen</prenom>
+    <nomfamille>Ferreira-Meyers</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051629ar" horstheme="oui" idproprio="1051629ar" lang="fr" ordseq="22" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="327" unite="ko">/revue/ela/2018/v/n45/1051629ar.pdf</urlpdf>
+  <pagination>
+    <ppage>223</ppage>
+    <dpage>225</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+CALLE-GRUBER (Mireille), CREVIER GOULET (Sarah-Anaïs), LORRE-JOHNSTON <marquage typemarq="italique">(</marquage>Christine), dir.,<marquage typemarq="italique"> Écritures migrantes du genre : croiser les théories et les formes littéraires en contextes comparés</marquage>. Paris : Honoré Champion, coll. Colloques, congrès et conférences sur la littérature comparée, n°26, 2017, 269 p. – ISBN 9782745334398</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Marine</prenom>
+    <nomfamille>Cellier</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051630ar" horstheme="oui" idproprio="1051630ar" lang="fr" ordseq="23" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="324" unite="ko">/revue/ela/2018/v/n45/1051630ar.pdf</urlpdf>
+  <pagination>
+    <ppage>226</ppage>
+    <dpage>227</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+CASTAING (Anne), GADEN (Élodie), dir., <marquage typemarq="italique">Écrire et penser le genre en contextes postcoloniaux</marquage>. Bruxelles ; Bern ; etc. : Peter Lang, coll. Comparatisme et société, n°35, 2017, 321 p., 14 ill. n./b., 1 tabl. – ISBN 9782807603271</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Sabrina</prenom>
+    <nomfamille>Medouda</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051631ar" horstheme="oui" idproprio="1051631ar" lang="fr" ordseq="24" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="329" unite="ko">/revue/ela/2018/v/n45/1051631ar.pdf</urlpdf>
+  <pagination>
+    <ppage>227</ppage>
+    <dpage>229</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+CEPITELLI (Thomas), IBRAHIMA DIA (Thierno), RICCI (Daniella), dir., <marquage typemarq="italique">Arts, négritudes et métamorphoses identitaires. </marquage>Paris : L’Harmattan, coll. Éthiques de la Création, 2016, 220 p. – ISBN 978-2-343-10990-9</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Christina</prenom>
+    <nomfamille>Oikonomopoulou</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051632ar" horstheme="oui" idproprio="1051632ar" lang="fr" ordseq="25" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="324" unite="ko">/revue/ela/2018/v/n45/1051632ar.pdf</urlpdf>
+  <pagination>
+    <ppage>229</ppage>
+    <dpage>230</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+CURRAN (Andrew S.), <marquage typemarq="italique">L’Anatomie de la noirceur : science et esclavage à l’âge des Lumières</marquage>. Traduction de Patrick Graille. Paris : Classiques Garnier, coll. L’Europe des Lumières, n°53, 2017, 333 p. – ISBN 978-2-406-06404-6</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Pierre</prenom>
+    <nomfamille>Boizette</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051633ar" horstheme="oui" idproprio="1051633ar" lang="fr" ordseq="26" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="337" unite="ko">/revue/ela/2018/v/n45/1051633ar.pdf</urlpdf>
+  <pagination>
+    <ppage>230</ppage>
+    <dpage>233</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+DEPESTRE (René), <marquage typemarq="italique">Bonsoir tendresse : autobiographie. </marquage>Préface de Marc Augé, avant-propos de Jean-Luc Bonniol. Paris : Odile Jacob, 2018, 264 p. – ISBN 978-2-7381-4185-9</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Dominique</prenom>
+    <nomfamille>Ranaivoson</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051634ar" horstheme="oui" idproprio="1051634ar" lang="fr" ordseq="27" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="332" unite="ko">/revue/ela/2018/v/n45/1051634ar.pdf</urlpdf>
+  <pagination>
+    <ppage>233</ppage>
+    <dpage>235</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+DUBOIN (Corinne), RAYNAUD (Claudine), dir., <marquage typemarq="italique">African Americans and the Black Diaspora (Diasporas, Cultures of Mobilities</marquage>, <marquage typemarq="italique">“Race”, 3)</marquage>. Montpellier : Presses Universitaires de la Méditerranée, coll. Horizons anglophones PoCoPages, 2016, 352 p. – ISBN 978-2-36781-220-5</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Thérèse</prenom>
+    <nomfamille>De Raedt</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051635ar" horstheme="oui" idproprio="1051635ar" lang="fr" ordseq="28" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="331" unite="ko">/revue/ela/2018/v/n45/1051635ar.pdf</urlpdf>
+  <pagination>
+    <ppage>235</ppage>
+    <dpage>237</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+EL NAGGARE (Maroua), <marquage typemarq="italique">Traces d’enfance : analyse littéraire de trois recueils francophones de récits d’enfance</marquage>. München : AVM éditions [Akademische Verlagsgemeinschaft München], 2015, <marquage typemarq="majuscule">xi</marquage>-373 p – ISBN 978-3-95477-049-6</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Merveilles</prenom><autreprenom>Léoncia</autreprenom>
+    <nomfamille>Mouloungui</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051636ar" horstheme="oui" idproprio="1051636ar" lang="fr" ordseq="29" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="337" unite="ko">/revue/ela/2018/v/n45/1051636ar.pdf</urlpdf>
+  <pagination>
+    <ppage>237</ppage>
+    <dpage>240</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+FINK (Katharina), GERHARD (Susanne), SIEGERT (Nadine), dir., <marquage typemarq="italique">FAVT : Future Africa Visions in Time</marquage>. Nairobi : Contact Zones NRB ; [Bayreuth] : Bayreuth Academy of Advanced African Studies, [2017], 243 p. – ISBN 9789966099556</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Elara</prenom>
+    <nomfamille>Bertho</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051637ar" horstheme="oui" idproprio="1051637ar" lang="fr" ordseq="30" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="375" unite="ko">/revue/ela/2018/v/n45/1051637ar.pdf</urlpdf>
+  <pagination>
+    <ppage>240</ppage>
+    <dpage>242</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+GUERRIER (Wedsly Turenne), <marquage typemarq="italique">Réhabilitation d’un poète haïtien : Etzer Vilaire</marquage>. New York ; Bern ; etc. : Peter Lang, coll. Francophone Cultures &amp; Literatures, n°67, 2018, XIX-179 p. – ISBN 978-1-4331-3952-9</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Karen</prenom>
+    <nomfamille>Ferreira-Meyers</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051638ar" horstheme="oui" idproprio="1051638ar" lang="fr" ordseq="31" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="374" unite="ko">/revue/ela/2018/v/n45/1051638ar.pdf</urlpdf>
+  <pagination>
+    <ppage>242</ppage>
+    <dpage>244</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+HALEN (Pierre), PARAVY (Florence), dir., <marquage typemarq="italique">Littératures africaines et spiritualité</marquage>. Bordeaux : Presses Universitaires de Bordeaux, coll. Littératures des Afriques, n°2, 2016, 349 p. –<marquage typemarq="italique"> ISBN 9791030000863</marquage></trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Herman</prenom><autreprenom>Philippe</autreprenom>
+    <nomfamille>Sanon</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051639ar" horstheme="oui" idproprio="1051639ar" lang="fr" ordseq="32" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="326" unite="ko">/revue/ela/2018/v/n45/1051639ar.pdf</urlpdf>
+  <pagination>
+    <ppage>245</ppage>
+    <dpage>246</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+JAOMANORO (David), <marquage typemarq="italique">Oeuvres complètes</marquage>. Édition établie et présentée par Dominique Ranaivoson. Paris : Sépia, 2017, 396 p. – ISBN 979-10-334-0125-4</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Bernard</prenom>
+    <nomfamille>De Meyer</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051640ar" horstheme="oui" idproprio="1051640ar" lang="fr" ordseq="33" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="332" unite="ko">/revue/ela/2018/v/n45/1051640ar.pdf</urlpdf>
+  <pagination>
+    <ppage>246</ppage>
+    <dpage>248</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+KASONGO MULENDA KAPANGA, <marquage typemarq="italique">The Writing of the Nation : Expressing Identity through Congolese Literary Texts and Films</marquage>. Trenton, NJ : Africa World Press, 2017, 422 p. – ISBN 9781592219902</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Susanne</prenom>
+    <nomfamille>Gehrmann</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051641ar" horstheme="oui" idproprio="1051641ar" lang="fr" ordseq="34" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="331" unite="ko">/revue/ela/2018/v/n45/1051641ar.pdf</urlpdf>
+  <pagination>
+    <ppage>248</ppage>
+    <dpage>250</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+KONKOBO (Christophe), <marquage typemarq="italique">La Pratique du théâtre moderne au Burkina Faso</marquage>. Paris : L’Harmattan, coll. Univers théâtral, 2017, 351 p., ill – ISBN 978-2-343-12377-6</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Aurore</prenom>
+    <nomfamille>Desgranges</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051642ar" horstheme="oui" idproprio="1051642ar" lang="fr" ordseq="35" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="327" unite="ko">/revue/ela/2018/v/n45/1051642ar.pdf</urlpdf>
+  <pagination>
+    <ppage>250</ppage>
+    <dpage>525</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+MALELA (Buata B.), RASOAMANANA (Linda), TCHOKOTHE (Rémi), dir., <marquage typemarq="italique">Les Littératures francophones de l’archipel des Comores. </marquage>Paris : Classiques Garnier, coll. Rencontres, série Francophonies, n°1, 2017, 428 p. - ISBN 978-2-406-06237-0</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Dominique</prenom>
+    <nomfamille>Ranaivoson</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051643ar" horstheme="oui" idproprio="1051643ar" lang="fr" ordseq="36" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="324" unite="ko">/revue/ela/2018/v/n45/1051643ar.pdf</urlpdf>
+  <pagination>
+    <ppage>253</ppage>
+    <dpage>254</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+MAMBWINI KIVUILA-KIAKU (José), NSUKA NKOKO (Jean-Baptiste), <marquage typemarq="italique">L’Afrique vue par les Romains : les écrits de Salluste et de Lucain. </marquage>Préface de Donatien Manzefo N’kuni. Paris : L’Harmattan, 2017, 163 p –ISBN 978-2-343-11301-2</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Mélissa</prenom>
+    <nomfamille>Mengue</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051644ar" horstheme="oui" idproprio="1051644ar" lang="fr" ordseq="37" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="338" unite="ko">/revue/ela/2018/v/n45/1051644ar.pdf</urlpdf>
+  <pagination>
+    <ppage>254</ppage>
+    <dpage>258</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+MEHTA (Binita), MUKHERJI (Pia), dir., <marquage typemarq="italique">Postcolonial Comics : Texts, Events, Identities</marquage>. New York &amp; London : Routledge, coll. Routledge research in postcolonial literatures, n°53, 2015, VIII-235 p. – ISBN 9781315817576</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Markus</prenom>
+    <nomfamille>Arnold</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051645ar" horstheme="oui" idproprio="1051645ar" lang="fr" ordseq="38" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="328" unite="ko">/revue/ela/2018/v/n45/1051645ar.pdf</urlpdf>
+  <pagination>
+    <ppage>258</ppage>
+    <dpage>260</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+MONNIER (Jehanne-Emmanuelle), <marquage typemarq="italique">Profession explorateur : Alfred Grandidier 1836-1921. </marquage>Préface d’Évelyne Combeau-Mari. Rennes : Presses universitaires de Rennes, coll. Histoire, 2017, 264 p. – ISBN 978-2-7535-5311-8</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Dominique</prenom>
+    <nomfamille>Ranaivoson</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051646ar" horstheme="oui" idproprio="1051646ar" lang="fr" ordseq="39" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="329" unite="ko">/revue/ela/2018/v/n45/1051646ar.pdf</urlpdf>
+  <pagination>
+    <ppage>260</ppage>
+    <dpage>262</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+MOURRE (Martin), <marquage typemarq="italique">Thiaroye 1944. Histoire et mémoire d’un massacre colonial.</marquage> Préface d’Elikia M’Bokolo, postface de Bob W. White. Rennes : Presses Universitaires de Rennes, coll. Histoire, 2017, 239 p., VIII pl. – ISBN 978-2-7535-5345-3</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Elara</prenom>
+    <nomfamille>Bertho</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051647ar" horstheme="oui" idproprio="1051647ar" lang="fr" ordseq="40" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="330" unite="ko">/revue/ela/2018/v/n45/1051647ar.pdf</urlpdf>
+  <pagination>
+    <ppage>262</ppage>
+    <dpage>264</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+MÜLLER (Bernard), PASQUALINO (Caterina), SCHNEIDER (Arnd), éd., <marquage typemarq="italique">Le Terrain comme mise en scène</marquage>. Lyon : Presses universitaires de Lyon, coll. Nouvelles écritures de l’anthropologie, 2017, 186 p. – ISBN 978-2-7297-0930-3</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Yannick</prenom><autreprenom>Martial</autreprenom>
+    <nomfamille>Ndong Ndong</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051648ar" horstheme="oui" idproprio="1051648ar" lang="fr" ordseq="41" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="343" unite="ko">/revue/ela/2018/v/n45/1051648ar.pdf</urlpdf>
+  <pagination>
+    <ppage>264</ppage>
+    <dpage>268</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+NDALIKO RIVERS (Chérie), <marquage typemarq="italique">Necessary Noise. Music, Film, and Charitable Imperialism in the Eastern Congo. </marquage>Oxford ; New York : Oxford University Press<marquage typemarq="italique">, </marquage>2016, XIX-285 p., ill. cartes – ISBN 978-0-19-049958-7</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Maëline</prenom>
+    <nomfamille>Le Lay</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051649ar" horstheme="oui" idproprio="1051649ar" lang="fr" ordseq="42" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="378" unite="ko">/revue/ela/2018/v/n45/1051649ar.pdf</urlpdf>
+  <pagination>
+    <ppage>268</ppage>
+    <dpage>270</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+NOUWLIGBÈTO (Fernand), <marquage typemarq="italique">Théâtre béninois : logiques marchandes et enjeux esthétiques</marquage>. [Bénin] : CIREF Éditions, 2016, 231 p., ill. – ISBN 978-99919-2-492-2</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Aurore</prenom>
+    <nomfamille>Desgranges</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051650ar" horstheme="oui" idproprio="1051650ar" lang="fr" ordseq="43" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="376" unite="ko">/revue/ela/2018/v/n45/1051650ar.pdf</urlpdf>
+  <pagination>
+    <ppage>270</ppage>
+    <dpage>271</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+PINTO RIBEIRO (António), <marquage typemarq="italique">África, os Quatro Rios : a representação de África através da literatura de viagens europeia e norte-american</marquage>. Porto : Afrontamento, 2017, 178 p. – ISBN 9789898776684</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Fernanda</prenom>
+    <nomfamille>Vilar</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051651ar" horstheme="oui" idproprio="1051651ar" lang="fr" ordseq="44" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="331" unite="ko">/revue/ela/2018/v/n45/1051651ar.pdf</urlpdf>
+  <pagination>
+    <ppage>271</ppage>
+    <dpage>273</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+ROY (Michaël), <marquage typemarq="italique">Textes fugitifs : le récit d’esclave au prisme de l’histoire du livre</marquage>. Lyon : ENS Éditions, 2017, 344 p. – ISBN<marquage typemarq="italique"> </marquage>978-2-84788-968-0</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Rocío</prenom>
+    <nomfamille>Munguía Aguilar</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051652ar" horstheme="oui" idproprio="1051652ar" lang="fr" ordseq="45" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="331" unite="ko">/revue/ela/2018/v/n45/1051652ar.pdf</urlpdf>
+  <pagination>
+    <ppage>273</ppage>
+    <dpage>275</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+SCHREIER (Lise), éd., <marquage typemarq="italique">Gens de couleur dans trois vaudevilles du XIX</marquage><exposant><marquage typemarq="italique">e</marquage></exposant><marquage typemarq="italique"> siècle. Joseph Aude et J. H. d’Egville, </marquage>Les Deux Colons<marquage typemarq="italique">. Clairville et Paul Siraudin, </marquage>Malheureux comme un nègre<marquage typemarq="italique">. Duvert et Lauzanne, </marquage>La Fin d’une République, ou Haïti en 1849. Paris : L’Harmattan, coll. Autrement mêmes, 2017, 302 p. – ISBN 978-2-343-11238-1</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Nicolas</prenom>
+    <nomfamille>Brucker</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051653ar" horstheme="oui" idproprio="1051653ar" lang="fr" ordseq="46" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="330" unite="ko">/revue/ela/2018/v/n45/1051653ar.pdf</urlpdf>
+  <pagination>
+    <ppage>276</ppage>
+    <dpage>278</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+VAN DEN AVENNE (Cécile), <marquage typemarq="italique">De la bouche même des indigènes : échanges linguistiques en Afrique coloniale</marquage>. Paris : Vendémiaire, 2017, coll. Empires, 268 p. – ISBN 978-2-36538-251-5</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Nathalie</prenom>
+    <nomfamille>Carré</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051654ar" horstheme="oui" idproprio="1051654ar" lang="fr" ordseq="47" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="323" unite="ko">/revue/ela/2018/v/n45/1051654ar.pdf</urlpdf>
+  <pagination>
+    <ppage>278</ppage>
+    <dpage>279</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Comptes rendus</surtitre>
+                
+                    <trefbiblio>
+VIERKE (Clarissa), GREVEN (Katharina), dir., <marquage typemarq="italique">Dunia Yao : Utopia / Dystopia in Swahili Fiction. In Honour of Said A.M. Khamis</marquage>. Köln : Rüdiger Köppe Verlag, 2016, 232 p. – ISBN 978-3-89645-736-3</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Flavia</prenom>
+    <nomfamille>Aiello</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051655ar" horstheme="oui" idproprio="1051655ar" lang="fr" ordseq="48" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="365" unite="ko">/revue/ela/2018/v/n45/1051655ar.pdf</urlpdf>
+  <pagination>
+    <ppage>280</ppage>
+    <dpage>282</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Revues</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Apulée : revue de littérature et de réflexion</marquage>, (Paris : Zulma), n°3 (<marquage typemarq="italique">La guerre et la paix</marquage>), 2018, 448 p. – ISBN 978-2-84304-814-2</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Elara</prenom>
+    <nomfamille>Bertho</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051656ar" horstheme="oui" idproprio="1051656ar" lang="fr" ordseq="49" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="354" unite="ko">/revue/ela/2018/v/n45/1051656ar.pdf</urlpdf>
+  <pagination>
+    <ppage>282</ppage>
+    <dpage>284</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Revues</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Éthiopiques : revue négro-africaine de littérature, de philosophie, de sociologie, d’anthropologie et d’art</marquage>, (Dakar : Fondation Senghor), n°98 (<marquage typemarq="italique">Nouvelles technologies et identités culturelles</marquage>), 1<exposant>er</exposant> semestre 2017, 277 p. – ISSN 0850-2005</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Pierre</prenom>
+    <nomfamille>Halen</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051657ar" horstheme="oui" idproprio="1051657ar" lang="fr" ordseq="50" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="346" unite="ko">/revue/ela/2018/v/n45/1051657ar.pdf</urlpdf>
+  <pagination>
+    <ppage>284</ppage>
+    <dpage>285</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Revues</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">French Studies in Southern Africa / Études françaises en Afrique australe</marquage>, n°47, 2017, 241 p. – ISSN 0259-0247</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Pierre</prenom>
+    <nomfamille>Halen</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051658ar" horstheme="oui" idproprio="1051658ar" lang="fr" ordseq="51" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="328" unite="ko">/revue/ela/2018/v/n45/1051658ar.pdf</urlpdf>
+  <pagination>
+    <ppage>285</ppage>
+    <dpage>287</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Revues</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Ponti / Ponts : langues, littératures et civilisations des pays francophones</marquage>, (Milano : Mimesis), n°17 (<marquage typemarq="italique">Jouer avec les mots</marquage>), 2017, 267 p. – ISSN 1827-9767</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Pierre</prenom>
+    <nomfamille>Halen</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051659ar" horstheme="oui" idproprio="1051659ar" lang="fr" ordseq="52" qualtraitement="minimal" typeart="compterendu">
+  <urlpdf taille="321" unite="ko">/revue/ela/2018/v/n45/1051659ar.pdf</urlpdf>
+  <pagination>
+    <ppage>287</ppage>
+    <dpage>288</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Revues</surtitre>
+                
+                    <trefbiblio>
+<marquage typemarq="italique">Présence francophone : revue internationale de langue et de littérature</marquage>, (Worcester), n°89 (<marquage typemarq="italique">Littérature burkinabè en transition</marquage>), 2017, 189 p. – ISSN 0048-5195</trefbiblio>
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Pierre</prenom>
+    <nomfamille>Halen</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/1051660ar" horstheme="oui" idproprio="1051660ar" lang="fr" ordseq="53" qualtraitement="minimal" typeart="autre">
+  <urlpdf taille="545" unite="ko">/revue/ela/2018/v/n45/1051660ar.pdf</urlpdf>
+  <pagination>
+    <ppage>289</ppage>
+    <dpage>296</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Thèses soutenues en 2017</surtitre>
+                  <titre>Thèses soutenues en 2017</titre>
+                
+         </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Sabine</prenom>
+    <nomfamille>Aka Koffi</nomfamille>
+   </nompers>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>Maxwell</prenom>
+    <nomfamille>Chilembwe</nomfamille>
+   </nompers>
+  </auteur>
+  <auteur id="au3">
+   <nompers>
+    <prenom>Sandra</prenom>
+    <nomfamille>Federici</nomfamille>
+   </nompers>
+  </auteur>
+  <auteur id="au4">
+   <nompers>
+    <prenom>Tite</prenom>
+    <nomfamille>Lattro</nomfamille>
+   </nompers>
+  </auteur>
+  <auteur id="au5">
+   <nompers>
+    <prenom>Élodie</prenom>
+    <nomfamille>Malanda</nomfamille>
+   </nompers>
+  </auteur>
+  <auteur id="au6">
+   <nompers>
+    <prenom>Sabrina</prenom>
+    <nomfamille>Medouda</nomfamille>
+   </nompers>
+  </auteur>
+  <auteur id="au7">
+   <nompers>
+    <prenom>Mathusalem</prenom>
+    <nomfamille>Nganga Mienanzambi</nomfamille>
+   </nompers>
+  </auteur>
+  <auteur id="au8">
+   <nompers>
+    <prenom>Romuald</prenom><autreprenom>Valentin</autreprenom>
+    <nomfamille>Nkouda Sopgui</nomfamille>
+   </nompers>
+  </auteur>
+  <auteur id="au9">
+   <nompers>
+    <prenom>Tal</prenom>
+    <nomfamille>Sela</nomfamille>
+   </nompers>
+  </auteur>
+  <auteur id="au10">
+   <nompers>
+    <prenom>Teresa</prenom>
+    <nomfamille>Solis</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+</sommaire>

@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sommaire xmlns:xlink="http://www.w3.org/1999/xlink">
+<originator username="jestp27" date="2013-02-13" app="Tournesol 0.4.1"/>
+
+<publicationnumberingkeys>
+	<publicationtypecode>reg</publicationtypecode>
+	<years>
+		<year value="2002">
+		</year>
+	</years>
+</publicationnumberingkeys><infosommaire>
+  <url>/revue/etudinuit/2002/v26/n1</url>
+  <nbarticle>22</nbarticle>
+  <revue id="etudinuit69" lang="fr">
+    <titrerev>Études/Inuit/Studies</titrerev>
+    <titrerevabr>etudinuit</titrerevabr>
+    <idissn>0701-1008</idissn>
+    <idissnnum>1708-5268</idissnnum>
+    <directeur sexe="feminin">
+      <nompers>
+        <prenom>Murielle</prenom>
+        <nomfamille>Nagy</nomfamille>
+      </nompers>
+      <key>directeur</key>
+    </directeur>
+    <redacteurchef sexe="feminin" typerc="regulier">
+      <fonction lang="fr">Rédactrice en chef</fonction>
+      <nompers>
+        <prenom>Murielle</prenom>
+        <nomfamille>Nagy</nomfamille>
+      </nompers>
+      <key>redactriceenchef</key>
+    </redacteurchef>
+    <redacteurchef sexe="masculin" typerc="invite">
+      <nompers>
+        <prenom>Frédéric</prenom>
+        <nomfamille>Laugrand</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+    <redacteurchef sexe="masculin" typerc="invite">
+      <nompers>
+        <prenom>Jarich</prenom>
+        <nomfamille>Oosten</nomfamille>
+      </nompers>
+      <key>redacteurchefinvite</key>
+    </redacteurchef>
+  </revue>
+  <numero id="etudinuit777">
+    <volume>26</volume>
+    <nonumero>1</nonumero>
+    <pub>
+      <annee>2002</annee>
+    </pub>
+    <pubnum>
+      <date>2004-10-19</date>
+    </pubnum>
+    <grtheme>
+      <theme>Perspectives inuit et qallunaat : points de vue en interaction</theme>
+      <themeparal lang="en">Inuit and Qallunaaq perspectives: Interacting points of view</themeparal>
+    </grtheme>
+  </numero>
+  <editeur id="ed44">
+    <nomorg>Association Inuksiutiit Katimajiit Inc.</nomorg>
+    <key>editeur</key>
+  </editeur>
+  <droitsauteur>Tous droits réservés © <nomorg>La revue Études/Inuit/Studies</nomorg>, 2002</droitsauteur>
+</infosommaire>
+<article doi="10.7202/009269ar" idproprio="009269ar" lang="fr" qualtraitement="complet" typeart="autre" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009269ar.html</urlhtml>
+  <urlpdf taille="41" unite="ko">/revue/etudinuit/2002/v26/n1/009269ar.pdf</urlpdf>
+  <pagination>
+    <ppage>5</ppage>
+    <dpage>8</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>  <titre>Éditorial</titre> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Bernard</prenom>
+    <nomfamille>Saladin d’Anglure</nomfamille>
+   </nompers>
+  <affiliation><alinea>Président, Association Inuksiutiit Katimajiit</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/009270ar" idproprio="009270ar" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009270ar.html</urlhtml>
+  <urlpdf taille="58" unite="ko">/revue/etudinuit/2002/v26/n1/009270ar.pdf</urlpdf>
+  <pagination>
+    <ppage>9</ppage>
+    <dpage>15</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>  <titre>Perspectives inuit et qallunaat: points de vue en interaction</titre> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Frédéric</prenom>
+    <nomfamille>Laugrand</nomfamille>
+   </nompers>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>Jarich</prenom>
+    <nomfamille>Oosten</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/009271ar" idproprio="009271ar" lang="en" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009271ar.html</urlhtml>
+  <urlpdf taille="304" unite="ko">/revue/etudinuit/2002/v26/n1/009271ar.pdf</urlpdf>
+  <urlplan>/revue/etudinuit/2002/v26/n1/009271ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>17</ppage>
+    <dpage>44</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>  <titre><marquage typemarq="italique">Qaujimajatuqangit </marquage>and social problems in modern Inuit society. An elders workshop on <marquage typemarq="italique">angakkuuniq</marquage></titre>  <titreparal lang="fr"><marquage typemarq="italique">Qaujimajatuqangit</marquage> et problèmes sociaux dans la société inuit contemporaine. Un  atelier avec des aînés concernant l’<marquage typemarq="italique">angakkuuniq</marquage></titreparal> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Jarich</prenom>
+    <nomfamille>Oosten</nomfamille>
+   </nompers>
+  <affiliation><alinea>Research School of Asian, African, and Amerindian Studies (CNWS)</alinea><alinea>University of Leiden</alinea><alinea>P.O. Box 9515</alinea><alinea>2300 RA Leiden</alinea><alinea>Netherlands</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>Frédéric</prenom>
+    <nomfamille>Laugrand</nomfamille>
+   </nompers>
+  <affiliation><alinea>Faculté de théologie et sciences religieuses</alinea><alinea>Université Laval</alinea><alinea>Québec, Canada</alinea><alinea>G1K 7P4</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume lang="en">  <titre>Abstract</titre><alinea>This paper discusses the main results of a workshop on "Integrating <marquage typemarq="italique">Inuit Qaujimajatuqangit </marquage>into methods of social control" that was held in Rankin Inlet in July 2000. The workshop was set up from an anthropological perspective to record the views of Inuit elders on social control and <marquage typemarq="italique">angakkuuniq</marquage> (shamanism). In many respects the results of the workshop confirm current trends and efforts to strengthen the involvement of Inuit communities in the judicial processes, especially with respect to minor offences. Today Inuit traditional knowledge and values are rapidly eroding. Many knowledgeable elders who grew up in the nomadic period and in contact with shamans are now passing away and with them disappears the knowledge of the great traditions of <marquage typemarq="italique">angakkuuniq</marquage> and related beliefs and practices. Hence there is an urgent need to record knowledge from Inuit elders with due attention to its richness and local variation.</alinea>
+ </resume>
+ <resume lang="fr">  <titre>Résumé</titre><alinea>Cet article présente les principaux résultats d’un atelier sur "L’intégration des <marquage typemarq="italique">Inuit Qaujimajatuqangit </marquage>dans le domaine du contrôle social." L’atelier s’est tenu à Rankin Inlet en juillet 2000. Cet atelier a été organisé dans une perspective anthropologique avec l’objectif de recueillir la vision des aînés sur le contrôle social et sur l’<marquage typemarq="italique">angakkuuniq</marquage> (chamanisme). À bien des égards, les résultats de ces échanges confirment le bien fondé des initiatives contemporaines visant à favoriser autant que possible la participation des Inuit aux différents processus juridiques, et en particulier ceux concernant les délits mineurs. Aujourd’hui, les savoirs traditionnels des Inuit ainsi que certaines de leurs valeurs fondamentales paraissent d’autant plus menacés que les aînés qui ont connu la vie nomade de jadis et vécu au contact des chamanes sont en train de disparaître, emportant avec eux des pans entiers des riches traditions chamaniques. Si la collecte de données auprès des aînés s’avère urgente sur ces thématiques, elle doit s’accompagner d’une prise en compte des richesses régionales et des variations locales.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/009272ar" idproprio="009272ar" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009272ar.html</urlhtml>
+  <urlpdf taille="264" unite="ko">/revue/etudinuit/2002/v26/n1/009272ar.pdf</urlpdf>
+  <urlplan>/revue/etudinuit/2002/v26/n1/009272ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>45</ppage>
+    <dpage>70</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>  <titre>La nuit inuit. Éléments de réflexion</titre>  <titreparal lang="en">The Inuit night. Some reflections</titreparal> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Guy</prenom>
+    <nomfamille>Bordin</nomfamille>
+   </nompers>
+  <affiliation><alinea>Institut national des langues et civilisations orientales,</alinea><alinea>2 rue de Lille, 75343 Paris Cedex 07</alinea><alinea>et</alinea><alinea>Laboratoire d’ethnologie et sociologie comparative, Université de Paris,</alinea><alinea>X-Nanterre, 92023 Nanterre, France.</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume lang="fr">  <titre>Résumé</titre><alinea>Alors que les ethnographes ont de tout temps eu l’attention retenue par l’hiver et l’été arctiques, justifiant par des caractéristiques climatiques «extrêmes» leurs analyses souvent déterministes des modes de vie inuit qu’ils ont décrits, ils ont en revanche peu écrit sur la nuit vécue au quotidien et ses représentations. La nuit inuit reste méconnue. Dans le présent article, notre objectif principal est de proposer quelques éléments de réflexion susceptibles de conduire à une perception renouvelée de cette période du nycthémère. Pour ce faire, nous confrontons des écrits d’Inuit originaires de l’Arctique oriental canadien à ce que nous enseignent les récits ethnographiques classiques et des études ethnologiques plus récentes. Au-delà de la mise en évidence d’une série de paradoxes (ou apparaissant comme tels), nous cherchons à montrer qu’une vision simplificatrice — la longue huit hivernale versus le bref été lumineux — n’a que peu à voir avec le vécu et les représentations inuit. Il s’agit plus généralement de contribuer à faire de la nuit un objet anthropologique.</alinea>
+ </resume>
+ <resume lang="en">  <titre>Abstract</titre><alinea>Although early ethnographers paid attention to arctic winters and summers while using "extreme" climatic characteristics of the Arctic in their often deterministic descriptions and analyses of the Inuit way of life, they wrote very little about the night and its representations. Inuit night is not well known. In the present article, our main objective is to suggest elements of reflection susceptible to lead to a renewed perception of the Inuit night. To do so, we will compare narratives of Inuit from the Eastern Canadian Arctic to those collected in classic and more recent ethnographies. Beyond the identification of a series of paradoxes (or which appear as such), we will try to demonstrate that a simplified vision — the long winter night versus the brief bright summer — has little to do with the real life and representations of the Inuit. This paper contributes more generally to making the night an anthropological object.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/009273ar" idproprio="009273ar" lang="fr" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009273ar.html</urlhtml>
+  <urlpdf taille="520" unite="ko">/revue/etudinuit/2002/v26/n1/009273ar.pdf</urlpdf>
+  <urlplan>/revue/etudinuit/2002/v26/n1/009273ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>71</ppage>
+    <dpage>108</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>  <titre>«Qui se ressemble s’assemble.» Logique de construction et d’organisation des zoonymes en langue inuit</titre>  <titreparal lang="en">Logic in the construction and organization of zoonyms in the Inuit language</titreparal> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Vladimir</prenom>
+    <nomfamille>Randa</nomfamille>
+   </nompers>
+  <affiliation><alinea>Laboratoire de Langues et Civilisations à Tradition Orale (LACITO) du Centre National de la Recherche Scientifique (CNRS)</alinea><alinea>et</alinea><alinea>Institut National des Langues et Civilisations Orientales (INALCO), Paris.</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume lang="fr">  <titre>Résumé</titre><alinea>Être en mesure de nommer avec précision et discernement le milieu naturel dans lequel on vit, notamment la faune, fait partie aux yeux des Inuit des compétences qui fondent leur identité culturelle. Parallèlement à l’étude du sens, l’analyse formelle des noms d’animaux et de la nomenclature zoologique fournit de précieuses informations sur la manière dont les Inuit perçoivent la faune. Loin d’être composée de termes isolés, la nomenclature zoologique se caractérise par de nombreuses connexions lexicales: celles-ci impliquent bien entendu en priorité des animaux faisant partie des mêmes taxa mais aussi, dans un certain nombre de cas, des animaux appartenant à des catégories différentes. En règle générale, c’est la ressemblance morphologique qui est à l’origine de ces mises en relation qui se réalisent par le biais de la dérivation lexicale. Nombre de zoonymes sont construits à partir des noms des parties anatomiques (corporèmes), indication que le corps animal et humain constitue, ici comme dans d’autres registres de la culture inuit, une référence incontournable.</alinea>
+ </resume>
+ <resume lang="en">  <titre>Abstract</titre><alinea>To be able to name with precision and discernment the natural milieu in which one lives, such as fauna, is part of the skills on which Inuit cultural identity is based. In parallel to the study of meaning, the formal analysis of animal names and zoological nomenclature brings rich informations on the Inuit way to perceive fauna. Far from consisting in isolated terms,  zoological nomenclature is characterized by  numerous  lexical connections that prioritize animals which are part of the same taxa but also, in some cases, which belong to different categories. In general, it is the morphological resemblance that is at the origin of relationships which are materialized by the bias of lexical derivation. Numerous zoonyms are built from the names of anatomical parts, which is an indication that the body of both animals and humans constitutes, here as well as in other parts of Inuit culture, an essential reference.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/009274ar" idproprio="009274ar" lang="en" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009274ar.html</urlhtml>
+  <urlpdf taille="356" unite="ko">/revue/etudinuit/2002/v26/n1/009274ar.pdf</urlpdf>
+  <urlplan>/revue/etudinuit/2002/v26/n1/009274ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>109</ppage>
+    <dpage>141</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>  <titre>The birth of a Catholic Inuit community. The transition to Christianity in Pelly Bay, Nunavut, 1935-1950</titre>  <titreparal lang="fr">La naissance d’une communauté catholique inuit. La transition vers le  christianisme à Pelly Bay, Nunavut, 1935-1950</titreparal> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Cornelius</prenom><autreprenom>H.W.</autreprenom>
+    <nomfamille>Remie</nomfamille>
+   </nompers>
+  <affiliation><alinea>Department of Cultural and Social Anthropology, University of Nijmegen, Nijmegen, Netherlands.</alinea>
+  </affiliation>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>Jarich</prenom>
+    <nomfamille>Oosten</nomfamille>
+   </nompers>
+  <affiliation><alinea>Research School of Asian, African and Amerindian Studies (CNWS), University of Leiden, Leiden, Netherlands.</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume lang="en">  <titre>Abstract</titre><alinea>The transition to Catholicism in Pelly Bay is usually described as a successful conquest of a pagan <marquage typemarq="italique">terra nullius</marquage>, a process in which Inuit played only a passive role. In fact, there was already a nucleus of Catholics in Pelly Bay when the first missionary arrived. Inuit invited him to come and stay with them. This article describes the early years of the transition to Catholicism, as well as some religious, political and economic factors that played a part in this process. Missionary sources reveal that Inuit were by no means passive consumers, but active participants with their own interests and agendas. The missionaries appear to have been more concerned with the containment of the westward expansion of Anglicanism than the survival of paganism. Although the missionaries assumed leadership roles in many fields, they were often not aware of the extent to which Inuit continued traditional practices outside the scope of the missionaries. Moreover, many traditional practices were integrated into Christianity. Within the context of the Catholic Church, Inuit developed their own form of religiosity responding to their existential and cultural needs.</alinea>
+ </resume>
+ <resume lang="fr">  <titre>Résumé</titre><alinea>La transition au catholicisme à Pelly Bay est habituellement décrite comme une conquête réussie dans une <marquage typemarq="italique">terra nullius</marquage> païenne, un processus dans lequel les Inuit auraient joué un rôle passif. En fait, il y avait déjà un noyau de catholiques à Pelly Bay quand le premier missionnaire y arriva. Les Inuit l’avaient invité à venir rester avec eux. Cet article décrit les premières années de la transition au catholicisme, ainsi que certains facteurs religieux, politiques et économiques qui jouèrent un rôle dans ce processus. Les sources missionnaires révèlent que les Inuit ne furent pas du tout des consommateurs passifs mais plutôt des participants actifs avec leurs propres intérêts et agendas. Les missionnaires semblent avoir été plus concernés par leur désir de circonscrire l’avancée de l’anglicanisme dans l’ouest que par la survie du paganisme. Bien que les missionnaires aient assumé des rôles de leaders dans plusieurs domaines, souvent ils ne savaient pas que les Inuit continuaient leurs pratiques. De plus, plusieurs pratiques traditionnelles furent intégrées au christianisme. Dans le contexte de l’église catholique, les Inuit développèrent leur propre forme de religiosité qui répondait à leurs besoins existentiels et culturels.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/009275ar" idproprio="009275ar" lang="en" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009275ar.html</urlhtml>
+  <urlpdf taille="257" unite="ko">/revue/etudinuit/2002/v26/n1/009275ar.pdf</urlpdf>
+  <urlplan>/revue/etudinuit/2002/v26/n1/009275ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>143</ppage>
+    <dpage>166</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>  <titre>Syntactic constructions involving verbs of elocution in West Greenlandic</titre>  <titreparal lang="fr">Constructions syntaxiques impliquant des verbes d’élocution en groenlandais de  l’ouest</titreparal> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Anna</prenom>
+    <nomfamille>Berge</nomfamille>
+   </nompers>
+  <affiliation><alinea>Alaska Native Language Center, University of Alaska, Fairbanks, AK 99775, USA.</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume lang="en">  <titre>Abstract</titre><alinea>This article seeks to demonstrate, on the basis of textual evidence in the historical period of West Greenlandic, that there exists an indirect speech construction in this language, even if there is a marked preference for direct speech strategies.</alinea>
+ </resume>
+ <resume lang="fr">  <titre>Résumé</titre><alinea>Cet article tente de démontrer, à partir de textes en groenlandais de l’ouest de la période historique, qu’il existe une forme de discours indirect dans cette langue, quoique il y ait une nette préférence pour le discours direct.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/009276ar" idproprio="009276ar" lang="en" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009276ar.html</urlhtml>
+  <urlplan>/revue/etudinuit/2002/v26/n1/009276ar.html?vue=plan</urlplan>
+  <accessible>non</accessible>
+  <pagination>
+    <ppage>167</ppage>
+    <dpage>174</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Documents</surtitre>  <titre>The seal: An integral part of our culture</titre> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Aaju</prenom>
+    <nomfamille>Peter</nomfamille>
+   </nompers>
+  </auteur>
+  <auteur id="au2">
+   <nompers>
+    <prenom>Myna</prenom>
+    <nomfamille>Ishulutak</nomfamille>
+   </nompers>
+  </auteur>
+  <auteur id="au3">
+   <nompers>
+    <prenom>Julia</prenom>
+    <nomfamille>Shaimaiyuk</nomfamille>
+   </nompers>
+  </auteur>
+  <auteur id="au4">
+   <nompers>
+    <prenom>Jeannie</prenom>
+    <nomfamille>Shaimaiyuk</nomfamille>
+   </nompers>
+  </auteur>
+  <auteur id="au5">
+   <nompers>
+    <prenom>Nancy</prenom>
+    <nomfamille>Kisa</nomfamille>
+   </nompers>
+  </auteur>
+  <auteur id="au6">
+   <nompers>
+    <prenom>Bernice</prenom>
+    <nomfamille>Kootoo</nomfamille>
+   </nompers>
+  </auteur>
+  <auteur id="au7">
+   <nompers>
+    <prenom>Susan</prenom>
+    <nomfamille>Enuaraq</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur><notegen typenoteg="edito"><alinea>All former students from the Inuit Studies Program, Nunavut Arctic College, Iqaluit. This paper was presented at the Third International Congress of Arctic Social Sciences (ICASS III) in Copenhagen, in 1998, as well as at the Institut National des Langues et Civilisations Orientales (INALCO) in Paris and at the Research School of Asian, African and Amerindian Studies (CNWS) at the University of Leiden.</alinea></notegen>
+</liminaire>
+</article>
+<article doi="10.7202/009277ar" idproprio="009277ar" lang="en" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009277ar.html</urlhtml>
+  <urlplan>/revue/etudinuit/2002/v26/n1/009277ar.html?vue=plan</urlplan>
+  <accessible>non</accessible>
+  <pagination>
+    <ppage>175</ppage>
+    <dpage>179</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Documents</surtitre>  <titre>Child-birth in the past</titre> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Bernice</prenom>
+    <nomfamille>Kootoo</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/009278ar" idproprio="009278ar" lang="en" qualtraitement="complet" typeart="article" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009278ar.html</urlhtml>
+  <urlplan>/revue/etudinuit/2002/v26/n1/009278ar.html?vue=plan</urlplan>
+  <accessible>non</accessible>
+  <pagination>
+    <ppage>181</ppage>
+    <dpage>182</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Documents</surtitre>  <titre>Teaching Inuktitut in school: Our experiences at the Attaguttaaluk elementary school in Igloolik, Nunavut</titre> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Vera</prenom>
+    <nomfamille>Qulaut Arnatsiaq</nomfamille>
+   </nompers>
+  </auteur>
+ </grauteur><notegen typenoteg="edito"><alinea>This paper has been presented by Vera Arnatsiaq and Rebecca Atagutaaluk at the CURA <marquage typemarq="italique">Memory and History in Nunavut</marquage> seminar entitled "The Transfer of Inuit <marquage typemarq="italique">Qaujimajatuqangit</marquage>" that was held in Igloolik May 1-3, 2001.</alinea></notegen>
+</liminaire>
+</article>
+<article doi="10.7202/009279ar" idproprio="009279ar" lang="en" qualtraitement="complet" typeart="note" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009279ar.html</urlhtml>
+  <urlpdf taille="118" unite="ko">/revue/etudinuit/2002/v26/n1/009279ar.pdf</urlpdf>
+  <urlplan>/revue/etudinuit/2002/v26/n1/009279ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>183</ppage>
+    <dpage>191</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Notes de recherche</surtitre>  <titre>Inuit identities in Montreal, Canada</titre> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Nobuhiro</prenom>
+    <nomfamille>Kishigami</nomfamille>
+   </nompers>
+  <affiliation><alinea>National Museum of Ethnology, Osaka, Japan.</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume lang="en">  <titre>Abstract</titre><alinea>As Dorais (1994) has indicated, the distinction between the concepts of cultural and ethnic identities are important for us to understand the identities of contemporary Canadian Inuit Although the Inuit themselves do not distinguish between these identities, I consider them to be useful analytical concepts. I argue that cultural identity is a tool for an Inuk to live with his fellow Inuit in daily life and that ethnic identity is a political tool especially for both urban and arctic Inuit to deal with others in multi-ethnic situations.</alinea>
+ </resume>
+ <resume lang="fr">  <titre>Résumé</titre><alinea>Comme Dorais (1994) l’a indiqué, il est important de faire une distinction entre les concepts d’identités culturelles et ethniques afin de comprendre les identités des Inuit contemporains du Canada. Bien que les Inuit ne distinguent pas eux-mêmes ces identités, je les considère comme étant des concepts analytiques pratiques. Je suggère donc que l’identité culturelle est un outil utilisé par l’Inuk dans sa vie quotidienne avec d’autres Inuit alors que l’identité ethnique est un outil politique que les Inuit urbanisés et ceux de l’Arctique utilisent pour faire face à des situations multi-ethniques.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/009280ar" idproprio="009280ar" lang="fr" qualtraitement="complet" typeart="note" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009280ar.html</urlhtml>
+  <urlpdf taille="112" unite="ko">/revue/etudinuit/2002/v26/n1/009280ar.pdf</urlpdf>
+  <urlplan>/revue/etudinuit/2002/v26/n1/009280ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>193</ppage>
+    <dpage>201</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Notes de recherche</surtitre>  <titre>Notes sur l’inuktitut parlé à Iqaluit (Nunavut)</titre> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Louis-Jacques</prenom>
+    <nomfamille>Dorais</nomfamille>
+   </nompers>
+  <affiliation><alinea>Département d’anthropologie, Université Laval, Québec (Québec), G1K 7P4.</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+ <resume lang="fr">  <titre>Résumé</titre><alinea>À partir de tests linguistiques administrés dans le cadre d’une étude sociolinguistique, cette note de recherche décrit un certain nombre de traits phonologiques et morphologiques de l’inuktitut parlé par un échantillon d’adultes et d’enfants vivant à Iqaluit. La note démontre un degré de variation linguistique relativement élevé, surtout en ce qui concerne la morphologie.</alinea>
+ </resume>
+ <resume lang="en">  <titre>Abstract</titre><alinea>Based on linguistic tests conducted in the context of a sociolinguistic study, this research note discusses some phonological and morphological characteristics of Inuktitut, as it is spoken by a sample of adult and child informants living in Iqaluit. The note concludes on a relatively high degree of linguistic variability, especially as morphology is concerned.</alinea>
+ </resume>
+</liminaire>
+</article>
+<article doi="10.7202/009281ar" idproprio="009281ar" lang="en" qualtraitement="complet" typeart="compterendu" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009281ar.html</urlhtml>
+  <urlpdf taille="94" unite="ko">/revue/etudinuit/2002/v26/n1/009281ar.pdf</urlpdf>
+  <pagination>
+    <ppage>203</ppage>
+    <dpage>205</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Recensions</surtitre>    <trefbiblio>
+DICK, Lyle 2001 <marquage typemarq="italique">Muskox Land: Ellesmere Island in the Age of Contact, </marquage>Calgary, University of Calgary Press, xxv + 615 p., figures, index, notes, and bibliography. </trefbiblio> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Chris</prenom>
+    <nomfamille>Paci</nomfamille>
+   </nompers>
+  <affiliation><alinea>Yellowknife, Canada</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/009282ar" idproprio="009282ar" lang="fr" qualtraitement="complet" typeart="compterendu" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009282ar.html</urlhtml>
+  <urlpdf taille="83" unite="ko">/revue/etudinuit/2002/v26/n1/009282ar.pdf</urlpdf>
+  <pagination>
+    <ppage>205</ppage>
+    <dpage>206</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Recensions</surtitre>    <trefbiblio>
+DUHAIME Gérard (dir.) 2001 <marquage typemarq="italique">Le Nord. Habitants et mutations</marquage>, Sainte-Foy, Les Presses de l’Université Laval et Le Groupe d’études inuit et circumpolaires, xii et 227 pages (collection Atlas historique du Québec, dirigée par Serge Courville et Normand Séguin).</trefbiblio> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Louis-Jacques</prenom>
+    <nomfamille>Dorais</nomfamille>
+   </nompers>
+  <affiliation><alinea>Université Laval</alinea><alinea>Québec, Canada</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/009283ar" idproprio="009283ar" lang="en" qualtraitement="complet" typeart="compterendu" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009283ar.html</urlhtml>
+  <accessible>non</accessible>
+  <pagination>
+    <ppage>207</ppage>
+    <dpage>209</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Recensions</surtitre>    <trefbiblio>
+<marquage typemarq="majuscule">Freeman</marquage>, Milton M.R. (ed.) 2000 <marquage typemarq="italique">Endangered Peoples of the Arctic: Struggles to Survive and Thrive</marquage>, "Endangered Peoples of the World" series edited by Barbara R. Johnston, Westport, CT, Greenwood Press, xix + 280 pages, b&amp;w illustrations, index. </trefbiblio> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Yvon</prenom>
+    <nomfamille>Csonka</nomfamille>
+   </nompers>
+  <affiliation><alinea>Ilisimatusarfik / The University of Greenland</alinea><alinea>Nuuk, Greenland</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/009284ar" idproprio="009284ar" lang="en" qualtraitement="complet" typeart="compterendu" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009284ar.html</urlhtml>
+  <urlpdf taille="110" unite="ko">/revue/etudinuit/2002/v26/n1/009284ar.pdf</urlpdf>
+  <pagination>
+    <ppage>210</ppage>
+    <dpage>214</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Recensions</surtitre>    <trefbiblio>
+GULLØV, Hans Christian 1997 <marquage typemarq="italique">From Middle Ages to Colonial Times. Archaeological and Ethnohistorical Studies of the Thule Culture in South West Greenland 1300-1800 AD, </marquage>Copenhagen, the Danish National Museum.</trefbiblio> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Claire</prenom>
+    <nomfamille>Alix</nomfamille>
+   </nompers>
+  <affiliation><alinea>Alaska Quaternary Center</alinea><alinea>University of Alaska Fairbanks</alinea><alinea>Fairbanks, USA</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/009285ar" idproprio="009285ar" lang="fr" qualtraitement="complet" typeart="compterendu" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009285ar.html</urlhtml>
+  <urlpdf taille="88" unite="ko">/revue/etudinuit/2002/v26/n1/009285ar.pdf</urlpdf>
+  <pagination>
+    <ppage>214</ppage>
+    <dpage>216</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Recensions</surtitre>    <trefbiblio>
+PELLY, David F. 2000 <marquage typemarq="italique">Sacred Hunt. A Portrait of the Relationship Between Seals and Inuit</marquage>, Seattle, University of Washington Press, xv + 126 p. </trefbiblio> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Paul</prenom>
+    <nomfamille>Charest</nomfamille>
+   </nompers>
+  <affiliation><alinea>Département d’anthropologie</alinea><alinea>Université Laval</alinea><alinea>Québec, Canada</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/009286ar" idproprio="009286ar" lang="en" qualtraitement="complet" typeart="compterendu" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009286ar.html</urlhtml>
+  <urlpdf taille="132" unite="ko">/revue/etudinuit/2002/v26/n1/009286ar.pdf</urlpdf>
+  <pagination>
+    <ppage>216</ppage>
+    <dpage>222</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Recensions</surtitre>    <trefbiblio>
+<marquage typemarq="majuscule">Stefansson</marquage>, Vilhjalmur 2001 <marquage typemarq="italique">Writing on Ice: The Ethnographic Notebooks of Vilhjalmur Stefansson</marquage>, edited and introduced by Gisli Palsson, Hanover, University Press of New England, 336 p.</trefbiblio> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>David</prenom>
+    <nomfamille>Morrison</nomfamille>
+   </nompers>
+  <affiliation><alinea>Canadian Museum of Civilization</alinea><alinea>Hull, Canada</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/009287ar" idproprio="009287ar" lang="en" qualtraitement="complet" typeart="compterendu" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009287ar.html</urlhtml>
+  <urlpdf taille="93" unite="ko">/revue/etudinuit/2002/v26/n1/009287ar.pdf</urlpdf>
+  <pagination>
+    <ppage>222</ppage>
+    <dpage>224</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Recensions</surtitre>    <trefbiblio>
+<marquage typemarq="majuscule">Tersis</marquage>, Nicole  et Michèle <marquage typemarq="majuscule">Therrien (</marquage>dir<marquage typemarq="majuscule">.)</marquage> 2000 <marquage typemarq="italique">Les langues eskaléoutes, Sibérie, Alaska, Canada, Groënland</marquage>, Paris, CNRS Éditions, 365 p. </trefbiblio> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Mick</prenom>
+    <nomfamille>Mallon</nomfamille>
+   </nompers>
+  <affiliation><alinea>Iqaluit, Canada</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/009288ar" idproprio="009288ar" lang="fr" qualtraitement="complet" typeart="compterendu" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009288ar.html</urlhtml>
+  <urlpdf taille="88" unite="ko">/revue/etudinuit/2002/v26/n1/009288ar.pdf</urlpdf>
+  <pagination>
+    <ppage>224</ppage>
+    <dpage>226</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>
+  <surtitre>Recensions</surtitre>    <trefbiblio>
+<marquage typemarq="majuscule">Tuborg</marquage>, Hanne  et Birger S<marquage typemarq="majuscule">andell </marquage>1999 <marquage typemarq="italique">Paleo-Eskimo Settlement in Scoresby Sund, Northeast Greenland, </marquage>Copenhague, Danish Polar Center, 149 p., ill., bibl.</trefbiblio> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Patrick</prenom>
+    <nomfamille>Plumet</nomfamille>
+   </nompers>
+  <affiliation><alinea>Département des sciences de la terre et de l’atmosphère</alinea><alinea>Université du Québec à Montréal</alinea><alinea>Montréal, Canada</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+<article doi="10.7202/009289ar" idproprio="009289ar" lang="fr" qualtraitement="complet" typeart="autre" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009289ar.html</urlhtml>
+  <urlpdf taille="79" unite="ko">/revue/etudinuit/2002/v26/n1/009289ar.pdf</urlpdf>
+  <urlplan>/revue/etudinuit/2002/v26/n1/009289ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>227</ppage>
+    <dpage>233</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>  <titre>Revue des revues</titre>  <titreparal lang="en">Survey of periodicals</titreparal> </grtitre>
+</liminaire>
+</article>
+<article doi="10.7202/009290ar" idproprio="009290ar" lang="en" qualtraitement="complet" typeart="autre" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <urlhtml>/revue/etudinuit/2002/v26/n1/009290ar.html</urlhtml>
+  <urlpdf taille="123" unite="ko">/revue/etudinuit/2002/v26/n1/009290ar.pdf</urlpdf>
+  <urlplan>/revue/etudinuit/2002/v26/n1/009290ar.html?vue=plan</urlplan>
+  <pagination>
+    <ppage>239</ppage>
+    <dpage>248</dpage>
+  </pagination>
+<liminaire>
+ <grtitre>  <titre>In memoriam</titre><sstitre>Van de Velde O.M.I. (1909-2002) : Polar missionary and pioneer</sstitre> </grtitre>
+ <grauteur>
+  <auteur id="au1">
+   <nompers>
+    <prenom>Cornelius</prenom><autreprenom>H.W</autreprenom>
+    <nomfamille>Remie</nomfamille>
+   </nompers>
+  <affiliation><alinea>Department of Cultural and Social Anthropology, University of Nijmegen, Nijmegen, Netherlands.</alinea>
+  </affiliation>
+  </auteur>
+ </grauteur>
+</liminaire>
+</article>
+</sommaire>

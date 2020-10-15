@@ -8,7 +8,6 @@ from .exceptions import LiberuditarticleError
 from ..utils import remove_xml_namespaces
 from .dom import DomObject
 from .person import Person
-from .exceptions import MissingXMLElementError
 
 
 class Title:
