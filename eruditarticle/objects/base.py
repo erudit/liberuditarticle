@@ -7,6 +7,7 @@ import six
 from ..utils import remove_xml_namespaces
 from .dom import DomObject
 from .person import Person
+from .exceptions import MissingXMLElementError
 
 
 class Title:
@@ -165,7 +166,7 @@ class EruditBaseObject(DomObject):
         root_elem = self.find(root_elem_name)
 
         if root_elem is None:
-            raise ValueError
+            raise MissingXMLElementError(root_elem_name)
 
         titles = {
             'main': None,

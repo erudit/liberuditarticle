@@ -4,6 +4,9 @@ from lxml.builder import E
 
 from eruditarticle.objects import EruditArticle, Title
 from eruditarticle.tests.decorators import with_value, with_fixtures
+from ..objects.exceptions import (
+    MissingXMLElementError, InvalidTitleLevelError, InvalidOrdseqError
+)
 
 
 class Title(Title):
@@ -160,6 +163,40 @@ class TestSectionTitle(object):
             'main': "Dossier spécial : Entreprendre et innover dans une économie globalisée...",  # noqa
             'paral': paral,
         }
+
+    def test_if_missing_grtitre_raises_missingxmlelementerror_exception(self):
+        with pytest.raises(MissingXMLElementError):
+            self.test_objects['1005108ar.xml'].get_titles()
+
+    def test_missingxmlelementerror_exception_message_when_missing_grtitre(self):
+        try:
+            self.test_objects['1005108ar.xml'].get_titles()
+        except MissingXMLElementError as e:
+            assert str(e) == "The element 'grtitre' could not be found in the xml tree"
+
+    def test_if_invalid_title_level_raises_invalidtitlelevelerror_exception(self):
+        with pytest.raises(InvalidTitleLevelError):
+            self.test_objects['1030384ar.xml'].get_section_titles(level=4)
+
+    def test_invalidtitlelevelerror_exception_message_when_invalid_title_level(self):
+        try:
+            self.test_objects['1030384ar.xml'].get_section_titles(level=4)
+        except InvalidTitleLevelError as e:
+            assert str(e) == "Level should be 1, 2 or 3"
+
+
+@with_fixtures('./eruditarticle/tests/fixtures/article/savant', EruditArticle)
+class TestOrderingNumber(object):
+
+    def test_if_invalid_ordseq_raises_invalidordseqerror_exception(self):
+        with pytest.raises(InvalidOrdseqError):
+            self.test_objects['dummy_article_invalid_ordseq.xml'].get_ordseq()
+
+    def test_invalidordseqerror_exception_message_when_invalid_ordseq(self):
+        try:
+            self.test_objects['dummy_article_invalid_ordseq.xml'].get_ordseq()
+        except InvalidOrdseqError as e:
+            assert str(e) == "ordseq needs to be a positive integer"
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/article/notegen', EruditArticle)

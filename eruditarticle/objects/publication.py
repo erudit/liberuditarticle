@@ -16,6 +16,7 @@ from .mixins import ISBNMixin
 from .mixins import ISSNMixin
 from .mixins import PublicationPeriodMixin
 from .person import Redacteur, Person, format_authors
+from .exceptions import InvalidTypercError
 
 
 class EruditPublication(
@@ -254,13 +255,13 @@ class EruditPublication(
         :param boolean html: if set to True, html tags will be kept
         :type idrefs: list[str] or None
         :type typerc: str or None
-        :raises ValueError: if typerc is not one of "regulier" or "invite"
+        :raises InvalidTypercError: if typerc is not one of "regulier" or "invite"
         :returns: a list of redacteurchef objects of this publication """
 
         tag = 'redacteurchef'
 
         if typerc is not None and typerc not in ["regulier", "invite"]:
-            raise ValueError("Must be 'regulier' or 'invite'")
+            raise InvalidTypercError("Must be 'regulier' or 'invite'")
 
         attribute_search = []
         if idrefs is not None and len(idrefs) == 0:

@@ -10,7 +10,7 @@ from .mixins import PublicationPeriodMixin
 from .person import (
     Person, format_authors, format_authors_mla, format_authors_apa, format_authors_chicago
 )
-
+from .exceptions import InvalidOrdseqError, InvalidTitleLevelError
 
 logger = logging.getLogger(__name__)
 
@@ -219,7 +219,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
         try:
             return int(ordseq) if ordseq is not None else 0
         except ValueError:
-            raise ValueError("ordseq needs to be a positive integer")
+            raise InvalidOrdseqError("ordseq needs to be a positive integer")
 
     def get_processing(self):
         """ :returns: the processing type of the article object. """
@@ -244,7 +244,7 @@ class EruditArticle(PublicationPeriodMixin, ISBNMixin, ISSNMixin, CopyrightMixin
             :param html: True if special characters should be converted to html entities
         """
         if level not in (1, 2, 3):
-            raise ValueError("Level should be 1, 2 or 3")
+            raise InvalidTitleLevelError("Level should be 1, 2 or 3")
 
         section_title = self._get_section_title(level=level, html=html)
 
