@@ -7,6 +7,8 @@ from eruditarticle.tests.decorators import with_value, with_fixtures
 
 from .test_article import people_to_dict
 
+from ..objects.exceptions import InvalidTypercError
+
 
 class Title(Title):
     def __init__(self, title=None, subtitle=None, lang=None):
@@ -484,6 +486,16 @@ class TestRedacteurChef(object):
     @with_value("ltp02888.xml", "get_redacteurchef", typerc="invite", idrefs=[])
     def test_does_not_return_thematic_redacteurchef_when_no_themes_specified(self, value):
         assert len(value) == 0
+
+    def test_if_invalid_typerc_raises_invalidtypercerror_exception(self):
+        with pytest.raises(InvalidTypercError):
+            self.test_objects['ltp02888.xml'].get_redacteurchef(typerc='invalid')
+
+    def test_invalidtypercerror_exception_message_when_invalid_typerc(self):
+        try:
+            self.test_objects['ltp02888.xml'].get_redacteurchef(typerc='invalid')
+        except InvalidTypercError as e:
+            assert str(e) == "Must be 'regulier' or 'invite'"
 
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication', EruditPublication)

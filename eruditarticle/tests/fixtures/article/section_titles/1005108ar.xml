@@ -1,0 +1,22 @@
+
+<article xmlns="http://www.erudit.org/xsd/article" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" idproprio="1005108ar" lang="fr" ordseq="1" qualtraitement="minimal" typeart="article" xsi:schemaLocation="http://www.erudit.org/xsd/article http://www.erudit.org/xsd/article/3.0.0/eruditarticle.xsd">
+  <admin>
+    <revue id="as1498792" lang="">
+      <titrerev>Anthropologie et Sociétés</titrerev>
+      <titrerevabr>as</titrerevabr>
+    </revue>
+    <numero id="as5000001">
+      <volume>23</volume>
+      <nonumero>1</nonumero>
+      <anonumero>IX</anonumero>
+      <pub>
+        <periode></periode>
+        <annee>1969</annee>
+      </pub>
+      <pubnum>
+        <date typedate="publication"></date>
+      </pubnum>
+    </numero>
+    <schema lang="fr" nom="Erudit Article" version="3.0.0"></schema>
+  </admin>
+</article>
