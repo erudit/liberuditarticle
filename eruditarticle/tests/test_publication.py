@@ -457,7 +457,7 @@ class TestRedacteurChef(object):
             redacteurchef.typerc == 'invite'
 
     def test_raises_value_error_when_typerc_is_not_invite_or_regulier(self):
-        with pytest.raises(ValueError):
+        with pytest.raises(InvalidTypercError):
             self.test_objects['ltp3991.xml'].get_redacteurchef(typerc="erreur")
 
     @with_value("ltp3991.xml", "get_redacteurchef", typerc="invite", formatted=True)
