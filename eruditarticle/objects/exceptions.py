@@ -3,14 +3,14 @@ class LiberuditarticleError(Exception):
     pass
 
 
-class MissingXMLElementError(LiberuditarticleError, ValueError):
+class MissingXMLElementError(LiberuditarticleError):
     """Raised when missing element from xml tree"""
     def __init__(self, element_name):
         self.element_name = element_name
         super().__init__("The element '%s' could not be found in the xml tree" % self.element_name)
 
 
-class InvalidTypercError(LiberuditarticleError, ValueError):
+class InvalidTypercError(LiberuditarticleError):
     """Raised when invalid type of redacteurchef (typerc) is found"""
     def __init__(self, message=None):
         self.message = message
@@ -19,7 +19,7 @@ class InvalidTypercError(LiberuditarticleError, ValueError):
         super().__init__(self.message)
 
 
-class InvalidOrdseqError(LiberuditarticleError, ValueError):
+class InvalidOrdseqError(LiberuditarticleError):
     """Raised when invalid ordering number (ordseq) is found"""
     def __init__(self, message=None):
         self.message = message
@@ -28,7 +28,7 @@ class InvalidOrdseqError(LiberuditarticleError, ValueError):
         super().__init__(self.message)
 
 
-class InvalidTitleLevelError(LiberuditarticleError, ValueError):
+class InvalidTitleLevelError(LiberuditarticleError):
     """Raised when invalid title level is found"""
     def __init__(self, message=None):
         self.message = message
