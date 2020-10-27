@@ -11,6 +11,7 @@ import itertools
 import roman
 from datetime import datetime
 from dataclasses import dataclass
+from urllib.parse import urlparse
 
 from .base import EruditBaseObject
 from .mixins import CopyrightMixin
@@ -25,6 +26,7 @@ from .exceptions import InvalidTypercError, LiberuditarticleError
 class SummaryArticle:
     localidentifier: str
     urlpdf: typing.Optional[str]
+    urlhtml: typing.Optional[str] = None
     first_page: typing.Optional[str] = None
     last_page: typing.Optional[str] = None
     section_title: typing.Optional[str] = None
@@ -34,6 +36,12 @@ class SummaryArticle:
     doi: typing.Optional[str] = None
     authors: typing.Optional[str] = None
     accessible: typing.Optional[str] = True
+
+    def has_external_url(self) -> bool:
+        """ Return ``True`` if the html or url url is external """
+        external_pdf = self.urlpdf and bool(urlparse(self.urlpdf).netloc)
+        external_html = self.urlhtml and bool(urlparse(self.urlhtml).netloc)
+        return external_pdf or external_html
 
 
 class EruditPublication(
@@ -577,12 +585,10 @@ class EruditPublication(
             html_title = self._get_formatted_title(titles, html=True)
             authors = [Person(author) for author in article.findall('.//auteur')]
 
-
-
-
             summary_article = SummaryArticle(
                 localidentifier=article.get('idproprio'),
                 urlpdf=article.findtext('.//urlpdf'),
+                urlhtml=article.findtext('.//urlhtml'),
                 first_page=article.findtext('.//ppage'),
                 last_page=article.findtext('.//dpage'),
                 title=title,
