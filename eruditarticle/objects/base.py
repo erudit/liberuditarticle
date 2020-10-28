@@ -178,18 +178,17 @@ class EruditBaseObject(DomObject):
 
         formatted_title = self._get_formatted_single_title(titles)
 
-        if 'reviewed_works' in titles and titles['reviewed_works']:
+        if titles.get("reviewed_works"):
             reviewed_works = " / ".join(
                 reference for reference in titles['reviewed_works']
             )
 
-            if formatted_title:
-                formatted_title = "{title} / {reviewed_works}".format(
-                    title=formatted_title,
-                    reviewed_works=reviewed_works
-                )
-            else:
-                formatted_title = reviewed_works
+            formatted_title = (
+                f"{formatted_title} / {reviewed_works}"
+                if formatted_title
+                else reviewed_works
+            )
+
         return formatted_title
 
     def _get_titles(
