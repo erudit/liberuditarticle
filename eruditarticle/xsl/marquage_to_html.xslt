@@ -194,6 +194,11 @@
     </xsl:choose>
 </xsl:template>
 
+<xsl:template match="note">
+    # Create a deep copy of the note node
+    <xsl:copy-of select="/"/>
+</xsl:template>
+
 <xsl:template match="marquage">
     <xsl:choose>
         <xsl:when test="@typemarq='gras'">
