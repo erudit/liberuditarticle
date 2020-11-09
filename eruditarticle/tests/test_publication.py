@@ -1,13 +1,14 @@
 import pytest
 
 from datetime import datetime
+import typing
 
-from eruditarticle.objects import EruditPublication, Title
+from eruditarticle.objects import EruditPublication, Title, SummaryArticle
 from eruditarticle.tests.decorators import with_value, with_fixtures
 
 from .test_article import people_to_dict
 
-from ..objects.exceptions import InvalidTypercError
+from ..objects.exceptions import InvalidTypercError, LiberuditarticleError
 
 
 class Title(Title):
@@ -500,6 +501,35 @@ class TestRedacteurChef(object):
 
 @with_fixtures('./eruditarticle/tests/fixtures/publication', EruditPublication)
 class TestEruditPublication(object):
+
+    @with_value("ela03987.xml", "get_summary_articles")
+    def test_get_summary_articles(self, value: typing.List[SummaryArticle]):
+        for article in value:
+            assert article.urlpdf
+
+    @pytest.mark.parametrize("localidentifier,accessible", [
+        ("009276ar", False),
+        ("009277ar", False),
+        ("009278ar", False),
+        ("009279ar", True),
+        ("009280ar", True),
+        ("009282ar", True),
+        ("009283ar", False),
+        ("009284ar", True),
+        ("009285ar", True),
+        ("009286ar", True),
+        ("009287ar", True),
+        ("009288ar", True),
+        ("009289ar", True),
+        ("009290ar", True),
+    ])
+    def test_can_determine_if_publication_is_allowed(self, localidentifier, accessible):
+        summary_article = self.test_objects["etudinuit777.xml"].get_summary_article(localidentifier)
+        assert summary_article.accessible == accessible
+
+    def test_get_summary_article_can_raise_liberuditarticleerror(self):
+        with pytest.raises(LiberuditarticleError):
+            self.test_objects["etudinuit777.xml"].get_summary_article("error")
 
     @with_value("ae1375.xml", "get_article_count")
     def test_can_return_the_number_of_articles_of_this_publication(self, value):

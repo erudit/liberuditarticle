@@ -4,10 +4,10 @@ import lxml.etree as et
 import re
 import six
 
+from .exceptions import LiberuditarticleError
 from ..utils import remove_xml_namespaces
 from .dom import DomObject
 from .person import Person
-from .exceptions import MissingXMLElementError
 
 
 class Title:
@@ -139,8 +139,60 @@ class EruditBaseObject(DomObject):
 
         return " / ".join(sections)
 
+    def _get_reviewed_or_referenced_works(self, root_elem=None, ref_elem_name=None, html=True):
+        """
+        .. warning::
+           Will be removed or modified 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
+        """
+        if html:
+            references = [
+                self.convert_marquage_content_to_html(ref)
+                for ref in root_elem.findall(f'.//{ref_elem_name}')
+            ]
+        else:
+            references = [
+                self.stringify_children(ref)
+                for ref in root_elem.findall(f'.//{ref_elem_name}')
+            ]
+        return [ref for ref in references if ref is not None]
+
+    def _get_formatted_title(self, titles, html=True):
+        """ Format the article titles
+
+        .. warning::
+           Will be removed or modified 0.3.0
+           For more information please refer to :py:mod:`eruditarticle.objects`
+
+        :returns: the formatted article title
+
+        This method calls :meth:`~.get_titles` and format its results.
+
+        The result is formatted in the following way::
+
+            "{main_title} : {main_subtitle} / .. /  {paral_title_n} : {paral_subtitle_n} / {reviewed_works}"  # noqa
+
+        If an article title is in French, a non-breaking space is inserted after the colon
+        separating it from its subtitle.
+        """
+
+        formatted_title = self._get_formatted_single_title(titles)
+
+        if titles.get("reviewed_works"):
+            reviewed_works = " / ".join(
+                reference for reference in titles['reviewed_works']
+            )
+
+            formatted_title = (
+                f"{formatted_title} / {reviewed_works}"
+                if formatted_title
+                else reviewed_works
+            )
+
+        return formatted_title
+
     def _get_titles(
-        self, root_elem_name=None, title_elem_name=None, subtitle_elem_name=None,
+        self, root_elem=None, title_elem_name=None, subtitle_elem_name=None,
         paral_title_elem_name=None, paral_subtitle_elem_name=None, languages=['fr'],
         strict_language_check=True, html=True
     ):
@@ -163,10 +215,9 @@ class EruditBaseObject(DomObject):
 
         :returns: the titles and subtitles relative to ``root_elem_name``
         """
-        root_elem = self.find(root_elem_name)
 
         if root_elem is None:
-            raise MissingXMLElementError(root_elem_name)
+            raise LiberuditarticleError("root_elem ")
 
         titles = {
             'main': None,
