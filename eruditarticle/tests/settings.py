@@ -6,12 +6,10 @@ class DisableMigrations(object):
         return True
 
     def __getitem__(self, item):
-        return 'notmigrations'
+        return "notmigrations"
 
 
-INSTALLED_APPS = (
-    'eruditarticle',
-)
+INSTALLED_APPS = ("eruditarticle",)
 
 LANGUAGE_CODE = "fr"
 SECRET_KEY = "secret"

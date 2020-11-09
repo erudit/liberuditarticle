@@ -14,22 +14,22 @@ class DomObject:
     def find(self, tag_name, dom=None):
         """ Find an element in the tree. """
         dom = dom if dom is not None else self._root
-        return dom.find('.//{}'.format(tag_name))
+        return dom.find(".//{}".format(tag_name))
 
     def findall(self, tag_name, dom=None):
         """ Find elements in the tree. """
         dom = dom if dom is not None else self._root
-        return dom.findall('.//{}'.format(tag_name))
+        return dom.findall(".//{}".format(tag_name))
 
     def get_nodes(self, dom=None):
         """ :returns: all the elements under the current root. """
         dom = dom if dom is not None else self._root
-        return dom.xpath('child::node()')
+        return dom.xpath("child::node()")
 
     def get_text(self, tag_name, dom=None):
         """ :returns: the text associated with the considered tag. """
         result = self.find(tag_name, dom=dom)
-        return self.stringify_children(result, strip_elements=['renvoi'])
+        return self.stringify_children(result, strip_elements=["renvoi"])
 
     def get_html(self, tag_name, dom=None):
         """ :returns: the content of the considered tag converted to html. """
@@ -37,8 +37,7 @@ class DomObject:
         return self.convert_marquage_content_to_html(result)
 
     def get_itertext(self, tag_name, dom=None):
-        """ :returns: the text associated with the considered tag and its children tags
-        """
+        """:returns: the text associated with the considered tag and its children tags"""
         result = self.find(tag_name, dom=dom)
         return "".join(result.itertext()) if result is not None else None
 
@@ -53,7 +52,7 @@ class DomObject:
 
     @staticmethod
     def stringify_children(node, strip_elements=None):
-        """ Convert a node content to string
+        """Convert a node content to string
 
         :param strip_elements: elements to strip before converting to string
 
@@ -70,8 +69,8 @@ class DomObject:
             return normalize_whitespace(node.text)
 
     @staticmethod
-    def convert_marquage_content_to_html(node, strip_elements=['renvoi']):
-        """ Converts <marquage> tags to HTML using a specific node.
+    def convert_marquage_content_to_html(node, strip_elements=["renvoi"]):
+        """Converts <marquage> tags to HTML using a specific node.
 
         :param strip_elements: (list, optional): Defaults to ['renvoi'].
             A list of XML elements to strip from the node.
@@ -89,14 +88,16 @@ class DomObject:
         _node = xslt.marquage_to_html(node)
         # Strip all other tags but keep text
         et.strip_tags(
-            _node, *[
+            _node,
+            *[
                 node.tag,
-                'caracunicode',
-                'citation',
-                'equationligne',
-                'marquepage',
-                'objetmedia',
-            ])
-        _html = et.tostring(_node.getroot(), encoding='utf-8', method='html')
-        output = _html.split(b'>', 1)[1].rsplit(b'<', 1)[0]
-        return normalize_whitespace(output.decode('utf-8'))
+                "caracunicode",
+                "citation",
+                "equationligne",
+                "marquepage",
+                "objetmedia",
+            ]
+        )
+        _html = et.tostring(_node.getroot(), encoding="utf-8", method="html")
+        output = _html.split(b">", 1)[1].rsplit(b"<", 1)[0]
+        return normalize_whitespace(output.decode("utf-8"))

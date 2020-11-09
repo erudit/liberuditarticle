@@ -4,7 +4,7 @@ import re
 import lxml.etree as et
 
 
-drop_namespace_xslt = '''<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+drop_namespace_xslt = """<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="xml" indent="no"/>
 
 <xsl:template match="/|comment()|processing-instruction()">
@@ -25,7 +25,7 @@ drop_namespace_xslt = '''<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.
     </xsl:attribute>
 </xsl:template>
 </xsl:stylesheet>
-'''
+"""
 
 
 def remove_xml_namespaces(treedom):
@@ -36,7 +36,7 @@ def remove_xml_namespaces(treedom):
 
 
 def normalize_whitespace(s):
-    """ Returns `s` with all whitespaces deduplicated and normalized
+    """Returns `s` with all whitespaces deduplicated and normalized
 
     That is, newlines and tabs converted to space.
     """
@@ -45,7 +45,7 @@ def normalize_whitespace(s):
     if not s:
         return None
     # Remove line breaks and following spaces between tags.
-    s = re.sub(r'>\n[ \t]*<', '><', s)
+    s = re.sub(r">\n[ \t]*<", "><", s)
     # Replace duplicated spaces with one space only.
-    s = re.sub(r'[ \n\t]+', ' ', s)
+    s = re.sub(r"[ \n\t]+", " ", s)
     return s

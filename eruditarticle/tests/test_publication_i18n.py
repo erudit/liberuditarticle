@@ -10,9 +10,10 @@ from .decorators import with_fixtures, with_value, with_locale
 
 
 @with_locale("en")
-@with_fixtures('./eruditarticle/tests/fixtures/publication/volume_numbering', EruditPublication)
+@with_fixtures(
+    "./eruditarticle/tests/fixtures/publication/volume_numbering", EruditPublication
+)
 class TestPublicationVolumeNumberingEnglish(object):
-
     @with_value("cd02305.xml", "get_volume_numbering", formatted=True)
     def test_can_format_volume_and_number_in_en(self, value):
         assert value == "Volume 56, Number 3-4, September–December 2015"
@@ -30,7 +31,9 @@ class TestPublicationVolumeNumberingEnglish(object):
         assert value == "Number 211, January–February 2001"
 
     @with_value("sequences1081634.xml", "get_volume_numbering", formatted=True)
-    def test_can_format_volume_numbering_in_case_of_index_with_number_in_en(self, value):
+    def test_can_format_volume_numbering_in_case_of_index_with_number_in_en(
+        self, value
+    ):
         assert value == "Number 125, Index, 1986"
 
     @with_value("inter1068986.xml", "get_volume_numbering", formatted=True)

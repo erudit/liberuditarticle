@@ -12,7 +12,7 @@ from .person import Person
 
 class Title:
 
-    STRIP_ELEMENTS = ['renvoi']
+    STRIP_ELEMENTS = ["renvoi"]
 
     def __init__(self, title=None, subtitle=None, lang=None, html=True):
         if html:
@@ -46,12 +46,11 @@ class Title:
 
         # Check if the title ends with a punctuation, with or without a marquage ending tag.
         punctuation_match = re.search(
-            r'[\.\!\?](?:<\/marquage>)?<\/[a-z]+>$',
-            self.xml_title.decode().strip()
+            r"[\.\!\?](?:<\/marquage>)?<\/[a-z]+>$", self.xml_title.decode().strip()
         )
         # If the title ends with a punctuation, do not add a colon before the subtitle.
         if punctuation_match:
-            separator = ' '
+            separator = " "
         # For French titles, add a non-breaking space and a colon before the subtitle.
         elif self.lang == "fr":
             separator = "\xa0: "
@@ -61,11 +60,11 @@ class Title:
 
         # Check if uppercase is forced on the subtitle.
         uppercase_match = re.search(
-            r'^<[a-z]+><marquage typemarq=\"majuscule\">',
-            self.xml_subtitle.decode().strip()
+            r"^<[a-z]+><marquage typemarq=\"majuscule\">",
+            self.xml_subtitle.decode().strip(),
         )
         # Lowercase French subtitles if following a colon and uppercase is not forced.
-        if self.lang == "fr" and ':' in separator and not uppercase_match:
+        if self.lang == "fr" and ":" in separator and not uppercase_match:
             subtitle = subtitle[:1].lower() + subtitle[1:]
 
         return "{title}{separator}{subtitle}".format(
@@ -77,7 +76,9 @@ class Title:
 
 class EruditBaseObject(DomObject):
     def __init__(self, xml):
-        if isinstance(xml, six.string_types) or isinstance(xml, six.moves.builtins.bytes):
+        if isinstance(xml, six.string_types) or isinstance(
+            xml, six.moves.builtins.bytes
+        ):
             self._dom = remove_xml_namespaces(et.fromstring(xml))
         else:
             self._dom = remove_xml_namespaces(xml)
@@ -100,22 +101,22 @@ class EruditBaseObject(DomObject):
         return result
 
     def _get_formatted_single_title(self, titles, use_equivalent=False, subtitles=True):
-        """ Format the main, paral and equivalent titles in a single title
+        """Format the main, paral and equivalent titles in a single title
 
-            :param use_equivalent: whether or not to use equivalent titles. In the
-                case of formatting an :py:class:`erudit.models.Article` title, only
-                paralel titles are used. The XML of :py:class:`erudit.models.Journal`
-                equivalent titles are also used.
+        :param use_equivalent: whether or not to use equivalent titles. In the
+            case of formatting an :py:class:`erudit.models.Article` title, only
+            paralel titles are used. The XML of :py:class:`erudit.models.Journal`
+            equivalent titles are also used.
 
-            :returns: a formatted title
+        :returns: a formatted title
         """
 
         sections = []
-        if titles['main'].title is not None:
-            sections.append(titles['main'].format(with_subtitle=subtitles))
+        if titles["main"].title is not None:
+            sections.append(titles["main"].format(with_subtitle=subtitles))
 
         paral_titles = []
-        for paral_title in titles['paral']:
+        for paral_title in titles["paral"]:
             # Format parallel title.
             formatted_paral_title = paral_title.format(with_subtitle=subtitles)
             # Add the parallel title to the list only if it's different than the main title.
@@ -123,23 +124,27 @@ class EruditBaseObject(DomObject):
                 paral_titles.append(formatted_paral_title)
         # Add parallel titles to the main title.
         if paral_titles:
-            sections.append(' / '.join(paral_titles))
+            sections.append(" / ".join(paral_titles))
 
         if use_equivalent:
             equivalent_titles = []
-            for equivalent_title in titles['equivalent']:
+            for equivalent_title in titles["equivalent"]:
                 # Format equivalent title.
-                formatted_equivalent_title = equivalent_title.format(with_subtitle=subtitles)
+                formatted_equivalent_title = equivalent_title.format(
+                    with_subtitle=subtitles
+                )
                 # Add the equivalent title to the list only if it's different than the main title.
                 if formatted_equivalent_title not in sections:
                     equivalent_titles.append(formatted_equivalent_title)
             # Add equivalent titles to the main title.
             if equivalent_titles:
-                sections.append(' / '.join(equivalent_titles))
+                sections.append(" / ".join(equivalent_titles))
 
         return " / ".join(sections)
 
-    def _get_reviewed_or_referenced_works(self, root_elem=None, ref_elem_name=None, html=True):
+    def _get_reviewed_or_referenced_works(
+        self, root_elem=None, ref_elem_name=None, html=True
+    ):
         """
         .. warning::
            Will be removed or modified 0.3.0
@@ -148,17 +153,17 @@ class EruditBaseObject(DomObject):
         if html:
             references = [
                 self.convert_marquage_content_to_html(ref)
-                for ref in root_elem.findall(f'.//{ref_elem_name}')
+                for ref in root_elem.findall(f".//{ref_elem_name}")
             ]
         else:
             references = [
                 self.stringify_children(ref)
-                for ref in root_elem.findall(f'.//{ref_elem_name}')
+                for ref in root_elem.findall(f".//{ref_elem_name}")
             ]
         return [ref for ref in references if ref is not None]
 
     def _get_formatted_title(self, titles, html=True):
-        """ Format the article titles
+        """Format the article titles
 
         .. warning::
            Will be removed or modified 0.3.0
@@ -180,7 +185,7 @@ class EruditBaseObject(DomObject):
 
         if titles.get("reviewed_works"):
             reviewed_works = " / ".join(
-                reference for reference in titles['reviewed_works']
+                reference for reference in titles["reviewed_works"]
             )
 
             formatted_title = (
@@ -192,11 +197,17 @@ class EruditBaseObject(DomObject):
         return formatted_title
 
     def _get_titles(
-        self, root_elem=None, title_elem_name=None, subtitle_elem_name=None,
-        paral_title_elem_name=None, paral_subtitle_elem_name=None, languages=['fr'],
-        strict_language_check=True, html=True
+        self,
+        root_elem=None,
+        title_elem_name=None,
+        subtitle_elem_name=None,
+        paral_title_elem_name=None,
+        paral_subtitle_elem_name=None,
+        languages=["fr"],
+        strict_language_check=True,
+        html=True,
     ):
-        """ Helper method to extract titles relative to a root element
+        """Helper method to extract titles relative to a root element
 
         This supports retrieving article object titles and journal object titles.
 
@@ -220,9 +231,9 @@ class EruditBaseObject(DomObject):
             raise LiberuditarticleError("root_elem ")
 
         titles = {
-            'main': None,
-            'paral': [],
-            'equivalent': [],
+            "main": None,
+            "paral": [],
+            "equivalent": [],
         }
 
         paral_titles = self.find_paral(
@@ -248,11 +259,11 @@ class EruditBaseObject(DomObject):
             )
 
             if not strict_language_check or lang in languages:
-                titles['paral'].append(paral_title)
+                titles["paral"].append(paral_title)
                 if lang in languages:
                     languages.remove(lang)
             else:
-                titles['equivalent'].append(paral_title)
+                titles["equivalent"].append(paral_title)
 
         title_elem = self.find(title_elem_name, dom=root_elem)
         subtitle_elem = self.find(subtitle_elem_name, dom=root_elem)
@@ -261,16 +272,16 @@ class EruditBaseObject(DomObject):
         if title_elem is None or (not title_elem.text and len(title_elem) == 0):
             title_elem = None
 
-        titles['main'] = Title(
+        titles["main"] = Title(
             title=title_elem,
             subtitle=subtitle_elem,
-            lang=languages.pop(0) if languages else 'fr',
+            lang=languages.pop(0) if languages else "fr",
             html=html,
         )
         return titles
 
     def parse_simple_link(self, simplelink_node):
-        """ Parses a "liensimple" node.
+        """Parses a "liensimple" node.
 
         :returns: a dictionary of the form::
 
@@ -278,12 +289,12 @@ class EruditBaseObject(DomObject):
 
         """
         link = {
-            'href': simplelink_node.get('href'),
+            "href": simplelink_node.get("href"),
         }
 
-        image_node = self.find('objetmedia//image', simplelink_node)
+        image_node = self.find("objetmedia//image", simplelink_node)
         if image_node is not None:
-            link.update({'img': image_node.get('href')})
+            link.update({"img": image_node.get("href")})
 
         return link
 
@@ -306,5 +317,5 @@ class EruditBaseObject(DomObject):
         """ Find the parallel values for the given tag using the given tag name. """
         pn = collections.OrderedDict()
         for title_paral in tag.findall(paral_tag_name):
-            pn[title_paral.get('lang')] = title_paral
+            pn[title_paral.get("lang")] = title_paral
         return pn
