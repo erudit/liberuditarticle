@@ -55,23 +55,30 @@ class TestEruditJournal(object):
                 "Veuillez prendre note que des articles peuvent s'ajouter au dernier numéro en cours d'année",  # noqa
             ],
         }
+    @with_value("recma0448.xml", "get_notes", html=True)
+    def test_note_conversion(self, value):
+        assert value['fr'][0] == 'Cette revue a cessé de publier ses numéros sur Érudit depuis ' \
+                                 '2016, vous pouvez consulter les numéros subséquents sur ' \
+                                 '<a href="https://www.cairn.info/revue-recma.htm">' \
+                                 'Cairn</a>'
+
 
     @with_value("ravon92.xml", "get_notes", html=True)
     def test_get_notes_html(self, value):
         assert self.test_objects["ravon92.xml"].get_notes(html=True) == {
             "fr": [
                 "Les publications précédentes (du numéro 1 au numéro 46) sont disponibles sur la pa"
-                'ge de la revue <A href="https://www.erudit.org/fr/revues/ron">RON</A>. Les publica'
+                'ge de la revue <a href="https://www.erudit.org/fr/revues/ron">RON</a>. Les publica'
                 "tions précédentes (du numéro 47 au numéro 67) sont disponibles sur la page de la r"
-                'evue <A href="https://www.erudit.org/fr/revues/ravon/">RAVON</A>.',
+                'evue <a href="https://www.erudit.org/fr/revues/ravon/">RAVON</a>.',
                 "Les publications précédentes (du numéro 1 au numéro 46) sont disponibles sur la pa"
-                'ge de la revue <A href="https://www.erudit.org/fr/revues/ron">RON</A>. Les publica'
+                'ge de la revue <a href="https://www.erudit.org/fr/revues/ron">RON</a>. Les publica'
                 "tions suivantes (à partir du numéro 68-69) sont disponibles sur la page de la nouv"
-                'elle revue <A href="https://www.erudit.org/fr/revues/ronbrit">RON</A>.',
+                'elle revue <a href="https://www.erudit.org/fr/revues/ronbrit">RON</a>.',
                 "Les publications suivantes (du numéro 47 au numéro 67) sont disponibles sur la pag"
-                'e de la revue <A href="https://www.erudit.org/fr/revues/ravon/">RAVON</A>. Les pub'
+                'e de la revue <a href="https://www.erudit.org/fr/revues/ravon/">RAVON</a>. Les pub'
                 "lications suivantes (à partir du numéro 68-69) sont disponibles sur la page de la "
-                'nouvelle revue <A href="https://www.erudit.org/fr/revues/ronbrit">RON</A>.',
+                'nouvelle revue <a href="https://www.erudit.org/fr/revues/ronbrit">RON</a>.',
             ]
         }
 

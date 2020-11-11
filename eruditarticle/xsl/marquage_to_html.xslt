@@ -194,9 +194,9 @@
     </xsl:choose>
 </xsl:template>
 
-<xsl:template match="note">
-    # Create a deep copy of the note node
-    <xsl:copy-of select="/"/>
+<xsl:template match="a|A">
+    <!-- Add 'href' to '<a>' tags. Convert '<A>' to '<a>' -->
+    <a href="{@href}"><xsl:apply-templates/></a>
 </xsl:template>
 
 <xsl:template match="marquage">
