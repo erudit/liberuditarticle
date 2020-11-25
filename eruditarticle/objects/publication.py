@@ -40,9 +40,9 @@ class SummaryArticle:
 
     def has_external_url(self) -> bool:
         """ Return ``True`` if the html or url url is external """
-        external_pdf = self.urlpdf and bool(urlparse(self.urlpdf).netloc)
-        external_html = self.urlhtml and bool(urlparse(self.urlhtml).netloc)
-        return external_pdf or external_html
+        external_pdf = self.urlpdf and urlparse(self.urlpdf).netloc
+        external_html = self.urlhtml and urlparse(self.urlhtml).netloc
+        return bool(external_pdf or external_html)
 
 
 class EruditPublication(
