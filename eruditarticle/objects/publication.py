@@ -9,6 +9,7 @@ import typing
 import collections
 import itertools
 import roman
+import functools
 from datetime import datetime
 from dataclasses import dataclass
 from urllib.parse import urlparse
@@ -50,6 +51,12 @@ class EruditPublication(
     """
     Expects the ``SUMMARY`` datastream of a Fedora ``Publication`` object
     """
+
+    def __init__(self, xml):
+        super().__init__(xml)
+        self.get_summary_articles = functools.lru_cache(maxsize=1)(
+            self.get_summary_articles
+        )
 
     def get_titles(self, html=True):
         """
