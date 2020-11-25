@@ -55,13 +55,16 @@ class TestEruditJournal(object):
                 "Veuillez prendre note que des articles peuvent s'ajouter au dernier numéro en cours d'année",  # noqa
             ],
         }
+
     @with_value("recma0448.xml", "get_notes", html=True)
     def test_note_conversion(self, value):
-        assert value['fr'][0] == 'Cette revue a cessé de publier ses numéros sur Érudit depuis ' \
-                                 '2016, vous pouvez consulter les numéros subséquents sur ' \
-                                 '<a href="https://www.cairn.info/revue-recma.htm">' \
-                                 'Cairn</a>'
-
+        assert (
+            value["fr"][0]
+            == "Cette revue a cessé de publier ses numéros sur Érudit depuis "
+            "2016, vous pouvez consulter les numéros subséquents sur "
+            '<a href="https://www.cairn.info/revue-recma.htm">'
+            "Cairn</a>"
+        )
 
     @with_value("ravon92.xml", "get_notes", html=True)
     def test_get_notes_html(self, value):
