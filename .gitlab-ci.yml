@@ -1,16 +1,31 @@
-image: python:3.8
+stages:
+  - test
+  - build
 
 variables:
   GIT_SUBMODULE_STRATEGY: normal
 
-before_script:
-  # https://gitlab.com/gitlab-org/gitlab-ce/issues/14983#note_4637913
-  - apt-get update >/dev/null
-  - apt-get install -y locales >/dev/null
-  - echo "fr_CA.UTF-8 UTF-8" >> /etc/locale.gen
-  - locale-gen
-  - pip install tox
-
 test:
-  script: 
-  - tox
+  stage: test
+  image: python:3.8
+  before_script:
+    # https://gitlab.com/gitlab-org/gitlab-ce/issues/14983#note_4637913
+    - apt-get update >/dev/null
+    - apt-get install -y locales >/dev/null
+    - echo "fr_CA.UTF-8 UTF-8" >> /etc/locale.gen
+    - locale-gen
+    - pip install tox
+  script:
+    - tox
+
+build:
+  stage: build
+  image: python:3.6
+  before_script:
+    - pip install twine
+  script:
+    - python setup.py sdist bdist_wheel
+    - TWINE_PASSWORD=${CI_JOB_TOKEN} TWINE_USERNAME=gitlab-ci-token python -m twine upload --repository-url https://gitlab.erudit.org/api/v4/projects/332/packages/pypi dist/*
+  only:
+    - tags
+
